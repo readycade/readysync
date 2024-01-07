@@ -1,0 +1,1203 @@
+<?xml version="1.0"?>
+<gameList>
+  <game>
+    <path>./2010 - The Graphic Action Game (USA) (Beta).zip</path>
+    <name>2010 - The Graphic Action Game (USA) (Beta)</name>
+    <image>./media/images/2010 - The Graphic Action Game (USA) (Beta).png</image>
+    <video>./media/videos/2010 - The Graphic Action Game (USA) (Beta).mp4</video>
+  </game>
+  <game>
+    <path>./2010 - The Graphic Action Game (USA).zip</path>
+    <name>2010 - The Graphic Action Game (USA)</name>
+    <image>./media/images/2010 - The Graphic Action Game (USA).png</image>
+    <video>./media/videos/2010 - The Graphic Action Game (USA).mp4</video>
+  </game>
+  <game>
+    <path>./A.E. (USA) (Proto).zip</path>
+    <name>A.E. (USA) (Proto)</name>
+    <image>./media/images/A.E. (USA) (Proto).png</image>
+    <video>./media/videos/A.E. (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>./Activision Decathlon, The (USA).zip</path>
+    <name>Activision Decathlon, The (USA)</name>
+    <image>./media/images/Activision Decathlon, The (USA).png</image>
+    <video>./media/videos/Activision Decathlon, The (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Adam's Musicbox Demo (USA) (Demo).zip</path>
+    <name>Adam's Musicbox Demo (USA) (Demo)</name>
+    <image>./media/images/Adam's Musicbox Demo (USA) (Demo).png</image>
+    <video>./media/videos/Adam's Musicbox Demo (USA) (Demo).mp4</video>
+  </game>
+  <game>
+    <path>./Alcazar - The Forgotten Fortress (USA).zip</path>
+    <name>Alcazar - The Forgotten Fortress (USA)</name>
+    <image>./media/images/Alcazar - The Forgotten Fortress (USA).png</image>
+    <video>./media/videos/Alcazar - The Forgotten Fortress (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Alphabet Zoo (USA).zip</path>
+    <name>Alphabet Zoo (USA)</name>
+    <image>./media/images/Alphabet Zoo (USA).png</image>
+    <video>./media/videos/Alphabet Zoo (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Amazing Bumpman (USA).zip</path>
+    <name>Amazing Bumpman (USA)</name>
+    <image>./media/images/Amazing Bumpman (USA).png</image>
+    <video>./media/videos/Amazing Bumpman (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Antarctic Adventure (USA, Europe) (Beta).zip</path>
+    <name>Antarctic Adventure (USA, Europe) (Beta)</name>
+    <image>./media/images/Antarctic Adventure (USA, Europe) (Beta).png</image>
+    <video>./media/videos/Antarctic Adventure (USA, Europe) (Beta).mp4</video>
+  </game>
+  <game>
+    <path>./Antarctic Adventure (USA, Europe).zip</path>
+    <name>Antarctic Adventure (USA, Europe)</name>
+    <image>./media/images/Antarctic Adventure (USA, Europe).png</image>
+    <video>./media/videos/Antarctic Adventure (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Aquattack (USA).zip</path>
+    <name>Aquattack (USA)</name>
+    <image>./media/images/Aquattack (USA).png</image>
+    <video>./media/videos/Aquattack (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Artillery Duel (USA).zip</path>
+    <name>Artillery Duel (USA)</name>
+    <image>./media/images/Artillery Duel (USA).png</image>
+    <video>./media/videos/Artillery Duel (USA).mp4</video>
+  </game>
+  <game>
+    <path>./BC's Quest for Tires (Canada).zip</path>
+    <name>BC's Quest for Tires (Canada)</name>
+    <image>./media/images/BC's Quest for Tires (Canada).png</image>
+    <video>./media/videos/BC's Quest for Tires (Canada).mp4</video>
+  </game>
+  <game>
+    <path>./BC's Quest for Tires (USA).zip</path>
+    <name>BC's Quest for Tires (USA)</name>
+    <image>./media/images/BC's Quest for Tires (USA).png</image>
+    <video>./media/videos/BC's Quest for Tires (USA).mp4</video>
+  </game>
+  <game>
+    <path>./BC's Quest for Tires II - Grog's Revenge (Canada).zip</path>
+    <name>BC's Quest for Tires II - Grog's Revenge (Canada)</name>
+    <image>./media/images/BC's Quest for Tires II - Grog's Revenge (Canada).png</image>
+    <video>./media/videos/BC's Quest for Tires II - Grog's Revenge (Canada).mp4</video>
+  </game>
+  <game>
+    <path>./BC's Quest for Tires II - Grog's Revenge (USA).zip</path>
+    <name>BC's Quest for Tires II - Grog's Revenge (USA)</name>
+    <image>./media/images/BC's Quest for Tires II - Grog's Revenge (USA).png</image>
+    <video>./media/videos/BC's Quest for Tires II - Grog's Revenge (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Beamrider (USA).zip</path>
+    <name>Beamrider (USA)</name>
+    <image>./media/images/Beamrider (USA).png</image>
+    <video>./media/videos/Beamrider (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Berenstain Bears, The (USA) (Demo).zip</path>
+    <name>Berenstain Bears, The (USA) (Demo)</name>
+    <image>./media/images/Berenstain Bears, The (USA) (Demo).png</image>
+    <video>./media/videos/Berenstain Bears, The (USA) (Demo).mp4</video>
+  </game>
+  <game>
+    <path>./Blockade Runner (USA).zip</path>
+    <name>Blockade Runner (USA)</name>
+    <image>./media/images/Blockade Runner (USA).png</image>
+    <video>./media/videos/Blockade Runner (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Boulder Dash (USA) (Beta).zip</path>
+    <name>Boulder Dash (USA) (Beta)</name>
+    <image>./media/images/Boulder Dash (USA) (Beta).png</image>
+    <video>./media/videos/Boulder Dash (USA) (Beta).mp4</video>
+  </game>
+  <game>
+    <path>./Boulder Dash (USA).zip</path>
+    <name>Boulder Dash (USA)</name>
+    <image>./media/images/Boulder Dash (USA).png</image>
+    <video>./media/videos/Boulder Dash (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Brain Strainers (USA).zip</path>
+    <name>Brain Strainers (USA)</name>
+    <image>./media/images/Brain Strainers (USA).png</image>
+    <video>./media/videos/Brain Strainers (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Buck Rogers - Planet of Zoom (USA, Europe).zip</path>
+    <name>Buck Rogers - Planet of Zoom (USA, Europe)</name>
+    <image>./media/images/Buck Rogers - Planet of Zoom (USA, Europe).png</image>
+    <video>./media/videos/Buck Rogers - Planet of Zoom (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Bump 'n' Jump (USA, Europe) (Beta).zip</path>
+    <name>Bump 'n' Jump (USA, Europe) (Beta)</name>
+    <image>./media/images/Bump 'n' Jump (USA, Europe) (Beta).png</image>
+    <video>./media/videos/Bump 'n' Jump (USA, Europe) (Beta).mp4</video>
+  </game>
+  <game>
+    <path>./Bump 'n' Jump (USA, Europe).zip</path>
+    <name>Bump 'n' Jump (USA, Europe)</name>
+    <image>./media/images/Bump 'n' Jump (USA, Europe).png</image>
+    <video>./media/videos/Bump 'n' Jump (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./BurgerTime (USA, Europe) (Beta).zip</path>
+    <name>BurgerTime (USA, Europe) (Beta)</name>
+    <image>./media/images/BurgerTime (USA, Europe) (Beta).png</image>
+    <video>./media/videos/BurgerTime (USA, Europe) (Beta).mp4</video>
+  </game>
+  <game>
+    <path>./BurgerTime (USA, Europe).zip</path>
+    <name>BurgerTime (USA, Europe)</name>
+    <image>./media/images/BurgerTime (USA, Europe).png</image>
+    <video>./media/videos/BurgerTime (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./CAT S.O.S. Game, The (USA) (Promo).zip</path>
+    <name>CAT S.O.S. Game, The (USA) (Promo)</name>
+    <image>./media/images/CAT S.O.S. Game, The (USA) (Promo).png</image>
+    <video>./media/videos/CAT S.O.S. Game, The (USA) (Promo).mp4</video>
+  </game>
+  <game>
+    <path>./Cabbage Patch Kids - Adventures in the Park (USA, Europe) (Beta 1).zip</path>
+    <name>Cabbage Patch Kids - Adventures in the Park (USA, Europe) (Beta 1)</name>
+    <image>./media/images/Cabbage Patch Kids - Adventures in the Park (USA, Europe) (Beta 1).png</image>
+    <video>./media/videos/Cabbage Patch Kids - Adventures in the Park (USA, Europe) (Beta 1).mp4</video>
+  </game>
+  <game>
+    <path>./Cabbage Patch Kids - Adventures in the Park (USA, Europe) (Beta 2).zip</path>
+    <name>Cabbage Patch Kids - Adventures in the Park (USA, Europe) (Beta 2)</name>
+    <image>./media/images/Cabbage Patch Kids - Adventures in the Park (USA, Europe) (Beta 2).png</image>
+    <video>./media/videos/Cabbage Patch Kids - Adventures in the Park (USA, Europe) (Beta 2).mp4</video>
+  </game>
+  <game>
+    <path>./Cabbage Patch Kids - Adventures in the Park (USA, Europe).zip</path>
+    <name>Cabbage Patch Kids - Adventures in the Park (USA, Europe)</name>
+    <image>./media/images/Cabbage Patch Kids - Adventures in the Park (USA, Europe).png</image>
+    <video>./media/videos/Cabbage Patch Kids - Adventures in the Park (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Cabbage Patch Kids - Picture Show (USA).zip</path>
+    <name>Cabbage Patch Kids - Picture Show (USA)</name>
+    <image>./media/images/Cabbage Patch Kids - Picture Show (USA).png</image>
+    <video>./media/videos/Cabbage Patch Kids - Picture Show (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Campaign '84 (USA).zip</path>
+    <name>Campaign '84 (USA)</name>
+    <image>./media/images/Campaign '84 (USA).png</image>
+    <video>./media/videos/Campaign '84 (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Carnival (USA, Europe).zip</path>
+    <name>Carnival (USA, Europe)</name>
+    <image>./media/images/Carnival (USA, Europe).png</image>
+    <video>./media/videos/Carnival (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Castelo (Brazil) (En) (Unl).zip</path>
+    <name>Castelo (Brazil) (En) (Unl)</name>
+    <image>./media/images/Castelo (Brazil) (En) (Unl).png</image>
+    <video>./media/videos/Castelo (Brazil) (En) (Unl).mp4</video>
+  </game>
+  <game>
+    <path>./Centipede (USA).zip</path>
+    <name>Centipede (USA)</name>
+    <image>./media/images/Centipede (USA).png</image>
+    <video>./media/videos/Centipede (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Choplifter! (USA).zip</path>
+    <name>Choplifter! (USA)</name>
+    <image>./media/images/Choplifter! (USA).png</image>
+    <video>./media/videos/Choplifter! (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Chuck Norris - Superkicks (USA).zip</path>
+    <name>Chuck Norris - Superkicks (USA)</name>
+    <image>./media/images/Chuck Norris - Superkicks (USA).png</image>
+    <video>./media/videos/Chuck Norris - Superkicks (USA).mp4</video>
+  </game>
+  <game>
+    <path>./ColecoVision Monitor Test (USA, Europe).zip</path>
+    <name>ColecoVision Monitor Test (USA, Europe)</name>
+    <image>./media/images/ColecoVision Monitor Test (USA, Europe).png</image>
+    <video>./media/videos/ColecoVision Monitor Test (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Congo Bongo (USA).zip</path>
+    <name>Congo Bongo (USA)</name>
+    <image>./media/images/Congo Bongo (USA).png</image>
+    <video>./media/videos/Congo Bongo (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Cosmic Avenger (USA, Europe).zip</path>
+    <name>Cosmic Avenger (USA, Europe)</name>
+    <image>./media/images/Cosmic Avenger (USA, Europe).png</image>
+    <video>./media/videos/Cosmic Avenger (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Cosmic Crisis (Europe).zip</path>
+    <name>Cosmic Crisis (Europe)</name>
+    <image>./media/images/Cosmic Crisis (Europe).png</image>
+    <video>./media/videos/Cosmic Crisis (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Dam Busters, The (Canada).zip</path>
+    <name>Dam Busters, The (Canada)</name>
+    <image>./media/images/Dam Busters, The (Canada).png</image>
+    <video>./media/videos/Dam Busters, The (Canada).mp4</video>
+  </game>
+  <game>
+    <path>./Dam Busters, The (USA).zip</path>
+    <name>Dam Busters, The (USA)</name>
+    <image>./media/images/Dam Busters, The (USA).png</image>
+    <video>./media/videos/Dam Busters, The (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Dance Fantasy (USA).zip</path>
+    <name>Dance Fantasy (USA)</name>
+    <image>./media/images/Dance Fantasy (USA).png</image>
+    <video>./media/videos/Dance Fantasy (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Defender (USA) (BUG Fixed).zip</path>
+    <name>Defender (USA) (BUG Fixed)</name>
+    <image>./media/images/Defender (USA) (BUG Fixed).png</image>
+    <video>./media/videos/Defender (USA) (BUG Fixed).mp4</video>
+  </game>
+  <game>
+    <path>./Defender (USA).zip</path>
+    <name>Defender (USA)</name>
+    <image>./media/images/Defender (USA).png</image>
+    <video>./media/videos/Defender (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Destructor (USA, Europe).zip</path>
+    <name>Destructor (USA, Europe)</name>
+    <image>./media/images/Destructor (USA, Europe).png</image>
+    <video>./media/videos/Destructor (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Dig Dug (USA) (Proto).zip</path>
+    <name>Dig Dug (USA) (Proto)</name>
+    <image>./media/images/Dig Dug (USA) (Proto).png</image>
+    <video>./media/videos/Dig Dug (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>./Donkey Kong (USA).zip</path>
+    <name>Donkey Kong (USA)</name>
+    <image>./media/images/Donkey Kong (USA).png</image>
+    <video>./media/videos/Donkey Kong (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Donkey Kong (USA, Europe) (v1.1).zip</path>
+    <name>Donkey Kong (USA, Europe) (v1.1)</name>
+    <image>./media/images/Donkey Kong (USA, Europe) (v1.1).png</image>
+    <video>./media/videos/Donkey Kong (USA, Europe) (v1.1).mp4</video>
+  </game>
+  <game>
+    <path>./Donkey Kong Junior (USA, Europe).zip</path>
+    <name>Donkey Kong Junior (USA, Europe)</name>
+    <image>./media/images/Donkey Kong Junior (USA, Europe).png</image>
+    <video>./media/videos/Donkey Kong Junior (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Dr. Seuss - Fix-Up the Mix-Up Puzzler (USA).zip</path>
+    <name>Dr. Seuss - Fix-Up the Mix-Up Puzzler (USA)</name>
+    <image>./media/images/Dr. Seuss - Fix-Up the Mix-Up Puzzler (USA).png</image>
+    <video>./media/videos/Dr. Seuss - Fix-Up the Mix-Up Puzzler (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Dragon's Lair (USA) (Proto).zip</path>
+    <name>Dragon's Lair (USA) (Proto)</name>
+    <image>./media/images/Dragon's Lair (USA) (Proto).png</image>
+    <video>./media/videos/Dragon's Lair (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>./Dragonfire (USA).zip</path>
+    <name>Dragonfire (USA)</name>
+    <image>./media/images/Dragonfire (USA).png</image>
+    <video>./media/videos/Dragonfire (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Dukes of Hazzard, The (USA).zip</path>
+    <name>Dukes of Hazzard, The (USA)</name>
+    <image>./media/images/Dukes of Hazzard, The (USA).png</image>
+    <video>./media/videos/Dukes of Hazzard, The (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Energy Quiz (Canada) (En,Fr-CA) (1983-06-06) (Proto).zip</path>
+    <name>Energy Quiz (Canada) (En,Fr-CA) (1983-06-06) (Proto)</name>
+    <image>./media/images/Energy Quiz (Canada) (En,Fr-CA) (1983-06-06) (Proto).png</image>
+    <video>./media/videos/Energy Quiz (Canada) (En,Fr-CA) (1983-06-06) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>./Escape from the Mindmaster (USA) (Proto).zip</path>
+    <name>Escape from the Mindmaster (USA) (Proto)</name>
+    <image>./media/images/Escape from the Mindmaster (USA) (Proto).png</image>
+    <video>./media/videos/Escape from the Mindmaster (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>./Evolution (Canada).zip</path>
+    <name>Evolution (Canada)</name>
+    <image>./media/images/Evolution (Canada).png</image>
+    <video>./media/videos/Evolution (Canada).mp4</video>
+  </game>
+  <game>
+    <path>./Evolution (USA) (Unl).zip</path>
+    <name>Evolution (USA) (Unl)</name>
+    <image>./media/images/Evolution (USA) (Unl).png</image>
+    <video>./media/videos/Evolution (USA) (Unl).mp4</video>
+  </game>
+  <game>
+    <path>./Facemaker (USA).zip</path>
+    <name>Facemaker (USA)</name>
+    <image>./media/images/Facemaker (USA).png</image>
+    <video>./media/videos/Facemaker (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Fall Guy (USA) (Proto).zip</path>
+    <name>Fall Guy (USA) (Proto)</name>
+    <image>./media/images/Fall Guy (USA) (Proto).png</image>
+    <video>./media/videos/Fall Guy (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>./Fathom (USA).zip</path>
+    <name>Fathom (USA)</name>
+    <image>./media/images/Fathom (USA).png</image>
+    <video>./media/videos/Fathom (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Final Test Cartridge (USA).zip</path>
+    <name>Final Test Cartridge (USA)</name>
+    <image>./media/images/Final Test Cartridge (USA).png</image>
+    <video>./media/videos/Final Test Cartridge (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Fireman (USA) (Proto).zip</path>
+    <name>Fireman (USA) (Proto)</name>
+    <image>./media/images/Fireman (USA) (Proto).png</image>
+    <video>./media/videos/Fireman (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>./Flipper Slipper (USA) (Unl).zip</path>
+    <name>Flipper Slipper (USA) (Unl)</name>
+    <image>./media/images/Flipper Slipper (USA) (Unl).png</image>
+    <video>./media/videos/Flipper Slipper (USA) (Unl).mp4</video>
+  </game>
+  <game>
+    <path>./Flipper Slipper (USA, Europe).zip</path>
+    <name>Flipper Slipper (USA, Europe)</name>
+    <image>./media/images/Flipper Slipper (USA, Europe).png</image>
+    <video>./media/videos/Flipper Slipper (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Fortune Builder (USA).zip</path>
+    <name>Fortune Builder (USA)</name>
+    <image>./media/images/Fortune Builder (USA).png</image>
+    <video>./media/videos/Fortune Builder (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Fraction Fever (USA).zip</path>
+    <name>Fraction Fever (USA)</name>
+    <image>./media/images/Fraction Fever (USA).png</image>
+    <video>./media/videos/Fraction Fever (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Frantic Freddy (USA).zip</path>
+    <name>Frantic Freddy (USA)</name>
+    <image>./media/images/Frantic Freddy (USA).png</image>
+    <video>./media/videos/Frantic Freddy (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Frenzy (USA, Europe).zip</path>
+    <name>Frenzy (USA, Europe)</name>
+    <image>./media/images/Frenzy (USA, Europe).png</image>
+    <video>./media/videos/Frenzy (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Frogger (USA).zip</path>
+    <name>Frogger (USA)</name>
+    <image>./media/images/Frogger (USA).png</image>
+    <video>./media/videos/Frogger (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Frogger II - ThreeeDeep! (USA) (Beta) (1984-06-15).zip</path>
+    <name>Frogger II - ThreeeDeep! (USA) (Beta) (1984-06-15)</name>
+    <image>./media/images/Frogger II - ThreeeDeep! (USA) (Beta) (1984-06-15).png</image>
+    <video>./media/videos/Frogger II - ThreeeDeep! (USA) (Beta) (1984-06-15).mp4</video>
+  </game>
+  <game>
+    <path>./Frogger II - ThreeeDeep! (USA).zip</path>
+    <name>Frogger II - ThreeeDeep! (USA)</name>
+    <image>./media/images/Frogger II - ThreeeDeep! (USA).png</image>
+    <video>./media/videos/Frogger II - ThreeeDeep! (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Front Line (USA, Europe) (Standard Controller).zip</path>
+    <name>Front Line (USA, Europe) (Standard Controller)</name>
+    <image>./media/images/Front Line (USA, Europe) (Standard Controller).png</image>
+    <video>./media/videos/Front Line (USA, Europe) (Standard Controller).mp4</video>
+  </game>
+  <game>
+    <path>./Front Line (USA, Europe) (Super Action Controller).zip</path>
+    <name>Front Line (USA, Europe) (Super Action Controller)</name>
+    <image>./media/images/Front Line (USA, Europe) (Super Action Controller).png</image>
+    <video>./media/videos/Front Line (USA, Europe) (Super Action Controller).mp4</video>
+  </game>
+  <game>
+    <path>./Galaxian (USA).zip</path>
+    <name>Galaxian (USA)</name>
+    <image>./media/images/Galaxian (USA).png</image>
+    <video>./media/videos/Galaxian (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Gateway to Apshai (USA, Europe).zip</path>
+    <name>Gateway to Apshai (USA, Europe)</name>
+    <image>./media/images/Gateway to Apshai (USA, Europe).png</image>
+    <video>./media/videos/Gateway to Apshai (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Gorf (USA, Europe).zip</path>
+    <name>Gorf (USA, Europe)</name>
+    <image>./media/images/Gorf (USA, Europe).png</image>
+    <video>./media/videos/Gorf (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Gust Buster (USA).zip</path>
+    <name>Gust Buster (USA)</name>
+    <image>./media/images/Gust Buster (USA).png</image>
+    <video>./media/videos/Gust Buster (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Gyruss (USA) (Beta).zip</path>
+    <name>Gyruss (USA) (Beta)</name>
+    <image>./media/images/Gyruss (USA) (Beta).png</image>
+    <video>./media/videos/Gyruss (USA) (Beta).mp4</video>
+  </game>
+  <game>
+    <path>./Gyruss (USA).zip</path>
+    <name>Gyruss (USA)</name>
+    <image>./media/images/Gyruss (USA).png</image>
+    <video>./media/videos/Gyruss (USA).mp4</video>
+  </game>
+  <game>
+    <path>./H.E.R.O. - Helicopter Emergency Rescue Operation (USA).zip</path>
+    <name>H.E.R.O. - Helicopter Emergency Rescue Operation (USA)</name>
+    <image>./media/images/H.E.R.O. - Helicopter Emergency Rescue Operation (USA).png</image>
+    <video>./media/videos/H.E.R.O. - Helicopter Emergency Rescue Operation (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Heist, The (USA).zip</path>
+    <name>Heist, The (USA)</name>
+    <image>./media/images/Heist, The (USA).png</image>
+    <video>./media/videos/Heist, The (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Illusions (USA).zip</path>
+    <name>Illusions (USA)</name>
+    <image>./media/images/Illusions (USA).png</image>
+    <video>./media/videos/Illusions (USA).mp4</video>
+  </game>
+  <game>
+    <path>./It's Only Rock 'N' Roll (USA).zip</path>
+    <name>It's Only Rock 'N' Roll (USA)</name>
+    <image>./media/images/It's Only Rock 'N' Roll (USA).png</image>
+    <video>./media/videos/It's Only Rock 'N' Roll (USA).mp4</video>
+  </game>
+  <game>
+    <path>./James Bond 007 (USA).zip</path>
+    <name>James Bond 007 (USA)</name>
+    <image>./media/images/James Bond 007 (USA).png</image>
+    <video>./media/videos/James Bond 007 (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Joust (USA) (Proto).zip</path>
+    <name>Joust (USA) (Proto)</name>
+    <image>./media/images/Joust (USA) (Proto).png</image>
+    <video>./media/videos/Joust (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>./Jukebox (USA).zip</path>
+    <name>Jukebox (USA)</name>
+    <image>./media/images/Jukebox (USA).png</image>
+    <video>./media/videos/Jukebox (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Julius Erving and Larry Bird Go - One-on-One (USA).zip</path>
+    <name>Julius Erving and Larry Bird Go - One-on-One (USA)</name>
+    <image>./media/images/Julius Erving and Larry Bird Go - One-on-One (USA).png</image>
+    <video>./media/videos/Julius Erving and Larry Bird Go - One-on-One (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Jumpman Junior (USA, Europe).zip</path>
+    <name>Jumpman Junior (USA, Europe)</name>
+    <image>./media/images/Jumpman Junior (USA, Europe).png</image>
+    <video>./media/videos/Jumpman Junior (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Jungle Hunt (USA).zip</path>
+    <name>Jungle Hunt (USA)</name>
+    <image>./media/images/Jungle Hunt (USA).png</image>
+    <video>./media/videos/Jungle Hunt (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Ken Uston Blackjack-Poker (USA, Europe).zip</path>
+    <name>Ken Uston Blackjack-Poker (USA, Europe)</name>
+    <image>./media/images/Ken Uston Blackjack-Poker (USA, Europe).png</image>
+    <video>./media/videos/Ken Uston Blackjack-Poker (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Keystone Kapers (USA).zip</path>
+    <name>Keystone Kapers (USA)</name>
+    <image>./media/images/Keystone Kapers (USA).png</image>
+    <video>./media/videos/Keystone Kapers (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Lady Bug (USA, Europe).zip</path>
+    <name>Lady Bug (USA, Europe)</name>
+    <image>./media/images/Lady Bug (USA, Europe).png</image>
+    <video>./media/videos/Lady Bug (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Learning with Leeper (USA).zip</path>
+    <name>Learning with Leeper (USA)</name>
+    <image>./media/images/Learning with Leeper (USA).png</image>
+    <video>./media/videos/Learning with Leeper (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Linking Logic (USA).zip</path>
+    <name>Linking Logic (USA)</name>
+    <image>./media/images/Linking Logic (USA).png</image>
+    <video>./media/videos/Linking Logic (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Logic Levels (USA).zip</path>
+    <name>Logic Levels (USA)</name>
+    <image>./media/images/Logic Levels (USA).png</image>
+    <video>./media/videos/Logic Levels (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Looping (USA, Europe).zip</path>
+    <name>Looping (USA, Europe)</name>
+    <image>./media/images/Looping (USA, Europe).png</image>
+    <video>./media/videos/Looping (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Lord of the Dungeon (USA) (Beta).zip</path>
+    <name>Lord of the Dungeon (USA) (Beta)</name>
+    <image>./media/images/Lord of the Dungeon (USA) (Beta).png</image>
+    <video>./media/videos/Lord of the Dungeon (USA) (Beta).mp4</video>
+  </game>
+  <game>
+    <path>./M.A.S.H (Europe) (Proto).zip</path>
+    <name>M.A.S.H (Europe) (Proto)</name>
+    <image>./media/images/M.A.S.H (Europe) (Proto).png</image>
+    <video>./media/videos/M.A.S.H (Europe) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>./Matt Patrol (USA) (Proto) (Alt).zip</path>
+    <name>Matt Patrol (USA) (Proto) (Alt)</name>
+    <image>./media/images/Matt Patrol (USA) (Proto) (Alt).png</image>
+    <video>./media/videos/Matt Patrol (USA) (Proto) (Alt).mp4</video>
+  </game>
+  <game>
+    <path>./Matt Patrol (USA) (Proto).zip</path>
+    <name>Matt Patrol (USA) (Proto)</name>
+    <image>./media/images/Matt Patrol (USA) (Proto).png</image>
+    <video>./media/videos/Matt Patrol (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>./Memory Manor (USA).zip</path>
+    <name>Memory Manor (USA)</name>
+    <image>./media/images/Memory Manor (USA).png</image>
+    <video>./media/videos/Memory Manor (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Meteoric Shower (Europe).zip</path>
+    <name>Meteoric Shower (Europe)</name>
+    <image>./media/images/Meteoric Shower (Europe).png</image>
+    <video>./media/videos/Meteoric Shower (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Miner 2049er Starring Bounty Bob (USA, Europe) (v1.1).zip</path>
+    <name>Miner 2049er Starring Bounty Bob (USA, Europe) (v1.1)</name>
+    <image>./media/images/Miner 2049er Starring Bounty Bob (USA, Europe) (v1.1).png</image>
+    <video>./media/videos/Miner 2049er Starring Bounty Bob (USA, Europe) (v1.1).mp4</video>
+  </game>
+  <game>
+    <path>./Miner 2049er Starring Bounty Bob (USA, Europe).zip</path>
+    <name>Miner 2049er Starring Bounty Bob (USA, Europe)</name>
+    <image>./media/images/Miner 2049er Starring Bounty Bob (USA, Europe).png</image>
+    <video>./media/videos/Miner 2049er Starring Bounty Bob (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Monkey Academy (USA) (Beta).zip</path>
+    <name>Monkey Academy (USA) (Beta)</name>
+    <image>./media/images/Monkey Academy (USA) (Beta).png</image>
+    <video>./media/videos/Monkey Academy (USA) (Beta).mp4</video>
+  </game>
+  <game>
+    <path>./Monkey Academy (USA).zip</path>
+    <name>Monkey Academy (USA)</name>
+    <image>./media/images/Monkey Academy (USA).png</image>
+    <video>./media/videos/Monkey Academy (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Montezuma's Revenge (USA).zip</path>
+    <name>Montezuma's Revenge (USA)</name>
+    <image>./media/images/Montezuma's Revenge (USA).png</image>
+    <video>./media/videos/Montezuma's Revenge (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Moonsweeper (USA, Europe).zip</path>
+    <name>Moonsweeper (USA, Europe)</name>
+    <image>./media/images/Moonsweeper (USA, Europe).png</image>
+    <video>./media/videos/Moonsweeper (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Motocross Racer (USA).zip</path>
+    <name>Motocross Racer (USA)</name>
+    <image>./media/images/Motocross Racer (USA).png</image>
+    <video>./media/videos/Motocross Racer (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Mountain King (USA).zip</path>
+    <name>Mountain King (USA)</name>
+    <image>./media/images/Mountain King (USA).png</image>
+    <video>./media/videos/Mountain King (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Mouse Trap (USA, Europe).zip</path>
+    <name>Mouse Trap (USA, Europe)</name>
+    <image>./media/images/Mouse Trap (USA, Europe).png</image>
+    <video>./media/videos/Mouse Trap (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Mr. Do! (USA, Europe).zip</path>
+    <name>Mr. Do! (USA, Europe)</name>
+    <image>./media/images/Mr. Do! (USA, Europe).png</image>
+    <video>./media/videos/Mr. Do! (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Mr. Do!'s Castle (USA).zip</path>
+    <name>Mr. Do!'s Castle (USA)</name>
+    <image>./media/images/Mr. Do!'s Castle (USA).png</image>
+    <video>./media/videos/Mr. Do!'s Castle (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Nova Blast (USA, Europe).zip</path>
+    <name>Nova Blast (USA, Europe)</name>
+    <image>./media/images/Nova Blast (USA, Europe).png</image>
+    <video>./media/videos/Nova Blast (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Number Bumper (USA) (Beta).zip</path>
+    <name>Number Bumper (USA) (Beta)</name>
+    <image>./media/images/Number Bumper (USA) (Beta).png</image>
+    <video>./media/videos/Number Bumper (USA) (Beta).mp4</video>
+  </game>
+  <game>
+    <path>./Oil's Well (USA).zip</path>
+    <name>Oil's Well (USA)</name>
+    <image>./media/images/Oil's Well (USA).png</image>
+    <video>./media/videos/Oil's Well (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Omega Race (USA, Europe).zip</path>
+    <name>Omega Race (USA, Europe)</name>
+    <image>./media/images/Omega Race (USA, Europe).png</image>
+    <video>./media/videos/Omega Race (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Orbit (USA) (Proto).zip</path>
+    <name>Orbit (USA) (Proto)</name>
+    <image>./media/images/Orbit (USA) (Proto).png</image>
+    <video>./media/videos/Orbit (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>./Pac-Man (USA) (Proto).zip</path>
+    <name>Pac-Man (USA) (Proto)</name>
+    <image>./media/images/Pac-Man (USA) (Proto).png</image>
+    <video>./media/videos/Pac-Man (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>./Pepper II (USA, Europe).zip</path>
+    <name>Pepper II (USA, Europe)</name>
+    <image>./media/images/Pepper II (USA, Europe).png</image>
+    <video>./media/videos/Pepper II (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Pitfall II - Lost Caverns (USA).zip</path>
+    <name>Pitfall II - Lost Caverns (USA)</name>
+    <image>./media/images/Pitfall II - Lost Caverns (USA).png</image>
+    <video>./media/videos/Pitfall II - Lost Caverns (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Pitfall! (USA).zip</path>
+    <name>Pitfall! (USA)</name>
+    <image>./media/images/Pitfall! (USA).png</image>
+    <video>./media/videos/Pitfall! (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Pitstop (USA).zip</path>
+    <name>Pitstop (USA)</name>
+    <image>./media/images/Pitstop (USA).png</image>
+    <video>./media/videos/Pitstop (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Pitstop (USA, Europe) (v1.1).zip</path>
+    <name>Pitstop (USA, Europe) (v1.1)</name>
+    <image>./media/images/Pitstop (USA, Europe) (v1.1).png</image>
+    <video>./media/videos/Pitstop (USA, Europe) (v1.1).mp4</video>
+  </game>
+  <game>
+    <path>./Popeye (USA).zip</path>
+    <name>Popeye (USA)</name>
+    <image>./media/images/Popeye (USA).png</image>
+    <video>./media/videos/Popeye (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Porky's (USA) (Proto).zip</path>
+    <name>Porky's (USA) (Proto)</name>
+    <image>./media/images/Porky's (USA) (Proto).png</image>
+    <video>./media/videos/Porky's (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>./Power Lords - Quest for Volcan (USA) (Proto 1).zip</path>
+    <name>Power Lords - Quest for Volcan (USA) (Proto 1)</name>
+    <image>./media/images/Power Lords - Quest for Volcan (USA) (Proto 1).png</image>
+    <video>./media/videos/Power Lords - Quest for Volcan (USA) (Proto 1).mp4</video>
+  </game>
+  <game>
+    <path>./Power Lords - Quest for Volcan (USA) (Proto 2).zip</path>
+    <name>Power Lords - Quest for Volcan (USA) (Proto 2)</name>
+    <image>./media/images/Power Lords - Quest for Volcan (USA) (Proto 2).png</image>
+    <video>./media/videos/Power Lords - Quest for Volcan (USA) (Proto 2).mp4</video>
+  </game>
+  <game>
+    <path>./Q-bert (USA).zip</path>
+    <name>Q-bert (USA)</name>
+    <image>./media/images/Q-bert (USA).png</image>
+    <video>./media/videos/Q-bert (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Q-bert's Qubes (USA).zip</path>
+    <name>Q-bert's Qubes (USA)</name>
+    <image>./media/images/Q-bert's Qubes (USA).png</image>
+    <video>./media/videos/Q-bert's Qubes (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Quest for Quintana Roo (USA).zip</path>
+    <name>Quest for Quintana Roo (USA)</name>
+    <image>./media/images/Quest for Quintana Roo (USA).png</image>
+    <video>./media/videos/Quest for Quintana Roo (USA).mp4</video>
+  </game>
+  <game>
+    <path>./River Raid (USA).zip</path>
+    <name>River Raid (USA)</name>
+    <image>./media/images/River Raid (USA).png</image>
+    <video>./media/videos/River Raid (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Robin Hood (USA).zip</path>
+    <name>Robin Hood (USA)</name>
+    <image>./media/images/Robin Hood (USA).png</image>
+    <video>./media/videos/Robin Hood (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Roc 'N Rope (USA, Europe).zip</path>
+    <name>Roc 'N Rope (USA, Europe)</name>
+    <image>./media/images/Roc 'N Rope (USA, Europe).png</image>
+    <video>./media/videos/Roc 'N Rope (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Rock n' Bolt (USA).zip</path>
+    <name>Rock n' Bolt (USA)</name>
+    <image>./media/images/Rock n' Bolt (USA).png</image>
+    <video>./media/videos/Rock n' Bolt (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Rocky - Super Action Boxing (USA, Europe).zip</path>
+    <name>Rocky - Super Action Boxing (USA, Europe)</name>
+    <image>./media/images/Rocky - Super Action Boxing (USA, Europe).png</image>
+    <video>./media/videos/Rocky - Super Action Boxing (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Rolloverture (USA).zip</path>
+    <name>Rolloverture (USA)</name>
+    <image>./media/images/Rolloverture (USA).png</image>
+    <video>./media/videos/Rolloverture (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Root Beer Tapper (USA).zip</path>
+    <name>Root Beer Tapper (USA)</name>
+    <image>./media/images/Root Beer Tapper (USA).png</image>
+    <video>./media/videos/Root Beer Tapper (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Sammy Lightfoot (USA).zip</path>
+    <name>Sammy Lightfoot (USA)</name>
+    <image>./media/images/Sammy Lightfoot (USA).png</image>
+    <video>./media/videos/Sammy Lightfoot (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Sector Alpha (USA).zip</path>
+    <name>Sector Alpha (USA)</name>
+    <image>./media/images/Sector Alpha (USA).png</image>
+    <video>./media/videos/Sector Alpha (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Sewer Sam (USA).zip</path>
+    <name>Sewer Sam (USA)</name>
+    <image>./media/images/Sewer Sam (USA).png</image>
+    <video>./media/videos/Sewer Sam (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Sir Lancelot (USA).zip</path>
+    <name>Sir Lancelot (USA)</name>
+    <image>./media/images/Sir Lancelot (USA).png</image>
+    <video>./media/videos/Sir Lancelot (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Skiing (USA).zip</path>
+    <name>Skiing (USA)</name>
+    <image>./media/images/Skiing (USA).png</image>
+    <video>./media/videos/Skiing (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Slither (USA, Europe).zip</path>
+    <name>Slither (USA, Europe)</name>
+    <image>./media/images/Slither (USA, Europe).png</image>
+    <video>./media/videos/Slither (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Slurpy (USA).zip</path>
+    <name>Slurpy (USA)</name>
+    <image>./media/images/Slurpy (USA).png</image>
+    <video>./media/videos/Slurpy (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Smurf - Paint 'n' Play WORKSHOP (USA, Europe).zip</path>
+    <name>Smurf - Paint 'n' Play WORKSHOP (USA, Europe)</name>
+    <image>./media/images/Smurf - Paint 'n' Play WORKSHOP (USA, Europe).png</image>
+    <video>./media/videos/Smurf - Paint 'n' Play WORKSHOP (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Smurf - Rescue in Gargamel's Castle (USA, Europe).zip</path>
+    <name>Smurf - Rescue in Gargamel's Castle (USA, Europe)</name>
+    <image>./media/images/Smurf - Rescue in Gargamel's Castle (USA, Europe).png</image>
+    <video>./media/videos/Smurf - Rescue in Gargamel's Castle (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Smurfs Save the Day (USA) (Demo).zip</path>
+    <name>Smurfs Save the Day (USA) (Demo)</name>
+    <image>./media/images/Smurfs Save the Day (USA) (Demo).png</image>
+    <video>./media/videos/Smurfs Save the Day (USA) (Demo).mp4</video>
+  </game>
+  <game>
+    <path>./Space Fury (USA, Europe).zip</path>
+    <name>Space Fury (USA, Europe)</name>
+    <image>./media/images/Space Fury (USA, Europe).png</image>
+    <video>./media/videos/Space Fury (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Space Panic (USA, Europe).zip</path>
+    <name>Space Panic (USA, Europe)</name>
+    <image>./media/images/Space Panic (USA, Europe).png</image>
+    <video>./media/videos/Space Panic (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Spectron (USA).zip</path>
+    <name>Spectron (USA)</name>
+    <image>./media/images/Spectron (USA).png</image>
+    <video>./media/videos/Spectron (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Spy Hunter (USA) (Beta).zip</path>
+    <name>Spy Hunter (USA) (Beta)</name>
+    <image>./media/images/Spy Hunter (USA) (Beta).png</image>
+    <video>./media/videos/Spy Hunter (USA) (Beta).mp4</video>
+  </game>
+  <game>
+    <path>./Spy Hunter (USA).zip</path>
+    <name>Spy Hunter (USA)</name>
+    <image>./media/images/Spy Hunter (USA).png</image>
+    <video>./media/videos/Spy Hunter (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Squish'em Featuring Sam (USA).zip</path>
+    <name>Squish'em Featuring Sam (USA)</name>
+    <image>./media/images/Squish'em Featuring Sam (USA).png</image>
+    <video>./media/videos/Squish'em Featuring Sam (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Star Fire (USA) (Proto).zip</path>
+    <name>Star Fire (USA) (Proto)</name>
+    <image>./media/images/Star Fire (USA) (Proto).png</image>
+    <video>./media/videos/Star Fire (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>./Star Trek - Strategic Operations Simulator (USA).zip</path>
+    <name>Star Trek - Strategic Operations Simulator (USA)</name>
+    <image>./media/images/Star Trek - Strategic Operations Simulator (USA).png</image>
+    <video>./media/videos/Star Trek - Strategic Operations Simulator (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Star Wars - The Arcade Game (USA) (Beta) (1984-04-12).zip</path>
+    <name>Star Wars - The Arcade Game (USA) (Beta) (1984-04-12)</name>
+    <image>./media/images/Star Wars - The Arcade Game (USA) (Beta) (1984-04-12).png</image>
+    <video>./media/videos/Star Wars - The Arcade Game (USA) (Beta) (1984-04-12).mp4</video>
+  </game>
+  <game>
+    <path>./Star Wars - The Arcade Game (USA).zip</path>
+    <name>Star Wars - The Arcade Game (USA)</name>
+    <image>./media/images/Star Wars - The Arcade Game (USA).png</image>
+    <video>./media/videos/Star Wars - The Arcade Game (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Steamroller (USA) (Proto).zip</path>
+    <name>Steamroller (USA) (Proto)</name>
+    <image>./media/images/Steamroller (USA) (Proto).png</image>
+    <video>./media/videos/Steamroller (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>./Strike It! (Europe).zip</path>
+    <name>Strike It! (Europe)</name>
+    <image>./media/images/Strike It! (Europe).png</image>
+    <video>./media/videos/Strike It! (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Subroc (USA, Europe).zip</path>
+    <name>Subroc (USA, Europe)</name>
+    <image>./media/images/Subroc (USA, Europe).png</image>
+    <video>./media/videos/Subroc (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Super Action Baseball (USA).zip</path>
+    <name>Super Action Baseball (USA)</name>
+    <image>./media/images/Super Action Baseball (USA).png</image>
+    <video>./media/videos/Super Action Baseball (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Super Action Football (Europe).zip</path>
+    <name>Super Action Football (Europe)</name>
+    <image>./media/images/Super Action Football (Europe).png</image>
+    <video>./media/videos/Super Action Football (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Super Action Football (USA).zip</path>
+    <name>Super Action Football (USA)</name>
+    <image>./media/images/Super Action Football (USA).png</image>
+    <video>./media/videos/Super Action Football (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Super Cobra (USA).zip</path>
+    <name>Super Cobra (USA)</name>
+    <image>./media/images/Super Cobra (USA).png</image>
+    <video>./media/videos/Super Cobra (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Super Controller Tester (USA).zip</path>
+    <name>Super Controller Tester (USA)</name>
+    <image>./media/images/Super Controller Tester (USA).png</image>
+    <video>./media/videos/Super Controller Tester (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Super Cross Force (USA, Europe).zip</path>
+    <name>Super Cross Force (USA, Europe)</name>
+    <image>./media/images/Super Cross Force (USA, Europe).png</image>
+    <video>./media/videos/Super Cross Force (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Super DK! (USA) (Proto).zip</path>
+    <name>Super DK! (USA) (Proto)</name>
+    <image>./media/images/Super DK! (USA) (Proto).png</image>
+    <video>./media/videos/Super DK! (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>./Super DK! Junior (USA) (Proto).zip</path>
+    <name>Super DK! Junior (USA) (Proto)</name>
+    <image>./media/images/Super DK! Junior (USA) (Proto).png</image>
+    <video>./media/videos/Super DK! Junior (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>./Super Sketch - Sketch Master (USA) (Program) (Unl).zip</path>
+    <name>Super Sketch - Sketch Master (USA) (Program) (Unl)</name>
+    <image>./media/images/Super Sketch - Sketch Master (USA) (Program) (Unl).png</image>
+    <video>./media/videos/Super Sketch - Sketch Master (USA) (Program) (Unl).mp4</video>
+  </game>
+  <game>
+    <path>./Sword and the Sorcerer, The (USA) (Demo).zip</path>
+    <name>Sword and the Sorcerer, The (USA) (Demo)</name>
+    <image>./media/images/Sword and the Sorcerer, The (USA) (Demo).png</image>
+    <video>./media/videos/Sword and the Sorcerer, The (USA) (Demo).mp4</video>
+  </game>
+  <game>
+    <path>./TOMARC the Barbarian (USA).zip</path>
+    <name>TOMARC the Barbarian (USA)</name>
+    <image>./media/images/TOMARC the Barbarian (USA).png</image>
+    <video>./media/videos/TOMARC the Barbarian (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Tank Wars (Europe).zip</path>
+    <name>Tank Wars (Europe)</name>
+    <image>./media/images/Tank Wars (Europe).png</image>
+    <video>./media/videos/Tank Wars (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Tarzan (USA, Europe).zip</path>
+    <name>Tarzan (USA, Europe)</name>
+    <image>./media/images/Tarzan (USA, Europe).png</image>
+    <video>./media/videos/Tarzan (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Telly Turtle (USA).zip</path>
+    <name>Telly Turtle (USA)</name>
+    <image>./media/images/Telly Turtle (USA).png</image>
+    <video>./media/videos/Telly Turtle (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Threshold (USA).zip</path>
+    <name>Threshold (USA)</name>
+    <image>./media/images/Threshold (USA).png</image>
+    <video>./media/videos/Threshold (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Time Pilot (USA, Europe).zip</path>
+    <name>Time Pilot (USA, Europe)</name>
+    <image>./media/images/Time Pilot (USA, Europe).png</image>
+    <video>./media/videos/Time Pilot (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Tournament Tennis (USA).zip</path>
+    <name>Tournament Tennis (USA)</name>
+    <image>./media/images/Tournament Tennis (USA).png</image>
+    <video>./media/videos/Tournament Tennis (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Tunnels &amp; Trolls (USA) (Demo).zip</path>
+    <name>Tunnels &amp; Trolls (USA) (Demo)</name>
+    <image>./media/images/Tunnels &amp; Trolls (USA) (Demo).png</image>
+    <video>./media/videos/Tunnels &amp; Trolls (USA) (Demo).mp4</video>
+  </game>
+  <game>
+    <path>./Turbo (USA, Europe).zip</path>
+    <name>Turbo (USA, Europe)</name>
+    <image>./media/images/Turbo (USA, Europe).png</image>
+    <video>./media/videos/Turbo (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Tutankham (USA).zip</path>
+    <name>Tutankham (USA)</name>
+    <image>./media/images/Tutankham (USA).png</image>
+    <video>./media/videos/Tutankham (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Up 'n Down (USA).zip</path>
+    <name>Up 'n Down (USA)</name>
+    <image>./media/images/Up 'n Down (USA).png</image>
+    <video>./media/videos/Up 'n Down (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Venture (USA, Europe).zip</path>
+    <name>Venture (USA, Europe)</name>
+    <image>./media/images/Venture (USA, Europe).png</image>
+    <video>./media/videos/Venture (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Victory (Europe).zip</path>
+    <name>Victory (Europe)</name>
+    <image>./media/images/Victory (Europe).png</image>
+    <video>./media/videos/Victory (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Victory (USA).zip</path>
+    <name>Victory (USA)</name>
+    <image>./media/images/Victory (USA).png</image>
+    <video>./media/videos/Victory (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Video Hustler (USA) (Proto 1).zip</path>
+    <name>Video Hustler (USA) (Proto 1)</name>
+    <image>./media/images/Video Hustler (USA) (Proto 1).png</image>
+    <video>./media/videos/Video Hustler (USA) (Proto 1).mp4</video>
+  </game>
+  <game>
+    <path>./Video Hustler (USA) (Proto 2).zip</path>
+    <name>Video Hustler (USA) (Proto 2)</name>
+    <image>./media/images/Video Hustler (USA) (Proto 2).png</image>
+    <video>./media/videos/Video Hustler (USA) (Proto 2).mp4</video>
+  </game>
+  <game>
+    <path>./War Room (USA).zip</path>
+    <name>War Room (USA)</name>
+    <image>./media/images/War Room (USA).png</image>
+    <video>./media/videos/War Room (USA).mp4</video>
+  </game>
+  <game>
+    <path>./WarGames (USA, Europe).zip</path>
+    <name>WarGames (USA, Europe)</name>
+    <image>./media/images/WarGames (USA, Europe).png</image>
+    <video>./media/videos/WarGames (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Wing War (USA).zip</path>
+    <name>Wing War (USA)</name>
+    <image>./media/images/Wing War (USA).png</image>
+    <video>./media/videos/Wing War (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Wizard of Id's - WizMath (USA).zip</path>
+    <name>Wizard of Id's - WizMath (USA)</name>
+    <image>./media/images/Wizard of Id's - WizMath (USA).png</image>
+    <video>./media/videos/Wizard of Id's - WizMath (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Word Feud (USA).zip</path>
+    <name>Word Feud (USA)</name>
+    <image>./media/images/Word Feud (USA).png</image>
+    <video>./media/videos/Word Feud (USA).mp4</video>
+  </game>
+  <game>
+    <path>./Yolk's on you, The (Europe) (Proto).zip</path>
+    <name>Yolk's on you, The (Europe) (Proto)</name>
+    <image>./media/images/Yolk's on you, The (Europe) (Proto).png</image>
+    <video>./media/videos/Yolk's on you, The (Europe) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>./Zaxxon (Taiwan) (En) (Unl).zip</path>
+    <name>Zaxxon (Taiwan) (En) (Unl)</name>
+    <image>./media/images/Zaxxon (Taiwan) (En) (Unl).png</image>
+    <video>./media/videos/Zaxxon (Taiwan) (En) (Unl).mp4</video>
+  </game>
+  <game>
+    <path>./Zaxxon (USA, Europe).zip</path>
+    <name>Zaxxon (USA, Europe)</name>
+    <image>./media/images/Zaxxon (USA, Europe).png</image>
+    <video>./media/videos/Zaxxon (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Zenji (USA).zip</path>
+    <name>Zenji (USA)</name>
+    <image>./media/images/Zenji (USA).png</image>
+    <video>./media/videos/Zenji (USA).mp4</video>
+  </game>
+  <game>
+    <path>./[BIOS] ColecoVision (USA, Europe).zip</path>
+    <name>[BIOS] ColecoVision (USA, Europe)</name>
+    <image>./media/images/[BIOS] ColecoVision (USA, Europe).png</image>
+    <video>./media/videos/[BIOS] ColecoVision (USA, Europe).mp4</video>
+  </game>
+</gameList>

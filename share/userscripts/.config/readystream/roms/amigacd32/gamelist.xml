@@ -1,0 +1,1029 @@
+<?xml version="1.0"?>
+<gameList>
+  <game>
+    <path>./Akira (Europe).zip</path>
+    <name>Akira (Europe)</name>
+    <image>./media/images/Akira (Europe).png</image>
+    <video>./media/videos/Akira (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Alfred Chicken (Europe).zip</path>
+    <name>Alfred Chicken (Europe)</name>
+    <image>./media/images/Alfred Chicken (Europe).png</image>
+    <video>./media/videos/Alfred Chicken (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Alien Breed - Tower Assault (Europe).zip</path>
+    <name>Alien Breed - Tower Assault (Europe)</name>
+    <image>./media/images/Alien Breed - Tower Assault (Europe).png</image>
+    <video>./media/videos/Alien Breed - Tower Assault (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Alien Breed 3D (Europe).zip</path>
+    <name>Alien Breed 3D (Europe)</name>
+    <image>./media/images/Alien Breed 3D (Europe).png</image>
+    <video>./media/videos/Alien Breed 3D (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Alien Breed Special Edition &amp; Qwak (Europe) (En,Fr,De,It,Da).zip</path>
+    <name>Alien Breed Special Edition &amp; Qwak (Europe) (En,Fr,De,It,Da)</name>
+    <image>./media/images/Alien Breed Special Edition &amp; Qwak (Europe) (En,Fr,De,It,Da).png</image>
+    <video>./media/videos/Alien Breed Special Edition &amp; Qwak (Europe) (En,Fr,De,It,Da).mp4</video>
+  </game>
+  <game>
+    <path>./Amiga CD32 Gamer - Demos, Shareware &amp; PD Games Volume 1 (Europe).zip</path>
+    <name>Amiga CD32 Gamer - Demos, Shareware &amp; PD Games Volume 1 (Europe)</name>
+    <image>./media/images/Amiga CD32 Gamer - Demos, Shareware &amp; PD Games Volume 1 (Europe).png</image>
+    <video>./media/videos/Amiga CD32 Gamer - Demos, Shareware &amp; PD Games Volume 1 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Amiga CD32 Gamer - Game Demos Volume 2 (Europe).zip</path>
+    <name>Amiga CD32 Gamer - Game Demos Volume 2 (Europe)</name>
+    <image>./media/images/Amiga CD32 Gamer - Game Demos Volume 2 (Europe).png</image>
+    <video>./media/videos/Amiga CD32 Gamer - Game Demos Volume 2 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Amiga CD32 Magazine - Spring 1994 (Europe).zip</path>
+    <name>Amiga CD32 Magazine - Spring 1994 (Europe)</name>
+    <image>./media/images/Amiga CD32 Magazine - Spring 1994 (Europe).png</image>
+    <video>./media/videos/Amiga CD32 Magazine - Spring 1994 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Amiga CD32 Magazine - Winter 1994 (Europe).zip</path>
+    <name>Amiga CD32 Magazine - Winter 1994 (Europe)</name>
+    <image>./media/images/Amiga CD32 Magazine - Winter 1994 (Europe).png</image>
+    <video>./media/videos/Amiga CD32 Magazine - Winter 1994 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Amiga Power Techno Nation - Game Massive - The Essential CD32 Collection Volume 1 (Europe).zip</path>
+    <name>Amiga Power Techno Nation - Game Massive - The Essential CD32 Collection Volume 1 (Europe)</name>
+    <image>./media/images/Amiga Power Techno Nation - Game Massive - The Essential CD32 Collection Volume 1 (Europe).png</image>
+    <video>./media/videos/Amiga Power Techno Nation - Game Massive - The Essential CD32 Collection Volume 1 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Arabian Nights (Europe) (En,Fr,De,It).zip</path>
+    <name>Arabian Nights (Europe) (En,Fr,De,It)</name>
+    <image>./media/images/Arabian Nights (Europe) (En,Fr,De,It).png</image>
+    <video>./media/videos/Arabian Nights (Europe) (En,Fr,De,It).mp4</video>
+  </game>
+  <game>
+    <path>./Arcade Pool (Europe) (En,Fr,De,It) (Alt).zip</path>
+    <name>Arcade Pool (Europe) (En,Fr,De,It) (Alt)</name>
+    <image>./media/images/Arcade Pool (Europe) (En,Fr,De,It) (Alt).png</image>
+    <video>./media/videos/Arcade Pool (Europe) (En,Fr,De,It) (Alt).mp4</video>
+  </game>
+  <game>
+    <path>./Arcade Pool (Europe) (En,Fr,De,It).zip</path>
+    <name>Arcade Pool (Europe) (En,Fr,De,It)</name>
+    <image>./media/images/Arcade Pool (Europe) (En,Fr,De,It).png</image>
+    <video>./media/videos/Arcade Pool (Europe) (En,Fr,De,It).mp4</video>
+  </game>
+  <game>
+    <path>./Assassins - Ultimate Games Compact Disc (Europe) (v2.0).zip</path>
+    <name>Assassins - Ultimate Games Compact Disc (Europe) (v2.0)</name>
+    <image>./media/images/Assassins - Ultimate Games Compact Disc (Europe) (v2.0).png</image>
+    <video>./media/videos/Assassins - Ultimate Games Compact Disc (Europe) (v2.0).mp4</video>
+  </game>
+  <game>
+    <path>./Banshee (Europe) (En,Fr,De,Da).zip</path>
+    <name>Banshee (Europe) (En,Fr,De,Da)</name>
+    <image>./media/images/Banshee (Europe) (En,Fr,De,Da).png</image>
+    <video>./media/videos/Banshee (Europe) (En,Fr,De,Da).mp4</video>
+  </game>
+  <game>
+    <path>./Base Jumpers (Europe).zip</path>
+    <name>Base Jumpers (Europe)</name>
+    <image>./media/images/Base Jumpers (Europe).png</image>
+    <video>./media/videos/Base Jumpers (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Battle Chess (Europe).zip</path>
+    <name>Battle Chess (Europe)</name>
+    <image>./media/images/Battle Chess (Europe).png</image>
+    <video>./media/videos/Battle Chess (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Battletoads (Europe).zip</path>
+    <name>Battletoads (Europe)</name>
+    <image>./media/images/Battletoads (Europe).png</image>
+    <video>./media/videos/Battletoads (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Beavers (Europe).zip</path>
+    <name>Beavers (Europe)</name>
+    <image>./media/images/Beavers (Europe).png</image>
+    <video>./media/videos/Beavers (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Beneath a Steel Sky (Europe) (En,Fr,De,It).zip</path>
+    <name>Beneath a Steel Sky (Europe) (En,Fr,De,It)</name>
+    <image>./media/images/Beneath a Steel Sky (Europe) (En,Fr,De,It).png</image>
+    <video>./media/videos/Beneath a Steel Sky (Europe) (En,Fr,De,It).mp4</video>
+  </game>
+  <game>
+    <path>./Benefactor (Europe).zip</path>
+    <name>Benefactor (Europe)</name>
+    <image>./media/images/Benefactor (Europe).png</image>
+    <video>./media/videos/Benefactor (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Black Viper (Europe) (En,De,It).zip</path>
+    <name>Black Viper (Europe) (En,De,It)</name>
+    <image>./media/images/Black Viper (Europe) (En,De,It).png</image>
+    <video>./media/videos/Black Viper (Europe) (En,De,It).mp4</video>
+  </game>
+  <game>
+    <path>./Brutal Football (Europe).zip</path>
+    <name>Brutal Football (Europe)</name>
+    <image>./media/images/Brutal Football (Europe).png</image>
+    <video>./media/videos/Brutal Football (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Bubba 'n' Stix (Europe).zip</path>
+    <name>Bubba 'n' Stix (Europe)</name>
+    <image>./media/images/Bubba 'n' Stix (Europe).png</image>
+    <video>./media/videos/Bubba 'n' Stix (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Bubble and Squeak (Europe).zip</path>
+    <name>Bubble and Squeak (Europe)</name>
+    <image>./media/images/Bubble and Squeak (Europe).png</image>
+    <video>./media/videos/Bubble and Squeak (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Bump 'n' Burn (Europe).zip</path>
+    <name>Bump 'n' Burn (Europe)</name>
+    <image>./media/images/Bump 'n' Burn (Europe).png</image>
+    <video>./media/videos/Bump 'n' Burn (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./CD Micro French (Europe).zip</path>
+    <name>CD Micro French (Europe)</name>
+    <image>./media/images/CD Micro French (Europe).png</image>
+    <video>./media/videos/CD Micro French (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./CD32 Gamer - Playable Game Demos Volume 3 (Europe).zip</path>
+    <name>CD32 Gamer - Playable Game Demos Volume 3 (Europe)</name>
+    <image>./media/images/CD32 Gamer - Playable Game Demos Volume 3 (Europe).png</image>
+    <video>./media/videos/CD32 Gamer - Playable Game Demos Volume 3 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 10 (Europe).zip</path>
+    <name>CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 10 (Europe)</name>
+    <image>./media/images/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 10 (Europe).png</image>
+    <video>./media/videos/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 10 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 11 (12) (Europe).zip</path>
+    <name>CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 11 (12) (Europe)</name>
+    <image>./media/images/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 11 (12) (Europe).png</image>
+    <video>./media/videos/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 11 (12) (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 11 (Europe).zip</path>
+    <name>CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 11 (Europe)</name>
+    <image>./media/images/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 11 (Europe).png</image>
+    <video>./media/videos/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 11 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 13 (Europe).zip</path>
+    <name>CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 13 (Europe)</name>
+    <image>./media/images/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 13 (Europe).png</image>
+    <video>./media/videos/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 13 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 14 (Europe).zip</path>
+    <name>CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 14 (Europe)</name>
+    <image>./media/images/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 14 (Europe).png</image>
+    <video>./media/videos/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 14 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 15 (Europe).zip</path>
+    <name>CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 15 (Europe)</name>
+    <image>./media/images/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 15 (Europe).png</image>
+    <video>./media/videos/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 15 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 19 (Europe).zip</path>
+    <name>CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 19 (Europe)</name>
+    <image>./media/images/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 19 (Europe).png</image>
+    <video>./media/videos/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 19 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 21 (Europe).zip</path>
+    <name>CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 21 (Europe)</name>
+    <image>./media/images/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 21 (Europe).png</image>
+    <video>./media/videos/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 21 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 4 (Europe).zip</path>
+    <name>CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 4 (Europe)</name>
+    <image>./media/images/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 4 (Europe).png</image>
+    <video>./media/videos/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 4 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 5 (Europe).zip</path>
+    <name>CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 5 (Europe)</name>
+    <image>./media/images/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 5 (Europe).png</image>
+    <video>./media/videos/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 5 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 7 (Europe).zip</path>
+    <name>CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 7 (Europe)</name>
+    <image>./media/images/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 7 (Europe).png</image>
+    <video>./media/videos/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 7 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 8 (Europe).zip</path>
+    <name>CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 8 (Europe)</name>
+    <image>./media/images/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 8 (Europe).png</image>
+    <video>./media/videos/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 8 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 9 (Europe).zip</path>
+    <name>CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 9 (Europe)</name>
+    <image>./media/images/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 9 (Europe).png</image>
+    <video>./media/videos/CD32 Gamer - Playable Game Demos, Demos, Multimedia &amp; Shareware Volume 9 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Cannon Fodder (Europe).zip</path>
+    <name>Cannon Fodder (Europe)</name>
+    <image>./media/images/Cannon Fodder (Europe).png</image>
+    <video>./media/videos/Cannon Fodder (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Castles II - Siege &amp; Conquest (Europe).zip</path>
+    <name>Castles II - Siege &amp; Conquest (Europe)</name>
+    <image>./media/images/Castles II - Siege &amp; Conquest (Europe).png</image>
+    <video>./media/videos/Castles II - Siege &amp; Conquest (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Chambers of Shaolin (Europe).zip</path>
+    <name>Chambers of Shaolin (Europe)</name>
+    <image>./media/images/Chambers of Shaolin (Europe).png</image>
+    <video>./media/videos/Chambers of Shaolin (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Chaos Engine, The (Europe) (En,Fr,De,It).zip</path>
+    <name>Chaos Engine, The (Europe) (En,Fr,De,It)</name>
+    <image>./media/images/Chaos Engine, The (Europe) (En,Fr,De,It).png</image>
+    <video>./media/videos/Chaos Engine, The (Europe) (En,Fr,De,It).mp4</video>
+  </game>
+  <game>
+    <path>./Chaos Engine, The (Europe) (Spectacular Voyage).zip</path>
+    <name>Chaos Engine, The (Europe) (Spectacular Voyage)</name>
+    <image>./media/images/Chaos Engine, The (Europe) (Spectacular Voyage).png</image>
+    <video>./media/videos/Chaos Engine, The (Europe) (Spectacular Voyage).mp4</video>
+  </game>
+  <game>
+    <path>./Chuck Rock (Europe).zip</path>
+    <name>Chuck Rock (Europe)</name>
+    <image>./media/images/Chuck Rock (Europe).png</image>
+    <video>./media/videos/Chuck Rock (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Chuck Rock II - Son of Chuck (Europe).zip</path>
+    <name>Chuck Rock II - Son of Chuck (Europe)</name>
+    <image>./media/images/Chuck Rock II - Son of Chuck (Europe).png</image>
+    <video>./media/videos/Chuck Rock II - Son of Chuck (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Classic Lotus Trilogy, The (Europe).zip</path>
+    <name>Classic Lotus Trilogy, The (Europe)</name>
+    <image>./media/images/Classic Lotus Trilogy, The (Europe).png</image>
+    <video>./media/videos/Classic Lotus Trilogy, The (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Communicator (Germany) (En,De).zip</path>
+    <name>Communicator (Germany) (En,De)</name>
+    <image>./media/images/Communicator (Germany) (En,De).png</image>
+    <video>./media/videos/Communicator (Germany) (En,De).mp4</video>
+  </game>
+  <game>
+    <path>./D-Generation (Europe).zip</path>
+    <name>D-Generation (Europe)</name>
+    <image>./media/images/D-Generation (Europe).png</image>
+    <video>./media/videos/D-Generation (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Dangerous Streets &amp; Wing Commander (Europe) (En,Fr,De,It).zip</path>
+    <name>Dangerous Streets &amp; Wing Commander (Europe) (En,Fr,De,It)</name>
+    <image>./media/images/Dangerous Streets &amp; Wing Commander (Europe) (En,Fr,De,It).png</image>
+    <video>./media/videos/Dangerous Streets &amp; Wing Commander (Europe) (En,Fr,De,It).mp4</video>
+  </game>
+  <game>
+    <path>./Dangerous Streets (Europe) (En,Fr,De,It).zip</path>
+    <name>Dangerous Streets (Europe) (En,Fr,De,It)</name>
+    <image>./media/images/Dangerous Streets (Europe) (En,Fr,De,It).png</image>
+    <video>./media/videos/Dangerous Streets (Europe) (En,Fr,De,It).mp4</video>
+  </game>
+  <game>
+    <path>./Darkseed (Europe).zip</path>
+    <name>Darkseed (Europe)</name>
+    <image>./media/images/Darkseed (Europe).png</image>
+    <video>./media/videos/Darkseed (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Deep Core (Europe) (v1.00).zip</path>
+    <name>Deep Core (Europe) (v1.00)</name>
+    <image>./media/images/Deep Core (Europe) (v1.00).png</image>
+    <video>./media/videos/Deep Core (Europe) (v1.00).mp4</video>
+  </game>
+  <game>
+    <path>./Deep Core (Europe) (v1.01).zip</path>
+    <name>Deep Core (Europe) (v1.01)</name>
+    <image>./media/images/Deep Core (Europe) (v1.01).png</image>
+    <video>./media/videos/Deep Core (Europe) (v1.01).mp4</video>
+  </game>
+  <game>
+    <path>./Defender of the Crown II (USA) (En,Fr,De,Es,It).zip</path>
+    <name>Defender of the Crown II (USA) (En,Fr,De,Es,It)</name>
+    <image>./media/images/Defender of the Crown II (USA) (En,Fr,De,Es,It).png</image>
+    <video>./media/videos/Defender of the Crown II (USA) (En,Fr,De,Es,It).mp4</video>
+  </game>
+  <game>
+    <path>./Dennis (Europe).zip</path>
+    <name>Dennis (Europe)</name>
+    <image>./media/images/Dennis (Europe).png</image>
+    <video>./media/videos/Dennis (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Diggers &amp; Oscar (Europe) (Rev 1) (Alt).zip</path>
+    <name>Diggers &amp; Oscar (Europe) (Rev 1) (Alt)</name>
+    <image>./media/images/Diggers &amp; Oscar (Europe) (Rev 1) (Alt).png</image>
+    <video>./media/videos/Diggers &amp; Oscar (Europe) (Rev 1) (Alt).mp4</video>
+  </game>
+  <game>
+    <path>./Diggers &amp; Oscar (Europe) (Rev 1).zip</path>
+    <name>Diggers &amp; Oscar (Europe) (Rev 1)</name>
+    <image>./media/images/Diggers &amp; Oscar (Europe) (Rev 1).png</image>
+    <video>./media/videos/Diggers &amp; Oscar (Europe) (Rev 1).mp4</video>
+  </game>
+  <game>
+    <path>./Diggers &amp; Oscar (Europe).zip</path>
+    <name>Diggers &amp; Oscar (Europe)</name>
+    <image>./media/images/Diggers &amp; Oscar (Europe).png</image>
+    <video>./media/videos/Diggers &amp; Oscar (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Disposable Hero (Europe).zip</path>
+    <name>Disposable Hero (Europe)</name>
+    <image>./media/images/Disposable Hero (Europe).png</image>
+    <video>./media/videos/Disposable Hero (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Donk! The Samurai Duck! (Europe).zip</path>
+    <name>Donk! The Samurai Duck! (Europe)</name>
+    <image>./media/images/Donk! The Samurai Duck! (Europe).png</image>
+    <video>./media/videos/Donk! The Samurai Duck! (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Dragonstone (Europe) (En,Fr,De).zip</path>
+    <name>Dragonstone (Europe) (En,Fr,De)</name>
+    <image>./media/images/Dragonstone (Europe) (En,Fr,De).png</image>
+    <video>./media/videos/Dragonstone (Europe) (En,Fr,De).mp4</video>
+  </game>
+  <game>
+    <path>./Emerald Mines (Europe).zip</path>
+    <name>Emerald Mines (Europe)</name>
+    <image>./media/images/Emerald Mines (Europe).png</image>
+    <video>./media/videos/Emerald Mines (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Fields of Glory (Europe) (En,Fr,De).zip</path>
+    <name>Fields of Glory (Europe) (En,Fr,De)</name>
+    <image>./media/images/Fields of Glory (Europe) (En,Fr,De).png</image>
+    <video>./media/videos/Fields of Glory (Europe) (En,Fr,De).mp4</video>
+  </game>
+  <game>
+    <path>./Fightin' Spirit (Europe) (En,De,It).zip</path>
+    <name>Fightin' Spirit (Europe) (En,De,It)</name>
+    <image>./media/images/Fightin' Spirit (Europe) (En,De,It).png</image>
+    <video>./media/videos/Fightin' Spirit (Europe) (En,De,It).mp4</video>
+  </game>
+  <game>
+    <path>./Fire &amp; Ice - The Daring Adventures of Cool Coyote (Europe) (En,Fr,De,It).zip</path>
+    <name>Fire &amp; Ice - The Daring Adventures of Cool Coyote (Europe) (En,Fr,De,It)</name>
+    <image>./media/images/Fire &amp; Ice - The Daring Adventures of Cool Coyote (Europe) (En,Fr,De,It).png</image>
+    <video>./media/videos/Fire &amp; Ice - The Daring Adventures of Cool Coyote (Europe) (En,Fr,De,It).mp4</video>
+  </game>
+  <game>
+    <path>./Fire Force (Europe).zip</path>
+    <name>Fire Force (Europe)</name>
+    <image>./media/images/Fire Force (Europe).png</image>
+    <video>./media/videos/Fire Force (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Flink (Europe).zip</path>
+    <name>Flink (Europe)</name>
+    <image>./media/images/Flink (Europe).png</image>
+    <video>./media/videos/Flink (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Fly Harder (Europe).zip</path>
+    <name>Fly Harder (Europe)</name>
+    <image>./media/images/Fly Harder (Europe).png</image>
+    <video>./media/videos/Fly Harder (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Frontier - Elite II (Europe).zip</path>
+    <name>Frontier - Elite II (Europe)</name>
+    <image>./media/images/Frontier - Elite II (Europe).png</image>
+    <video>./media/videos/Frontier - Elite II (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Games &amp; Goodies (UK).zip</path>
+    <name>Games &amp; Goodies (UK)</name>
+    <image>./media/images/Games &amp; Goodies (UK).png</image>
+    <video>./media/videos/Games &amp; Goodies (UK).mp4</video>
+  </game>
+  <game>
+    <path>./Global Effect (Europe).zip</path>
+    <name>Global Effect (Europe)</name>
+    <image>./media/images/Global Effect (Europe).png</image>
+    <video>./media/videos/Global Effect (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Gloom (Europe).zip</path>
+    <name>Gloom (Europe)</name>
+    <image>./media/images/Gloom (Europe).png</image>
+    <video>./media/videos/Gloom (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Guardian (Europe) (Alt).zip</path>
+    <name>Guardian (Europe) (Alt)</name>
+    <image>./media/images/Guardian (Europe) (Alt).png</image>
+    <video>./media/videos/Guardian (Europe) (Alt).mp4</video>
+  </game>
+  <game>
+    <path>./Guardian (Europe).zip</path>
+    <name>Guardian (Europe)</name>
+    <image>./media/images/Guardian (Europe).png</image>
+    <video>./media/videos/Guardian (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Gulp! (Europe) (En,Fr,De,Es,It).zip</path>
+    <name>Gulp! (Europe) (En,Fr,De,Es,It)</name>
+    <image>./media/images/Gulp! (Europe) (En,Fr,De,Es,It).png</image>
+    <video>./media/videos/Gulp! (Europe) (En,Fr,De,Es,It).mp4</video>
+  </game>
+  <game>
+    <path>./Gunship 2000 (Europe).zip</path>
+    <name>Gunship 2000 (Europe)</name>
+    <image>./media/images/Gunship 2000 (Europe).png</image>
+    <video>./media/videos/Gunship 2000 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Heimdall 2 - Into the Hall of Worlds (Europe).zip</path>
+    <name>Heimdall 2 - Into the Hall of Worlds (Europe)</name>
+    <image>./media/images/Heimdall 2 - Into the Hall of Worlds (Europe).png</image>
+    <video>./media/videos/Heimdall 2 - Into the Hall of Worlds (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./HeroQuest II - Legacy of Sorasil (Europe) (En,Fr,De).zip</path>
+    <name>HeroQuest II - Legacy of Sorasil (Europe) (En,Fr,De)</name>
+    <image>./media/images/HeroQuest II - Legacy of Sorasil (Europe) (En,Fr,De).png</image>
+    <video>./media/videos/HeroQuest II - Legacy of Sorasil (Europe) (En,Fr,De).mp4</video>
+  </game>
+  <game>
+    <path>./Humans (Europe) (En,Fr,De,Es,It).zip</path>
+    <name>Humans (Europe) (En,Fr,De,Es,It)</name>
+    <image>./media/images/Humans (Europe) (En,Fr,De,Es,It).png</image>
+    <video>./media/videos/Humans (Europe) (En,Fr,De,Es,It).mp4</video>
+  </game>
+  <game>
+    <path>./Humans 3 - Evolution - Lost in Time... (Europe).zip</path>
+    <name>Humans 3 - Evolution - Lost in Time... (Europe)</name>
+    <image>./media/images/Humans 3 - Evolution - Lost in Time... (Europe).png</image>
+    <video>./media/videos/Humans 3 - Evolution - Lost in Time... (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Impossible Mission 2025 - The Special Edition (Europe).zip</path>
+    <name>Impossible Mission 2025 - The Special Edition (Europe)</name>
+    <image>./media/images/Impossible Mission 2025 - The Special Edition (Europe).png</image>
+    <video>./media/videos/Impossible Mission 2025 - The Special Edition (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./International Karate + (Europe).zip</path>
+    <name>International Karate + (Europe)</name>
+    <image>./media/images/International Karate + (Europe).png</image>
+    <video>./media/videos/International Karate + (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./International Sensible Soccer - World Champions (Europe) (En,Fr,De,It).zip</path>
+    <name>International Sensible Soccer - World Champions (Europe) (En,Fr,De,It)</name>
+    <image>./media/images/International Sensible Soccer - World Champions (Europe) (En,Fr,De,It).png</image>
+    <video>./media/videos/International Sensible Soccer - World Champions (Europe) (En,Fr,De,It).mp4</video>
+  </game>
+  <game>
+    <path>./James Pond 2 - Robocod (Europe).zip</path>
+    <name>James Pond 2 - Robocod (Europe)</name>
+    <image>./media/images/James Pond 2 - Robocod (Europe).png</image>
+    <video>./media/videos/James Pond 2 - Robocod (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./James Pond 3 - Operation Starfi5h (Europe) (Kixx).zip</path>
+    <name>James Pond 3 - Operation Starfi5h (Europe) (Kixx)</name>
+    <image>./media/images/James Pond 3 - Operation Starfi5h (Europe) (Kixx).png</image>
+    <video>./media/videos/James Pond 3 - Operation Starfi5h (Europe) (Kixx).mp4</video>
+  </game>
+  <game>
+    <path>./James Pond 3 - Operation Starfi5h (Europe).zip</path>
+    <name>James Pond 3 - Operation Starfi5h (Europe)</name>
+    <image>./media/images/James Pond 3 - Operation Starfi5h (Europe).png</image>
+    <video>./media/videos/James Pond 3 - Operation Starfi5h (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Jetstrike CD32 (Europe).zip</path>
+    <name>Jetstrike CD32 (Europe)</name>
+    <image>./media/images/Jetstrike CD32 (Europe).png</image>
+    <video>./media/videos/Jetstrike CD32 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Jim Power in Mutant Planet (Europe).zip</path>
+    <name>Jim Power in Mutant Planet (Europe)</name>
+    <image>./media/images/Jim Power in Mutant Planet (Europe).png</image>
+    <video>./media/videos/Jim Power in Mutant Planet (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./John Barnes European Football (Europe) (En,Fr,De,Es,It).zip</path>
+    <name>John Barnes European Football (Europe) (En,Fr,De,Es,It)</name>
+    <image>./media/images/John Barnes European Football (Europe) (En,Fr,De,Es,It).png</image>
+    <video>./media/videos/John Barnes European Football (Europe) (En,Fr,De,Es,It).mp4</video>
+  </game>
+  <game>
+    <path>./Jungle Strike - The Sequel to Desert Strike (Europe).zip</path>
+    <name>Jungle Strike - The Sequel to Desert Strike (Europe)</name>
+    <image>./media/images/Jungle Strike - The Sequel to Desert Strike (Europe).png</image>
+    <video>./media/videos/Jungle Strike - The Sequel to Desert Strike (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Karaoke - Julsanger I (Sweden).zip</path>
+    <name>Karaoke - Julsanger I (Sweden)</name>
+    <image>./media/images/Karaoke - Julsanger I (Sweden).png</image>
+    <video>./media/videos/Karaoke - Julsanger I (Sweden).mp4</video>
+  </game>
+  <game>
+    <path>./Kid Chaos (Europe).zip</path>
+    <name>Kid Chaos (Europe)</name>
+    <image>./media/images/Kid Chaos (Europe).png</image>
+    <video>./media/videos/Kid Chaos (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Kingpin - Arcade Sports Bowling (Europe) (En,Fr,De,It).zip</path>
+    <name>Kingpin - Arcade Sports Bowling (Europe) (En,Fr,De,It)</name>
+    <image>./media/images/Kingpin - Arcade Sports Bowling (Europe) (En,Fr,De,It).png</image>
+    <video>./media/videos/Kingpin - Arcade Sports Bowling (Europe) (En,Fr,De,It).mp4</video>
+  </game>
+  <game>
+    <path>./Labyrinth of Time, The (Europe).zip</path>
+    <name>Labyrinth of Time, The (Europe)</name>
+    <image>./media/images/Labyrinth of Time, The (Europe).png</image>
+    <video>./media/videos/Labyrinth of Time, The (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Lamborghini - American Challenge (Europe).zip</path>
+    <name>Lamborghini - American Challenge (Europe)</name>
+    <image>./media/images/Lamborghini - American Challenge (Europe).png</image>
+    <video>./media/videos/Lamborghini - American Challenge (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Last Ninja 3 (Europe).zip</path>
+    <name>Last Ninja 3 (Europe)</name>
+    <image>./media/images/Last Ninja 3 (Europe).png</image>
+    <video>./media/videos/Last Ninja 3 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Liberation - Captive II (Europe) (Rev 2).zip</path>
+    <name>Liberation - Captive II (Europe) (Rev 2)</name>
+    <image>./media/images/Liberation - Captive II (Europe) (Rev 2).png</image>
+    <video>./media/videos/Liberation - Captive II (Europe) (Rev 2).mp4</video>
+  </game>
+  <game>
+    <path>./Liberation - Captive II (Europe) (Rev 3).zip</path>
+    <name>Liberation - Captive II (Europe) (Rev 3)</name>
+    <image>./media/images/Liberation - Captive II (Europe) (Rev 3).png</image>
+    <video>./media/videos/Liberation - Captive II (Europe) (Rev 3).mp4</video>
+  </game>
+  <game>
+    <path>./Liberation - Captive II (Europe).zip</path>
+    <name>Liberation - Captive II (Europe)</name>
+    <image>./media/images/Liberation - Captive II (Europe).png</image>
+    <video>./media/videos/Liberation - Captive II (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Litil Divil (Europe).zip</path>
+    <name>Litil Divil (Europe)</name>
+    <image>./media/images/Litil Divil (Europe).png</image>
+    <video>./media/videos/Litil Divil (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Lost Vikings, The (Europe).zip</path>
+    <name>Lost Vikings, The (Europe)</name>
+    <image>./media/images/Lost Vikings, The (Europe).png</image>
+    <video>./media/videos/Lost Vikings, The (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Magic Island (Czech).zip</path>
+    <name>Magic Island (Czech)</name>
+    <image>./media/images/Magic Island (Czech).png</image>
+    <video>./media/videos/Magic Island (Czech).mp4</video>
+  </game>
+  <game>
+    <path>./Manchester United - Premier League Champions (Europe) (En,Fr,De,It).zip</path>
+    <name>Manchester United - Premier League Champions (Europe) (En,Fr,De,It)</name>
+    <image>./media/images/Manchester United - Premier League Champions (Europe) (En,Fr,De,It).png</image>
+    <video>./media/videos/Manchester United - Premier League Champions (Europe) (En,Fr,De,It).mp4</video>
+  </game>
+  <game>
+    <path>./Marvin's Marvellous Adventure (Europe) (En,Fr,De,Es,It).zip</path>
+    <name>Marvin's Marvellous Adventure (Europe) (En,Fr,De,Es,It)</name>
+    <image>./media/images/Marvin's Marvellous Adventure (Europe) (En,Fr,De,Es,It).png</image>
+    <video>./media/videos/Marvin's Marvellous Adventure (Europe) (En,Fr,De,Es,It).mp4</video>
+  </game>
+  <game>
+    <path>./Mean Arenas (Europe).zip</path>
+    <name>Mean Arenas (Europe)</name>
+    <image>./media/images/Mean Arenas (Europe).png</image>
+    <video>./media/videos/Mean Arenas (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Microcosm (Europe) (Spectacular Voyage).zip</path>
+    <name>Microcosm (Europe) (Spectacular Voyage)</name>
+    <image>./media/images/Microcosm (Europe) (Spectacular Voyage).png</image>
+    <video>./media/videos/Microcosm (Europe) (Spectacular Voyage).mp4</video>
+  </game>
+  <game>
+    <path>./Microcosm (Europe).zip</path>
+    <name>Microcosm (Europe)</name>
+    <image>./media/images/Microcosm (Europe).png</image>
+    <video>./media/videos/Microcosm (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Morph (Europe).zip</path>
+    <name>Morph (Europe)</name>
+    <image>./media/images/Morph (Europe).png</image>
+    <video>./media/videos/Morph (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Myth - History in the Making (Europe).zip</path>
+    <name>Myth - History in the Making (Europe)</name>
+    <image>./media/images/Myth - History in the Making (Europe).png</image>
+    <video>./media/videos/Myth - History in the Making (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Naughty Ones (Europe).zip</path>
+    <name>Naughty Ones (Europe)</name>
+    <image>./media/images/Naughty Ones (Europe).png</image>
+    <video>./media/videos/Naughty Ones (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Nick Faldos Championship Golf (Europe).zip</path>
+    <name>Nick Faldos Championship Golf (Europe)</name>
+    <image>./media/images/Nick Faldos Championship Golf (Europe).png</image>
+    <video>./media/videos/Nick Faldos Championship Golf (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Nigel Mansell's World Championship (Europe) (En,Fr,De,It).zip</path>
+    <name>Nigel Mansell's World Championship (Europe) (En,Fr,De,It)</name>
+    <image>./media/images/Nigel Mansell's World Championship (Europe) (En,Fr,De,It).png</image>
+    <video>./media/videos/Nigel Mansell's World Championship (Europe) (En,Fr,De,It).mp4</video>
+  </game>
+  <game>
+    <path>./Nigel Mansell's World Championship (Europe).zip</path>
+    <name>Nigel Mansell's World Championship (Europe)</name>
+    <image>./media/images/Nigel Mansell's World Championship (Europe).png</image>
+    <video>./media/videos/Nigel Mansell's World Championship (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Now That's What I Call Games (UK).zip</path>
+    <name>Now That's What I Call Games (UK)</name>
+    <image>./media/images/Now That's What I Call Games (UK).png</image>
+    <video>./media/videos/Now That's What I Call Games (UK).mp4</video>
+  </game>
+  <game>
+    <path>./Overkill &amp; Lunar-C (Europe).zip</path>
+    <name>Overkill &amp; Lunar-C (Europe)</name>
+    <image>./media/images/Overkill &amp; Lunar-C (Europe).png</image>
+    <video>./media/videos/Overkill &amp; Lunar-C (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./PGA European Tour (Europe).zip</path>
+    <name>PGA European Tour (Europe)</name>
+    <image>./media/images/PGA European Tour (Europe).png</image>
+    <video>./media/videos/PGA European Tour (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Pierre Le Chef Is ... Out to Lunch (Europe).zip</path>
+    <name>Pierre Le Chef Is ... Out to Lunch (Europe)</name>
+    <image>./media/images/Pierre Le Chef Is ... Out to Lunch (Europe).png</image>
+    <video>./media/videos/Pierre Le Chef Is ... Out to Lunch (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Pinball Fantasies (Europe).zip</path>
+    <name>Pinball Fantasies (Europe)</name>
+    <image>./media/images/Pinball Fantasies (Europe).png</image>
+    <video>./media/videos/Pinball Fantasies (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Pinball Illusions (Europe).zip</path>
+    <name>Pinball Illusions (Europe)</name>
+    <image>./media/images/Pinball Illusions (Europe).png</image>
+    <video>./media/videos/Pinball Illusions (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Pirates! Gold (Europe) (En,De).zip</path>
+    <name>Pirates! Gold (Europe) (En,De)</name>
+    <image>./media/images/Pirates! Gold (Europe) (En,De).png</image>
+    <video>./media/videos/Pirates! Gold (Europe) (En,De).mp4</video>
+  </game>
+  <game>
+    <path>./Power Drive (Europe) (En,Fr,De,Es,It).zip</path>
+    <name>Power Drive (Europe) (En,Fr,De,Es,It)</name>
+    <image>./media/images/Power Drive (Europe) (En,Fr,De,Es,It).png</image>
+    <video>./media/videos/Power Drive (Europe) (En,Fr,De,Es,It).mp4</video>
+  </game>
+  <game>
+    <path>./Power-Games (Europe) (En,De).zip</path>
+    <name>Power-Games (Europe) (En,De)</name>
+    <image>./media/images/Power-Games (Europe) (En,De).png</image>
+    <video>./media/videos/Power-Games (Europe) (En,De).mp4</video>
+  </game>
+  <game>
+    <path>./Premiere (Europe).zip</path>
+    <name>Premiere (Europe)</name>
+    <image>./media/images/Premiere (Europe).png</image>
+    <video>./media/videos/Premiere (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Prey - An Alien Encounter (Europe).zip</path>
+    <name>Prey - An Alien Encounter (Europe)</name>
+    <image>./media/images/Prey - An Alien Encounter (Europe).png</image>
+    <video>./media/videos/Prey - An Alien Encounter (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Project-X &amp; F17 Challenge (Europe) (En,Fr,De,It,Da) (v2.0).zip</path>
+    <name>Project-X &amp; F17 Challenge (Europe) (En,Fr,De,It,Da) (v2.0)</name>
+    <image>./media/images/Project-X &amp; F17 Challenge (Europe) (En,Fr,De,It,Da) (v2.0).png</image>
+    <video>./media/videos/Project-X &amp; F17 Challenge (Europe) (En,Fr,De,It,Da) (v2.0).mp4</video>
+  </game>
+  <game>
+    <path>./Project-X &amp; Ultimate Body Blows (Europe).zip</path>
+    <name>Project-X &amp; Ultimate Body Blows (Europe)</name>
+    <image>./media/images/Project-X &amp; Ultimate Body Blows (Europe).png</image>
+    <video>./media/videos/Project-X &amp; Ultimate Body Blows (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Projekt - Lila (Germany) (Rev 1).zip</path>
+    <name>Projekt - Lila (Germany) (Rev 1)</name>
+    <image>./media/images/Projekt - Lila (Germany) (Rev 1).png</image>
+    <video>./media/videos/Projekt - Lila (Germany) (Rev 1).mp4</video>
+  </game>
+  <game>
+    <path>./Projekt - Lila (Germany).zip</path>
+    <name>Projekt - Lila (Germany)</name>
+    <image>./media/images/Projekt - Lila (Germany).png</image>
+    <video>./media/videos/Projekt - Lila (Germany).mp4</video>
+  </game>
+  <game>
+    <path>./Quik the Thunder Rabbit (Europe).zip</path>
+    <name>Quik the Thunder Rabbit (Europe)</name>
+    <image>./media/images/Quik the Thunder Rabbit (Europe).png</image>
+    <video>./media/videos/Quik the Thunder Rabbit (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Rise of the Robots (Europe).zip</path>
+    <name>Rise of the Robots (Europe)</name>
+    <image>./media/images/Rise of the Robots (Europe).png</image>
+    <video>./media/videos/Rise of the Robots (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Roadkill (Europe) (Alt).zip</path>
+    <name>Roadkill (Europe) (Alt)</name>
+    <image>./media/images/Roadkill (Europe) (Alt).png</image>
+    <video>./media/videos/Roadkill (Europe) (Alt).mp4</video>
+  </game>
+  <game>
+    <path>./Roadkill (Europe).zip</path>
+    <name>Roadkill (Europe)</name>
+    <image>./media/images/Roadkill (Europe).png</image>
+    <video>./media/videos/Roadkill (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Ryder Cup - Johnnie Walker (Europe).zip</path>
+    <name>Ryder Cup - Johnnie Walker (Europe)</name>
+    <image>./media/images/Ryder Cup - Johnnie Walker (Europe).png</image>
+    <video>./media/videos/Ryder Cup - Johnnie Walker (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Sabre Team (Europe) (En,Fr,De,Es,It).zip</path>
+    <name>Sabre Team (Europe) (En,Fr,De,Es,It)</name>
+    <image>./media/images/Sabre Team (Europe) (En,Fr,De,Es,It).png</image>
+    <video>./media/videos/Sabre Team (Europe) (En,Fr,De,Es,It).mp4</video>
+  </game>
+  <game>
+    <path>./Seek and Destroy (Europe).zip</path>
+    <name>Seek and Destroy (Europe)</name>
+    <image>./media/images/Seek and Destroy (Europe).png</image>
+    <video>./media/videos/Seek and Destroy (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Sensible Soccer - European Champions (Europe) (En,Fr,De,It).zip</path>
+    <name>Sensible Soccer - European Champions (Europe) (En,Fr,De,It)</name>
+    <image>./media/images/Sensible Soccer - European Champions (Europe) (En,Fr,De,It).png</image>
+    <video>./media/videos/Sensible Soccer - European Champions (Europe) (En,Fr,De,It).mp4</video>
+  </game>
+  <game>
+    <path>./Seven Gates of Jambala, The (Europe).zip</path>
+    <name>Seven Gates of Jambala, The (Europe)</name>
+    <image>./media/images/Seven Gates of Jambala, The (Europe).png</image>
+    <video>./media/videos/Seven Gates of Jambala, The (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Shadow Fighter (Europe).zip</path>
+    <name>Shadow Fighter (Europe)</name>
+    <image>./media/images/Shadow Fighter (Europe).png</image>
+    <video>./media/videos/Shadow Fighter (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Sheer Delight (USA, Europe).zip</path>
+    <name>Sheer Delight (USA, Europe)</name>
+    <image>./media/images/Sheer Delight (USA, Europe).png</image>
+    <video>./media/videos/Sheer Delight (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Simon the Sorcerer (Europe).zip</path>
+    <name>Simon the Sorcerer (Europe)</name>
+    <image>./media/images/Simon the Sorcerer (Europe).png</image>
+    <video>./media/videos/Simon the Sorcerer (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Skeleton Krew (Europe).zip</path>
+    <name>Skeleton Krew (Europe)</name>
+    <image>./media/images/Skeleton Krew (Europe).png</image>
+    <video>./media/videos/Skeleton Krew (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Speedball 2 (Europe).zip</path>
+    <name>Speedball 2 (Europe)</name>
+    <image>./media/images/Speedball 2 (Europe).png</image>
+    <video>./media/videos/Speedball 2 (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Speris Legacy, The (Europe).zip</path>
+    <name>Speris Legacy, The (Europe)</name>
+    <image>./media/images/Speris Legacy, The (Europe).png</image>
+    <video>./media/videos/Speris Legacy, The (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Strip Pot (Europe).zip</path>
+    <name>Strip Pot (Europe)</name>
+    <image>./media/images/Strip Pot (Europe).png</image>
+    <video>./media/videos/Strip Pot (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Subwar 2050 (Europe) (En,Fr,De).zip</path>
+    <name>Subwar 2050 (Europe) (En,Fr,De)</name>
+    <image>./media/images/Subwar 2050 (Europe) (En,Fr,De).png</image>
+    <video>./media/videos/Subwar 2050 (Europe) (En,Fr,De).mp4</video>
+  </game>
+  <game>
+    <path>./Summer Olympix (Europe).zip</path>
+    <name>Summer Olympix (Europe)</name>
+    <image>./media/images/Summer Olympix (Europe).png</image>
+    <video>./media/videos/Summer Olympix (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Super Methane Bros. (Europe).zip</path>
+    <name>Super Methane Bros. (Europe)</name>
+    <image>./media/images/Super Methane Bros. (Europe).png</image>
+    <video>./media/videos/Super Methane Bros. (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Super Putty (Europe).zip</path>
+    <name>Super Putty (Europe)</name>
+    <image>./media/images/Super Putty (Europe).png</image>
+    <video>./media/videos/Super Putty (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Super Skidmarks (Europe) (Alt).zip</path>
+    <name>Super Skidmarks (Europe) (Alt)</name>
+    <image>./media/images/Super Skidmarks (Europe) (Alt).png</image>
+    <video>./media/videos/Super Skidmarks (Europe) (Alt).mp4</video>
+  </game>
+  <game>
+    <path>./Super Skidmarks (Europe).zip</path>
+    <name>Super Skidmarks (Europe)</name>
+    <image>./media/images/Super Skidmarks (Europe).png</image>
+    <video>./media/videos/Super Skidmarks (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Super Stardust (Europe).zip</path>
+    <name>Super Stardust (Europe)</name>
+    <image>./media/images/Super Stardust (Europe).png</image>
+    <video>./media/videos/Super Stardust (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Superfrog (Europe).zip</path>
+    <name>Superfrog (Europe)</name>
+    <image>./media/images/Superfrog (Europe).png</image>
+    <video>./media/videos/Superfrog (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Surf Ninjas (Europe).zip</path>
+    <name>Surf Ninjas (Europe)</name>
+    <image>./media/images/Surf Ninjas (Europe).png</image>
+    <video>./media/videos/Surf Ninjas (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Syndicate (Europe) (En,Fr,It).zip</path>
+    <name>Syndicate (Europe) (En,Fr,It)</name>
+    <image>./media/images/Syndicate (Europe) (En,Fr,It).png</image>
+    <video>./media/videos/Syndicate (Europe) (En,Fr,It).mp4</video>
+  </game>
+  <game>
+    <path>./Theme Park (Europe) (En,Fr,De,It).zip</path>
+    <name>Theme Park (Europe) (En,Fr,De,It)</name>
+    <image>./media/images/Theme Park (Europe) (En,Fr,De,It).png</image>
+    <video>./media/videos/Theme Park (Europe) (En,Fr,De,It).mp4</video>
+  </game>
+  <game>
+    <path>./Total Carnage (Europe).zip</path>
+    <name>Total Carnage (Europe)</name>
+    <image>./media/images/Total Carnage (Europe).png</image>
+    <video>./media/videos/Total Carnage (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Trivial Pursuit - The CD32 Edition (Europe).zip</path>
+    <name>Trivial Pursuit - The CD32 Edition (Europe)</name>
+    <image>./media/images/Trivial Pursuit - The CD32 Edition (Europe).png</image>
+    <video>./media/videos/Trivial Pursuit - The CD32 Edition (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Trolls (Europe).zip</path>
+    <name>Trolls (Europe)</name>
+    <image>./media/images/Trolls (Europe).png</image>
+    <video>./media/videos/Trolls (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./UFO - Enemy Unknown (Europe) (En,Fr,De).zip</path>
+    <name>UFO - Enemy Unknown (Europe) (En,Fr,De)</name>
+    <image>./media/images/UFO - Enemy Unknown (Europe) (En,Fr,De).png</image>
+    <video>./media/videos/UFO - Enemy Unknown (Europe) (En,Fr,De).mp4</video>
+  </game>
+  <game>
+    <path>./Ultimate Body Blows (Europe).zip</path>
+    <name>Ultimate Body Blows (Europe)</name>
+    <image>./media/images/Ultimate Body Blows (Europe).png</image>
+    <video>./media/videos/Ultimate Body Blows (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Vital Light (Europe) (Alt).zip</path>
+    <name>Vital Light (Europe) (Alt)</name>
+    <image>./media/images/Vital Light (Europe) (Alt).png</image>
+    <video>./media/videos/Vital Light (Europe) (Alt).mp4</video>
+  </game>
+  <game>
+    <path>./Vital Light (Europe).zip</path>
+    <name>Vital Light (Europe)</name>
+    <image>./media/images/Vital Light (Europe).png</image>
+    <video>./media/videos/Vital Light (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Wembley International Soccer (Europe).zip</path>
+    <name>Wembley International Soccer (Europe)</name>
+    <image>./media/images/Wembley International Soccer (Europe).png</image>
+    <video>./media/videos/Wembley International Soccer (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Whale's Voyage (Europe).zip</path>
+    <name>Whale's Voyage (Europe)</name>
+    <image>./media/images/Whale's Voyage (Europe).png</image>
+    <video>./media/videos/Whale's Voyage (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Wild Cup Soccer (Europe).zip</path>
+    <name>Wild Cup Soccer (Europe)</name>
+    <image>./media/images/Wild Cup Soccer (Europe).png</image>
+    <video>./media/videos/Wild Cup Soccer (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Worms (Europe) (En,Fr,De).zip</path>
+    <name>Worms (Europe) (En,Fr,De)</name>
+    <image>./media/images/Worms (Europe) (En,Fr,De).png</image>
+    <video>./media/videos/Worms (Europe) (En,Fr,De).mp4</video>
+  </game>
+  <game>
+    <path>./Zool - Ninja of the Nth Dimension (Europe).zip</path>
+    <name>Zool - Ninja of the Nth Dimension (Europe)</name>
+    <image>./media/images/Zool - Ninja of the Nth Dimension (Europe).png</image>
+    <video>./media/videos/Zool - Ninja of the Nth Dimension (Europe).mp4</video>
+  </game>
+  <game>
+    <path>./Zool 2 (Europe).zip</path>
+    <name>Zool 2 (Europe)</name>
+    <image>./media/images/Zool 2 (Europe).png</image>
+    <video>./media/videos/Zool 2 (Europe).mp4</video>
+  </game>
+</gameList>

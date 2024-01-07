@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<gameList>
+  <game>
+    <path>./Bishoujo Senshi Sailor Moon Sailor Stars - Fuwafuwa Panic 2 (Japan).zip</path>
+    <name>Bishoujo Senshi Sailor Moon Sailor Stars - Fuwafuwa Panic 2 (Japan)</name>
+    <image>./media/images/Bishoujo Senshi Sailor Moon Sailor Stars - Fuwafuwa Panic 2 (Japan).png</image>
+    <video>./media/videos/Bishoujo Senshi Sailor Moon Sailor Stars - Fuwafuwa Panic 2 (Japan).mp4</video>
+  </game>
+  <game>
+    <path>./Crayon Shin-chan - Nagagutsu Dobon!! (Japan).zip</path>
+    <name>Crayon Shin-chan - Nagagutsu Dobon!! (Japan)</name>
+    <image>./media/images/Crayon Shin-chan - Nagagutsu Dobon!! (Japan).png</image>
+    <video>./media/videos/Crayon Shin-chan - Nagagutsu Dobon!! (Japan).mp4</video>
+  </game>
+  <game>
+    <path>./Gegege no Kitarou - Youkai Donjara (Japan).zip</path>
+    <name>Gegege no Kitarou - Youkai Donjara (Japan)</name>
+    <image>./media/images/Gegege no Kitarou - Youkai Donjara (Japan).png</image>
+    <video>./media/videos/Gegege no Kitarou - Youkai Donjara (Japan).mp4</video>
+  </game>
+  <game>
+    <path>./Gekisou Sentai Carranger - Zenkai! Racer Senshi (Japan).zip</path>
+    <name>Gekisou Sentai Carranger - Zenkai! Racer Senshi (Japan)</name>
+    <image>./media/images/Gekisou Sentai Carranger - Zenkai! Racer Senshi (Japan).png</image>
+    <video>./media/videos/Gekisou Sentai Carranger - Zenkai! Racer Senshi (Japan).mp4</video>
+  </game>
+  <game>
+    <path>./Poi Poi Ninja World (Japan).zip</path>
+    <name>Poi Poi Ninja World (Japan)</name>
+    <image>./media/images/Poi Poi Ninja World (Japan).png</image>
+    <video>./media/videos/Poi Poi Ninja World (Japan).mp4</video>
+  </game>
+  <game>
+    <path>./SD Gundam Generation - Axis Senki (Japan).zip</path>
+    <name>SD Gundam Generation - Axis Senki (Japan)</name>
+    <image>./media/images/SD Gundam Generation - Axis Senki (Japan).png</image>
+    <video>./media/videos/SD Gundam Generation - Axis Senki (Japan).mp4</video>
+  </game>
+  <game>
+    <path>./SD Gundam Generation - Babylonia Kenkoku Senki (Japan).zip</path>
+    <name>SD Gundam Generation - Babylonia Kenkoku Senki (Japan)</name>
+    <image>./media/images/SD Gundam Generation - Babylonia Kenkoku Senki (Japan).png</image>
+    <video>./media/videos/SD Gundam Generation - Babylonia Kenkoku Senki (Japan).mp4</video>
+  </game>
+  <game>
+    <path>./SD Gundam Generation - Colony Kakutouki (Japan).zip</path>
+    <name>SD Gundam Generation - Colony Kakutouki (Japan)</name>
+    <image>./media/images/SD Gundam Generation - Colony Kakutouki (Japan).png</image>
+    <video>./media/videos/SD Gundam Generation - Colony Kakutouki (Japan).mp4</video>
+  </game>
+  <game>
+    <path>./SD Gundam Generation - Gryps Senki (Japan).zip</path>
+    <name>SD Gundam Generation - Gryps Senki (Japan)</name>
+    <image>./media/images/SD Gundam Generation - Gryps Senki (Japan).png</image>
+    <video>./media/videos/SD Gundam Generation - Gryps Senki (Japan).mp4</video>
+  </game>
+  <game>
+    <path>./SD Gundam Generation - Ichinen Sensouki (Japan).zip</path>
+    <name>SD Gundam Generation - Ichinen Sensouki (Japan)</name>
+    <image>./media/images/SD Gundam Generation - Ichinen Sensouki (Japan).png</image>
+    <video>./media/videos/SD Gundam Generation - Ichinen Sensouki (Japan).mp4</video>
+  </game>
+  <game>
+    <path>./SD Gundam Generation - Zanscare Senki (Japan).zip</path>
+    <name>SD Gundam Generation - Zanscare Senki (Japan)</name>
+    <image>./media/images/SD Gundam Generation - Zanscare Senki (Japan).png</image>
+    <video>./media/videos/SD Gundam Generation - Zanscare Senki (Japan).mp4</video>
+  </game>
+  <game>
+    <path>./SD Ultra Battle - Seven Densetsu (Japan).zip</path>
+    <name>SD Ultra Battle - Seven Densetsu (Japan)</name>
+    <image>./media/images/SD Ultra Battle - Seven Densetsu (Japan).png</image>
+    <video>./media/videos/SD Ultra Battle - Seven Densetsu (Japan).mp4</video>
+  </game>
+  <game>
+    <path>./SD Ultra Battle - Ultraman Densetsu (Japan).zip</path>
+    <name>SD Ultra Battle - Ultraman Densetsu (Japan)</name>
+    <image>./media/images/SD Ultra Battle - Ultraman Densetsu (Japan).png</image>
+    <video>./media/videos/SD Ultra Battle - Ultraman Densetsu (Japan).mp4</video>
+  </game>
+</gameList>
