@@ -206,6 +206,78 @@ if [ "$mode_choice" = "1" ]; then
       echo "Overwriting systemlist.xml with online version..."
       cp "$offline_online" "$offline_systemlist"
       echo "Online version applied."
+
+      # Mount rclone using the provided command
+      echo "Mounting rclone..."
+      rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone.conf --daemon --allow-non-empty --http-no-head
+sleep 2
+      # Process the platforms.txt file
+      while IFS= read -r roms_entry; do
+        # Strip leading "roms+=(" and trailing ")"
+        roms_entry="${roms_entry#roms+=\(\"}"
+        roms_entry="${roms_entry%\")}"
+
+        # Split the entry into an array
+        IFS=";" read -r console_name console_romset console_directory online_dir libretro_core <<< "$roms_entry"
+
+        # Print the raw platform entry for debugging
+        echo "Raw Platform Entry: $roms_entry"
+
+        # Skip lines without roms entry
+        if [ -z "$console_name" ]; then
+          echo "Error: Missing roms entry. Skipping this platform."
+          continue
+        fi
+
+        # Additional check for problematic directory names
+        if [ -z "$console_romset" ] || [ -z "$console_directory" ] || [ -z "$online_dir" ]; then
+          echo "Error: Unable to extract information from platform entry. Skipping this platform."
+          continue
+        fi
+
+        # Set online directory to the desired value
+        online_dir="/recalbox/share/roms/readystream/$(sanitize_dir_name "$console_name")"
+
+        # Set console directory with the full path and items from console_romset
+        console_directory="/recalbox/share/rom/$console_romset"
+
+        echo "Debugging output:"
+        echo "Console name: $console_name"
+        echo "Console ROM set: $console_romset"
+        echo "Console directory: $console_directory"
+        echo "Online directory: $online_dir"
+
+        # Ensure the online directory exists
+        mkdir -p "$online_dir"
+
+        # Copy gamelist.xml and checksum from the provided directory
+        if [ ! -e "/recalbox/share/userscripts/.config/readystream/roms/$console_name/gamelist.xml" ] || [ ! -e "/recalbox/share/userscripts/.config/readystream/roms/$console_name/gamelist.xml.md5" ]; then
+          # Copy gamelist.xml and checksum only if they don't exist
+          cp "/recalbox/share/userscripts/.config/readystream/roms/$console_name/gamelist.xml" "/recalbox/share/userscripts/.config/readystream/roms/$console_name/gamelist.xml.md5" "$online_dir/"
+          echo "Files copied successfully."
+        else
+          echo "Files already exist. No need to copy."
+        fi
+
+        # Check if the gamelist.xml and checksum exist in the online directory
+        if [ ! -f "$online_dir/$console_name/gamelist.xml" ] || [ ! -f "$online_dir/$console_name/gamelist.xml.md5" ]; then
+          echo "Error: Failed to copy gamelist.xml and checksum to online directory. They may already exist or other issues."
+        else
+          # Check the checksum of the gamelist.xml in the online directory
+          if ! md5sum -c "$online_dir/$console_name/gamelist.xml.md5" &>/dev/null; then
+            # If checksum doesn't match, generate gamelist.xml and checksum
+            generate_gamelist_xml "$console_directory" "$online_dir/$console_name"
+            # Create console directory in the provided folder
+            create_console_directory "$console_name"
+            # Copy generated gamelist.xml and checksum to the provided folder
+            cp "$online_dir/$console_name/gamelist.xml" "$online_dir/$console_name/gamelist.xml.md5" "/recalbox/share/userscripts/.config/readystream/roms/$console_name/"
+          fi
+        fi
+      done < <(grep "^roms+=(" /recalbox/share/system/.config/platforms.txt)
+
+      echo "Installation complete. Log saved to: $log_file"
+
+      chvt 1; es start
     else
       echo "systemlist.xml is already up to date."
     fi
@@ -216,9 +288,9 @@ else
   # Offline Mode
   if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
     offline_size=$(wc -c < "$offline_systemlist")
-    offline_size_offline=$(wc -c < "$offline_offline")  # Corrected variable name
+    offline_size_offline=$(wc -c < "$offline_offline")
 
-    if [ "$offline_size" -ne "$offline_size_offline" ]; then  # Corrected variable name
+    if [ "$offline_size" -ne "$offline_size_offline" ]; then
       echo "Backing up systemlist.xml..."
       cp "$offline_systemlist" "$offline_backup"
       echo "Backup created: $offline_backup"
@@ -240,80 +312,5 @@ else
   fi
 fi
 
-# Mount rclone using the provided command
-echo "Mounting rclone..."
-rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone.conf --daemon --allow-non-empty --http-no-head
-
-# Wait for the mount to be ready
-sleep 5
-
-# Process the platforms.txt file
-while IFS= read -r roms_entry; do
-  # Strip leading "roms+=(" and trailing ")"
-  roms_entry="${roms_entry#roms+=\(\"}"
-  roms_entry="${roms_entry%\")}"
-
-  # Split the entry into an array
-  IFS=";" read -r console_name console_romset console_directory online_dir libretro_core <<< "$roms_entry"
-
-  # Print the raw platform entry for debugging
-  echo "Raw Platform Entry: $roms_entry"
-
-  # Skip lines without roms entry
-  if [ -z "$console_name" ]; then
-    echo "Error: Missing roms entry. Skipping this platform."
-    continue
-  fi
-
-  # Additional check for problematic directory names
-  if [ -z "$console_romset" ] || [ -z "$console_directory" ] || [ -z "$online_dir" ]; then
-    echo "Error: Unable to extract information from platform entry. Skipping this platform."
-    continue
-  fi
-
-  # Set online directory to the desired value
-  online_dir="/recalbox/share/roms/readystream/$(sanitize_dir_name "$console_name")"
-
-  # Set console directory with the full path and items from console_romset
-  console_directory="/recalbox/share/rom/$console_romset"
-
-  echo "Debugging output:"
-  echo "Console name: $console_name"
-  echo "Console ROM set: $console_romset"
-  echo "Console directory: $console_directory"
-  echo "Online directory: $online_dir"
-
-  # Ensure the online directory exists
-  mkdir -p "$online_dir"
-
-# Copy gamelist.xml and checksum from the provided directory
-
-if [ ! -e "/recalbox/share/userscripts/.config/readystream/roms/$console_name/gamelist.xml" ] || [ ! -e "/recalbox/share/userscripts/.config/readystream/roms/$console_name/gamelist.xml.md5" ]; then
-    # Copy gamelist.xml and checksum only if they don't exist
-    cp "/recalbox/share/userscripts/.config/readystream/roms/$console_name/gamelist.xml" "/recalbox/share/userscripts/.config/readystream/roms/$console_name/gamelist.xml.md5" "$online_dir/"
-    echo "Files copied successfully."
-else
-    echo "Files already exist. No need to copy."
-fi
-
-
-# Check if the gamelist.xml and checksum exist in the online directory
-if [ ! -f "$online_dir/$console_name/gamelist.xml" ] || [ ! -f "$online_dir/$console_name/gamelist.xml.md5" ]; then
-  echo "Error: Failed to copy gamelist.xml and checksum to online directory. They may already exist or other issues."
-else
-  # Check the checksum of the gamelist.xml in the online directory
-  if ! md5sum -c "$online_dir/$console_name/gamelist.xml.md5" &>/dev/null; then
-    # If checksum doesn't match, generate gamelist.xml and checksum
-    generate_gamelist_xml "$console_directory" "$online_dir/$console_name"
-    # Create console directory in the provided folder
-    create_console_directory "$console_name"
-    # Copy generated gamelist.xml and checksum to the provided folder
-    cp "$online_dir/$console_name/gamelist.xml" "$online_dir/$console_name/gamelist.xml.md5" "/recalbox/share/userscripts/.config/readystream/roms/$console_name/"
-  fi
-fi
-
-done < <(grep "^roms+=(" /recalbox/share/system/.config/platforms.txt)
-
 echo "Installation complete. Log saved to: $log_file"
 
-chvt 1; es start
