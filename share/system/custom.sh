@@ -172,13 +172,19 @@ echo "Please select a mode:"
 echo "1. Online Mode"
 echo "2. Offline Mode"
 
-# Capture single keypress without requiring Enter
-read -n 1 -p "Selected Mode: " input
+# Capture input with timeout
+# Default to Offline Mode if no input within the timeout
+timeout_seconds=5
+read -t "$timeout_seconds" -r input || input="2"
 
-# Default to Offline Mode if no input within the timeout or not 1
+# Offline Mode
 mode_choice="${input:-2}"
 
+# Online Mode
+mode_choice="${input:-1}"
+
 echo "Selected Mode: $mode_choice"
+
 
 # Check and update systemlist.xml based on user choice
 offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
