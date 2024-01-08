@@ -216,16 +216,22 @@ else
   # Offline Mode
   if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
     offline_size=$(wc -c < "$offline_systemlist")
-    offline_size=$(wc -c < "$offline_offline")
+    offline_size_offline=$(wc -c < "$offline_offline")  # Corrected variable name
 
-    if [ "$offline_size" -ne "$offline_size" ]; then
+    if [ "$offline_size" -ne "$offline_size_offline" ]; then  # Corrected variable name
       echo "Backing up systemlist.xml..."
       cp "$offline_systemlist" "$offline_backup"
       echo "Backup created: $offline_backup"
 
       echo "Overwriting systemlist.xml with offline version..."
       cp "$offline_offline" "$offline_systemlist"
-      echo "Offline version applied."
+      
+      # Check if overwrite was successful
+      if [ $? -eq 0 ]; then
+        echo "Offline version applied."
+      else
+        echo "Error: Overwriting with offline version failed."
+      fi
     else
       echo "systemlist.xml is already up to date."
     fi
