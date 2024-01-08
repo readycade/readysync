@@ -167,32 +167,18 @@ else
     echo "rclone.conf already exists. No need to copy."
 fi
 
+# Display menu
+echo "Please select a mode:"
+echo "1. Online Mode"
+echo "2. Offline Mode"
 
-# Display a menu for Online / Offline
-PS3="Please select a mode: "
-options=("Online Mode" "Offline Mode")
+# Capture single keypress without requiring Enter
+read -n 1 -p "Selected Mode: " input
 
-# Default choice for select (sets the cursor position)
-default_choice=2
-
-select opt in "${options[@]}"; do
-  case $opt in
-    "Online Mode")
-      mode_choice=1
-      break
-      ;;
-    "Offline Mode")
-      mode_choice=2
-      break
-      ;;
-    *)
-      echo "Invalid option, please try again."
-      ;;
-  esac
-done
+# Default to Offline Mode if no input within the timeout or not 1
+mode_choice="${input:-2}"
 
 echo "Selected Mode: $mode_choice"
-
 
 # Check and update systemlist.xml based on user choice
 offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
