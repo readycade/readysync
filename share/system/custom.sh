@@ -89,28 +89,6 @@ create_console_directory() {
   mkdir -p "/recalbox/share/userscripts/.config/readystream/roms/$console_name"
 }
 
-mkdir -p /recalbox/share/roms/readystream
-mkdir -p /recalbox/share/rom
-mkdir -p /recalbox/share/zip
-#mkdir -p /recalbox/share/thumbs
-
-
-# If platforms.txt does not exist, copy it
-if [ ! -e /recalbox/share/system/.config/platforms.txt ]; then
-    cp /recalbox/share/userscripts/.config/readystream/platforms.txt /recalbox/share/system/.config/
-    echo "platforms.txt copied successfully."
-else
-    echo "platforms.txt already exists. No need to copy."
-fi
-
-# If rclone.conf does not exist, copy it
-if [ ! -e /recalbox/share/system/rclone.conf ]; then
-    cp /recalbox/share/userscripts/.config/readystream/rclone.conf /recalbox/share/system/
-    echo "rclone.conf copied successfully."
-else
-    echo "rclone.conf already exists. No need to copy."
-fi
-
 # Detect architecture
 case $(uname -m) in
   x86_64) sevenzip_arch="x64"; rclone_arch="amd64" ;;
@@ -149,6 +127,44 @@ if [ ! -f /usr/bin/mount-zip ]; then
   echo "mount-zip installed successfully."
 else
   echo "mount-zip is already installed."
+fi
+
+# If directories don't exist, create them
+if [ ! -d /recalbox/share/roms/readystream ]; then
+    mkdir -p /recalbox/share/roms/readystream
+    echo "Directory /recalbox/share/roms/readystream created successfully."
+else
+    echo "Directory /recalbox/share/roms/readystream already exists. No need to create."
+fi
+
+if [ ! -d /recalbox/share/rom ]; then
+    mkdir -p /recalbox/share/rom
+    echo "Directory /recalbox/share/rom created successfully."
+else
+    echo "Directory /recalbox/share/rom already exists. No need to create."
+fi
+
+if [ ! -d /recalbox/share/zip ]; then
+    mkdir -p /recalbox/share/zip
+    echo "Directory /recalbox/share/zip created successfully."
+else
+    echo "Directory /recalbox/share/zip already exists. No need to create."
+fi
+
+# If platforms.txt does not exist, copy it
+if [ ! -e /recalbox/share/system/.config/platforms.txt ]; then
+    cp /recalbox/share/userscripts/.config/readystream/platforms.txt /recalbox/share/system/.config/
+    echo "platforms.txt copied successfully."
+else
+    echo "platforms.txt already exists. No need to copy."
+fi
+
+# If rclone.conf does not exist, copy it
+if [ ! -e /recalbox/share/system/rclone.conf ]; then
+    cp /recalbox/share/userscripts/.config/readystream/rclone.conf /recalbox/share/system/
+    echo "rclone.conf copied successfully."
+else
+    echo "rclone.conf already exists. No need to copy."
 fi
 
 # Display menu
@@ -263,7 +279,15 @@ while IFS= read -r roms_entry; do
   mkdir -p "$online_dir"
 
 # Copy gamelist.xml and checksum from the provided directory
-cp "/recalbox/share/userscripts/.config/readystream/roms/$console_name/gamelist.xml" "/recalbox/share/userscripts/.config/readystream/roms/$console_name/gamelist.xml.md5" "$online_dir/"
+
+if [ ! -e "/recalbox/share/userscripts/.config/readystream/roms/$console_name/gamelist.xml" ] || [ ! -e "/recalbox/share/userscripts/.config/readystream/roms/$console_name/gamelist.xml.md5" ]; then
+    # Copy gamelist.xml and checksum only if they don't exist
+    cp "/recalbox/share/userscripts/.config/readystream/roms/$console_name/gamelist.xml" "/recalbox/share/userscripts/.config/readystream/roms/$console_name/gamelist.xml.md5" "$online_dir/"
+    echo "Files copied successfully."
+else
+    echo "Files already exist. No need to copy."
+fi
+
 
 # Check if the gamelist.xml and checksum exist in the online directory
 if [ ! -f "$online_dir/$console_name/gamelist.xml" ] || [ ! -f "$online_dir/$console_name/gamelist.xml.md5" ]; then
@@ -281,9 +305,6 @@ else
 fi
 
 done < <(grep "^roms+=(" /recalbox/share/system/.config/platforms.txt)
-
-# Unmount rclone
-#fusermount -u /recalbox/share/rom
 
 echo "Installation complete. Log saved to: $log_file"
 
