@@ -176,7 +176,7 @@ echo "2. Offline Mode"
 # Default to Offline Mode if no input within the timeout
 # Change input="2" (Offline Mode) to input="1" for (Online Mode)
 timeout_seconds=5
-read -t "$timeout_seconds" -r input || input="2"
+read -t "$timeout_seconds" -r input || input="1"
 
 # Offline Mode
 mode_choice="${input:-2}"
@@ -196,22 +196,20 @@ offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlis
 if [ "$mode_choice" = "1" ]; then
   # Online Mode
   if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
-    offline_size=$(wc -c < "$offline_systemlist")
-    online_size=$(wc -c < "$offline_online")
+    # Backup the existing systemlist.xml
+    echo "Backing up systemlist.xml..."
+    cp "$offline_systemlist" "$offline_backup"
+    echo "Backup created: $offline_backup"
 
-    if [ "$offline_size" -ne "$online_size" ]; then
-      echo "Backing up systemlist.xml..."
-      cp "$offline_systemlist" "$offline_backup"
-      echo "Backup created: $offline_backup"
+    # Overwrite systemlist.xml with online version
+    echo "Overwriting systemlist.xml with online version..."
+    cp "$offline_online" "$offline_systemlist"
+    echo "Online version applied."
 
-      echo "Overwriting systemlist.xml with online version..."
-      cp "$offline_online" "$offline_systemlist"
-      echo "Online version applied."
-
-      # Mount rclone using the provided command
-      echo "Mounting rclone..."
-      rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone.conf --daemon --allow-non-empty --http-no-head
-sleep 2
+    # Mount rclone using the provided command
+    echo "Mounting rclone..."
+    rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone.conf --daemon --allow-non-empty --http-no-head
+	sleep 2
       # Process the platforms.txt file
       while IFS= read -r roms_entry; do
         # Strip leading "roms+=(" and trailing ")"
@@ -288,26 +286,21 @@ sleep 2
 else
   # Offline Mode
   if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
-    offline_size=$(wc -c < "$offline_systemlist")
-    offline_size_offline=$(wc -c < "$offline_offline")
+    # Backup the existing systemlist.xml
+    echo "Backing up systemlist.xml..."
+    cp "$offline_systemlist" "$offline_backup"
+    echo "Backup created: $offline_backup"
 
-    if [ "$offline_size" -ne "$offline_size_offline" ]; then
-      echo "Backing up systemlist.xml..."
-      cp "$offline_systemlist" "$offline_backup"
-      echo "Backup created: $offline_backup"
+    # Overwrite systemlist.xml with offline version
+    echo "Overwriting systemlist.xml with offline version..."
+    cp "$offline_offline" "$offline_systemlist"
+    echo "Offline version applied."
 
-      echo "Overwriting systemlist.xml with offline version..."
-      cp "$offline_offline" "$offline_systemlist"
-      
-      # Check if overwrite was successful
-      if [ $? -eq 0 ]; then
-        echo "Offline version applied."
-      else
-        echo "Error: Overwriting with offline version failed."
-      fi
-    else
-      echo "systemlist.xml is already up to date."
-    fi
+    # ... (rest of your code for processing platforms.txt)
+
+    echo "Installation complete. Log saved to: $log_file"
+
+    chvt 1; es start
   else
     echo "Error: systemlist.xml files not found."
   fi
