@@ -29,7 +29,7 @@
     </emulatorList>
   </system>
   <system uuid="b58b9072-0e44-4330-869d-96b72f53de1f" name="3do" fullname="Panasonic 3DO">
-    <descriptor path="%ROOT%/readystream/3do" theme="3do" extensions=".iso .chd .cue" icon="$F28d" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/*.cue" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="%ROOT%/readystream/3do" theme="3do" extensions=".iso .chd .cue" icon="$F28d" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.cue -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
     <scraper screenscraper="29"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="optional" releasedate="1993-10" manufacturer="Panasonic" retroachievements="1" crt.multiresolution="1" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -80,7 +80,7 @@
     </emulatorList>
   </system>
   <system uuid="d7702775-ed5b-4f89-97f1-2c1d0b0fed2c" name="amigacd32" fullname="Amiga CD32">
-    <descriptor path="%ROOT%/readystream/amigacd32" theme="amigacd32" extensions=".mds .chd .ccd .iso .m3u .uae .nrg .cue" icon="$F293" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/*.cue" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%" />
+    <descriptor path="%ROOT%/readystream/amigacd32" theme="amigacd32" extensions=".mds .chd .ccd .iso .m3u .uae .nrg .cue" icon="$F293" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.cue -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%" />
     <scraper screenscraper="130"/>
     <properties type="console" pad="mandatory" keyboard="optional" mouse="optional" lightgun="no" releasedate="1993-09" manufacturer="Commodore" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -90,7 +90,7 @@
     </emulatorList>
   </system>
   <system uuid="3c290260-a94c-47e4-a8f5-cd47d1c0dad6" name="amigacdtv" fullname="Amiga CDTV">
-    <descriptor path="%ROOT%/readystream/amigacdtv" theme="amigacdtv" extensions=".mds .chd .ccd .iso .m3u .uae .zip .nrg .cue" icon="$F294" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/*.cue" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%" />
+    <descriptor path="%ROOT%/readystream/amigacdtv" theme="amigacdtv" extensions=".mds .chd .ccd .iso .m3u .uae .zip .nrg .cue" icon="$F294" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.cue -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%" />
     <scraper screenscraper="129"/>
     <properties type="console" pad="mandatory" keyboard="optional" mouse="optional" lightgun="no" releasedate="1991-08" manufacturer="Commodore" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -267,7 +267,7 @@
     </emulatorList>
   </system>
   <system uuid="1e0ae4a3-b65e-40f2-b3e3-01fd2576bb8e" name="cdi" fullname="Philips CD-I">
-    <descriptor path="%ROOT%/readystream/cdi" theme="cdi" extensions=".chd .cmd .iso .zip .cue" icon="$F29E" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/*.cue" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="%ROOT%/readystream/cdi" theme="cdi" extensions=".chd .cmd .iso .zip .cue" icon="$F29E" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.cue -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
     <scraper screenscraper="133"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="optional" lightgun="optional" releasedate="1991-10" manufacturer="Phillips" retroachievements="0" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -354,7 +354,7 @@
     </emulatorList>
   </system>
   <system uuid="795903fb-4077-4a0d-b8a3-94b813d62f8d" name="dreamcast" fullname="Sega Dreamcast">
-    <descriptor path="%ROOT%/readystream/dreamcast" theme="dreamcast" extensions=".chd .gdi .bin .iso .m3u .cdi .elf .cue" icon="$F26e" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/*.cue" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="%ROOT%/readystream/dreamcast" theme="dreamcast" extensions=".chd .gdi .bin .iso .m3u .cdi .elf .cue" icon="$F26e" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.cue -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
     <scraper screenscraper="23"/>
     <properties type="console" pad="mandatory" keyboard="optional" mouse="optional" lightgun="optional" releasedate="1998-11" manufacturer="Sega" retroachievements="1" crt.multiresolution="1" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -429,7 +429,7 @@
     </emulatorList>
   </system>
   <system uuid="19a93303-aef1-4105-b89e-1ad2ff56529f" name="gb" fullname="Game Boy">
-    <descriptor path="%ROOT%/readystream/gb" theme="gb" extensions=".bin .7z .gb .zip" icon="$F264" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/*.rvz" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="%ROOT%/readystream/gb" theme="gb" extensions=".bin .7z .gb .zip" icon="$F264" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.rvz -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
     <scraper screenscraper="9"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1989-04" manufacturer="Nintendo" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -765,7 +765,7 @@
     </emulatorList>
   </system>
   <system uuid="4b3915a7-8b05-4646-ae4c-255057060e7a" name="neogeocd" fullname="Neo-Geo CD">
-    <descriptor path="%ROOT%/readystream/neogeocd" theme="neogeocd" extensions=".chd .img .bin .ccd .iso .cue" icon="$F2bb" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/*.cue" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="%ROOT%/readystream/neogeocd" theme="neogeocd" extensions=".chd .img .bin .ccd .iso .cue" icon="$F2bb" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.cue -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
     <scraper screenscraper="70"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1994-09" manufacturer="SNK" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -864,7 +864,7 @@
     </emulatorList>
   </system>
   <system uuid="07d1d12d-b4bf-45b9-a73a-b16d5954dcb0" name="pc88" fullname="NEC PC-88">
-    <descriptor path="%ROOT%/readystream/pc88" theme="pc88" extensions=".d88 .t88 .cmt .m3u .zip .7z" icon="$F2c0" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/*.cue" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="%ROOT%/readystream/pc88" theme="pc88" extensions=".d88 .t88 .cmt .m3u .zip .7z" icon="$F2c0" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.cue -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
     <scraper screenscraper="221"/>
     <properties type="computer" pad="optional" keyboard="mandatory" mouse="no" lightgun="no" releasedate="1981-11" manufacturer="NEC" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -874,7 +874,7 @@
     </emulatorList>
   </system>
   <system uuid="15f824eb-3277-4ecf-9cbc-8f09c72a4139" name="pc98" fullname="NEC PC-98">
-    <descriptor path="%ROOT%/readystream/pc98" theme="pc98" extensions=".fdd .nfd .2hd .thd .m3u .xdf .hdn .tfd .fdi .hdm .nhd .d98 .dup .98d .hdd .d88 .hdi .dcp .cmd .88d .zip .7z" icon="$F2c1" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/*.cue" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="%ROOT%/readystream/pc98" theme="pc98" extensions=".fdd .nfd .2hd .thd .m3u .xdf .hdn .tfd .fdi .hdm .nhd .d98 .dup .98d .hdd .d88 .hdi .dcp .cmd .88d .zip .7z" icon="$F2c1" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.cue -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
     <scraper screenscraper="208"/>
     <properties type="computer" pad="recommended" keyboard="mandatory" mouse="optional" lightgun="no" releasedate="1982-10" manufacturer="NEC" retroachievements="0" crt.multiresolution="1" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -896,7 +896,7 @@
     </emulatorList>
   </system>
   <system uuid="27291bbe-713a-4e2b-a64b-7651f580ad32" name="pcenginecd" fullname="PC Engine CD">
-    <descriptor path="%ROOT%/readystream/pcenginecd" theme="pcenginecd" extensions=".chd .sgx .img .bin .ccd .iso pce .pce .cue" icon="$F273" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/*.cue" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="%ROOT%/readystream/pcenginecd" theme="pcenginecd" extensions=".chd .sgx .img .bin .ccd .iso pce .pce .cue" icon="$F273" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.cue -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
     <scraper screenscraper="114"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1988-12" manufacturer="NEC" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -907,7 +907,7 @@
     </emulatorList>
   </system>
   <system uuid="f5fd45c4-c18e-4279-90f4-321146dd1677" name="pcfx" fullname="NEC PC-FX">
-    <descriptor path="%ROOT%/readystream/pcfx" theme="pcfx" extensions=".ccd .toc .chd .cue" icon="$F2c2" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/*.cue" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="%ROOT%/readystream/pcfx" theme="pcfx" extensions=".ccd .toc .chd .cue" icon="$F2c2" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.cue -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
     <scraper screenscraper="72"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1994-12" manufacturer="NEC" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -956,8 +956,8 @@
         <exec-if fileExtension="iso">
             <command>
                 <umount>/iso</umount>
-                <mount-iso>%ROM% "/iso/*.iso"</mount-iso>
-                <python>/usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/*.iso" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%</python>
+                <mount-iso>%ROM% /iso/*.iso</mount-iso>
+                <python>/usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.iso -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%</python>
             </command>
         </exec-if>
 
@@ -965,8 +965,8 @@
         <exec-if fileExtension="cue">
             <command>
                 <umount>/iso</umount>
-                <mount-cue>%ROM% "/iso/*.cue"</mount-cue>
-                <python>/usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/*.cue" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%</python>
+                <mount-cue>%ROM% /iso/*.cue</mount-cue>
+                <python>/usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.cue -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%</python>
             </command>
         </exec-if>
     </command>
@@ -983,7 +983,7 @@
     </emulatorList>
   </system>
   <system uuid="3036aed7-6c91-49f3-be3d-3be465c002eb" name="psp" fullname="Sony Playstation Portable">
-    <descriptor path="%ROOT%/readystream/psp" theme="psp" extensions=".prx .cso .iso .elf .pbp" icon="$F274" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/*.iso" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="%ROOT%/readystream/psp" theme="psp" extensions=".prx .cso .iso .elf .pbp" icon="$F274" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.iso -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
     <scraper screenscraper="61"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2004-12" manufacturer="Sony" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -996,7 +996,7 @@
     </emulatorList>
   </system>
   <system uuid="3fc6d10e-aec1-41c9-9c84-0da8b0fa26ee" name="psx" fullname="Sony Playstation 1">
-    <descriptor path="%ROOT%/readystream/psx" theme="psx" extensions=".mds .chd .img .bin .ccd .iso .m3u .ecm .toc .pbp .cue" icon="$F275" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/*.cue" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="%ROOT%/readystream/psx" theme="psx" extensions=".mds .chd .img .bin .ccd .iso .m3u .ecm .toc .pbp .cue" icon="$F275" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.cue -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
     <scraper screenscraper="57"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="optional" releasedate="1994-12" manufacturer="Sony" retroachievements="1" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -1065,7 +1065,7 @@
     </emulatorList>
   </system>
   <system uuid="27be49e9-54df-441b-b66a-5f803d5c4e57" name="saturn" fullname="Sega Saturn">
-    <descriptor path="%ROOT%/readystream/saturn" theme="saturn" extensions=".mds .chd .ccd .iso .m3u .cue" icon="$F2d5" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/*.cue" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="%ROOT%/readystream/saturn" theme="saturn" extensions=".mds .chd .ccd .iso .m3u .cue" icon="$F2d5" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.cue -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
     <scraper screenscraper="22"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="1994-11" manufacturer="Sega" retroachievements="1" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -1108,7 +1108,7 @@
     </emulatorList>
   </system>
   <system uuid="bcb385ac-2ead-4183-9750-9630910f37f2" name="segacd" fullname="Sega CD">
-    <descriptor path="%ROOT%/readystream/segacd" theme="segacd" extensions=".iso .chd .cue" icon="$F26d" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/*.cue" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="%ROOT%/readystream/segacd" theme="segacd" extensions=".iso .chd .cue" icon="$F26d" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.cue -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
     <scraper screenscraper="20"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="1991-12" manufacturer="Sega" retroachievements="1" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -1309,7 +1309,7 @@
     </emulatorList>
   </system>
   <system uuid="f15edcf2-3154-40ba-8648-6e6d818b92e1" name="wii" fullname="Wii">
-    <descriptor path="%ROOT%/readystream/wii" theme="wii" extensions=".wbfs .iso .ciso .wia .rvz .gcz" icon="$F263" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/*.rvz" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="%ROOT%/readystream/wii" theme="wii" extensions=".wbfs .iso .ciso .wia .rvz .gcz" icon="$F263" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.rvz -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
     <scraper screenscraper="16"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2006-11" manufacturer="Nintendo" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
