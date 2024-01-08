@@ -38,6 +38,16 @@
       </emulator>
     </emulatorList>
   </system>
+  <system uuid="b58b9072-0e44-4330-869d-96b72f53de1f" name="3ds" fullname="3DS">
+    <descriptor path="%ROOT%/readystream/3ds" theme="3ds" extensions=".3ds .3dsx .cxi .axf .elf .zip" icon="" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.3ds -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <scraper screenscraper=""/>
+    <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="optional" releasedate="1993-10" manufacturer="Nintendo" retroachievements="1" crt.multiresolution="1" crt.multiregion="0" ignoredfiles=""/>
+    <emulatorList>
+      <emulator name="libretro">
+        <core name="citra" priority="1" extensions=".3ds .3dsx .cxi .axf .elf .zip" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
+      </emulator>
+    </emulatorList>
+  </system>
   <system uuid="c771dc13-7d3e-4330-a61d-9676a4d6c468" name="64dd" fullname="Nintendo 64DD">
     <descriptor path="%ROOT%/readystream/64dd" theme="64dd" extensions=".ndd .bin .z64 .v64 .n64" icon="$F28f" downloader="0"/>
     <scraper screenscraper="122"/>
@@ -124,7 +134,7 @@
     </emulatorList>
   </system>
   <system uuid="dc5b81d6-daaa-11ed-afa1-0242ac120002" name="arduboy" fullname="Arduboy">
-    <descriptor path="%ROOT%/readystream/arduboy" theme="arduboy" extensions=".hex" icon="$F286" downloader="0"/>
+    <descriptor path="%ROOT%/readystream/arduboy" theme="arduboy" extensions=".hex" icon="$F286" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.hex -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
     <scraper screenscraper="263"/>
     <properties type="fantasy" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2021-08" manufacturer="fantasy" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -937,7 +947,30 @@
     </emulatorList>
   </system>
   <system uuid="4dd5637f-efe5-4f77-918c-f18b0873094d" name="ps2" fullname="Sony Playstation 2">
-    <descriptor path="%ROOT%/readystream/ps2" theme="ps2" extensions=".chd .img .gz .cso .bin .iso .nrg .mdf" icon="$F2c8" downloader="0" command=head %ROM%; umount /userdata/iso; /userdata/system/mount-zip %ROM% /userdata/iso; emulatorlauncher %CONTROLLERSCONFIG% -system %SYSTEM% -rom /userdata/iso/*.iso -gameinfoxml %GAMEINFOXML% -systemname %SYSTEMNAME%; emulatorlauncher %CONTROLLERSCONFIG% -system %SYSTEM% -rom /userdata/iso/*.cue -gameinfoxml %GAMEINFOXML% -systemname %SYSTEMNAME%"/>
+	<descriptor path="%ROOT%/readystream/ps2" theme="ps2" extensions=".chd .img .gz .cso .bin .iso .nrg .mdf .cue" icon="$F2c8" downloader="0">
+    <command>
+        <!-- Extract the contents of the zip file -->
+        <extract-zip>%ROM% /iso</extract-zip>
+
+        <!-- Check file extension and execute the appropriate command for ISO -->
+        <exec-if fileExtension="iso">
+            <command>
+                <umount>/iso</umount>
+                <mount-iso>%ROM% /iso/*.iso</mount-iso>
+                <python>/usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.iso -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%</python>
+            </command>
+        </exec-if>
+
+        <!-- Check file extension and execute the appropriate command for CUE -->
+        <exec-if fileExtension="cue">
+            <command>
+                <umount>/iso</umount>
+                <mount-cue>%ROM% /iso/*.cue</mount-cue>
+                <python>/usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.cue -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%</python>
+            </command>
+        </exec-if>
+    </command>
+</descriptor>
     <scraper screenscraper="58"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2000-03" manufacturer="Sony" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
