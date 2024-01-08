@@ -1,673 +1,673 @@
 <?xml version="1.0"?>
 <gameList>
   <game>
-    <path>./5200 Menu (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/5200 Menu (USA) (Proto).zip</path>
     <name>5200 Menu (USA) (Proto)</name>
     <image>./media/images/5200 Menu (USA) (Proto).png</image>
     <video>./media/videos/5200 Menu (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./A.E. (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/A.E. (USA) (Proto).zip</path>
     <name>A.E. (USA) (Proto)</name>
     <image>./media/images/A.E. (USA) (Proto).png</image>
     <video>./media/videos/A.E. (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Activision Decathlon, The (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Activision Decathlon, The (USA).zip</path>
     <name>Activision Decathlon, The (USA)</name>
     <image>./media/images/Activision Decathlon, The (USA).png</image>
     <video>./media/videos/Activision Decathlon, The (USA).mp4</video>
   </game>
   <game>
-    <path>./Asteroids (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Asteroids (USA) (Proto).zip</path>
     <name>Asteroids (USA) (Proto)</name>
     <image>./media/images/Asteroids (USA) (Proto).png</image>
     <video>./media/videos/Asteroids (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Astro Chase (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Astro Chase (USA).zip</path>
     <name>Astro Chase (USA)</name>
     <image>./media/images/Astro Chase (USA).png</image>
     <video>./media/videos/Astro Chase (USA).mp4</video>
   </game>
   <game>
-    <path>./Astrogrover (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Astrogrover (USA) (Proto).zip</path>
     <name>Astrogrover (USA) (Proto)</name>
     <image>./media/images/Astrogrover (USA) (Proto).png</image>
     <video>./media/videos/Astrogrover (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Atari PAM - Pete's Test (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Atari PAM - Pete's Test (USA).zip</path>
     <name>Atari PAM - Pete's Test (USA)</name>
     <image>./media/images/Atari PAM - Pete's Test (USA).png</image>
     <video>./media/videos/Atari PAM - Pete's Test (USA).mp4</video>
   </game>
   <game>
-    <path>./Atari PAM Diagnostics (USA) (v2.0).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Atari PAM Diagnostics (USA) (v2.0).zip</path>
     <name>Atari PAM Diagnostics (USA) (v2.0)</name>
     <image>./media/images/Atari PAM Diagnostics (USA) (v2.0).png</image>
     <video>./media/videos/Atari PAM Diagnostics (USA) (v2.0).mp4</video>
   </game>
   <game>
-    <path>./Atari PAM Diagnostics (USA) (v2.3).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Atari PAM Diagnostics (USA) (v2.3).zip</path>
     <name>Atari PAM Diagnostics (USA) (v2.3)</name>
     <image>./media/images/Atari PAM Diagnostics (USA) (v2.3).png</image>
     <video>./media/videos/Atari PAM Diagnostics (USA) (v2.3).mp4</video>
   </game>
   <game>
-    <path>./Atari PAM System Test (USA) (v1.02).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Atari PAM System Test (USA) (v1.02).zip</path>
     <name>Atari PAM System Test (USA) (v1.02)</name>
     <image>./media/images/Atari PAM System Test (USA) (v1.02).png</image>
     <video>./media/videos/Atari PAM System Test (USA) (v1.02).mp4</video>
   </game>
   <game>
-    <path>./Ballblazer (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Ballblazer (USA).zip</path>
     <name>Ballblazer (USA)</name>
     <image>./media/images/Ballblazer (USA).png</image>
     <video>./media/videos/Ballblazer (USA).mp4</video>
   </game>
   <game>
-    <path>./Barroom Baseball (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Barroom Baseball (USA) (Proto).zip</path>
     <name>Barroom Baseball (USA) (Proto)</name>
     <image>./media/images/Barroom Baseball (USA) (Proto).png</image>
     <video>./media/videos/Barroom Baseball (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Battlezone (USA) (Proto) (Alt).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Battlezone (USA) (Proto) (Alt).zip</path>
     <name>Battlezone (USA) (Proto) (Alt)</name>
     <image>./media/images/Battlezone (USA) (Proto) (Alt).png</image>
     <video>./media/videos/Battlezone (USA) (Proto) (Alt).mp4</video>
   </game>
   <game>
-    <path>./Battlezone (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Battlezone (USA) (Proto).zip</path>
     <name>Battlezone (USA) (Proto)</name>
     <image>./media/images/Battlezone (USA) (Proto).png</image>
     <video>./media/videos/Battlezone (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Beamrider (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Beamrider (USA).zip</path>
     <name>Beamrider (USA)</name>
     <image>./media/images/Beamrider (USA).png</image>
     <video>./media/videos/Beamrider (USA).mp4</video>
   </game>
   <game>
-    <path>./Behind Jaggi Lines! (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Behind Jaggi Lines! (USA) (Proto).zip</path>
     <name>Behind Jaggi Lines! (USA) (Proto)</name>
     <image>./media/images/Behind Jaggi Lines! (USA) (Proto).png</image>
     <video>./media/videos/Behind Jaggi Lines! (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./BerZerk (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/BerZerk (USA).zip</path>
     <name>BerZerk (USA)</name>
     <image>./media/images/BerZerk (USA).png</image>
     <video>./media/videos/BerZerk (USA).mp4</video>
   </game>
   <game>
-    <path>./Black Belt (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Black Belt (USA) (Proto).zip</path>
     <name>Black Belt (USA) (Proto)</name>
     <image>./media/images/Black Belt (USA) (Proto).png</image>
     <video>./media/videos/Black Belt (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Blaster (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Blaster (USA) (Proto).zip</path>
     <name>Blaster (USA) (Proto)</name>
     <image>./media/images/Blaster (USA) (Proto).png</image>
     <video>./media/videos/Blaster (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Blue Print (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Blue Print (USA).zip</path>
     <name>Blue Print (USA)</name>
     <image>./media/images/Blue Print (USA).png</image>
     <video>./media/videos/Blue Print (USA).mp4</video>
   </game>
   <game>
-    <path>./Boogie (USA) (Demo).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Boogie (USA) (Demo).zip</path>
     <name>Boogie (USA) (Demo)</name>
     <image>./media/images/Boogie (USA) (Demo).png</image>
     <video>./media/videos/Boogie (USA) (Demo).mp4</video>
   </game>
   <game>
-    <path>./Bounty Bob Strikes Back! (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Bounty Bob Strikes Back! (USA).zip</path>
     <name>Bounty Bob Strikes Back! (USA)</name>
     <image>./media/images/Bounty Bob Strikes Back! (USA).png</image>
     <video>./media/videos/Bounty Bob Strikes Back! (USA).mp4</video>
   </game>
   <game>
-    <path>./Buck Rogers - Planet of Zoom (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Buck Rogers - Planet of Zoom (USA).zip</path>
     <name>Buck Rogers - Planet of Zoom (USA)</name>
     <image>./media/images/Buck Rogers - Planet of Zoom (USA).png</image>
     <video>./media/videos/Buck Rogers - Planet of Zoom (USA).mp4</video>
   </game>
   <game>
-    <path>./Carol Shaw's River Raid (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Carol Shaw's River Raid (USA).zip</path>
     <name>Carol Shaw's River Raid (USA)</name>
     <image>./media/images/Carol Shaw's River Raid (USA).png</image>
     <video>./media/videos/Carol Shaw's River Raid (USA).mp4</video>
   </game>
   <game>
-    <path>./Castle Blast (USA) (Unl).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Castle Blast (USA) (Unl).zip</path>
     <name>Castle Blast (USA) (Unl)</name>
     <image>./media/images/Castle Blast (USA) (Unl).png</image>
     <video>./media/videos/Castle Blast (USA) (Unl).mp4</video>
   </game>
   <game>
-    <path>./Castle Crisis (USA) (Unl).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Castle Crisis (USA) (Unl).zip</path>
     <name>Castle Crisis (USA) (Unl)</name>
     <image>./media/images/Castle Crisis (USA) (Unl).png</image>
     <video>./media/videos/Castle Crisis (USA) (Unl).mp4</video>
   </game>
   <game>
-    <path>./Centipede (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Centipede (USA).zip</path>
     <name>Centipede (USA)</name>
     <image>./media/images/Centipede (USA).png</image>
     <video>./media/videos/Centipede (USA).mp4</video>
   </game>
   <game>
-    <path>./Choplifter! (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Choplifter! (USA).zip</path>
     <name>Choplifter! (USA)</name>
     <image>./media/images/Choplifter! (USA).png</image>
     <video>./media/videos/Choplifter! (USA).mp4</video>
   </game>
   <game>
-    <path>./Congo Bongo (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Congo Bongo (USA).zip</path>
     <name>Congo Bongo (USA)</name>
     <image>./media/images/Congo Bongo (USA).png</image>
     <video>./media/videos/Congo Bongo (USA).mp4</video>
   </game>
   <game>
-    <path>./Countermeasure (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Countermeasure (USA).zip</path>
     <name>Countermeasure (USA)</name>
     <image>./media/images/Countermeasure (USA).png</image>
     <video>./media/videos/Countermeasure (USA).mp4</video>
   </game>
   <game>
-    <path>./David Crane's Pitfall II - Lost Caverns (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/David Crane's Pitfall II - Lost Caverns (USA).zip</path>
     <name>David Crane's Pitfall II - Lost Caverns (USA)</name>
     <image>./media/images/David Crane's Pitfall II - Lost Caverns (USA).png</image>
     <video>./media/videos/David Crane's Pitfall II - Lost Caverns (USA).mp4</video>
   </game>
   <game>
-    <path>./Defender (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Defender (USA).zip</path>
     <name>Defender (USA)</name>
     <image>./media/images/Defender (USA).png</image>
     <video>./media/videos/Defender (USA).mp4</video>
   </game>
   <game>
-    <path>./Dig Dug (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Dig Dug (USA).zip</path>
     <name>Dig Dug (USA)</name>
     <image>./media/images/Dig Dug (USA).png</image>
     <video>./media/videos/Dig Dug (USA).mp4</video>
   </game>
   <game>
-    <path>./Dreadnaught Factor, The (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Dreadnaught Factor, The (USA).zip</path>
     <name>Dreadnaught Factor, The (USA)</name>
     <image>./media/images/Dreadnaught Factor, The (USA).png</image>
     <video>./media/videos/Dreadnaught Factor, The (USA).mp4</video>
   </game>
   <game>
-    <path>./Final Legacy (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Final Legacy (USA) (Proto).zip</path>
     <name>Final Legacy (USA) (Proto)</name>
     <image>./media/images/Final Legacy (USA) (Proto).png</image>
     <video>./media/videos/Final Legacy (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Frisky Tom (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Frisky Tom (USA) (Proto).zip</path>
     <name>Frisky Tom (USA) (Proto)</name>
     <image>./media/images/Frisky Tom (USA) (Proto).png</image>
     <video>./media/videos/Frisky Tom (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Frogger (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Frogger (USA).zip</path>
     <name>Frogger (USA)</name>
     <image>./media/images/Frogger (USA).png</image>
     <video>./media/videos/Frogger (USA).mp4</video>
   </game>
   <game>
-    <path>./Frogger II - Threeedeep! (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Frogger II - Threeedeep! (USA).zip</path>
     <name>Frogger II - Threeedeep! (USA)</name>
     <image>./media/images/Frogger II - Threeedeep! (USA).png</image>
     <video>./media/videos/Frogger II - Threeedeep! (USA).mp4</video>
   </game>
   <game>
-    <path>./Galaxian (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Galaxian (USA).zip</path>
     <name>Galaxian (USA)</name>
     <image>./media/images/Galaxian (USA).png</image>
     <video>./media/videos/Galaxian (USA).mp4</video>
   </game>
   <game>
-    <path>./Gorf (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Gorf (USA).zip</path>
     <name>Gorf (USA)</name>
     <image>./media/images/Gorf (USA).png</image>
     <video>./media/videos/Gorf (USA).mp4</video>
   </game>
   <game>
-    <path>./Gremlins (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Gremlins (USA).zip</path>
     <name>Gremlins (USA)</name>
     <image>./media/images/Gremlins (USA).png</image>
     <video>./media/videos/Gremlins (USA).mp4</video>
   </game>
   <game>
-    <path>./Gyruss (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Gyruss (USA).zip</path>
     <name>Gyruss (USA)</name>
     <image>./media/images/Gyruss (USA).png</image>
     <video>./media/videos/Gyruss (USA).mp4</video>
   </game>
   <game>
-    <path>./H.E.R.O. (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/H.E.R.O. (USA).zip</path>
     <name>H.E.R.O. (USA)</name>
     <image>./media/images/H.E.R.O. (USA).png</image>
     <video>./media/videos/H.E.R.O. (USA).mp4</video>
   </game>
   <game>
-    <path>./James Bond 007 (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/James Bond 007 (USA).zip</path>
     <name>James Bond 007 (USA)</name>
     <image>./media/images/James Bond 007 (USA).png</image>
     <video>./media/videos/James Bond 007 (USA).mp4</video>
   </game>
   <game>
-    <path>./Joust (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Joust (USA).zip</path>
     <name>Joust (USA)</name>
     <image>./media/images/Joust (USA).png</image>
     <video>./media/videos/Joust (USA).mp4</video>
   </game>
   <game>
-    <path>./Jr. Pac-Man (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Jr. Pac-Man (USA) (Proto).zip</path>
     <name>Jr. Pac-Man (USA) (Proto)</name>
     <image>./media/images/Jr. Pac-Man (USA) (Proto).png</image>
     <video>./media/videos/Jr. Pac-Man (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Jungle Hunt (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Jungle Hunt (USA).zip</path>
     <name>Jungle Hunt (USA)</name>
     <image>./media/images/Jungle Hunt (USA).png</image>
     <video>./media/videos/Jungle Hunt (USA).mp4</video>
   </game>
   <game>
-    <path>./K-Razy Shoot-Out (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/K-Razy Shoot-Out (USA).zip</path>
     <name>K-Razy Shoot-Out (USA)</name>
     <image>./media/images/K-Razy Shoot-Out (USA).png</image>
     <video>./media/videos/K-Razy Shoot-Out (USA).mp4</video>
   </game>
   <game>
-    <path>./Kaboom! (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Kaboom! (USA).zip</path>
     <name>Kaboom! (USA)</name>
     <image>./media/images/Kaboom! (USA).png</image>
     <video>./media/videos/Kaboom! (USA).mp4</video>
   </game>
   <game>
-    <path>./Kangaroo (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Kangaroo (USA).zip</path>
     <name>Kangaroo (USA)</name>
     <image>./media/images/Kangaroo (USA).png</image>
     <video>./media/videos/Kangaroo (USA).mp4</video>
   </game>
   <game>
-    <path>./Keystone Kapers (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Keystone Kapers (USA).zip</path>
     <name>Keystone Kapers (USA)</name>
     <image>./media/images/Keystone Kapers (USA).png</image>
     <video>./media/videos/Keystone Kapers (USA).mp4</video>
   </game>
   <game>
-    <path>./Koffi - Yellow Kopter (USA) (Unl).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Koffi - Yellow Kopter (USA) (Unl).zip</path>
     <name>Koffi - Yellow Kopter (USA) (Unl)</name>
     <image>./media/images/Koffi - Yellow Kopter (USA) (Unl).png</image>
     <video>./media/videos/Koffi - Yellow Kopter (USA) (Unl).mp4</video>
   </game>
   <game>
-    <path>./Last Starfighter, The (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Last Starfighter, The (USA) (Proto).zip</path>
     <name>Last Starfighter, The (USA) (Proto)</name>
     <image>./media/images/Last Starfighter, The (USA) (Proto).png</image>
     <video>./media/videos/Last Starfighter, The (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Looney Tunes Hotel (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Looney Tunes Hotel (USA) (Proto).zip</path>
     <name>Looney Tunes Hotel (USA) (Proto)</name>
     <image>./media/images/Looney Tunes Hotel (USA) (Proto).png</image>
     <video>./media/videos/Looney Tunes Hotel (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Mario Bros. (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Mario Bros. (USA).zip</path>
     <name>Mario Bros. (USA)</name>
     <image>./media/images/Mario Bros. (USA).png</image>
     <video>./media/videos/Mario Bros. (USA).mp4</video>
   </game>
   <game>
-    <path>./Meebzork (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Meebzork (USA) (Proto).zip</path>
     <name>Meebzork (USA) (Proto)</name>
     <image>./media/images/Meebzork (USA) (Proto).png</image>
     <video>./media/videos/Meebzork (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./MegaMania (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/MegaMania (USA).zip</path>
     <name>MegaMania (USA)</name>
     <image>./media/images/MegaMania (USA).png</image>
     <video>./media/videos/MegaMania (USA).mp4</video>
   </game>
   <game>
-    <path>./Meteorites (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Meteorites (USA).zip</path>
     <name>Meteorites (USA)</name>
     <image>./media/images/Meteorites (USA).png</image>
     <video>./media/videos/Meteorites (USA).mp4</video>
   </game>
   <game>
-    <path>./Microgammon SB (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Microgammon SB (USA) (Proto).zip</path>
     <name>Microgammon SB (USA) (Proto)</name>
     <image>./media/images/Microgammon SB (USA) (Proto).png</image>
     <video>./media/videos/Microgammon SB (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Millipede (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Millipede (USA) (Proto).zip</path>
     <name>Millipede (USA) (Proto)</name>
     <image>./media/images/Millipede (USA) (Proto).png</image>
     <video>./media/videos/Millipede (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Miner 2049er Starring Bounty Bob (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Miner 2049er Starring Bounty Bob (USA).zip</path>
     <name>Miner 2049er Starring Bounty Bob (USA)</name>
     <image>./media/images/Miner 2049er Starring Bounty Bob (USA).png</image>
     <video>./media/videos/Miner 2049er Starring Bounty Bob (USA).mp4</video>
   </game>
   <game>
-    <path>./Miniature Golf (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Miniature Golf (USA) (Proto).zip</path>
     <name>Miniature Golf (USA) (Proto)</name>
     <image>./media/images/Miniature Golf (USA) (Proto).png</image>
     <video>./media/videos/Miniature Golf (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Missile Command (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Missile Command (USA).zip</path>
     <name>Missile Command (USA)</name>
     <image>./media/images/Missile Command (USA).png</image>
     <video>./media/videos/Missile Command (USA).mp4</video>
   </game>
   <game>
-    <path>./Montezuma's Revenge - Featuring Panama Joe (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Montezuma's Revenge - Featuring Panama Joe (USA).zip</path>
     <name>Montezuma's Revenge - Featuring Panama Joe (USA)</name>
     <image>./media/images/Montezuma's Revenge - Featuring Panama Joe (USA).png</image>
     <video>./media/videos/Montezuma's Revenge - Featuring Panama Joe (USA).mp4</video>
   </game>
   <game>
-    <path>./Moon Patrol (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Moon Patrol (USA).zip</path>
     <name>Moon Patrol (USA)</name>
     <image>./media/images/Moon Patrol (USA).png</image>
     <video>./media/videos/Moon Patrol (USA).mp4</video>
   </game>
   <game>
-    <path>./Mountain King (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Mountain King (USA).zip</path>
     <name>Mountain King (USA)</name>
     <image>./media/images/Mountain King (USA).png</image>
     <video>./media/videos/Mountain King (USA).mp4</video>
   </game>
   <game>
-    <path>./Mr. Do!'s Castle (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Mr. Do!'s Castle (USA).zip</path>
     <name>Mr. Do!'s Castle (USA)</name>
     <image>./media/images/Mr. Do!'s Castle (USA).png</image>
     <video>./media/videos/Mr. Do!'s Castle (USA).mp4</video>
   </game>
   <game>
-    <path>./Ms. Pac-Man (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Ms. Pac-Man (USA).zip</path>
     <name>Ms. Pac-Man (USA)</name>
     <image>./media/images/Ms. Pac-Man (USA).png</image>
     <video>./media/videos/Ms. Pac-Man (USA).mp4</video>
   </game>
   <game>
-    <path>./Pac-Man (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Pac-Man (USA).zip</path>
     <name>Pac-Man (USA)</name>
     <image>./media/images/Pac-Man (USA).png</image>
     <video>./media/videos/Pac-Man (USA).mp4</video>
   </game>
   <game>
-    <path>./Pengo (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Pengo (USA).zip</path>
     <name>Pengo (USA)</name>
     <image>./media/images/Pengo (USA).png</image>
     <video>./media/videos/Pengo (USA).mp4</video>
   </game>
   <game>
-    <path>./Pitfall! (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Pitfall! (USA).zip</path>
     <name>Pitfall! (USA)</name>
     <image>./media/images/Pitfall! (USA).png</image>
     <video>./media/videos/Pitfall! (USA).mp4</video>
   </game>
   <game>
-    <path>./Pole Position (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Pole Position (USA) (Proto).zip</path>
     <name>Pole Position (USA) (Proto)</name>
     <image>./media/images/Pole Position (USA) (Proto).png</image>
     <video>./media/videos/Pole Position (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Pole Position (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Pole Position (USA).zip</path>
     <name>Pole Position (USA)</name>
     <image>./media/images/Pole Position (USA).png</image>
     <video>./media/videos/Pole Position (USA).mp4</video>
   </game>
   <game>
-    <path>./Popeye (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Popeye (USA).zip</path>
     <name>Popeye (USA)</name>
     <image>./media/images/Popeye (USA).png</image>
     <video>./media/videos/Popeye (USA).mp4</video>
   </game>
   <game>
-    <path>./Q-bert (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Q-bert (USA).zip</path>
     <name>Q-bert (USA)</name>
     <image>./media/images/Q-bert (USA).png</image>
     <video>./media/videos/Q-bert (USA).mp4</video>
   </game>
   <game>
-    <path>./QIX (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/QIX (USA).zip</path>
     <name>QIX (USA)</name>
     <image>./media/images/QIX (USA).png</image>
     <video>./media/videos/QIX (USA).mp4</video>
   </game>
   <game>
-    <path>./Quest for Quintana Roo (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Quest for Quintana Roo (USA).zip</path>
     <name>Quest for Quintana Roo (USA)</name>
     <image>./media/images/Quest for Quintana Roo (USA).png</image>
     <video>./media/videos/Quest for Quintana Roo (USA).mp4</video>
   </game>
   <game>
-    <path>./RealSports Baseball (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/RealSports Baseball (USA).zip</path>
     <name>RealSports Baseball (USA)</name>
     <image>./media/images/RealSports Baseball (USA).png</image>
     <video>./media/videos/RealSports Baseball (USA).mp4</video>
   </game>
   <game>
-    <path>./RealSports Basketball (USA) (Proto) (1982-11-05).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/RealSports Basketball (USA) (Proto) (1982-11-05).zip</path>
     <name>RealSports Basketball (USA) (Proto) (1982-11-05)</name>
     <image>./media/images/RealSports Basketball (USA) (Proto) (1982-11-05).png</image>
     <video>./media/videos/RealSports Basketball (USA) (Proto) (1982-11-05).mp4</video>
   </game>
   <game>
-    <path>./RealSports Basketball (USA) (Proto) (1983-10-31).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/RealSports Basketball (USA) (Proto) (1983-10-31).zip</path>
     <name>RealSports Basketball (USA) (Proto) (1983-10-31)</name>
     <image>./media/images/RealSports Basketball (USA) (Proto) (1983-10-31).png</image>
     <video>./media/videos/RealSports Basketball (USA) (Proto) (1983-10-31).mp4</video>
   </game>
   <game>
-    <path>./RealSports Basketball (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/RealSports Basketball (USA).zip</path>
     <name>RealSports Basketball (USA)</name>
     <image>./media/images/RealSports Basketball (USA).png</image>
     <video>./media/videos/RealSports Basketball (USA).mp4</video>
   </game>
   <game>
-    <path>./RealSports Football (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/RealSports Football (USA).zip</path>
     <name>RealSports Football (USA)</name>
     <image>./media/images/RealSports Football (USA).png</image>
     <video>./media/videos/RealSports Football (USA).mp4</video>
   </game>
   <game>
-    <path>./RealSports Soccer (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/RealSports Soccer (USA).zip</path>
     <name>RealSports Soccer (USA)</name>
     <image>./media/images/RealSports Soccer (USA).png</image>
     <video>./media/videos/RealSports Soccer (USA).mp4</video>
   </game>
   <game>
-    <path>./RealSports Tennis (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/RealSports Tennis (USA).zip</path>
     <name>RealSports Tennis (USA)</name>
     <image>./media/images/RealSports Tennis (USA).png</image>
     <video>./media/videos/RealSports Tennis (USA).mp4</video>
   </game>
   <game>
-    <path>./Rescue on Fractalus! (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Rescue on Fractalus! (USA).zip</path>
     <name>Rescue on Fractalus! (USA)</name>
     <image>./media/images/Rescue on Fractalus! (USA).png</image>
     <video>./media/videos/Rescue on Fractalus! (USA).mp4</video>
   </game>
   <game>
-    <path>./Road Runner (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Road Runner (USA) (Proto).zip</path>
     <name>Road Runner (USA) (Proto)</name>
     <image>./media/images/Road Runner (USA) (Proto).png</image>
     <video>./media/videos/Road Runner (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Robotron 2084 (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Robotron 2084 (USA).zip</path>
     <name>Robotron 2084 (USA)</name>
     <image>./media/images/Robotron 2084 (USA).png</image>
     <video>./media/videos/Robotron 2084 (USA).mp4</video>
   </game>
   <game>
-    <path>./Space Dungeon (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Space Dungeon (USA).zip</path>
     <name>Space Dungeon (USA)</name>
     <image>./media/images/Space Dungeon (USA).png</image>
     <video>./media/videos/Space Dungeon (USA).mp4</video>
   </game>
   <game>
-    <path>./Space Invaders (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Space Invaders (USA).zip</path>
     <name>Space Invaders (USA)</name>
     <image>./media/images/Space Invaders (USA).png</image>
     <video>./media/videos/Space Invaders (USA).mp4</video>
   </game>
   <game>
-    <path>./Space Shuttle - A Journey Into Space (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Space Shuttle - A Journey Into Space (USA).zip</path>
     <name>Space Shuttle - A Journey Into Space (USA)</name>
     <image>./media/images/Space Shuttle - A Journey Into Space (USA).png</image>
     <video>./media/videos/Space Shuttle - A Journey Into Space (USA).mp4</video>
   </game>
   <game>
-    <path>./Spitfire (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Spitfire (USA) (Proto).zip</path>
     <name>Spitfire (USA) (Proto)</name>
     <image>./media/images/Spitfire (USA) (Proto).png</image>
     <video>./media/videos/Spitfire (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Sport Goofy (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Sport Goofy (USA) (Proto).zip</path>
     <name>Sport Goofy (USA) (Proto)</name>
     <image>./media/images/Sport Goofy (USA) (Proto).png</image>
     <video>./media/videos/Sport Goofy (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Star Raiders (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Star Raiders (USA).zip</path>
     <name>Star Raiders (USA)</name>
     <image>./media/images/Star Raiders (USA).png</image>
     <video>./media/videos/Star Raiders (USA).mp4</video>
   </game>
   <game>
-    <path>./Star Trek - Strategic Operations Simulator (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Star Trek - Strategic Operations Simulator (USA).zip</path>
     <name>Star Trek - Strategic Operations Simulator (USA)</name>
     <image>./media/images/Star Trek - Strategic Operations Simulator (USA).png</image>
     <video>./media/videos/Star Trek - Strategic Operations Simulator (USA).mp4</video>
   </game>
   <game>
-    <path>./Star Wars - Return of the Jedi - Death Star Battle (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Star Wars - Return of the Jedi - Death Star Battle (USA).zip</path>
     <name>Star Wars - Return of the Jedi - Death Star Battle (USA)</name>
     <image>./media/images/Star Wars - Return of the Jedi - Death Star Battle (USA).png</image>
     <video>./media/videos/Star Wars - Return of the Jedi - Death Star Battle (USA).mp4</video>
   </game>
   <game>
-    <path>./Star Wars - The Arcade Game (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Star Wars - The Arcade Game (USA).zip</path>
     <name>Star Wars - The Arcade Game (USA)</name>
     <image>./media/images/Star Wars - The Arcade Game (USA).png</image>
     <video>./media/videos/Star Wars - The Arcade Game (USA).mp4</video>
   </game>
   <game>
-    <path>./Stargate (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Stargate (USA) (Proto).zip</path>
     <name>Stargate (USA) (Proto)</name>
     <image>./media/images/Stargate (USA) (Proto).png</image>
     <video>./media/videos/Stargate (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Super Breakout (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Super Breakout (USA).zip</path>
     <name>Super Breakout (USA)</name>
     <image>./media/images/Super Breakout (USA).png</image>
     <video>./media/videos/Super Breakout (USA).mp4</video>
   </game>
   <game>
-    <path>./Super Cobra (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Super Cobra (USA).zip</path>
     <name>Super Cobra (USA)</name>
     <image>./media/images/Super Cobra (USA).png</image>
     <video>./media/videos/Super Cobra (USA).mp4</video>
   </game>
   <game>
-    <path>./Super Pac-Man (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Super Pac-Man (USA) (Proto).zip</path>
     <name>Super Pac-Man (USA) (Proto)</name>
     <image>./media/images/Super Pac-Man (USA) (Proto).png</image>
     <video>./media/videos/Super Pac-Man (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Super Pacman (USA) (Proto) (Alt).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Super Pacman (USA) (Proto) (Alt).zip</path>
     <name>Super Pacman (USA) (Proto) (Alt)</name>
     <image>./media/images/Super Pacman (USA) (Proto) (Alt).png</image>
     <video>./media/videos/Super Pacman (USA) (Proto) (Alt).mp4</video>
   </game>
   <game>
-    <path>./Tempest (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Tempest (USA) (Proto).zip</path>
     <name>Tempest (USA) (Proto)</name>
     <image>./media/images/Tempest (USA) (Proto).png</image>
     <video>./media/videos/Tempest (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Track and Field (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Track and Field (USA) (Proto).zip</path>
     <name>Track and Field (USA) (Proto)</name>
     <image>./media/images/Track and Field (USA) (Proto).png</image>
     <video>./media/videos/Track and Field (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Vanguard (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Vanguard (USA).zip</path>
     <name>Vanguard (USA)</name>
     <image>./media/images/Vanguard (USA).png</image>
     <video>./media/videos/Vanguard (USA).mp4</video>
   </game>
   <game>
-    <path>./Wizard of Wor (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Wizard of Wor (USA).zip</path>
     <name>Wizard of Wor (USA)</name>
     <image>./media/images/Wizard of Wor (USA).png</image>
     <video>./media/videos/Wizard of Wor (USA).mp4</video>
   </game>
   <game>
-    <path>./Xari Arena (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Xari Arena (USA) (Proto).zip</path>
     <name>Xari Arena (USA) (Proto)</name>
     <image>./media/images/Xari Arena (USA) (Proto).png</image>
     <video>./media/videos/Xari Arena (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Xevious (USA) (Proto).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Xevious (USA) (Proto).zip</path>
     <name>Xevious (USA) (Proto)</name>
     <image>./media/images/Xevious (USA) (Proto).png</image>
     <video>./media/videos/Xevious (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Yellow Submarine (USA) (Demo).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Yellow Submarine (USA) (Demo).zip</path>
     <name>Yellow Submarine (USA) (Demo)</name>
     <image>./media/images/Yellow Submarine (USA) (Demo).png</image>
     <video>./media/videos/Yellow Submarine (USA) (Demo).mp4</video>
   </game>
   <game>
-    <path>./Zaxxon (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Zaxxon (USA).zip</path>
     <name>Zaxxon (USA)</name>
     <image>./media/images/Zaxxon (USA).png</image>
     <video>./media/videos/Zaxxon (USA).mp4</video>
   </game>
   <game>
-    <path>./Zenji (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Zenji (USA).zip</path>
     <name>Zenji (USA)</name>
     <image>./media/images/Zenji (USA).png</image>
     <video>./media/videos/Zenji (USA).mp4</video>
   </game>
   <game>
-    <path>./Zone Ranger (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/Zone Ranger (USA).zip</path>
     <name>Zone Ranger (USA)</name>
     <image>./media/images/Zone Ranger (USA).png</image>
     <video>./media/videos/Zone Ranger (USA).mp4</video>
   </game>
   <game>
-    <path>./[BIOS] Atari 5200 (USA).zip</path>
+    <path>/RECALBOX/share/rom/No-Intro/Atari - 5200/[BIOS] Atari 5200 (USA).zip</path>
     <name>[BIOS] Atari 5200 (USA)</name>
     <image>./media/images/[BIOS] Atari 5200 (USA).png</image>
     <video>./media/videos/[BIOS] Atari 5200 (USA).mp4</video>
