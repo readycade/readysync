@@ -94,8 +94,22 @@ mkdir -p /recalbox/share/rom
 mkdir -p /recalbox/share/zip
 #mkdir -p /recalbox/share/thumbs
 
-cp /recalbox/share/userscripts/.config/readystream/platforms.txt /recalbox/share/system/.config/platforms.txt
 
+# If platforms.txt does not exist, copy it
+if [ ! -e /recalbox/share/system/.config/platforms.txt ]; then
+    cp /recalbox/share/userscripts/.config/readystream/platforms.txt /recalbox/share/system/.config/
+    echo "platforms.txt copied successfully."
+else
+    echo "platforms.txt already exists. No need to copy."
+fi
+
+# If rclone.conf does not exist, copy it
+if [ ! -e /recalbox/share/system/rclone.conf ]; then
+    cp /recalbox/share/userscripts/.config/readystream/rclone.conf /recalbox/share/system/
+    echo "rclone.conf copied successfully."
+else
+    echo "rclone.conf already exists. No need to copy."
+fi
 
 # Detect architecture
 case $(uname -m) in
