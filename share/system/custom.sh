@@ -234,7 +234,7 @@ fi
 
 # Mount rclone using the provided command
 echo "Mounting rclone..."
-rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone.conf --daemon --allow-non-empty
+rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone.conf --daemon --allow-non-empty --http-no-head
 
 # Wait for the mount to be ready
 sleep 5

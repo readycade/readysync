@@ -937,7 +937,7 @@
     </emulatorList>
   </system>
   <system uuid="4dd5637f-efe5-4f77-918c-f18b0873094d" name="ps2" fullname="Sony Playstation 2">
-    <descriptor path="%ROOT%/readystream/ps2" theme="ps2" extensions=".chd .img .gz .cso .bin .iso .nrg .mdf" icon="$F2c8" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.iso -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="%ROOT%/readystream/ps2" theme="ps2" extensions=".chd .img .gz .cso .bin .iso .nrg .mdf" icon="$F2c8" downloader="0" command=head %ROM%; umount /userdata/iso; /userdata/system/mount-zip %ROM% /userdata/iso; emulatorlauncher %CONTROLLERSCONFIG% -system %SYSTEM% -rom /userdata/iso/*.iso -gameinfoxml %GAMEINFOXML% -systemname %SYSTEMNAME%; emulatorlauncher %CONTROLLERSCONFIG% -system %SYSTEM% -rom /userdata/iso/*.cue -gameinfoxml %GAMEINFOXML% -systemname %SYSTEMNAME%"/>
     <scraper screenscraper="58"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2000-03" manufacturer="Sony" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
