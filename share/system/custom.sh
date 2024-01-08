@@ -174,6 +174,7 @@ echo "2. Offline Mode"
 
 # Capture input with timeout
 # Default to Offline Mode if no input within the timeout
+# Change input="2" (Offline Mode) to input="1" for (Online Mode)
 timeout_seconds=5
 read -t "$timeout_seconds" -r input || input="2"
 
