@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Author Michael Cabral 2024
-# Title: Readystream
-# Description: Mounts any FTP/HTTP repository of games using rclone giving you an Online and Offline experience.
-# Online = FTP/HTTP Mounted Games
-# Offline = Local Hard Drive Games
+## Author Michael Cabral 2024
+## Title: Readystream
+## Description: Mounts any FTP/HTTP repository of games using rclone giving you an Online and Offline experience.
+## Online = FTP/HTTP Mounted Games
+## Offline = Local Hard Drive Games
 
 ln -s /usr/bin/fusermount /usr/bin/fusermount3
 mount -o remount,rw /
@@ -167,19 +167,29 @@ else
     echo "rclone.conf already exists. No need to copy."
 fi
 
-# Display menu
-echo "Please select a mode:"
-echo "1. Online Mode"
-echo "2. Offline Mode"
 
-# Capture single keypress without requiring Enter
-read -n 1 -t 5 input || input="2"
+# Display a menu for Online / Offline
+PS3="Please select a mode: "
+options=("Online Mode" "Offline Mode")
 
-# Default to Offline Mode if no input within the timeout
-mode_choice="${input:-2}"
+# Default choice for select (sets the cursor position)
+default_choice=2
 
-# Default to Online Mode if no input within the timeout
-#mode_choice="${input:-1}"
+select opt in "${options[@]}"; do
+  case $opt in
+    "Online Mode")
+      mode_choice=1
+      break
+      ;;
+    "Offline Mode")
+      mode_choice=2
+      break
+      ;;
+    *)
+      echo "Invalid option, please try again."
+      ;;
+  esac
+done
 
 echo "Selected Mode: $mode_choice"
 
