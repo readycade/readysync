@@ -167,8 +167,6 @@ else
     echo "rclone.conf already exists. No need to copy."
 fi
 
-#!/bin/bash
-
 # Display menu
 echo "Please select a mode:"
 echo "1. Online Mode"
