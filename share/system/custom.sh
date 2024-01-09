@@ -176,7 +176,7 @@ echo "2. Offline Mode"
 # Default to Offline Mode if no input within the timeout
 # Change input="2" (Offline Mode) to input="1" for (Online Mode)
 timeout_seconds=5
-read -t "$timeout_seconds" -r input || input="1"
+read -t "$timeout_seconds" -r input || input="2"
 
 # Offline Mode
 mode_choice="${input:-2}"
@@ -298,7 +298,7 @@ echo "Debugging: $online_dir/gamelist.xml.md5 exists: $( [ -f "$online_dir/gamel
   else
     echo "Error: systemlist.xml files not found."
   fi
-else
+
   # Offline Mode
   if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
     # Backup the existing systemlist.xml
