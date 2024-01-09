@@ -1,4 +1,5 @@
 #!/bin/bash
+#set -x
 
 ## Author Michael Cabral 2024
 ## Title: Readystream
@@ -89,6 +90,38 @@ create_console_directory() {
   mkdir -p "/recalbox/share/userscripts/.config/readystream/roms/$console_name"
 }
 
+# Use the previously defined console_name variable from create_console_directory
+create_console_directory "$console_name"
+
+# Set source and destination directories
+source_dir="/recalbox/share/userscripts/.config/readystream/roms/$console_name"
+dest_dir="/recalbox/share/roms/readystream/$console_name"
+
+# Check if source directory exists
+if [ -d "$source_dir" ]; then
+  # Copy everything from source_dir to dest_dir without overwriting existing files
+  cp -n "$source_dir/"* "$dest_dir/"
+  echo "Copy completed successfully."
+else
+  echo "Source directory does not exist: $source_dir"
+fi
+
+
+# Function to perform actions specific to Online Mode
+online_mode() {
+    # Add your specific actions for Online Mode here
+    # ...
+    echo "Performing actions specific to Online Mode..."
+}
+
+# Function to perform actions specific to Offline Mode
+offline_mode() {
+    # Add your specific actions for Offline Mode here
+    # ...
+    echo "Performing actions specific to Offline Mode..."
+}
+
+
 # Detect architecture
 case $(uname -m) in
   x86_64) sevenzip_arch="x64"; rclone_arch="amd64" ;;
@@ -174,15 +207,22 @@ echo "2. Offline Mode"
 
 # Capture input with timeout
 timeout_seconds=5
-read -t "$timeout_seconds" -r input || input="1"
+read -t "$timeout_seconds" -r input || mode_choice="1"
 
-# Offline Mode
-mode_choice="${input:-2}"
-
-# Online Mode
-mode_choice="${input:-1}"
-
-echo "Selected Mode: $mode_choice"
+# Determine the mode based on user input or timeout
+case "$mode_choice" in
+    "1")
+		# Online Mode
+        online_mode
+        ;;
+    "2")
+        # Offline Mode
+        offline_mode
+        ;;
+    *)
+        echo "Invalid choice: $mode_choice"
+        ;;
+esac
 
 # Check and update systemlist.xml based on user choice
 offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
@@ -190,55 +230,75 @@ offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist
 offline_online="/recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml"
 offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml"
 
+# Online Mode
 if [ "$mode_choice" = "1" ]; then
-  # Online Mode
-  if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
-    # Backup the existing systemlist.xml
-    echo "Backing up systemlist.xml..."
-    cp "$offline_systemlist" "$offline_backup"
-    echo "Backup created: $offline_backup"
-
-    # Overwrite systemlist.xml with online version
-    echo "Overwriting systemlist.xml with online version..."
-    cp "$offline_online" "$offline_systemlist"
-    echo "Online version applied."
 
     # Mount rclone using the provided command
     echo "Mounting rclone..."
     # Replace the following line with the actual rclone mount command
     rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone.conf --daemon --allow-non-empty --http-no-head
-    sleep 2
 
-    # Process the platforms.txt file
-    while IFS= read -r roms_entry; do
-      # Replace the following line with your specific processing logic
-      echo "Processing roms_entry: $roms_entry"
-    done
-  else
-    echo "Error: systemlist.xml files not found."
-  fi
-else
-  # Offline Mode
-  if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
-    # Backup existing systemlist.xml
-    echo "Backing up systemlist.xml..."
-    cp "$offline_systemlist" "$offline_backup"
-    echo "Backup created: $offline_backup"
+    # Online Mode
+    if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
+        # Backup the existing systemlist.xml
+        echo "Backing up systemlist.xml..."
+        cp "$offline_systemlist" "$offline_backup"
+        echo "Backup created: $offline_backup"
 
-    # Overwrite systemlist.xml with offline version
-    echo "Overwriting systemlist.xml with offline version..."
-    cp "$offline_offline" "$offline_systemlist"
-    echo "Offline version applied."
+        # Overwrite systemlist.xml with the online version
+        echo "Overwriting systemlist.xml with the online version..."
+        cp "$offline_online" "$offline_systemlist"
+        echo "Online version applied."
 
-    # Replace the following line with your specific actions for Offline Mode
-    echo "Performing actions specific to Offline Mode..."
-    # ...
+        # Process the platforms.txt file
+        while IFS= read -r roms_entry; do
+            console_name=$(echo "$roms_entry" | cut -d ';' -f 1)
+            source_directory=$(echo "$roms_entry" | cut -d ';' -f 2)
+            target_directory=$(echo "$roms_entry" | cut -d ';' -f 5)
 
-    echo "Installation complete. Log saved to: $log_file"
+            # Create hard links
+            for rom_file in "$source_directory"/*; do
+                if [ -f "$rom_file" ]; then
+                    rom_name=$(basename "$rom_file")
+                    target_path="$target_directory/$rom_name"
 
-    # Replace the following line with the actual command to start emulation station
-    chvt 1; es start
-  else
-    echo "Error: systemlist.xml files not found."
-  fi
+                    # Use ln to create hard links
+                    ln "$rom_file" "$target_path"
+                    echo "Created hard link: $target_path"
+                fi
+            done
+        done < "$offline_online"
+
+    else
+        echo "Error: systemlist.xml files not found."
+    fi
+
+fi  # Add this line to close the first if block
+
+# Offline Mode
+if [ "$mode_choice" != "1" ]; then
+    if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
+        # Backup existing systemlist.xml
+        echo "Backing up systemlist.xml..."
+        cp "$offline_systemlist" "$offline_backup"
+        echo "Backup created: $offline_backup"
+
+        # Overwrite systemlist.xml with offline version
+        echo "Overwriting systemlist.xml with offline version..."
+        cp "$offline_offline" "$offline_systemlist"
+        echo "Offline version applied."
+
+        # Replace the following line with your specific actions for Offline Mode
+        echo "Performing actions specific to Offline Mode..."
+        # ...
+
+        echo "Installation complete. Log saved to: $log_file"
+
+        # Replace the following line with the actual command to start emulation station
+        chvt 1; es start
+    else
+        echo "Error: systemlist.xml files not found."
+    fi
 fi
+
+exit
