@@ -249,30 +249,45 @@ if [ "$mode_choice" = "1" ]; then
         # Ensure the online directory exists
         mkdir -p "$online_dir"
 
-        # Copy gamelist.xml and checksum from the provided directory
-        if [ ! -e "/recalbox/share/userscripts/.config/readystream/roms/$console_name/gamelist.xml" ] || [ ! -e "/recalbox/share/userscripts/.config/readystream/roms/$console_name/gamelist.xml.md5" ]; then
-          # Copy gamelist.xml and checksum only if they don't exist
-          cp "/recalbox/share/userscripts/.config/readystream/roms/$console_name/gamelist.xml" "/recalbox/share/userscripts/.config/readystream/roms/$console_name/gamelist.xml.md5" "$online_dir/"
-          echo "Files copied successfully."
-        else
-          echo "Files already exist. No need to copy."
-        fi
+# Copy gamelist.xml and checksum from the provided directory
+if [ ! -e "$online_dir/$console_name/gamelist.xml" ] || [ ! -e "$online_dir/$console_name/gamelist.xml.md5" ]; then
+  # Copy gamelist.xml and checksum only if they don't exist
+  cp "/recalbox/share/userscripts/.config/readystream/roms/$console_name/gamelist.xml" "$online_dir/"
+  cp "/recalbox/share/userscripts/.config/readystream/roms/$console_name/gamelist.xml.md5" "$online_dir/"
+  echo "Files copied successfully."
+else
+  echo "Files already exist. No need to copy."
 
-        # Check if the gamelist.xml and checksum exist in the online directory
-        if [ ! -f "$online_dir/$console_name/gamelist.xml" ] || [ ! -f "$online_dir/$console_name/gamelist.xml.md5" ]; then
-          echo "Error: Failed to copy gamelist.xml and checksum to online directory. They may already exist or other issues."
-        else
-          # Check the checksum of the gamelist.xml in the online directory
-          if ! md5sum -c "$online_dir/$console_name/gamelist.xml.md5" &>/dev/null; then
-            # If checksum doesn't match, generate gamelist.xml and checksum
-            generate_gamelist_xml "$console_directory" "$online_dir/$console_name"
-            # Create console directory in the provided folder
-            create_console_directory "$console_name"
-            # Copy generated gamelist.xml and checksum to the provided folder
-            cp "$online_dir/$console_name/gamelist.xml" "$online_dir/$console_name/gamelist.xml.md5" "/recalbox/share/userscripts/.config/readystream/roms/$console_name/"
-          fi
-        fi
-      done < <(grep "^roms+=(" /recalbox/share/system/.config/platforms.txt)
+  # Check if the gamelist.xml and checksum exist in the online directory
+  if [ -f "$online_dir/gamelist.xml" ] && [ -f "$online_dir/gamelist.xml.md5" ]; then
+    # Check the checksum of the gamelist.xml in the online directory
+    if ! md5sum -c "$online_dir/gamelist.xml.md5" &>/dev/null; then
+      # If checksum doesn't match, generate gamelist.xml and checksum
+      generate_gamelist_xml "$console_directory" "$online_dir"
+      # Create console directory in the provided folder
+      create_console_directory "$console_name"
+      # Copy generated gamelist.xml and checksum to the provided folder
+      cp "$online_dir/gamelist.xml" "$online_dir/gamelist.xml.md5" "/recalbox/share/userscripts/.config/readystream/roms/$console_name/"
+    fi
+  else
+    echo "Error: Failed to copy gamelist.xml and checksum to the online directory. They may already exist or other issues."
+  fi
+fi
+
+
+
+
+
+
+
+
+
+
+# Debugging output
+echo "Debugging: $online_dir/gamelist.xml exists: $( [ -f "$online_dir/gamelist.xml" ] && echo "true" || echo "false" )"
+echo "Debugging: $online_dir/gamelist.xml.md5 exists: $( [ -f "$online_dir/gamelist.xml.md5" ] && echo "true" || echo "false" )"
+
+     done < <(grep "^roms+=(" /recalbox/share/system/.config/platforms.txt)
 
       echo "Installation complete. Log saved to: $log_file"
 
