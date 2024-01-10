@@ -8,40 +8,19 @@ It mounts whatever FTP/HTTP directory to your arcade (Recalbox) and makes it pla
 
 For our examples in the rclone.conf
 ```
-#[archive]
-#type = internetarchive
-#access_key_id = ij5tPAYmIcp1kpdI
-#secret_access_key = aI5HEG3WsfSygNop
-
 [myrient]
 type = http
 url = https://myrient.erista.me/files/
 
-#[myrient-bak]
-#type = ftp
-#host = ftp.myrient.erista.me
-#tls = false
-#explicit_tls = false
-#pass = 
-#user = 
-
 #[thumbnails]
 #type = http
 #url = http://thumbnails.libretro.com
-
-#[eye]
-#type = http
-#url = https://the-eye.eu/public
 
 #[dos]
 #type = ftp
 #host = old-dos.ru
 #user = oscollect
 #pass = SxrRwRGbMe50XcwMKB53j6LSN9DehYMJag
-
-#[grandis]
-#type = http
-#url = https://ftp.grandis.nu/turran/FTP
 ```
 
 ```
