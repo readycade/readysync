@@ -161,7 +161,7 @@ fi
 # Install rclone
 if [ ! -f /usr/bin/rclone ]; then
   echo "Downloading and installing rclone..."
-  wget -O /usr/bin/rclone.zip https://downloads.rclone.org/v1.60.0/rclone-v1.60.0-linux-${rclone_arch}.zip
+  wget -O /usr/bin/rclone.zip https://downloads.rclone.org/v1.65.0/rclone-v1.65.0-linux-${rclone_arch}.zip
   7za e -y /usr/bin/rclone.zip
   mv rclone /usr/bin
   chmod +x /usr/bin/rclone
@@ -251,6 +251,10 @@ offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlis
 
 # Online Mode
 if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
+    # Mount rclone using the provided command
+    echo "Mounting rclone..."
+    # Replace the following line with the actual rclone mount command
+    rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone.conf --daemon --allow-non-empty --http-no-head
     # Backup the existing systemlist.xml
     echo "Backing up systemlist.xml..."
     cp "$offline_systemlist" "$offline_backup"
