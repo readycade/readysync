@@ -31,13 +31,14 @@ Default mode is Offline
 ----------------------------------------------------------------------------------------
 in the custom.sh file
 
-# Uncomment / Comment mode_choice and change the value below for the timeout to automatically press 1 or 2
-read -t "$timeout_seconds" -r input || input="2"
+# Display menu
+echo "Please select a mode:"
+echo "1. Online Mode"
+echo "2. Offline Mode"
 
-# Default to Offline Mode if no input within the timeout
-mode_choice="${input:-2}"
-
-# Default to Online Mode if no input within the timeout
-#mode_choice="${input:-1}"
+# Capture input with timeout
+# change mode_choice="2" to "1" if you wish to enable Online
+timeout_seconds=5
+read -t "$timeout_seconds" -r input || mode_choice="2"
 ----------------------------------------------------------------------------------------
 ```
