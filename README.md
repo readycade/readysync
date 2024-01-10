@@ -1,6 +1,6 @@
 
 
-# This is for Recalbox
+# Readystream (Everygame, All at Once)
 
 Essentially what the script does is offer you an OFFLINE and ONLINE way of playing games
 
