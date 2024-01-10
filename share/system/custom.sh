@@ -87,24 +87,43 @@ generate_gamelist_xml() {
 # Function to create console directory
 create_console_directory() {
   local console_name="$1"
+  console_name=$(echo "$console_name" | sed 's:/*$::')  # This removes trailing slashes
   mkdir -p "/recalbox/share/userscripts/.config/readystream/roms/$console_name"
+  mkdir -p "/recalbox/share/roms/readystream/$console_name"
 }
 
-# Use the previously defined console_name variable from create_console_directory
-create_console_directory "$console_name"
+# Extract console names from platforms.txt using awk
+console_names=$(awk -F';' '/^roms\+=/{gsub(/roms\+=\("/, ""); gsub(/".*/, ""); print $1}' /recalbox/share/userscripts/.config/readystream/platforms.txt)
 
-# Set source and destination directories
-source_dir="/recalbox/share/userscripts/.config/readystream/roms/$console_name"
-dest_dir="/recalbox/share/roms/readystream/$console_name"
+# Display extracted console names for debugging
+echo "Console names extracted from platforms.txt: '$console_names'"
 
-# Check if source directory exists
-if [ -d "$source_dir" ]; then
-  # Copy everything from source_dir to dest_dir without overwriting existing files
-  cp -n "$source_dir/"* "$dest_dir/"
-  echo "Copy completed successfully."
-else
-  echo "Source directory does not exist: $source_dir"
-fi
+# Loop through extracted console names and create directories
+IFS=$'\n'  # Set Internal Field Separator to newline to handle multiple console names
+for console_name in $console_names; do
+  # Use the extracted console name to create the console directory
+  create_console_directory "$console_name"
+
+  # Set source and destination directories
+  source_dir="/recalbox/share/userscripts/.config/readystream/roms/$console_name"
+  dest_dir="/recalbox/share/roms/readystream/$console_name"
+
+  # Display source directory for debugging
+  echo "Source directory: '$source_dir'"
+
+  # Check if source directory exists
+  if [ -d "$source_dir" ]; then
+    # Copy everything from source_dir to dest_dir without overwriting existing files
+    cp -n "$source_dir"/* "$dest_dir/"
+    echo "Copy completed successfully for '$console_name'."
+  else
+    echo "Source directory does not exist for '$console_name': $source_dir"
+  fi
+done
+
+
+
+
 
 
 # Function to perform actions specific to Online Mode
@@ -231,49 +250,53 @@ offline_online="/recalbox/share/userscripts/.config/.emulationstation/systemlist
 offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml"
 
 # Online Mode
-if [ "$mode_choice" = "1" ]; then
+if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
+    # Backup the existing systemlist.xml
+    echo "Backing up systemlist.xml..."
+    cp "$offline_systemlist" "$offline_backup"
+    echo "Backup created: $offline_backup"
 
-    # Mount rclone using the provided command
-    echo "Mounting rclone..."
-    # Replace the following line with the actual rclone mount command
-    rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone.conf --daemon --allow-non-empty --http-no-head
+    # Overwrite systemlist.xml with the online version
+    echo "Overwriting systemlist.xml with the online version..."
+    cp "$offline_online" "$offline_systemlist"
+    echo "Online version applied."
 
-    # Online Mode
-    if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
-        # Backup the existing systemlist.xml
-        echo "Backing up systemlist.xml..."
-        cp "$offline_systemlist" "$offline_backup"
-        echo "Backup created: $offline_backup"
+# Read the roms array from platforms.txt
+platforms_file="/recalbox/share/userscripts/.config/readystream/platforms.txt"
+mapfile -t roms < "$platforms_file"
 
-        # Overwrite systemlist.xml with the online version
-        echo "Overwriting systemlist.xml with the online version..."
-        cp "$offline_online" "$offline_systemlist"
-        echo "Online version applied."
+# Loop through the roms array
+for rom_entry in "${roms[@]}"; do
+    # Remove roms+=(" from the beginning of the entry
+    rom_entry="${rom_entry#roms+=(\"}"
 
-        # Process the platforms.txt file
-        while IFS= read -r roms_entry; do
-            console_name=$(echo "$roms_entry" | cut -d ';' -f 1)
-            source_directory=$(echo "$roms_entry" | cut -d ';' -f 2)
-            target_directory=$(echo "$roms_entry" | cut -d ';' -f 5)
+    # Split the entry into components
+    IFS=';' read -r -a rom_data <<< "$rom_entry"
 
-            # Create hard links
-            for rom_file in "$source_directory"/*; do
-                if [ -f "$rom_file" ]; then
-                    rom_name=$(basename "$rom_file")
-                    target_path="$target_directory/$rom_name"
+    # Extract console name (first name in the array)
+    console_name="${rom_data[0]}"
 
-                    # Use ln to create hard links
-                    ln "$rom_file" "$target_path"
-                    echo "Created hard link: $target_path"
-                fi
-            done
-        done < "$offline_online"
+    # Extract console directory
+    console_directory="${rom_data[1]}"
 
-    else
-        echo "Error: systemlist.xml files not found."
-    fi
+    # Create the source and destination paths
+    source_path="/recalbox/share/rom/$console_directory"
+    destination_path="/recalbox/share/roms/readystream/$console_name"
 
-fi  # Add this line to close the first if block
+    # Create the destination directory if it doesn't exist
+    mkdir -p "$destination_path"
+
+    # Use rsync to create hard link backups
+    rsync -a --link-dest="$source_path" "$source_path/" "$destination_path/"
+done
+
+
+
+
+else
+    echo "Error: systemlist.xml files not found."
+fi
+
 
 # Offline Mode
 if [ "$mode_choice" != "1" ]; then
