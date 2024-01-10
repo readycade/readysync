@@ -121,11 +121,6 @@ for console_name in $console_names; do
   fi
 done
 
-
-
-
-
-
 # Function to perform actions specific to Online Mode
 online_mode() {
     # Add your specific actions for Online Mode here
@@ -139,7 +134,6 @@ offline_mode() {
     # ...
     echo "Performing actions specific to Offline Mode..."
 }
-
 
 # Detect architecture
 case $(uname -m) in
@@ -286,13 +280,9 @@ for rom_entry in "${roms[@]}"; do
     rsync -a --link-dest="$source_path" "$source_path/" "$destination_path/"
 done
 
-
-
-
 else
     echo "Error: systemlist.xml files not found."
 fi
-
 
 # Offline Mode
 if [ "$mode_choice" != "1" ]; then
