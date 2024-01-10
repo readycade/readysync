@@ -1,1207 +1,1207 @@
 <?xml version="1.0"?>
 <gameList>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/1942 (Japan).zip</path>
+    <path>./1942 (Japan).zip</path>
     <name>1942 (Japan)</name>
     <image>./media/images/1942 (Japan).png</image>
     <video>./media/videos/1942 (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/A Ressha de Ikou MSX (Japan).zip</path>
+    <path>./A Ressha de Ikou MSX (Japan).zip</path>
     <name>A Ressha de Ikou MSX (Japan)</name>
     <image>./media/images/A Ressha de Ikou MSX (Japan).png</image>
     <video>./media/videos/A Ressha de Ikou MSX (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/AcroJet (Japan).zip</path>
+    <path>./AcroJet (Japan).zip</path>
     <name>AcroJet (Japan)</name>
     <image>./media/images/AcroJet (Japan).png</image>
     <video>./media/videos/AcroJet (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Akumajo Dracula (Japan) (Wii U Virtual Console).zip</path>
+    <path>./Akumajo Dracula (Japan) (Wii U Virtual Console).zip</path>
     <name>Akumajo Dracula (Japan) (Wii U Virtual Console)</name>
     <image>./media/images/Akumajo Dracula (Japan) (Wii U Virtual Console).png</image>
     <video>./media/videos/Akumajo Dracula (Japan) (Wii U Virtual Console).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Aleste (Japan).zip</path>
+    <path>./Aleste (Japan).zip</path>
     <name>Aleste (Japan)</name>
     <image>./media/images/Aleste (Japan).png</image>
     <video>./media/videos/Aleste (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Alges no Yoku (Japan).zip</path>
+    <path>./Alges no Yoku (Japan).zip</path>
     <name>Alges no Yoku (Japan)</name>
     <image>./media/images/Alges no Yoku (Japan).png</image>
     <video>./media/videos/Alges no Yoku (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/American Soccer (Japan).zip</path>
+    <path>./American Soccer (Japan).zip</path>
     <name>American Soccer (Japan)</name>
     <image>./media/images/American Soccer (Japan).png</image>
     <video>./media/videos/American Soccer (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Aoki Ookami to Shiroki Mejika - Genchou Hishi (Japan).zip</path>
+    <path>./Aoki Ookami to Shiroki Mejika - Genchou Hishi (Japan).zip</path>
     <name>Aoki Ookami to Shiroki Mejika - Genchou Hishi (Japan)</name>
     <image>./media/images/Aoki Ookami to Shiroki Mejika - Genchou Hishi (Japan).png</image>
     <video>./media/videos/Aoki Ookami to Shiroki Mejika - Genchou Hishi (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Aoki Ookami to Shiroki Mejika - Genghis Khan (Japan).zip</path>
+    <path>./Aoki Ookami to Shiroki Mejika - Genghis Khan (Japan).zip</path>
     <name>Aoki Ookami to Shiroki Mejika - Genghis Khan (Japan)</name>
     <image>./media/images/Aoki Ookami to Shiroki Mejika - Genghis Khan (Japan).png</image>
     <video>./media/videos/Aoki Ookami to Shiroki Mejika - Genghis Khan (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Arctic - Active Rail Playing (Japan) (Alt).zip</path>
+    <path>./Arctic - Active Rail Playing (Japan) (Alt).zip</path>
     <name>Arctic - Active Rail Playing (Japan) (Alt)</name>
     <image>./media/images/Arctic - Active Rail Playing (Japan) (Alt).png</image>
     <video>./media/videos/Arctic - Active Rail Playing (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Arctic - Active Rail Playing (Japan).zip</path>
+    <path>./Arctic - Active Rail Playing (Japan).zip</path>
     <name>Arctic - Active Rail Playing (Japan)</name>
     <image>./media/images/Arctic - Active Rail Playing (Japan).png</image>
     <video>./media/videos/Arctic - Active Rail Playing (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Arkanoid II - Revenge of Doh (Japan).zip</path>
+    <path>./Arkanoid II - Revenge of Doh (Japan).zip</path>
     <name>Arkanoid II - Revenge of Doh (Japan)</name>
     <image>./media/images/Arkanoid II - Revenge of Doh (Japan).png</image>
     <video>./media/videos/Arkanoid II - Revenge of Doh (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/AshGuine - Densetsu no Seisenshi (Japan).zip</path>
+    <path>./AshGuine - Densetsu no Seisenshi (Japan).zip</path>
     <name>AshGuine - Densetsu no Seisenshi (Japan)</name>
     <image>./media/images/AshGuine - Densetsu no Seisenshi (Japan).png</image>
     <video>./media/videos/AshGuine - Densetsu no Seisenshi (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/AshGuine Story II - Kokuu no Gajou (Japan).zip</path>
+    <path>./AshGuine Story II - Kokuu no Gajou (Japan).zip</path>
     <name>AshGuine Story II - Kokuu no Gajou (Japan)</name>
     <image>./media/images/AshGuine Story II - Kokuu no Gajou (Japan).png</image>
     <video>./media/videos/AshGuine Story II - Kokuu no Gajou (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/AshGuine Story III - Fukushuu no Honoo (Japan).zip</path>
+    <path>./AshGuine Story III - Fukushuu no Honoo (Japan).zip</path>
     <name>AshGuine Story III - Fukushuu no Honoo (Japan)</name>
     <image>./media/images/AshGuine Story III - Fukushuu no Honoo (Japan).png</image>
     <video>./media/videos/AshGuine Story III - Fukushuu no Honoo (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Brunilda (World) (v1.1) (Aftermarket) (Unl).zip</path>
+    <path>./Brunilda (World) (v1.1) (Aftermarket) (Unl).zip</path>
     <name>Brunilda (World) (v1.1) (Aftermarket) (Unl)</name>
     <image>./media/images/Brunilda (World) (v1.1) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Brunilda (World) (v1.1) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Bubble Bobble (Japan) (Alt).zip</path>
+    <path>./Bubble Bobble (Japan) (Alt).zip</path>
     <name>Bubble Bobble (Japan) (Alt)</name>
     <image>./media/images/Bubble Bobble (Japan) (Alt).png</image>
     <video>./media/videos/Bubble Bobble (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Bubble Bobble (Japan).zip</path>
+    <path>./Bubble Bobble (Japan).zip</path>
     <name>Bubble Bobble (Japan)</name>
     <image>./media/images/Bubble Bobble (Japan).png</image>
     <video>./media/videos/Bubble Bobble (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Cheese 2 (Japan) (Program).zip</path>
+    <path>./Cheese 2 (Japan) (Program).zip</path>
     <name>Cheese 2 (Japan) (Program)</name>
     <image>./media/images/Cheese 2 (Japan) (Program).png</image>
     <video>./media/videos/Cheese 2 (Japan) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Cockpit, The (Japan).zip</path>
+    <path>./Cockpit, The (Japan).zip</path>
     <name>Cockpit, The (Japan)</name>
     <image>./media/images/Cockpit, The (Japan).png</image>
     <video>./media/videos/Cockpit, The (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Contra (Japan) (Wii U Virtual Console).zip</path>
+    <path>./Contra (Japan) (Wii U Virtual Console).zip</path>
     <name>Contra (Japan) (Wii U Virtual Console)</name>
     <image>./media/images/Contra (Japan) (Wii U Virtual Console).png</image>
     <video>./media/videos/Contra (Japan) (Wii U Virtual Console).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Crimson (Japan).zip</path>
+    <path>./Crimson (Japan).zip</path>
     <name>Crimson (Japan)</name>
     <image>./media/images/Crimson (Japan).png</image>
     <video>./media/videos/Crimson (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Daikoukai Jidai (Japan).zip</path>
+    <path>./Daikoukai Jidai (Japan).zip</path>
     <name>Daikoukai Jidai (Japan)</name>
     <image>./media/images/Daikoukai Jidai (Japan).png</image>
     <video>./media/videos/Daikoukai Jidai (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Daisenryaku MSX2 (Japan).zip</path>
+    <path>./Daisenryaku MSX2 (Japan).zip</path>
     <name>Daisenryaku MSX2 (Japan)</name>
     <image>./media/images/Daisenryaku MSX2 (Japan).png</image>
     <video>./media/videos/Daisenryaku MSX2 (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Darwin 4078 (Japan) (Alt 2).zip</path>
+    <path>./Darwin 4078 (Japan) (Alt 2).zip</path>
     <name>Darwin 4078 (Japan) (Alt 2)</name>
     <image>./media/images/Darwin 4078 (Japan) (Alt 2).png</image>
     <video>./media/videos/Darwin 4078 (Japan) (Alt 2).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Darwin 4078 (Japan) (Alt).zip</path>
+    <path>./Darwin 4078 (Japan) (Alt).zip</path>
     <name>Darwin 4078 (Japan) (Alt)</name>
     <image>./media/images/Darwin 4078 (Japan) (Alt).png</image>
     <video>./media/videos/Darwin 4078 (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Darwin 4078 (Japan).zip</path>
+    <path>./Darwin 4078 (Japan).zip</path>
     <name>Darwin 4078 (Japan)</name>
     <image>./media/images/Darwin 4078 (Japan).png</image>
     <video>./media/videos/Darwin 4078 (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Deep Forest (Japan) (Alt).zip</path>
+    <path>./Deep Forest (Japan) (Alt).zip</path>
     <name>Deep Forest (Japan) (Alt)</name>
     <image>./media/images/Deep Forest (Japan) (Alt).png</image>
     <video>./media/videos/Deep Forest (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Deep Forest (Japan).zip</path>
+    <path>./Deep Forest (Japan).zip</path>
     <name>Deep Forest (Japan)</name>
     <image>./media/images/Deep Forest (Japan).png</image>
     <video>./media/videos/Deep Forest (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Dires - Giger Loop (Japan).zip</path>
+    <path>./Dires - Giger Loop (Japan).zip</path>
     <name>Dires - Giger Loop (Japan)</name>
     <image>./media/images/Dires - Giger Loop (Japan).png</image>
     <video>./media/videos/Dires - Giger Loop (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Double Vision (Japan).zip</path>
+    <path>./Double Vision (Japan).zip</path>
     <name>Double Vision (Japan)</name>
     <image>./media/images/Double Vision (Japan).png</image>
     <video>./media/videos/Double Vision (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Dragon Buster (Japan).zip</path>
+    <path>./Dragon Buster (Japan).zip</path>
     <name>Dragon Buster (Japan)</name>
     <image>./media/images/Dragon Buster (Japan).png</image>
     <video>./media/videos/Dragon Buster (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Dragon Quest (Japan).zip</path>
+    <path>./Dragon Quest (Japan).zip</path>
     <name>Dragon Quest (Japan)</name>
     <image>./media/images/Dragon Quest (Japan).png</image>
     <video>./media/videos/Dragon Quest (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Dragon Quest II (Japan) (Alt).zip</path>
+    <path>./Dragon Quest II (Japan) (Alt).zip</path>
     <name>Dragon Quest II (Japan) (Alt)</name>
     <image>./media/images/Dragon Quest II (Japan) (Alt).png</image>
     <video>./media/videos/Dragon Quest II (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Dragon Quest II (Japan).zip</path>
+    <path>./Dragon Quest II (Japan).zip</path>
     <name>Dragon Quest II (Japan)</name>
     <image>./media/images/Dragon Quest II (Japan).png</image>
     <video>./media/videos/Dragon Quest II (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Dragon Slayer IV - Drasle Family (Japan) (Alt).zip</path>
+    <path>./Dragon Slayer IV - Drasle Family (Japan) (Alt).zip</path>
     <name>Dragon Slayer IV - Drasle Family (Japan) (Alt)</name>
     <image>./media/images/Dragon Slayer IV - Drasle Family (Japan) (Alt).png</image>
     <video>./media/videos/Dragon Slayer IV - Drasle Family (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Dragon Slayer IV - Drasle Family (Japan).zip</path>
+    <path>./Dragon Slayer IV - Drasle Family (Japan).zip</path>
     <name>Dragon Slayer IV - Drasle Family (Japan)</name>
     <image>./media/images/Dragon Slayer IV - Drasle Family (Japan).png</image>
     <video>./media/videos/Dragon Slayer IV - Drasle Family (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Dragon Slayer Jr. - Romancia (Japan).zip</path>
+    <path>./Dragon Slayer Jr. - Romancia (Japan).zip</path>
     <name>Dragon Slayer Jr. - Romancia (Japan)</name>
     <image>./media/images/Dragon Slayer Jr. - Romancia (Japan).png</image>
     <video>./media/videos/Dragon Slayer Jr. - Romancia (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Druid (Japan) (Alt).zip</path>
+    <path>./Druid (Japan) (Alt).zip</path>
     <name>Druid (Japan) (Alt)</name>
     <image>./media/images/Druid (Japan) (Alt).png</image>
     <video>./media/videos/Druid (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Druid (Japan).zip</path>
+    <path>./Druid (Japan).zip</path>
     <name>Druid (Japan)</name>
     <image>./media/images/Druid (Japan).png</image>
     <video>./media/videos/Druid (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Dynamite Bowl (Japan) (Alt).zip</path>
+    <path>./Dynamite Bowl (Japan) (Alt).zip</path>
     <name>Dynamite Bowl (Japan) (Alt)</name>
     <image>./media/images/Dynamite Bowl (Japan) (Alt).png</image>
     <video>./media/videos/Dynamite Bowl (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Dynamite Bowl (Japan).zip</path>
+    <path>./Dynamite Bowl (Japan).zip</path>
     <name>Dynamite Bowl (Japan)</name>
     <image>./media/images/Dynamite Bowl (Japan).png</image>
     <video>./media/videos/Dynamite Bowl (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Eidolon, The (Europe).zip</path>
+    <path>./Eidolon, The (Europe).zip</path>
     <name>Eidolon, The (Europe)</name>
     <image>./media/images/Eidolon, The (Europe).png</image>
     <video>./media/videos/Eidolon, The (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Elthlead (Japan).zip</path>
+    <path>./Elthlead (Japan).zip</path>
     <name>Elthlead (Japan)</name>
     <image>./media/images/Elthlead (Japan).png</image>
     <video>./media/videos/Elthlead (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Empereur, L' (Japan).zip</path>
+    <path>./Empereur, L' (Japan).zip</path>
     <name>Empereur, L' (Japan)</name>
     <image>./media/images/Empereur, L' (Japan).png</image>
     <video>./media/videos/Empereur, L' (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Europe Sensen (Japan).zip</path>
+    <path>./Europe Sensen (Japan).zip</path>
     <name>Europe Sensen (Japan)</name>
     <image>./media/images/Europe Sensen (Japan).png</image>
     <video>./media/videos/Europe Sensen (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/F-15 Strike Eagle (Japan).zip</path>
+    <path>./F-15 Strike Eagle (Japan).zip</path>
     <name>F-15 Strike Eagle (Japan)</name>
     <image>./media/images/F-15 Strike Eagle (Japan).png</image>
     <video>./media/videos/F-15 Strike Eagle (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Famicle Parodic (Japan).zip</path>
+    <path>./Famicle Parodic (Japan).zip</path>
     <name>Famicle Parodic (Japan)</name>
     <image>./media/images/Famicle Parodic (Japan).png</image>
     <video>./media/videos/Famicle Parodic (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Family Billiards (Japan).zip</path>
+    <path>./Family Billiards (Japan).zip</path>
     <name>Family Billiards (Japan)</name>
     <image>./media/images/Family Billiards (Japan).png</image>
     <video>./media/videos/Family Billiards (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Family Boxing - MSX Title Match (Japan).zip</path>
+    <path>./Family Boxing - MSX Title Match (Japan).zip</path>
     <name>Family Boxing - MSX Title Match (Japan)</name>
     <image>./media/images/Family Boxing - MSX Title Match (Japan).png</image>
     <video>./media/videos/Family Boxing - MSX Title Match (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Fantasy Zone II - The Tears of Opa-Opa (Japan) (Alt).zip</path>
+    <path>./Fantasy Zone II - The Tears of Opa-Opa (Japan) (Alt).zip</path>
     <name>Fantasy Zone II - The Tears of Opa-Opa (Japan) (Alt)</name>
     <image>./media/images/Fantasy Zone II - The Tears of Opa-Opa (Japan) (Alt).png</image>
     <video>./media/videos/Fantasy Zone II - The Tears of Opa-Opa (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Fantasy Zone II - The Tears of Opa-Opa (Japan).zip</path>
+    <path>./Fantasy Zone II - The Tears of Opa-Opa (Japan).zip</path>
     <name>Fantasy Zone II - The Tears of Opa-Opa (Japan)</name>
     <image>./media/images/Fantasy Zone II - The Tears of Opa-Opa (Japan).png</image>
     <video>./media/videos/Fantasy Zone II - The Tears of Opa-Opa (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Final Mystery Murder Club - Satsujin Club (Japan).zip</path>
+    <path>./Final Mystery Murder Club - Satsujin Club (Japan).zip</path>
     <name>Final Mystery Murder Club - Satsujin Club (Japan)</name>
     <image>./media/images/Final Mystery Murder Club - Satsujin Club (Japan).png</image>
     <video>./media/videos/Final Mystery Murder Club - Satsujin Club (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Fire Ball (Japan).zip</path>
+    <path>./Fire Ball (Japan).zip</path>
     <name>Fire Ball (Japan)</name>
     <image>./media/images/Fire Ball (Japan).png</image>
     <video>./media/videos/Fire Ball (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Fleet Commander II - Koukon no Kaiiki (Japan).zip</path>
+    <path>./Fleet Commander II - Koukon no Kaiiki (Japan).zip</path>
     <name>Fleet Commander II - Koukon no Kaiiki (Japan)</name>
     <image>./media/images/Fleet Commander II - Koukon no Kaiiki (Japan).png</image>
     <video>./media/videos/Fleet Commander II - Koukon no Kaiiki (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Gakuen Monogatari - High School Story (Japan).zip</path>
+    <path>./Gakuen Monogatari - High School Story (Japan).zip</path>
     <name>Gakuen Monogatari - High School Story (Japan)</name>
     <image>./media/images/Gakuen Monogatari - High School Story (Japan).png</image>
     <video>./media/videos/Gakuen Monogatari - High School Story (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Gambler Jiko Chuushinha 2 - Jishou! Kyougou Janshi Hen (Japan).zip</path>
+    <path>./Gambler Jiko Chuushinha 2 - Jishou! Kyougou Janshi Hen (Japan).zip</path>
     <name>Gambler Jiko Chuushinha 2 - Jishou! Kyougou Janshi Hen (Japan)</name>
     <image>./media/images/Gambler Jiko Chuushinha 2 - Jishou! Kyougou Janshi Hen (Japan).png</image>
     <video>./media/videos/Gambler Jiko Chuushinha 2 - Jishou! Kyougou Janshi Hen (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Ganbare Goemon! - Karakuri Douchuu (Japan) (Wii U Virtual Console).zip</path>
+    <path>./Ganbare Goemon! - Karakuri Douchuu (Japan) (Wii U Virtual Console).zip</path>
     <name>Ganbare Goemon! - Karakuri Douchuu (Japan) (Wii U Virtual Console)</name>
     <image>./media/images/Ganbare Goemon! - Karakuri Douchuu (Japan) (Wii U Virtual Console).png</image>
     <video>./media/videos/Ganbare Goemon! - Karakuri Douchuu (Japan) (Wii U Virtual Console).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Garakuta (Japan).zip</path>
+    <path>./Garakuta (Japan).zip</path>
     <name>Garakuta (Japan)</name>
     <image>./media/images/Garakuta (Japan).png</image>
     <video>./media/videos/Garakuta (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Garyuu Ou (Japan) (Alt).zip</path>
+    <path>./Garyuu Ou (Japan) (Alt).zip</path>
     <name>Garyuu Ou (Japan) (Alt)</name>
     <image>./media/images/Garyuu Ou (Japan) (Alt).png</image>
     <video>./media/videos/Garyuu Ou (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Garyuu Ou (Japan).zip</path>
+    <path>./Garyuu Ou (Japan).zip</path>
     <name>Garyuu Ou (Japan)</name>
     <image>./media/images/Garyuu Ou (Japan).png</image>
     <video>./media/videos/Garyuu Ou (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Gekitotsu Pennant Race - Pro Yakyuu, The (Japan) (Alt 2).zip</path>
+    <path>./Gekitotsu Pennant Race - Pro Yakyuu, The (Japan) (Alt 2).zip</path>
     <name>Gekitotsu Pennant Race - Pro Yakyuu, The (Japan) (Alt 2)</name>
     <image>./media/images/Gekitotsu Pennant Race - Pro Yakyuu, The (Japan) (Alt 2).png</image>
     <video>./media/videos/Gekitotsu Pennant Race - Pro Yakyuu, The (Japan) (Alt 2).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Gekitotsu Pennant Race - Pro Yakyuu, The (Japan) (Alt 3).zip</path>
+    <path>./Gekitotsu Pennant Race - Pro Yakyuu, The (Japan) (Alt 3).zip</path>
     <name>Gekitotsu Pennant Race - Pro Yakyuu, The (Japan) (Alt 3)</name>
     <image>./media/images/Gekitotsu Pennant Race - Pro Yakyuu, The (Japan) (Alt 3).png</image>
     <video>./media/videos/Gekitotsu Pennant Race - Pro Yakyuu, The (Japan) (Alt 3).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Gekitotsu Pennant Race - Pro Yakyuu, The (Japan) (Alt).zip</path>
+    <path>./Gekitotsu Pennant Race - Pro Yakyuu, The (Japan) (Alt).zip</path>
     <name>Gekitotsu Pennant Race - Pro Yakyuu, The (Japan) (Alt)</name>
     <image>./media/images/Gekitotsu Pennant Race - Pro Yakyuu, The (Japan) (Alt).png</image>
     <video>./media/videos/Gekitotsu Pennant Race - Pro Yakyuu, The (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Gekitotsu Pennant Race - Pro Yakyuu, The (Japan).zip</path>
+    <path>./Gekitotsu Pennant Race - Pro Yakyuu, The (Japan).zip</path>
     <name>Gekitotsu Pennant Race - Pro Yakyuu, The (Japan)</name>
     <image>./media/images/Gekitotsu Pennant Race - Pro Yakyuu, The (Japan).png</image>
     <video>./media/videos/Gekitotsu Pennant Race - Pro Yakyuu, The (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Gekitotsu Pennant Race 2 (Japan) (English Menu).zip</path>
+    <path>./Gekitotsu Pennant Race 2 (Japan) (English Menu).zip</path>
     <name>Gekitotsu Pennant Race 2 (Japan) (English Menu)</name>
     <image>./media/images/Gekitotsu Pennant Race 2 (Japan) (English Menu).png</image>
     <video>./media/videos/Gekitotsu Pennant Race 2 (Japan) (English Menu).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Gekitotsu Pennant Race 2 (Japan).zip</path>
+    <path>./Gekitotsu Pennant Race 2 (Japan).zip</path>
     <name>Gekitotsu Pennant Race 2 (Japan)</name>
     <image>./media/images/Gekitotsu Pennant Race 2 (Japan).png</image>
     <video>./media/videos/Gekitotsu Pennant Race 2 (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Girly Block (Japan).zip</path>
+    <path>./Girly Block (Japan).zip</path>
     <name>Girly Block (Japan)</name>
     <image>./media/images/Girly Block (Japan).png</image>
     <video>./media/videos/Girly Block (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Hacker (Japan).zip</path>
+    <path>./Hacker (Japan).zip</path>
     <name>Hacker (Japan)</name>
     <image>./media/images/Hacker (Japan).png</image>
     <video>./media/videos/Hacker (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Hai no Majutsushi (Japan).zip</path>
+    <path>./Hai no Majutsushi (Japan).zip</path>
     <name>Hai no Majutsushi (Japan)</name>
     <image>./media/images/Hai no Majutsushi (Japan).png</image>
     <video>./media/videos/Hai no Majutsushi (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Hal Note (Japan) (Program).zip</path>
+    <path>./Hal Note (Japan) (Program).zip</path>
     <name>Hal Note (Japan) (Program)</name>
     <image>./media/images/Hal Note (Japan) (Program).png</image>
     <video>./media/videos/Hal Note (Japan) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Han Seimei Senki Andorogynus (Japan) (Alt).zip</path>
+    <path>./Han Seimei Senki Andorogynus (Japan) (Alt).zip</path>
     <name>Han Seimei Senki Andorogynus (Japan) (Alt)</name>
     <image>./media/images/Han Seimei Senki Andorogynus (Japan) (Alt).png</image>
     <video>./media/videos/Han Seimei Senki Andorogynus (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Han Seimei Senki Andorogynus (Japan).zip</path>
+    <path>./Han Seimei Senki Andorogynus (Japan).zip</path>
     <name>Han Seimei Senki Andorogynus (Japan)</name>
     <image>./media/images/Han Seimei Senki Andorogynus (Japan).png</image>
     <video>./media/videos/Han Seimei Senki Andorogynus (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Hard Ball (Japan).zip</path>
+    <path>./Hard Ball (Japan).zip</path>
     <name>Hard Ball (Japan)</name>
     <image>./media/images/Hard Ball (Japan).png</image>
     <video>./media/videos/Hard Ball (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Heroes of the Lance (Japan).zip</path>
+    <path>./Heroes of the Lance (Japan).zip</path>
     <name>Heroes of the Lance (Japan)</name>
     <image>./media/images/Heroes of the Lance (Japan).png</image>
     <video>./media/videos/Heroes of the Lance (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Higemaru Makai Shima - Nanatsu no Shima Daibouken (Japan).zip</path>
+    <path>./Higemaru Makai Shima - Nanatsu no Shima Daibouken (Japan).zip</path>
     <name>Higemaru Makai Shima - Nanatsu no Shima Daibouken (Japan)</name>
     <image>./media/images/Higemaru Makai Shima - Nanatsu no Shima Daibouken (Japan).png</image>
     <video>./media/videos/Higemaru Makai Shima - Nanatsu no Shima Daibouken (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/High School! Kimengumi (Japan).zip</path>
+    <path>./High School! Kimengumi (Japan).zip</path>
     <name>High School! Kimengumi (Japan)</name>
     <image>./media/images/High School! Kimengumi (Japan).png</image>
     <video>./media/videos/High School! Kimengumi (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Hinotori - Houou Hen (Japan) (Alt 2).zip</path>
+    <path>./Hinotori - Houou Hen (Japan) (Alt 2).zip</path>
     <name>Hinotori - Houou Hen (Japan) (Alt 2)</name>
     <image>./media/images/Hinotori - Houou Hen (Japan) (Alt 2).png</image>
     <video>./media/videos/Hinotori - Houou Hen (Japan) (Alt 2).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Hinotori - Houou Hen (Japan) (Alt).zip</path>
+    <path>./Hinotori - Houou Hen (Japan) (Alt).zip</path>
     <name>Hinotori - Houou Hen (Japan) (Alt)</name>
     <image>./media/images/Hinotori - Houou Hen (Japan) (Alt).png</image>
     <video>./media/videos/Hinotori - Houou Hen (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Hinotori - Houou Hen (Japan).zip</path>
+    <path>./Hinotori - Houou Hen (Japan).zip</path>
     <name>Hinotori - Houou Hen (Japan)</name>
     <image>./media/images/Hinotori - Houou Hen (Japan).png</image>
     <video>./media/videos/Hinotori - Houou Hen (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Hole in One Special (Japan) (Alt).zip</path>
+    <path>./Hole in One Special (Japan) (Alt).zip</path>
     <name>Hole in One Special (Japan) (Alt)</name>
     <image>./media/images/Hole in One Special (Japan) (Alt).png</image>
     <video>./media/videos/Hole in One Special (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Hole in One Special (Japan).zip</path>
+    <path>./Hole in One Special (Japan).zip</path>
     <name>Hole in One Special (Japan)</name>
     <image>./media/images/Hole in One Special (Japan).png</image>
     <video>./media/videos/Hole in One Special (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Hydlide 3 - The Space Memories (Japan).zip</path>
+    <path>./Hydlide 3 - The Space Memories (Japan).zip</path>
     <name>Hydlide 3 - The Space Memories (Japan)</name>
     <image>./media/images/Hydlide 3 - The Space Memories (Japan).png</image>
     <video>./media/videos/Hydlide 3 - The Space Memories (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Ide Yousuke Meijin no Jissen Mahjong (Japan).zip</path>
+    <path>./Ide Yousuke Meijin no Jissen Mahjong (Japan).zip</path>
     <name>Ide Yousuke Meijin no Jissen Mahjong (Japan)</name>
     <image>./media/images/Ide Yousuke Meijin no Jissen Mahjong (Japan).png</image>
     <video>./media/videos/Ide Yousuke Meijin no Jissen Mahjong (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Ikari (Japan) (Alt).zip</path>
+    <path>./Ikari (Japan) (Alt).zip</path>
     <name>Ikari (Japan) (Alt)</name>
     <image>./media/images/Ikari (Japan) (Alt).png</image>
     <video>./media/videos/Ikari (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Ikari (Japan).zip</path>
+    <path>./Ikari (Japan).zip</path>
     <name>Ikari (Japan)</name>
     <image>./media/images/Ikari (Japan).png</image>
     <video>./media/videos/Ikari (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Inemuriryuu Asada Tetsuya no A-kyuu Mahjong (Japan).zip</path>
+    <path>./Inemuriryuu Asada Tetsuya no A-kyuu Mahjong (Japan).zip</path>
     <name>Inemuriryuu Asada Tetsuya no A-kyuu Mahjong (Japan)</name>
     <image>./media/images/Inemuriryuu Asada Tetsuya no A-kyuu Mahjong (Japan).png</image>
     <video>./media/videos/Inemuriryuu Asada Tetsuya no A-kyuu Mahjong (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Inindou - Datou Nobunaga (Japan).zip</path>
+    <path>./Inindou - Datou Nobunaga (Japan).zip</path>
     <name>Inindou - Datou Nobunaga (Japan)</name>
     <image>./media/images/Inindou - Datou Nobunaga (Japan).png</image>
     <video>./media/videos/Inindou - Datou Nobunaga (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Ishin no Arashi (Japan).zip</path>
+    <path>./Ishin no Arashi (Japan).zip</path>
     <name>Ishin no Arashi (Japan)</name>
     <image>./media/images/Ishin no Arashi (Japan).png</image>
     <video>./media/videos/Ishin no Arashi (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Jansei (Japan) (Alt).zip</path>
+    <path>./Jansei (Japan) (Alt).zip</path>
     <name>Jansei (Japan) (Alt)</name>
     <image>./media/images/Jansei (Japan) (Alt).png</image>
     <video>./media/videos/Jansei (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Jansei (Japan).zip</path>
+    <path>./Jansei (Japan).zip</path>
     <name>Jansei (Japan)</name>
     <image>./media/images/Jansei (Japan).png</image>
     <video>./media/videos/Jansei (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Japanese MSX-Write II (Japan) (Program).zip</path>
+    <path>./Japanese MSX-Write II (Japan) (Program).zip</path>
     <name>Japanese MSX-Write II (Japan) (Program)</name>
     <image>./media/images/Japanese MSX-Write II (Japan) (Program).png</image>
     <video>./media/videos/Japanese MSX-Write II (Japan) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Kempelen Chess (Japan).zip</path>
+    <path>./Kempelen Chess (Japan).zip</path>
     <name>Kempelen Chess (Japan)</name>
     <image>./media/images/Kempelen Chess (Japan).png</image>
     <video>./media/videos/Kempelen Chess (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Kiki Kaikai (Japan).zip</path>
+    <path>./Kiki Kaikai (Japan).zip</path>
     <name>Kiki Kaikai (Japan)</name>
     <image>./media/images/Kiki Kaikai (Japan).png</image>
     <video>./media/videos/Kiki Kaikai (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/King Kong 2 - Yomigaeru Densetsu (Japan).zip</path>
+    <path>./King Kong 2 - Yomigaeru Densetsu (Japan).zip</path>
     <name>King Kong 2 - Yomigaeru Densetsu (Japan)</name>
     <image>./media/images/King Kong 2 - Yomigaeru Densetsu (Japan).png</image>
     <video>./media/videos/King Kong 2 - Yomigaeru Densetsu (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Kisei (Japan).zip</path>
+    <path>./Kisei (Japan).zip</path>
     <name>Kisei (Japan)</name>
     <image>./media/images/Kisei (Japan).png</image>
     <video>./media/videos/Kisei (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Kitahei (Japan).zip</path>
+    <path>./Kitahei (Japan).zip</path>
     <name>Kitahei (Japan)</name>
     <image>./media/images/Kitahei (Japan).png</image>
     <video>./media/videos/Kitahei (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Koronis Rift (Europe).zip</path>
+    <path>./Koronis Rift (Europe).zip</path>
     <name>Koronis Rift (Europe)</name>
     <image>./media/images/Koronis Rift (Europe).png</image>
     <video>./media/videos/Koronis Rift (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Labyrinth (Japan) (Alt).zip</path>
+    <path>./Labyrinth (Japan) (Alt).zip</path>
     <name>Labyrinth (Japan) (Alt)</name>
     <image>./media/images/Labyrinth (Japan) (Alt).png</image>
     <video>./media/videos/Labyrinth (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Labyrinth (Japan).zip</path>
+    <path>./Labyrinth (Japan).zip</path>
     <name>Labyrinth (Japan)</name>
     <image>./media/images/Labyrinth (Japan).png</image>
     <video>./media/videos/Labyrinth (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Lupin Sansei - Babylon no Ougon Densetsu (Japan) (Alt).zip</path>
+    <path>./Lupin Sansei - Babylon no Ougon Densetsu (Japan) (Alt).zip</path>
     <name>Lupin Sansei - Babylon no Ougon Densetsu (Japan) (Alt)</name>
     <image>./media/images/Lupin Sansei - Babylon no Ougon Densetsu (Japan) (Alt).png</image>
     <video>./media/videos/Lupin Sansei - Babylon no Ougon Densetsu (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Lupin Sansei - Babylon no Ougon Densetsu (Japan).zip</path>
+    <path>./Lupin Sansei - Babylon no Ougon Densetsu (Japan).zip</path>
     <name>Lupin Sansei - Babylon no Ougon Densetsu (Japan)</name>
     <image>./media/images/Lupin Sansei - Babylon no Ougon Densetsu (Japan).png</image>
     <video>./media/videos/Lupin Sansei - Babylon no Ougon Densetsu (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Lupin Sansei - Cagliostro no Shiro (Japan) (Alt).zip</path>
+    <path>./Lupin Sansei - Cagliostro no Shiro (Japan) (Alt).zip</path>
     <name>Lupin Sansei - Cagliostro no Shiro (Japan) (Alt)</name>
     <image>./media/images/Lupin Sansei - Cagliostro no Shiro (Japan) (Alt).png</image>
     <video>./media/videos/Lupin Sansei - Cagliostro no Shiro (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Lupin Sansei - Cagliostro no Shiro (Japan).zip</path>
+    <path>./Lupin Sansei - Cagliostro no Shiro (Japan).zip</path>
     <name>Lupin Sansei - Cagliostro no Shiro (Japan)</name>
     <image>./media/images/Lupin Sansei - Cagliostro no Shiro (Japan).png</image>
     <video>./media/videos/Lupin Sansei - Cagliostro no Shiro (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Mad Rider (Japan) (Alt).zip</path>
+    <path>./Mad Rider (Japan) (Alt).zip</path>
     <name>Mad Rider (Japan) (Alt)</name>
     <image>./media/images/Mad Rider (Japan) (Alt).png</image>
     <video>./media/videos/Mad Rider (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Mad Rider (Japan).zip</path>
+    <path>./Mad Rider (Japan).zip</path>
     <name>Mad Rider (Japan)</name>
     <image>./media/images/Mad Rider (Japan).png</image>
     <video>./media/videos/Mad Rider (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Maison Ikkoku - Kanketsu Hen - Sayonara, Soshite... (Japan).zip</path>
+    <path>./Maison Ikkoku - Kanketsu Hen - Sayonara, Soshite... (Japan).zip</path>
     <name>Maison Ikkoku - Kanketsu Hen - Sayonara, Soshite... (Japan)</name>
     <image>./media/images/Maison Ikkoku - Kanketsu Hen - Sayonara, Soshite... (Japan).png</image>
     <video>./media/videos/Maison Ikkoku - Kanketsu Hen - Sayonara, Soshite... (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Maison Ikkoku - Omoide no Photograph (Japan).zip</path>
+    <path>./Maison Ikkoku - Omoide no Photograph (Japan).zip</path>
     <name>Maison Ikkoku - Omoide no Photograph (Japan)</name>
     <image>./media/images/Maison Ikkoku - Omoide no Photograph (Japan).png</image>
     <video>./media/videos/Maison Ikkoku - Omoide no Photograph (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Malaya no Hibou (Japan).zip</path>
+    <path>./Malaya no Hibou (Japan).zip</path>
     <name>Malaya no Hibou (Japan)</name>
     <image>./media/images/Malaya no Hibou (Japan).png</image>
     <video>./media/videos/Malaya no Hibou (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Metal Gear (Europe).zip</path>
+    <path>./Metal Gear (Europe).zip</path>
     <name>Metal Gear (Europe)</name>
     <image>./media/images/Metal Gear (Europe).png</image>
     <video>./media/videos/Metal Gear (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Metal Gear (Japan).zip</path>
+    <path>./Metal Gear (Japan).zip</path>
     <name>Metal Gear (Japan)</name>
     <image>./media/images/Metal Gear (Japan).png</image>
     <video>./media/videos/Metal Gear (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Metal Gear 2 - Solid Snake (Japan) (Demo).zip</path>
+    <path>./Metal Gear 2 - Solid Snake (Japan) (Demo).zip</path>
     <name>Metal Gear 2 - Solid Snake (Japan) (Demo)</name>
     <image>./media/images/Metal Gear 2 - Solid Snake (Japan) (Demo).png</image>
     <video>./media/videos/Metal Gear 2 - Solid Snake (Japan) (Demo).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Metal Gear 2 - Solid Snake (Japan).zip</path>
+    <path>./Metal Gear 2 - Solid Snake (Japan).zip</path>
     <name>Metal Gear 2 - Solid Snake (Japan)</name>
     <image>./media/images/Metal Gear 2 - Solid Snake (Japan).png</image>
     <video>./media/videos/Metal Gear 2 - Solid Snake (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Mirai (Japan).zip</path>
+    <path>./Mirai (Japan).zip</path>
     <name>Mirai (Japan)</name>
     <image>./media/images/Mirai (Japan).png</image>
     <video>./media/videos/Mirai (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Mississippi Satsujinjiken (Japan).zip</path>
+    <path>./Mississippi Satsujinjiken (Japan).zip</path>
     <name>Mississippi Satsujinjiken (Japan)</name>
     <image>./media/images/Mississippi Satsujinjiken (Japan).png</image>
     <video>./media/videos/Mississippi Satsujinjiken (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Moero!! Nettou Yakyuu '88 (Japan).zip</path>
+    <path>./Moero!! Nettou Yakyuu '88 (Japan).zip</path>
     <name>Moero!! Nettou Yakyuu '88 (Japan)</name>
     <image>./media/images/Moero!! Nettou Yakyuu '88 (Japan).png</image>
     <video>./media/videos/Moero!! Nettou Yakyuu '88 (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Monmon Kaibutsu (Japan).zip</path>
+    <path>./Monmon Kaibutsu (Japan).zip</path>
     <name>Monmon Kaibutsu (Japan)</name>
     <image>./media/images/Monmon Kaibutsu (Japan).png</image>
     <video>./media/videos/Monmon Kaibutsu (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Nekketsu Juudou (Japan) (Alt).zip</path>
+    <path>./Nekketsu Juudou (Japan) (Alt).zip</path>
     <name>Nekketsu Juudou (Japan) (Alt)</name>
     <image>./media/images/Nekketsu Juudou (Japan) (Alt).png</image>
     <video>./media/videos/Nekketsu Juudou (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Nekketsu Juudou (Japan).zip</path>
+    <path>./Nekketsu Juudou (Japan).zip</path>
     <name>Nekketsu Juudou (Japan)</name>
     <image>./media/images/Nekketsu Juudou (Japan).png</image>
     <video>./media/videos/Nekketsu Juudou (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Ninja-kun - Asura no Shou (Japan).zip</path>
+    <path>./Ninja-kun - Asura no Shou (Japan).zip</path>
     <name>Ninja-kun - Asura no Shou (Japan)</name>
     <image>./media/images/Ninja-kun - Asura no Shou (Japan).png</image>
     <video>./media/videos/Ninja-kun - Asura no Shou (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Nobunaga no Yabou - Bushou Fuuun Roku (Japan).zip</path>
+    <path>./Nobunaga no Yabou - Bushou Fuuun Roku (Japan).zip</path>
     <name>Nobunaga no Yabou - Bushou Fuuun Roku (Japan)</name>
     <image>./media/images/Nobunaga no Yabou - Bushou Fuuun Roku (Japan).png</image>
     <video>./media/videos/Nobunaga no Yabou - Bushou Fuuun Roku (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Nobunaga no Yabou - Sengoku Gunyuuden (Japan).zip</path>
+    <path>./Nobunaga no Yabou - Sengoku Gunyuuden (Japan).zip</path>
     <name>Nobunaga no Yabou - Sengoku Gunyuuden (Japan)</name>
     <image>./media/images/Nobunaga no Yabou - Sengoku Gunyuuden (Japan).png</image>
     <video>./media/videos/Nobunaga no Yabou - Sengoku Gunyuuden (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Nobunaga no Yabou - Zenkoku Ban (Japan).zip</path>
+    <path>./Nobunaga no Yabou - Zenkoku Ban (Japan).zip</path>
     <name>Nobunaga no Yabou - Zenkoku Ban (Japan)</name>
     <image>./media/images/Nobunaga no Yabou - Zenkoku Ban (Japan).png</image>
     <video>./media/videos/Nobunaga no Yabou - Zenkoku Ban (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Ogre (Japan) (Alt).zip</path>
+    <path>./Ogre (Japan) (Alt).zip</path>
     <name>Ogre (Japan) (Alt)</name>
     <image>./media/images/Ogre (Japan) (Alt).png</image>
     <video>./media/videos/Ogre (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Ogre (Japan).zip</path>
+    <path>./Ogre (Japan).zip</path>
     <name>Ogre (Japan)</name>
     <image>./media/images/Ogre (Japan).png</image>
     <video>./media/videos/Ogre (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Ouke no Tani - El Giza no Fuuin (Japan).zip</path>
+    <path>./Ouke no Tani - El Giza no Fuuin (Japan).zip</path>
     <name>Ouke no Tani - El Giza no Fuuin (Japan)</name>
     <image>./media/images/Ouke no Tani - El Giza no Fuuin (Japan).png</image>
     <video>./media/videos/Ouke no Tani - El Giza no Fuuin (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Ouke no Tani - El Giza no Fuuin - Edit Contest Yuushuu Sakuhinshuu (Japan).zip</path>
+    <path>./Ouke no Tani - El Giza no Fuuin - Edit Contest Yuushuu Sakuhinshuu (Japan).zip</path>
     <name>Ouke no Tani - El Giza no Fuuin - Edit Contest Yuushuu Sakuhinshuu (Japan)</name>
     <image>./media/images/Ouke no Tani - El Giza no Fuuin - Edit Contest Yuushuu Sakuhinshuu (Japan).png</image>
     <video>./media/videos/Ouke no Tani - El Giza no Fuuin - Edit Contest Yuushuu Sakuhinshuu (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Out Run (Japan).zip</path>
+    <path>./Out Run (Japan).zip</path>
     <name>Out Run (Japan)</name>
     <image>./media/images/Out Run (Japan).png</image>
     <video>./media/videos/Out Run (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Pac-Mania (Japan).zip</path>
+    <path>./Pac-Mania (Japan).zip</path>
     <name>Pac-Mania (Japan)</name>
     <image>./media/images/Pac-Mania (Japan).png</image>
     <video>./media/videos/Pac-Mania (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Pachi Pro Densetsu (Japan).zip</path>
+    <path>./Pachi Pro Densetsu (Japan).zip</path>
     <name>Pachi Pro Densetsu (Japan)</name>
     <image>./media/images/Pachi Pro Densetsu (Japan).png</image>
     <video>./media/videos/Pachi Pro Densetsu (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Penguin-kun Wars 2 (Japan) (Alt).zip</path>
+    <path>./Penguin-kun Wars 2 (Japan) (Alt).zip</path>
     <name>Penguin-kun Wars 2 (Japan) (Alt)</name>
     <image>./media/images/Penguin-kun Wars 2 (Japan) (Alt).png</image>
     <video>./media/videos/Penguin-kun Wars 2 (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Penguin-kun Wars 2 (Japan).zip</path>
+    <path>./Penguin-kun Wars 2 (Japan).zip</path>
     <name>Penguin-kun Wars 2 (Japan)</name>
     <image>./media/images/Penguin-kun Wars 2 (Japan).png</image>
     <video>./media/videos/Penguin-kun Wars 2 (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Predator (Japan).zip</path>
+    <path>./Predator (Japan).zip</path>
     <name>Predator (Japan)</name>
     <image>./media/images/Predator (Japan).png</image>
     <video>./media/videos/Predator (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Pro Yakyuu Family Stadium - Pennant Race (Japan).zip</path>
+    <path>./Pro Yakyuu Family Stadium - Pennant Race (Japan).zip</path>
     <name>Pro Yakyuu Family Stadium - Pennant Race (Japan)</name>
     <image>./media/images/Pro Yakyuu Family Stadium - Pennant Race (Japan).png</image>
     <video>./media/videos/Pro Yakyuu Family Stadium - Pennant Race (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Pro Yakyuu Fan - Telenet Stadium (Japan).zip</path>
+    <path>./Pro Yakyuu Fan - Telenet Stadium (Japan).zip</path>
     <name>Pro Yakyuu Fan - Telenet Stadium (Japan)</name>
     <image>./media/images/Pro Yakyuu Fan - Telenet Stadium (Japan).png</image>
     <video>./media/videos/Pro Yakyuu Fan - Telenet Stadium (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Professional Mahjong Gokuu (Japan).zip</path>
+    <path>./Professional Mahjong Gokuu (Japan).zip</path>
     <name>Professional Mahjong Gokuu (Japan)</name>
     <image>./media/images/Professional Mahjong Gokuu (Japan).png</image>
     <video>./media/videos/Professional Mahjong Gokuu (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Project A2 - Shijousaidai no Hyouteki (Japan).zip</path>
+    <path>./Project A2 - Shijousaidai no Hyouteki (Japan).zip</path>
     <name>Project A2 - Shijousaidai no Hyouteki (Japan)</name>
     <image>./media/images/Project A2 - Shijousaidai no Hyouteki (Japan).png</image>
     <video>./media/videos/Project A2 - Shijousaidai no Hyouteki (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Quarth (Japan) (Demo).zip</path>
+    <path>./Quarth (Japan) (Demo).zip</path>
     <name>Quarth (Japan) (Demo)</name>
     <image>./media/images/Quarth (Japan) (Demo).png</image>
     <video>./media/videos/Quarth (Japan) (Demo).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Quarth (Japan) (Wii U Virtual Console).zip</path>
+    <path>./Quarth (Japan) (Wii U Virtual Console).zip</path>
     <name>Quarth (Japan) (Wii U Virtual Console)</name>
     <image>./media/images/Quarth (Japan) (Wii U Virtual Console).png</image>
     <video>./media/videos/Quarth (Japan) (Wii U Virtual Console).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Quarth (Korea).zip</path>
+    <path>./Quarth (Korea).zip</path>
     <name>Quarth (Korea)</name>
     <image>./media/images/Quarth (Korea).png</image>
     <video>./media/videos/Quarth (Korea).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Quinpl (Japan).zip</path>
+    <path>./Quinpl (Japan).zip</path>
     <name>Quinpl (Japan)</name>
     <image>./media/images/Quinpl (Japan).png</image>
     <video>./media/videos/Quinpl (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Rastan Saga (Japan).zip</path>
+    <path>./Rastan Saga (Japan).zip</path>
     <name>Rastan Saga (Japan)</name>
     <image>./media/images/Rastan Saga (Japan).png</image>
     <video>./media/videos/Rastan Saga (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Relics (Japan).zip</path>
+    <path>./Relics (Japan).zip</path>
     <name>Relics (Japan)</name>
     <image>./media/images/Relics (Japan).png</image>
     <video>./media/videos/Relics (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Replicart (Japan).zip</path>
+    <path>./Replicart (Japan).zip</path>
     <name>Replicart (Japan)</name>
     <image>./media/images/Replicart (Japan).png</image>
     <video>./media/videos/Replicart (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Return of Ishtar, The (Japan).zip</path>
+    <path>./Return of Ishtar, The (Japan).zip</path>
     <name>Return of Ishtar, The (Japan)</name>
     <image>./media/images/Return of Ishtar, The (Japan).png</image>
     <video>./media/videos/Return of Ishtar, The (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Return of Jelda (Japan).zip</path>
+    <path>./Return of Jelda (Japan).zip</path>
     <name>Return of Jelda (Japan)</name>
     <image>./media/images/Return of Jelda (Japan).png</image>
     <video>./media/videos/Return of Jelda (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Rick to Mick no Daibouken (Japan).zip</path>
+    <path>./Rick to Mick no Daibouken (Japan).zip</path>
     <name>Rick to Mick no Daibouken (Japan)</name>
     <image>./media/images/Rick to Mick no Daibouken (Japan).png</image>
     <video>./media/videos/Rick to Mick no Daibouken (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Royal Blood (Japan).zip</path>
+    <path>./Royal Blood (Japan).zip</path>
     <name>Royal Blood (Japan)</name>
     <image>./media/images/Royal Blood (Japan).png</image>
     <video>./media/videos/Royal Blood (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Sangokushi (Japan).zip</path>
+    <path>./Sangokushi (Japan).zip</path>
     <name>Sangokushi (Japan)</name>
     <image>./media/images/Sangokushi (Japan).png</image>
     <video>./media/videos/Sangokushi (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Sangokushi II (Japan).zip</path>
+    <path>./Sangokushi II (Japan).zip</path>
     <name>Sangokushi II (Japan)</name>
     <image>./media/images/Sangokushi II (Japan).png</image>
     <video>./media/videos/Sangokushi II (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Scramble Formation (Japan).zip</path>
+    <path>./Scramble Formation (Japan).zip</path>
     <name>Scramble Formation (Japan)</name>
     <image>./media/images/Scramble Formation (Japan).png</image>
     <video>./media/videos/Scramble Formation (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Seikima II Special - Akuma no Gyakushuu (Japan) (Alt).zip</path>
+    <path>./Seikima II Special - Akuma no Gyakushuu (Japan) (Alt).zip</path>
     <name>Seikima II Special - Akuma no Gyakushuu (Japan) (Alt)</name>
     <image>./media/images/Seikima II Special - Akuma no Gyakushuu (Japan) (Alt).png</image>
     <video>./media/videos/Seikima II Special - Akuma no Gyakushuu (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Seikima II Special - Akuma no Gyakushuu (Japan).zip</path>
+    <path>./Seikima II Special - Akuma no Gyakushuu (Japan).zip</path>
     <name>Seikima II Special - Akuma no Gyakushuu (Japan)</name>
     <image>./media/images/Seikima II Special - Akuma no Gyakushuu (Japan).png</image>
     <video>./media/videos/Seikima II Special - Akuma no Gyakushuu (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Shanghai (Japan).zip</path>
+    <path>./Shanghai (Japan).zip</path>
     <name>Shanghai (Japan)</name>
     <image>./media/images/Shanghai (Japan).png</image>
     <video>./media/videos/Shanghai (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Shiryou Sensen - War of the Dead (Japan).zip</path>
+    <path>./Shiryou Sensen - War of the Dead (Japan).zip</path>
     <name>Shiryou Sensen - War of the Dead (Japan)</name>
     <image>./media/images/Shiryou Sensen - War of the Dead (Japan).png</image>
     <video>./media/videos/Shiryou Sensen - War of the Dead (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Space Manbow (Japan) (Wii U Virtual Console).zip</path>
+    <path>./Space Manbow (Japan) (Wii U Virtual Console).zip</path>
     <name>Space Manbow (Japan) (Wii U Virtual Console)</name>
     <image>./media/images/Space Manbow (Japan) (Wii U Virtual Console).png</image>
     <video>./media/videos/Space Manbow (Japan) (Wii U Virtual Console).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Star Virgin (Japan) (Alt).zip</path>
+    <path>./Star Virgin (Japan) (Alt).zip</path>
     <name>Star Virgin (Japan) (Alt)</name>
     <image>./media/images/Star Virgin (Japan) (Alt).png</image>
     <video>./media/videos/Star Virgin (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Star Virgin (Japan).zip</path>
+    <path>./Star Virgin (Japan).zip</path>
     <name>Star Virgin (Japan)</name>
     <image>./media/images/Star Virgin (Japan).png</image>
     <video>./media/videos/Star Virgin (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Strategic Mars (Japan).zip</path>
+    <path>./Strategic Mars (Japan).zip</path>
     <name>Strategic Mars (Japan)</name>
     <image>./media/images/Strategic Mars (Japan).png</image>
     <video>./media/videos/Strategic Mars (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Suikoden - Tenmei no Chikai (Japan).zip</path>
+    <path>./Suikoden - Tenmei no Chikai (Japan).zip</path>
     <name>Suikoden - Tenmei no Chikai (Japan)</name>
     <image>./media/images/Suikoden - Tenmei no Chikai (Japan).png</image>
     <video>./media/videos/Suikoden - Tenmei no Chikai (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Super Daisenryaku (Japan).zip</path>
+    <path>./Super Daisenryaku (Japan).zip</path>
     <name>Super Daisenryaku (Japan)</name>
     <image>./media/images/Super Daisenryaku (Japan).png</image>
     <video>./media/videos/Super Daisenryaku (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Super Load Runner (Japan).zip</path>
+    <path>./Super Load Runner (Japan).zip</path>
     <name>Super Load Runner (Japan)</name>
     <image>./media/images/Super Load Runner (Japan).png</image>
     <video>./media/videos/Super Load Runner (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Super Rambo Special (Japan).zip</path>
+    <path>./Super Rambo Special (Japan).zip</path>
     <name>Super Rambo Special (Japan)</name>
     <image>./media/images/Super Rambo Special (Japan).png</image>
     <video>./media/videos/Super Rambo Special (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Super Runner (Japan).zip</path>
+    <path>./Super Runner (Japan).zip</path>
     <name>Super Runner (Japan)</name>
     <image>./media/images/Super Runner (Japan).png</image>
     <video>./media/videos/Super Runner (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Super Tritorn (Japan).zip</path>
+    <path>./Super Tritorn (Japan).zip</path>
     <name>Super Tritorn (Japan)</name>
     <image>./media/images/Super Tritorn (Japan).png</image>
     <video>./media/videos/Super Tritorn (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Sword of Ianna, The (World) (En,Es) (v1.2) (Aftermarket) (Unl).zip</path>
+    <path>./Sword of Ianna, The (World) (En,Es) (v1.2) (Aftermarket) (Unl).zip</path>
     <name>Sword of Ianna, The (World) (En,Es) (v1.2) (Aftermarket) (Unl)</name>
     <image>./media/images/Sword of Ianna, The (World) (En,Es) (v1.2) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Sword of Ianna, The (World) (En,Es) (v1.2) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Sword of Ianna, The (World) (Fr) (v1.2) (Aftermarket) (Unl).zip</path>
+    <path>./Sword of Ianna, The (World) (Fr) (v1.2) (Aftermarket) (Unl).zip</path>
     <name>Sword of Ianna, The (World) (Fr) (v1.2) (Aftermarket) (Unl)</name>
     <image>./media/images/Sword of Ianna, The (World) (Fr) (v1.2) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Sword of Ianna, The (World) (Fr) (v1.2) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Synthe Saurus (Japan) (Program).zip</path>
+    <path>./Synthe Saurus (Japan) (Program).zip</path>
     <name>Synthe Saurus (Japan) (Program)</name>
     <image>./media/images/Synthe Saurus (Japan) (Program).png</image>
     <video>./media/videos/Synthe Saurus (Japan) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Taiyou no Shinden - Asteka II (Japan).zip</path>
+    <path>./Taiyou no Shinden - Asteka II (Japan).zip</path>
     <name>Taiyou no Shinden - Asteka II (Japan)</name>
     <image>./media/images/Taiyou no Shinden - Asteka II (Japan).png</image>
     <video>./media/videos/Taiyou no Shinden - Asteka II (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Tanikawa Hiroshi no Shougi Shinan 2 (Japan).zip</path>
+    <path>./Tanikawa Hiroshi no Shougi Shinan 2 (Japan).zip</path>
     <name>Tanikawa Hiroshi no Shougi Shinan 2 (Japan)</name>
     <image>./media/images/Tanikawa Hiroshi no Shougi Shinan 2 (Japan).png</image>
     <video>./media/videos/Tanikawa Hiroshi no Shougi Shinan 2 (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Teitoku no Ketsudan (Japan).zip</path>
+    <path>./Teitoku no Ketsudan (Japan).zip</path>
     <name>Teitoku no Ketsudan (Japan)</name>
     <image>./media/images/Teitoku no Ketsudan (Japan).png</image>
     <video>./media/videos/Teitoku no Ketsudan (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Tengoku Yoitoko (Japan).zip</path>
+    <path>./Tengoku Yoitoko (Japan).zip</path>
     <name>Tengoku Yoitoko (Japan)</name>
     <image>./media/images/Tengoku Yoitoko (Japan).png</image>
     <video>./media/videos/Tengoku Yoitoko (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Tetris (Japan).zip</path>
+    <path>./Tetris (Japan).zip</path>
     <name>Tetris (Japan)</name>
     <image>./media/images/Tetris (Japan).png</image>
     <video>./media/videos/Tetris (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Topple Zip (Japan).zip</path>
+    <path>./Topple Zip (Japan).zip</path>
     <name>Topple Zip (Japan)</name>
     <image>./media/images/Topple Zip (Japan).png</image>
     <video>./media/videos/Topple Zip (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Treasure of Usas, The (Japan, Europe) (En) (Alt).zip</path>
+    <path>./Treasure of Usas, The (Japan, Europe) (En) (Alt).zip</path>
     <name>Treasure of Usas, The (Japan, Europe) (En) (Alt)</name>
     <image>./media/images/Treasure of Usas, The (Japan, Europe) (En) (Alt).png</image>
     <video>./media/videos/Treasure of Usas, The (Japan, Europe) (En) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Treasure of Usas, The (Japan, Europe) (En).zip</path>
+    <path>./Treasure of Usas, The (Japan, Europe) (En).zip</path>
     <name>Treasure of Usas, The (Japan, Europe) (En)</name>
     <image>./media/images/Treasure of Usas, The (Japan, Europe) (En).png</image>
     <video>./media/videos/Treasure of Usas, The (Japan, Europe) (En).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Treasure of the Usas (Japan) (Wii U Virtual Console).zip</path>
+    <path>./Treasure of the Usas (Japan) (Wii U Virtual Console).zip</path>
     <name>Treasure of the Usas (Japan) (Wii U Virtual Console)</name>
     <image>./media/images/Treasure of the Usas (Japan) (Wii U Virtual Console).png</image>
     <video>./media/videos/Treasure of the Usas (Japan) (Wii U Virtual Console).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Tsurikichi Sanpei - Blue Marine Hen (Japan).zip</path>
+    <path>./Tsurikichi Sanpei - Blue Marine Hen (Japan).zip</path>
     <name>Tsurikichi Sanpei - Blue Marine Hen (Japan)</name>
     <image>./media/images/Tsurikichi Sanpei - Blue Marine Hen (Japan).png</image>
     <video>./media/videos/Tsurikichi Sanpei - Blue Marine Hen (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Tsurikichi Sanpei - Tsuri Sennin Hen (Japan).zip</path>
+    <path>./Tsurikichi Sanpei - Tsuri Sennin Hen (Japan).zip</path>
     <name>Tsurikichi Sanpei - Tsuri Sennin Hen (Japan)</name>
     <image>./media/images/Tsurikichi Sanpei - Tsuri Sennin Hen (Japan).png</image>
     <video>./media/videos/Tsurikichi Sanpei - Tsuri Sennin Hen (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Ultima Exodus (Japan).zip</path>
+    <path>./Ultima Exodus (Japan).zip</path>
     <name>Ultima Exodus (Japan)</name>
     <image>./media/images/Ultima Exodus (Japan).png</image>
     <video>./media/videos/Ultima Exodus (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Urusei Yatsura - Koi no Survival Birthday (Japan).zip</path>
+    <path>./Urusei Yatsura - Koi no Survival Birthday (Japan).zip</path>
     <name>Urusei Yatsura - Koi no Survival Birthday (Japan)</name>
     <image>./media/images/Urusei Yatsura - Koi no Survival Birthday (Japan).png</image>
     <video>./media/videos/Urusei Yatsura - Koi no Survival Birthday (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Vampire Killer (Japan, Europe) (En) (Alt 2).zip</path>
+    <path>./Vampire Killer (Japan, Europe) (En) (Alt 2).zip</path>
     <name>Vampire Killer (Japan, Europe) (En) (Alt 2)</name>
     <image>./media/images/Vampire Killer (Japan, Europe) (En) (Alt 2).png</image>
     <video>./media/videos/Vampire Killer (Japan, Europe) (En) (Alt 2).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Vampire Killer (Japan, Europe) (En) (Alt 3).zip</path>
+    <path>./Vampire Killer (Japan, Europe) (En) (Alt 3).zip</path>
     <name>Vampire Killer (Japan, Europe) (En) (Alt 3)</name>
     <image>./media/images/Vampire Killer (Japan, Europe) (En) (Alt 3).png</image>
     <video>./media/videos/Vampire Killer (Japan, Europe) (En) (Alt 3).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Vampire Killer (Japan, Europe) (En) (Alt).zip</path>
+    <path>./Vampire Killer (Japan, Europe) (En) (Alt).zip</path>
     <name>Vampire Killer (Japan, Europe) (En) (Alt)</name>
     <image>./media/images/Vampire Killer (Japan, Europe) (En) (Alt).png</image>
     <video>./media/videos/Vampire Killer (Japan, Europe) (En) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Vampire Killer (Japan, Europe) (En).zip</path>
+    <path>./Vampire Killer (Japan, Europe) (En).zip</path>
     <name>Vampire Killer (Japan, Europe) (En)</name>
     <image>./media/images/Vampire Killer (Japan, Europe) (En).png</image>
     <video>./media/videos/Vampire Killer (Japan, Europe) (En).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Victorious Nine II - Koukou Yakyuu Hen (Japan).zip</path>
+    <path>./Victorious Nine II - Koukou Yakyuu Hen (Japan).zip</path>
     <name>Victorious Nine II - Koukou Yakyuu Hen (Japan)</name>
     <image>./media/images/Victorious Nine II - Koukou Yakyuu Hen (Japan).png</image>
     <video>./media/videos/Victorious Nine II - Koukou Yakyuu Hen (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Wizardry (Japan).zip</path>
+    <path>./Wizardry (Japan).zip</path>
     <name>Wizardry (Japan)</name>
     <image>./media/images/Wizardry (Japan).png</image>
     <video>./media/videos/Wizardry (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Woody Poco (Japan) (Alt).zip</path>
+    <path>./Woody Poco (Japan) (Alt).zip</path>
     <name>Woody Poco (Japan) (Alt)</name>
     <image>./media/images/Woody Poco (Japan) (Alt).png</image>
     <video>./media/videos/Woody Poco (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Woody Poco (Japan).zip</path>
+    <path>./Woody Poco (Japan).zip</path>
     <name>Woody Poco (Japan)</name>
     <image>./media/images/Woody Poco (Japan).png</image>
     <video>./media/videos/Woody Poco (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Xevious - Fardraut Saga (Japan) (Alt).zip</path>
+    <path>./Xevious - Fardraut Saga (Japan) (Alt).zip</path>
     <name>Xevious - Fardraut Saga (Japan) (Alt)</name>
     <image>./media/images/Xevious - Fardraut Saga (Japan) (Alt).png</image>
     <video>./media/videos/Xevious - Fardraut Saga (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Xevious - Fardraut Saga (Japan).zip</path>
+    <path>./Xevious - Fardraut Saga (Japan).zip</path>
     <name>Xevious - Fardraut Saga (Japan)</name>
     <image>./media/images/Xevious - Fardraut Saga (Japan).png</image>
     <video>./media/videos/Xevious - Fardraut Saga (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Yaksa (Japan).zip</path>
+    <path>./Yaksa (Japan).zip</path>
     <name>Yaksa (Japan)</name>
     <image>./media/images/Yaksa (Japan).png</image>
     <video>./media/videos/Yaksa (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Yamamura Misa Suspense - Kyoto Ryuu no Tera Satsujinjiken (Japan).zip</path>
+    <path>./Yamamura Misa Suspense - Kyoto Ryuu no Tera Satsujinjiken (Japan).zip</path>
     <name>Yamamura Misa Suspense - Kyoto Ryuu no Tera Satsujinjiken (Japan)</name>
     <image>./media/images/Yamamura Misa Suspense - Kyoto Ryuu no Tera Satsujinjiken (Japan).png</image>
     <video>./media/videos/Yamamura Misa Suspense - Kyoto Ryuu no Tera Satsujinjiken (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Yuurei-kun (Japan).zip</path>
+    <path>./Yuurei-kun (Japan).zip</path>
     <name>Yuurei-kun (Japan)</name>
     <image>./media/images/Yuurei-kun (Japan).png</image>
     <video>./media/videos/Yuurei-kun (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Zanac Ex (Japan) (Alt).zip</path>
+    <path>./Zanac Ex (Japan) (Alt).zip</path>
     <name>Zanac Ex (Japan) (Alt)</name>
     <image>./media/images/Zanac Ex (Japan) (Alt).png</image>
     <video>./media/videos/Zanac Ex (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Zanac Ex (Japan).zip</path>
+    <path>./Zanac Ex (Japan).zip</path>
     <name>Zanac Ex (Japan)</name>
     <image>./media/images/Zanac Ex (Japan).png</image>
     <video>./media/videos/Zanac Ex (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Zoids - Chuuou Tairiku no Tatakai (Japan).zip</path>
+    <path>./Zoids - Chuuou Tairiku no Tatakai (Japan).zip</path>
     <name>Zoids - Chuuou Tairiku no Tatakai (Japan)</name>
     <image>./media/images/Zoids - Chuuou Tairiku no Tatakai (Japan).png</image>
     <video>./media/videos/Zoids - Chuuou Tairiku no Tatakai (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Zombie Hunter (Japan).zip</path>
+    <path>./Zombie Hunter (Japan).zip</path>
     <name>Zombie Hunter (Japan)</name>
     <image>./media/images/Zombie Hunter (Japan).png</image>
     <video>./media/videos/Zombie Hunter (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Zukkoke Yajikita Onmitsu Douchuu (Japan) (Alt).zip</path>
+    <path>./Zukkoke Yajikita Onmitsu Douchuu (Japan) (Alt).zip</path>
     <name>Zukkoke Yajikita Onmitsu Douchuu (Japan) (Alt)</name>
     <image>./media/images/Zukkoke Yajikita Onmitsu Douchuu (Japan) (Alt).png</image>
     <video>./media/videos/Zukkoke Yajikita Onmitsu Douchuu (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/Zukkoke Yajikita Onmitsu Douchuu (Japan).zip</path>
+    <path>./Zukkoke Yajikita Onmitsu Douchuu (Japan).zip</path>
     <name>Zukkoke Yajikita Onmitsu Douchuu (Japan)</name>
     <image>./media/images/Zukkoke Yajikita Onmitsu Douchuu (Japan).png</image>
     <video>./media/videos/Zukkoke Yajikita Onmitsu Douchuu (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Microsoft - MSX2/[BIOS] Kanji ROM - JIS 1st+2nd Class (Japan).zip</path>
+    <path>./[BIOS] Kanji ROM - JIS 1st+2nd Class (Japan).zip</path>
     <name>[BIOS] Kanji ROM - JIS 1st+2nd Class (Japan)</name>
     <image>./media/images/[BIOS] Kanji ROM - JIS 1st+2nd Class (Japan).png</image>
     <video>./media/videos/[BIOS] Kanji ROM - JIS 1st+2nd Class (Japan).mp4</video>

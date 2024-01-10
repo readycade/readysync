@@ -1,1201 +1,1201 @@
 <?xml version="1.0"?>
 <gameList>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//ABPA Backgammon (World).zip</path>
+    <path>./ABPA Backgammon (World).zip</path>
     <name>ABPA Backgammon (World)</name>
     <image>./media/images/ABPA Backgammon (World).png</image>
     <video>./media/videos/ABPA Backgammon (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Advanced Dungeons &amp; Dragons (USA, Europe).zip</path>
+    <path>./Advanced Dungeons &amp; Dragons (USA, Europe).zip</path>
     <name>Advanced Dungeons &amp; Dragons (USA, Europe)</name>
     <image>./media/images/Advanced Dungeons &amp; Dragons (USA, Europe).png</image>
     <video>./media/videos/Advanced Dungeons &amp; Dragons (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Advanced Dungeons &amp; Dragons - Treasure of Tarmin (USA, Europe).zip</path>
+    <path>./Advanced Dungeons &amp; Dragons - Treasure of Tarmin (USA, Europe).zip</path>
     <name>Advanced Dungeons &amp; Dragons - Treasure of Tarmin (USA, Europe)</name>
     <image>./media/images/Advanced Dungeons &amp; Dragons - Treasure of Tarmin (USA, Europe).png</image>
     <video>./media/videos/Advanced Dungeons &amp; Dragons - Treasure of Tarmin (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Adventure (USA, Europe) (Intellivision Lives!).zip</path>
+    <path>./Adventure (USA, Europe) (Intellivision Lives!).zip</path>
     <name>Adventure (USA, Europe) (Intellivision Lives!)</name>
     <image>./media/images/Adventure (USA, Europe) (Intellivision Lives!).png</image>
     <video>./media/videos/Adventure (USA, Europe) (Intellivision Lives!).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Air Strike (USA) (Proto).zip</path>
+    <path>./Air Strike (USA) (Proto).zip</path>
     <name>Air Strike (USA) (Proto)</name>
     <image>./media/images/Air Strike (USA) (Proto).png</image>
     <video>./media/videos/Air Strike (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//All-Star Major League Baseball (USA) (Beta).zip</path>
+    <path>./All-Star Major League Baseball (USA) (Beta).zip</path>
     <name>All-Star Major League Baseball (USA) (Beta)</name>
     <image>./media/images/All-Star Major League Baseball (USA) (Beta).png</image>
     <video>./media/videos/All-Star Major League Baseball (USA) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Armor Battle (USA, Europe) (Intellivision Lives!) (Gamecube).zip</path>
+    <path>./Armor Battle (USA, Europe) (Intellivision Lives!) (Gamecube).zip</path>
     <name>Armor Battle (USA, Europe) (Intellivision Lives!) (Gamecube)</name>
     <image>./media/images/Armor Battle (USA, Europe) (Intellivision Lives!) (Gamecube).png</image>
     <video>./media/videos/Armor Battle (USA, Europe) (Intellivision Lives!) (Gamecube).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Armor Battle (USA, Europe).zip</path>
+    <path>./Armor Battle (USA, Europe).zip</path>
     <name>Armor Battle (USA, Europe)</name>
     <image>./media/images/Armor Battle (USA, Europe).png</image>
     <video>./media/videos/Armor Battle (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Astrosmash (USA, Europe).zip</path>
+    <path>./Astrosmash (USA, Europe).zip</path>
     <name>Astrosmash (USA, Europe)</name>
     <image>./media/images/Astrosmash (USA, Europe).png</image>
     <video>./media/videos/Astrosmash (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Atlantis (USA, Europe).zip</path>
+    <path>./Atlantis (USA, Europe).zip</path>
     <name>Atlantis (USA, Europe)</name>
     <image>./media/images/Atlantis (USA, Europe).png</image>
     <video>./media/videos/Atlantis (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Auto Racing (World).zip</path>
+    <path>./Auto Racing (World).zip</path>
     <name>Auto Racing (World)</name>
     <image>./media/images/Auto Racing (World).png</image>
     <video>./media/videos/Auto Racing (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//B-17 Bomber (USA, Europe).zip</path>
+    <path>./B-17 Bomber (USA, Europe).zip</path>
     <name>B-17 Bomber (USA, Europe)</name>
     <image>./media/images/B-17 Bomber (USA, Europe).png</image>
     <video>./media/videos/B-17 Bomber (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//BattleTanks (USA, Europe) (Intellivision Lives!).zip</path>
+    <path>./BattleTanks (USA, Europe) (Intellivision Lives!).zip</path>
     <name>BattleTanks (USA, Europe) (Intellivision Lives!)</name>
     <image>./media/images/BattleTanks (USA, Europe) (Intellivision Lives!).png</image>
     <video>./media/videos/BattleTanks (USA, Europe) (Intellivision Lives!).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Beamrider (USA, Europe).zip</path>
+    <path>./Beamrider (USA, Europe).zip</path>
     <name>Beamrider (USA, Europe)</name>
     <image>./media/images/Beamrider (USA, Europe).png</image>
     <video>./media/videos/Beamrider (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Beauty &amp; the Beast (USA, Europe).zip</path>
+    <path>./Beauty &amp; the Beast (USA, Europe).zip</path>
     <name>Beauty &amp; the Beast (USA, Europe)</name>
     <image>./media/images/Beauty &amp; the Beast (USA, Europe).png</image>
     <video>./media/videos/Beauty &amp; the Beast (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Biplanes (USA, Europe) (Intellivision Lives!).zip</path>
+    <path>./Biplanes (USA, Europe) (Intellivision Lives!).zip</path>
     <name>Biplanes (USA, Europe) (Intellivision Lives!)</name>
     <image>./media/images/Biplanes (USA, Europe) (Intellivision Lives!).png</image>
     <video>./media/videos/Biplanes (USA, Europe) (Intellivision Lives!).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Blockade Runner (USA).zip</path>
+    <path>./Blockade Runner (USA).zip</path>
     <name>Blockade Runner (USA)</name>
     <image>./media/images/Blockade Runner (USA).png</image>
     <video>./media/videos/Blockade Runner (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Body Slam! - Super Pro Wrestling (USA).zip</path>
+    <path>./Body Slam! - Super Pro Wrestling (USA).zip</path>
     <name>Body Slam! - Super Pro Wrestling (USA)</name>
     <image>./media/images/Body Slam! - Super Pro Wrestling (USA).png</image>
     <video>./media/videos/Body Slam! - Super Pro Wrestling (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Bomb Squad (USA, Europe).zip</path>
+    <path>./Bomb Squad (USA, Europe).zip</path>
     <name>Bomb Squad (USA, Europe)</name>
     <image>./media/images/Bomb Squad (USA, Europe).png</image>
     <video>./media/videos/Bomb Squad (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Boxing (World).zip</path>
+    <path>./Boxing (World).zip</path>
     <name>Boxing (World)</name>
     <image>./media/images/Boxing (World).png</image>
     <video>./media/videos/Boxing (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Brickout! (USA) (Proto).zip</path>
+    <path>./Brickout! (USA) (Proto).zip</path>
     <name>Brickout! (USA) (Proto)</name>
     <image>./media/images/Brickout! (USA) (Proto).png</image>
     <video>./media/videos/Brickout! (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Bump 'n' Jump (USA, Europe).zip</path>
+    <path>./Bump 'n' Jump (USA, Europe).zip</path>
     <name>Bump 'n' Jump (USA, Europe)</name>
     <image>./media/images/Bump 'n' Jump (USA, Europe).png</image>
     <video>./media/videos/Bump 'n' Jump (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//BurgerTime (USA, Europe).zip</path>
+    <path>./BurgerTime (USA, Europe).zip</path>
     <name>BurgerTime (USA, Europe)</name>
     <image>./media/images/BurgerTime (USA, Europe).png</image>
     <video>./media/videos/BurgerTime (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Buzz Bombers (USA, Europe) (Intellivision Lives!).zip</path>
+    <path>./Buzz Bombers (USA, Europe) (Intellivision Lives!).zip</path>
     <name>Buzz Bombers (USA, Europe) (Intellivision Lives!)</name>
     <image>./media/images/Buzz Bombers (USA, Europe) (Intellivision Lives!).png</image>
     <video>./media/videos/Buzz Bombers (USA, Europe) (Intellivision Lives!).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Buzz Bombers (USA, Europe).zip</path>
+    <path>./Buzz Bombers (USA, Europe).zip</path>
     <name>Buzz Bombers (USA, Europe)</name>
     <image>./media/images/Buzz Bombers (USA, Europe).png</image>
     <video>./media/videos/Buzz Bombers (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Carnival (USA, Europe).zip</path>
+    <path>./Carnival (USA, Europe).zip</path>
     <name>Carnival (USA, Europe)</name>
     <image>./media/images/Carnival (USA, Europe).png</image>
     <video>./media/videos/Carnival (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Centipede (USA).zip</path>
+    <path>./Centipede (USA).zip</path>
     <name>Centipede (USA)</name>
     <image>./media/images/Centipede (USA).png</image>
     <video>./media/videos/Centipede (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Championship Tennis (USA, Europe).zip</path>
+    <path>./Championship Tennis (USA, Europe).zip</path>
     <name>Championship Tennis (USA, Europe)</name>
     <image>./media/images/Championship Tennis (USA, Europe).png</image>
     <video>./media/videos/Championship Tennis (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Checkers (USA, Europe).zip</path>
+    <path>./Checkers (USA, Europe).zip</path>
     <name>Checkers (USA, Europe)</name>
     <image>./media/images/Checkers (USA, Europe).png</image>
     <video>./media/videos/Checkers (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Chip Shot - Super Pro Golf (USA).zip</path>
+    <path>./Chip Shot - Super Pro Golf (USA).zip</path>
     <name>Chip Shot - Super Pro Golf (USA)</name>
     <image>./media/images/Chip Shot - Super Pro Golf (USA).png</image>
     <video>./media/videos/Chip Shot - Super Pro Golf (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Commando (USA).zip</path>
+    <path>./Commando (USA).zip</path>
     <name>Commando (USA)</name>
     <image>./media/images/Commando (USA).png</image>
     <video>./media/videos/Commando (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Congo Bongo (USA).zip</path>
+    <path>./Congo Bongo (USA).zip</path>
     <name>Congo Bongo (USA)</name>
     <image>./media/images/Congo Bongo (USA).png</image>
     <video>./media/videos/Congo Bongo (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Crazy Clones (USA) (Proto).zip</path>
+    <path>./Crazy Clones (USA) (Proto).zip</path>
     <name>Crazy Clones (USA) (Proto)</name>
     <image>./media/images/Crazy Clones (USA) (Proto).png</image>
     <video>./media/videos/Crazy Clones (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Crosswords (USA, Europe) (Intellivision Lives!).zip</path>
+    <path>./Crosswords (USA, Europe) (Intellivision Lives!).zip</path>
     <name>Crosswords (USA, Europe) (Intellivision Lives!)</name>
     <image>./media/images/Crosswords (USA, Europe) (Intellivision Lives!).png</image>
     <video>./media/videos/Crosswords (USA, Europe) (Intellivision Lives!).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Deadly Dogs (USA, Europe) (Beta).zip</path>
+    <path>./Deadly Dogs (USA, Europe) (Beta).zip</path>
     <name>Deadly Dogs (USA, Europe) (Beta)</name>
     <image>./media/images/Deadly Dogs (USA, Europe) (Beta).png</image>
     <video>./media/videos/Deadly Dogs (USA, Europe) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Deep Pockets - Super Pro Pool &amp; Billiards (USA) (Proto).zip</path>
+    <path>./Deep Pockets - Super Pro Pool &amp; Billiards (USA) (Proto).zip</path>
     <name>Deep Pockets - Super Pro Pool &amp; Billiards (USA) (Proto)</name>
     <image>./media/images/Deep Pockets - Super Pro Pool &amp; Billiards (USA) (Proto).png</image>
     <video>./media/videos/Deep Pockets - Super Pro Pool &amp; Billiards (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Defender (USA).zip</path>
+    <path>./Defender (USA).zip</path>
     <name>Defender (USA)</name>
     <image>./media/images/Defender (USA).png</image>
     <video>./media/videos/Defender (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Demon Attack (USA, Europe).zip</path>
+    <path>./Demon Attack (USA, Europe).zip</path>
     <name>Demon Attack (USA, Europe)</name>
     <image>./media/images/Demon Attack (USA, Europe).png</image>
     <video>./media/videos/Demon Attack (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Demonstration Cartridge - Blue (USA).zip</path>
+    <path>./Demonstration Cartridge - Blue (USA).zip</path>
     <name>Demonstration Cartridge - Blue (USA)</name>
     <image>./media/images/Demonstration Cartridge - Blue (USA).png</image>
     <video>./media/videos/Demonstration Cartridge - Blue (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Demonstration Cartridge - Green (USA).zip</path>
+    <path>./Demonstration Cartridge - Green (USA).zip</path>
     <name>Demonstration Cartridge - Green (USA)</name>
     <image>./media/images/Demonstration Cartridge - Green (USA).png</image>
     <video>./media/videos/Demonstration Cartridge - Green (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Demonstration Cartridge - Red (USA).zip</path>
+    <path>./Demonstration Cartridge - Red (USA).zip</path>
     <name>Demonstration Cartridge - Red (USA)</name>
     <image>./media/images/Demonstration Cartridge - Red (USA).png</image>
     <video>./media/videos/Demonstration Cartridge - Red (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Dig Dug (USA).zip</path>
+    <path>./Dig Dug (USA).zip</path>
     <name>Dig Dug (USA)</name>
     <image>./media/images/Dig Dug (USA).png</image>
     <video>./media/videos/Dig Dug (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Diner (USA).zip</path>
+    <path>./Diner (USA).zip</path>
     <name>Diner (USA)</name>
     <image>./media/images/Diner (USA).png</image>
     <video>./media/videos/Diner (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Donkey Kong (USA, Europe).zip</path>
+    <path>./Donkey Kong (USA, Europe).zip</path>
     <name>Donkey Kong (USA, Europe)</name>
     <image>./media/images/Donkey Kong (USA, Europe).png</image>
     <video>./media/videos/Donkey Kong (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Donkey Kong Junior (USA, Europe).zip</path>
+    <path>./Donkey Kong Junior (USA, Europe).zip</path>
     <name>Donkey Kong Junior (USA, Europe)</name>
     <image>./media/images/Donkey Kong Junior (USA, Europe).png</image>
     <video>./media/videos/Donkey Kong Junior (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Dracula (USA, Europe).zip</path>
+    <path>./Dracula (USA, Europe).zip</path>
     <name>Dracula (USA, Europe)</name>
     <image>./media/images/Dracula (USA, Europe).png</image>
     <video>./media/videos/Dracula (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Dragonfire (USA, Europe).zip</path>
+    <path>./Dragonfire (USA, Europe).zip</path>
     <name>Dragonfire (USA, Europe)</name>
     <image>./media/images/Dragonfire (USA, Europe).png</image>
     <video>./media/videos/Dragonfire (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Dreadnaught Factor, The (USA) (Beta).zip</path>
+    <path>./Dreadnaught Factor, The (USA) (Beta).zip</path>
     <name>Dreadnaught Factor, The (USA) (Beta)</name>
     <image>./media/images/Dreadnaught Factor, The (USA) (Beta).png</image>
     <video>./media/videos/Dreadnaught Factor, The (USA) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Dreadnaught Factor, The (USA).zip</path>
+    <path>./Dreadnaught Factor, The (USA).zip</path>
     <name>Dreadnaught Factor, The (USA)</name>
     <image>./media/images/Dreadnaught Factor, The (USA).png</image>
     <video>./media/videos/Dreadnaught Factor, The (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Duncan's Thin Ice (USA).zip</path>
+    <path>./Duncan's Thin Ice (USA).zip</path>
     <name>Duncan's Thin Ice (USA)</name>
     <image>./media/images/Duncan's Thin Ice (USA).png</image>
     <video>./media/videos/Duncan's Thin Ice (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Electric Company, The - Math Fun (USA, Europe).zip</path>
+    <path>./Electric Company, The - Math Fun (USA, Europe).zip</path>
     <name>Electric Company, The - Math Fun (USA, Europe)</name>
     <image>./media/images/Electric Company, The - Math Fun (USA, Europe).png</image>
     <video>./media/videos/Electric Company, The - Math Fun (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Electric Company, The - Word Fun (USA, Europe).zip</path>
+    <path>./Electric Company, The - Word Fun (USA, Europe).zip</path>
     <name>Electric Company, The - Word Fun (USA, Europe)</name>
     <image>./media/images/Electric Company, The - Word Fun (USA, Europe).png</image>
     <video>./media/videos/Electric Company, The - Word Fun (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Factor Fun (USA, Europe) (Intellivision Lives!).zip</path>
+    <path>./Factor Fun (USA, Europe) (Intellivision Lives!).zip</path>
     <name>Factor Fun (USA, Europe) (Intellivision Lives!)</name>
     <image>./media/images/Factor Fun (USA, Europe) (Intellivision Lives!).png</image>
     <video>./media/videos/Factor Fun (USA, Europe) (Intellivision Lives!).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Fathom (USA, Europe).zip</path>
+    <path>./Fathom (USA, Europe).zip</path>
     <name>Fathom (USA, Europe)</name>
     <image>./media/images/Fathom (USA, Europe).png</image>
     <video>./media/videos/Fathom (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Frog Bog (World).zip</path>
+    <path>./Frog Bog (World).zip</path>
     <name>Frog Bog (World)</name>
     <image>./media/images/Frog Bog (World).png</image>
     <video>./media/videos/Frog Bog (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Frogger (USA, Europe).zip</path>
+    <path>./Frogger (USA, Europe).zip</path>
     <name>Frogger (USA, Europe)</name>
     <image>./media/images/Frogger (USA, Europe).png</image>
     <video>./media/videos/Frogger (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Game Factory (USA) (Proto).zip</path>
+    <path>./Game Factory (USA) (Proto).zip</path>
     <name>Game Factory (USA) (Proto)</name>
     <image>./media/images/Game Factory (USA) (Proto).png</image>
     <video>./media/videos/Game Factory (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Go for the Gold (USA) (Proto).zip</path>
+    <path>./Go for the Gold (USA) (Proto).zip</path>
     <name>Go for the Gold (USA) (Proto)</name>
     <image>./media/images/Go for the Gold (USA) (Proto).png</image>
     <video>./media/videos/Go for the Gold (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Grid Shock (USA) (Proto).zip</path>
+    <path>./Grid Shock (USA) (Proto).zip</path>
     <name>Grid Shock (USA) (Proto)</name>
     <image>./media/images/Grid Shock (USA) (Proto).png</image>
     <video>./media/videos/Grid Shock (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Happy Holidays - Easter Eggcitement (USA) (Proto).zip</path>
+    <path>./Happy Holidays - Easter Eggcitement (USA) (Proto).zip</path>
     <name>Happy Holidays - Easter Eggcitement (USA) (Proto)</name>
     <image>./media/images/Happy Holidays - Easter Eggcitement (USA) (Proto).png</image>
     <video>./media/videos/Happy Holidays - Easter Eggcitement (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Happy Holidays - Santa's Helper (USA) (Proto).zip</path>
+    <path>./Happy Holidays - Santa's Helper (USA) (Proto).zip</path>
     <name>Happy Holidays - Santa's Helper (USA) (Proto)</name>
     <image>./media/images/Happy Holidays - Santa's Helper (USA) (Proto).png</image>
     <video>./media/videos/Happy Holidays - Santa's Helper (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Happy Holidays - Trick or Treat (USA) (Proto).zip</path>
+    <path>./Happy Holidays - Trick or Treat (USA) (Proto).zip</path>
     <name>Happy Holidays - Trick or Treat (USA) (Proto)</name>
     <image>./media/images/Happy Holidays - Trick or Treat (USA) (Proto).png</image>
     <video>./media/videos/Happy Holidays - Trick or Treat (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Happy Trails (USA, Europe).zip</path>
+    <path>./Happy Trails (USA, Europe).zip</path>
     <name>Happy Trails (USA, Europe)</name>
     <image>./media/images/Happy Trails (USA, Europe).png</image>
     <video>./media/videos/Happy Trails (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Horse Racing (World).zip</path>
+    <path>./Horse Racing (World).zip</path>
     <name>Horse Racing (World)</name>
     <image>./media/images/Horse Racing (World).png</image>
     <video>./media/videos/Horse Racing (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Hover Force (USA).zip</path>
+    <path>./Hover Force (USA).zip</path>
     <name>Hover Force (USA)</name>
     <image>./media/images/Hover Force (USA).png</image>
     <video>./media/videos/Hover Force (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Hypnotic Lights (USA) (Proto).zip</path>
+    <path>./Hypnotic Lights (USA) (Proto).zip</path>
     <name>Hypnotic Lights (USA) (Proto)</name>
     <image>./media/images/Hypnotic Lights (USA) (Proto).png</image>
     <video>./media/videos/Hypnotic Lights (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//IMI Test Cartridge (USA).zip</path>
+    <path>./IMI Test Cartridge (USA).zip</path>
     <name>IMI Test Cartridge (USA)</name>
     <image>./media/images/IMI Test Cartridge (USA).png</image>
     <video>./media/videos/IMI Test Cartridge (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Ice Trek (USA, Europe).zip</path>
+    <path>./Ice Trek (USA, Europe).zip</path>
     <name>Ice Trek (USA, Europe)</name>
     <image>./media/images/Ice Trek (USA, Europe).png</image>
     <video>./media/videos/Ice Trek (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Illusions (USA) (Proto).zip</path>
+    <path>./Illusions (USA) (Proto).zip</path>
     <name>Illusions (USA) (Proto)</name>
     <image>./media/images/Illusions (USA) (Proto).png</image>
     <video>./media/videos/Illusions (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//International Demonstration Cartridge (USA, Europe).zip</path>
+    <path>./International Demonstration Cartridge (USA, Europe).zip</path>
     <name>International Demonstration Cartridge (USA, Europe)</name>
     <image>./media/images/International Demonstration Cartridge (USA, Europe).png</image>
     <video>./media/videos/International Demonstration Cartridge (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Jetsons' Ways with Words, The (USA).zip</path>
+    <path>./Jetsons' Ways with Words, The (USA).zip</path>
     <name>Jetsons' Ways with Words, The (USA)</name>
     <image>./media/images/Jetsons' Ways with Words, The (USA).png</image>
     <video>./media/videos/Jetsons' Ways with Words, The (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//King of the Mountain (USA) (Proto).zip</path>
+    <path>./King of the Mountain (USA) (Proto).zip</path>
     <name>King of the Mountain (USA) (Proto)</name>
     <image>./media/images/King of the Mountain (USA) (Proto).png</image>
     <video>./media/videos/King of the Mountain (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Kool-Aid Man (USA).zip</path>
+    <path>./Kool-Aid Man (USA).zip</path>
     <name>Kool-Aid Man (USA)</name>
     <image>./media/images/Kool-Aid Man (USA).png</image>
     <video>./media/videos/Kool-Aid Man (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Lady Bug (USA, Europe).zip</path>
+    <path>./Lady Bug (USA, Europe).zip</path>
     <name>Lady Bug (USA, Europe)</name>
     <image>./media/images/Lady Bug (USA, Europe).png</image>
     <video>./media/videos/Lady Bug (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Land Battle (USA) (Proto).zip</path>
+    <path>./Land Battle (USA) (Proto).zip</path>
     <name>Land Battle (USA) (Proto)</name>
     <image>./media/images/Land Battle (USA) (Proto).png</image>
     <video>./media/videos/Land Battle (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Las Vegas Poker &amp; Blackjack (World).zip</path>
+    <path>./Las Vegas Poker &amp; Blackjack (World).zip</path>
     <name>Las Vegas Poker &amp; Blackjack (World)</name>
     <image>./media/images/Las Vegas Poker &amp; Blackjack (World).png</image>
     <video>./media/videos/Las Vegas Poker &amp; Blackjack (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Las Vegas Roulette (World).zip</path>
+    <path>./Las Vegas Roulette (World).zip</path>
     <name>Las Vegas Roulette (World)</name>
     <image>./media/images/Las Vegas Roulette (World).png</image>
     <video>./media/videos/Las Vegas Roulette (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//League of Light (USA) (Proto).zip</path>
+    <path>./League of Light (USA) (Proto).zip</path>
     <name>League of Light (USA) (Proto)</name>
     <image>./media/images/League of Light (USA) (Proto).png</image>
     <video>./media/videos/League of Light (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Learning Fun I - Math Master, Factor Fun (USA).zip</path>
+    <path>./Learning Fun I - Math Master, Factor Fun (USA).zip</path>
     <name>Learning Fun I - Math Master, Factor Fun (USA)</name>
     <image>./media/images/Learning Fun I - Math Master, Factor Fun (USA).png</image>
     <video>./media/videos/Learning Fun I - Math Master, Factor Fun (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Learning Fun II - Word Wizard, Memory Fun (USA).zip</path>
+    <path>./Learning Fun II - Word Wizard, Memory Fun (USA).zip</path>
     <name>Learning Fun II - Word Wizard, Memory Fun (USA)</name>
     <image>./media/images/Learning Fun II - Word Wizard, Memory Fun (USA).png</image>
     <video>./media/videos/Learning Fun II - Word Wizard, Memory Fun (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Lock 'N' Chase (USA, Europe) (v1.1).zip</path>
+    <path>./Lock 'N' Chase (USA, Europe) (v1.1).zip</path>
     <name>Lock 'N' Chase (USA, Europe) (v1.1)</name>
     <image>./media/images/Lock 'N' Chase (USA, Europe) (v1.1).png</image>
     <video>./media/videos/Lock 'N' Chase (USA, Europe) (v1.1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Lock 'N' Chase (USA, Europe).zip</path>
+    <path>./Lock 'N' Chase (USA, Europe).zip</path>
     <name>Lock 'N' Chase (USA, Europe)</name>
     <image>./media/images/Lock 'N' Chase (USA, Europe).png</image>
     <video>./media/videos/Lock 'N' Chase (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Loco-Motion (USA).zip</path>
+    <path>./Loco-Motion (USA).zip</path>
     <name>Loco-Motion (USA)</name>
     <image>./media/images/Loco-Motion (USA).png</image>
     <video>./media/videos/Loco-Motion (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//MTE 201 Test Cartridge V1.0 (USA).zip</path>
+    <path>./MTE 201 Test Cartridge V1.0 (USA).zip</path>
     <name>MTE 201 Test Cartridge V1.0 (USA)</name>
     <image>./media/images/MTE 201 Test Cartridge V1.0 (USA).png</image>
     <video>./media/videos/MTE 201 Test Cartridge V1.0 (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//MTE 201 Test Cartridge V1.0a (USA).zip</path>
+    <path>./MTE 201 Test Cartridge V1.0a (USA).zip</path>
     <name>MTE 201 Test Cartridge V1.0a (USA)</name>
     <image>./media/images/MTE 201 Test Cartridge V1.0a (USA).png</image>
     <video>./media/videos/MTE 201 Test Cartridge V1.0a (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//MTE 201 Test Cartridge V3.0 (USA).zip</path>
+    <path>./MTE 201 Test Cartridge V3.0 (USA).zip</path>
     <name>MTE 201 Test Cartridge V3.0 (USA)</name>
     <image>./media/images/MTE 201 Test Cartridge V3.0 (USA).png</image>
     <video>./media/videos/MTE 201 Test Cartridge V3.0 (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//MTE 201 Test Cartridge V3.0b (USA).zip</path>
+    <path>./MTE 201 Test Cartridge V3.0b (USA).zip</path>
     <name>MTE 201 Test Cartridge V3.0b (USA)</name>
     <image>./media/images/MTE 201 Test Cartridge V3.0b (USA).png</image>
     <video>./media/videos/MTE 201 Test Cartridge V3.0b (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//MTE 201 Test Cartridge V3.3 (USA).zip</path>
+    <path>./MTE 201 Test Cartridge V3.3 (USA).zip</path>
     <name>MTE 201 Test Cartridge V3.3 (USA)</name>
     <image>./media/images/MTE 201 Test Cartridge V3.3 (USA).png</image>
     <video>./media/videos/MTE 201 Test Cartridge V3.3 (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//MTE 201 Test Cartridge V4.1a (USA).zip</path>
+    <path>./MTE 201 Test Cartridge V4.1a (USA).zip</path>
     <name>MTE 201 Test Cartridge V4.1a (USA)</name>
     <image>./media/images/MTE 201 Test Cartridge V4.1a (USA).png</image>
     <video>./media/videos/MTE 201 Test Cartridge V4.1a (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Magic Carousel (USA) (Intellivision Lives!).zip</path>
+    <path>./Magic Carousel (USA) (Intellivision Lives!).zip</path>
     <name>Magic Carousel (USA) (Intellivision Lives!)</name>
     <image>./media/images/Magic Carousel (USA) (Intellivision Lives!).png</image>
     <video>./media/videos/Magic Carousel (USA) (Intellivision Lives!).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Magic Carousel (USA) (Proto).zip</path>
+    <path>./Magic Carousel (USA) (Proto).zip</path>
     <name>Magic Carousel (USA) (Proto)</name>
     <image>./media/images/Magic Carousel (USA) (Proto).png</image>
     <video>./media/videos/Magic Carousel (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Major League Baseball (World).zip</path>
+    <path>./Major League Baseball (World).zip</path>
     <name>Major League Baseball (World)</name>
     <image>./media/images/Major League Baseball (World).png</image>
     <video>./media/videos/Major League Baseball (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Masters of the Universe - The Power of He-Man (USA, Europe).zip</path>
+    <path>./Masters of the Universe - The Power of He-Man (USA, Europe).zip</path>
     <name>Masters of the Universe - The Power of He-Man (USA, Europe)</name>
     <image>./media/images/Masters of the Universe - The Power of He-Man (USA, Europe).png</image>
     <video>./media/videos/Masters of the Universe - The Power of He-Man (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Math Master (USA, Europe) (Intellivision Lives!).zip</path>
+    <path>./Math Master (USA, Europe) (Intellivision Lives!).zip</path>
     <name>Math Master (USA, Europe) (Intellivision Lives!)</name>
     <image>./media/images/Math Master (USA, Europe) (Intellivision Lives!).png</image>
     <video>./media/videos/Math Master (USA, Europe) (Intellivision Lives!).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Melody Blaster (USA, Europe).zip</path>
+    <path>./Melody Blaster (USA, Europe).zip</path>
     <name>Melody Blaster (USA, Europe)</name>
     <image>./media/images/Melody Blaster (USA, Europe).png</image>
     <video>./media/videos/Melody Blaster (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Memory Fun (USA, Europe) (Intellivision Lives!).zip</path>
+    <path>./Memory Fun (USA, Europe) (Intellivision Lives!).zip</path>
     <name>Memory Fun (USA, Europe) (Intellivision Lives!)</name>
     <image>./media/images/Memory Fun (USA, Europe) (Intellivision Lives!).png</image>
     <video>./media/videos/Memory Fun (USA, Europe) (Intellivision Lives!).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Meteor (USA, Europe) (Beta).zip</path>
+    <path>./Meteor (USA, Europe) (Beta).zip</path>
     <name>Meteor (USA, Europe) (Beta)</name>
     <image>./media/images/Meteor (USA, Europe) (Beta).png</image>
     <video>./media/videos/Meteor (USA, Europe) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Microsurgeon (USA, Europe).zip</path>
+    <path>./Microsurgeon (USA, Europe).zip</path>
     <name>Microsurgeon (USA, Europe)</name>
     <image>./media/images/Microsurgeon (USA, Europe).png</image>
     <video>./media/videos/Microsurgeon (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Mind Strike (USA, Europe).zip</path>
+    <path>./Mind Strike (USA, Europe).zip</path>
     <name>Mind Strike (USA, Europe)</name>
     <image>./media/images/Mind Strike (USA, Europe).png</image>
     <video>./media/videos/Mind Strike (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Minotaur (USA).zip</path>
+    <path>./Minotaur (USA).zip</path>
     <name>Minotaur (USA)</name>
     <image>./media/images/Minotaur (USA).png</image>
     <video>./media/videos/Minotaur (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Mission X (USA, Europe).zip</path>
+    <path>./Mission X (USA, Europe).zip</path>
     <name>Mission X (USA, Europe)</name>
     <image>./media/images/Mission X (USA, Europe).png</image>
     <video>./media/videos/Mission X (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Motocross (USA, Europe).zip</path>
+    <path>./Motocross (USA, Europe).zip</path>
     <name>Motocross (USA, Europe)</name>
     <image>./media/images/Motocross (USA, Europe).png</image>
     <video>./media/videos/Motocross (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Mountain Madness - Super Pro Skiing (USA).zip</path>
+    <path>./Mountain Madness - Super Pro Skiing (USA).zip</path>
     <name>Mountain Madness - Super Pro Skiing (USA)</name>
     <image>./media/images/Mountain Madness - Super Pro Skiing (USA).png</image>
     <video>./media/videos/Mountain Madness - Super Pro Skiing (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Mouse Trap (USA, Europe).zip</path>
+    <path>./Mouse Trap (USA, Europe).zip</path>
     <name>Mouse Trap (USA, Europe)</name>
     <image>./media/images/Mouse Trap (USA, Europe).png</image>
     <video>./media/videos/Mouse Trap (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Mr. BASIC Meets Bits 'N Bytes (USA, Europe).zip</path>
+    <path>./Mr. BASIC Meets Bits 'N Bytes (USA, Europe).zip</path>
     <name>Mr. BASIC Meets Bits 'N Bytes (USA, Europe)</name>
     <image>./media/images/Mr. BASIC Meets Bits 'N Bytes (USA, Europe).png</image>
     <video>./media/videos/Mr. BASIC Meets Bits 'N Bytes (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//NASL Soccer (World).zip</path>
+    <path>./NASL Soccer (World).zip</path>
     <name>NASL Soccer (World)</name>
     <image>./media/images/NASL Soccer (World).png</image>
     <video>./media/videos/NASL Soccer (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//NBA Basketball (USA, Europe).zip</path>
+    <path>./NBA Basketball (USA, Europe).zip</path>
     <name>NBA Basketball (USA, Europe)</name>
     <image>./media/images/NBA Basketball (USA, Europe).png</image>
     <video>./media/videos/NBA Basketball (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//NFL Football (World).zip</path>
+    <path>./NFL Football (World).zip</path>
     <name>NFL Football (World)</name>
     <image>./media/images/NFL Football (World).png</image>
     <video>./media/videos/NFL Football (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//NHL Hockey (World).zip</path>
+    <path>./NHL Hockey (World).zip</path>
     <name>NHL Hockey (World)</name>
     <image>./media/images/NHL Hockey (World).png</image>
     <video>./media/videos/NHL Hockey (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Night Stalker (World).zip</path>
+    <path>./Night Stalker (World).zip</path>
     <name>Night Stalker (World)</name>
     <image>./media/images/Night Stalker (World).png</image>
     <video>./media/videos/Night Stalker (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Nova Blast (USA, Europe).zip</path>
+    <path>./Nova Blast (USA, Europe).zip</path>
     <name>Nova Blast (USA, Europe)</name>
     <image>./media/images/Nova Blast (USA, Europe).png</image>
     <video>./media/videos/Nova Blast (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Number Jumble (USA) (Proto) (Intellivision Lives!).zip</path>
+    <path>./Number Jumble (USA) (Proto) (Intellivision Lives!).zip</path>
     <name>Number Jumble (USA) (Proto) (Intellivision Lives!)</name>
     <image>./media/images/Number Jumble (USA) (Proto) (Intellivision Lives!).png</image>
     <video>./media/videos/Number Jumble (USA) (Proto) (Intellivision Lives!).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Number Jumble (USA) (Proto).zip</path>
+    <path>./Number Jumble (USA) (Proto).zip</path>
     <name>Number Jumble (USA) (Proto)</name>
     <image>./media/images/Number Jumble (USA) (Proto).png</image>
     <video>./media/videos/Number Jumble (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//PBA Bowling (World).zip</path>
+    <path>./PBA Bowling (World).zip</path>
     <name>PBA Bowling (World)</name>
     <image>./media/images/PBA Bowling (World).png</image>
     <video>./media/videos/PBA Bowling (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//PGA Golf (World).zip</path>
+    <path>./PGA Golf (World).zip</path>
     <name>PGA Golf (World)</name>
     <image>./media/images/PGA Golf (World).png</image>
     <video>./media/videos/PGA Golf (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Pac-Man (USA) (Atarisoft).zip</path>
+    <path>./Pac-Man (USA) (Atarisoft).zip</path>
     <name>Pac-Man (USA) (Atarisoft)</name>
     <image>./media/images/Pac-Man (USA) (Atarisoft).png</image>
     <video>./media/videos/Pac-Man (USA) (Atarisoft).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Pac-Man (USA) (INTV Corp.).zip</path>
+    <path>./Pac-Man (USA) (INTV Corp.).zip</path>
     <name>Pac-Man (USA) (INTV Corp.)</name>
     <image>./media/images/Pac-Man (USA) (INTV Corp.).png</image>
     <video>./media/videos/Pac-Man (USA) (INTV Corp.).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Party Line - Blow Out (USA) (Proto).zip</path>
+    <path>./Party Line - Blow Out (USA) (Proto).zip</path>
     <name>Party Line - Blow Out (USA) (Proto)</name>
     <image>./media/images/Party Line - Blow Out (USA) (Proto).png</image>
     <video>./media/videos/Party Line - Blow Out (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Party Line - Hard Hat (USA) (Proto).zip</path>
+    <path>./Party Line - Hard Hat (USA) (Proto).zip</path>
     <name>Party Line - Hard Hat (USA) (Proto)</name>
     <image>./media/images/Party Line - Hard Hat (USA) (Proto).png</image>
     <video>./media/videos/Party Line - Hard Hat (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Party Line - Space Cadet (USA) (Proto) (Intellivision Lives!).zip</path>
+    <path>./Party Line - Space Cadet (USA) (Proto) (Intellivision Lives!).zip</path>
     <name>Party Line - Space Cadet (USA) (Proto) (Intellivision Lives!)</name>
     <image>./media/images/Party Line - Space Cadet (USA) (Proto) (Intellivision Lives!).png</image>
     <video>./media/videos/Party Line - Space Cadet (USA) (Proto) (Intellivision Lives!).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Party Line - Space Cadet (USA) (Proto).zip</path>
+    <path>./Party Line - Space Cadet (USA) (Proto).zip</path>
     <name>Party Line - Space Cadet (USA) (Proto)</name>
     <image>./media/images/Party Line - Space Cadet (USA) (Proto).png</image>
     <video>./media/videos/Party Line - Space Cadet (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Pinball (USA).zip</path>
+    <path>./Pinball (USA).zip</path>
     <name>Pinball (USA)</name>
     <image>./media/images/Pinball (USA).png</image>
     <video>./media/videos/Pinball (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Pitfall! (USA, Europe).zip</path>
+    <path>./Pitfall! (USA, Europe).zip</path>
     <name>Pitfall! (USA, Europe)</name>
     <image>./media/images/Pitfall! (USA, Europe).png</image>
     <video>./media/videos/Pitfall! (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Pole Position (USA).zip</path>
+    <path>./Pole Position (USA).zip</path>
     <name>Pole Position (USA)</name>
     <image>./media/images/Pole Position (USA).png</image>
     <video>./media/videos/Pole Position (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Popeye (USA, Europe).zip</path>
+    <path>./Popeye (USA, Europe).zip</path>
     <name>Popeye (USA, Europe)</name>
     <image>./media/images/Popeye (USA, Europe).png</image>
     <video>./media/videos/Popeye (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Q-bert (USA, Europe).zip</path>
+    <path>./Q-bert (USA, Europe).zip</path>
     <name>Q-bert (USA, Europe)</name>
     <image>./media/images/Q-bert (USA, Europe).png</image>
     <video>./media/videos/Q-bert (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Racing Cars (USA, Europe) (Intellivision Lives!).zip</path>
+    <path>./Racing Cars (USA, Europe) (Intellivision Lives!).zip</path>
     <name>Racing Cars (USA, Europe) (Intellivision Lives!)</name>
     <image>./media/images/Racing Cars (USA, Europe) (Intellivision Lives!).png</image>
     <video>./media/videos/Racing Cars (USA, Europe) (Intellivision Lives!).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Reversi (USA, Europe).zip</path>
+    <path>./Reversi (USA, Europe).zip</path>
     <name>Reversi (USA, Europe)</name>
     <image>./media/images/Reversi (USA, Europe).png</image>
     <video>./media/videos/Reversi (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//River Raid (USA, Europe) (Beta).zip</path>
+    <path>./River Raid (USA, Europe) (Beta).zip</path>
     <name>River Raid (USA, Europe) (Beta)</name>
     <image>./media/images/River Raid (USA, Europe) (Beta).png</image>
     <video>./media/videos/River Raid (USA, Europe) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//River Raid (USA, Europe).zip</path>
+    <path>./River Raid (USA, Europe).zip</path>
     <name>River Raid (USA, Europe)</name>
     <image>./media/images/River Raid (USA, Europe).png</image>
     <video>./media/videos/River Raid (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Robot Rubble (USA) (Proto 1).zip</path>
+    <path>./Robot Rubble (USA) (Proto 1).zip</path>
     <name>Robot Rubble (USA) (Proto 1)</name>
     <image>./media/images/Robot Rubble (USA) (Proto 1).png</image>
     <video>./media/videos/Robot Rubble (USA) (Proto 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Robot Rubble (USA) (Proto 2).zip</path>
+    <path>./Robot Rubble (USA) (Proto 2).zip</path>
     <name>Robot Rubble (USA) (Proto 2)</name>
     <image>./media/images/Robot Rubble (USA) (Proto 2).png</image>
     <video>./media/videos/Robot Rubble (USA) (Proto 2).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Robot Rubble (USA) (Proto 3).zip</path>
+    <path>./Robot Rubble (USA) (Proto 3).zip</path>
     <name>Robot Rubble (USA) (Proto 3)</name>
     <image>./media/images/Robot Rubble (USA) (Proto 3).png</image>
     <video>./media/videos/Robot Rubble (USA) (Proto 3).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Rocky &amp; Bullwinckle (USA) (Proto).zip</path>
+    <path>./Rocky &amp; Bullwinckle (USA) (Proto).zip</path>
     <name>Rocky &amp; Bullwinckle (USA) (Proto)</name>
     <image>./media/images/Rocky &amp; Bullwinckle (USA) (Proto).png</image>
     <video>./media/videos/Rocky &amp; Bullwinckle (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Royal Dealer (USA, Europe).zip</path>
+    <path>./Royal Dealer (USA, Europe).zip</path>
     <name>Royal Dealer (USA, Europe)</name>
     <image>./media/images/Royal Dealer (USA, Europe).png</image>
     <video>./media/videos/Royal Dealer (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//SNAFU (World).zip</path>
+    <path>./SNAFU (World).zip</path>
     <name>SNAFU (World)</name>
     <image>./media/images/SNAFU (World).png</image>
     <video>./media/videos/SNAFU (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Safecracker (USA, Europe).zip</path>
+    <path>./Safecracker (USA, Europe).zip</path>
     <name>Safecracker (USA, Europe)</name>
     <image>./media/images/Safecracker (USA, Europe).png</image>
     <video>./media/videos/Safecracker (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Scarfinger (USA) (Proto).zip</path>
+    <path>./Scarfinger (USA) (Proto).zip</path>
     <name>Scarfinger (USA) (Proto)</name>
     <image>./media/images/Scarfinger (USA) (Proto).png</image>
     <video>./media/videos/Scarfinger (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Scooby Doo's Maze Chase (USA, Europe).zip</path>
+    <path>./Scooby Doo's Maze Chase (USA, Europe).zip</path>
     <name>Scooby Doo's Maze Chase (USA, Europe)</name>
     <image>./media/images/Scooby Doo's Maze Chase (USA, Europe).png</image>
     <video>./media/videos/Scooby Doo's Maze Chase (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Sea Battle (World).zip</path>
+    <path>./Sea Battle (World).zip</path>
     <name>Sea Battle (World)</name>
     <image>./media/images/Sea Battle (World).png</image>
     <video>./media/videos/Sea Battle (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Sewer Sam (USA).zip</path>
+    <path>./Sewer Sam (USA).zip</path>
     <name>Sewer Sam (USA)</name>
     <image>./media/images/Sewer Sam (USA).png</image>
     <video>./media/videos/Sewer Sam (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Shark! Shark! (USA, Europe).zip</path>
+    <path>./Shark! Shark! (USA, Europe).zip</path>
     <name>Shark! Shark! (USA, Europe)</name>
     <image>./media/images/Shark! Shark! (USA, Europe).png</image>
     <video>./media/videos/Shark! Shark! (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Sharp Shot (USA, Europe).zip</path>
+    <path>./Sharp Shot (USA, Europe).zip</path>
     <name>Sharp Shot (USA, Europe)</name>
     <image>./media/images/Sharp Shot (USA, Europe).png</image>
     <video>./media/videos/Sharp Shot (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Slam Dunk - Super Pro Basketball (USA).zip</path>
+    <path>./Slam Dunk - Super Pro Basketball (USA).zip</path>
     <name>Slam Dunk - Super Pro Basketball (USA)</name>
     <image>./media/images/Slam Dunk - Super Pro Basketball (USA).png</image>
     <video>./media/videos/Slam Dunk - Super Pro Basketball (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Slap Shot - Super Pro Hockey (USA).zip</path>
+    <path>./Slap Shot - Super Pro Hockey (USA).zip</path>
     <name>Slap Shot - Super Pro Hockey (USA)</name>
     <image>./media/images/Slap Shot - Super Pro Hockey (USA).png</image>
     <video>./media/videos/Slap Shot - Super Pro Hockey (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Space Armada (World).zip</path>
+    <path>./Space Armada (World).zip</path>
     <name>Space Armada (World)</name>
     <image>./media/images/Space Armada (World).png</image>
     <video>./media/videos/Space Armada (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Space Battle (World).zip</path>
+    <path>./Space Battle (World).zip</path>
     <name>Space Battle (World)</name>
     <image>./media/images/Space Battle (World).png</image>
     <video>./media/videos/Space Battle (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Space Hawk (USA, Europe).zip</path>
+    <path>./Space Hawk (USA, Europe).zip</path>
     <name>Space Hawk (USA, Europe)</name>
     <image>./media/images/Space Hawk (USA, Europe).png</image>
     <video>./media/videos/Space Hawk (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Space Spartans (USA, Europe).zip</path>
+    <path>./Space Spartans (USA, Europe).zip</path>
     <name>Space Spartans (USA, Europe)</name>
     <image>./media/images/Space Spartans (USA, Europe).png</image>
     <video>./media/videos/Space Spartans (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Spiker - Super Pro Volleyball (USA).zip</path>
+    <path>./Spiker - Super Pro Volleyball (USA).zip</path>
     <name>Spiker - Super Pro Volleyball (USA)</name>
     <image>./media/images/Spiker - Super Pro Volleyball (USA).png</image>
     <video>./media/videos/Spiker - Super Pro Volleyball (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Stadium Mud Buggies (USA).zip</path>
+    <path>./Stadium Mud Buggies (USA).zip</path>
     <name>Stadium Mud Buggies (USA)</name>
     <image>./media/images/Stadium Mud Buggies (USA).png</image>
     <video>./media/videos/Stadium Mud Buggies (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Stampede (USA, Europe).zip</path>
+    <path>./Stampede (USA, Europe).zip</path>
     <name>Stampede (USA, Europe)</name>
     <image>./media/images/Stampede (USA, Europe).png</image>
     <video>./media/videos/Stampede (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Star Strike (World).zip</path>
+    <path>./Star Strike (World).zip</path>
     <name>Star Strike (World)</name>
     <image>./media/images/Star Strike (World).png</image>
     <video>./media/videos/Star Strike (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Star Wars - The Empire Strikes Back (USA, Europe).zip</path>
+    <path>./Star Wars - The Empire Strikes Back (USA, Europe).zip</path>
     <name>Star Wars - The Empire Strikes Back (USA, Europe)</name>
     <image>./media/images/Star Wars - The Empire Strikes Back (USA, Europe).png</image>
     <video>./media/videos/Star Wars - The Empire Strikes Back (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Sub Hunt (USA, Europe).zip</path>
+    <path>./Sub Hunt (USA, Europe).zip</path>
     <name>Sub Hunt (USA, Europe)</name>
     <image>./media/images/Sub Hunt (USA, Europe).png</image>
     <video>./media/videos/Sub Hunt (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Super Cobra (USA, Europe).zip</path>
+    <path>./Super Cobra (USA, Europe).zip</path>
     <name>Super Cobra (USA, Europe)</name>
     <image>./media/images/Super Cobra (USA, Europe).png</image>
     <video>./media/videos/Super Cobra (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Super Masters! (USA) (Proto).zip</path>
+    <path>./Super Masters! (USA) (Proto).zip</path>
     <name>Super Masters! (USA) (Proto)</name>
     <image>./media/images/Super Masters! (USA) (Proto).png</image>
     <video>./media/videos/Super Masters! (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Super NFL Footbal (USA) (Proto).zip</path>
+    <path>./Super NFL Footbal (USA) (Proto).zip</path>
     <name>Super NFL Footbal (USA) (Proto)</name>
     <image>./media/images/Super NFL Footbal (USA) (Proto).png</image>
     <video>./media/videos/Super NFL Footbal (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Super Pro Decathlon (USA).zip</path>
+    <path>./Super Pro Decathlon (USA).zip</path>
     <name>Super Pro Decathlon (USA)</name>
     <image>./media/images/Super Pro Decathlon (USA).png</image>
     <video>./media/videos/Super Pro Decathlon (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Super Pro Football (USA) (Revision).zip</path>
+    <path>./Super Pro Football (USA) (Revision).zip</path>
     <name>Super Pro Football (USA) (Revision)</name>
     <image>./media/images/Super Pro Football (USA) (Revision).png</image>
     <video>./media/videos/Super Pro Football (USA) (Revision).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Super Pro Football (USA).zip</path>
+    <path>./Super Pro Football (USA).zip</path>
     <name>Super Pro Football (USA)</name>
     <image>./media/images/Super Pro Football (USA).png</image>
     <video>./media/videos/Super Pro Football (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Super Soccer (USA) (Proto).zip</path>
+    <path>./Super Soccer (USA) (Proto).zip</path>
     <name>Super Soccer (USA) (Proto)</name>
     <image>./media/images/Super Soccer (USA) (Proto).png</image>
     <video>./media/videos/Super Soccer (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Swords &amp; Serpents (USA, Europe).zip</path>
+    <path>./Swords &amp; Serpents (USA, Europe).zip</path>
     <name>Swords &amp; Serpents (USA, Europe)</name>
     <image>./media/images/Swords &amp; Serpents (USA, Europe).png</image>
     <video>./media/videos/Swords &amp; Serpents (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//TRON (USA) (Proto).zip</path>
+    <path>./TRON (USA) (Proto).zip</path>
     <name>TRON (USA) (Proto)</name>
     <image>./media/images/TRON (USA) (Proto).png</image>
     <video>./media/videos/TRON (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//TRON Deadly Discs (USA, Europe).zip</path>
+    <path>./TRON Deadly Discs (USA, Europe).zip</path>
     <name>TRON Deadly Discs (USA, Europe)</name>
     <image>./media/images/TRON Deadly Discs (USA, Europe).png</image>
     <video>./media/videos/TRON Deadly Discs (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//TRON Maze-A-Tron (USA, Europe).zip</path>
+    <path>./TRON Maze-A-Tron (USA, Europe).zip</path>
     <name>TRON Maze-A-Tron (USA, Europe)</name>
     <image>./media/images/TRON Maze-A-Tron (USA, Europe).png</image>
     <video>./media/videos/TRON Maze-A-Tron (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//TRON Solar Sailer (USA, Europe).zip</path>
+    <path>./TRON Solar Sailer (USA, Europe).zip</path>
     <name>TRON Solar Sailer (USA, Europe)</name>
     <image>./media/images/TRON Solar Sailer (USA, Europe).png</image>
     <video>./media/videos/TRON Solar Sailer (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Takeover (USA) (Proto).zip</path>
+    <path>./Takeover (USA) (Proto).zip</path>
     <name>Takeover (USA) (Proto)</name>
     <image>./media/images/Takeover (USA) (Proto).png</image>
     <video>./media/videos/Takeover (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Tennis (World).zip</path>
+    <path>./Tennis (World).zip</path>
     <name>Tennis (World)</name>
     <image>./media/images/Tennis (World).png</image>
     <video>./media/videos/Tennis (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Thin Ice (USA) (Beta).zip</path>
+    <path>./Thin Ice (USA) (Beta).zip</path>
     <name>Thin Ice (USA) (Beta)</name>
     <image>./media/images/Thin Ice (USA) (Beta).png</image>
     <video>./media/videos/Thin Ice (USA) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Thin Ice (USA).zip</path>
+    <path>./Thin Ice (USA).zip</path>
     <name>Thin Ice (USA)</name>
     <image>./media/images/Thin Ice (USA).png</image>
     <video>./media/videos/Thin Ice (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Thunder Castle (USA).zip</path>
+    <path>./Thunder Castle (USA).zip</path>
     <name>Thunder Castle (USA)</name>
     <image>./media/images/Thunder Castle (USA).png</image>
     <video>./media/videos/Thunder Castle (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Tower of Doom (USA).zip</path>
+    <path>./Tower of Doom (USA).zip</path>
     <name>Tower of Doom (USA)</name>
     <image>./media/images/Tower of Doom (USA).png</image>
     <video>./media/videos/Tower of Doom (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Triple Action (World).zip</path>
+    <path>./Triple Action (World).zip</path>
     <name>Triple Action (World)</name>
     <image>./media/images/Triple Action (World).png</image>
     <video>./media/videos/Triple Action (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Triple Challenge - Chess, Checkers, Backgammon (USA).zip</path>
+    <path>./Triple Challenge - Chess, Checkers, Backgammon (USA).zip</path>
     <name>Triple Challenge - Chess, Checkers, Backgammon (USA)</name>
     <image>./media/images/Triple Challenge - Chess, Checkers, Backgammon (USA).png</image>
     <video>./media/videos/Triple Challenge - Chess, Checkers, Backgammon (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Tropical Trouble (USA, Europe).zip</path>
+    <path>./Tropical Trouble (USA, Europe).zip</path>
     <name>Tropical Trouble (USA, Europe)</name>
     <image>./media/images/Tropical Trouble (USA, Europe).png</image>
     <video>./media/videos/Tropical Trouble (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Truckin' (USA).zip</path>
+    <path>./Truckin' (USA).zip</path>
     <name>Truckin' (USA)</name>
     <image>./media/images/Truckin' (USA).png</image>
     <video>./media/videos/Truckin' (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Turbo (USA, Europe).zip</path>
+    <path>./Turbo (USA, Europe).zip</path>
     <name>Turbo (USA, Europe)</name>
     <image>./media/images/Turbo (USA, Europe).png</image>
     <video>./media/videos/Turbo (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Tutankham (USA, Europe).zip</path>
+    <path>./Tutankham (USA, Europe).zip</path>
     <name>Tutankham (USA, Europe)</name>
     <image>./media/images/Tutankham (USA, Europe).png</image>
     <video>./media/videos/Tutankham (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//US Ski Team Skiing (World).zip</path>
+    <path>./US Ski Team Skiing (World).zip</path>
     <name>US Ski Team Skiing (World)</name>
     <image>./media/images/US Ski Team Skiing (World).png</image>
     <video>./media/videos/US Ski Team Skiing (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//USCF Chess (USA, Europe).zip</path>
+    <path>./USCF Chess (USA, Europe).zip</path>
     <name>USCF Chess (USA, Europe)</name>
     <image>./media/images/USCF Chess (USA, Europe).png</image>
     <video>./media/videos/USCF Chess (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Utopia (USA, Europe).zip</path>
+    <path>./Utopia (USA, Europe).zip</path>
     <name>Utopia (USA, Europe)</name>
     <image>./media/images/Utopia (USA, Europe).png</image>
     <video>./media/videos/Utopia (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Vectron (USA, Europe) (Intellivision Lives!).zip</path>
+    <path>./Vectron (USA, Europe) (Intellivision Lives!).zip</path>
     <name>Vectron (USA, Europe) (Intellivision Lives!)</name>
     <image>./media/images/Vectron (USA, Europe) (Intellivision Lives!).png</image>
     <video>./media/videos/Vectron (USA, Europe) (Intellivision Lives!).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Vectron (USA, Europe).zip</path>
+    <path>./Vectron (USA, Europe).zip</path>
     <name>Vectron (USA, Europe)</name>
     <image>./media/images/Vectron (USA, Europe).png</image>
     <video>./media/videos/Vectron (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Venture (USA, Europe).zip</path>
+    <path>./Venture (USA, Europe).zip</path>
     <name>Venture (USA, Europe)</name>
     <image>./media/images/Venture (USA, Europe).png</image>
     <video>./media/videos/Venture (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//White Water! (USA, Europe).zip</path>
+    <path>./White Water! (USA, Europe).zip</path>
     <name>White Water! (USA, Europe)</name>
     <image>./media/images/White Water! (USA, Europe).png</image>
     <video>./media/videos/White Water! (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Word Hunt (USA, Europe) (Intellivision Lives!).zip</path>
+    <path>./Word Hunt (USA, Europe) (Intellivision Lives!).zip</path>
     <name>Word Hunt (USA, Europe) (Intellivision Lives!)</name>
     <image>./media/images/Word Hunt (USA, Europe) (Intellivision Lives!).png</image>
     <video>./media/videos/Word Hunt (USA, Europe) (Intellivision Lives!).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Word Rockets (USA, Europe) (Intellivision Lives!).zip</path>
+    <path>./Word Rockets (USA, Europe) (Intellivision Lives!).zip</path>
     <name>Word Rockets (USA, Europe) (Intellivision Lives!)</name>
     <image>./media/images/Word Rockets (USA, Europe) (Intellivision Lives!).png</image>
     <video>./media/videos/Word Rockets (USA, Europe) (Intellivision Lives!).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//World Championship Baseball (USA).zip</path>
+    <path>./World Championship Baseball (USA).zip</path>
     <name>World Championship Baseball (USA)</name>
     <image>./media/images/World Championship Baseball (USA).png</image>
     <video>./media/videos/World Championship Baseball (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//World Cup Soccer (USA, Europe).zip</path>
+    <path>./World Cup Soccer (USA, Europe).zip</path>
     <name>World Cup Soccer (USA, Europe)</name>
     <image>./media/images/World Cup Soccer (USA, Europe).png</image>
     <video>./media/videos/World Cup Soccer (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//World Series Major League Baseball (USA).zip</path>
+    <path>./World Series Major League Baseball (USA).zip</path>
     <name>World Series Major League Baseball (USA)</name>
     <image>./media/images/World Series Major League Baseball (USA).png</image>
     <video>./media/videos/World Series Major League Baseball (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Worm Whomper (USA, Europe).zip</path>
+    <path>./Worm Whomper (USA, Europe).zip</path>
     <name>Worm Whomper (USA, Europe)</name>
     <image>./media/images/Worm Whomper (USA, Europe).png</image>
     <video>./media/videos/Worm Whomper (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Yogi's Frustration (USA) (Proto).zip</path>
+    <path>./Yogi's Frustration (USA) (Proto).zip</path>
     <name>Yogi's Frustration (USA) (Proto)</name>
     <image>./media/images/Yogi's Frustration (USA) (Proto).png</image>
     <video>./media/videos/Yogi's Frustration (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Zaxxon (USA, Europe).zip</path>
+    <path>./Zaxxon (USA, Europe).zip</path>
     <name>Zaxxon (USA, Europe)</name>
     <image>./media/images/Zaxxon (USA, Europe).png</image>
     <video>./media/videos/Zaxxon (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//Zzzz! Spina the Bee (Europe) (Proto).zip</path>
+    <path>./Zzzz! Spina the Bee (Europe) (Proto).zip</path>
     <name>Zzzz! Spina the Bee (Europe) (Proto)</name>
     <image>./media/images/Zzzz! Spina the Bee (Europe) (Proto).png</image>
     <video>./media/videos/Zzzz! Spina the Bee (Europe) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//[BIOS] Entertainment Computer System EXEC-BASIC (USA, Europe).zip</path>
+    <path>./[BIOS] Entertainment Computer System EXEC-BASIC (USA, Europe).zip</path>
     <name>[BIOS] Entertainment Computer System EXEC-BASIC (USA, Europe)</name>
     <image>./media/images/[BIOS] Entertainment Computer System EXEC-BASIC (USA, Europe).png</image>
     <video>./media/videos/[BIOS] Entertainment Computer System EXEC-BASIC (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//[BIOS] Intellivision Executive ROM (World).zip</path>
+    <path>./[BIOS] Intellivision Executive ROM (World).zip</path>
     <name>[BIOS] Intellivision Executive ROM (World)</name>
     <image>./media/images/[BIOS] Intellivision Executive ROM (World).png</image>
     <video>./media/videos/[BIOS] Intellivision Executive ROM (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//[BIOS] Intellivision Graphic ROM (World).zip</path>
+    <path>./[BIOS] Intellivision Graphic ROM (World).zip</path>
     <name>[BIOS] Intellivision Graphic ROM (World)</name>
     <image>./media/images/[BIOS] Intellivision Graphic ROM (World).png</image>
     <video>./media/videos/[BIOS] Intellivision Graphic ROM (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//[BIOS] Intellivoice (USA, Europe).zip</path>
+    <path>./[BIOS] Intellivoice (USA, Europe).zip</path>
     <name>[BIOS] Intellivoice (USA, Europe)</name>
     <image>./media/images/[BIOS] Intellivoice (USA, Europe).png</image>
     <video>./media/videos/[BIOS] Intellivoice (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Mattel - Intellivision//[BIOS] Sears Super Video Arcade (USA, Europe).zip</path>
+    <path>./[BIOS] Sears Super Video Arcade (USA, Europe).zip</path>
     <name>[BIOS] Sears Super Video Arcade (USA, Europe)</name>
     <image>./media/images/[BIOS] Sears Super Video Arcade (USA, Europe).png</image>
     <video>./media/videos/[BIOS] Sears Super Video Arcade (USA, Europe).mp4</video>

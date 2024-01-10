@@ -1,1483 +1,1483 @@
 <?xml version="1.0"?>
 <gameList>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/007 James Bond (Japan) (Othello Multivision) (Alt).zip</path>
+    <path>./007 James Bond (Japan) (Othello Multivision) (Alt).zip</path>
     <name>007 James Bond (Japan) (Othello Multivision) (Alt)</name>
     <image>./media/images/007 James Bond (Japan) (Othello Multivision) (Alt).png</image>
     <video>./media/videos/007 James Bond (Japan) (Othello Multivision) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/007 James Bond (Japan) (Othello Multivision).zip</path>
+    <path>./007 James Bond (Japan) (Othello Multivision).zip</path>
     <name>007 James Bond (Japan) (Othello Multivision)</name>
     <image>./media/images/007 James Bond (Japan) (Othello Multivision).png</image>
     <video>./media/videos/007 James Bond (Japan) (Othello Multivision).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/007 James Bond (Taiwan) (Othello Multivision) (Unl).zip</path>
+    <path>./007 James Bond (Taiwan) (Othello Multivision) (Unl).zip</path>
     <name>007 James Bond (Taiwan) (Othello Multivision) (Unl)</name>
     <image>./media/images/007 James Bond (Taiwan) (Othello Multivision) (Unl).png</image>
     <video>./media/videos/007 James Bond (Taiwan) (Othello Multivision) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Arno Dash (World) (v1.00) (Aftermarket) (Unl).zip</path>
+    <path>./Arno Dash (World) (v1.00) (Aftermarket) (Unl).zip</path>
     <name>Arno Dash (World) (v1.00) (Aftermarket) (Unl)</name>
     <image>./media/images/Arno Dash (World) (v1.00) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Arno Dash (World) (v1.00) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Arno Dash (World) (v1.03) (Aftermarket) (Unl).zip</path>
+    <path>./Arno Dash (World) (v1.03) (Aftermarket) (Unl).zip</path>
     <name>Arno Dash (World) (v1.03) (Aftermarket) (Unl)</name>
     <image>./media/images/Arno Dash (World) (v1.03) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Arno Dash (World) (v1.03) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/BASIC Level II (Japan) (SC-3000) (Program).zip</path>
+    <path>./BASIC Level II (Japan) (SC-3000) (Program).zip</path>
     <name>BASIC Level II (Japan) (SC-3000) (Program)</name>
     <image>./media/images/BASIC Level II (Japan) (SC-3000) (Program).png</image>
     <video>./media/videos/BASIC Level II (Japan) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/BASIC Level III (Europe, Australia, New Zealand) (SC-3000) (Program).zip</path>
+    <path>./BASIC Level III (Europe, Australia, New Zealand) (SC-3000) (Program).zip</path>
     <name>BASIC Level III (Europe, Australia, New Zealand) (SC-3000) (Program)</name>
     <image>./media/images/BASIC Level III (Europe, Australia, New Zealand) (SC-3000) (Program).png</image>
     <video>./media/videos/BASIC Level III (Europe, Australia, New Zealand) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/BASIC Level III (Japan) (SC-3000) (Program).zip</path>
+    <path>./BASIC Level III (Japan) (SC-3000) (Program).zip</path>
     <name>BASIC Level III (Japan) (SC-3000) (Program)</name>
     <image>./media/images/BASIC Level III (Japan) (SC-3000) (Program).png</image>
     <video>./media/videos/BASIC Level III (Japan) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Bank Panic (Japan).zip</path>
+    <path>./Bank Panic (Japan).zip</path>
     <name>Bank Panic (Japan)</name>
     <image>./media/images/Bank Panic (Japan).png</image>
     <video>./media/videos/Bank Panic (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Bank Panic (Taiwan) (Unl).zip</path>
+    <path>./Bank Panic (Taiwan) (Unl).zip</path>
     <name>Bank Panic (Taiwan) (Unl)</name>
     <image>./media/images/Bank Panic (Taiwan) (Unl).png</image>
     <video>./media/videos/Bank Panic (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Black Onyx, The (Japan).zip</path>
+    <path>./Black Onyx, The (Japan).zip</path>
     <name>Black Onyx, The (Japan)</name>
     <image>./media/images/Black Onyx, The (Japan).png</image>
     <video>./media/videos/Black Onyx, The (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Bomb Jack (Japan, Australia) (Ja).zip</path>
+    <path>./Bomb Jack (Japan, Australia) (Ja).zip</path>
     <name>Bomb Jack (Japan, Australia) (Ja)</name>
     <image>./media/images/Bomb Jack (Japan, Australia) (Ja).png</image>
     <video>./media/videos/Bomb Jack (Japan, Australia) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Bomb Jack (Korea) (En) (English Logo) (Unl).zip</path>
+    <path>./Bomb Jack (Korea) (En) (English Logo) (Unl).zip</path>
     <name>Bomb Jack (Korea) (En) (English Logo) (Unl)</name>
     <image>./media/images/Bomb Jack (Korea) (En) (English Logo) (Unl).png</image>
     <video>./media/videos/Bomb Jack (Korea) (En) (English Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Bomb Jack (Korea) (En) (Korean Logo) (Unl).zip</path>
+    <path>./Bomb Jack (Korea) (En) (Korean Logo) (Unl).zip</path>
     <name>Bomb Jack (Korea) (En) (Korean Logo) (Unl)</name>
     <image>./media/images/Bomb Jack (Korea) (En) (Korean Logo) (Unl).png</image>
     <video>./media/videos/Bomb Jack (Korea) (En) (Korean Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Bomb Jack (Taiwan) (Chinese Logo) (Unl).zip</path>
+    <path>./Bomb Jack (Taiwan) (Chinese Logo) (Unl).zip</path>
     <name>Bomb Jack (Taiwan) (Chinese Logo) (Unl)</name>
     <image>./media/images/Bomb Jack (Taiwan) (Chinese Logo) (Unl).png</image>
     <video>./media/videos/Bomb Jack (Taiwan) (Chinese Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Bomb Jack (Taiwan) (English Logo) (Unl).zip</path>
+    <path>./Bomb Jack (Taiwan) (English Logo) (Unl).zip</path>
     <name>Bomb Jack (Taiwan) (English Logo) (Unl)</name>
     <image>./media/images/Bomb Jack (Taiwan) (English Logo) (Unl).png</image>
     <video>./media/videos/Bomb Jack (Taiwan) (English Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Bomberman Special (Taiwan) (Chinese Logo) (Unl).zip</path>
+    <path>./Bomberman Special (Taiwan) (Chinese Logo) (Unl).zip</path>
     <name>Bomberman Special (Taiwan) (Chinese Logo) (Unl)</name>
     <image>./media/images/Bomberman Special (Taiwan) (Chinese Logo) (Unl).png</image>
     <video>./media/videos/Bomberman Special (Taiwan) (Chinese Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Bomberman Special (Taiwan) (English Logo) (Unl).zip</path>
+    <path>./Bomberman Special (Taiwan) (English Logo) (Unl).zip</path>
     <name>Bomberman Special (Taiwan) (English Logo) (Unl)</name>
     <image>./media/images/Bomberman Special (Taiwan) (English Logo) (Unl).png</image>
     <video>./media/videos/Bomberman Special (Taiwan) (English Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Borderline (Japan, Europe, Australia, New Zealand) (En).zip</path>
+    <path>./Borderline (Japan, Europe, Australia, New Zealand) (En).zip</path>
     <name>Borderline (Japan, Europe, Australia, New Zealand) (En)</name>
     <image>./media/images/Borderline (Japan, Europe, Australia, New Zealand) (En).png</image>
     <video>./media/videos/Borderline (Japan, Europe, Australia, New Zealand) (En).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/C_So! (Japan).zip</path>
+    <path>./C_So! (Japan).zip</path>
     <name>C_So! (Japan)</name>
     <image>./media/images/C_So! (Japan).png</image>
     <video>./media/videos/C_So! (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/C_So! (Taiwan) (Unl).zip</path>
+    <path>./C_So! (Taiwan) (Unl).zip</path>
     <name>C_So! (Taiwan) (Unl)</name>
     <image>./media/images/C_So! (Taiwan) (Unl).png</image>
     <video>./media/videos/C_So! (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Cabbage Patch Kids (Taiwan) (Unl).zip</path>
+    <path>./Cabbage Patch Kids (Taiwan) (Unl).zip</path>
     <name>Cabbage Patch Kids (Taiwan) (Unl)</name>
     <image>./media/images/Cabbage Patch Kids (Taiwan) (Unl).png</image>
     <video>./media/videos/Cabbage Patch Kids (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Castle, The (Japan).zip</path>
+    <path>./Castle, The (Japan).zip</path>
     <name>Castle, The (Japan)</name>
     <image>./media/images/Castle, The (Japan).png</image>
     <video>./media/videos/Castle, The (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Castle, The (Taiwan) (Unl).zip</path>
+    <path>./Castle, The (Taiwan) (Unl).zip</path>
     <name>Castle, The (Taiwan) (Unl)</name>
     <image>./media/images/Castle, The (Taiwan) (Unl).png</image>
     <video>./media/videos/Castle, The (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Chack'n Pop (Japan).zip</path>
+    <path>./Chack'n Pop (Japan).zip</path>
     <name>Chack'n Pop (Japan)</name>
     <image>./media/images/Chack'n Pop (Japan).png</image>
     <video>./media/videos/Chack'n Pop (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Chack'n Pop (Taiwan) (Unl).zip</path>
+    <path>./Chack'n Pop (Taiwan) (Unl).zip</path>
     <name>Chack'n Pop (Taiwan) (Unl)</name>
     <image>./media/images/Chack'n Pop (Taiwan) (Unl).png</image>
     <video>./media/videos/Chack'n Pop (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Challenge Derby (Japan) (Othello Multivision).zip</path>
+    <path>./Challenge Derby (Japan) (Othello Multivision).zip</path>
     <name>Challenge Derby (Japan) (Othello Multivision)</name>
     <image>./media/images/Challenge Derby (Japan) (Othello Multivision).png</image>
     <video>./media/videos/Challenge Derby (Japan) (Othello Multivision).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Challenge Derby (Japan) (Rev 1) (Othello Multivision) (Alt).zip</path>
+    <path>./Challenge Derby (Japan) (Rev 1) (Othello Multivision) (Alt).zip</path>
     <name>Challenge Derby (Japan) (Rev 1) (Othello Multivision) (Alt)</name>
     <image>./media/images/Challenge Derby (Japan) (Rev 1) (Othello Multivision) (Alt).png</image>
     <video>./media/videos/Challenge Derby (Japan) (Rev 1) (Othello Multivision) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Challenge Derby (Japan) (Rev 1) (Othello Multivision).zip</path>
+    <path>./Challenge Derby (Japan) (Rev 1) (Othello Multivision).zip</path>
     <name>Challenge Derby (Japan) (Rev 1) (Othello Multivision)</name>
     <image>./media/images/Challenge Derby (Japan) (Rev 1) (Othello Multivision).png</image>
     <video>./media/videos/Challenge Derby (Japan) (Rev 1) (Othello Multivision).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Champion Baseball (Japan).zip</path>
+    <path>./Champion Baseball (Japan).zip</path>
     <name>Champion Baseball (Japan)</name>
     <image>./media/images/Champion Baseball (Japan).png</image>
     <video>./media/videos/Champion Baseball (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Champion Baseball (Japan, Australia, New Zealand) (Ja).zip</path>
+    <path>./Champion Baseball (Japan, Australia, New Zealand) (Ja).zip</path>
     <name>Champion Baseball (Japan, Australia, New Zealand) (Ja)</name>
     <image>./media/images/Champion Baseball (Japan, Australia, New Zealand) (Ja).png</image>
     <video>./media/videos/Champion Baseball (Japan, Australia, New Zealand) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Champion Baseball (Taiwan) (Unl).zip</path>
+    <path>./Champion Baseball (Taiwan) (Unl).zip</path>
     <name>Champion Baseball (Taiwan) (Unl)</name>
     <image>./media/images/Champion Baseball (Taiwan) (Unl).png</image>
     <video>./media/videos/Champion Baseball (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Champion Billiards (Japan).zip</path>
+    <path>./Champion Billiards (Japan).zip</path>
     <name>Champion Billiards (Japan)</name>
     <image>./media/images/Champion Billiards (Japan).png</image>
     <video>./media/videos/Champion Billiards (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Champion Billiards (Taiwan) (Unl).zip</path>
+    <path>./Champion Billiards (Taiwan) (Unl).zip</path>
     <name>Champion Billiards (Taiwan) (Unl)</name>
     <image>./media/images/Champion Billiards (Taiwan) (Unl).png</image>
     <video>./media/videos/Champion Billiards (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Champion Boxing (Japan) (Rev 1).zip</path>
+    <path>./Champion Boxing (Japan) (Rev 1).zip</path>
     <name>Champion Boxing (Japan) (Rev 1)</name>
     <image>./media/images/Champion Boxing (Japan) (Rev 1).png</image>
     <video>./media/videos/Champion Boxing (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Champion Boxing (Japan, New Zealand) (Ja).zip</path>
+    <path>./Champion Boxing (Japan, New Zealand) (Ja).zip</path>
     <name>Champion Boxing (Japan, New Zealand) (Ja)</name>
     <image>./media/images/Champion Boxing (Japan, New Zealand) (Ja).png</image>
     <video>./media/videos/Champion Boxing (Japan, New Zealand) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Champion Boxing (Taiwan) (Unl).zip</path>
+    <path>./Champion Boxing (Taiwan) (Unl).zip</path>
     <name>Champion Boxing (Taiwan) (Unl)</name>
     <image>./media/images/Champion Boxing (Taiwan) (Unl).png</image>
     <video>./media/videos/Champion Boxing (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Champion Golf (Japan) (Rev 1).zip</path>
+    <path>./Champion Golf (Japan) (Rev 1).zip</path>
     <name>Champion Golf (Japan) (Rev 1)</name>
     <image>./media/images/Champion Golf (Japan) (Rev 1).png</image>
     <video>./media/videos/Champion Golf (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Champion Golf (Japan, Europe, Australia, New Zealand) (Ja).zip</path>
+    <path>./Champion Golf (Japan, Europe, Australia, New Zealand) (Ja).zip</path>
     <name>Champion Golf (Japan, Europe, Australia, New Zealand) (Ja)</name>
     <image>./media/images/Champion Golf (Japan, Europe, Australia, New Zealand) (Ja).png</image>
     <video>./media/videos/Champion Golf (Japan, Europe, Australia, New Zealand) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Champion Golf (Korea) (En) (Unl).zip</path>
+    <path>./Champion Golf (Korea) (En) (Unl).zip</path>
     <name>Champion Golf (Korea) (En) (Unl)</name>
     <image>./media/images/Champion Golf (Korea) (En) (Unl).png</image>
     <video>./media/videos/Champion Golf (Korea) (En) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Champion Ice Hockey (Japan).zip</path>
+    <path>./Champion Ice Hockey (Japan).zip</path>
     <name>Champion Ice Hockey (Japan)</name>
     <image>./media/images/Champion Ice Hockey (Japan).png</image>
     <video>./media/videos/Champion Ice Hockey (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Champion Ice Hockey (Korea) (En) (Unl).zip</path>
+    <path>./Champion Ice Hockey (Korea) (En) (Unl).zip</path>
     <name>Champion Ice Hockey (Korea) (En) (Unl)</name>
     <image>./media/images/Champion Ice Hockey (Korea) (En) (Unl).png</image>
     <video>./media/videos/Champion Ice Hockey (Korea) (En) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Champion Ice Hockey (Taiwan) (Unl).zip</path>
+    <path>./Champion Ice Hockey (Taiwan) (Unl).zip</path>
     <name>Champion Ice Hockey (Taiwan) (Unl)</name>
     <image>./media/images/Champion Ice Hockey (Taiwan) (Unl).png</image>
     <video>./media/videos/Champion Ice Hockey (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Champion Kendou (Japan).zip</path>
+    <path>./Champion Kendou (Japan).zip</path>
     <name>Champion Kendou (Japan)</name>
     <image>./media/images/Champion Kendou (Japan).png</image>
     <video>./media/videos/Champion Kendou (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Champion Kendou (Taiwan) (Unl).zip</path>
+    <path>./Champion Kendou (Taiwan) (Unl).zip</path>
     <name>Champion Kendou (Taiwan) (Unl)</name>
     <image>./media/images/Champion Kendou (Taiwan) (Unl).png</image>
     <video>./media/videos/Champion Kendou (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Champion Pro Wrestling (Japan).zip</path>
+    <path>./Champion Pro Wrestling (Japan).zip</path>
     <name>Champion Pro Wrestling (Japan)</name>
     <image>./media/images/Champion Pro Wrestling (Japan).png</image>
     <video>./media/videos/Champion Pro Wrestling (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Champion Soccer (Japan, Europe) (Ja).zip</path>
+    <path>./Champion Soccer (Japan, Europe) (Ja).zip</path>
     <name>Champion Soccer (Japan, Europe) (Ja)</name>
     <image>./media/images/Champion Soccer (Japan, Europe) (Ja).png</image>
     <video>./media/videos/Champion Soccer (Japan, Europe) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Champion Soccer (Taiwan) (Unl).zip</path>
+    <path>./Champion Soccer (Taiwan) (Unl).zip</path>
     <name>Champion Soccer (Taiwan) (Unl)</name>
     <image>./media/images/Champion Soccer (Taiwan) (Unl).png</image>
     <video>./media/videos/Champion Soccer (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Champion Tennis (Japan, Europe, Australia, New Zealand) (Ja).zip</path>
+    <path>./Champion Tennis (Japan, Europe, Australia, New Zealand) (Ja).zip</path>
     <name>Champion Tennis (Japan, Europe, Australia, New Zealand) (Ja)</name>
     <image>./media/images/Champion Tennis (Japan, Europe, Australia, New Zealand) (Ja).png</image>
     <video>./media/videos/Champion Tennis (Japan, Europe, Australia, New Zealand) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Championship Lode Runner (Japan, Australia) (Ja).zip</path>
+    <path>./Championship Lode Runner (Japan, Australia) (Ja).zip</path>
     <name>Championship Lode Runner (Japan, Australia) (Ja)</name>
     <image>./media/images/Championship Lode Runner (Japan, Australia) (Ja).png</image>
     <video>./media/videos/Championship Lode Runner (Japan, Australia) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Championship Lode Runner (Taiwan) (Unl).zip</path>
+    <path>./Championship Lode Runner (Taiwan) (Unl).zip</path>
     <name>Championship Lode Runner (Taiwan) (Unl)</name>
     <image>./media/images/Championship Lode Runner (Taiwan) (Unl).png</image>
     <video>./media/videos/Championship Lode Runner (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Cheril Perils Classic (World) (NTSC) (Aftermarket) (Unl).zip</path>
+    <path>./Cheril Perils Classic (World) (NTSC) (Aftermarket) (Unl).zip</path>
     <name>Cheril Perils Classic (World) (NTSC) (Aftermarket) (Unl)</name>
     <image>./media/images/Cheril Perils Classic (World) (NTSC) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Cheril Perils Classic (World) (NTSC) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Cheril Perils Classic (World) (PAL) (Aftermarket) (Unl).zip</path>
+    <path>./Cheril Perils Classic (World) (PAL) (Aftermarket) (Unl).zip</path>
     <name>Cheril Perils Classic (World) (PAL) (Aftermarket) (Unl)</name>
     <image>./media/images/Cheril Perils Classic (World) (PAL) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Cheril Perils Classic (World) (PAL) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Choplifter (Japan, Australia) (Ja) (Beta).zip</path>
+    <path>./Choplifter (Japan, Australia) (Ja) (Beta).zip</path>
     <name>Choplifter (Japan, Australia) (Ja) (Beta)</name>
     <image>./media/images/Choplifter (Japan, Australia) (Ja) (Beta).png</image>
     <video>./media/videos/Choplifter (Japan, Australia) (Ja) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Choplifter (Japan, Australia) (Ja).zip</path>
+    <path>./Choplifter (Japan, Australia) (Ja).zip</path>
     <name>Choplifter (Japan, Australia) (Ja)</name>
     <image>./media/images/Choplifter (Japan, Australia) (Ja).png</image>
     <video>./media/videos/Choplifter (Japan, Australia) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Choplifter (Korea) (En) (Unl).zip</path>
+    <path>./Choplifter (Korea) (En) (Unl).zip</path>
     <name>Choplifter (Korea) (En) (Unl)</name>
     <image>./media/images/Choplifter (Korea) (En) (Unl).png</image>
     <video>./media/videos/Choplifter (Korea) (En) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Choplifter (Taiwan) (Chinese Logo) (Unl).zip</path>
+    <path>./Choplifter (Taiwan) (Chinese Logo) (Unl).zip</path>
     <name>Choplifter (Taiwan) (Chinese Logo) (Unl)</name>
     <image>./media/images/Choplifter (Taiwan) (Chinese Logo) (Unl).png</image>
     <video>./media/videos/Choplifter (Taiwan) (Chinese Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Choplifter (Taiwan) (English Logo) (Unl).zip</path>
+    <path>./Choplifter (Taiwan) (English Logo) (Unl).zip</path>
     <name>Choplifter (Taiwan) (English Logo) (Unl)</name>
     <image>./media/images/Choplifter (Taiwan) (English Logo) (Unl).png</image>
     <video>./media/videos/Choplifter (Taiwan) (English Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Choplifter (Taiwan) (No Logo) (Unl).zip</path>
+    <path>./Choplifter (Taiwan) (No Logo) (Unl).zip</path>
     <name>Choplifter (Taiwan) (No Logo) (Unl)</name>
     <image>./media/images/Choplifter (Taiwan) (No Logo) (Unl).png</image>
     <video>./media/videos/Choplifter (Taiwan) (No Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Chuugaku Hisshuu Eibunpou - Chuugaku 1-Nen (Japan) (SC-3000) (Program).zip</path>
+    <path>./Chuugaku Hisshuu Eibunpou - Chuugaku 1-Nen (Japan) (SC-3000) (Program).zip</path>
     <name>Chuugaku Hisshuu Eibunpou - Chuugaku 1-Nen (Japan) (SC-3000) (Program)</name>
     <image>./media/images/Chuugaku Hisshuu Eibunpou - Chuugaku 1-Nen (Japan) (SC-3000) (Program).png</image>
     <video>./media/videos/Chuugaku Hisshuu Eibunpou - Chuugaku 1-Nen (Japan) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Chuugaku Hisshuu Eibunpou - Chuugaku 2-Nen (Japan) (SC-3000) (Program).zip</path>
+    <path>./Chuugaku Hisshuu Eibunpou - Chuugaku 2-Nen (Japan) (SC-3000) (Program).zip</path>
     <name>Chuugaku Hisshuu Eibunpou - Chuugaku 2-Nen (Japan) (SC-3000) (Program)</name>
     <image>./media/images/Chuugaku Hisshuu Eibunpou - Chuugaku 2-Nen (Japan) (SC-3000) (Program).png</image>
     <video>./media/videos/Chuugaku Hisshuu Eibunpou - Chuugaku 2-Nen (Japan) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Chuugaku Hisshuu Eisakubun - Chuugaku 1-Nen (Japan) (SC-3000) (Program) (Alt).zip</path>
+    <path>./Chuugaku Hisshuu Eisakubun - Chuugaku 1-Nen (Japan) (SC-3000) (Program) (Alt).zip</path>
     <name>Chuugaku Hisshuu Eisakubun - Chuugaku 1-Nen (Japan) (SC-3000) (Program) (Alt)</name>
     <image>./media/images/Chuugaku Hisshuu Eisakubun - Chuugaku 1-Nen (Japan) (SC-3000) (Program) (Alt).png</image>
     <video>./media/videos/Chuugaku Hisshuu Eisakubun - Chuugaku 1-Nen (Japan) (SC-3000) (Program) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Chuugaku Hisshuu Eisakubun - Chuugaku 1-Nen (Japan) (SC-3000) (Program).zip</path>
+    <path>./Chuugaku Hisshuu Eisakubun - Chuugaku 1-Nen (Japan) (SC-3000) (Program).zip</path>
     <name>Chuugaku Hisshuu Eisakubun - Chuugaku 1-Nen (Japan) (SC-3000) (Program)</name>
     <image>./media/images/Chuugaku Hisshuu Eisakubun - Chuugaku 1-Nen (Japan) (SC-3000) (Program).png</image>
     <video>./media/videos/Chuugaku Hisshuu Eisakubun - Chuugaku 1-Nen (Japan) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Chuugaku Hisshuu Eisakubun - Chuugaku 2-Nen (Japan) (SC-3000) (Program) (Alt).zip</path>
+    <path>./Chuugaku Hisshuu Eisakubun - Chuugaku 2-Nen (Japan) (SC-3000) (Program) (Alt).zip</path>
     <name>Chuugaku Hisshuu Eisakubun - Chuugaku 2-Nen (Japan) (SC-3000) (Program) (Alt)</name>
     <image>./media/images/Chuugaku Hisshuu Eisakubun - Chuugaku 2-Nen (Japan) (SC-3000) (Program) (Alt).png</image>
     <video>./media/videos/Chuugaku Hisshuu Eisakubun - Chuugaku 2-Nen (Japan) (SC-3000) (Program) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Chuugaku Hisshuu Eisakubun - Chuugaku 2-Nen (Japan) (SC-3000) (Program).zip</path>
+    <path>./Chuugaku Hisshuu Eisakubun - Chuugaku 2-Nen (Japan) (SC-3000) (Program).zip</path>
     <name>Chuugaku Hisshuu Eisakubun - Chuugaku 2-Nen (Japan) (SC-3000) (Program)</name>
     <image>./media/images/Chuugaku Hisshuu Eisakubun - Chuugaku 2-Nen (Japan) (SC-3000) (Program).png</image>
     <video>./media/videos/Chuugaku Hisshuu Eisakubun - Chuugaku 2-Nen (Japan) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Chuugaku Hisshuu Eitango - Chuugaku 1-Nen (Japan) (SC-3000) (Program).zip</path>
+    <path>./Chuugaku Hisshuu Eitango - Chuugaku 1-Nen (Japan) (SC-3000) (Program).zip</path>
     <name>Chuugaku Hisshuu Eitango - Chuugaku 1-Nen (Japan) (SC-3000) (Program)</name>
     <image>./media/images/Chuugaku Hisshuu Eitango - Chuugaku 1-Nen (Japan) (SC-3000) (Program).png</image>
     <video>./media/videos/Chuugaku Hisshuu Eitango - Chuugaku 1-Nen (Japan) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Chuugaku Hisshuu Eitango - Chuugaku 2-Nen (Japan) (SC-3000) (Program) (Alt).zip</path>
+    <path>./Chuugaku Hisshuu Eitango - Chuugaku 2-Nen (Japan) (SC-3000) (Program) (Alt).zip</path>
     <name>Chuugaku Hisshuu Eitango - Chuugaku 2-Nen (Japan) (SC-3000) (Program) (Alt)</name>
     <image>./media/images/Chuugaku Hisshuu Eitango - Chuugaku 2-Nen (Japan) (SC-3000) (Program) (Alt).png</image>
     <video>./media/videos/Chuugaku Hisshuu Eitango - Chuugaku 2-Nen (Japan) (SC-3000) (Program) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Chuugaku Hisshuu Eitango - Chuugaku 2-Nen (Japan) (SC-3000) (Program).zip</path>
+    <path>./Chuugaku Hisshuu Eitango - Chuugaku 2-Nen (Japan) (SC-3000) (Program).zip</path>
     <name>Chuugaku Hisshuu Eitango - Chuugaku 2-Nen (Japan) (SC-3000) (Program)</name>
     <image>./media/images/Chuugaku Hisshuu Eitango - Chuugaku 2-Nen (Japan) (SC-3000) (Program).png</image>
     <video>./media/videos/Chuugaku Hisshuu Eitango - Chuugaku 2-Nen (Japan) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Circus Charlie (Korea) (Unl).zip</path>
+    <path>./Circus Charlie (Korea) (Unl).zip</path>
     <name>Circus Charlie (Korea) (Unl)</name>
     <image>./media/images/Circus Charlie (Korea) (Unl).png</image>
     <video>./media/videos/Circus Charlie (Korea) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Circus Charlie (Taiwan) (Unl).zip</path>
+    <path>./Circus Charlie (Taiwan) (Unl).zip</path>
     <name>Circus Charlie (Taiwan) (Unl)</name>
     <image>./media/images/Circus Charlie (Taiwan) (Unl).png</image>
     <video>./media/videos/Circus Charlie (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Complete Arcade Pack Collection, The (New Zealand) (SF-7000).zip</path>
+    <path>./Complete Arcade Pack Collection, The (New Zealand) (SF-7000).zip</path>
     <name>Complete Arcade Pack Collection, The (New Zealand) (SF-7000)</name>
     <image>./media/images/Complete Arcade Pack Collection, The (New Zealand) (SF-7000).png</image>
     <video>./media/videos/Complete Arcade Pack Collection, The (New Zealand) (SF-7000).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Congo Bongo (Japan).zip</path>
+    <path>./Congo Bongo (Japan).zip</path>
     <name>Congo Bongo (Japan)</name>
     <image>./media/images/Congo Bongo (Japan).png</image>
     <video>./media/videos/Congo Bongo (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Congo Bongo (Japan, Europe) (Ja) (Rev 1) (Alt).zip</path>
+    <path>./Congo Bongo (Japan, Europe) (Ja) (Rev 1) (Alt).zip</path>
     <name>Congo Bongo (Japan, Europe) (Ja) (Rev 1) (Alt)</name>
     <image>./media/images/Congo Bongo (Japan, Europe) (Ja) (Rev 1) (Alt).png</image>
     <video>./media/videos/Congo Bongo (Japan, Europe) (Ja) (Rev 1) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Congo Bongo (Japan, Europe, Australia, New Zealand) (En) (Rev 1).zip</path>
+    <path>./Congo Bongo (Japan, Europe, Australia, New Zealand) (En) (Rev 1).zip</path>
     <name>Congo Bongo (Japan, Europe, Australia, New Zealand) (En) (Rev 1)</name>
     <image>./media/images/Congo Bongo (Japan, Europe, Australia, New Zealand) (En) (Rev 1).png</image>
     <video>./media/videos/Congo Bongo (Japan, Europe, Australia, New Zealand) (En) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Congo Bongo (Taiwan) (Unl).zip</path>
+    <path>./Congo Bongo (Taiwan) (Unl).zip</path>
     <name>Congo Bongo (Taiwan) (Unl)</name>
     <image>./media/images/Congo Bongo (Taiwan) (Unl).png</image>
     <video>./media/videos/Congo Bongo (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Disk BASIC &amp; Yeno Demo (Japan) (SF-7000) (Program).zip</path>
+    <path>./Disk BASIC &amp; Yeno Demo (Japan) (SF-7000) (Program).zip</path>
     <name>Disk BASIC &amp; Yeno Demo (Japan) (SF-7000) (Program)</name>
     <image>./media/images/Disk BASIC &amp; Yeno Demo (Japan) (SF-7000) (Program).png</image>
     <video>./media/videos/Disk BASIC &amp; Yeno Demo (Japan) (SF-7000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Disk BASIC (Japan) (Rev 1) (SF-7000) (Program).zip</path>
+    <path>./Disk BASIC (Japan) (Rev 1) (SF-7000) (Program).zip</path>
     <name>Disk BASIC (Japan) (Rev 1) (SF-7000) (Program)</name>
     <image>./media/images/Disk BASIC (Japan) (Rev 1) (SF-7000) (Program).png</image>
     <video>./media/videos/Disk BASIC (Japan) (Rev 1) (SF-7000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Disk BASIC (Japan) (SF-7000) (Program).zip</path>
+    <path>./Disk BASIC (Japan) (SF-7000) (Program).zip</path>
     <name>Disk BASIC (Japan) (SF-7000) (Program)</name>
     <image>./media/images/Disk BASIC (Japan) (SF-7000) (Program).png</image>
     <video>./media/videos/Disk BASIC (Japan) (SF-7000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Doki Doki Penguin Land (Japan).zip</path>
+    <path>./Doki Doki Penguin Land (Japan).zip</path>
     <name>Doki Doki Penguin Land (Japan)</name>
     <image>./media/images/Doki Doki Penguin Land (Japan).png</image>
     <video>./media/videos/Doki Doki Penguin Land (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Doki Doki Penguin Land (Taiwan) (Unl).zip</path>
+    <path>./Doki Doki Penguin Land (Taiwan) (Unl).zip</path>
     <name>Doki Doki Penguin Land (Taiwan) (Unl)</name>
     <image>./media/images/Doki Doki Penguin Land (Taiwan) (Unl).png</image>
     <video>./media/videos/Doki Doki Penguin Land (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Dragon Wang (Japan) (Rev 1).zip</path>
+    <path>./Dragon Wang (Japan) (Rev 1).zip</path>
     <name>Dragon Wang (Japan) (Rev 1)</name>
     <image>./media/images/Dragon Wang (Japan) (Rev 1).png</image>
     <video>./media/videos/Dragon Wang (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Dragon Wang (Japan).zip</path>
+    <path>./Dragon Wang (Japan).zip</path>
     <name>Dragon Wang (Japan)</name>
     <image>./media/images/Dragon Wang (Japan).png</image>
     <video>./media/videos/Dragon Wang (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Dragon Wang (Taiwan) (Chinese Logo) (Unl).zip</path>
+    <path>./Dragon Wang (Taiwan) (Chinese Logo) (Unl).zip</path>
     <name>Dragon Wang (Taiwan) (Chinese Logo) (Unl)</name>
     <image>./media/images/Dragon Wang (Taiwan) (Chinese Logo) (Unl).png</image>
     <video>./media/videos/Dragon Wang (Taiwan) (Chinese Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Dragon Wang (Taiwan) (English Logo) (Unl).zip</path>
+    <path>./Dragon Wang (Taiwan) (English Logo) (Unl).zip</path>
     <name>Dragon Wang (Taiwan) (English Logo) (Unl)</name>
     <image>./media/images/Dragon Wang (Taiwan) (English Logo) (Unl).png</image>
     <video>./media/videos/Dragon Wang (Taiwan) (English Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Drol (Japan, Australia) (Ja).zip</path>
+    <path>./Drol (Japan, Australia) (Ja).zip</path>
     <name>Drol (Japan, Australia) (Ja)</name>
     <image>./media/images/Drol (Japan, Australia) (Ja).png</image>
     <video>./media/videos/Drol (Japan, Australia) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Drol (Korea) (Unl).zip</path>
+    <path>./Drol (Korea) (Unl).zip</path>
     <name>Drol (Korea) (Unl)</name>
     <image>./media/images/Drol (Korea) (Unl).png</image>
     <video>./media/videos/Drol (Korea) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Drol (Taiwan) (Unl).zip</path>
+    <path>./Drol (Taiwan) (Unl).zip</path>
     <name>Drol (Taiwan) (Unl)</name>
     <image>./media/images/Drol (Taiwan) (Unl).png</image>
     <video>./media/videos/Drol (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Electronic Salesman (Japan) (Proto) (SC-3000) (Program).zip</path>
+    <path>./Electronic Salesman (Japan) (Proto) (SC-3000) (Program).zip</path>
     <name>Electronic Salesman (Japan) (Proto) (SC-3000) (Program)</name>
     <image>./media/images/Electronic Salesman (Japan) (Proto) (SC-3000) (Program).png</image>
     <video>./media/videos/Electronic Salesman (Japan) (Proto) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Elevator Action (Japan).zip</path>
+    <path>./Elevator Action (Japan).zip</path>
     <name>Elevator Action (Japan)</name>
     <image>./media/images/Elevator Action (Japan).png</image>
     <video>./media/videos/Elevator Action (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Elevator Action (Taiwan) (Unl).zip</path>
+    <path>./Elevator Action (Taiwan) (Unl).zip</path>
     <name>Elevator Action (Taiwan) (Unl)</name>
     <image>./media/images/Elevator Action (Taiwan) (Unl).png</image>
     <video>./media/videos/Elevator Action (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Exerion (Japan, Europe, Australia, New Zealand) (En).zip</path>
+    <path>./Exerion (Japan, Europe, Australia, New Zealand) (En).zip</path>
     <name>Exerion (Japan, Europe, Australia, New Zealand) (En)</name>
     <image>./media/images/Exerion (Japan, Europe, Australia, New Zealand) (En).png</image>
     <video>./media/videos/Exerion (Japan, Europe, Australia, New Zealand) (En).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Exerion (Korea) (Unl).zip</path>
+    <path>./Exerion (Korea) (Unl).zip</path>
     <name>Exerion (Korea) (Unl)</name>
     <image>./media/images/Exerion (Korea) (Unl).png</image>
     <video>./media/videos/Exerion (Korea) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Exerion (Taiwan) (Unl).zip</path>
+    <path>./Exerion (Taiwan) (Unl).zip</path>
     <name>Exerion (Taiwan) (Unl)</name>
     <image>./media/images/Exerion (Taiwan) (Unl).png</image>
     <video>./media/videos/Exerion (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Flicky (Japan) (Rev 1).zip</path>
+    <path>./Flicky (Japan) (Rev 1).zip</path>
     <name>Flicky (Japan) (Rev 1)</name>
     <image>./media/images/Flicky (Japan) (Rev 1).png</image>
     <video>./media/videos/Flicky (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Flicky (Japan, New Zealand) (Ja).zip</path>
+    <path>./Flicky (Japan, New Zealand) (Ja).zip</path>
     <name>Flicky (Japan, New Zealand) (Ja)</name>
     <image>./media/images/Flicky (Japan, New Zealand) (Ja).png</image>
     <video>./media/videos/Flicky (Japan, New Zealand) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Flicky (Taiwan) (Unl).zip</path>
+    <path>./Flicky (Taiwan) (Unl).zip</path>
     <name>Flicky (Taiwan) (Unl)</name>
     <image>./media/images/Flicky (Taiwan) (Unl).png</image>
     <video>./media/videos/Flicky (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/GP World (Japan) (Rev 1).zip</path>
+    <path>./GP World (Japan) (Rev 1).zip</path>
     <name>GP World (Japan) (Rev 1)</name>
     <image>./media/images/GP World (Japan) (Rev 1).png</image>
     <video>./media/videos/GP World (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/GP World (Japan).zip</path>
+    <path>./GP World (Japan).zip</path>
     <name>GP World (Japan)</name>
     <image>./media/images/GP World (Japan).png</image>
     <video>./media/videos/GP World (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/GP World (Taiwan) (Unl).zip</path>
+    <path>./GP World (Taiwan) (Unl).zip</path>
     <name>GP World (Taiwan) (Unl)</name>
     <image>./media/images/GP World (Taiwan) (Unl).png</image>
     <video>./media/videos/GP World (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Girl's Garden (Japan, Australia) (Ja).zip</path>
+    <path>./Girl's Garden (Japan, Australia) (Ja).zip</path>
     <name>Girl's Garden (Japan, Australia) (Ja)</name>
     <image>./media/images/Girl's Garden (Japan, Australia) (Ja).png</image>
     <video>./media/videos/Girl's Garden (Japan, Australia) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Girl's Garden (Taiwan) (Unl).zip</path>
+    <path>./Girl's Garden (Taiwan) (Unl).zip</path>
     <name>Girl's Garden (Taiwan) (Unl)</name>
     <image>./media/images/Girl's Garden (Taiwan) (Unl).png</image>
     <video>./media/videos/Girl's Garden (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Golgo 13 (Japan).zip</path>
+    <path>./Golgo 13 (Japan).zip</path>
     <name>Golgo 13 (Japan)</name>
     <image>./media/images/Golgo 13 (Japan).png</image>
     <video>./media/videos/Golgo 13 (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Gulkave (Japan).zip</path>
+    <path>./Gulkave (Japan).zip</path>
     <name>Gulkave (Japan)</name>
     <image>./media/images/Gulkave (Japan).png</image>
     <video>./media/videos/Gulkave (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Gulkave (Korea) (Unl).zip</path>
+    <path>./Gulkave (Korea) (Unl).zip</path>
     <name>Gulkave (Korea) (Unl)</name>
     <image>./media/images/Gulkave (Korea) (Unl).png</image>
     <video>./media/videos/Gulkave (Korea) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Guzzler (Japan) (Othello Multivision).zip</path>
+    <path>./Guzzler (Japan) (Othello Multivision).zip</path>
     <name>Guzzler (Japan) (Othello Multivision)</name>
     <image>./media/images/Guzzler (Japan) (Othello Multivision).png</image>
     <video>./media/videos/Guzzler (Japan) (Othello Multivision).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Guzzler (Taiwan) (Othello Multivision) (Unl).zip</path>
+    <path>./Guzzler (Taiwan) (Othello Multivision) (Unl).zip</path>
     <name>Guzzler (Taiwan) (Othello Multivision) (Unl)</name>
     <image>./media/images/Guzzler (Taiwan) (Othello Multivision) (Unl).png</image>
     <video>./media/videos/Guzzler (Taiwan) (Othello Multivision) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/H.E.R.O. (Japan).zip</path>
+    <path>./H.E.R.O. (Japan).zip</path>
     <name>H.E.R.O. (Japan)</name>
     <image>./media/images/H.E.R.O. (Japan).png</image>
     <video>./media/videos/H.E.R.O. (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/H.E.R.O. (Taiwan) (Chinese Logo) (Unl).zip</path>
+    <path>./H.E.R.O. (Taiwan) (Chinese Logo) (Unl).zip</path>
     <name>H.E.R.O. (Taiwan) (Chinese Logo) (Unl)</name>
     <image>./media/images/H.E.R.O. (Taiwan) (Chinese Logo) (Unl).png</image>
     <video>./media/videos/H.E.R.O. (Taiwan) (Chinese Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/H.E.R.O. (Taiwan) (English Logo) (Unl).zip</path>
+    <path>./H.E.R.O. (Taiwan) (English Logo) (Unl).zip</path>
     <name>H.E.R.O. (Taiwan) (English Logo) (Unl)</name>
     <image>./media/images/H.E.R.O. (Taiwan) (English Logo) (Unl).png</image>
     <video>./media/videos/H.E.R.O. (Taiwan) (English Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Hang On II (Japan, Australia) (Ja).zip</path>
+    <path>./Hang On II (Japan, Australia) (Ja).zip</path>
     <name>Hang On II (Japan, Australia) (Ja)</name>
     <image>./media/images/Hang On II (Japan, Australia) (Ja).png</image>
     <video>./media/videos/Hang On II (Japan, Australia) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Hang On II (Taiwan) (Chinese Logo) (Unl).zip</path>
+    <path>./Hang On II (Taiwan) (Chinese Logo) (Unl).zip</path>
     <name>Hang On II (Taiwan) (Chinese Logo) (Unl)</name>
     <image>./media/images/Hang On II (Taiwan) (Chinese Logo) (Unl).png</image>
     <video>./media/videos/Hang On II (Taiwan) (Chinese Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Hang On II (Taiwan) (English Logo) (Unl).zip</path>
+    <path>./Hang On II (Taiwan) (English Logo) (Unl).zip</path>
     <name>Hang On II (Taiwan) (English Logo) (Unl)</name>
     <image>./media/images/Hang On II (Taiwan) (English Logo) (Unl).png</image>
     <video>./media/videos/Hang On II (Taiwan) (English Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Home BASIC (Japan) (SC-3000) (Program).zip</path>
+    <path>./Home BASIC (Japan) (SC-3000) (Program).zip</path>
     <name>Home BASIC (Japan) (SC-3000) (Program)</name>
     <image>./media/images/Home BASIC (Japan) (SC-3000) (Program).png</image>
     <video>./media/videos/Home BASIC (Japan) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Home Mahjong (Japan) (Rev 1).zip</path>
+    <path>./Home Mahjong (Japan) (Rev 1).zip</path>
     <name>Home Mahjong (Japan) (Rev 1)</name>
     <image>./media/images/Home Mahjong (Japan) (Rev 1).png</image>
     <video>./media/videos/Home Mahjong (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Home Mahjong (Japan).zip</path>
+    <path>./Home Mahjong (Japan).zip</path>
     <name>Home Mahjong (Japan)</name>
     <image>./media/images/Home Mahjong (Japan).png</image>
     <video>./media/videos/Home Mahjong (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Home Mahjong (Taiwan) (Unl).zip</path>
+    <path>./Home Mahjong (Taiwan) (Unl).zip</path>
     <name>Home Mahjong (Taiwan) (Unl)</name>
     <image>./media/images/Home Mahjong (Taiwan) (Unl).png</image>
     <video>./media/videos/Home Mahjong (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Hustle Chumy (Japan).zip</path>
+    <path>./Hustle Chumy (Japan).zip</path>
     <name>Hustle Chumy (Japan)</name>
     <image>./media/images/Hustle Chumy (Japan).png</image>
     <video>./media/videos/Hustle Chumy (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Hustle Chumy (Taiwan) (Unl).zip</path>
+    <path>./Hustle Chumy (Taiwan) (Unl).zip</path>
     <name>Hustle Chumy (Taiwan) (Unl)</name>
     <image>./media/images/Hustle Chumy (Taiwan) (Unl).png</image>
     <video>./media/videos/Hustle Chumy (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Hyper Sports (Japan).zip</path>
+    <path>./Hyper Sports (Japan).zip</path>
     <name>Hyper Sports (Japan)</name>
     <image>./media/images/Hyper Sports (Japan).png</image>
     <video>./media/videos/Hyper Sports (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Hyper Sports (Korea) (Unl).zip</path>
+    <path>./Hyper Sports (Korea) (Unl).zip</path>
     <name>Hyper Sports (Korea) (Unl)</name>
     <image>./media/images/Hyper Sports (Korea) (Unl).png</image>
     <video>./media/videos/Hyper Sports (Korea) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Hyper Sports (Taiwan) (Unl).zip</path>
+    <path>./Hyper Sports (Taiwan) (Unl).zip</path>
     <name>Hyper Sports (Taiwan) (Unl)</name>
     <image>./media/images/Hyper Sports (Taiwan) (Unl).png</image>
     <video>./media/videos/Hyper Sports (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Hyper Sports 2 (Taiwan) (Unl).zip</path>
+    <path>./Hyper Sports 2 (Taiwan) (Unl).zip</path>
     <name>Hyper Sports 2 (Taiwan) (Unl)</name>
     <image>./media/images/Hyper Sports 2 (Taiwan) (Unl).png</image>
     <video>./media/videos/Hyper Sports 2 (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/I.Q. (Korea) (Unl).zip</path>
+    <path>./I.Q. (Korea) (Unl).zip</path>
     <name>I.Q. (Korea) (Unl)</name>
     <image>./media/images/I.Q. (Korea) (Unl).png</image>
     <video>./media/videos/I.Q. (Korea) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Kagaku (Gensokigou Master) (Japan) (SC-3000) (Program).zip</path>
+    <path>./Kagaku (Gensokigou Master) (Japan) (SC-3000) (Program).zip</path>
     <name>Kagaku (Gensokigou Master) (Japan) (SC-3000) (Program)</name>
     <image>./media/images/Kagaku (Gensokigou Master) (Japan) (SC-3000) (Program).png</image>
     <video>./media/videos/Kagaku (Gensokigou Master) (Japan) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Kamikaze (France) (En) (SF-7000) (Unl).zip</path>
+    <path>./Kamikaze (France) (En) (SF-7000) (Unl).zip</path>
     <name>Kamikaze (France) (En) (SF-7000) (Unl)</name>
     <image>./media/images/Kamikaze (France) (En) (SF-7000) (Unl).png</image>
     <video>./media/videos/Kamikaze (France) (En) (SF-7000) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/King's Valley (Taiwan) (Unl).zip</path>
+    <path>./King's Valley (Taiwan) (Unl).zip</path>
     <name>King's Valley (Taiwan) (Unl)</name>
     <image>./media/images/King's Valley (Taiwan) (Unl).png</image>
     <video>./media/videos/King's Valley (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Knightmare (Taiwan) (Unl).zip</path>
+    <path>./Knightmare (Taiwan) (Unl).zip</path>
     <name>Knightmare (Taiwan) (Unl)</name>
     <image>./media/images/Knightmare (Taiwan) (Unl).png</image>
     <video>./media/videos/Knightmare (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Legend of Kage, The (Taiwan) (Unl).zip</path>
+    <path>./Legend of Kage, The (Taiwan) (Unl).zip</path>
     <name>Legend of Kage, The (Taiwan) (Unl)</name>
     <image>./media/images/Legend of Kage, The (Taiwan) (Unl).png</image>
     <video>./media/videos/Legend of Kage, The (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/LinkWord (Japan) (Proto) (SC3000) (Program).zip</path>
+    <path>./LinkWord (Japan) (Proto) (SC3000) (Program).zip</path>
     <name>LinkWord (Japan) (Proto) (SC3000) (Program)</name>
     <image>./media/images/LinkWord (Japan) (Proto) (SC3000) (Program).png</image>
     <video>./media/videos/LinkWord (Japan) (Proto) (SC3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Lode Runner (Japan, Europe, Australia) (En).zip</path>
+    <path>./Lode Runner (Japan, Europe, Australia) (En).zip</path>
     <name>Lode Runner (Japan, Europe, Australia) (En)</name>
     <image>./media/images/Lode Runner (Japan, Europe, Australia) (En).png</image>
     <video>./media/videos/Lode Runner (Japan, Europe, Australia) (En).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Lode Runner (Korea) (Unl).zip</path>
+    <path>./Lode Runner (Korea) (Unl).zip</path>
     <name>Lode Runner (Korea) (Unl)</name>
     <image>./media/images/Lode Runner (Korea) (Unl).png</image>
     <video>./media/videos/Lode Runner (Korea) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Lode Runner (Taiwan) (Unl).zip</path>
+    <path>./Lode Runner (Taiwan) (Unl).zip</path>
     <name>Lode Runner (Taiwan) (Unl)</name>
     <image>./media/images/Lode Runner (Taiwan) (Unl).png</image>
     <video>./media/videos/Lode Runner (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Magical Kid Wiz (Taiwan) (Unl).zip</path>
+    <path>./Magical Kid Wiz (Taiwan) (Unl).zip</path>
     <name>Magical Kid Wiz (Taiwan) (Unl)</name>
     <image>./media/images/Magical Kid Wiz (Taiwan) (Unl).png</image>
     <video>./media/videos/Magical Kid Wiz (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Magical Tree (Taiwan) (Unl).zip</path>
+    <path>./Magical Tree (Taiwan) (Unl).zip</path>
     <name>Magical Tree (Taiwan) (Unl)</name>
     <image>./media/images/Magical Tree (Taiwan) (Unl).png</image>
     <video>./media/videos/Magical Tree (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Mahjong (Japan) (Rev 1).zip</path>
+    <path>./Mahjong (Japan) (Rev 1).zip</path>
     <name>Mahjong (Japan) (Rev 1)</name>
     <image>./media/images/Mahjong (Japan) (Rev 1).png</image>
     <video>./media/videos/Mahjong (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Mahjong (Japan).zip</path>
+    <path>./Mahjong (Japan).zip</path>
     <name>Mahjong (Japan)</name>
     <image>./media/images/Mahjong (Japan).png</image>
     <video>./media/videos/Mahjong (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Mahjong (Taiwan) (Unl).zip</path>
+    <path>./Mahjong (Taiwan) (Unl).zip</path>
     <name>Mahjong (Taiwan) (Unl)</name>
     <image>./media/images/Mahjong (Taiwan) (Unl).png</image>
     <video>./media/videos/Mahjong (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Monaco GP (Japan) (Rev 1).zip</path>
+    <path>./Monaco GP (Japan) (Rev 1).zip</path>
     <name>Monaco GP (Japan) (Rev 1)</name>
     <image>./media/images/Monaco GP (Japan) (Rev 1).png</image>
     <video>./media/videos/Monaco GP (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Monaco GP (Japan, Europe) (Ja) (Rev 2).zip</path>
+    <path>./Monaco GP (Japan, Europe) (Ja) (Rev 2).zip</path>
     <name>Monaco GP (Japan, Europe) (Ja) (Rev 2)</name>
     <image>./media/images/Monaco GP (Japan, Europe) (Ja) (Rev 2).png</image>
     <video>./media/videos/Monaco GP (Japan, Europe) (Ja) (Rev 2).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Monaco GP (Japan, Europe, Australia, New Zealand) (Ja).zip</path>
+    <path>./Monaco GP (Japan, Europe, Australia, New Zealand) (Ja).zip</path>
     <name>Monaco GP (Japan, Europe, Australia, New Zealand) (Ja)</name>
     <image>./media/images/Monaco GP (Japan, Europe, Australia, New Zealand) (Ja).png</image>
     <video>./media/videos/Monaco GP (Japan, Europe, Australia, New Zealand) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Monaco GP (Taiwan) (Unl).zip</path>
+    <path>./Monaco GP (Taiwan) (Unl).zip</path>
     <name>Monaco GP (Taiwan) (Unl)</name>
     <image>./media/images/Monaco GP (Taiwan) (Unl).png</image>
     <video>./media/videos/Monaco GP (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Music Editor (Europe, Australia, New Zealand) (SC-3000) (Program).zip</path>
+    <path>./Music Editor (Europe, Australia, New Zealand) (SC-3000) (Program).zip</path>
     <name>Music Editor (Europe, Australia, New Zealand) (SC-3000) (Program)</name>
     <image>./media/images/Music Editor (Europe, Australia, New Zealand) (SC-3000) (Program).png</image>
     <video>./media/videos/Music Editor (Europe, Australia, New Zealand) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Music Editor (Japan) (SC-3000) (Program).zip</path>
+    <path>./Music Editor (Japan) (SC-3000) (Program).zip</path>
     <name>Music Editor (Japan) (SC-3000) (Program)</name>
     <image>./media/images/Music Editor (Japan) (SC-3000) (Program).png</image>
     <video>./media/videos/Music Editor (Japan) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/N-Sub (Japan) (Alt).zip</path>
+    <path>./N-Sub (Japan) (Alt).zip</path>
     <name>N-Sub (Japan) (Alt)</name>
     <image>./media/images/N-Sub (Japan) (Alt).png</image>
     <video>./media/videos/N-Sub (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/N-Sub (Japan, Europe, Australia, New Zealand) (Ja).zip</path>
+    <path>./N-Sub (Japan, Europe, Australia, New Zealand) (Ja).zip</path>
     <name>N-Sub (Japan, Europe, Australia, New Zealand) (Ja)</name>
     <image>./media/images/N-Sub (Japan, Europe, Australia, New Zealand) (Ja).png</image>
     <video>./media/videos/N-Sub (Japan, Europe, Australia, New Zealand) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/N-Sub (Taiwan) (Unl).zip</path>
+    <path>./N-Sub (Taiwan) (Unl).zip</path>
     <name>N-Sub (Taiwan) (Unl)</name>
     <image>./media/images/N-Sub (Taiwan) (Unl).png</image>
     <video>./media/videos/N-Sub (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Nihonshi Nenpyou (Japan) (SC-3000) (Program).zip</path>
+    <path>./Nihonshi Nenpyou (Japan) (SC-3000) (Program).zip</path>
     <name>Nihonshi Nenpyou (Japan) (SC-3000) (Program)</name>
     <image>./media/images/Nihonshi Nenpyou (Japan) (SC-3000) (Program).png</image>
     <video>./media/videos/Nihonshi Nenpyou (Japan) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Ninja Princess (Japan, Australia) (Ja).zip</path>
+    <path>./Ninja Princess (Japan, Australia) (Ja).zip</path>
     <name>Ninja Princess (Japan, Australia) (Ja)</name>
     <image>./media/images/Ninja Princess (Japan, Australia) (Ja).png</image>
     <video>./media/videos/Ninja Princess (Japan, Australia) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Ninja Princess (Taiwan) (Unl).zip</path>
+    <path>./Ninja Princess (Taiwan) (Unl).zip</path>
     <name>Ninja Princess (Taiwan) (Unl)</name>
     <image>./media/images/Ninja Princess (Taiwan) (Unl).png</image>
     <video>./media/videos/Ninja Princess (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Okamoto Ayako no Match Play Golf (Japan) (Othello Multivision).zip</path>
+    <path>./Okamoto Ayako no Match Play Golf (Japan) (Othello Multivision).zip</path>
     <name>Okamoto Ayako no Match Play Golf (Japan) (Othello Multivision)</name>
     <image>./media/images/Okamoto Ayako no Match Play Golf (Japan) (Othello Multivision).png</image>
     <video>./media/videos/Okamoto Ayako no Match Play Golf (Japan) (Othello Multivision).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Okamoto Ayako no Match Play Golf (Japan) (Rev 1) (Othello Multivision).zip</path>
+    <path>./Okamoto Ayako no Match Play Golf (Japan) (Rev 1) (Othello Multivision).zip</path>
     <name>Okamoto Ayako no Match Play Golf (Japan) (Rev 1) (Othello Multivision)</name>
     <image>./media/images/Okamoto Ayako no Match Play Golf (Japan) (Rev 1) (Othello Multivision).png</image>
     <video>./media/videos/Okamoto Ayako no Match Play Golf (Japan) (Rev 1) (Othello Multivision).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Okamoto Ayako no Match Play Golf (Taiwan) (Othello Multivision) (Unl).zip</path>
+    <path>./Okamoto Ayako no Match Play Golf (Taiwan) (Othello Multivision) (Unl).zip</path>
     <name>Okamoto Ayako no Match Play Golf (Taiwan) (Othello Multivision) (Unl)</name>
     <image>./media/images/Okamoto Ayako no Match Play Golf (Taiwan) (Othello Multivision) (Unl).png</image>
     <video>./media/videos/Okamoto Ayako no Match Play Golf (Taiwan) (Othello Multivision) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Orguss (Japan, Europe, Australia, New Zealand) (En).zip</path>
+    <path>./Orguss (Japan, Europe, Australia, New Zealand) (En).zip</path>
     <name>Orguss (Japan, Europe, Australia, New Zealand) (En)</name>
     <image>./media/images/Orguss (Japan, Europe, Australia, New Zealand) (En).png</image>
     <video>./media/videos/Orguss (Japan, Europe, Australia, New Zealand) (En).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Othello (Japan).zip</path>
+    <path>./Othello (Japan).zip</path>
     <name>Othello (Japan)</name>
     <image>./media/images/Othello (Japan).png</image>
     <video>./media/videos/Othello (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Othello (Taiwan) (Unl).zip</path>
+    <path>./Othello (Taiwan) (Unl).zip</path>
     <name>Othello (Taiwan) (Unl)</name>
     <image>./media/images/Othello (Taiwan) (Unl).png</image>
     <video>./media/videos/Othello (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Pacar (Japan) (Alt).zip</path>
+    <path>./Pacar (Japan) (Alt).zip</path>
     <name>Pacar (Japan) (Alt)</name>
     <image>./media/images/Pacar (Japan) (Alt).png</image>
     <video>./media/videos/Pacar (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Pacar (Japan, Europe, Australia, New Zealand) (En).zip</path>
+    <path>./Pacar (Japan, Europe, Australia, New Zealand) (En).zip</path>
     <name>Pacar (Japan, Europe, Australia, New Zealand) (En)</name>
     <image>./media/images/Pacar (Japan, Europe, Australia, New Zealand) (En).png</image>
     <video>./media/videos/Pacar (Japan, Europe, Australia, New Zealand) (En).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Pacar (Taiwan) (Unl).zip</path>
+    <path>./Pacar (Taiwan) (Unl).zip</path>
     <name>Pacar (Taiwan) (Unl)</name>
     <image>./media/images/Pacar (Taiwan) (Unl).png</image>
     <video>./media/videos/Pacar (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Pachinko (Japan).zip</path>
+    <path>./Pachinko (Japan).zip</path>
     <name>Pachinko (Japan)</name>
     <image>./media/images/Pachinko (Japan).png</image>
     <video>./media/videos/Pachinko (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Pachinko II (Japan).zip</path>
+    <path>./Pachinko II (Japan).zip</path>
     <name>Pachinko II (Japan)</name>
     <image>./media/images/Pachinko II (Japan).png</image>
     <video>./media/videos/Pachinko II (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Pachinko II (Taiwan) (Unl).zip</path>
+    <path>./Pachinko II (Taiwan) (Unl).zip</path>
     <name>Pachinko II (Taiwan) (Unl)</name>
     <image>./media/images/Pachinko II (Taiwan) (Unl).png</image>
     <video>./media/videos/Pachinko II (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Ping Pong (Taiwan) (Unl).zip</path>
+    <path>./Ping Pong (Taiwan) (Unl).zip</path>
     <name>Ping Pong (Taiwan) (Unl)</name>
     <image>./media/images/Ping Pong (Taiwan) (Unl).png</image>
     <video>./media/videos/Ping Pong (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Pippols (Taiwan) (Unl).zip</path>
+    <path>./Pippols (Taiwan) (Unl).zip</path>
     <name>Pippols (Taiwan) (Unl)</name>
     <image>./media/images/Pippols (Taiwan) (Unl).png</image>
     <video>./media/videos/Pippols (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Pitfall II (Taiwan) (Chinese Logo) (Unl).zip</path>
+    <path>./Pitfall II (Taiwan) (Chinese Logo) (Unl).zip</path>
     <name>Pitfall II (Taiwan) (Chinese Logo) (Unl)</name>
     <image>./media/images/Pitfall II (Taiwan) (Chinese Logo) (Unl).png</image>
     <video>./media/videos/Pitfall II (Taiwan) (Chinese Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Pitfall II (Taiwan) (English Logo) (Unl).zip</path>
+    <path>./Pitfall II (Taiwan) (English Logo) (Unl).zip</path>
     <name>Pitfall II (Taiwan) (English Logo) (Unl)</name>
     <image>./media/images/Pitfall II (Taiwan) (English Logo) (Unl).png</image>
     <video>./media/videos/Pitfall II (Taiwan) (English Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Pitfall II - The Lost Caverns (Japan) (Rev 1).zip</path>
+    <path>./Pitfall II - The Lost Caverns (Japan) (Rev 1).zip</path>
     <name>Pitfall II - The Lost Caverns (Japan) (Rev 1)</name>
     <image>./media/images/Pitfall II - The Lost Caverns (Japan) (Rev 1).png</image>
     <video>./media/videos/Pitfall II - The Lost Caverns (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Pitfall II - The Lost Caverns (Japan).zip</path>
+    <path>./Pitfall II - The Lost Caverns (Japan).zip</path>
     <name>Pitfall II - The Lost Caverns (Japan)</name>
     <image>./media/images/Pitfall II - The Lost Caverns (Japan).png</image>
     <video>./media/videos/Pitfall II - The Lost Caverns (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Pop Flamer (Japan, Europe, Australia, New Zealand) (En).zip</path>
+    <path>./Pop Flamer (Japan, Europe, Australia, New Zealand) (En).zip</path>
     <name>Pop Flamer (Japan, Europe, Australia, New Zealand) (En)</name>
     <image>./media/images/Pop Flamer (Japan, Europe, Australia, New Zealand) (En).png</image>
     <video>./media/videos/Pop Flamer (Japan, Europe, Australia, New Zealand) (En).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Pop Flamer (Taiwan) (Unl).zip</path>
+    <path>./Pop Flamer (Taiwan) (Unl).zip</path>
     <name>Pop Flamer (Taiwan) (Unl)</name>
     <image>./media/images/Pop Flamer (Taiwan) (Unl).png</image>
     <video>./media/videos/Pop Flamer (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Poseidon Wars + Space Panic + Rambo (France) (En) (SF-7000) (Unl).zip</path>
+    <path>./Poseidon Wars + Space Panic + Rambo (France) (En) (SF-7000) (Unl).zip</path>
     <name>Poseidon Wars + Space Panic + Rambo (France) (En) (SF-7000) (Unl)</name>
     <image>./media/images/Poseidon Wars + Space Panic + Rambo (France) (En) (SF-7000) (Unl).png</image>
     <video>./media/videos/Poseidon Wars + Space Panic + Rambo (France) (En) (SF-7000) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Q-bert (Japan) (Othello Multivision).zip</path>
+    <path>./Q-bert (Japan) (Othello Multivision).zip</path>
     <name>Q-bert (Japan) (Othello Multivision)</name>
     <image>./media/images/Q-bert (Japan) (Othello Multivision).png</image>
     <video>./media/videos/Q-bert (Japan) (Othello Multivision).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Rally-X (Taiwan) (Chinese Logo) (Unl).zip</path>
+    <path>./Rally-X (Taiwan) (Chinese Logo) (Unl).zip</path>
     <name>Rally-X (Taiwan) (Chinese Logo) (Unl)</name>
     <image>./media/images/Rally-X (Taiwan) (Chinese Logo) (Unl).png</image>
     <video>./media/videos/Rally-X (Taiwan) (Chinese Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Rally-X (Taiwan) (English Logo) (Unl).zip</path>
+    <path>./Rally-X (Taiwan) (English Logo) (Unl).zip</path>
     <name>Rally-X (Taiwan) (English Logo) (Unl)</name>
     <image>./media/images/Rally-X (Taiwan) (English Logo) (Unl).png</image>
     <video>./media/videos/Rally-X (Taiwan) (English Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Road Fighter (Taiwan) (Chinese Logo) (Unl).zip</path>
+    <path>./Road Fighter (Taiwan) (Chinese Logo) (Unl).zip</path>
     <name>Road Fighter (Taiwan) (Chinese Logo) (Unl)</name>
     <image>./media/images/Road Fighter (Taiwan) (Chinese Logo) (Unl).png</image>
     <video>./media/videos/Road Fighter (Taiwan) (Chinese Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Road Fighter (Taiwan) (English Logo) (Unl).zip</path>
+    <path>./Road Fighter (Taiwan) (English Logo) (Unl).zip</path>
     <name>Road Fighter (Taiwan) (English Logo) (Unl)</name>
     <image>./media/images/Road Fighter (Taiwan) (English Logo) (Unl).png</image>
     <video>./media/videos/Road Fighter (Taiwan) (English Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Rock n' Bolt (Japan).zip</path>
+    <path>./Rock n' Bolt (Japan).zip</path>
     <name>Rock n' Bolt (Japan)</name>
     <image>./media/images/Rock n' Bolt (Japan).png</image>
     <video>./media/videos/Rock n' Bolt (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Rock n' Bolt (Taiwan) (Chinese Logo) (Unl).zip</path>
+    <path>./Rock n' Bolt (Taiwan) (Chinese Logo) (Unl).zip</path>
     <name>Rock n' Bolt (Taiwan) (Chinese Logo) (Unl)</name>
     <image>./media/images/Rock n' Bolt (Taiwan) (Chinese Logo) (Unl).png</image>
     <video>./media/videos/Rock n' Bolt (Taiwan) (Chinese Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Rock n' Bolt (Taiwan) (English Logo) (Unl).zip</path>
+    <path>./Rock n' Bolt (Taiwan) (English Logo) (Unl).zip</path>
     <name>Rock n' Bolt (Taiwan) (English Logo) (Unl)</name>
     <image>./media/images/Rock n' Bolt (Taiwan) (English Logo) (Unl).png</image>
     <video>./media/videos/Rock n' Bolt (Taiwan) (English Logo) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/SG-1000 M2 Test Cartridge (Japan).zip</path>
+    <path>./SG-1000 M2 Test Cartridge (Japan).zip</path>
     <name>SG-1000 M2 Test Cartridge (Japan)</name>
     <image>./media/images/SG-1000 M2 Test Cartridge (Japan).png</image>
     <video>./media/videos/SG-1000 M2 Test Cartridge (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Safari Hunting (Japan, Europe, Australia, New Zealand) (Ja).zip</path>
+    <path>./Safari Hunting (Japan, Europe, Australia, New Zealand) (Ja).zip</path>
     <name>Safari Hunting (Japan, Europe, Australia, New Zealand) (Ja)</name>
     <image>./media/images/Safari Hunting (Japan, Europe, Australia, New Zealand) (Ja).png</image>
     <video>./media/videos/Safari Hunting (Japan, Europe, Australia, New Zealand) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Safari Hunting (Taiwan) (Unl).zip</path>
+    <path>./Safari Hunting (Taiwan) (Unl).zip</path>
     <name>Safari Hunting (Taiwan) (Unl)</name>
     <image>./media/images/Safari Hunting (Taiwan) (Unl).png</image>
     <video>./media/videos/Safari Hunting (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Safari Race (Japan, Europe, Australia, New Zealand) (Ja).zip</path>
+    <path>./Safari Race (Japan, Europe, Australia, New Zealand) (Ja).zip</path>
     <name>Safari Race (Japan, Europe, Australia, New Zealand) (Ja)</name>
     <image>./media/images/Safari Race (Japan, Europe, Australia, New Zealand) (Ja).png</image>
     <video>./media/videos/Safari Race (Japan, Europe, Australia, New Zealand) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Safari Race (Taiwan) (Unl).zip</path>
+    <path>./Safari Race (Taiwan) (Unl).zip</path>
     <name>Safari Race (Taiwan) (Unl)</name>
     <image>./media/images/Safari Race (Taiwan) (Unl).png</image>
     <video>./media/videos/Safari Race (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/San-nin Mahjong (Japan) (Othello Multivision) (Alt).zip</path>
+    <path>./San-nin Mahjong (Japan) (Othello Multivision) (Alt).zip</path>
     <name>San-nin Mahjong (Japan) (Othello Multivision) (Alt)</name>
     <image>./media/images/San-nin Mahjong (Japan) (Othello Multivision) (Alt).png</image>
     <video>./media/videos/San-nin Mahjong (Japan) (Othello Multivision) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/San-nin Mahjong (Japan) (Othello Multivision).zip</path>
+    <path>./San-nin Mahjong (Japan) (Othello Multivision).zip</path>
     <name>San-nin Mahjong (Japan) (Othello Multivision)</name>
     <image>./media/images/San-nin Mahjong (Japan) (Othello Multivision).png</image>
     <video>./media/videos/San-nin Mahjong (Japan) (Othello Multivision).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/San-nin Mahjong (Taiwan) (Othello Multivision) (Unl).zip</path>
+    <path>./San-nin Mahjong (Taiwan) (Othello Multivision) (Unl).zip</path>
     <name>San-nin Mahjong (Taiwan) (Othello Multivision) (Unl)</name>
     <image>./media/images/San-nin Mahjong (Taiwan) (Othello Multivision) (Unl).png</image>
     <video>./media/videos/San-nin Mahjong (Taiwan) (Othello Multivision) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Sega Flipper (Japan) (Alt).zip</path>
+    <path>./Sega Flipper (Japan) (Alt).zip</path>
     <name>Sega Flipper (Japan) (Alt)</name>
     <image>./media/images/Sega Flipper (Japan) (Alt).png</image>
     <video>./media/videos/Sega Flipper (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Sega Flipper (Japan, Europe, Australia, New Zealand) (En).zip</path>
+    <path>./Sega Flipper (Japan, Europe, Australia, New Zealand) (En).zip</path>
     <name>Sega Flipper (Japan, Europe, Australia, New Zealand) (En)</name>
     <image>./media/images/Sega Flipper (Japan, Europe, Australia, New Zealand) (En).png</image>
     <video>./media/videos/Sega Flipper (Japan, Europe, Australia, New Zealand) (En).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Sega Flipper (Taiwan) (Unl).zip</path>
+    <path>./Sega Flipper (Taiwan) (Unl).zip</path>
     <name>Sega Flipper (Taiwan) (Unl)</name>
     <image>./media/images/Sega Flipper (Taiwan) (Unl).png</image>
     <video>./media/videos/Sega Flipper (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Sega Logo (Japan) (SF-7000) (Program).zip</path>
+    <path>./Sega Logo (Japan) (SF-7000) (Program).zip</path>
     <name>Sega Logo (Japan) (SF-7000) (Program)</name>
     <image>./media/images/Sega Logo (Japan) (SF-7000) (Program).png</image>
     <video>./media/videos/Sega Logo (Japan) (SF-7000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Sega-Galaga (Japan).zip</path>
+    <path>./Sega-Galaga (Japan).zip</path>
     <name>Sega-Galaga (Japan)</name>
     <image>./media/images/Sega-Galaga (Japan).png</image>
     <video>./media/videos/Sega-Galaga (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Sega-Galaga (Japan, Australia) (Ja).zip</path>
+    <path>./Sega-Galaga (Japan, Australia) (Ja).zip</path>
     <name>Sega-Galaga (Japan, Australia) (Ja)</name>
     <image>./media/images/Sega-Galaga (Japan, Australia) (Ja).png</image>
     <video>./media/videos/Sega-Galaga (Japan, Australia) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Sega-Galaga (Taiwan) (Unl).zip</path>
+    <path>./Sega-Galaga (Taiwan) (Unl).zip</path>
     <name>Sega-Galaga (Taiwan) (Unl)</name>
     <image>./media/images/Sega-Galaga (Taiwan) (Unl).png</image>
     <video>./media/videos/Sega-Galaga (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Sekaishi Nenpyou (Japan) (SC-3000) (Program).zip</path>
+    <path>./Sekaishi Nenpyou (Japan) (SC-3000) (Program).zip</path>
     <name>Sekaishi Nenpyou (Japan) (SC-3000) (Program)</name>
     <image>./media/images/Sekaishi Nenpyou (Japan) (SC-3000) (Program).png</image>
     <video>./media/videos/Sekaishi Nenpyou (Japan) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Serizawa Hachidan no Tsumeshougi (Japan).zip</path>
+    <path>./Serizawa Hachidan no Tsumeshougi (Japan).zip</path>
     <name>Serizawa Hachidan no Tsumeshougi (Japan)</name>
     <image>./media/images/Serizawa Hachidan no Tsumeshougi (Japan).png</image>
     <video>./media/videos/Serizawa Hachidan no Tsumeshougi (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Shinnyushain Tooru-kun (Japan).zip</path>
+    <path>./Shinnyushain Tooru-kun (Japan).zip</path>
     <name>Shinnyushain Tooru-kun (Japan)</name>
     <image>./media/images/Shinnyushain Tooru-kun (Japan).png</image>
     <video>./media/videos/Shinnyushain Tooru-kun (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Shinnyushain Tooru-kun (Taiwan) (Unl).zip</path>
+    <path>./Shinnyushain Tooru-kun (Taiwan) (Unl).zip</path>
     <name>Shinnyushain Tooru-kun (Taiwan) (Unl)</name>
     <image>./media/images/Shinnyushain Tooru-kun (Taiwan) (Unl).png</image>
     <video>./media/videos/Shinnyushain Tooru-kun (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Sindbad Mystery (Japan, Europe, Australia, New Zealand) (En).zip</path>
+    <path>./Sindbad Mystery (Japan, Europe, Australia, New Zealand) (En).zip</path>
     <name>Sindbad Mystery (Japan, Europe, Australia, New Zealand) (En)</name>
     <image>./media/images/Sindbad Mystery (Japan, Europe, Australia, New Zealand) (En).png</image>
     <video>./media/videos/Sindbad Mystery (Japan, Europe, Australia, New Zealand) (En).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Sindbad Mystery (Taiwan) (Unl).zip</path>
+    <path>./Sindbad Mystery (Taiwan) (Unl).zip</path>
     <name>Sindbad Mystery (Taiwan) (Unl)</name>
     <image>./media/images/Sindbad Mystery (Taiwan) (Unl).png</image>
     <video>./media/videos/Sindbad Mystery (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Soukoban (Japan, Australia) (Ja).zip</path>
+    <path>./Soukoban (Japan, Australia) (Ja).zip</path>
     <name>Soukoban (Japan, Australia) (Ja)</name>
     <image>./media/images/Soukoban (Japan, Australia) (Ja).png</image>
     <video>./media/videos/Soukoban (Japan, Australia) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Soukoban (Korea) (Unl).zip</path>
+    <path>./Soukoban (Korea) (Unl).zip</path>
     <name>Soukoban (Korea) (Unl)</name>
     <image>./media/images/Soukoban (Korea) (Unl).png</image>
     <video>./media/videos/Soukoban (Korea) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Soukoban (Taiwan) (Unl).zip</path>
+    <path>./Soukoban (Taiwan) (Unl).zip</path>
     <name>Soukoban (Taiwan) (Unl)</name>
     <image>./media/images/Soukoban (Taiwan) (Unl).png</image>
     <video>./media/videos/Soukoban (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Space Armor (Japan) (Othello Multivision) (Alt).zip</path>
+    <path>./Space Armor (Japan) (Othello Multivision) (Alt).zip</path>
     <name>Space Armor (Japan) (Othello Multivision) (Alt)</name>
     <image>./media/images/Space Armor (Japan) (Othello Multivision) (Alt).png</image>
     <video>./media/videos/Space Armor (Japan) (Othello Multivision) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Space Armor (Japan) (Othello Multivision).zip</path>
+    <path>./Space Armor (Japan) (Othello Multivision).zip</path>
     <name>Space Armor (Japan) (Othello Multivision)</name>
     <image>./media/images/Space Armor (Japan) (Othello Multivision).png</image>
     <video>./media/videos/Space Armor (Japan) (Othello Multivision).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Space Armor (Japan) (Rev 1) (Othello Multivision).zip</path>
+    <path>./Space Armor (Japan) (Rev 1) (Othello Multivision).zip</path>
     <name>Space Armor (Japan) (Rev 1) (Othello Multivision)</name>
     <image>./media/images/Space Armor (Japan) (Rev 1) (Othello Multivision).png</image>
     <video>./media/videos/Space Armor (Japan) (Rev 1) (Othello Multivision).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Space Invaders (Japan).zip</path>
+    <path>./Space Invaders (Japan).zip</path>
     <name>Space Invaders (Japan)</name>
     <image>./media/images/Space Invaders (Japan).png</image>
     <video>./media/videos/Space Invaders (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Space Invaders (Taiwan) (Unl).zip</path>
+    <path>./Space Invaders (Taiwan) (Unl).zip</path>
     <name>Space Invaders (Taiwan) (Unl)</name>
     <image>./media/images/Space Invaders (Taiwan) (Unl).png</image>
     <video>./media/videos/Space Invaders (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Space Mountain (Japan) (Othello Multivision).zip</path>
+    <path>./Space Mountain (Japan) (Othello Multivision).zip</path>
     <name>Space Mountain (Japan) (Othello Multivision)</name>
     <image>./media/images/Space Mountain (Japan) (Othello Multivision).png</image>
     <video>./media/videos/Space Mountain (Japan) (Othello Multivision).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Space Slalom (Japan).zip</path>
+    <path>./Space Slalom (Japan).zip</path>
     <name>Space Slalom (Japan)</name>
     <image>./media/images/Space Slalom (Japan).png</image>
     <video>./media/videos/Space Slalom (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Star Force (Japan, Australia) (Ja).zip</path>
+    <path>./Star Force (Japan, Australia) (Ja).zip</path>
     <name>Star Force (Japan, Australia) (Ja)</name>
     <image>./media/images/Star Force (Japan, Australia) (Ja).png</image>
     <video>./media/videos/Star Force (Japan, Australia) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Star Force (Taiwan) (Unl) (Alt).zip</path>
+    <path>./Star Force (Taiwan) (Unl) (Alt).zip</path>
     <name>Star Force (Taiwan) (Unl) (Alt)</name>
     <image>./media/images/Star Force (Taiwan) (Unl) (Alt).png</image>
     <video>./media/videos/Star Force (Taiwan) (Unl) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Star Force (Taiwan) (Unl).zip</path>
+    <path>./Star Force (Taiwan) (Unl).zip</path>
     <name>Star Force (Taiwan) (Unl)</name>
     <image>./media/images/Star Force (Taiwan) (Unl).png</image>
     <video>./media/videos/Star Force (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Star Jacker (Japan).zip</path>
+    <path>./Star Jacker (Japan).zip</path>
     <name>Star Jacker (Japan)</name>
     <image>./media/images/Star Jacker (Japan).png</image>
     <video>./media/videos/Star Jacker (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Star Jacker (Japan, Europe) (En) (Rev 2).zip</path>
+    <path>./Star Jacker (Japan, Europe) (En) (Rev 2).zip</path>
     <name>Star Jacker (Japan, Europe) (En) (Rev 2)</name>
     <image>./media/images/Star Jacker (Japan, Europe) (En) (Rev 2).png</image>
     <video>./media/videos/Star Jacker (Japan, Europe) (En) (Rev 2).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Star Jacker (Japan, Europe, Australia, New Zealand) (En) (Rev 1).zip</path>
+    <path>./Star Jacker (Japan, Europe, Australia, New Zealand) (En) (Rev 1).zip</path>
     <name>Star Jacker (Japan, Europe, Australia, New Zealand) (En) (Rev 1)</name>
     <image>./media/images/Star Jacker (Japan, Europe, Australia, New Zealand) (En) (Rev 1).png</image>
     <video>./media/videos/Star Jacker (Japan, Europe, Australia, New Zealand) (En) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Star Jacker (Taiwan) (Unl).zip</path>
+    <path>./Star Jacker (Taiwan) (Unl).zip</path>
     <name>Star Jacker (Taiwan) (Unl)</name>
     <image>./media/images/Star Jacker (Taiwan) (Unl).png</image>
     <video>./media/videos/Star Jacker (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Star Soldier (Taiwan) (Unl).zip</path>
+    <path>./Star Soldier (Taiwan) (Unl).zip</path>
     <name>Star Soldier (Taiwan) (Unl)</name>
     <image>./media/images/Star Soldier (Taiwan) (Unl).png</image>
     <video>./media/videos/Star Soldier (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Super Tank (Japan).zip</path>
+    <path>./Super Tank (Japan).zip</path>
     <name>Super Tank (Japan)</name>
     <image>./media/images/Super Tank (Japan).png</image>
     <video>./media/videos/Super Tank (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Super Tank (Korea) (Unl).zip</path>
+    <path>./Super Tank (Korea) (Unl).zip</path>
     <name>Super Tank (Korea) (Unl)</name>
     <image>./media/images/Super Tank (Korea) (Unl).png</image>
     <video>./media/videos/Super Tank (Korea) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Super Tank (Taiwan) (Unl).zip</path>
+    <path>./Super Tank (Taiwan) (Unl).zip</path>
     <name>Super Tank (Taiwan) (Unl)</name>
     <image>./media/images/Super Tank (Taiwan) (Unl).png</image>
     <video>./media/videos/Super Tank (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Tank Battalion (Taiwan) (Unl).zip</path>
+    <path>./Tank Battalion (Taiwan) (Unl).zip</path>
     <name>Tank Battalion (Taiwan) (Unl)</name>
     <image>./media/images/Tank Battalion (Taiwan) (Unl).png</image>
     <video>./media/videos/Tank Battalion (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Tanoshii Sansuu - Shougaku 4-Nen Ge (Japan) (SC-3000) (Program).zip</path>
+    <path>./Tanoshii Sansuu - Shougaku 4-Nen Ge (Japan) (SC-3000) (Program).zip</path>
     <name>Tanoshii Sansuu - Shougaku 4-Nen Ge (Japan) (SC-3000) (Program)</name>
     <image>./media/images/Tanoshii Sansuu - Shougaku 4-Nen Ge (Japan) (SC-3000) (Program).png</image>
     <video>./media/videos/Tanoshii Sansuu - Shougaku 4-Nen Ge (Japan) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Tanoshii Sansuu - Shougaku 4-Nen Jou (Japan) (SC-3000) (Program) (Alt).zip</path>
+    <path>./Tanoshii Sansuu - Shougaku 4-Nen Jou (Japan) (SC-3000) (Program) (Alt).zip</path>
     <name>Tanoshii Sansuu - Shougaku 4-Nen Jou (Japan) (SC-3000) (Program) (Alt)</name>
     <image>./media/images/Tanoshii Sansuu - Shougaku 4-Nen Jou (Japan) (SC-3000) (Program) (Alt).png</image>
     <video>./media/videos/Tanoshii Sansuu - Shougaku 4-Nen Jou (Japan) (SC-3000) (Program) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Tanoshii Sansuu - Shougaku 4-Nen Jou (Japan) (SC-3000) (Program).zip</path>
+    <path>./Tanoshii Sansuu - Shougaku 4-Nen Jou (Japan) (SC-3000) (Program).zip</path>
     <name>Tanoshii Sansuu - Shougaku 4-Nen Jou (Japan) (SC-3000) (Program)</name>
     <image>./media/images/Tanoshii Sansuu - Shougaku 4-Nen Jou (Japan) (SC-3000) (Program).png</image>
     <video>./media/videos/Tanoshii Sansuu - Shougaku 4-Nen Jou (Japan) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Tanoshii Sansuu - Shougaku 5-Nen Ge (Japan) (SC-3000) (Program).zip</path>
+    <path>./Tanoshii Sansuu - Shougaku 5-Nen Ge (Japan) (SC-3000) (Program).zip</path>
     <name>Tanoshii Sansuu - Shougaku 5-Nen Ge (Japan) (SC-3000) (Program)</name>
     <image>./media/images/Tanoshii Sansuu - Shougaku 5-Nen Ge (Japan) (SC-3000) (Program).png</image>
     <video>./media/videos/Tanoshii Sansuu - Shougaku 5-Nen Ge (Japan) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Tanoshii Sansuu - Shougaku 5-Nen Jou (Japan) (SC-3000) (Program).zip</path>
+    <path>./Tanoshii Sansuu - Shougaku 5-Nen Jou (Japan) (SC-3000) (Program).zip</path>
     <name>Tanoshii Sansuu - Shougaku 5-Nen Jou (Japan) (SC-3000) (Program)</name>
     <image>./media/images/Tanoshii Sansuu - Shougaku 5-Nen Jou (Japan) (SC-3000) (Program).png</image>
     <video>./media/videos/Tanoshii Sansuu - Shougaku 5-Nen Jou (Japan) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Tanoshii Sansuu - Shougaku 6-Nen Ge (Japan) (SC-3000) (Program).zip</path>
+    <path>./Tanoshii Sansuu - Shougaku 6-Nen Ge (Japan) (SC-3000) (Program).zip</path>
     <name>Tanoshii Sansuu - Shougaku 6-Nen Ge (Japan) (SC-3000) (Program)</name>
     <image>./media/images/Tanoshii Sansuu - Shougaku 6-Nen Ge (Japan) (SC-3000) (Program).png</image>
     <video>./media/videos/Tanoshii Sansuu - Shougaku 6-Nen Ge (Japan) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Tanoshii Sansuu - Shougaku 6-Nen Jou (Japan) (SC-3000) (Program).zip</path>
+    <path>./Tanoshii Sansuu - Shougaku 6-Nen Jou (Japan) (SC-3000) (Program).zip</path>
     <name>Tanoshii Sansuu - Shougaku 6-Nen Jou (Japan) (SC-3000) (Program)</name>
     <image>./media/images/Tanoshii Sansuu - Shougaku 6-Nen Jou (Japan) (SC-3000) (Program).png</image>
     <video>./media/videos/Tanoshii Sansuu - Shougaku 6-Nen Jou (Japan) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Terebi Oekaki (Japan) (Program).zip</path>
+    <path>./Terebi Oekaki (Japan) (Program).zip</path>
     <name>Terebi Oekaki (Japan) (Program)</name>
     <image>./media/images/Terebi Oekaki (Japan) (Program).png</image>
     <video>./media/videos/Terebi Oekaki (Japan) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/TwinBee (Taiwan) (Unl).zip</path>
+    <path>./TwinBee (Taiwan) (Unl).zip</path>
     <name>TwinBee (Taiwan) (Unl)</name>
     <image>./media/images/TwinBee (Taiwan) (Unl).png</image>
     <video>./media/videos/TwinBee (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Uranai Angel Cutie (Japan) (SC-3000) (Program).zip</path>
+    <path>./Uranai Angel Cutie (Japan) (SC-3000) (Program).zip</path>
     <name>Uranai Angel Cutie (Japan) (SC-3000) (Program)</name>
     <image>./media/images/Uranai Angel Cutie (Japan) (SC-3000) (Program).png</image>
     <video>./media/videos/Uranai Angel Cutie (Japan) (SC-3000) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Vexed (World) (v1.03) (Aftermarket) (Unl).zip</path>
+    <path>./Vexed (World) (v1.03) (Aftermarket) (Unl).zip</path>
     <name>Vexed (World) (v1.03) (Aftermarket) (Unl)</name>
     <image>./media/images/Vexed (World) (v1.03) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Vexed (World) (v1.03) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Wonder Boy (Japan) (Rev 1).zip</path>
+    <path>./Wonder Boy (Japan) (Rev 1).zip</path>
     <name>Wonder Boy (Japan) (Rev 1)</name>
     <image>./media/images/Wonder Boy (Japan) (Rev 1).png</image>
     <video>./media/videos/Wonder Boy (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Wonder Boy (Japan, Australia) (Ja).zip</path>
+    <path>./Wonder Boy (Japan, Australia) (Ja).zip</path>
     <name>Wonder Boy (Japan, Australia) (Ja)</name>
     <image>./media/images/Wonder Boy (Japan, Australia) (Ja).png</image>
     <video>./media/videos/Wonder Boy (Japan, Australia) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Wonder Boy (Taiwan) (Unl).zip</path>
+    <path>./Wonder Boy (Taiwan) (Unl).zip</path>
     <name>Wonder Boy (Taiwan) (Unl)</name>
     <image>./media/images/Wonder Boy (Taiwan) (Unl).png</image>
     <video>./media/videos/Wonder Boy (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Yamato (Japan) (Alt).zip</path>
+    <path>./Yamato (Japan) (Alt).zip</path>
     <name>Yamato (Japan) (Alt)</name>
     <image>./media/images/Yamato (Japan) (Alt).png</image>
     <video>./media/videos/Yamato (Japan) (Alt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Yamato (Japan, Europe, Australia, New Zealand) (En).zip</path>
+    <path>./Yamato (Japan, Europe, Australia, New Zealand) (En).zip</path>
     <name>Yamato (Japan, Europe, Australia, New Zealand) (En)</name>
     <image>./media/images/Yamato (Japan, Europe, Australia, New Zealand) (En).png</image>
     <video>./media/videos/Yamato (Japan, Europe, Australia, New Zealand) (En).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Yamato (Taiwan) (Unl).zip</path>
+    <path>./Yamato (Taiwan) (Unl).zip</path>
     <name>Yamato (Taiwan) (Unl)</name>
     <image>./media/images/Yamato (Taiwan) (Unl).png</image>
     <video>./media/videos/Yamato (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Yie Ar Kung-Fu (Taiwan) (Unl).zip</path>
+    <path>./Yie Ar Kung-Fu (Taiwan) (Unl).zip</path>
     <name>Yie Ar Kung-Fu (Taiwan) (Unl)</name>
     <image>./media/images/Yie Ar Kung-Fu (Taiwan) (Unl).png</image>
     <video>./media/videos/Yie Ar Kung-Fu (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Yie Ar Kung-Fu II (Taiwan) (Unl).zip</path>
+    <path>./Yie Ar Kung-Fu II (Taiwan) (Unl).zip</path>
     <name>Yie Ar Kung-Fu II (Taiwan) (Unl)</name>
     <image>./media/images/Yie Ar Kung-Fu II (Taiwan) (Unl).png</image>
     <video>./media/videos/Yie Ar Kung-Fu II (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Zaxxon (Japan).zip</path>
+    <path>./Zaxxon (Japan).zip</path>
     <name>Zaxxon (Japan)</name>
     <image>./media/images/Zaxxon (Japan).png</image>
     <video>./media/videos/Zaxxon (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Zaxxon (Taiwan) (Unl).zip</path>
+    <path>./Zaxxon (Taiwan) (Unl).zip</path>
     <name>Zaxxon (Taiwan) (Unl)</name>
     <image>./media/images/Zaxxon (Taiwan) (Unl).png</image>
     <video>./media/videos/Zaxxon (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Zippy Race (Japan, Australia) (Ja).zip</path>
+    <path>./Zippy Race (Japan, Australia) (Ja).zip</path>
     <name>Zippy Race (Japan, Australia) (Ja)</name>
     <image>./media/images/Zippy Race (Japan, Australia) (Ja).png</image>
     <video>./media/videos/Zippy Race (Japan, Australia) (Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Zippy Race (Taiwan) (Unl).zip</path>
+    <path>./Zippy Race (Taiwan) (Unl).zip</path>
     <name>Zippy Race (Taiwan) (Unl)</name>
     <image>./media/images/Zippy Race (Taiwan) (Unl).png</image>
     <video>./media/videos/Zippy Race (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Zoom 909 (Japan).zip</path>
+    <path>./Zoom 909 (Japan).zip</path>
     <name>Zoom 909 (Japan)</name>
     <image>./media/images/Zoom 909 (Japan).png</image>
     <video>./media/videos/Zoom 909 (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/Zoom 909 (Taiwan) (Unl).zip</path>
+    <path>./Zoom 909 (Taiwan) (Unl).zip</path>
     <name>Zoom 909 (Taiwan) (Unl)</name>
     <image>./media/images/Zoom 909 (Taiwan) (Unl).png</image>
     <video>./media/videos/Zoom 909 (Taiwan) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Sega - SG-1000/[BIOS] Othello Multivision (Japan).zip</path>
+    <path>./[BIOS] Othello Multivision (Japan).zip</path>
     <name>[BIOS] Othello Multivision (Japan)</name>
     <image>./media/images/[BIOS] Othello Multivision (Japan).png</image>
     <video>./media/videos/[BIOS] Othello Multivision (Japan).mp4</video>

@@ -1,763 +1,763 @@
 <?xml version="1.0"?>
 <gameList>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/32 in 1 (Australia).zip</path>
+    <path>./32 in 1 (Australia).zip</path>
     <name>32 in 1 (Australia)</name>
     <image>./media/images/32 in 1 (Australia).png</image>
     <video>./media/videos/32 in 1 (Australia).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/7800 Monitor Cart (USA) (Program) (Unl).zip</path>
+    <path>./7800 Monitor Cart (USA) (Program) (Unl).zip</path>
     <name>7800 Monitor Cart (USA) (Program) (Unl)</name>
     <image>./media/images/7800 Monitor Cart (USA) (Program) (Unl).png</image>
     <video>./media/videos/7800 Monitor Cart (USA) (Program) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Ace of Aces (Europe).zip</path>
+    <path>./Ace of Aces (Europe).zip</path>
     <name>Ace of Aces (Europe)</name>
     <image>./media/images/Ace of Aces (Europe).png</image>
     <video>./media/videos/Ace of Aces (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Ace of Aces (USA).zip</path>
+    <path>./Ace of Aces (USA).zip</path>
     <name>Ace of Aces (USA)</name>
     <image>./media/images/Ace of Aces (USA).png</image>
     <video>./media/videos/Ace of Aces (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Alien Brigade (Europe).zip</path>
+    <path>./Alien Brigade (Europe).zip</path>
     <name>Alien Brigade (Europe)</name>
     <image>./media/images/Alien Brigade (Europe).png</image>
     <video>./media/videos/Alien Brigade (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Alien Brigade (USA).zip</path>
+    <path>./Alien Brigade (USA).zip</path>
     <name>Alien Brigade (USA)</name>
     <image>./media/images/Alien Brigade (USA).png</image>
     <video>./media/videos/Alien Brigade (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Asteroids (USA) (Beta).zip</path>
+    <path>./Asteroids (USA) (Beta).zip</path>
     <name>Asteroids (USA) (Beta)</name>
     <image>./media/images/Asteroids (USA) (Beta).png</image>
     <video>./media/videos/Asteroids (USA) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Asteroids (USA).zip</path>
+    <path>./Asteroids (USA).zip</path>
     <name>Asteroids (USA)</name>
     <image>./media/images/Asteroids (USA).png</image>
     <video>./media/videos/Asteroids (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Atari 7800 Development Card (USA).zip</path>
+    <path>./Atari 7800 Development Card (USA).zip</path>
     <name>Atari 7800 Development Card (USA)</name>
     <image>./media/images/Atari 7800 Development Card (USA).png</image>
     <video>./media/videos/Atari 7800 Development Card (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Ballblazer (Europe).zip</path>
+    <path>./Ballblazer (Europe).zip</path>
     <name>Ballblazer (Europe)</name>
     <image>./media/images/Ballblazer (Europe).png</image>
     <video>./media/videos/Ballblazer (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Ballblazer (USA).zip</path>
+    <path>./Ballblazer (USA).zip</path>
     <name>Ballblazer (USA)</name>
     <image>./media/images/Ballblazer (USA).png</image>
     <video>./media/videos/Ballblazer (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Barnyard Blaster (Europe).zip</path>
+    <path>./Barnyard Blaster (Europe).zip</path>
     <name>Barnyard Blaster (Europe)</name>
     <image>./media/images/Barnyard Blaster (Europe).png</image>
     <video>./media/videos/Barnyard Blaster (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Barnyard Blaster (USA).zip</path>
+    <path>./Barnyard Blaster (USA).zip</path>
     <name>Barnyard Blaster (USA)</name>
     <image>./media/images/Barnyard Blaster (USA).png</image>
     <video>./media/videos/Barnyard Blaster (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Baseball (Europe).zip</path>
+    <path>./Baseball (Europe).zip</path>
     <name>Baseball (Europe)</name>
     <image>./media/images/Baseball (Europe).png</image>
     <video>./media/videos/Baseball (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Basketbrawl (Europe).zip</path>
+    <path>./Basketbrawl (Europe).zip</path>
     <name>Basketbrawl (Europe)</name>
     <image>./media/images/Basketbrawl (Europe).png</image>
     <video>./media/videos/Basketbrawl (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Basketbrawl (USA).zip</path>
+    <path>./Basketbrawl (USA).zip</path>
     <name>Basketbrawl (USA)</name>
     <image>./media/images/Basketbrawl (USA).png</image>
     <video>./media/videos/Basketbrawl (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Centipede (Europe).zip</path>
+    <path>./Centipede (Europe).zip</path>
     <name>Centipede (Europe)</name>
     <image>./media/images/Centipede (Europe).png</image>
     <video>./media/videos/Centipede (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Centipede (USA).zip</path>
+    <path>./Centipede (USA).zip</path>
     <name>Centipede (USA)</name>
     <image>./media/images/Centipede (USA).png</image>
     <video>./media/videos/Centipede (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Choplifter! (Europe).zip</path>
+    <path>./Choplifter! (Europe).zip</path>
     <name>Choplifter! (Europe)</name>
     <image>./media/images/Choplifter! (Europe).png</image>
     <video>./media/videos/Choplifter! (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Choplifter! (USA).zip</path>
+    <path>./Choplifter! (USA).zip</path>
     <name>Choplifter! (USA)</name>
     <image>./media/images/Choplifter! (USA).png</image>
     <video>./media/videos/Choplifter! (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Commando (Europe).zip</path>
+    <path>./Commando (Europe).zip</path>
     <name>Commando (Europe)</name>
     <image>./media/images/Commando (Europe).png</image>
     <video>./media/videos/Commando (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Commando (USA).zip</path>
+    <path>./Commando (USA).zip</path>
     <name>Commando (USA)</name>
     <image>./media/images/Commando (USA).png</image>
     <video>./media/videos/Commando (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Crack'ed (Europe).zip</path>
+    <path>./Crack'ed (Europe).zip</path>
     <name>Crack'ed (Europe)</name>
     <image>./media/images/Crack'ed (Europe).png</image>
     <video>./media/videos/Crack'ed (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Crack'ed (USA).zip</path>
+    <path>./Crack'ed (USA).zip</path>
     <name>Crack'ed (USA)</name>
     <image>./media/images/Crack'ed (USA).png</image>
     <video>./media/videos/Crack'ed (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Crossbow (Europe).zip</path>
+    <path>./Crossbow (Europe).zip</path>
     <name>Crossbow (Europe)</name>
     <image>./media/images/Crossbow (Europe).png</image>
     <video>./media/videos/Crossbow (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Crossbow (USA).zip</path>
+    <path>./Crossbow (USA).zip</path>
     <name>Crossbow (USA)</name>
     <image>./media/images/Crossbow (USA).png</image>
     <video>./media/videos/Crossbow (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Dark Chambers (Europe).zip</path>
+    <path>./Dark Chambers (Europe).zip</path>
     <name>Dark Chambers (Europe)</name>
     <image>./media/images/Dark Chambers (Europe).png</image>
     <video>./media/videos/Dark Chambers (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Dark Chambers (USA).zip</path>
+    <path>./Dark Chambers (USA).zip</path>
     <name>Dark Chambers (USA)</name>
     <image>./media/images/Dark Chambers (USA).png</image>
     <video>./media/videos/Dark Chambers (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Desert Falcon (Europe).zip</path>
+    <path>./Desert Falcon (Europe).zip</path>
     <name>Desert Falcon (Europe)</name>
     <image>./media/images/Desert Falcon (Europe).png</image>
     <video>./media/videos/Desert Falcon (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Desert Falcon (USA).zip</path>
+    <path>./Desert Falcon (USA).zip</path>
     <name>Desert Falcon (USA)</name>
     <image>./media/images/Desert Falcon (USA).png</image>
     <video>./media/videos/Desert Falcon (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Diagnostic Test Cartrige (USA) (Beta).zip</path>
+    <path>./Diagnostic Test Cartrige (USA) (Beta).zip</path>
     <name>Diagnostic Test Cartrige (USA) (Beta)</name>
     <image>./media/images/Diagnostic Test Cartrige (USA) (Beta).png</image>
     <video>./media/videos/Diagnostic Test Cartrige (USA) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Diagnostic Test Cartrige (USA).zip</path>
+    <path>./Diagnostic Test Cartrige (USA).zip</path>
     <name>Diagnostic Test Cartrige (USA)</name>
     <image>./media/images/Diagnostic Test Cartrige (USA).png</image>
     <video>./media/videos/Diagnostic Test Cartrige (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Dig Dug (Europe).zip</path>
+    <path>./Dig Dug (Europe).zip</path>
     <name>Dig Dug (Europe)</name>
     <image>./media/images/Dig Dug (Europe).png</image>
     <video>./media/videos/Dig Dug (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Dig Dug (USA).zip</path>
+    <path>./Dig Dug (USA).zip</path>
     <name>Dig Dug (USA)</name>
     <image>./media/images/Dig Dug (USA).png</image>
     <video>./media/videos/Dig Dug (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Donkey Kong (Europe).zip</path>
+    <path>./Donkey Kong (Europe).zip</path>
     <name>Donkey Kong (Europe)</name>
     <image>./media/images/Donkey Kong (Europe).png</image>
     <video>./media/videos/Donkey Kong (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Donkey Kong (USA).zip</path>
+    <path>./Donkey Kong (USA).zip</path>
     <name>Donkey Kong (USA)</name>
     <image>./media/images/Donkey Kong (USA).png</image>
     <video>./media/videos/Donkey Kong (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Donkey Kong Junior (Europe).zip</path>
+    <path>./Donkey Kong Junior (Europe).zip</path>
     <name>Donkey Kong Junior (Europe)</name>
     <image>./media/images/Donkey Kong Junior (Europe).png</image>
     <video>./media/videos/Donkey Kong Junior (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Donkey Kong Junior (USA).zip</path>
+    <path>./Donkey Kong Junior (USA).zip</path>
     <name>Donkey Kong Junior (USA)</name>
     <image>./media/images/Donkey Kong Junior (USA).png</image>
     <video>./media/videos/Donkey Kong Junior (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Double Dragon (Europe).zip</path>
+    <path>./Double Dragon (Europe).zip</path>
     <name>Double Dragon (Europe)</name>
     <image>./media/images/Double Dragon (Europe).png</image>
     <video>./media/videos/Double Dragon (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Double Dragon (USA).zip</path>
+    <path>./Double Dragon (USA).zip</path>
     <name>Double Dragon (USA)</name>
     <image>./media/images/Double Dragon (USA).png</image>
     <video>./media/videos/Double Dragon (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/F-18 Hornet (Europe).zip</path>
+    <path>./F-18 Hornet (Europe).zip</path>
     <name>F-18 Hornet (Europe)</name>
     <image>./media/images/F-18 Hornet (Europe).png</image>
     <video>./media/videos/F-18 Hornet (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/F-18 Hornet (USA).zip</path>
+    <path>./F-18 Hornet (USA).zip</path>
     <name>F-18 Hornet (USA)</name>
     <image>./media/images/F-18 Hornet (USA).png</image>
     <video>./media/videos/F-18 Hornet (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Fatal Run (Europe).zip</path>
+    <path>./Fatal Run (Europe).zip</path>
     <name>Fatal Run (Europe)</name>
     <image>./media/images/Fatal Run (Europe).png</image>
     <video>./media/videos/Fatal Run (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Fatal Run (USA).zip</path>
+    <path>./Fatal Run (USA).zip</path>
     <name>Fatal Run (USA)</name>
     <image>./media/images/Fatal Run (USA).png</image>
     <video>./media/videos/Fatal Run (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Fight Night (Europe).zip</path>
+    <path>./Fight Night (Europe).zip</path>
     <name>Fight Night (Europe)</name>
     <image>./media/images/Fight Night (Europe).png</image>
     <video>./media/videos/Fight Night (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Fight Night (USA).zip</path>
+    <path>./Fight Night (USA).zip</path>
     <name>Fight Night (USA)</name>
     <image>./media/images/Fight Night (USA).png</image>
     <video>./media/videos/Fight Night (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Food Fight (Europe).zip</path>
+    <path>./Food Fight (Europe).zip</path>
     <name>Food Fight (Europe)</name>
     <image>./media/images/Food Fight (Europe).png</image>
     <video>./media/videos/Food Fight (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Food Fight (USA) (Beta).zip</path>
+    <path>./Food Fight (USA) (Beta).zip</path>
     <name>Food Fight (USA) (Beta)</name>
     <image>./media/images/Food Fight (USA) (Beta).png</image>
     <video>./media/videos/Food Fight (USA) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Food Fight (USA).zip</path>
+    <path>./Food Fight (USA).zip</path>
     <name>Food Fight (USA)</name>
     <image>./media/images/Food Fight (USA).png</image>
     <video>./media/videos/Food Fight (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/GATO (USA) (Proto).zip</path>
+    <path>./GATO (USA) (Proto).zip</path>
     <name>GATO (USA) (Proto)</name>
     <image>./media/images/GATO (USA) (Proto).png</image>
     <video>./media/videos/GATO (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Galaga (Europe).zip</path>
+    <path>./Galaga (Europe).zip</path>
     <name>Galaga (Europe)</name>
     <image>./media/images/Galaga (Europe).png</image>
     <video>./media/videos/Galaga (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Galaga (USA).zip</path>
+    <path>./Galaga (USA).zip</path>
     <name>Galaga (USA)</name>
     <image>./media/images/Galaga (USA).png</image>
     <video>./media/videos/Galaga (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Hat Trick (Europe).zip</path>
+    <path>./Hat Trick (Europe).zip</path>
     <name>Hat Trick (Europe)</name>
     <image>./media/images/Hat Trick (Europe).png</image>
     <video>./media/videos/Hat Trick (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Hat Trick (USA).zip</path>
+    <path>./Hat Trick (USA).zip</path>
     <name>Hat Trick (USA)</name>
     <image>./media/images/Hat Trick (USA).png</image>
     <video>./media/videos/Hat Trick (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/High Score Cartridge (USA) (Proto).zip</path>
+    <path>./High Score Cartridge (USA) (Proto).zip</path>
     <name>High Score Cartridge (USA) (Proto)</name>
     <image>./media/images/High Score Cartridge (USA) (Proto).png</image>
     <video>./media/videos/High Score Cartridge (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Ikari Warriors (Europe).zip</path>
+    <path>./Ikari Warriors (Europe).zip</path>
     <name>Ikari Warriors (Europe)</name>
     <image>./media/images/Ikari Warriors (Europe).png</image>
     <video>./media/videos/Ikari Warriors (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Ikari Warriors (USA).zip</path>
+    <path>./Ikari Warriors (USA).zip</path>
     <name>Ikari Warriors (USA)</name>
     <image>./media/images/Ikari Warriors (USA).png</image>
     <video>./media/videos/Ikari Warriors (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Impossible Mission (Europe).zip</path>
+    <path>./Impossible Mission (Europe).zip</path>
     <name>Impossible Mission (Europe)</name>
     <image>./media/images/Impossible Mission (Europe).png</image>
     <video>./media/videos/Impossible Mission (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Impossible Mission (USA).zip</path>
+    <path>./Impossible Mission (USA).zip</path>
     <name>Impossible Mission (USA)</name>
     <image>./media/images/Impossible Mission (USA).png</image>
     <video>./media/videos/Impossible Mission (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Jinks (Europe).zip</path>
+    <path>./Jinks (Europe).zip</path>
     <name>Jinks (Europe)</name>
     <image>./media/images/Jinks (Europe).png</image>
     <video>./media/videos/Jinks (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Jinks (USA).zip</path>
+    <path>./Jinks (USA).zip</path>
     <name>Jinks (USA)</name>
     <image>./media/images/Jinks (USA).png</image>
     <video>./media/videos/Jinks (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Joust (Europe).zip</path>
+    <path>./Joust (Europe).zip</path>
     <name>Joust (Europe)</name>
     <image>./media/images/Joust (Europe).png</image>
     <video>./media/videos/Joust (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Joust (USA).zip</path>
+    <path>./Joust (USA).zip</path>
     <name>Joust (USA)</name>
     <image>./media/images/Joust (USA).png</image>
     <video>./media/videos/Joust (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Karateka (Europe).zip</path>
+    <path>./Karateka (Europe).zip</path>
     <name>Karateka (Europe)</name>
     <image>./media/images/Karateka (Europe).png</image>
     <video>./media/videos/Karateka (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Karateka (USA).zip</path>
+    <path>./Karateka (USA).zip</path>
     <name>Karateka (USA)</name>
     <image>./media/images/Karateka (USA).png</image>
     <video>./media/videos/Karateka (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Klax (USA) (Proto).zip</path>
+    <path>./Klax (USA) (Proto).zip</path>
     <name>Klax (USA) (Proto)</name>
     <image>./media/images/Klax (USA) (Proto).png</image>
     <video>./media/videos/Klax (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Kung-Fu Master (Europe).zip</path>
+    <path>./Kung-Fu Master (Europe).zip</path>
     <name>Kung-Fu Master (Europe)</name>
     <image>./media/images/Kung-Fu Master (Europe).png</image>
     <video>./media/videos/Kung-Fu Master (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Kung-Fu Master (USA).zip</path>
+    <path>./Kung-Fu Master (USA).zip</path>
     <name>Kung-Fu Master (USA)</name>
     <image>./media/images/Kung-Fu Master (USA).png</image>
     <video>./media/videos/Kung-Fu Master (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Mario Bros. (Europe).zip</path>
+    <path>./Mario Bros. (Europe).zip</path>
     <name>Mario Bros. (Europe)</name>
     <image>./media/images/Mario Bros. (Europe).png</image>
     <video>./media/videos/Mario Bros. (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Mario Bros. (USA).zip</path>
+    <path>./Mario Bros. (USA).zip</path>
     <name>Mario Bros. (USA)</name>
     <image>./media/images/Mario Bros. (USA).png</image>
     <video>./media/videos/Mario Bros. (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Mat Mania Challenge (Europe).zip</path>
+    <path>./Mat Mania Challenge (Europe).zip</path>
     <name>Mat Mania Challenge (Europe)</name>
     <image>./media/images/Mat Mania Challenge (Europe).png</image>
     <video>./media/videos/Mat Mania Challenge (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Mat Mania Challenge (USA).zip</path>
+    <path>./Mat Mania Challenge (USA).zip</path>
     <name>Mat Mania Challenge (USA)</name>
     <image>./media/images/Mat Mania Challenge (USA).png</image>
     <video>./media/videos/Mat Mania Challenge (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Mean 18 Ultimate Golf (Europe).zip</path>
+    <path>./Mean 18 Ultimate Golf (Europe).zip</path>
     <name>Mean 18 Ultimate Golf (Europe)</name>
     <image>./media/images/Mean 18 Ultimate Golf (Europe).png</image>
     <video>./media/videos/Mean 18 Ultimate Golf (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Mean 18 Ultimate Golf (USA).zip</path>
+    <path>./Mean 18 Ultimate Golf (USA).zip</path>
     <name>Mean 18 Ultimate Golf (USA)</name>
     <image>./media/images/Mean 18 Ultimate Golf (USA).png</image>
     <video>./media/videos/Mean 18 Ultimate Golf (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Meltdown (Europe).zip</path>
+    <path>./Meltdown (Europe).zip</path>
     <name>Meltdown (Europe)</name>
     <image>./media/images/Meltdown (Europe).png</image>
     <video>./media/videos/Meltdown (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Meltdown (USA).zip</path>
+    <path>./Meltdown (USA).zip</path>
     <name>Meltdown (USA)</name>
     <image>./media/images/Meltdown (USA).png</image>
     <video>./media/videos/Meltdown (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Midnight Mutants (Europe).zip</path>
+    <path>./Midnight Mutants (Europe).zip</path>
     <name>Midnight Mutants (Europe)</name>
     <image>./media/images/Midnight Mutants (Europe).png</image>
     <video>./media/videos/Midnight Mutants (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Midnight Mutants (USA).zip</path>
+    <path>./Midnight Mutants (USA).zip</path>
     <name>Midnight Mutants (USA)</name>
     <image>./media/images/Midnight Mutants (USA).png</image>
     <video>./media/videos/Midnight Mutants (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Missing in Action (USA) (Proto).zip</path>
+    <path>./Missing in Action (USA) (Proto).zip</path>
     <name>Missing in Action (USA) (Proto)</name>
     <image>./media/images/Missing in Action (USA) (Proto).png</image>
     <video>./media/videos/Missing in Action (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Motor Psycho (Europe).zip</path>
+    <path>./Motor Psycho (Europe).zip</path>
     <name>Motor Psycho (Europe)</name>
     <image>./media/images/Motor Psycho (Europe).png</image>
     <video>./media/videos/Motor Psycho (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Motor Psycho (USA).zip</path>
+    <path>./Motor Psycho (USA).zip</path>
     <name>Motor Psycho (USA)</name>
     <image>./media/images/Motor Psycho (USA).png</image>
     <video>./media/videos/Motor Psycho (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Ms. Pac-Man (Europe).zip</path>
+    <path>./Ms. Pac-Man (Europe).zip</path>
     <name>Ms. Pac-Man (Europe)</name>
     <image>./media/images/Ms. Pac-Man (Europe).png</image>
     <video>./media/videos/Ms. Pac-Man (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Ms. Pac-Man (USA).zip</path>
+    <path>./Ms. Pac-Man (USA).zip</path>
     <name>Ms. Pac-Man (USA)</name>
     <image>./media/images/Ms. Pac-Man (USA).png</image>
     <video>./media/videos/Ms. Pac-Man (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Ninja Golf (Europe).zip</path>
+    <path>./Ninja Golf (Europe).zip</path>
     <name>Ninja Golf (Europe)</name>
     <image>./media/images/Ninja Golf (Europe).png</image>
     <video>./media/videos/Ninja Golf (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Ninja Golf (USA).zip</path>
+    <path>./Ninja Golf (USA).zip</path>
     <name>Ninja Golf (USA)</name>
     <image>./media/images/Ninja Golf (USA).png</image>
     <video>./media/videos/Ninja Golf (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/One-on-One Basketball (Europe).zip</path>
+    <path>./One-on-One Basketball (Europe).zip</path>
     <name>One-on-One Basketball (Europe)</name>
     <image>./media/images/One-on-One Basketball (Europe).png</image>
     <video>./media/videos/One-on-One Basketball (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/One-on-One Basketball (USA).zip</path>
+    <path>./One-on-One Basketball (USA).zip</path>
     <name>One-on-One Basketball (USA)</name>
     <image>./media/images/One-on-One Basketball (USA).png</image>
     <video>./media/videos/One-on-One Basketball (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Pete Rose Baseball (USA).zip</path>
+    <path>./Pete Rose Baseball (USA).zip</path>
     <name>Pete Rose Baseball (USA)</name>
     <image>./media/images/Pete Rose Baseball (USA).png</image>
     <video>./media/videos/Pete Rose Baseball (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Pit Fighter (USA) (Proto).zip</path>
+    <path>./Pit Fighter (USA) (Proto).zip</path>
     <name>Pit Fighter (USA) (Proto)</name>
     <image>./media/images/Pit Fighter (USA) (Proto).png</image>
     <video>./media/videos/Pit Fighter (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Planet Smashers (Europe).zip</path>
+    <path>./Planet Smashers (Europe).zip</path>
     <name>Planet Smashers (Europe)</name>
     <image>./media/images/Planet Smashers (Europe).png</image>
     <video>./media/videos/Planet Smashers (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Planet Smashers (USA).zip</path>
+    <path>./Planet Smashers (USA).zip</path>
     <name>Planet Smashers (USA)</name>
     <image>./media/images/Planet Smashers (USA).png</image>
     <video>./media/videos/Planet Smashers (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Plutos (USA) (Proto).zip</path>
+    <path>./Plutos (USA) (Proto).zip</path>
     <name>Plutos (USA) (Proto)</name>
     <image>./media/images/Plutos (USA) (Proto).png</image>
     <video>./media/videos/Plutos (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Pole Position II (Europe).zip</path>
+    <path>./Pole Position II (Europe).zip</path>
     <name>Pole Position II (Europe)</name>
     <image>./media/images/Pole Position II (Europe).png</image>
     <video>./media/videos/Pole Position II (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Pole Position II (USA) (Beta).zip</path>
+    <path>./Pole Position II (USA) (Beta).zip</path>
     <name>Pole Position II (USA) (Beta)</name>
     <image>./media/images/Pole Position II (USA) (Beta).png</image>
     <video>./media/videos/Pole Position II (USA) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Pole Position II (USA).zip</path>
+    <path>./Pole Position II (USA).zip</path>
     <name>Pole Position II (USA)</name>
     <image>./media/images/Pole Position II (USA).png</image>
     <video>./media/videos/Pole Position II (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Rampage (USA).zip</path>
+    <path>./Rampage (USA).zip</path>
     <name>Rampage (USA)</name>
     <image>./media/images/Rampage (USA).png</image>
     <video>./media/videos/Rampage (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Rampart (USA) (Proto).zip</path>
+    <path>./Rampart (USA) (Proto).zip</path>
     <name>Rampart (USA) (Proto)</name>
     <image>./media/images/Rampart (USA) (Proto).png</image>
     <video>./media/videos/Rampart (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/RealSports Baseball (USA).zip</path>
+    <path>./RealSports Baseball (USA).zip</path>
     <name>RealSports Baseball (USA)</name>
     <image>./media/images/RealSports Baseball (USA).png</image>
     <video>./media/videos/RealSports Baseball (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Rescue on Fractalus (USA) (Proto).zip</path>
+    <path>./Rescue on Fractalus (USA) (Proto).zip</path>
     <name>Rescue on Fractalus (USA) (Proto)</name>
     <image>./media/images/Rescue on Fractalus (USA) (Proto).png</image>
     <video>./media/videos/Rescue on Fractalus (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Robotron - 2084 (USA).zip</path>
+    <path>./Robotron - 2084 (USA).zip</path>
     <name>Robotron - 2084 (USA)</name>
     <image>./media/images/Robotron - 2084 (USA).png</image>
     <video>./media/videos/Robotron - 2084 (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Scrapyard Dog (Europe).zip</path>
+    <path>./Scrapyard Dog (Europe).zip</path>
     <name>Scrapyard Dog (Europe)</name>
     <image>./media/images/Scrapyard Dog (Europe).png</image>
     <video>./media/videos/Scrapyard Dog (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Scrapyard Dog (USA).zip</path>
+    <path>./Scrapyard Dog (USA).zip</path>
     <name>Scrapyard Dog (USA)</name>
     <image>./media/images/Scrapyard Dog (USA).png</image>
     <video>./media/videos/Scrapyard Dog (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Sentinel (Europe).zip</path>
+    <path>./Sentinel (Europe).zip</path>
     <name>Sentinel (Europe)</name>
     <image>./media/images/Sentinel (Europe).png</image>
     <video>./media/videos/Sentinel (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Sentinel (USA) (Proto).zip</path>
+    <path>./Sentinel (USA) (Proto).zip</path>
     <name>Sentinel (USA) (Proto)</name>
     <image>./media/images/Sentinel (USA) (Proto).png</image>
     <video>./media/videos/Sentinel (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Sirius (USA) (Proto).zip</path>
+    <path>./Sirius (USA) (Proto).zip</path>
     <name>Sirius (USA) (Proto)</name>
     <image>./media/images/Sirius (USA) (Proto).png</image>
     <video>./media/videos/Sirius (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Summer Games (USA).zip</path>
+    <path>./Summer Games (USA).zip</path>
     <name>Summer Games (USA)</name>
     <image>./media/images/Summer Games (USA).png</image>
     <video>./media/videos/Summer Games (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Super Huey UH-IX (Europe).zip</path>
+    <path>./Super Huey UH-IX (Europe).zip</path>
     <name>Super Huey UH-IX (Europe)</name>
     <image>./media/images/Super Huey UH-IX (Europe).png</image>
     <video>./media/videos/Super Huey UH-IX (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Super Huey UH-IX (USA).zip</path>
+    <path>./Super Huey UH-IX (USA).zip</path>
     <name>Super Huey UH-IX (USA)</name>
     <image>./media/images/Super Huey UH-IX (USA).png</image>
     <video>./media/videos/Super Huey UH-IX (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Super Skateboardin' (Europe).zip</path>
+    <path>./Super Skateboardin' (Europe).zip</path>
     <name>Super Skateboardin' (Europe)</name>
     <image>./media/images/Super Skateboardin' (Europe).png</image>
     <video>./media/videos/Super Skateboardin' (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Super Skateboardin' (USA).zip</path>
+    <path>./Super Skateboardin' (USA).zip</path>
     <name>Super Skateboardin' (USA)</name>
     <image>./media/images/Super Skateboardin' (USA).png</image>
     <video>./media/videos/Super Skateboardin' (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Tank Command (USA).zip</path>
+    <path>./Tank Command (USA).zip</path>
     <name>Tank Command (USA)</name>
     <image>./media/images/Tank Command (USA).png</image>
     <video>./media/videos/Tank Command (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Title Match Pro Wrestling (Europe).zip</path>
+    <path>./Title Match Pro Wrestling (Europe).zip</path>
     <name>Title Match Pro Wrestling (Europe)</name>
     <image>./media/images/Title Match Pro Wrestling (Europe).png</image>
     <video>./media/videos/Title Match Pro Wrestling (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Title Match Pro Wrestling (USA).zip</path>
+    <path>./Title Match Pro Wrestling (USA).zip</path>
     <name>Title Match Pro Wrestling (USA)</name>
     <image>./media/images/Title Match Pro Wrestling (USA).png</image>
     <video>./media/videos/Title Match Pro Wrestling (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Tomcat - The F-14 Fighter Simulator (Europe).zip</path>
+    <path>./Tomcat - The F-14 Fighter Simulator (Europe).zip</path>
     <name>Tomcat - The F-14 Fighter Simulator (Europe)</name>
     <image>./media/images/Tomcat - The F-14 Fighter Simulator (Europe).png</image>
     <video>./media/videos/Tomcat - The F-14 Fighter Simulator (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Tomcat - The F-14 Fighter Simulator (USA).zip</path>
+    <path>./Tomcat - The F-14 Fighter Simulator (USA).zip</path>
     <name>Tomcat - The F-14 Fighter Simulator (USA)</name>
     <image>./media/images/Tomcat - The F-14 Fighter Simulator (USA).png</image>
     <video>./media/videos/Tomcat - The F-14 Fighter Simulator (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Touchdown Football (USA).zip</path>
+    <path>./Touchdown Football (USA).zip</path>
     <name>Touchdown Football (USA)</name>
     <image>./media/images/Touchdown Football (USA).png</image>
     <video>./media/videos/Touchdown Football (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Tower Toppler (Europe).zip</path>
+    <path>./Tower Toppler (Europe).zip</path>
     <name>Tower Toppler (Europe)</name>
     <image>./media/images/Tower Toppler (Europe).png</image>
     <video>./media/videos/Tower Toppler (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Tower Toppler (USA).zip</path>
+    <path>./Tower Toppler (USA).zip</path>
     <name>Tower Toppler (USA)</name>
     <image>./media/images/Tower Toppler (USA).png</image>
     <video>./media/videos/Tower Toppler (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Water Ski (USA).zip</path>
+    <path>./Water Ski (USA).zip</path>
     <name>Water Ski (USA)</name>
     <image>./media/images/Water Ski (USA).png</image>
     <video>./media/videos/Water Ski (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Winter Games (USA).zip</path>
+    <path>./Winter Games (USA).zip</path>
     <name>Winter Games (USA)</name>
     <image>./media/images/Winter Games (USA).png</image>
     <video>./media/videos/Winter Games (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Xenophobe (Europe).zip</path>
+    <path>./Xenophobe (Europe).zip</path>
     <name>Xenophobe (Europe)</name>
     <image>./media/images/Xenophobe (Europe).png</image>
     <video>./media/videos/Xenophobe (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Xenophobe (USA).zip</path>
+    <path>./Xenophobe (USA).zip</path>
     <name>Xenophobe (USA)</name>
     <image>./media/images/Xenophobe (USA).png</image>
     <video>./media/videos/Xenophobe (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Xevious (Europe).zip</path>
+    <path>./Xevious (Europe).zip</path>
     <name>Xevious (Europe)</name>
     <image>./media/images/Xevious (Europe).png</image>
     <video>./media/videos/Xevious (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Xevious (USA) (Beta).zip</path>
+    <path>./Xevious (USA) (Beta).zip</path>
     <name>Xevious (USA) (Beta)</name>
     <image>./media/images/Xevious (USA) (Beta).png</image>
     <video>./media/videos/Xevious (USA) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/Xevious (USA).zip</path>
+    <path>./Xevious (USA).zip</path>
     <name>Xevious (USA)</name>
     <image>./media/images/Xevious (USA).png</image>
     <video>./media/videos/Xevious (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/[BIOS] Atari 7800 (Europe).zip</path>
+    <path>./[BIOS] Atari 7800 (Europe).zip</path>
     <name>[BIOS] Atari 7800 (Europe)</name>
     <image>./media/images/[BIOS] Atari 7800 (Europe).png</image>
     <video>./media/videos/[BIOS] Atari 7800 (Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - 7800/[BIOS] Atari 7800 (USA).zip</path>
+    <path>./[BIOS] Atari 7800 (USA).zip</path>
     <name>[BIOS] Atari 7800 (USA)</name>
     <image>./media/images/[BIOS] Atari 7800 (USA).png</image>
     <video>./media/videos/[BIOS] Atari 7800 (USA).mp4</video>

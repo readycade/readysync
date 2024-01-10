@@ -1,667 +1,667 @@
 <?xml version="1.0"?>
 <gameList>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/2020 Super Baseball (Japan) (En,Ja).zip</path>
+    <path>./2020 Super Baseball (Japan) (En,Ja).zip</path>
     <name>2020 Super Baseball (Japan) (En,Ja)</name>
     <image>./media/images/2020 Super Baseball (Japan) (En,Ja).png</image>
     <video>./media/videos/2020 Super Baseball (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/ADK World (Japan).zip</path>
+    <path>./ADK World (Japan).zip</path>
     <name>ADK World (Japan)</name>
     <image>./media/images/ADK World (Japan).png</image>
     <video>./media/videos/ADK World (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/ASO II - The Last Guardian ~ Alpha Mission II (Japan) (En,Ja).zip</path>
+    <path>./ASO II - The Last Guardian ~ Alpha Mission II (Japan) (En,Ja).zip</path>
     <name>ASO II - The Last Guardian ~ Alpha Mission II (Japan) (En,Ja)</name>
     <image>./media/images/ASO II - The Last Guardian ~ Alpha Mission II (Japan) (En,Ja).png</image>
     <video>./media/videos/ASO II - The Last Guardian ~ Alpha Mission II (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Andro Dunos (France) (Unl).zip</path>
+    <path>./Andro Dunos (France) (Unl).zip</path>
     <name>Andro Dunos (France) (Unl)</name>
     <image>./media/images/Andro Dunos (France) (Unl).png</image>
     <video>./media/videos/Andro Dunos (France) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Art of Fighting - Ryuuko no Ken Gaiden ~ The Path of the Warrior - Art of Fighting 3 (World) (En,Ja,Es,Pt).zip</path>
+    <path>./Art of Fighting - Ryuuko no Ken Gaiden ~ The Path of the Warrior - Art of Fighting 3 (World) (En,Ja,Es,Pt).zip</path>
     <name>Art of Fighting - Ryuuko no Ken Gaiden ~ The Path of the Warrior - Art of Fighting 3 (World) (En,Ja,Es,Pt)</name>
     <image>./media/images/Art of Fighting - Ryuuko no Ken Gaiden ~ The Path of the Warrior - Art of Fighting 3 (World) (En,Ja,Es,Pt).png</image>
     <video>./media/videos/Art of Fighting - Ryuuko no Ken Gaiden ~ The Path of the Warrior - Art of Fighting 3 (World) (En,Ja,Es,Pt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Bakumatsu Roman - Gekka no Kenshi ~ The Last Blade (Japan) (En,Ja,Es,Pt).zip</path>
+    <path>./Bakumatsu Roman - Gekka no Kenshi ~ The Last Blade (Japan) (En,Ja,Es,Pt).zip</path>
     <name>Bakumatsu Roman - Gekka no Kenshi ~ The Last Blade (Japan) (En,Ja,Es,Pt)</name>
     <image>./media/images/Bakumatsu Roman - Gekka no Kenshi ~ The Last Blade (Japan) (En,Ja,Es,Pt).png</image>
     <video>./media/videos/Bakumatsu Roman - Gekka no Kenshi ~ The Last Blade (Japan) (En,Ja,Es,Pt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Bakumatsu Roman Daini Maku - Gekka no Kenshi - Tsuki ni Saku Hana, Chiri Yuku Hana ~ The Last Blade 2 (Japan) (En,Ja,Es,Pt).zip</path>
+    <path>./Bakumatsu Roman Daini Maku - Gekka no Kenshi - Tsuki ni Saku Hana, Chiri Yuku Hana ~ The Last Blade 2 (Japan) (En,Ja,Es,Pt).zip</path>
     <name>Bakumatsu Roman Daini Maku - Gekka no Kenshi - Tsuki ni Saku Hana, Chiri Yuku Hana ~ The Last Blade 2 (Japan) (En,Ja,Es,Pt)</name>
     <image>./media/images/Bakumatsu Roman Daini Maku - Gekka no Kenshi - Tsuki ni Saku Hana, Chiri Yuku Hana ~ The Last Blade 2 (Japan) (En,Ja,Es,Pt).png</image>
     <video>./media/videos/Bakumatsu Roman Daini Maku - Gekka no Kenshi - Tsuki ni Saku Hana, Chiri Yuku Hana ~ The Last Blade 2 (Japan) (En,Ja,Es,Pt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Bang^2 Busters (France) (En,Ja) (Unl).zip</path>
+    <path>./Bang^2 Busters (France) (En,Ja) (Unl).zip</path>
     <name>Bang^2 Busters (France) (En,Ja) (Unl)</name>
     <image>./media/images/Bang^2 Busters (France) (En,Ja) (Unl).png</image>
     <video>./media/videos/Bang^2 Busters (France) (En,Ja) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Baseball Stars 2 (Japan) (En,Ja).zip</path>
+    <path>./Baseball Stars 2 (Japan) (En,Ja).zip</path>
     <name>Baseball Stars 2 (Japan) (En,Ja)</name>
     <image>./media/images/Baseball Stars 2 (Japan) (En,Ja).png</image>
     <video>./media/videos/Baseball Stars 2 (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Baseball Stars Professional (Japan) (En,Ja).zip</path>
+    <path>./Baseball Stars Professional (Japan) (En,Ja).zip</path>
     <name>Baseball Stars Professional (Japan) (En,Ja)</name>
     <image>./media/images/Baseball Stars Professional (Japan) (En,Ja).png</image>
     <video>./media/videos/Baseball Stars Professional (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Big Tournament Golf ~ Neo Turf Masters (Japan) (En,Ja).zip</path>
+    <path>./Big Tournament Golf ~ Neo Turf Masters (Japan) (En,Ja).zip</path>
     <name>Big Tournament Golf ~ Neo Turf Masters (Japan) (En,Ja)</name>
     <image>./media/images/Big Tournament Golf ~ Neo Turf Masters (Japan) (En,Ja).png</image>
     <video>./media/videos/Big Tournament Golf ~ Neo Turf Masters (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Breakers (Japan) (En,Ja).zip</path>
+    <path>./Breakers (Japan) (En,Ja).zip</path>
     <name>Breakers (Japan) (En,Ja)</name>
     <image>./media/images/Breakers (Japan) (En,Ja).png</image>
     <video>./media/videos/Breakers (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Burning Fight (Japan) (En,Ja).zip</path>
+    <path>./Burning Fight (Japan) (En,Ja).zip</path>
     <name>Burning Fight (Japan) (En,Ja)</name>
     <image>./media/images/Burning Fight (Japan) (En,Ja).png</image>
     <video>./media/videos/Burning Fight (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Choujin Gakuen - Gowcaizer (Japan) (En,Ja).zip</path>
+    <path>./Choujin Gakuen - Gowcaizer (Japan) (En,Ja).zip</path>
     <name>Choujin Gakuen - Gowcaizer (Japan) (En,Ja)</name>
     <image>./media/images/Choujin Gakuen - Gowcaizer (Japan) (En,Ja).png</image>
     <video>./media/videos/Choujin Gakuen - Gowcaizer (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Choutetsu Brikin'ger ~ Ironclad - Tesshou Rusha (Japan) (En,Ja).zip</path>
+    <path>./Choutetsu Brikin'ger ~ Ironclad - Tesshou Rusha (Japan) (En,Ja).zip</path>
     <name>Choutetsu Brikin'ger ~ Ironclad - Tesshou Rusha (Japan) (En,Ja)</name>
     <image>./media/images/Choutetsu Brikin'ger ~ Ironclad - Tesshou Rusha (Japan) (En,Ja).png</image>
     <video>./media/videos/Choutetsu Brikin'ger ~ Ironclad - Tesshou Rusha (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Crossed Swords (Japan).zip</path>
+    <path>./Crossed Swords (Japan).zip</path>
     <name>Crossed Swords (Japan)</name>
     <image>./media/images/Crossed Swords (Japan).png</image>
     <video>./media/videos/Crossed Swords (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Crossed Swords II (Japan) (En,Ja).zip</path>
+    <path>./Crossed Swords II (Japan) (En,Ja).zip</path>
     <name>Crossed Swords II (Japan) (En,Ja)</name>
     <image>./media/images/Crossed Swords II (Japan) (En,Ja).png</image>
     <video>./media/videos/Crossed Swords II (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Cyber-Lip (Japan) (En,Ja).zip</path>
+    <path>./Cyber-Lip (Japan) (En,Ja).zip</path>
     <name>Cyber-Lip (Japan) (En,Ja)</name>
     <image>./media/images/Cyber-Lip (Japan) (En,Ja).png</image>
     <video>./media/videos/Cyber-Lip (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Double Dragon (Export) (En,Ja).zip</path>
+    <path>./Double Dragon (Export) (En,Ja).zip</path>
     <name>Double Dragon (Export) (En,Ja)</name>
     <image>./media/images/Double Dragon (Export) (En,Ja).png</image>
     <video>./media/videos/Double Dragon (Export) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Double Dragon (Japan) (En,Ja) (Rev 1).zip</path>
+    <path>./Double Dragon (Japan) (En,Ja) (Rev 1).zip</path>
     <name>Double Dragon (Japan) (En,Ja) (Rev 1)</name>
     <image>./media/images/Double Dragon (Japan) (En,Ja) (Rev 1).png</image>
     <video>./media/videos/Double Dragon (Japan) (En,Ja) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Dunk Dream ~ Street Slam ~ Street Hoop (World).zip</path>
+    <path>./Dunk Dream ~ Street Slam ~ Street Hoop (World).zip</path>
     <name>Dunk Dream ~ Street Slam ~ Street Hoop (World)</name>
     <image>./media/images/Dunk Dream ~ Street Slam ~ Street Hoop (World).png</image>
     <video>./media/videos/Dunk Dream ~ Street Slam ~ Street Hoop (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Far East of Eden - Tengai Makyou Shinden ~ Far East of Eden - Kabuki Klash (Japan) (En,Ja).zip</path>
+    <path>./Far East of Eden - Tengai Makyou Shinden ~ Far East of Eden - Kabuki Klash (Japan) (En,Ja).zip</path>
     <name>Far East of Eden - Tengai Makyou Shinden ~ Far East of Eden - Kabuki Klash (Japan) (En,Ja)</name>
     <image>./media/images/Far East of Eden - Tengai Makyou Shinden ~ Far East of Eden - Kabuki Klash (Japan) (En,Ja).png</image>
     <video>./media/videos/Far East of Eden - Tengai Makyou Shinden ~ Far East of Eden - Kabuki Klash (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Fighter's History Dynamite ~ Karnov's Revenge (Japan) (En,Ja).zip</path>
+    <path>./Fighter's History Dynamite ~ Karnov's Revenge (Japan) (En,Ja).zip</path>
     <name>Fighter's History Dynamite ~ Karnov's Revenge (Japan) (En,Ja)</name>
     <image>./media/images/Fighter's History Dynamite ~ Karnov's Revenge (Japan) (En,Ja).png</image>
     <video>./media/videos/Fighter's History Dynamite ~ Karnov's Revenge (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Fire Suplex ~ 3 Count Bout (World) (En,Ja).zip</path>
+    <path>./Fire Suplex ~ 3 Count Bout (World) (En,Ja).zip</path>
     <name>Fire Suplex ~ 3 Count Bout (World) (En,Ja)</name>
     <image>./media/images/Fire Suplex ~ 3 Count Bout (World) (En,Ja).png</image>
     <video>./media/videos/Fire Suplex ~ 3 Count Bout (World) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Flying Power Disc ~ Windjammers (Japan) (En,Ja).zip</path>
+    <path>./Flying Power Disc ~ Windjammers (Japan) (En,Ja).zip</path>
     <name>Flying Power Disc ~ Windjammers (Japan) (En,Ja)</name>
     <image>./media/images/Flying Power Disc ~ Windjammers (Japan) (En,Ja).png</image>
     <video>./media/videos/Flying Power Disc ~ Windjammers (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Football Frenzy (Japan) (En,Ja).zip</path>
+    <path>./Football Frenzy (Japan) (En,Ja).zip</path>
     <name>Football Frenzy (Japan) (En,Ja)</name>
     <image>./media/images/Football Frenzy (Japan) (En,Ja).png</image>
     <video>./media/videos/Football Frenzy (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Futsal - 5 on 5 Mini Soccer ~ PleasureGoal - 5 on 5 Mini Soccer (Japan) (En,Ja).zip</path>
+    <path>./Futsal - 5 on 5 Mini Soccer ~ PleasureGoal - 5 on 5 Mini Soccer (Japan) (En,Ja).zip</path>
     <name>Futsal - 5 on 5 Mini Soccer ~ PleasureGoal - 5 on 5 Mini Soccer (Japan) (En,Ja)</name>
     <image>./media/images/Futsal - 5 on 5 Mini Soccer ~ PleasureGoal - 5 on 5 Mini Soccer (Japan) (En,Ja).png</image>
     <video>./media/videos/Futsal - 5 on 5 Mini Soccer ~ PleasureGoal - 5 on 5 Mini Soccer (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (Export) (En,Ja,Es,Pt) (Rev 1).zip</path>
+    <path>./Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (Export) (En,Ja,Es,Pt) (Rev 1).zip</path>
     <name>Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (Export) (En,Ja,Es,Pt) (Rev 1)</name>
     <image>./media/images/Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (Export) (En,Ja,Es,Pt) (Rev 1).png</image>
     <video>./media/videos/Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (Export) (En,Ja,Es,Pt) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (World) (En,Ja,Es,Pt).zip</path>
+    <path>./Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (World) (En,Ja,Es,Pt).zip</path>
     <name>Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (World) (En,Ja,Es,Pt)</name>
     <image>./media/images/Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (World) (En,Ja,Es,Pt).png</image>
     <video>./media/videos/Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (World) (En,Ja,Es,Pt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Galaxy Fight - Universal Warriors (Japan) (En,Ja,Es).zip</path>
+    <path>./Galaxy Fight - Universal Warriors (Japan) (En,Ja,Es).zip</path>
     <name>Galaxy Fight - Universal Warriors (Japan) (En,Ja,Es)</name>
     <image>./media/images/Galaxy Fight - Universal Warriors (Japan) (En,Ja,Es).png</image>
     <video>./media/videos/Galaxy Fight - Universal Warriors (Japan) (En,Ja,Es).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Garou Densetsu - Shukumei no Tatakai ~ Fatal Fury - King of Fighters (Japan) (En,Ja).zip</path>
+    <path>./Garou Densetsu - Shukumei no Tatakai ~ Fatal Fury - King of Fighters (Japan) (En,Ja).zip</path>
     <name>Garou Densetsu - Shukumei no Tatakai ~ Fatal Fury - King of Fighters (Japan) (En,Ja)</name>
     <image>./media/images/Garou Densetsu - Shukumei no Tatakai ~ Fatal Fury - King of Fighters (Japan) (En,Ja).png</image>
     <video>./media/videos/Garou Densetsu - Shukumei no Tatakai ~ Fatal Fury - King of Fighters (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Garou Densetsu 2 ~ Fatal Fury 2 (Japan) (En,Ja).zip</path>
+    <path>./Garou Densetsu 2 ~ Fatal Fury 2 (Japan) (En,Ja).zip</path>
     <name>Garou Densetsu 2 ~ Fatal Fury 2 (Japan) (En,Ja)</name>
     <image>./media/images/Garou Densetsu 2 ~ Fatal Fury 2 (Japan) (En,Ja).png</image>
     <video>./media/videos/Garou Densetsu 2 ~ Fatal Fury 2 (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Export) (En,Ja,Es,Pt) (Rev 2).zip</path>
+    <path>./Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Export) (En,Ja,Es,Pt) (Rev 2).zip</path>
     <name>Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Export) (En,Ja,Es,Pt) (Rev 2)</name>
     <image>./media/images/Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Export) (En,Ja,Es,Pt) (Rev 2).png</image>
     <video>./media/videos/Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Export) (En,Ja,Es,Pt) (Rev 2).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Export) (En,Ja,Es,Pt) (Rev 3).zip</path>
+    <path>./Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Export) (En,Ja,Es,Pt) (Rev 3).zip</path>
     <name>Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Export) (En,Ja,Es,Pt) (Rev 3)</name>
     <image>./media/images/Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Export) (En,Ja,Es,Pt) (Rev 3).png</image>
     <video>./media/videos/Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Export) (En,Ja,Es,Pt) (Rev 3).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Japan) (En,Ja,Es,Pt).zip</path>
+    <path>./Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Japan) (En,Ja,Es,Pt).zip</path>
     <name>Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Japan) (En,Ja,Es,Pt)</name>
     <image>./media/images/Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Japan) (En,Ja,Es,Pt).png</image>
     <video>./media/videos/Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (Japan) (En,Ja,Es,Pt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (World) (En,Ja,Es,Pt) (Rev 1).zip</path>
+    <path>./Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (World) (En,Ja,Es,Pt) (Rev 1).zip</path>
     <name>Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (World) (En,Ja,Es,Pt) (Rev 1)</name>
     <image>./media/images/Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (World) (En,Ja,Es,Pt) (Rev 1).png</image>
     <video>./media/videos/Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (World) (En,Ja,Es,Pt) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Garou Densetsu Special ~ Fatal Fury Special (Japan) (En,Ja).zip</path>
+    <path>./Garou Densetsu Special ~ Fatal Fury Special (Japan) (En,Ja).zip</path>
     <name>Garou Densetsu Special ~ Fatal Fury Special (Japan) (En,Ja)</name>
     <image>./media/images/Garou Densetsu Special ~ Fatal Fury Special (Japan) (En,Ja).png</image>
     <video>./media/videos/Garou Densetsu Special ~ Fatal Fury Special (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Garou Densetsu Special ~ Fatal Fury Special (World) (En,Ja) (Rev 1).zip</path>
+    <path>./Garou Densetsu Special ~ Fatal Fury Special (World) (En,Ja) (Rev 1).zip</path>
     <name>Garou Densetsu Special ~ Fatal Fury Special (World) (En,Ja) (Rev 1)</name>
     <image>./media/images/Garou Densetsu Special ~ Fatal Fury Special (World) (En,Ja) (Rev 1).png</image>
     <video>./media/videos/Garou Densetsu Special ~ Fatal Fury Special (World) (En,Ja) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Ghost Pilots (World).zip</path>
+    <path>./Ghost Pilots (World).zip</path>
     <name>Ghost Pilots (World)</name>
     <image>./media/images/Ghost Pilots (World).png</image>
     <video>./media/videos/Ghost Pilots (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Idol Mahjong - Final Romance 2 (Japan).zip</path>
+    <path>./Idol Mahjong - Final Romance 2 (Japan).zip</path>
     <name>Idol Mahjong - Final Romance 2 (Japan)</name>
     <image>./media/images/Idol Mahjong - Final Romance 2 (Japan).png</image>
     <video>./media/videos/Idol Mahjong - Final Romance 2 (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Janshin Densetsu - Quest of Jongmaster (Japan).zip</path>
+    <path>./Janshin Densetsu - Quest of Jongmaster (Japan).zip</path>
     <name>Janshin Densetsu - Quest of Jongmaster (Japan)</name>
     <image>./media/images/Janshin Densetsu - Quest of Jongmaster (Japan).png</image>
     <video>./media/videos/Janshin Densetsu - Quest of Jongmaster (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Joy Joy Kid ~ Puzzled (World) (En,Ja).zip</path>
+    <path>./Joy Joy Kid ~ Puzzled (World) (En,Ja).zip</path>
     <name>Joy Joy Kid ~ Puzzled (World) (En,Ja)</name>
     <image>./media/images/Joy Joy Kid ~ Puzzled (World) (En,Ja).png</image>
     <video>./media/videos/Joy Joy Kid ~ Puzzled (World) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/King of Fighters '94, The (World) (En,Ja) (Rev 1).zip</path>
+    <path>./King of Fighters '94, The (World) (En,Ja) (Rev 1).zip</path>
     <name>King of Fighters '94, The (World) (En,Ja) (Rev 1)</name>
     <image>./media/images/King of Fighters '94, The (World) (En,Ja) (Rev 1).png</image>
     <video>./media/videos/King of Fighters '94, The (World) (En,Ja) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/King of Fighters '94, The (World) (En,Ja).zip</path>
+    <path>./King of Fighters '94, The (World) (En,Ja).zip</path>
     <name>King of Fighters '94, The (World) (En,Ja)</name>
     <image>./media/images/King of Fighters '94, The (World) (En,Ja).png</image>
     <video>./media/videos/King of Fighters '94, The (World) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/King of Fighters '95, The (Japan) (En,Ja) (Rev 1).zip</path>
+    <path>./King of Fighters '95, The (Japan) (En,Ja) (Rev 1).zip</path>
     <name>King of Fighters '95, The (Japan) (En,Ja) (Rev 1)</name>
     <image>./media/images/King of Fighters '95, The (Japan) (En,Ja) (Rev 1).png</image>
     <video>./media/videos/King of Fighters '95, The (Japan) (En,Ja) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/King of Fighters '95, The (World) (En,Ja).zip</path>
+    <path>./King of Fighters '95, The (World) (En,Ja).zip</path>
     <name>King of Fighters '95, The (World) (En,Ja)</name>
     <image>./media/images/King of Fighters '95, The (World) (En,Ja).png</image>
     <video>./media/videos/King of Fighters '95, The (World) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/King of Fighters '96 NeoGeo Collection, The (Japan).zip</path>
+    <path>./King of Fighters '96 NeoGeo Collection, The (Japan).zip</path>
     <name>King of Fighters '96 NeoGeo Collection, The (Japan)</name>
     <image>./media/images/King of Fighters '96 NeoGeo Collection, The (Japan).png</image>
     <video>./media/videos/King of Fighters '96 NeoGeo Collection, The (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/King of Fighters '96, The (World) (En,Ja).zip</path>
+    <path>./King of Fighters '96, The (World) (En,Ja).zip</path>
     <name>King of Fighters '96, The (World) (En,Ja)</name>
     <image>./media/images/King of Fighters '96, The (World) (En,Ja).png</image>
     <video>./media/videos/King of Fighters '96, The (World) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/King of Fighters '97, The (Japan) (En,Ja).zip</path>
+    <path>./King of Fighters '97, The (Japan) (En,Ja).zip</path>
     <name>King of Fighters '97, The (Japan) (En,Ja)</name>
     <image>./media/images/King of Fighters '97, The (Japan) (En,Ja).png</image>
     <video>./media/videos/King of Fighters '97, The (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/King of Fighters '98, The - Dream Match Never Ends ~ The King of Fighters '98 - The Slugfest (Japan) (En,Ja).zip</path>
+    <path>./King of Fighters '98, The - Dream Match Never Ends ~ The King of Fighters '98 - The Slugfest (Japan) (En,Ja).zip</path>
     <name>King of Fighters '98, The - Dream Match Never Ends ~ The King of Fighters '98 - The Slugfest (Japan) (En,Ja)</name>
     <image>./media/images/King of Fighters '98, The - Dream Match Never Ends ~ The King of Fighters '98 - The Slugfest (Japan) (En,Ja).png</image>
     <video>./media/videos/King of Fighters '98, The - Dream Match Never Ends ~ The King of Fighters '98 - The Slugfest (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/King of Fighters '99, The ~ The King of Fighters '99 - Millennium Battle (World) (En,Ja,Es,Pt).zip</path>
+    <path>./King of Fighters '99, The ~ The King of Fighters '99 - Millennium Battle (World) (En,Ja,Es,Pt).zip</path>
     <name>King of Fighters '99, The ~ The King of Fighters '99 - Millennium Battle (World) (En,Ja,Es,Pt)</name>
     <image>./media/images/King of Fighters '99, The ~ The King of Fighters '99 - Millennium Battle (World) (En,Ja,Es,Pt).png</image>
     <video>./media/videos/King of Fighters '99, The ~ The King of Fighters '99 - Millennium Battle (World) (En,Ja,Es,Pt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Last Hope (Germany) (Unl).zip</path>
+    <path>./Last Hope (Germany) (Unl).zip</path>
     <name>Last Hope (Germany) (Unl)</name>
     <image>./media/images/Last Hope (Germany) (Unl).png</image>
     <video>./media/videos/Last Hope (Germany) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Last Resort (Japan) (En,Ja).zip</path>
+    <path>./Last Resort (Japan) (En,Ja).zip</path>
     <name>Last Resort (Japan) (En,Ja)</name>
     <image>./media/images/Last Resort (Japan) (En,Ja).png</image>
     <video>./media/videos/Last Resort (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/League Bowling (Japan) (En,Ja).zip</path>
+    <path>./League Bowling (Japan) (En,Ja).zip</path>
     <name>League Bowling (Japan) (En,Ja)</name>
     <image>./media/images/League Bowling (Japan) (En,Ja).png</image>
     <video>./media/videos/League Bowling (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Magical Drop 2 (Japan) (En,Ja).zip</path>
+    <path>./Magical Drop 2 (Japan) (En,Ja).zip</path>
     <name>Magical Drop 2 (Japan) (En,Ja)</name>
     <image>./media/images/Magical Drop 2 (Japan) (En,Ja).png</image>
     <video>./media/videos/Magical Drop 2 (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Magician Lord (Japan) (En,Ja).zip</path>
+    <path>./Magician Lord (Japan) (En,Ja).zip</path>
     <name>Magician Lord (Japan) (En,Ja)</name>
     <image>./media/images/Magician Lord (Japan) (En,Ja).png</image>
     <video>./media/videos/Magician Lord (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Mahjong-kyou Retsuden - Nishi Nihon-hen (Japan).zip</path>
+    <path>./Mahjong-kyou Retsuden - Nishi Nihon-hen (Japan).zip</path>
     <name>Mahjong-kyou Retsuden - Nishi Nihon-hen (Japan)</name>
     <image>./media/images/Mahjong-kyou Retsuden - Nishi Nihon-hen (Japan).png</image>
     <video>./media/videos/Mahjong-kyou Retsuden - Nishi Nihon-hen (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Metal Slug (Japan) (En,Ja).zip</path>
+    <path>./Metal Slug (Japan) (En,Ja).zip</path>
     <name>Metal Slug (Japan) (En,Ja)</name>
     <image>./media/images/Metal Slug (Japan) (En,Ja).png</image>
     <video>./media/videos/Metal Slug (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Metal Slug 2 (World) (En,Ja).zip</path>
+    <path>./Metal Slug 2 (World) (En,Ja).zip</path>
     <name>Metal Slug 2 (World) (En,Ja)</name>
     <image>./media/images/Metal Slug 2 (World) (En,Ja).png</image>
     <video>./media/videos/Metal Slug 2 (World) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Mutation Nation (Japan) (En,Ja).zip</path>
+    <path>./Mutation Nation (Japan) (En,Ja).zip</path>
     <name>Mutation Nation (Japan) (En,Ja)</name>
     <image>./media/images/Mutation Nation (Japan) (En,Ja).png</image>
     <video>./media/videos/Mutation Nation (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Nam-1975 (Japan) (En,Ja).zip</path>
+    <path>./Nam-1975 (Japan) (En,Ja).zip</path>
     <name>Nam-1975 (Japan) (En,Ja)</name>
     <image>./media/images/Nam-1975 (Japan) (En,Ja).png</image>
     <video>./media/videos/Nam-1975 (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Neo Drift Out - New Technology (Japan).zip</path>
+    <path>./Neo Drift Out - New Technology (Japan).zip</path>
     <name>Neo Drift Out - New Technology (Japan)</name>
     <image>./media/images/Neo Drift Out - New Technology (Japan).png</image>
     <video>./media/videos/Neo Drift Out - New Technology (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Neo-Geo CD Special (Japan).zip</path>
+    <path>./Neo-Geo CD Special (Japan).zip</path>
     <name>Neo-Geo CD Special (Japan)</name>
     <image>./media/images/Neo-Geo CD Special (Japan).png</image>
     <video>./media/videos/Neo-Geo CD Special (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Next Thing, The - King of the Monsters 2 (World) (En,Ja).zip</path>
+    <path>./Next Thing, The - King of the Monsters 2 (World) (En,Ja).zip</path>
     <name>Next Thing, The - King of the Monsters 2 (World) (En,Ja)</name>
     <image>./media/images/Next Thing, The - King of the Monsters 2 (World) (En,Ja).png</image>
     <video>./media/videos/Next Thing, The - King of the Monsters 2 (World) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Ninja Combat (Japan) (En,Ja).zip</path>
+    <path>./Ninja Combat (Japan) (En,Ja).zip</path>
     <name>Ninja Combat (Japan) (En,Ja)</name>
     <image>./media/images/Ninja Combat (Japan) (En,Ja).png</image>
     <video>./media/videos/Ninja Combat (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Ninja Commando (Japan) (En,Ja).zip</path>
+    <path>./Ninja Commando (Japan) (En,Ja).zip</path>
     <name>Ninja Commando (Japan) (En,Ja)</name>
     <image>./media/images/Ninja Commando (Japan) (En,Ja).png</image>
     <video>./media/videos/Ninja Commando (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Ninja Master's - Haou Ninpou Chou (Japan) (En,Ja).zip</path>
+    <path>./Ninja Master's - Haou Ninpou Chou (Japan) (En,Ja).zip</path>
     <name>Ninja Master's - Haou Ninpou Chou (Japan) (En,Ja)</name>
     <image>./media/images/Ninja Master's - Haou Ninpou Chou (Japan) (En,Ja).png</image>
     <video>./media/videos/Ninja Master's - Haou Ninpou Chou (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Oshidashi Zintrick ~ ZinTricK (Japan) (En,Ja).zip</path>
+    <path>./Oshidashi Zintrick ~ ZinTricK (Japan) (En,Ja).zip</path>
     <name>Oshidashi Zintrick ~ ZinTricK (Japan) (En,Ja)</name>
     <image>./media/images/Oshidashi Zintrick ~ ZinTricK (Japan) (En,Ja).png</image>
     <video>./media/videos/Oshidashi Zintrick ~ ZinTricK (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/OverTop (Japan) (En,Ja).zip</path>
+    <path>./OverTop (Japan) (En,Ja).zip</path>
     <name>OverTop (Japan) (En,Ja)</name>
     <image>./media/images/OverTop (Japan) (En,Ja).png</image>
     <video>./media/videos/OverTop (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Power Spikes II (Japan) (En,Ja).zip</path>
+    <path>./Power Spikes II (Japan) (En,Ja).zip</path>
     <name>Power Spikes II (Japan) (En,Ja)</name>
     <image>./media/images/Power Spikes II (Japan) (En,Ja).png</image>
     <video>./media/videos/Power Spikes II (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Pulstar (Japan) (En,Ja).zip</path>
+    <path>./Pulstar (Japan) (En,Ja).zip</path>
     <name>Pulstar (Japan) (En,Ja)</name>
     <image>./media/images/Pulstar (Japan) (En,Ja).png</image>
     <video>./media/videos/Pulstar (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Puzzle Bobble ~ Bust-A-Move (Japan) (En,Ja).zip</path>
+    <path>./Puzzle Bobble ~ Bust-A-Move (Japan) (En,Ja).zip</path>
     <name>Puzzle Bobble ~ Bust-A-Move (Japan) (En,Ja)</name>
     <image>./media/images/Puzzle Bobble ~ Bust-A-Move (Japan) (En,Ja).png</image>
     <video>./media/videos/Puzzle Bobble ~ Bust-A-Move (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Quiz King of Fighters (Japan).zip</path>
+    <path>./Quiz King of Fighters (Japan).zip</path>
     <name>Quiz King of Fighters (Japan)</name>
     <image>./media/images/Quiz King of Fighters (Japan).png</image>
     <video>./media/videos/Quiz King of Fighters (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/RB2 - The Newcomers - Real Bout Garou Densetsu 2 ~ RB2 - The Newcomers - Real Bout Fatal Fury 2 (Japan) (En,Ja).zip</path>
+    <path>./RB2 - The Newcomers - Real Bout Garou Densetsu 2 ~ RB2 - The Newcomers - Real Bout Fatal Fury 2 (Japan) (En,Ja).zip</path>
     <name>RB2 - The Newcomers - Real Bout Garou Densetsu 2 ~ RB2 - The Newcomers - Real Bout Fatal Fury 2 (Japan) (En,Ja)</name>
     <image>./media/images/RB2 - The Newcomers - Real Bout Garou Densetsu 2 ~ RB2 - The Newcomers - Real Bout Fatal Fury 2 (Japan) (En,Ja).png</image>
     <video>./media/videos/RB2 - The Newcomers - Real Bout Garou Densetsu 2 ~ RB2 - The Newcomers - Real Bout Fatal Fury 2 (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Raguy ~ Blue's Journey (Japan) (En,Ja).zip</path>
+    <path>./Raguy ~ Blue's Journey (Japan) (En,Ja).zip</path>
     <name>Raguy ~ Blue's Journey (Japan) (En,Ja)</name>
     <image>./media/images/Raguy ~ Blue's Journey (Japan) (En,Ja).png</image>
     <video>./media/videos/Raguy ~ Blue's Journey (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Rally Chase (Japan) (En,Ja).zip</path>
+    <path>./Rally Chase (Japan) (En,Ja).zip</path>
     <name>Rally Chase (Japan) (En,Ja)</name>
     <image>./media/images/Rally Chase (Japan) (En,Ja).png</image>
     <video>./media/videos/Rally Chase (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Real Bout Garou Densetsu Special ~ Real Bout Fatal Fury Special (World) (En,Ja,Es,Pt).zip</path>
+    <path>./Real Bout Garou Densetsu Special ~ Real Bout Fatal Fury Special (World) (En,Ja,Es,Pt).zip</path>
     <name>Real Bout Garou Densetsu Special ~ Real Bout Fatal Fury Special (World) (En,Ja,Es,Pt)</name>
     <image>./media/images/Real Bout Garou Densetsu Special ~ Real Bout Fatal Fury Special (World) (En,Ja,Es,Pt).png</image>
     <video>./media/videos/Real Bout Garou Densetsu Special ~ Real Bout Fatal Fury Special (World) (En,Ja,Es,Pt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Real Bout Garou Densetsu ~ Real Bout Fatal Fury (World) (En,Ja,Es,Pt).zip</path>
+    <path>./Real Bout Garou Densetsu ~ Real Bout Fatal Fury (World) (En,Ja,Es,Pt).zip</path>
     <name>Real Bout Garou Densetsu ~ Real Bout Fatal Fury (World) (En,Ja,Es,Pt)</name>
     <image>./media/images/Real Bout Garou Densetsu ~ Real Bout Fatal Fury (World) (En,Ja,Es,Pt).png</image>
     <video>./media/videos/Real Bout Garou Densetsu ~ Real Bout Fatal Fury (World) (En,Ja,Es,Pt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Riding Hero (Japan) (En,Ja).zip</path>
+    <path>./Riding Hero (Japan) (En,Ja).zip</path>
     <name>Riding Hero (Japan) (En,Ja)</name>
     <image>./media/images/Riding Hero (Japan) (En,Ja).png</image>
     <video>./media/videos/Riding Hero (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Robo Army (Japan) (En,Ja).zip</path>
+    <path>./Robo Army (Japan) (En,Ja).zip</path>
     <name>Robo Army (Japan) (En,Ja)</name>
     <image>./media/images/Robo Army (Japan) (En,Ja).png</image>
     <video>./media/videos/Robo Army (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Ryuuko no Ken 2 ~ Art of Fighting 2 (World) (En,Ja,Es).zip</path>
+    <path>./Ryuuko no Ken 2 ~ Art of Fighting 2 (World) (En,Ja,Es).zip</path>
     <name>Ryuuko no Ken 2 ~ Art of Fighting 2 (World) (En,Ja,Es)</name>
     <image>./media/images/Ryuuko no Ken 2 ~ Art of Fighting 2 (World) (En,Ja,Es).png</image>
     <video>./media/videos/Ryuuko no Ken 2 ~ Art of Fighting 2 (World) (En,Ja,Es).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Ryuuko no Ken ~ Art of Fighting (World) (En,Ja,Es).zip</path>
+    <path>./Ryuuko no Ken ~ Art of Fighting (World) (En,Ja,Es).zip</path>
     <name>Ryuuko no Ken ~ Art of Fighting (World) (En,Ja,Es)</name>
     <image>./media/images/Ryuuko no Ken ~ Art of Fighting (World) (En,Ja,Es).png</image>
     <video>./media/videos/Ryuuko no Ken ~ Art of Fighting (World) (En,Ja,Es).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Samurai Spirits - Amakusa Kourin ~ Samurai Shodown IV - Amakusa's Revenge (World) (En,Ja,Es,Pt).zip</path>
+    <path>./Samurai Spirits - Amakusa Kourin ~ Samurai Shodown IV - Amakusa's Revenge (World) (En,Ja,Es,Pt).zip</path>
     <name>Samurai Spirits - Amakusa Kourin ~ Samurai Shodown IV - Amakusa's Revenge (World) (En,Ja,Es,Pt)</name>
     <image>./media/images/Samurai Spirits - Amakusa Kourin ~ Samurai Shodown IV - Amakusa's Revenge (World) (En,Ja,Es,Pt).png</image>
     <video>./media/videos/Samurai Spirits - Amakusa Kourin ~ Samurai Shodown IV - Amakusa's Revenge (World) (En,Ja,Es,Pt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Samurai Spirits - Zankurou Musouken ~ Samurai Shodown III (World) (En,Ja,Es,Pt).zip</path>
+    <path>./Samurai Spirits - Zankurou Musouken ~ Samurai Shodown III (World) (En,Ja,Es,Pt).zip</path>
     <name>Samurai Spirits - Zankurou Musouken ~ Samurai Shodown III (World) (En,Ja,Es,Pt)</name>
     <image>./media/images/Samurai Spirits - Zankurou Musouken ~ Samurai Shodown III (World) (En,Ja,Es,Pt).png</image>
     <video>./media/videos/Samurai Spirits - Zankurou Musouken ~ Samurai Shodown III (World) (En,Ja,Es,Pt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Samurai Spirits ~ Samurai Shodown (Japan) (En,Ja).zip</path>
+    <path>./Samurai Spirits ~ Samurai Shodown (Japan) (En,Ja).zip</path>
     <name>Samurai Spirits ~ Samurai Shodown (Japan) (En,Ja)</name>
     <image>./media/images/Samurai Spirits ~ Samurai Shodown (Japan) (En,Ja).png</image>
     <video>./media/videos/Samurai Spirits ~ Samurai Shodown (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Sengoku Denshou 2 ~ Sengoku 2 (Japan) (En,Ja).zip</path>
+    <path>./Sengoku Denshou 2 ~ Sengoku 2 (Japan) (En,Ja).zip</path>
     <name>Sengoku Denshou 2 ~ Sengoku 2 (Japan) (En,Ja)</name>
     <image>./media/images/Sengoku Denshou 2 ~ Sengoku 2 (Japan) (En,Ja).png</image>
     <video>./media/videos/Sengoku Denshou 2 ~ Sengoku 2 (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Sengoku Denshou ~ Sengoku (Japan) (En,Ja).zip</path>
+    <path>./Sengoku Denshou ~ Sengoku (Japan) (En,Ja).zip</path>
     <name>Sengoku Denshou ~ Sengoku (Japan) (En,Ja)</name>
     <image>./media/images/Sengoku Denshou ~ Sengoku (Japan) (En,Ja).png</image>
     <video>./media/videos/Sengoku Denshou ~ Sengoku (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Shin Samurai Spirits - Haoumaru Jigokuhen ~ Samurai Shodown II (World) (En,Ja).zip</path>
+    <path>./Shin Samurai Spirits - Haoumaru Jigokuhen ~ Samurai Shodown II (World) (En,Ja).zip</path>
     <name>Shin Samurai Spirits - Haoumaru Jigokuhen ~ Samurai Shodown II (World) (En,Ja)</name>
     <image>./media/images/Shin Samurai Spirits - Haoumaru Jigokuhen ~ Samurai Shodown II (World) (En,Ja).png</image>
     <video>./media/videos/Shin Samurai Spirits - Haoumaru Jigokuhen ~ Samurai Shodown II (World) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Shinouken ~ Ragnagard (Japan) (En,Ja,Es).zip</path>
+    <path>./Shinouken ~ Ragnagard (Japan) (En,Ja,Es).zip</path>
     <name>Shinouken ~ Ragnagard (Japan) (En,Ja,Es)</name>
     <image>./media/images/Shinouken ~ Ragnagard (Japan) (En,Ja,Es).png</image>
     <video>./media/videos/Shinouken ~ Ragnagard (Japan) (En,Ja,Es).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Shinsetsu Samurai Spirits - Bushidou Retsuden (Japan).zip</path>
+    <path>./Shinsetsu Samurai Spirits - Bushidou Retsuden (Japan).zip</path>
     <name>Shinsetsu Samurai Spirits - Bushidou Retsuden (Japan)</name>
     <image>./media/images/Shinsetsu Samurai Spirits - Bushidou Retsuden (Japan).png</image>
     <video>./media/videos/Shinsetsu Samurai Spirits - Bushidou Retsuden (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Shougi no Tatsujin - Master of Syougi (Japan).zip</path>
+    <path>./Shougi no Tatsujin - Master of Syougi (Japan).zip</path>
     <name>Shougi no Tatsujin - Master of Syougi (Japan)</name>
     <image>./media/images/Shougi no Tatsujin - Master of Syougi (Japan).png</image>
     <video>./media/videos/Shougi no Tatsujin - Master of Syougi (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Soccer Brawl (World).zip</path>
+    <path>./Soccer Brawl (World).zip</path>
     <name>Soccer Brawl (World)</name>
     <image>./media/images/Soccer Brawl (World).png</image>
     <video>./media/videos/Soccer Brawl (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Sonic Wings 2 ~ Aero Fighters 2 (World) (En,Ja).zip</path>
+    <path>./Sonic Wings 2 ~ Aero Fighters 2 (World) (En,Ja).zip</path>
     <name>Sonic Wings 2 ~ Aero Fighters 2 (World) (En,Ja)</name>
     <image>./media/images/Sonic Wings 2 ~ Aero Fighters 2 (World) (En,Ja).png</image>
     <video>./media/videos/Sonic Wings 2 ~ Aero Fighters 2 (World) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Sonic Wings 3 ~ Aero Fighters 3 (Japan) (En,Ja).zip</path>
+    <path>./Sonic Wings 3 ~ Aero Fighters 3 (Japan) (En,Ja).zip</path>
     <name>Sonic Wings 3 ~ Aero Fighters 3 (Japan) (En,Ja)</name>
     <image>./media/images/Sonic Wings 3 ~ Aero Fighters 3 (Japan) (En,Ja).png</image>
     <video>./media/videos/Sonic Wings 3 ~ Aero Fighters 3 (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Stakes Winner - GI Kanzen Seiha e no Michi (Japan).zip</path>
+    <path>./Stakes Winner - GI Kanzen Seiha e no Michi (Japan).zip</path>
     <name>Stakes Winner - GI Kanzen Seiha e no Michi (Japan)</name>
     <image>./media/images/Stakes Winner - GI Kanzen Seiha e no Michi (Japan).png</image>
     <video>./media/videos/Stakes Winner - GI Kanzen Seiha e no Michi (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Super Sidekicks - Tokuten-ou (Japan) (En,Ja).zip</path>
+    <path>./Super Sidekicks - Tokuten-ou (Japan) (En,Ja).zip</path>
     <name>Super Sidekicks - Tokuten-ou (Japan) (En,Ja)</name>
     <image>./media/images/Super Sidekicks - Tokuten-ou (Japan) (En,Ja).png</image>
     <video>./media/videos/Super Sidekicks - Tokuten-ou (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Super Spy, The (Japan) (En,Ja).zip</path>
+    <path>./Super Spy, The (Japan) (En,Ja).zip</path>
     <name>Super Spy, The (Japan) (En,Ja)</name>
     <image>./media/images/Super Spy, The (Japan) (En,Ja).png</image>
     <video>./media/videos/Super Spy, The (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Tokuten-ou 2 ~ Super Sidekicks 2 - The World Championship (Japan) (En,Ja,Es).zip</path>
+    <path>./Tokuten-ou 2 ~ Super Sidekicks 2 - The World Championship (Japan) (En,Ja,Es).zip</path>
     <name>Tokuten-ou 2 ~ Super Sidekicks 2 - The World Championship (Japan) (En,Ja,Es)</name>
     <image>./media/images/Tokuten-ou 2 ~ Super Sidekicks 2 - The World Championship (Japan) (En,Ja,Es).png</image>
     <video>./media/videos/Tokuten-ou 2 ~ Super Sidekicks 2 - The World Championship (Japan) (En,Ja,Es).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Tokuten-ou 3 - Eikou e no Chousen ~ Super Sidekicks 3 - The Next Glory (World) (En,Ja,Fr,Es,It,Pt).zip</path>
+    <path>./Tokuten-ou 3 - Eikou e no Chousen ~ Super Sidekicks 3 - The Next Glory (World) (En,Ja,Fr,Es,It,Pt).zip</path>
     <name>Tokuten-ou 3 - Eikou e no Chousen ~ Super Sidekicks 3 - The Next Glory (World) (En,Ja,Fr,Es,It,Pt)</name>
     <image>./media/images/Tokuten-ou 3 - Eikou e no Chousen ~ Super Sidekicks 3 - The Next Glory (World) (En,Ja,Fr,Es,It,Pt).png</image>
     <video>./media/videos/Tokuten-ou 3 - Eikou e no Chousen ~ Super Sidekicks 3 - The Next Glory (World) (En,Ja,Fr,Es,It,Pt).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Top Hunter - Roddy &amp; Cathy (Japan) (En,Ja).zip</path>
+    <path>./Top Hunter - Roddy &amp; Cathy (Japan) (En,Ja).zip</path>
     <name>Top Hunter - Roddy &amp; Cathy (Japan) (En,Ja)</name>
     <image>./media/images/Top Hunter - Roddy &amp; Cathy (Japan) (En,Ja).png</image>
     <video>./media/videos/Top Hunter - Roddy &amp; Cathy (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Top Player's Golf (Japan) (En,Ja).zip</path>
+    <path>./Top Player's Golf (Japan) (En,Ja).zip</path>
     <name>Top Player's Golf (Japan) (En,Ja)</name>
     <image>./media/images/Top Player's Golf (Japan) (En,Ja).png</image>
     <video>./media/videos/Top Player's Golf (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Treasure of the Caribbean (France) (En,Ja) (Unl).zip</path>
+    <path>./Treasure of the Caribbean (France) (En,Ja) (Unl).zip</path>
     <name>Treasure of the Caribbean (France) (En,Ja) (Unl)</name>
     <image>./media/images/Treasure of the Caribbean (France) (En,Ja) (Unl).png</image>
     <video>./media/videos/Treasure of the Caribbean (France) (En,Ja) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Tsuukai Gangan Koushinkyoku ~ Aggressors of Dark Kombat (World) (En,Ja).zip</path>
+    <path>./Tsuukai Gangan Koushinkyoku ~ Aggressors of Dark Kombat (World) (En,Ja).zip</path>
     <name>Tsuukai Gangan Koushinkyoku ~ Aggressors of Dark Kombat (World) (En,Ja)</name>
     <image>./media/images/Tsuukai Gangan Koushinkyoku ~ Aggressors of Dark Kombat (World) (En,Ja).png</image>
     <video>./media/videos/Tsuukai Gangan Koushinkyoku ~ Aggressors of Dark Kombat (World) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Twinkle Star Sprites (Japan) (En,Ja).zip</path>
+    <path>./Twinkle Star Sprites (Japan) (En,Ja).zip</path>
     <name>Twinkle Star Sprites (Japan) (En,Ja)</name>
     <image>./media/images/Twinkle Star Sprites (Japan) (En,Ja).png</image>
     <video>./media/videos/Twinkle Star Sprites (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Viewpoint (Japan).zip</path>
+    <path>./Viewpoint (Japan).zip</path>
     <name>Viewpoint (Japan)</name>
     <image>./media/images/Viewpoint (Japan).png</image>
     <video>./media/videos/Viewpoint (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/World Heroes (Japan) (En,Ja).zip</path>
+    <path>./World Heroes (Japan) (En,Ja).zip</path>
     <name>World Heroes (Japan) (En,Ja)</name>
     <image>./media/images/World Heroes (Japan) (En,Ja).png</image>
     <video>./media/videos/World Heroes (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/World Heroes 2 (Japan) (En,Ja).zip</path>
+    <path>./World Heroes 2 (Japan) (En,Ja).zip</path>
     <name>World Heroes 2 (Japan) (En,Ja)</name>
     <image>./media/images/World Heroes 2 (Japan) (En,Ja).png</image>
     <video>./media/videos/World Heroes 2 (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/World Heroes 2 Jet (Japan) (En,Ja).zip</path>
+    <path>./World Heroes 2 Jet (Japan) (En,Ja).zip</path>
     <name>World Heroes 2 Jet (Japan) (En,Ja)</name>
     <image>./media/images/World Heroes 2 Jet (Japan) (En,Ja).png</image>
     <video>./media/videos/World Heroes 2 Jet (Japan) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/World Heroes Perfect (Export) (En,Ja) (Rev 1).zip</path>
+    <path>./World Heroes Perfect (Export) (En,Ja) (Rev 1).zip</path>
     <name>World Heroes Perfect (Export) (En,Ja) (Rev 1)</name>
     <image>./media/images/World Heroes Perfect (Export) (En,Ja) (Rev 1).png</image>
     <video>./media/videos/World Heroes Perfect (Export) (En,Ja) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/World Heroes Perfect (World) (En,Ja).zip</path>
+    <path>./World Heroes Perfect (World) (En,Ja).zip</path>
     <name>World Heroes Perfect (World) (En,Ja)</name>
     <image>./media/images/World Heroes Perfect (World) (En,Ja).png</image>
     <video>./media/videos/World Heroes Perfect (World) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/Redump/SNK - Neo Geo CD/Xeno Crisis (World) (Unl).zip</path>
+    <path>./Xeno Crisis (World) (Unl).zip</path>
     <name>Xeno Crisis (World) (Unl)</name>
     <image>./media/images/Xeno Crisis (World) (Unl).png</image>
     <video>./media/videos/Xeno Crisis (World) (Unl).mp4</video>

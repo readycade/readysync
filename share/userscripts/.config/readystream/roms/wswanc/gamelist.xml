@@ -1,697 +1,697 @@
 <?xml version="1.0"?>
 <gameList>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Alchemist Marie &amp; Elie - Futari no Atelier (Japan).zip</path>
+    <path>./Alchemist Marie &amp; Elie - Futari no Atelier (Japan).zip</path>
     <name>Alchemist Marie &amp; Elie - Futari no Atelier (Japan)</name>
     <image>./media/images/Alchemist Marie &amp; Elie - Futari no Atelier (Japan).png</image>
     <video>./media/videos/Alchemist Marie &amp; Elie - Futari no Atelier (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Another Heaven - Memory of those Days (Japan).zip</path>
+    <path>./Another Heaven - Memory of those Days (Japan).zip</path>
     <name>Another Heaven - Memory of those Days (Japan)</name>
     <image>./media/images/Another Heaven - Memory of those Days (Japan).png</image>
     <video>./media/videos/Another Heaven - Memory of those Days (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Arc the Lad - Kishin Fukkatsu (Japan).zip</path>
+    <path>./Arc the Lad - Kishin Fukkatsu (Japan).zip</path>
     <name>Arc the Lad - Kishin Fukkatsu (Japan)</name>
     <image>./media/images/Arc the Lad - Kishin Fukkatsu (Japan).png</image>
     <video>./media/videos/Arc the Lad - Kishin Fukkatsu (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Battle Spirit - Digimon Frontier (Japan) (Rev 1).zip</path>
+    <path>./Battle Spirit - Digimon Frontier (Japan) (Rev 1).zip</path>
     <name>Battle Spirit - Digimon Frontier (Japan) (Rev 1)</name>
     <image>./media/images/Battle Spirit - Digimon Frontier (Japan) (Rev 1).png</image>
     <video>./media/videos/Battle Spirit - Digimon Frontier (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Blue Wing Blitz (Japan).zip</path>
+    <path>./Blue Wing Blitz (Japan).zip</path>
     <name>Blue Wing Blitz (Japan)</name>
     <image>./media/images/Blue Wing Blitz (Japan).png</image>
     <video>./media/videos/Blue Wing Blitz (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Dark Eyes - Battle Gate (Japan).zip</path>
+    <path>./Dark Eyes - Battle Gate (Japan).zip</path>
     <name>Dark Eyes - Battle Gate (Japan)</name>
     <image>./media/images/Dark Eyes - Battle Gate (Japan).png</image>
     <video>./media/videos/Dark Eyes - Battle Gate (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Dicing Knight. (Japan).zip</path>
+    <path>./Dicing Knight. (Japan).zip</path>
     <name>Dicing Knight. (Japan)</name>
     <image>./media/images/Dicing Knight. (Japan).png</image>
     <video>./media/videos/Dicing Knight. (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Digimon - Anode Tamer &amp; Cathode Tamer - Veedramon Version (Hong Kong) (En).zip</path>
+    <path>./Digimon - Anode Tamer &amp; Cathode Tamer - Veedramon Version (Hong Kong) (En).zip</path>
     <name>Digimon - Anode Tamer &amp; Cathode Tamer - Veedramon Version (Hong Kong) (En)</name>
     <image>./media/images/Digimon - Anode Tamer &amp; Cathode Tamer - Veedramon Version (Hong Kong) (En).png</image>
     <video>./media/videos/Digimon - Anode Tamer &amp; Cathode Tamer - Veedramon Version (Hong Kong) (En).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Digimon - Anode Tamer &amp; Cathode Tamer - Veedramon Version (Korea) (En).zip</path>
+    <path>./Digimon - Anode Tamer &amp; Cathode Tamer - Veedramon Version (Korea) (En).zip</path>
     <name>Digimon - Anode Tamer &amp; Cathode Tamer - Veedramon Version (Korea) (En)</name>
     <image>./media/images/Digimon - Anode Tamer &amp; Cathode Tamer - Veedramon Version (Korea) (En).png</image>
     <video>./media/videos/Digimon - Anode Tamer &amp; Cathode Tamer - Veedramon Version (Korea) (En).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Digimon Adventure 02 - D1 Tamers (Japan) (Rev 1).zip</path>
+    <path>./Digimon Adventure 02 - D1 Tamers (Japan) (Rev 1).zip</path>
     <name>Digimon Adventure 02 - D1 Tamers (Japan) (Rev 1)</name>
     <image>./media/images/Digimon Adventure 02 - D1 Tamers (Japan) (Rev 1).png</image>
     <video>./media/videos/Digimon Adventure 02 - D1 Tamers (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Digimon Adventure 02 - D1 Tamers (Japan).zip</path>
+    <path>./Digimon Adventure 02 - D1 Tamers (Japan).zip</path>
     <name>Digimon Adventure 02 - D1 Tamers (Japan)</name>
     <image>./media/images/Digimon Adventure 02 - D1 Tamers (Japan).png</image>
     <video>./media/videos/Digimon Adventure 02 - D1 Tamers (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Digimon Tamers - Battle Spirit (Japan, Korea) (En,Ja).zip</path>
+    <path>./Digimon Tamers - Battle Spirit (Japan, Korea) (En,Ja).zip</path>
     <name>Digimon Tamers - Battle Spirit (Japan, Korea) (En,Ja)</name>
     <image>./media/images/Digimon Tamers - Battle Spirit (Japan, Korea) (En,Ja).png</image>
     <video>./media/videos/Digimon Tamers - Battle Spirit (Japan, Korea) (En,Ja).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Digimon Tamers - Battle Spirit Ver. 1.5 (Japan).zip</path>
+    <path>./Digimon Tamers - Battle Spirit Ver. 1.5 (Japan).zip</path>
     <name>Digimon Tamers - Battle Spirit Ver. 1.5 (Japan)</name>
     <image>./media/images/Digimon Tamers - Battle Spirit Ver. 1.5 (Japan).png</image>
     <video>./media/videos/Digimon Tamers - Battle Spirit Ver. 1.5 (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Digimon Tamers - Brave Tamer (Japan) (Rev 1).zip</path>
+    <path>./Digimon Tamers - Brave Tamer (Japan) (Rev 1).zip</path>
     <name>Digimon Tamers - Brave Tamer (Japan) (Rev 1)</name>
     <image>./media/images/Digimon Tamers - Brave Tamer (Japan) (Rev 1).png</image>
     <video>./media/videos/Digimon Tamers - Brave Tamer (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Digimon Tamers - Digimon Medley (Japan) (Rev 1).zip</path>
+    <path>./Digimon Tamers - Digimon Medley (Japan) (Rev 1).zip</path>
     <name>Digimon Tamers - Digimon Medley (Japan) (Rev 1)</name>
     <image>./media/images/Digimon Tamers - Digimon Medley (Japan) (Rev 1).png</image>
     <video>./media/videos/Digimon Tamers - Digimon Medley (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Digimon Tamers - Digimon Medley (Japan).zip</path>
+    <path>./Digimon Tamers - Digimon Medley (Japan).zip</path>
     <name>Digimon Tamers - Digimon Medley (Japan)</name>
     <image>./media/images/Digimon Tamers - Digimon Medley (Japan).png</image>
     <video>./media/videos/Digimon Tamers - Digimon Medley (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Digital Monster - D-Project (Japan) (Rev 1).zip</path>
+    <path>./Digital Monster - D-Project (Japan) (Rev 1).zip</path>
     <name>Digital Monster - D-Project (Japan) (Rev 1)</name>
     <image>./media/images/Digital Monster - D-Project (Japan) (Rev 1).png</image>
     <video>./media/videos/Digital Monster - D-Project (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Digital Monster - D-Project (Japan) (Rev 2).zip</path>
+    <path>./Digital Monster - D-Project (Japan) (Rev 2).zip</path>
     <name>Digital Monster - D-Project (Japan) (Rev 2)</name>
     <image>./media/images/Digital Monster - D-Project (Japan) (Rev 2).png</image>
     <video>./media/videos/Digital Monster - D-Project (Japan) (Rev 2).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Digital Monster - D-Project (Japan).zip</path>
+    <path>./Digital Monster - D-Project (Japan).zip</path>
     <name>Digital Monster - D-Project (Japan)</name>
     <image>./media/images/Digital Monster - D-Project (Japan).png</image>
     <video>./media/videos/Digital Monster - D-Project (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Digital Monster Card Game - Ver. WonderSwan Color (Japan) (Rev 2).zip</path>
+    <path>./Digital Monster Card Game - Ver. WonderSwan Color (Japan) (Rev 2).zip</path>
     <name>Digital Monster Card Game - Ver. WonderSwan Color (Japan) (Rev 2)</name>
     <image>./media/images/Digital Monster Card Game - Ver. WonderSwan Color (Japan) (Rev 2).png</image>
     <video>./media/videos/Digital Monster Card Game - Ver. WonderSwan Color (Japan) (Rev 2).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Digital Monster Card Game - Ver. WonderSwan Color (Japan).zip</path>
+    <path>./Digital Monster Card Game - Ver. WonderSwan Color (Japan).zip</path>
     <name>Digital Monster Card Game - Ver. WonderSwan Color (Japan)</name>
     <image>./media/images/Digital Monster Card Game - Ver. WonderSwan Color (Japan).png</image>
     <video>./media/videos/Digital Monster Card Game - Ver. WonderSwan Color (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Dokodemo Hamster 3 - Odekake Saffron (Japan) (Rev 2).zip</path>
+    <path>./Dokodemo Hamster 3 - Odekake Saffron (Japan) (Rev 2).zip</path>
     <name>Dokodemo Hamster 3 - Odekake Saffron (Japan) (Rev 2)</name>
     <image>./media/images/Dokodemo Hamster 3 - Odekake Saffron (Japan) (Rev 2).png</image>
     <video>./media/videos/Dokodemo Hamster 3 - Odekake Saffron (Japan) (Rev 2).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Dragon Ball (Japan).zip</path>
+    <path>./Dragon Ball (Japan).zip</path>
     <name>Dragon Ball (Japan)</name>
     <image>./media/images/Dragon Ball (Japan).png</image>
     <video>./media/videos/Dragon Ball (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Final Fantasy (Japan).zip</path>
+    <path>./Final Fantasy (Japan).zip</path>
     <name>Final Fantasy (Japan)</name>
     <image>./media/images/Final Fantasy (Japan).png</image>
     <video>./media/videos/Final Fantasy (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Final Fantasy II (Japan).zip</path>
+    <path>./Final Fantasy II (Japan).zip</path>
     <name>Final Fantasy II (Japan)</name>
     <image>./media/images/Final Fantasy II (Japan).png</image>
     <video>./media/videos/Final Fantasy II (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Final Fantasy IV (Japan).zip</path>
+    <path>./Final Fantasy IV (Japan).zip</path>
     <name>Final Fantasy IV (Japan)</name>
     <image>./media/images/Final Fantasy IV (Japan).png</image>
     <video>./media/videos/Final Fantasy IV (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Final Lap Special - GT &amp; Formula Machine (Japan).zip</path>
+    <path>./Final Lap Special - GT &amp; Formula Machine (Japan).zip</path>
     <name>Final Lap Special - GT &amp; Formula Machine (Japan)</name>
     <image>./media/images/Final Lap Special - GT &amp; Formula Machine (Japan).png</image>
     <video>./media/videos/Final Lap Special - GT &amp; Formula Machine (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Fire Lancer (USA) (Demo) (2018-12-25) (Aftermarket) (Unl).zip</path>
+    <path>./Fire Lancer (USA) (Demo) (2018-12-25) (Aftermarket) (Unl).zip</path>
     <name>Fire Lancer (USA) (Demo) (2018-12-25) (Aftermarket) (Unl)</name>
     <image>./media/images/Fire Lancer (USA) (Demo) (2018-12-25) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Fire Lancer (USA) (Demo) (2018-12-25) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Fire Lancer (USA) (Demo) (2019-01-03) (Aftermarket) (Unl).zip</path>
+    <path>./Fire Lancer (USA) (Demo) (2019-01-03) (Aftermarket) (Unl).zip</path>
     <name>Fire Lancer (USA) (Demo) (2019-01-03) (Aftermarket) (Unl)</name>
     <image>./media/images/Fire Lancer (USA) (Demo) (2019-01-03) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Fire Lancer (USA) (Demo) (2019-01-03) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Flash Koibito-kun (Japan).zip</path>
+    <path>./Flash Koibito-kun (Japan).zip</path>
     <name>Flash Koibito-kun (Japan)</name>
     <image>./media/images/Flash Koibito-kun (Japan).png</image>
     <video>./media/videos/Flash Koibito-kun (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Flash Masta Firmware (USA) (2016-05-13).zip</path>
+    <path>./Flash Masta Firmware (USA) (2016-05-13).zip</path>
     <name>Flash Masta Firmware (USA) (2016-05-13)</name>
     <image>./media/images/Flash Masta Firmware (USA) (2016-05-13).png</image>
     <video>./media/videos/Flash Masta Firmware (USA) (2016-05-13).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Flash Masta Firmware (USA) (2016-08-29) (Unl).zip</path>
+    <path>./Flash Masta Firmware (USA) (2016-08-29) (Unl).zip</path>
     <name>Flash Masta Firmware (USA) (2016-08-29) (Unl)</name>
     <image>./media/images/Flash Masta Firmware (USA) (2016-08-29) (Unl).png</image>
     <video>./media/videos/Flash Masta Firmware (USA) (2016-08-29) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/From TV Animation One Piece - Chopper no Daibouken (Japan).zip</path>
+    <path>./From TV Animation One Piece - Chopper no Daibouken (Japan).zip</path>
     <name>From TV Animation One Piece - Chopper no Daibouken (Japan)</name>
     <image>./media/images/From TV Animation One Piece - Chopper no Daibouken (Japan).png</image>
     <video>./media/videos/From TV Animation One Piece - Chopper no Daibouken (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/From TV Animation One Piece - Grand Battle Swan Colosseum (Japan).zip</path>
+    <path>./From TV Animation One Piece - Grand Battle Swan Colosseum (Japan).zip</path>
     <name>From TV Animation One Piece - Grand Battle Swan Colosseum (Japan)</name>
     <image>./media/images/From TV Animation One Piece - Grand Battle Swan Colosseum (Japan).png</image>
     <video>./media/videos/From TV Animation One Piece - Grand Battle Swan Colosseum (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/From TV Animation One Piece - Niji no Shima Densetsu (Japan).zip</path>
+    <path>./From TV Animation One Piece - Niji no Shima Densetsu (Japan).zip</path>
     <name>From TV Animation One Piece - Niji no Shima Densetsu (Japan)</name>
     <image>./media/images/From TV Animation One Piece - Niji no Shima Densetsu (Japan).png</image>
     <video>./media/videos/From TV Animation One Piece - Niji no Shima Densetsu (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/From TV Animation One Piece - Treasure Wars (Japan) (Rev 1).zip</path>
+    <path>./From TV Animation One Piece - Treasure Wars (Japan) (Rev 1).zip</path>
     <name>From TV Animation One Piece - Treasure Wars (Japan) (Rev 1)</name>
     <image>./media/images/From TV Animation One Piece - Treasure Wars (Japan) (Rev 1).png</image>
     <video>./media/videos/From TV Animation One Piece - Treasure Wars (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/From TV Animation One Piece - Treasure Wars (Japan).zip</path>
+    <path>./From TV Animation One Piece - Treasure Wars (Japan).zip</path>
     <name>From TV Animation One Piece - Treasure Wars (Japan)</name>
     <image>./media/images/From TV Animation One Piece - Treasure Wars (Japan).png</image>
     <video>./media/videos/From TV Animation One Piece - Treasure Wars (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/From TV Animation One Piece - Treasure Wars 2 - Buggy Land e Youkoso (Japan).zip</path>
+    <path>./From TV Animation One Piece - Treasure Wars 2 - Buggy Land e Youkoso (Japan).zip</path>
     <name>From TV Animation One Piece - Treasure Wars 2 - Buggy Land e Youkoso (Japan)</name>
     <image>./media/images/From TV Animation One Piece - Treasure Wars 2 - Buggy Land e Youkoso (Japan).png</image>
     <video>./media/videos/From TV Animation One Piece - Treasure Wars 2 - Buggy Land e Youkoso (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Front Mission (Japan).zip</path>
+    <path>./Front Mission (Japan).zip</path>
     <name>Front Mission (Japan)</name>
     <image>./media/images/Front Mission (Japan).png</image>
     <video>./media/videos/Front Mission (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Gekitou! Crash Gear Turbo - Gear Champion League (Japan).zip</path>
+    <path>./Gekitou! Crash Gear Turbo - Gear Champion League (Japan).zip</path>
     <name>Gekitou! Crash Gear Turbo - Gear Champion League (Japan)</name>
     <image>./media/images/Gekitou! Crash Gear Turbo - Gear Champion League (Japan).png</image>
     <video>./media/videos/Gekitou! Crash Gear Turbo - Gear Champion League (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (Japan) (Rev 2).zip</path>
+    <path>./Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (Japan) (Rev 2).zip</path>
     <name>Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (Japan) (Rev 2)</name>
     <image>./media/images/Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (Japan) (Rev 2).png</image>
     <video>./media/videos/Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (Japan) (Rev 2).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Golden Axe (Japan).zip</path>
+    <path>./Golden Axe (Japan).zip</path>
     <name>Golden Axe (Japan)</name>
     <image>./media/images/Golden Axe (Japan).png</image>
     <video>./media/videos/Golden Axe (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Gransta Chronicle (Japan).zip</path>
+    <path>./Gransta Chronicle (Japan).zip</path>
     <name>Gransta Chronicle (Japan)</name>
     <image>./media/images/Gransta Chronicle (Japan).png</image>
     <video>./media/videos/Gransta Chronicle (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Guilty Gear Petit (Japan).zip</path>
+    <path>./Guilty Gear Petit (Japan).zip</path>
     <name>Guilty Gear Petit (Japan)</name>
     <image>./media/images/Guilty Gear Petit (Japan).png</image>
     <video>./media/videos/Guilty Gear Petit (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Guilty Gear Petit 2 (Japan).zip</path>
+    <path>./Guilty Gear Petit 2 (Japan).zip</path>
     <name>Guilty Gear Petit 2 (Japan)</name>
     <image>./media/images/Guilty Gear Petit 2 (Japan).png</image>
     <video>./media/videos/Guilty Gear Petit 2 (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/GunPey EX (Japan).zip</path>
+    <path>./GunPey EX (Japan).zip</path>
     <name>GunPey EX (Japan)</name>
     <image>./media/images/GunPey EX (Japan).png</image>
     <video>./media/videos/GunPey EX (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Hanjuku Hero - Ah, Sekai yo Hanjuku Nare...!! (Japan) (Rev 1).zip</path>
+    <path>./Hanjuku Hero - Ah, Sekai yo Hanjuku Nare...!! (Japan) (Rev 1).zip</path>
     <name>Hanjuku Hero - Ah, Sekai yo Hanjuku Nare...!! (Japan) (Rev 1)</name>
     <image>./media/images/Hanjuku Hero - Ah, Sekai yo Hanjuku Nare...!! (Japan) (Rev 1).png</image>
     <video>./media/videos/Hanjuku Hero - Ah, Sekai yo Hanjuku Nare...!! (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Hataraku Chocobo (Japan).zip</path>
+    <path>./Hataraku Chocobo (Japan).zip</path>
     <name>Hataraku Chocobo (Japan)</name>
     <image>./media/images/Hataraku Chocobo (Japan).png</image>
     <video>./media/videos/Hataraku Chocobo (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Hunter X Hunter - Greed Island (Japan) (Rev 1).zip</path>
+    <path>./Hunter X Hunter - Greed Island (Japan) (Rev 1).zip</path>
     <name>Hunter X Hunter - Greed Island (Japan) (Rev 1)</name>
     <image>./media/images/Hunter X Hunter - Greed Island (Japan) (Rev 1).png</image>
     <video>./media/videos/Hunter X Hunter - Greed Island (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Hunter X Hunter - Greed Island (Japan).zip</path>
+    <path>./Hunter X Hunter - Greed Island (Japan).zip</path>
     <name>Hunter X Hunter - Greed Island (Japan)</name>
     <image>./media/images/Hunter X Hunter - Greed Island (Japan).png</image>
     <video>./media/videos/Hunter X Hunter - Greed Island (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Hunter X Hunter - Michibikareshi Mono (Japan).zip</path>
+    <path>./Hunter X Hunter - Michibikareshi Mono (Japan).zip</path>
     <name>Hunter X Hunter - Michibikareshi Mono (Japan)</name>
     <image>./media/images/Hunter X Hunter - Michibikareshi Mono (Japan).png</image>
     <video>./media/videos/Hunter X Hunter - Michibikareshi Mono (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Hunter X Hunter - Sorezore no Ketsui (Japan).zip</path>
+    <path>./Hunter X Hunter - Sorezore no Ketsui (Japan).zip</path>
     <name>Hunter X Hunter - Sorezore no Ketsui (Japan)</name>
     <image>./media/images/Hunter X Hunter - Sorezore no Ketsui (Japan).png</image>
     <video>./media/videos/Hunter X Hunter - Sorezore no Ketsui (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Inuyasha - Fuuun Emaki (Japan).zip</path>
+    <path>./Inuyasha - Fuuun Emaki (Japan).zip</path>
     <name>Inuyasha - Fuuun Emaki (Japan)</name>
     <image>./media/images/Inuyasha - Fuuun Emaki (Japan).png</image>
     <video>./media/videos/Inuyasha - Fuuun Emaki (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Inuyasha - Kagome no Sengoku Nikki (Japan).zip</path>
+    <path>./Inuyasha - Kagome no Sengoku Nikki (Japan).zip</path>
     <name>Inuyasha - Kagome no Sengoku Nikki (Japan)</name>
     <image>./media/images/Inuyasha - Kagome no Sengoku Nikki (Japan).png</image>
     <video>./media/videos/Inuyasha - Kagome no Sengoku Nikki (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Inuyasha - Kagome no Yume Nikki (Japan).zip</path>
+    <path>./Inuyasha - Kagome no Yume Nikki (Japan).zip</path>
     <name>Inuyasha - Kagome no Yume Nikki (Japan)</name>
     <image>./media/images/Inuyasha - Kagome no Yume Nikki (Japan).png</image>
     <video>./media/videos/Inuyasha - Kagome no Yume Nikki (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Judgement Silversword - Rebirth Edition (Japan) (Rev 4321).zip</path>
+    <path>./Judgement Silversword - Rebirth Edition (Japan) (Rev 4321).zip</path>
     <name>Judgement Silversword - Rebirth Edition (Japan) (Rev 4321)</name>
     <image>./media/images/Judgement Silversword - Rebirth Edition (Japan) (Rev 4321).png</image>
     <video>./media/videos/Judgement Silversword - Rebirth Edition (Japan) (Rev 4321).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Judgement Silversword - Rebirth Edition (Japan) (Rev 5C21).zip</path>
+    <path>./Judgement Silversword - Rebirth Edition (Japan) (Rev 5C21).zip</path>
     <name>Judgement Silversword - Rebirth Edition (Japan) (Rev 5C21)</name>
     <image>./media/images/Judgement Silversword - Rebirth Edition (Japan) (Rev 5C21).png</image>
     <video>./media/videos/Judgement Silversword - Rebirth Edition (Japan) (Rev 5C21).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Kidou Senshi Gundam - Giren no Yabou - Tokubetsu Hen - Aoki Hoshi no Hasha (Japan).zip</path>
+    <path>./Kidou Senshi Gundam - Giren no Yabou - Tokubetsu Hen - Aoki Hoshi no Hasha (Japan).zip</path>
     <name>Kidou Senshi Gundam - Giren no Yabou - Tokubetsu Hen - Aoki Hoshi no Hasha (Japan)</name>
     <image>./media/images/Kidou Senshi Gundam - Giren no Yabou - Tokubetsu Hen - Aoki Hoshi no Hasha (Japan).png</image>
     <video>./media/videos/Kidou Senshi Gundam - Giren no Yabou - Tokubetsu Hen - Aoki Hoshi no Hasha (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Kidou Senshi Gundam Seed (Japan).zip</path>
+    <path>./Kidou Senshi Gundam Seed (Japan).zip</path>
     <name>Kidou Senshi Gundam Seed (Japan)</name>
     <image>./media/images/Kidou Senshi Gundam Seed (Japan).png</image>
     <video>./media/videos/Kidou Senshi Gundam Seed (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Kidou Senshi Gundam Vol. 1 - Side 7 (Japan).zip</path>
+    <path>./Kidou Senshi Gundam Vol. 1 - Side 7 (Japan).zip</path>
     <name>Kidou Senshi Gundam Vol. 1 - Side 7 (Japan)</name>
     <image>./media/images/Kidou Senshi Gundam Vol. 1 - Side 7 (Japan).png</image>
     <video>./media/videos/Kidou Senshi Gundam Vol. 1 - Side 7 (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Kidou Senshi Gundam Vol. 2 - Jaburo (Japan).zip</path>
+    <path>./Kidou Senshi Gundam Vol. 2 - Jaburo (Japan).zip</path>
     <name>Kidou Senshi Gundam Vol. 2 - Jaburo (Japan)</name>
     <image>./media/images/Kidou Senshi Gundam Vol. 2 - Jaburo (Japan).png</image>
     <video>./media/videos/Kidou Senshi Gundam Vol. 2 - Jaburo (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Kidou Senshi Gundam Vol. 3 - A Baoa Qu (Japan).zip</path>
+    <path>./Kidou Senshi Gundam Vol. 3 - A Baoa Qu (Japan).zip</path>
     <name>Kidou Senshi Gundam Vol. 3 - A Baoa Qu (Japan)</name>
     <image>./media/images/Kidou Senshi Gundam Vol. 3 - A Baoa Qu (Japan).png</image>
     <video>./media/videos/Kidou Senshi Gundam Vol. 3 - A Baoa Qu (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Kinnikuman II-Sei - Choujin Seisenshi (Japan).zip</path>
+    <path>./Kinnikuman II-Sei - Choujin Seisenshi (Japan).zip</path>
     <name>Kinnikuman II-Sei - Choujin Seisenshi (Japan)</name>
     <image>./media/images/Kinnikuman II-Sei - Choujin Seisenshi (Japan).png</image>
     <video>./media/videos/Kinnikuman II-Sei - Choujin Seisenshi (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Kinnikuman II-Sei - Dream Tag Match (Japan).zip</path>
+    <path>./Kinnikuman II-Sei - Dream Tag Match (Japan).zip</path>
     <name>Kinnikuman II-Sei - Dream Tag Match (Japan)</name>
     <image>./media/images/Kinnikuman II-Sei - Dream Tag Match (Japan).png</image>
     <video>./media/videos/Kinnikuman II-Sei - Dream Tag Match (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Kurupara! (Japan) (Rev 1).zip</path>
+    <path>./Kurupara! (Japan) (Rev 1).zip</path>
     <name>Kurupara! (Japan) (Rev 1)</name>
     <image>./media/images/Kurupara! (Japan) (Rev 1).png</image>
     <video>./media/videos/Kurupara! (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Last Alive (Japan).zip</path>
+    <path>./Last Alive (Japan).zip</path>
     <name>Last Alive (Japan)</name>
     <image>./media/images/Last Alive (Japan).png</image>
     <video>./media/videos/Last Alive (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Makai Toushi Sa-Ga (Japan).zip</path>
+    <path>./Makai Toushi Sa-Ga (Japan).zip</path>
     <name>Makai Toushi Sa-Ga (Japan)</name>
     <image>./media/images/Makai Toushi Sa-Ga (Japan).png</image>
     <video>./media/videos/Makai Toushi Sa-Ga (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Meitantei Conan - Yuugure no Oujo (Japan).zip</path>
+    <path>./Meitantei Conan - Yuugure no Oujo (Japan).zip</path>
     <name>Meitantei Conan - Yuugure no Oujo (Japan)</name>
     <image>./media/images/Meitantei Conan - Yuugure no Oujo (Japan).png</image>
     <video>./media/videos/Meitantei Conan - Yuugure no Oujo (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Memories Off - Festa (Japan).zip</path>
+    <path>./Memories Off - Festa (Japan).zip</path>
     <name>Memories Off - Festa (Japan)</name>
     <image>./media/images/Memories Off - Festa (Japan).png</image>
     <video>./media/videos/Memories Off - Festa (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Mikeneko Holmes - Ghost Panic (Japan).zip</path>
+    <path>./Mikeneko Holmes - Ghost Panic (Japan).zip</path>
     <name>Mikeneko Holmes - Ghost Panic (Japan)</name>
     <image>./media/images/Mikeneko Holmes - Ghost Panic (Japan).png</image>
     <video>./media/videos/Mikeneko Holmes - Ghost Panic (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Mr. Driller (Japan).zip</path>
+    <path>./Mr. Driller (Japan).zip</path>
     <name>Mr. Driller (Japan)</name>
     <image>./media/images/Mr. Driller (Japan).png</image>
     <video>./media/videos/Mr. Driller (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/NAVI GET 400 Million (Japan) (Version 1.0) (Program).zip</path>
+    <path>./NAVI GET 400 Million (Japan) (Version 1.0) (Program).zip</path>
     <name>NAVI GET 400 Million (Japan) (Version 1.0) (Program)</name>
     <image>./media/images/NAVI GET 400 Million (Japan) (Version 1.0) (Program).png</image>
     <video>./media/videos/NAVI GET 400 Million (Japan) (Version 1.0) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/NAVI GET 400 Million (Japan) (Version 2.1) (Program).zip</path>
+    <path>./NAVI GET 400 Million (Japan) (Version 2.1) (Program).zip</path>
     <name>NAVI GET 400 Million (Japan) (Version 2.1) (Program)</name>
     <image>./media/images/NAVI GET 400 Million (Japan) (Version 2.1) (Program).png</image>
     <video>./media/videos/NAVI GET 400 Million (Japan) (Version 2.1) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/NAVI GET 400 Million (Japan) (Version 3.0) (Program).zip</path>
+    <path>./NAVI GET 400 Million (Japan) (Version 3.0) (Program).zip</path>
     <name>NAVI GET 400 Million (Japan) (Version 3.0) (Program)</name>
     <image>./media/images/NAVI GET 400 Million (Japan) (Version 3.0) (Program).png</image>
     <video>./media/videos/NAVI GET 400 Million (Japan) (Version 3.0) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/NAVI GET 400 Million (Japan) (Version 9) (Program).zip</path>
+    <path>./NAVI GET 400 Million (Japan) (Version 9) (Program).zip</path>
     <name>NAVI GET 400 Million (Japan) (Version 9) (Program)</name>
     <image>./media/images/NAVI GET 400 Million (Japan) (Version 9) (Program).png</image>
     <video>./media/videos/NAVI GET 400 Million (Japan) (Version 9) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Namco Super Wars (Japan).zip</path>
+    <path>./Namco Super Wars (Japan).zip</path>
     <name>Namco Super Wars (Japan)</name>
     <image>./media/images/Namco Super Wars (Japan).png</image>
     <video>./media/videos/Namco Super Wars (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Naruto - Konoha Ninpouchou (Japan).zip</path>
+    <path>./Naruto - Konoha Ninpouchou (Japan).zip</path>
     <name>Naruto - Konoha Ninpouchou (Japan)</name>
     <image>./media/images/Naruto - Konoha Ninpouchou (Japan).png</image>
     <video>./media/videos/Naruto - Konoha Ninpouchou (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Pocket no Naka no Doraemon (Japan).zip</path>
+    <path>./Pocket no Naka no Doraemon (Japan).zip</path>
     <name>Pocket no Naka no Doraemon (Japan)</name>
     <image>./media/images/Pocket no Naka no Doraemon (Japan).png</image>
     <video>./media/videos/Pocket no Naka no Doraemon (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/RUN=DIM - Return to Earth (Japan).zip</path>
+    <path>./RUN=DIM - Return to Earth (Japan).zip</path>
     <name>RUN=DIM - Return to Earth (Japan)</name>
     <image>./media/images/RUN=DIM - Return to Earth (Japan).png</image>
     <video>./media/videos/RUN=DIM - Return to Earth (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Raku Jongg (Japan).zip</path>
+    <path>./Raku Jongg (Japan).zip</path>
     <name>Raku Jongg (Japan)</name>
     <image>./media/images/Raku Jongg (Japan).png</image>
     <video>./media/videos/Raku Jongg (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Rhyme Rider Kerorican (Japan).zip</path>
+    <path>./Rhyme Rider Kerorican (Japan).zip</path>
     <name>Rhyme Rider Kerorican (Japan)</name>
     <image>./media/images/Rhyme Rider Kerorican (Japan).png</image>
     <video>./media/videos/Rhyme Rider Kerorican (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Riviera - Yakusoku no Chi Riviera (Japan).zip</path>
+    <path>./Riviera - Yakusoku no Chi Riviera (Japan).zip</path>
     <name>Riviera - Yakusoku no Chi Riviera (Japan)</name>
     <image>./media/images/Riviera - Yakusoku no Chi Riviera (Japan).png</image>
     <video>./media/videos/Riviera - Yakusoku no Chi Riviera (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Rockman EXE - N1 Battle (Japan) (Rev 1).zip</path>
+    <path>./Rockman EXE - N1 Battle (Japan) (Rev 1).zip</path>
     <name>Rockman EXE - N1 Battle (Japan) (Rev 1)</name>
     <image>./media/images/Rockman EXE - N1 Battle (Japan) (Rev 1).png</image>
     <video>./media/videos/Rockman EXE - N1 Battle (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Rockman EXE WS (Japan).zip</path>
+    <path>./Rockman EXE WS (Japan).zip</path>
     <name>Rockman EXE WS (Japan)</name>
     <image>./media/images/Rockman EXE WS (Japan).png</image>
     <video>./media/videos/Rockman EXE WS (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Romancing Sa-Ga (Japan).zip</path>
+    <path>./Romancing Sa-Ga (Japan).zip</path>
     <name>Romancing Sa-Ga (Japan)</name>
     <image>./media/images/Romancing Sa-Ga (Japan).png</image>
     <video>./media/videos/Romancing Sa-Ga (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/SD Gundam - Operation U.C. (Japan).zip</path>
+    <path>./SD Gundam - Operation U.C. (Japan).zip</path>
     <name>SD Gundam - Operation U.C. (Japan)</name>
     <image>./media/images/SD Gundam - Operation U.C. (Japan).png</image>
     <video>./media/videos/SD Gundam - Operation U.C. (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/SD Gundam Eiyuu Den - Kishi Densetsu (Japan).zip</path>
+    <path>./SD Gundam Eiyuu Den - Kishi Densetsu (Japan).zip</path>
     <name>SD Gundam Eiyuu Den - Kishi Densetsu (Japan)</name>
     <image>./media/images/SD Gundam Eiyuu Den - Kishi Densetsu (Japan).png</image>
     <video>./media/videos/SD Gundam Eiyuu Den - Kishi Densetsu (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/SD Gundam Eiyuu Den - Musha Densetsu (Japan).zip</path>
+    <path>./SD Gundam Eiyuu Den - Musha Densetsu (Japan).zip</path>
     <name>SD Gundam Eiyuu Den - Musha Densetsu (Japan)</name>
     <image>./media/images/SD Gundam Eiyuu Den - Musha Densetsu (Japan).png</image>
     <video>./media/videos/SD Gundam Eiyuu Den - Musha Densetsu (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/SD Gundam G Generation - Gather Beat 2 (Japan).zip</path>
+    <path>./SD Gundam G Generation - Gather Beat 2 (Japan).zip</path>
     <name>SD Gundam G Generation - Gather Beat 2 (Japan)</name>
     <image>./media/images/SD Gundam G Generation - Gather Beat 2 (Japan).png</image>
     <video>./media/videos/SD Gundam G Generation - Gather Beat 2 (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/SD Gundam G Generation - Mono-Eye Gundams (Japan) (Rev 2).zip</path>
+    <path>./SD Gundam G Generation - Mono-Eye Gundams (Japan) (Rev 2).zip</path>
     <name>SD Gundam G Generation - Mono-Eye Gundams (Japan) (Rev 2)</name>
     <image>./media/images/SD Gundam G Generation - Mono-Eye Gundams (Japan) (Rev 2).png</image>
     <video>./media/videos/SD Gundam G Generation - Mono-Eye Gundams (Japan) (Rev 2).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/SD Gundam G Generation - Mono-Eye Gundams (Japan).zip</path>
+    <path>./SD Gundam G Generation - Mono-Eye Gundams (Japan).zip</path>
     <name>SD Gundam G Generation - Mono-Eye Gundams (Japan)</name>
     <image>./media/images/SD Gundam G Generation - Mono-Eye Gundams (Japan).png</image>
     <video>./media/videos/SD Gundam G Generation - Mono-Eye Gundams (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan).zip</path>
+    <path>./Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan).zip</path>
     <name>Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan)</name>
     <image>./media/images/Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan).png</image>
     <video>./media/videos/Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Senkaiden Ni - TV Animation Senkaiden Houshin Engi Yori (Japan).zip</path>
+    <path>./Senkaiden Ni - TV Animation Senkaiden Houshin Engi Yori (Japan).zip</path>
     <name>Senkaiden Ni - TV Animation Senkaiden Houshin Engi Yori (Japan)</name>
     <image>./media/images/Senkaiden Ni - TV Animation Senkaiden Houshin Engi Yori (Japan).png</image>
     <video>./media/videos/Senkaiden Ni - TV Animation Senkaiden Houshin Engi Yori (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Shaman King - Asu e no Ishi (Japan) (Rev 1).zip</path>
+    <path>./Shaman King - Asu e no Ishi (Japan) (Rev 1).zip</path>
     <name>Shaman King - Asu e no Ishi (Japan) (Rev 1)</name>
     <image>./media/images/Shaman King - Asu e no Ishi (Japan) (Rev 1).png</image>
     <video>./media/videos/Shaman King - Asu e no Ishi (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Shaman King - Asu e no Ishi (Japan).zip</path>
+    <path>./Shaman King - Asu e no Ishi (Japan).zip</path>
     <name>Shaman King - Asu e no Ishi (Japan)</name>
     <image>./media/images/Shaman King - Asu e no Ishi (Japan).png</image>
     <video>./media/videos/Shaman King - Asu e no Ishi (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Sorobang (Japan) (Rev 1).zip</path>
+    <path>./Sorobang (Japan) (Rev 1).zip</path>
     <name>Sorobang (Japan) (Rev 1)</name>
     <image>./media/images/Sorobang (Japan) (Rev 1).png</image>
     <video>./media/videos/Sorobang (Japan) (Rev 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Star Hearts - Hoshi to Daichi no Shisha (Japan).zip</path>
+    <path>./Star Hearts - Hoshi to Daichi no Shisha (Japan).zip</path>
     <name>Star Hearts - Hoshi to Daichi no Shisha (Japan)</name>
     <image>./media/images/Star Hearts - Hoshi to Daichi no Shisha (Japan).png</image>
     <video>./media/videos/Star Hearts - Hoshi to Daichi no Shisha (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Star Hearts - Hoshi to Daichi no Shisha - Taikenban (Japan) (Not For Sale).zip</path>
+    <path>./Star Hearts - Hoshi to Daichi no Shisha - Taikenban (Japan) (Not For Sale).zip</path>
     <name>Star Hearts - Hoshi to Daichi no Shisha - Taikenban (Japan) (Not For Sale)</name>
     <image>./media/images/Star Hearts - Hoshi to Daichi no Shisha - Taikenban (Japan) (Not For Sale).png</image>
     <video>./media/videos/Star Hearts - Hoshi to Daichi no Shisha - Taikenban (Japan) (Not For Sale).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Super Robot Taisen Compact 3 (Japan) (Rev 5).zip</path>
+    <path>./Super Robot Taisen Compact 3 (Japan) (Rev 5).zip</path>
     <name>Super Robot Taisen Compact 3 (Japan) (Rev 5)</name>
     <image>./media/images/Super Robot Taisen Compact 3 (Japan) (Rev 5).png</image>
     <video>./media/videos/Super Robot Taisen Compact 3 (Japan) (Rev 5).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Super Robot Taisen Compact 3 (Japan) (Rev 6).zip</path>
+    <path>./Super Robot Taisen Compact 3 (Japan) (Rev 6).zip</path>
     <name>Super Robot Taisen Compact 3 (Japan) (Rev 6)</name>
     <image>./media/images/Super Robot Taisen Compact 3 (Japan) (Rev 6).png</image>
     <video>./media/videos/Super Robot Taisen Compact 3 (Japan) (Rev 6).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Super Robot Taisen Compact for WonderSwan Color (Japan).zip</path>
+    <path>./Super Robot Taisen Compact for WonderSwan Color (Japan).zip</path>
     <name>Super Robot Taisen Compact for WonderSwan Color (Japan)</name>
     <image>./media/images/Super Robot Taisen Compact for WonderSwan Color (Japan).png</image>
     <video>./media/videos/Super Robot Taisen Compact for WonderSwan Color (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Terrors 2 (Japan).zip</path>
+    <path>./Terrors 2 (Japan).zip</path>
     <name>Terrors 2 (Japan)</name>
     <image>./media/images/Terrors 2 (Japan).png</image>
     <video>./media/videos/Terrors 2 (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Tetris (Japan).zip</path>
+    <path>./Tetris (Japan).zip</path>
     <name>Tetris (Japan)</name>
     <image>./media/images/Tetris (Japan).png</image>
     <video>./media/videos/Tetris (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Tonpuusou (Japan).zip</path>
+    <path>./Tonpuusou (Japan).zip</path>
     <name>Tonpuusou (Japan)</name>
     <image>./media/images/Tonpuusou (Japan).png</image>
     <video>./media/videos/Tonpuusou (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Uchuu Senkan Yamato (Japan).zip</path>
+    <path>./Uchuu Senkan Yamato (Japan).zip</path>
     <name>Uchuu Senkan Yamato (Japan)</name>
     <image>./media/images/Uchuu Senkan Yamato (Japan).png</image>
     <video>./media/videos/Uchuu Senkan Yamato (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Ultraman - Hikari no Kuni no Shisha (Japan).zip</path>
+    <path>./Ultraman - Hikari no Kuni no Shisha (Japan).zip</path>
     <name>Ultraman - Hikari no Kuni no Shisha (Japan)</name>
     <image>./media/images/Ultraman - Hikari no Kuni no Shisha (Japan).png</image>
     <video>./media/videos/Ultraman - Hikari no Kuni no Shisha (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Wild Card (Japan).zip</path>
+    <path>./Wild Card (Japan).zip</path>
     <name>Wild Card (Japan)</name>
     <image>./media/images/Wild Card (Japan).png</image>
     <video>./media/videos/Wild Card (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/With You - Mitsumete Itai (Japan).zip</path>
+    <path>./With You - Mitsumete Itai (Japan).zip</path>
     <name>With You - Mitsumete Itai (Japan)</name>
     <image>./media/images/With You - Mitsumete Itai (Japan).png</image>
     <video>./media/videos/With You - Mitsumete Itai (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Wizardry Scenario 1 - Proving Grounds of the Mad Overlord (Japan).zip</path>
+    <path>./Wizardry Scenario 1 - Proving Grounds of the Mad Overlord (Japan).zip</path>
     <name>Wizardry Scenario 1 - Proving Grounds of the Mad Overlord (Japan)</name>
     <image>./media/images/Wizardry Scenario 1 - Proving Grounds of the Mad Overlord (Japan).png</image>
     <video>./media/videos/Wizardry Scenario 1 - Proving Grounds of the Mad Overlord (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/Wonder Classic (Japan).zip</path>
+    <path>./Wonder Classic (Japan).zip</path>
     <name>Wonder Classic (Japan)</name>
     <image>./media/images/Wonder Classic (Japan).png</image>
     <video>./media/videos/Wonder Classic (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/X - Card of Fate (Japan).zip</path>
+    <path>./X - Card of Fate (Japan).zip</path>
     <name>X - Card of Fate (Japan)</name>
     <image>./media/images/X - Card of Fate (Japan).png</image>
     <video>./media/videos/X - Card of Fate (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/XI Little (Japan).zip</path>
+    <path>./XI Little (Japan).zip</path>
     <name>XI Little (Japan)</name>
     <image>./media/images/XI Little (Japan).png</image>
     <video>./media/videos/XI Little (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/[BIOS] SwanCrystal Boot ROM (Japan) (En).zip</path>
+    <path>./[BIOS] SwanCrystal Boot ROM (Japan) (En).zip</path>
     <name>[BIOS] SwanCrystal Boot ROM (Japan) (En)</name>
     <image>./media/images/[BIOS] SwanCrystal Boot ROM (Japan) (En).png</image>
     <video>./media/videos/[BIOS] SwanCrystal Boot ROM (Japan) (En).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/[BIOS] WonderSwan Color Boot ROM (Japan) (En).zip</path>
+    <path>./[BIOS] WonderSwan Color Boot ROM (Japan) (En).zip</path>
     <name>[BIOS] WonderSwan Color Boot ROM (Japan) (En)</name>
     <image>./media/images/[BIOS] WonderSwan Color Boot ROM (Japan) (En).png</image>
     <video>./media/videos/[BIOS] WonderSwan Color Boot ROM (Japan) (En).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/mama Mitte (Japan) (Program).zip</path>
+    <path>./mama Mitte (Japan) (Program).zip</path>
     <name>mama Mitte (Japan) (Program)</name>
     <image>./media/images/mama Mitte (Japan) (Program).png</image>
     <video>./media/videos/mama Mitte (Japan) (Program).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Bandai - WonderSwan Color/mama Mitte (Japan) (Rev D) (Program).zip</path>
+    <path>./mama Mitte (Japan) (Rev D) (Program).zip</path>
     <name>mama Mitte (Japan) (Rev D) (Program)</name>
     <image>./media/images/mama Mitte (Japan) (Rev D) (Program).png</image>
     <video>./media/videos/mama Mitte (Japan) (Rev D) (Program).mp4</video>

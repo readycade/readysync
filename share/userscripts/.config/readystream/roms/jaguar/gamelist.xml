@@ -1,895 +1,895 @@
 <?xml version="1.0"?>
 <gameList>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Aircars (USA) (Aftermarket).zip</path>
+    <path>./Aircars (USA) (Aftermarket).zip</path>
     <name>Aircars (USA) (Aftermarket)</name>
     <image>./media/images/Aircars (USA) (Aftermarket).png</image>
     <video>./media/videos/Aircars (USA) (Aftermarket).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Aircars (USA) (Beta) (1994-11-14).zip</path>
+    <path>./Aircars (USA) (Beta) (1994-11-14).zip</path>
     <name>Aircars (USA) (Beta) (1994-11-14)</name>
     <image>./media/images/Aircars (USA) (Beta) (1994-11-14).png</image>
     <video>./media/videos/Aircars (USA) (Beta) (1994-11-14).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Alice's Mom's Rescue (World) (En,Fr,De,Es,It) (Aftermarket) (Unl).zip</path>
+    <path>./Alice's Mom's Rescue (World) (En,Fr,De,Es,It) (Aftermarket) (Unl).zip</path>
     <name>Alice's Mom's Rescue (World) (En,Fr,De,Es,It) (Aftermarket) (Unl)</name>
     <image>./media/images/Alice's Mom's Rescue (World) (En,Fr,De,Es,It) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Alice's Mom's Rescue (World) (En,Fr,De,Es,It) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Alien vs Predator (World) (Beta) (1993-08-18).zip</path>
+    <path>./Alien vs Predator (World) (Beta) (1993-08-18).zip</path>
     <name>Alien vs Predator (World) (Beta) (1993-08-18)</name>
     <image>./media/images/Alien vs Predator (World) (Beta) (1993-08-18).png</image>
     <video>./media/videos/Alien vs Predator (World) (Beta) (1993-08-18).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Alien vs Predator (World) (Beta) (1993-10-13).zip</path>
+    <path>./Alien vs Predator (World) (Beta) (1993-10-13).zip</path>
     <name>Alien vs Predator (World) (Beta) (1993-10-13)</name>
     <image>./media/images/Alien vs Predator (World) (Beta) (1993-10-13).png</image>
     <video>./media/videos/Alien vs Predator (World) (Beta) (1993-10-13).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Alien vs Predator (World) (v0.93) (Beta) (1994-04-08T082644).zip</path>
+    <path>./Alien vs Predator (World) (v0.93) (Beta) (1994-04-08T082644).zip</path>
     <name>Alien vs Predator (World) (v0.93) (Beta) (1994-04-08T082644)</name>
     <image>./media/images/Alien vs Predator (World) (v0.93) (Beta) (1994-04-08T082644).png</image>
     <video>./media/videos/Alien vs Predator (World) (v0.93) (Beta) (1994-04-08T082644).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Alien vs Predator (World).zip</path>
+    <path>./Alien vs Predator (World).zip</path>
     <name>Alien vs Predator (World)</name>
     <image>./media/images/Alien vs Predator (World).png</image>
     <video>./media/videos/Alien vs Predator (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Arena Football '95 (World) (Aftermarket).zip</path>
+    <path>./Arena Football '95 (World) (Aftermarket).zip</path>
     <name>Arena Football '95 (World) (Aftermarket)</name>
     <image>./media/images/Arena Football '95 (World) (Aftermarket).png</image>
     <video>./media/videos/Arena Football '95 (World) (Aftermarket).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Arkanna (World) (Demo) (Aftermarket) (Unl).zip</path>
+    <path>./Arkanna (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Arkanna (World) (Demo) (Aftermarket) (Unl)</name>
     <image>./media/images/Arkanna (World) (Demo) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Arkanna (World) (Demo) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Assassin, The (USA) (Aftermarket).zip</path>
+    <path>./Assassin, The (USA) (Aftermarket).zip</path>
     <name>Assassin, The (USA) (Aftermarket)</name>
     <image>./media/images/Assassin, The (USA) (Aftermarket).png</image>
     <video>./media/videos/Assassin, The (USA) (Aftermarket).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Asteroids (World) (Aftermarket) (Unl).zip</path>
+    <path>./Asteroids (World) (Aftermarket) (Unl).zip</path>
     <name>Asteroids (World) (Aftermarket) (Unl)</name>
     <image>./media/images/Asteroids (World) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Asteroids (World) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Atari Karts (World) (Beta).zip</path>
+    <path>./Atari Karts (World) (Beta).zip</path>
     <name>Atari Karts (World) (Beta)</name>
     <image>./media/images/Atari Karts (World) (Beta).png</image>
     <video>./media/videos/Atari Karts (World) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Atari Karts (World).zip</path>
+    <path>./Atari Karts (World).zip</path>
     <name>Atari Karts (World)</name>
     <image>./media/images/Atari Karts (World).png</image>
     <video>./media/videos/Atari Karts (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Atomic (World) (Aftermarket) (Unl).zip</path>
+    <path>./Atomic (World) (Aftermarket) (Unl).zip</path>
     <name>Atomic (World) (Aftermarket) (Unl)</name>
     <image>./media/images/Atomic (World) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Atomic (World) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Atomic Reloaded (World) (Aftermarket) (Unl).zip</path>
+    <path>./Atomic Reloaded (World) (Aftermarket) (Unl).zip</path>
     <name>Atomic Reloaded (World) (Aftermarket) (Unl)</name>
     <image>./media/images/Atomic Reloaded (World) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Atomic Reloaded (World) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Attack of the Mutant Penguins (World).zip</path>
+    <path>./Attack of the Mutant Penguins (World).zip</path>
     <name>Attack of the Mutant Penguins (World)</name>
     <image>./media/images/Attack of the Mutant Penguins (World).png</image>
     <video>./media/videos/Attack of the Mutant Penguins (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Barkley Shut Up and Jam (World) (Aftermarket).zip</path>
+    <path>./Barkley Shut Up and Jam (World) (Aftermarket).zip</path>
     <name>Barkley Shut Up and Jam (World) (Aftermarket)</name>
     <image>./media/images/Barkley Shut Up and Jam (World) (Aftermarket).png</image>
     <video>./media/videos/Barkley Shut Up and Jam (World) (Aftermarket).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Barkley Shut Up and Jam (World) (Beta).zip</path>
+    <path>./Barkley Shut Up and Jam (World) (Beta).zip</path>
     <name>Barkley Shut Up and Jam (World) (Beta)</name>
     <image>./media/images/Barkley Shut Up and Jam (World) (Beta).png</image>
     <video>./media/videos/Barkley Shut Up and Jam (World) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Battle Sphere (World) (Aftermarket).zip</path>
+    <path>./Battle Sphere (World) (Aftermarket).zip</path>
     <name>Battle Sphere (World) (Aftermarket)</name>
     <image>./media/images/Battle Sphere (World) (Aftermarket).png</image>
     <video>./media/videos/Battle Sphere (World) (Aftermarket).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Battle Sphere Gold (World) (Aftermarket).zip</path>
+    <path>./Battle Sphere Gold (World) (Aftermarket).zip</path>
     <name>Battle Sphere Gold (World) (Aftermarket)</name>
     <image>./media/images/Battle Sphere Gold (World) (Aftermarket).png</image>
     <video>./media/videos/Battle Sphere Gold (World) (Aftermarket).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Beebris (World) (Aftermarket) (Unl).zip</path>
+    <path>./Beebris (World) (Aftermarket) (Unl).zip</path>
     <name>Beebris (World) (Aftermarket) (Unl)</name>
     <image>./media/images/Beebris (World) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Beebris (World) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Black Jag - Hyper Power League (World) (v1.01) (Demo) (Aftermarket) (Unl).zip</path>
+    <path>./Black Jag - Hyper Power League (World) (v1.01) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Black Jag - Hyper Power League (World) (v1.01) (Demo) (Aftermarket) (Unl)</name>
     <image>./media/images/Black Jag - Hyper Power League (World) (v1.01) (Demo) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Black Jag - Hyper Power League (World) (v1.01) (Demo) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Black Jag - Hyper Power League (World) (v1.02) (Demo) (Aftermarket) (Unl).zip</path>
+    <path>./Black Jag - Hyper Power League (World) (v1.02) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Black Jag - Hyper Power League (World) (v1.02) (Demo) (Aftermarket) (Unl)</name>
     <image>./media/images/Black Jag - Hyper Power League (World) (v1.02) (Demo) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Black Jag - Hyper Power League (World) (v1.02) (Demo) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Black Jag - Hyper Power League (World) (v1.03) (Demo) (Aftermarket) (Unl).zip</path>
+    <path>./Black Jag - Hyper Power League (World) (v1.03) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Black Jag - Hyper Power League (World) (v1.03) (Demo) (Aftermarket) (Unl)</name>
     <image>./media/images/Black Jag - Hyper Power League (World) (v1.03) (Demo) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Black Jag - Hyper Power League (World) (v1.03) (Demo) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Breakout 2000 (USA, Europe) (Beta).zip</path>
+    <path>./Breakout 2000 (USA, Europe) (Beta).zip</path>
     <name>Breakout 2000 (USA, Europe) (Beta)</name>
     <image>./media/images/Breakout 2000 (USA, Europe) (Beta).png</image>
     <video>./media/videos/Breakout 2000 (USA, Europe) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Breakout 2000 (USA, Europe).zip</path>
+    <path>./Breakout 2000 (USA, Europe).zip</path>
     <name>Breakout 2000 (USA, Europe)</name>
     <image>./media/images/Breakout 2000 (USA, Europe).png</image>
     <video>./media/videos/Breakout 2000 (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Brett Hull Hockey (World) (Aftermarket).zip</path>
+    <path>./Brett Hull Hockey (World) (Aftermarket).zip</path>
     <name>Brett Hull Hockey (World) (Aftermarket)</name>
     <image>./media/images/Brett Hull Hockey (World) (Aftermarket).png</image>
     <video>./media/videos/Brett Hull Hockey (World) (Aftermarket).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Brutal Sports Football (World).zip</path>
+    <path>./Brutal Sports Football (World).zip</path>
     <name>Brutal Sports Football (World)</name>
     <image>./media/images/Brutal Sports Football (World).png</image>
     <video>./media/videos/Brutal Sports Football (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Bubsy in Fractured Furry Tales (World).zip</path>
+    <path>./Bubsy in Fractured Furry Tales (World).zip</path>
     <name>Bubsy in Fractured Furry Tales (World)</name>
     <image>./media/images/Bubsy in Fractured Furry Tales (World).png</image>
     <video>./media/videos/Bubsy in Fractured Furry Tales (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Cannon Fodder (World).zip</path>
+    <path>./Cannon Fodder (World).zip</path>
     <name>Cannon Fodder (World)</name>
     <image>./media/images/Cannon Fodder (World).png</image>
     <video>./media/videos/Cannon Fodder (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Checkered Flag (World) (Beta) (CES 1993).zip</path>
+    <path>./Checkered Flag (World) (Beta) (CES 1993).zip</path>
     <name>Checkered Flag (World) (Beta) (CES 1993)</name>
     <image>./media/images/Checkered Flag (World) (Beta) (CES 1993).png</image>
     <video>./media/videos/Checkered Flag (World) (Beta) (CES 1993).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Checkered Flag (World).zip</path>
+    <path>./Checkered Flag (World).zip</path>
     <name>Checkered Flag (World)</name>
     <image>./media/images/Checkered Flag (World).png</image>
     <video>./media/videos/Checkered Flag (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Club Drive (World) (Beta).zip</path>
+    <path>./Club Drive (World) (Beta).zip</path>
     <name>Club Drive (World) (Beta)</name>
     <image>./media/images/Club Drive (World) (Beta).png</image>
     <video>./media/videos/Club Drive (World) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Club Drive (World).zip</path>
+    <path>./Club Drive (World).zip</path>
     <name>Club Drive (World)</name>
     <image>./media/images/Club Drive (World).png</image>
     <video>./media/videos/Club Drive (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Cybermorph (World) (Beta) (1993-08-23).zip</path>
+    <path>./Cybermorph (World) (Beta) (1993-08-23).zip</path>
     <name>Cybermorph (World) (Beta) (1993-08-23)</name>
     <image>./media/images/Cybermorph (World) (Beta) (1993-08-23).png</image>
     <video>./media/videos/Cybermorph (World) (Beta) (1993-08-23).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Cybermorph (World) (Rev A).zip</path>
+    <path>./Cybermorph (World) (Rev A).zip</path>
     <name>Cybermorph (World) (Rev A)</name>
     <image>./media/images/Cybermorph (World) (Rev A).png</image>
     <video>./media/videos/Cybermorph (World) (Rev A).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Cybermorph (World) (Rev B).zip</path>
+    <path>./Cybermorph (World) (Rev B).zip</path>
     <name>Cybermorph (World) (Rev B)</name>
     <image>./media/images/Cybermorph (World) (Rev B).png</image>
     <video>./media/videos/Cybermorph (World) (Rev B).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Dark Guardian Episode 1 - Unknown Enemy (USA) (Proto).zip</path>
+    <path>./Dark Guardian Episode 1 - Unknown Enemy (USA) (Proto).zip</path>
     <name>Dark Guardian Episode 1 - Unknown Enemy (USA) (Proto)</name>
     <image>./media/images/Dark Guardian Episode 1 - Unknown Enemy (USA) (Proto).png</image>
     <video>./media/videos/Dark Guardian Episode 1 - Unknown Enemy (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Defender 2000 (World) (Beta).zip</path>
+    <path>./Defender 2000 (World) (Beta).zip</path>
     <name>Defender 2000 (World) (Beta)</name>
     <image>./media/images/Defender 2000 (World) (Beta).png</image>
     <video>./media/videos/Defender 2000 (World) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Defender 2000 (World).zip</path>
+    <path>./Defender 2000 (World).zip</path>
     <name>Defender 2000 (World)</name>
     <image>./media/images/Defender 2000 (World).png</image>
     <video>./media/videos/Defender 2000 (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Degz (World) (Aftermarket) (Unl).zip</path>
+    <path>./Degz (World) (Aftermarket) (Unl).zip</path>
     <name>Degz (World) (Aftermarket) (Unl)</name>
     <image>./media/images/Degz (World) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Degz (World) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//DiamJag (World) (Aftermarket) (Unl).zip</path>
+    <path>./DiamJag (World) (Aftermarket) (Unl).zip</path>
     <name>DiamJag (World) (Aftermarket) (Unl)</name>
     <image>./media/images/DiamJag (World) (Aftermarket) (Unl).png</image>
     <video>./media/videos/DiamJag (World) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Do the Same (World) (Aftermarket) (Unl).zip</path>
+    <path>./Do the Same (World) (Aftermarket) (Unl).zip</path>
     <name>Do the Same (World) (Aftermarket) (Unl)</name>
     <image>./media/images/Do the Same (World) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Do the Same (World) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Doom (World).zip</path>
+    <path>./Doom (World).zip</path>
     <name>Doom (World)</name>
     <image>./media/images/Doom (World).png</image>
     <video>./media/videos/Doom (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Double Dragon V - The Shadow Falls (World).zip</path>
+    <path>./Double Dragon V - The Shadow Falls (World).zip</path>
     <name>Double Dragon V - The Shadow Falls (World)</name>
     <image>./media/images/Double Dragon V - The Shadow Falls (World).png</image>
     <video>./media/videos/Double Dragon V - The Shadow Falls (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Downfall (World) (Aftermarket) (Unl).zip</path>
+    <path>./Downfall (World) (Aftermarket) (Unl).zip</path>
     <name>Downfall (World) (Aftermarket) (Unl)</name>
     <image>./media/images/Downfall (World) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Downfall (World) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Dragon - The Bruce Lee Story (World) (Beta) (1994-09-26).zip</path>
+    <path>./Dragon - The Bruce Lee Story (World) (Beta) (1994-09-26).zip</path>
     <name>Dragon - The Bruce Lee Story (World) (Beta) (1994-09-26)</name>
     <image>./media/images/Dragon - The Bruce Lee Story (World) (Beta) (1994-09-26).png</image>
     <video>./media/videos/Dragon - The Bruce Lee Story (World) (Beta) (1994-09-26).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Dragon - The Bruce Lee Story (World) (Beta) (1994-10-06).zip</path>
+    <path>./Dragon - The Bruce Lee Story (World) (Beta) (1994-10-06).zip</path>
     <name>Dragon - The Bruce Lee Story (World) (Beta) (1994-10-06)</name>
     <image>./media/images/Dragon - The Bruce Lee Story (World) (Beta) (1994-10-06).png</image>
     <video>./media/videos/Dragon - The Bruce Lee Story (World) (Beta) (1994-10-06).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Dragon - The Bruce Lee Story (World).zip</path>
+    <path>./Dragon - The Bruce Lee Story (World).zip</path>
     <name>Dragon - The Bruce Lee Story (World)</name>
     <image>./media/images/Dragon - The Bruce Lee Story (World).png</image>
     <video>./media/videos/Dragon - The Bruce Lee Story (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Evolution - Dino Dudes (World).zip</path>
+    <path>./Evolution - Dino Dudes (World).zip</path>
     <name>Evolution - Dino Dudes (World)</name>
     <image>./media/images/Evolution - Dino Dudes (World).png</image>
     <video>./media/videos/Evolution - Dino Dudes (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Expressway (World) (Aftermarket) (Unl).zip</path>
+    <path>./Expressway (World) (Aftermarket) (Unl).zip</path>
     <name>Expressway (World) (Aftermarket) (Unl)</name>
     <image>./media/images/Expressway (World) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Expressway (World) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Fever Pitch Soccer (World) (En,Fr,De,Es,It).zip</path>
+    <path>./Fever Pitch Soccer (World) (En,Fr,De,Es,It).zip</path>
     <name>Fever Pitch Soccer (World) (En,Fr,De,Es,It)</name>
     <image>./media/images/Fever Pitch Soccer (World) (En,Fr,De,Es,It).png</image>
     <video>./media/videos/Fever Pitch Soccer (World) (En,Fr,De,Es,It).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Fight for Life (USA, Europe) (Beta) (1995-03-22).zip</path>
+    <path>./Fight for Life (USA, Europe) (Beta) (1995-03-22).zip</path>
     <name>Fight for Life (USA, Europe) (Beta) (1995-03-22)</name>
     <image>./media/images/Fight for Life (USA, Europe) (Beta) (1995-03-22).png</image>
     <video>./media/videos/Fight for Life (USA, Europe) (Beta) (1995-03-22).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Fight for Life (USA, Europe) (Beta) (1995-09-07).zip</path>
+    <path>./Fight for Life (USA, Europe) (Beta) (1995-09-07).zip</path>
     <name>Fight for Life (USA, Europe) (Beta) (1995-09-07)</name>
     <image>./media/images/Fight for Life (USA, Europe) (Beta) (1995-09-07).png</image>
     <video>./media/videos/Fight for Life (USA, Europe) (Beta) (1995-09-07).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Fight for Life (USA, Europe).zip</path>
+    <path>./Fight for Life (USA, Europe).zip</path>
     <name>Fight for Life (USA, Europe)</name>
     <image>./media/images/Fight for Life (USA, Europe).png</image>
     <video>./media/videos/Fight for Life (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Flashback - The Quest for Identity (World) (En,Fr).zip</path>
+    <path>./Flashback - The Quest for Identity (World) (En,Fr).zip</path>
     <name>Flashback - The Quest for Identity (World) (En,Fr)</name>
     <image>./media/images/Flashback - The Quest for Identity (World) (En,Fr).png</image>
     <video>./media/videos/Flashback - The Quest for Identity (World) (En,Fr).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Flip Out! (World).zip</path>
+    <path>./Flip Out! (World).zip</path>
     <name>Flip Out! (World)</name>
     <image>./media/images/Flip Out! (World).png</image>
     <video>./media/videos/Flip Out! (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Frog Feast (World) (Aftermarket).zip</path>
+    <path>./Frog Feast (World) (Aftermarket).zip</path>
     <name>Frog Feast (World) (Aftermarket)</name>
     <image>./media/images/Frog Feast (World) (Aftermarket).png</image>
     <video>./media/videos/Frog Feast (World) (Aftermarket).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Frog Feast (World) (Demo) (Aftermarket) (Unl).zip</path>
+    <path>./Frog Feast (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Frog Feast (World) (Demo) (Aftermarket) (Unl)</name>
     <image>./media/images/Frog Feast (World) (Demo) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Frog Feast (World) (Demo) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Full Circle - Rocketeer (World) (Demo) (Aftermarket) (Unl).zip</path>
+    <path>./Full Circle - Rocketeer (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Full Circle - Rocketeer (World) (Demo) (Aftermarket) (Unl)</name>
     <image>./media/images/Full Circle - Rocketeer (World) (Demo) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Full Circle - Rocketeer (World) (Demo) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//High Voltage C Maze (USA) (Demo).zip</path>
+    <path>./High Voltage C Maze (USA) (Demo).zip</path>
     <name>High Voltage C Maze (USA) (Demo)</name>
     <image>./media/images/High Voltage C Maze (USA) (Demo).png</image>
     <video>./media/videos/High Voltage C Maze (USA) (Demo).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Hover Strike (World).zip</path>
+    <path>./Hover Strike (World).zip</path>
     <name>Hover Strike (World)</name>
     <image>./media/images/Hover Strike (World).png</image>
     <video>./media/videos/Hover Strike (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Hyper Force (World) (Aftermarket).zip</path>
+    <path>./Hyper Force (World) (Aftermarket).zip</path>
     <name>Hyper Force (World) (Aftermarket)</name>
     <image>./media/images/Hyper Force (World) (Aftermarket).png</image>
     <video>./media/videos/Hyper Force (World) (Aftermarket).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//I-War (USA, Europe) (Beta) (1995-10-20).zip</path>
+    <path>./I-War (USA, Europe) (Beta) (1995-10-20).zip</path>
     <name>I-War (USA, Europe) (Beta) (1995-10-20)</name>
     <image>./media/images/I-War (USA, Europe) (Beta) (1995-10-20).png</image>
     <video>./media/videos/I-War (USA, Europe) (Beta) (1995-10-20).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//I-War (USA, Europe).zip</path>
+    <path>./I-War (USA, Europe).zip</path>
     <name>I-War (USA, Europe)</name>
     <image>./media/images/I-War (USA, Europe).png</image>
     <video>./media/videos/I-War (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Impulse X (World) (Aftermarket) (Unl).zip</path>
+    <path>./Impulse X (World) (Aftermarket) (Unl).zip</path>
     <name>Impulse X (World) (Aftermarket) (Unl)</name>
     <image>./media/images/Impulse X (World) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Impulse X (World) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//International Sensible Soccer (World).zip</path>
+    <path>./International Sensible Soccer (World).zip</path>
     <name>International Sensible Soccer (World)</name>
     <image>./media/images/International Sensible Soccer (World).png</image>
     <video>./media/videos/International Sensible Soccer (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Iron Soldier (World).zip</path>
+    <path>./Iron Soldier (World).zip</path>
     <name>Iron Soldier (World)</name>
     <image>./media/images/Iron Soldier (World).png</image>
     <video>./media/videos/Iron Soldier (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Iron Soldier 2 (USA, Europe) (Aftermarket).zip</path>
+    <path>./Iron Soldier 2 (USA, Europe) (Aftermarket).zip</path>
     <name>Iron Soldier 2 (USA, Europe) (Aftermarket)</name>
     <image>./media/images/Iron Soldier 2 (USA, Europe) (Aftermarket).png</image>
     <video>./media/videos/Iron Soldier 2 (USA, Europe) (Aftermarket).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Jack Nicklaus Cyber Golf (USA) (v0.02) (Proto) (1994-07-04).zip</path>
+    <path>./Jack Nicklaus Cyber Golf (USA) (v0.02) (Proto) (1994-07-04).zip</path>
     <name>Jack Nicklaus Cyber Golf (USA) (v0.02) (Proto) (1994-07-04)</name>
     <image>./media/images/Jack Nicklaus Cyber Golf (USA) (v0.02) (Proto) (1994-07-04).png</image>
     <video>./media/videos/Jack Nicklaus Cyber Golf (USA) (v0.02) (Proto) (1994-07-04).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Jack Nicklaus Cyber Golf (USA) (v0.03) (Demo) (1995-01-13).zip</path>
+    <path>./Jack Nicklaus Cyber Golf (USA) (v0.03) (Demo) (1995-01-13).zip</path>
     <name>Jack Nicklaus Cyber Golf (USA) (v0.03) (Demo) (1995-01-13)</name>
     <image>./media/images/Jack Nicklaus Cyber Golf (USA) (v0.03) (Demo) (1995-01-13).png</image>
     <video>./media/videos/Jack Nicklaus Cyber Golf (USA) (v0.03) (Demo) (1995-01-13).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Jack Nicklaus Cyber Golf (USA) (v0.04) (Demo) (1995-01-16).zip</path>
+    <path>./Jack Nicklaus Cyber Golf (USA) (v0.04) (Demo) (1995-01-16).zip</path>
     <name>Jack Nicklaus Cyber Golf (USA) (v0.04) (Demo) (1995-01-16)</name>
     <image>./media/images/Jack Nicklaus Cyber Golf (USA) (v0.04) (Demo) (1995-01-16).png</image>
     <video>./media/videos/Jack Nicklaus Cyber Golf (USA) (v0.04) (Demo) (1995-01-16).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//JagMania (World) (Aftermarket) (Unl).zip</path>
+    <path>./JagMania (World) (Aftermarket) (Unl).zip</path>
     <name>JagMania (World) (Aftermarket) (Unl)</name>
     <image>./media/images/JagMania (World) (Aftermarket) (Unl).png</image>
     <video>./media/videos/JagMania (World) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Jaguar Tetris (World) (Aftermarket) (Unl).zip</path>
+    <path>./Jaguar Tetris (World) (Aftermarket) (Unl).zip</path>
     <name>Jaguar Tetris (World) (Aftermarket) (Unl)</name>
     <image>./media/images/Jaguar Tetris (World) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Jaguar Tetris (World) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Jungle Jag (World) (Aftermarket) (Unl).zip</path>
+    <path>./Jungle Jag (World) (Aftermarket) (Unl).zip</path>
     <name>Jungle Jag (World) (Aftermarket) (Unl)</name>
     <image>./media/images/Jungle Jag (World) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Jungle Jag (World) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Kasumi Ninja (World) (v0.01) (Beta).zip</path>
+    <path>./Kasumi Ninja (World) (v0.01) (Beta).zip</path>
     <name>Kasumi Ninja (World) (v0.01) (Beta)</name>
     <image>./media/images/Kasumi Ninja (World) (v0.01) (Beta).png</image>
     <video>./media/videos/Kasumi Ninja (World) (v0.01) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Kasumi Ninja (World) (v0.29) (Beta) (1994-05-24).zip</path>
+    <path>./Kasumi Ninja (World) (v0.29) (Beta) (1994-05-24).zip</path>
     <name>Kasumi Ninja (World) (v0.29) (Beta) (1994-05-24)</name>
     <image>./media/images/Kasumi Ninja (World) (v0.29) (Beta) (1994-05-24).png</image>
     <video>./media/videos/Kasumi Ninja (World) (v0.29) (Beta) (1994-05-24).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Kasumi Ninja (World).zip</path>
+    <path>./Kasumi Ninja (World).zip</path>
     <name>Kasumi Ninja (World)</name>
     <image>./media/images/Kasumi Ninja (World).png</image>
     <video>./media/videos/Kasumi Ninja (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Kobayashi Maru (World) (Aftermarket) (Unl).zip</path>
+    <path>./Kobayashi Maru (World) (Aftermarket) (Unl).zip</path>
     <name>Kobayashi Maru (World) (Aftermarket) (Unl)</name>
     <image>./media/images/Kobayashi Maru (World) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Kobayashi Maru (World) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Kobayashi Maru - Final (World) (Demo) (Aftermarket) (Unl).zip</path>
+    <path>./Kobayashi Maru - Final (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Kobayashi Maru - Final (World) (Demo) (Aftermarket) (Unl)</name>
     <image>./media/images/Kobayashi Maru - Final (World) (Demo) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Kobayashi Maru - Final (World) (Demo) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Mad Bodies (World) (Proto) (2009-01-17) (Aftermarket) (Unl).zip</path>
+    <path>./Mad Bodies (World) (Proto) (2009-01-17) (Aftermarket) (Unl).zip</path>
     <name>Mad Bodies (World) (Proto) (2009-01-17) (Aftermarket) (Unl)</name>
     <image>./media/images/Mad Bodies (World) (Proto) (2009-01-17) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Mad Bodies (World) (Proto) (2009-01-17) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Maxx, The (World) (Demo) (Aftermarket) (Unl).zip</path>
+    <path>./Maxx, The (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Maxx, The (World) (Demo) (Aftermarket) (Unl)</name>
     <image>./media/images/Maxx, The (World) (Demo) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Maxx, The (World) (Demo) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Missile Command 3D (World).zip</path>
+    <path>./Missile Command 3D (World).zip</path>
     <name>Missile Command 3D (World)</name>
     <image>./media/images/Missile Command 3D (World).png</image>
     <video>./media/videos/Missile Command 3D (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Missile Command VR (World) (Beta) (1995-07-05).zip</path>
+    <path>./Missile Command VR (World) (Beta) (1995-07-05).zip</path>
     <name>Missile Command VR (World) (Beta) (1995-07-05)</name>
     <image>./media/images/Missile Command VR (World) (Beta) (1995-07-05).png</image>
     <video>./media/videos/Missile Command VR (World) (Beta) (1995-07-05).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//NBA Jam - Tournament Edition (USA, Europe).zip</path>
+    <path>./NBA Jam - Tournament Edition (USA, Europe).zip</path>
     <name>NBA Jam - Tournament Edition (USA, Europe)</name>
     <image>./media/images/NBA Jam - Tournament Edition (USA, Europe).png</image>
     <video>./media/videos/NBA Jam - Tournament Edition (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Native (USA) (Proto).zip</path>
+    <path>./Native (USA) (Proto).zip</path>
     <name>Native (USA) (Proto)</name>
     <image>./media/images/Native (USA) (Proto).png</image>
     <video>./media/videos/Native (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//OSMOZYS (World) (Demo) (Aftermarket) (Unl).zip</path>
+    <path>./OSMOZYS (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>OSMOZYS (World) (Demo) (Aftermarket) (Unl)</name>
     <image>./media/images/OSMOZYS (World) (Demo) (Aftermarket) (Unl).png</image>
     <video>./media/videos/OSMOZYS (World) (Demo) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Orion_'s Jaguar Collection (World) (Aftermarket) (Unl).zip</path>
+    <path>./Orion_'s Jaguar Collection (World) (Aftermarket) (Unl).zip</path>
     <name>Orion_'s Jaguar Collection (World) (Aftermarket) (Unl)</name>
     <image>./media/images/Orion_'s Jaguar Collection (World) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Orion_'s Jaguar Collection (World) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Painter (World) (Demo) (1995-12-29) (Unl).zip</path>
+    <path>./Painter (World) (Demo) (1995-12-29) (Unl).zip</path>
     <name>Painter (World) (Demo) (1995-12-29) (Unl)</name>
     <image>./media/images/Painter (World) (Demo) (1995-12-29) (Unl).png</image>
     <video>./media/videos/Painter (World) (Demo) (1995-12-29) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Phase Zero (World) (Aftermarket).zip</path>
+    <path>./Phase Zero (World) (Aftermarket).zip</path>
     <name>Phase Zero (World) (Aftermarket)</name>
     <image>./media/images/Phase Zero (World) (Aftermarket).png</image>
     <video>./media/videos/Phase Zero (World) (Aftermarket).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Pinball Fantasies (World).zip</path>
+    <path>./Pinball Fantasies (World).zip</path>
     <name>Pinball Fantasies (World)</name>
     <image>./media/images/Pinball Fantasies (World).png</image>
     <video>./media/videos/Pinball Fantasies (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Pitfall - The Mayan Adventure (USA, Europe).zip</path>
+    <path>./Pitfall - The Mayan Adventure (USA, Europe).zip</path>
     <name>Pitfall - The Mayan Adventure (USA, Europe)</name>
     <image>./media/images/Pitfall - The Mayan Adventure (USA, Europe).png</image>
     <video>./media/videos/Pitfall - The Mayan Adventure (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Plucky Duck in Hollywood Hijinks (USA) (Proto) (1994-10-28).zip</path>
+    <path>./Plucky Duck in Hollywood Hijinks (USA) (Proto) (1994-10-28).zip</path>
     <name>Plucky Duck in Hollywood Hijinks (USA) (Proto) (1994-10-28)</name>
     <image>./media/images/Plucky Duck in Hollywood Hijinks (USA) (Proto) (1994-10-28).png</image>
     <video>./media/videos/Plucky Duck in Hollywood Hijinks (USA) (Proto) (1994-10-28).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Power Drive Rally (World).zip</path>
+    <path>./Power Drive Rally (World).zip</path>
     <name>Power Drive Rally (World)</name>
     <image>./media/images/Power Drive Rally (World).png</image>
     <video>./media/videos/Power Drive Rally (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Project One (World) (Demo) (Aftermarket) (Unl).zip</path>
+    <path>./Project One (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Project One (World) (Demo) (Aftermarket) (Unl)</name>
     <image>./media/images/Project One (World) (Demo) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Project One (World) (Demo) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Protector (World) (Aftermarket).zip</path>
+    <path>./Protector (World) (Aftermarket).zip</path>
     <name>Protector (World) (Aftermarket)</name>
     <image>./media/images/Protector (World) (Aftermarket).png</image>
     <video>./media/videos/Protector (World) (Aftermarket).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Protector - Special Edition (World) (Aftermarket).zip</path>
+    <path>./Protector - Special Edition (World) (Aftermarket).zip</path>
     <name>Protector - Special Edition (World) (Aftermarket)</name>
     <image>./media/images/Protector - Special Edition (World) (Aftermarket).png</image>
     <video>./media/videos/Protector - Special Edition (World) (Aftermarket).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Raiden (World) (Rev A).zip</path>
+    <path>./Raiden (World) (Rev A).zip</path>
     <name>Raiden (World) (Rev A)</name>
     <image>./media/images/Raiden (World) (Rev A).png</image>
     <video>./media/videos/Raiden (World) (Rev A).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Raiden (World).zip</path>
+    <path>./Raiden (World).zip</path>
     <name>Raiden (World)</name>
     <image>./media/images/Raiden (World).png</image>
     <video>./media/videos/Raiden (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Rayman (World) (Beta 1).zip</path>
+    <path>./Rayman (World) (Beta 1).zip</path>
     <name>Rayman (World) (Beta 1)</name>
     <image>./media/images/Rayman (World) (Beta 1).png</image>
     <video>./media/videos/Rayman (World) (Beta 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Rayman (World) (Beta 2).zip</path>
+    <path>./Rayman (World) (Beta 2).zip</path>
     <name>Rayman (World) (Beta 2)</name>
     <image>./media/images/Rayman (World) (Beta 2).png</image>
     <video>./media/videos/Rayman (World) (Beta 2).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Rayman (World).zip</path>
+    <path>./Rayman (World).zip</path>
     <name>Rayman (World)</name>
     <image>./media/images/Rayman (World).png</image>
     <video>./media/videos/Rayman (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Rebooteroids (World) (Proto) (Aftermarket) (Unl).zip</path>
+    <path>./Rebooteroids (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Rebooteroids (World) (Proto) (Aftermarket) (Unl)</name>
     <image>./media/images/Rebooteroids (World) (Proto) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Rebooteroids (World) (Proto) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Rocks Off! (World) (Aftermarket) (Unl).zip</path>
+    <path>./Rocks Off! (World) (Aftermarket) (Unl).zip</path>
     <name>Rocks Off! (World) (Aftermarket) (Unl)</name>
     <image>./media/images/Rocks Off! (World) (Aftermarket) (Unl).png</image>
     <video>./media/videos/Rocks Off! (World) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Ruiner Pinball (USA, Europe).zip</path>
+    <path>./Ruiner Pinball (USA, Europe).zip</path>
     <name>Ruiner Pinball (USA, Europe)</name>
     <image>./media/images/Ruiner Pinball (USA, Europe).png</image>
     <video>./media/videos/Ruiner Pinball (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//ScatoLOGIC Music Engine Demo (World) (Demo) (Aftermarket) (Unl).zip</path>
+    <path>./ScatoLOGIC Music Engine Demo (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>ScatoLOGIC Music Engine Demo (World) (Demo) (Aftermarket) (Unl)</name>
     <image>./media/images/ScatoLOGIC Music Engine Demo (World) (Demo) (Aftermarket) (Unl).png</image>
     <video>./media/videos/ScatoLOGIC Music Engine Demo (World) (Demo) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//SkyCopter II (USA) (Proto).zip</path>
+    <path>./SkyCopter II (USA) (Proto).zip</path>
     <name>SkyCopter II (USA) (Proto)</name>
     <image>./media/images/SkyCopter II (USA) (Proto).png</image>
     <video>./media/videos/SkyCopter II (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Skyhammer (World) (Aftermarket).zip</path>
+    <path>./Skyhammer (World) (Aftermarket).zip</path>
     <name>Skyhammer (World) (Aftermarket)</name>
     <image>./media/images/Skyhammer (World) (Aftermarket).png</image>
     <video>./media/videos/Skyhammer (World) (Aftermarket).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Slam Racer (USA) (Proto 1).zip</path>
+    <path>./Slam Racer (USA) (Proto 1).zip</path>
     <name>Slam Racer (USA) (Proto 1)</name>
     <image>./media/images/Slam Racer (USA) (Proto 1).png</image>
     <video>./media/videos/Slam Racer (USA) (Proto 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Slam Racer (USA) (Proto 2).zip</path>
+    <path>./Slam Racer (USA) (Proto 2).zip</path>
     <name>Slam Racer (USA) (Proto 2)</name>
     <image>./media/images/Slam Racer (USA) (Proto 2).png</image>
     <video>./media/videos/Slam Racer (USA) (Proto 2).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Soccer Kid (World) (Aftermarket).zip</path>
+    <path>./Soccer Kid (World) (Aftermarket).zip</path>
     <name>Soccer Kid (World) (Aftermarket)</name>
     <image>./media/images/Soccer Kid (World) (Aftermarket).png</image>
     <video>./media/videos/Soccer Kid (World) (Aftermarket).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Soccer Kid (World) (Beta).zip</path>
+    <path>./Soccer Kid (World) (Beta).zip</path>
     <name>Soccer Kid (World) (Beta)</name>
     <image>./media/images/Soccer Kid (World) (Beta).png</image>
     <video>./media/videos/Soccer Kid (World) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Space War 2000 (World) (Aftermarket).zip</path>
+    <path>./Space War 2000 (World) (Aftermarket).zip</path>
     <name>Space War 2000 (World) (Aftermarket)</name>
     <image>./media/images/Space War 2000 (World) (Aftermarket).png</image>
     <video>./media/videos/Space War 2000 (World) (Aftermarket).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Speedster II (USA) (Proto).zip</path>
+    <path>./Speedster II (USA) (Proto).zip</path>
     <name>Speedster II (USA) (Proto)</name>
     <image>./media/images/Speedster II (USA) (Proto).png</image>
     <video>./media/videos/Speedster II (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Super Burnout (World) (Demo) (WCES 1995).zip</path>
+    <path>./Super Burnout (World) (Demo) (WCES 1995).zip</path>
     <name>Super Burnout (World) (Demo) (WCES 1995)</name>
     <image>./media/images/Super Burnout (World) (Demo) (WCES 1995).png</image>
     <video>./media/videos/Super Burnout (World) (Demo) (WCES 1995).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Super Burnout (World).zip</path>
+    <path>./Super Burnout (World).zip</path>
     <name>Super Burnout (World)</name>
     <image>./media/images/Super Burnout (World).png</image>
     <video>./media/videos/Super Burnout (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//SuperFly DX (World) (v1.1) (Aftermarket) (Unl).zip</path>
+    <path>./SuperFly DX (World) (v1.1) (Aftermarket) (Unl).zip</path>
     <name>SuperFly DX (World) (v1.1) (Aftermarket) (Unl)</name>
     <image>./media/images/SuperFly DX (World) (v1.1) (Aftermarket) (Unl).png</image>
     <video>./media/videos/SuperFly DX (World) (v1.1) (Aftermarket) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Supercross 3D (USA, Europe).zip</path>
+    <path>./Supercross 3D (USA, Europe).zip</path>
     <name>Supercross 3D (USA, Europe)</name>
     <image>./media/images/Supercross 3D (USA, Europe).png</image>
     <video>./media/videos/Supercross 3D (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Syndicate (World).zip</path>
+    <path>./Syndicate (World).zip</path>
     <name>Syndicate (World)</name>
     <image>./media/images/Syndicate (World).png</image>
     <video>./media/videos/Syndicate (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Tempest 2000 (World).zip</path>
+    <path>./Tempest 2000 (World).zip</path>
     <name>Tempest 2000 (World)</name>
     <image>./media/images/Tempest 2000 (World).png</image>
     <video>./media/videos/Tempest 2000 (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Thea Realm Fighters (USA) (Proto 1).zip</path>
+    <path>./Thea Realm Fighters (USA) (Proto 1).zip</path>
     <name>Thea Realm Fighters (USA) (Proto 1)</name>
     <image>./media/images/Thea Realm Fighters (USA) (Proto 1).png</image>
     <video>./media/videos/Thea Realm Fighters (USA) (Proto 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Thea Realm Fighters (USA) (Proto 2).zip</path>
+    <path>./Thea Realm Fighters (USA) (Proto 2).zip</path>
     <name>Thea Realm Fighters (USA) (Proto 2)</name>
     <image>./media/images/Thea Realm Fighters (USA) (Proto 2).png</image>
     <video>./media/videos/Thea Realm Fighters (USA) (Proto 2).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Theme Park (World).zip</path>
+    <path>./Theme Park (World).zip</path>
     <name>Theme Park (World)</name>
     <image>./media/images/Theme Park (World).png</image>
     <video>./media/videos/Theme Park (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Tiny Toon Adventures (USA) (Proto).zip</path>
+    <path>./Tiny Toon Adventures (USA) (Proto).zip</path>
     <name>Tiny Toon Adventures (USA) (Proto)</name>
     <image>./media/images/Tiny Toon Adventures (USA) (Proto).png</image>
     <video>./media/videos/Tiny Toon Adventures (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Total Carnage (World) (Aftermarket).zip</path>
+    <path>./Total Carnage (World) (Aftermarket).zip</path>
     <name>Total Carnage (World) (Aftermarket)</name>
     <image>./media/images/Total Carnage (World) (Aftermarket).png</image>
     <video>./media/videos/Total Carnage (World) (Aftermarket).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Total Carnage (World) (Beta).zip</path>
+    <path>./Total Carnage (World) (Beta).zip</path>
     <name>Total Carnage (World) (Beta)</name>
     <image>./media/images/Total Carnage (World) (Beta).png</image>
     <video>./media/videos/Total Carnage (World) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Towers II - Plight of the Stargazer (USA, Europe).zip</path>
+    <path>./Towers II - Plight of the Stargazer (USA, Europe).zip</path>
     <name>Towers II - Plight of the Stargazer (USA, Europe)</name>
     <image>./media/images/Towers II - Plight of the Stargazer (USA, Europe).png</image>
     <video>./media/videos/Towers II - Plight of the Stargazer (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Trevor McFur in the Crescent Galaxy (World) (Beta).zip</path>
+    <path>./Trevor McFur in the Crescent Galaxy (World) (Beta).zip</path>
     <name>Trevor McFur in the Crescent Galaxy (World) (Beta)</name>
     <image>./media/images/Trevor McFur in the Crescent Galaxy (World) (Beta).png</image>
     <video>./media/videos/Trevor McFur in the Crescent Galaxy (World) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Trevor McFur in the Crescent Galaxy (World) (Rev A).zip</path>
+    <path>./Trevor McFur in the Crescent Galaxy (World) (Rev A).zip</path>
     <name>Trevor McFur in the Crescent Galaxy (World) (Rev A)</name>
     <image>./media/images/Trevor McFur in the Crescent Galaxy (World) (Rev A).png</image>
     <video>./media/videos/Trevor McFur in the Crescent Galaxy (World) (Rev A).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Trevor McFur in the Crescent Galaxy (World).zip</path>
+    <path>./Trevor McFur in the Crescent Galaxy (World).zip</path>
     <name>Trevor McFur in the Crescent Galaxy (World)</name>
     <image>./media/images/Trevor McFur in the Crescent Galaxy (World).png</image>
     <video>./media/videos/Trevor McFur in the Crescent Galaxy (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Troy Aikman NFL Football (World).zip</path>
+    <path>./Troy Aikman NFL Football (World).zip</path>
     <name>Troy Aikman NFL Football (World)</name>
     <image>./media/images/Troy Aikman NFL Football (World).png</image>
     <video>./media/videos/Troy Aikman NFL Football (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Ultimate Brain Games (USA) (Proto).zip</path>
+    <path>./Ultimate Brain Games (USA) (Proto).zip</path>
     <name>Ultimate Brain Games (USA) (Proto)</name>
     <image>./media/images/Ultimate Brain Games (USA) (Proto).png</image>
     <video>./media/videos/Ultimate Brain Games (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Ultra Vortek (World).zip</path>
+    <path>./Ultra Vortek (World).zip</path>
     <name>Ultra Vortek (World)</name>
     <image>./media/images/Ultra Vortek (World).png</image>
     <video>./media/videos/Ultra Vortek (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Ultra Vortex (World) (Beta) (1995-03-20).zip</path>
+    <path>./Ultra Vortex (World) (Beta) (1995-03-20).zip</path>
     <name>Ultra Vortex (World) (Beta) (1995-03-20)</name>
     <image>./media/images/Ultra Vortex (World) (Beta) (1995-03-20).png</image>
     <video>./media/videos/Ultra Vortex (World) (Beta) (1995-03-20).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Val d'Isere Skiing and Snowboarding (World).zip</path>
+    <path>./Val d'Isere Skiing and Snowboarding (World).zip</path>
     <name>Val d'Isere Skiing and Snowboarding (World)</name>
     <image>./media/images/Val d'Isere Skiing and Snowboarding (World).png</image>
     <video>./media/videos/Val d'Isere Skiing and Snowboarding (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Virtual VCS (USA) (Proto).zip</path>
+    <path>./Virtual VCS (USA) (Proto).zip</path>
     <name>Virtual VCS (USA) (Proto)</name>
     <image>./media/images/Virtual VCS (USA) (Proto).png</image>
     <video>./media/videos/Virtual VCS (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//White Men Can't Jump (USA, Europe).zip</path>
+    <path>./White Men Can't Jump (USA, Europe).zip</path>
     <name>White Men Can't Jump (USA, Europe)</name>
     <image>./media/images/White Men Can't Jump (USA, Europe).png</image>
     <video>./media/videos/White Men Can't Jump (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Wolfenstein 3D (World).zip</path>
+    <path>./Wolfenstein 3D (World).zip</path>
     <name>Wolfenstein 3D (World)</name>
     <image>./media/images/Wolfenstein 3D (World).png</image>
     <video>./media/videos/Wolfenstein 3D (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Worms (USA, Europe) (Aftermarket).zip</path>
+    <path>./Worms (USA, Europe) (Aftermarket).zip</path>
     <name>Worms (USA, Europe) (Aftermarket)</name>
     <image>./media/images/Worms (USA, Europe) (Aftermarket).png</image>
     <video>./media/videos/Worms (USA, Europe) (Aftermarket).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Zero 5 (USA, Europe) (Aftermarket).zip</path>
+    <path>./Zero 5 (USA, Europe) (Aftermarket).zip</path>
     <name>Zero 5 (USA, Europe) (Aftermarket)</name>
     <image>./media/images/Zero 5 (USA, Europe) (Aftermarket).png</image>
     <video>./media/videos/Zero 5 (USA, Europe) (Aftermarket).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Zero 5 (USA, Europe) (Beta).zip</path>
+    <path>./Zero 5 (USA, Europe) (Beta).zip</path>
     <name>Zero 5 (USA, Europe) (Beta)</name>
     <image>./media/images/Zero 5 (USA, Europe) (Beta).png</image>
     <video>./media/videos/Zero 5 (USA, Europe) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Zool 2 (World).zip</path>
+    <path>./Zool 2 (World).zip</path>
     <name>Zool 2 (World)</name>
     <image>./media/images/Zool 2 (World).png</image>
     <video>./media/videos/Zool 2 (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Zoop (USA, Europe).zip</path>
+    <path>./Zoop (USA, Europe).zip</path>
     <name>Zoop (USA, Europe)</name>
     <image>./media/images/Zoop (USA, Europe).png</image>
     <video>./media/videos/Zoop (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//Zzyorxx II (USA) (Demo).zip</path>
+    <path>./Zzyorxx II (USA) (Demo).zip</path>
     <name>Zzyorxx II (USA) (Demo)</name>
     <image>./media/images/Zzyorxx II (USA) (Demo).png</image>
     <video>./media/videos/Zzyorxx II (USA) (Demo).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//[BIOS] Atari Jaguar (World).zip</path>
+    <path>./[BIOS] Atari Jaguar (World).zip</path>
     <name>[BIOS] Atari Jaguar (World)</name>
     <image>./media/images/[BIOS] Atari Jaguar (World).png</image>
     <video>./media/videos/[BIOS] Atari Jaguar (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//[BIOS] Atari Jaguar CD (World).zip</path>
+    <path>./[BIOS] Atari Jaguar CD (World).zip</path>
     <name>[BIOS] Atari Jaguar CD (World)</name>
     <image>./media/images/[BIOS] Atari Jaguar CD (World).png</image>
     <video>./media/videos/[BIOS] Atari Jaguar CD (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//[BIOS] Atari Jaguar Developer CD (World).zip</path>
+    <path>./[BIOS] Atari Jaguar Developer CD (World).zip</path>
     <name>[BIOS] Atari Jaguar Developer CD (World)</name>
     <image>./media/images/[BIOS] Atari Jaguar Developer CD (World).png</image>
     <video>./media/videos/[BIOS] Atari Jaguar Developer CD (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//[BIOS] Atari Jaguar Stubulator '93 (World).zip</path>
+    <path>./[BIOS] Atari Jaguar Stubulator '93 (World).zip</path>
     <name>[BIOS] Atari Jaguar Stubulator '93 (World)</name>
     <image>./media/images/[BIOS] Atari Jaguar Stubulator '93 (World).png</image>
     <video>./media/videos/[BIOS] Atari Jaguar Stubulator '93 (World).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Jaguar (ROM)//[BIOS] Atari Jaguar Stubulator '94 (World).zip</path>
+    <path>./[BIOS] Atari Jaguar Stubulator '94 (World).zip</path>
     <name>[BIOS] Atari Jaguar Stubulator '94 (World)</name>
     <image>./media/images/[BIOS] Atari Jaguar Stubulator '94 (World).png</image>
     <video>./media/videos/[BIOS] Atari Jaguar Stubulator '94 (World).mp4</video>

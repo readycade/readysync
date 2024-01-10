@@ -1,31 +1,31 @@
 <?xml version="1.0"?>
 <gameList>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/NEC - PC Engine SuperGrafx/1941 - Counter Attack (Japan).zip</path>
+    <path>./1941 - Counter Attack (Japan).zip</path>
     <name>1941 - Counter Attack (Japan)</name>
     <image>./media/images/1941 - Counter Attack (Japan).png</image>
     <video>./media/videos/1941 - Counter Attack (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/NEC - PC Engine SuperGrafx/Aldynes - The Misson Code for Rage Crisis (Japan).zip</path>
+    <path>./Aldynes - The Misson Code for Rage Crisis (Japan).zip</path>
     <name>Aldynes - The Misson Code for Rage Crisis (Japan)</name>
     <image>./media/images/Aldynes - The Misson Code for Rage Crisis (Japan).png</image>
     <video>./media/videos/Aldynes - The Misson Code for Rage Crisis (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/NEC - PC Engine SuperGrafx/Battle Ace (Japan).zip</path>
+    <path>./Battle Ace (Japan).zip</path>
     <name>Battle Ace (Japan)</name>
     <image>./media/images/Battle Ace (Japan).png</image>
     <video>./media/videos/Battle Ace (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/NEC - PC Engine SuperGrafx/Daimakaimura (Japan).zip</path>
+    <path>./Daimakaimura (Japan).zip</path>
     <name>Daimakaimura (Japan)</name>
     <image>./media/images/Daimakaimura (Japan).png</image>
     <video>./media/videos/Daimakaimura (Japan).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/NEC - PC Engine SuperGrafx/Madou King Granzort (Japan).zip</path>
+    <path>./Madou King Granzort (Japan).zip</path>
     <name>Madou King Granzort (Japan)</name>
     <image>./media/images/Madou King Granzort (Japan).png</image>
     <video>./media/videos/Madou King Granzort (Japan).mp4</video>

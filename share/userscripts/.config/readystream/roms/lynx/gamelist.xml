@@ -1,583 +1,583 @@
 <?xml version="1.0"?>
 <gameList>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//A.P.B. (USA, Europe).zip</path>
+    <path>./A.P.B. (USA, Europe).zip</path>
     <name>A.P.B. (USA, Europe)</name>
     <image>./media/images/A.P.B. (USA, Europe).png</image>
     <video>./media/videos/A.P.B. (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Alien vs Predator (USA) (Proto) (1993-12-17).zip</path>
+    <path>./Alien vs Predator (USA) (Proto) (1993-12-17).zip</path>
     <name>Alien vs Predator (USA) (Proto) (1993-12-17)</name>
     <image>./media/images/Alien vs Predator (USA) (Proto) (1993-12-17).png</image>
     <video>./media/videos/Alien vs Predator (USA) (Proto) (1993-12-17).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Awesome Golf (USA, Europe).zip</path>
+    <path>./Awesome Golf (USA, Europe).zip</path>
     <name>Awesome Golf (USA, Europe)</name>
     <image>./media/images/Awesome Golf (USA, Europe).png</image>
     <video>./media/videos/Awesome Golf (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Baseball Heroes (USA, Europe).zip</path>
+    <path>./Baseball Heroes (USA, Europe).zip</path>
     <name>Baseball Heroes (USA, Europe)</name>
     <image>./media/images/Baseball Heroes (USA, Europe).png</image>
     <video>./media/videos/Baseball Heroes (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Basketbrawl (USA, Europe).zip</path>
+    <path>./Basketbrawl (USA, Europe).zip</path>
     <name>Basketbrawl (USA, Europe)</name>
     <image>./media/images/Basketbrawl (USA, Europe).png</image>
     <video>./media/videos/Basketbrawl (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Batman Returns (USA, Europe).zip</path>
+    <path>./Batman Returns (USA, Europe).zip</path>
     <name>Batman Returns (USA, Europe)</name>
     <image>./media/images/Batman Returns (USA, Europe).png</image>
     <video>./media/videos/Batman Returns (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Battle Wheels (USA, Europe).zip</path>
+    <path>./Battle Wheels (USA, Europe).zip</path>
     <name>Battle Wheels (USA, Europe)</name>
     <image>./media/images/Battle Wheels (USA, Europe).png</image>
     <video>./media/videos/Battle Wheels (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Battlezone 2000 (USA, Europe).zip</path>
+    <path>./Battlezone 2000 (USA, Europe).zip</path>
     <name>Battlezone 2000 (USA, Europe)</name>
     <image>./media/images/Battlezone 2000 (USA, Europe).png</image>
     <video>./media/videos/Battlezone 2000 (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Bill &amp; Ted's Excellent Adventure (USA, Europe).zip</path>
+    <path>./Bill &amp; Ted's Excellent Adventure (USA, Europe).zip</path>
     <name>Bill &amp; Ted's Excellent Adventure (USA, Europe)</name>
     <image>./media/images/Bill &amp; Ted's Excellent Adventure (USA, Europe).png</image>
     <video>./media/videos/Bill &amp; Ted's Excellent Adventure (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Block Out (USA, Europe).zip</path>
+    <path>./Block Out (USA, Europe).zip</path>
     <name>Block Out (USA, Europe)</name>
     <image>./media/images/Block Out (USA, Europe).png</image>
     <video>./media/videos/Block Out (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Blue Lightning (USA, Europe) (Demo).zip</path>
+    <path>./Blue Lightning (USA, Europe) (Demo).zip</path>
     <name>Blue Lightning (USA, Europe) (Demo)</name>
     <image>./media/images/Blue Lightning (USA, Europe) (Demo).png</image>
     <video>./media/videos/Blue Lightning (USA, Europe) (Demo).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Blue Lightning (USA, Europe).zip</path>
+    <path>./Blue Lightning (USA, Europe).zip</path>
     <name>Blue Lightning (USA, Europe)</name>
     <image>./media/images/Blue Lightning (USA, Europe).png</image>
     <video>./media/videos/Blue Lightning (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Bubble Trouble (USA, Europe).zip</path>
+    <path>./Bubble Trouble (USA, Europe).zip</path>
     <name>Bubble Trouble (USA, Europe)</name>
     <image>./media/images/Bubble Trouble (USA, Europe).png</image>
     <video>./media/videos/Bubble Trouble (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//California Games (USA, Europe).zip</path>
+    <path>./California Games (USA, Europe).zip</path>
     <name>California Games (USA, Europe)</name>
     <image>./media/images/California Games (USA, Europe).png</image>
     <video>./media/videos/California Games (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Centipede (USA) (Proto).zip</path>
+    <path>./Centipede (USA) (Proto).zip</path>
     <name>Centipede (USA) (Proto)</name>
     <image>./media/images/Centipede (USA) (Proto).png</image>
     <video>./media/videos/Centipede (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Checkered Flag (USA, Europe).zip</path>
+    <path>./Checkered Flag (USA, Europe).zip</path>
     <name>Checkered Flag (USA, Europe)</name>
     <image>./media/images/Checkered Flag (USA, Europe).png</image>
     <video>./media/videos/Checkered Flag (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Chip's Challenge (USA, Europe).zip</path>
+    <path>./Chip's Challenge (USA, Europe).zip</path>
     <name>Chip's Challenge (USA, Europe)</name>
     <image>./media/images/Chip's Challenge (USA, Europe).png</image>
     <video>./media/videos/Chip's Challenge (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Crystal Mines II (USA, Europe).zip</path>
+    <path>./Crystal Mines II (USA, Europe).zip</path>
     <name>Crystal Mines II (USA, Europe)</name>
     <image>./media/images/Crystal Mines II (USA, Europe).png</image>
     <video>./media/videos/Crystal Mines II (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Daemonsgate (USA) (Proto).zip</path>
+    <path>./Daemonsgate (USA) (Proto).zip</path>
     <name>Daemonsgate (USA) (Proto)</name>
     <image>./media/images/Daemonsgate (USA) (Proto).png</image>
     <video>./media/videos/Daemonsgate (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Desert Strike - Return to the Gulf (USA, Europe).zip</path>
+    <path>./Desert Strike - Return to the Gulf (USA, Europe).zip</path>
     <name>Desert Strike - Return to the Gulf (USA, Europe)</name>
     <image>./media/images/Desert Strike - Return to the Gulf (USA, Europe).png</image>
     <video>./media/videos/Desert Strike - Return to the Gulf (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Dinolympics (USA, Europe).zip</path>
+    <path>./Dinolympics (USA, Europe).zip</path>
     <name>Dinolympics (USA, Europe)</name>
     <image>./media/images/Dinolympics (USA, Europe).png</image>
     <video>./media/videos/Dinolympics (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Dirty Larry - Renegade Cop (USA, Europe).zip</path>
+    <path>./Dirty Larry - Renegade Cop (USA, Europe).zip</path>
     <name>Dirty Larry - Renegade Cop (USA, Europe)</name>
     <image>./media/images/Dirty Larry - Renegade Cop (USA, Europe).png</image>
     <video>./media/videos/Dirty Larry - Renegade Cop (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Double Dragon (USA, Europe).zip</path>
+    <path>./Double Dragon (USA, Europe).zip</path>
     <name>Double Dragon (USA, Europe)</name>
     <image>./media/images/Double Dragon (USA, Europe).png</image>
     <video>./media/videos/Double Dragon (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Dracula the Undead (USA, Europe).zip</path>
+    <path>./Dracula the Undead (USA, Europe).zip</path>
     <name>Dracula the Undead (USA, Europe)</name>
     <image>./media/images/Dracula the Undead (USA, Europe).png</image>
     <video>./media/videos/Dracula the Undead (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Electrocop (USA, Europe).zip</path>
+    <path>./Electrocop (USA, Europe).zip</path>
     <name>Electrocop (USA, Europe)</name>
     <image>./media/images/Electrocop (USA, Europe).png</image>
     <video>./media/videos/Electrocop (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//European Soccer Challenge (USA, Europe).zip</path>
+    <path>./European Soccer Challenge (USA, Europe).zip</path>
     <name>European Soccer Challenge (USA, Europe)</name>
     <image>./media/images/European Soccer Challenge (USA, Europe).png</image>
     <video>./media/videos/European Soccer Challenge (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Eye of the Beholder (USA) (Proto).zip</path>
+    <path>./Eye of the Beholder (USA) (Proto).zip</path>
     <name>Eye of the Beholder (USA) (Proto)</name>
     <image>./media/images/Eye of the Beholder (USA) (Proto).png</image>
     <video>./media/videos/Eye of the Beholder (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Eye of the Beholder (USA) (Unl).zip</path>
+    <path>./Eye of the Beholder (USA) (Unl).zip</path>
     <name>Eye of the Beholder (USA) (Unl)</name>
     <image>./media/images/Eye of the Beholder (USA) (Unl).png</image>
     <video>./media/videos/Eye of the Beholder (USA) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Fat Bobby (USA, Europe).zip</path>
+    <path>./Fat Bobby (USA, Europe).zip</path>
     <name>Fat Bobby (USA, Europe)</name>
     <image>./media/images/Fat Bobby (USA, Europe).png</image>
     <video>./media/videos/Fat Bobby (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Fidelity Ultimate Chess Challenge, The (USA, Europe).zip</path>
+    <path>./Fidelity Ultimate Chess Challenge, The (USA, Europe).zip</path>
     <name>Fidelity Ultimate Chess Challenge, The (USA, Europe)</name>
     <image>./media/images/Fidelity Ultimate Chess Challenge, The (USA, Europe).png</image>
     <video>./media/videos/Fidelity Ultimate Chess Challenge, The (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Gates of Zendocon (USA, Europe).zip</path>
+    <path>./Gates of Zendocon (USA, Europe).zip</path>
     <name>Gates of Zendocon (USA, Europe)</name>
     <image>./media/images/Gates of Zendocon (USA, Europe).png</image>
     <video>./media/videos/Gates of Zendocon (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Gauntlet - The Third Encounter (USA, Europe) (Beta) (1990-06-04).zip</path>
+    <path>./Gauntlet - The Third Encounter (USA, Europe) (Beta) (1990-06-04).zip</path>
     <name>Gauntlet - The Third Encounter (USA, Europe) (Beta) (1990-06-04)</name>
     <image>./media/images/Gauntlet - The Third Encounter (USA, Europe) (Beta) (1990-06-04).png</image>
     <video>./media/videos/Gauntlet - The Third Encounter (USA, Europe) (Beta) (1990-06-04).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Gauntlet - The Third Encounter (USA, Europe).zip</path>
+    <path>./Gauntlet - The Third Encounter (USA, Europe).zip</path>
     <name>Gauntlet - The Third Encounter (USA, Europe)</name>
     <image>./media/images/Gauntlet - The Third Encounter (USA, Europe).png</image>
     <video>./media/videos/Gauntlet - The Third Encounter (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Gordo 106 (USA, Europe).zip</path>
+    <path>./Gordo 106 (USA, Europe).zip</path>
     <name>Gordo 106 (USA, Europe)</name>
     <image>./media/images/Gordo 106 (USA, Europe).png</image>
     <video>./media/videos/Gordo 106 (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Hard Drivin' (USA, Europe).zip</path>
+    <path>./Hard Drivin' (USA, Europe).zip</path>
     <name>Hard Drivin' (USA, Europe)</name>
     <image>./media/images/Hard Drivin' (USA, Europe).png</image>
     <video>./media/videos/Hard Drivin' (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Hockey (USA, Europe).zip</path>
+    <path>./Hockey (USA, Europe).zip</path>
     <name>Hockey (USA, Europe)</name>
     <image>./media/images/Hockey (USA, Europe).png</image>
     <video>./media/videos/Hockey (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Hydra (USA, Europe).zip</path>
+    <path>./Hydra (USA, Europe).zip</path>
     <name>Hydra (USA, Europe)</name>
     <image>./media/images/Hydra (USA, Europe).png</image>
     <video>./media/videos/Hydra (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Ishido - The Way of Stones (USA, Europe).zip</path>
+    <path>./Ishido - The Way of Stones (USA, Europe).zip</path>
     <name>Ishido - The Way of Stones (USA, Europe)</name>
     <image>./media/images/Ishido - The Way of Stones (USA, Europe).png</image>
     <video>./media/videos/Ishido - The Way of Stones (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Jimmy Connors' Tennis (USA, Europe).zip</path>
+    <path>./Jimmy Connors' Tennis (USA, Europe).zip</path>
     <name>Jimmy Connors' Tennis (USA, Europe)</name>
     <image>./media/images/Jimmy Connors' Tennis (USA, Europe).png</image>
     <video>./media/videos/Jimmy Connors' Tennis (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Joust (USA, Europe).zip</path>
+    <path>./Joust (USA, Europe).zip</path>
     <name>Joust (USA, Europe)</name>
     <image>./media/images/Joust (USA, Europe).png</image>
     <video>./media/videos/Joust (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Klax (USA, Europe) (Beta).zip</path>
+    <path>./Klax (USA, Europe) (Beta).zip</path>
     <name>Klax (USA, Europe) (Beta)</name>
     <image>./media/images/Klax (USA, Europe) (Beta).png</image>
     <video>./media/videos/Klax (USA, Europe) (Beta).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Klax (USA, Europe).zip</path>
+    <path>./Klax (USA, Europe).zip</path>
     <name>Klax (USA, Europe)</name>
     <image>./media/images/Klax (USA, Europe).png</image>
     <video>./media/videos/Klax (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Krazy Ace - Miniature Golf (USA, Europe).zip</path>
+    <path>./Krazy Ace - Miniature Golf (USA, Europe).zip</path>
     <name>Krazy Ace - Miniature Golf (USA, Europe)</name>
     <image>./media/images/Krazy Ace - Miniature Golf (USA, Europe).png</image>
     <video>./media/videos/Krazy Ace - Miniature Golf (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Kung Food (USA, Europe).zip</path>
+    <path>./Kung Food (USA, Europe).zip</path>
     <name>Kung Food (USA, Europe)</name>
     <image>./media/images/Kung Food (USA, Europe).png</image>
     <video>./media/videos/Kung Food (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Lemmings (USA, Europe).zip</path>
+    <path>./Lemmings (USA, Europe).zip</path>
     <name>Lemmings (USA, Europe)</name>
     <image>./media/images/Lemmings (USA, Europe).png</image>
     <video>./media/videos/Lemmings (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Lexis (USA).zip</path>
+    <path>./Lexis (USA).zip</path>
     <name>Lexis (USA)</name>
     <image>./media/images/Lexis (USA).png</image>
     <video>./media/videos/Lexis (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Lode Runner (USA) (Proto 1).zip</path>
+    <path>./Lode Runner (USA) (Proto 1).zip</path>
     <name>Lode Runner (USA) (Proto 1)</name>
     <image>./media/images/Lode Runner (USA) (Proto 1).png</image>
     <video>./media/videos/Lode Runner (USA) (Proto 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Lode Runner (USA) (Proto 2).zip</path>
+    <path>./Lode Runner (USA) (Proto 2).zip</path>
     <name>Lode Runner (USA) (Proto 2)</name>
     <image>./media/images/Lode Runner (USA) (Proto 2).png</image>
     <video>./media/videos/Lode Runner (USA) (Proto 2).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Loopz (USA) (Proto) (1992-11-05).zip</path>
+    <path>./Loopz (USA) (Proto) (1992-11-05).zip</path>
     <name>Loopz (USA) (Proto) (1992-11-05)</name>
     <image>./media/images/Loopz (USA) (Proto) (1992-11-05).png</image>
     <video>./media/videos/Loopz (USA) (Proto) (1992-11-05).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Lynx Casino (USA, Europe).zip</path>
+    <path>./Lynx Casino (USA, Europe).zip</path>
     <name>Lynx Casino (USA, Europe)</name>
     <image>./media/images/Lynx Casino (USA, Europe).png</image>
     <video>./media/videos/Lynx Casino (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Lynx II Production Test Program (USA).zip</path>
+    <path>./Lynx II Production Test Program (USA).zip</path>
     <name>Lynx II Production Test Program (USA)</name>
     <image>./media/images/Lynx II Production Test Program (USA).png</image>
     <video>./media/videos/Lynx II Production Test Program (USA).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Malibu Bikini Volleyball (USA, Europe) (Beta) (1993-05-11).zip</path>
+    <path>./Malibu Bikini Volleyball (USA, Europe) (Beta) (1993-05-11).zip</path>
     <name>Malibu Bikini Volleyball (USA, Europe) (Beta) (1993-05-11)</name>
     <image>./media/images/Malibu Bikini Volleyball (USA, Europe) (Beta) (1993-05-11).png</image>
     <video>./media/videos/Malibu Bikini Volleyball (USA, Europe) (Beta) (1993-05-11).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Malibu Bikini Volleyball (USA, Europe).zip</path>
+    <path>./Malibu Bikini Volleyball (USA, Europe).zip</path>
     <name>Malibu Bikini Volleyball (USA, Europe)</name>
     <image>./media/images/Malibu Bikini Volleyball (USA, Europe).png</image>
     <video>./media/videos/Malibu Bikini Volleyball (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Marlboro Go! (Europe) (Proto).zip</path>
+    <path>./Marlboro Go! (Europe) (Proto).zip</path>
     <name>Marlboro Go! (Europe) (Proto)</name>
     <image>./media/images/Marlboro Go! (Europe) (Proto).png</image>
     <video>./media/videos/Marlboro Go! (Europe) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Ms. Pac-Man (USA, Europe).zip</path>
+    <path>./Ms. Pac-Man (USA, Europe).zip</path>
     <name>Ms. Pac-Man (USA, Europe)</name>
     <image>./media/images/Ms. Pac-Man (USA, Europe).png</image>
     <video>./media/videos/Ms. Pac-Man (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//NFL Football (USA, Europe).zip</path>
+    <path>./NFL Football (USA, Europe).zip</path>
     <name>NFL Football (USA, Europe)</name>
     <image>./media/images/NFL Football (USA, Europe).png</image>
     <video>./media/videos/NFL Football (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Ninja Gaiden (USA, Europe).zip</path>
+    <path>./Ninja Gaiden (USA, Europe).zip</path>
     <name>Ninja Gaiden (USA, Europe)</name>
     <image>./media/images/Ninja Gaiden (USA, Europe).png</image>
     <video>./media/videos/Ninja Gaiden (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Ninja Gaiden III - The Ancient Ship of Doom (USA, Europe).zip</path>
+    <path>./Ninja Gaiden III - The Ancient Ship of Doom (USA, Europe).zip</path>
     <name>Ninja Gaiden III - The Ancient Ship of Doom (USA, Europe)</name>
     <image>./media/images/Ninja Gaiden III - The Ancient Ship of Doom (USA, Europe).png</image>
     <video>./media/videos/Ninja Gaiden III - The Ancient Ship of Doom (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Pac-Land (USA, Europe).zip</path>
+    <path>./Pac-Land (USA, Europe).zip</path>
     <name>Pac-Land (USA, Europe)</name>
     <image>./media/images/Pac-Land (USA, Europe).png</image>
     <video>./media/videos/Pac-Land (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Paperboy (USA, Europe).zip</path>
+    <path>./Paperboy (USA, Europe).zip</path>
     <name>Paperboy (USA, Europe)</name>
     <image>./media/images/Paperboy (USA, Europe).png</image>
     <video>./media/videos/Paperboy (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Pinball Jam (USA, Europe).zip</path>
+    <path>./Pinball Jam (USA, Europe).zip</path>
     <name>Pinball Jam (USA, Europe)</name>
     <image>./media/images/Pinball Jam (USA, Europe).png</image>
     <video>./media/videos/Pinball Jam (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Pit-Fighter (USA, Europe) (Beta) (1992-10-13).zip</path>
+    <path>./Pit-Fighter (USA, Europe) (Beta) (1992-10-13).zip</path>
     <name>Pit-Fighter (USA, Europe) (Beta) (1992-10-13)</name>
     <image>./media/images/Pit-Fighter (USA, Europe) (Beta) (1992-10-13).png</image>
     <video>./media/videos/Pit-Fighter (USA, Europe) (Beta) (1992-10-13).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Pit-Fighter (USA, Europe).zip</path>
+    <path>./Pit-Fighter (USA, Europe).zip</path>
     <name>Pit-Fighter (USA, Europe)</name>
     <image>./media/images/Pit-Fighter (USA, Europe).png</image>
     <video>./media/videos/Pit-Fighter (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Power Factor (USA, Europe).zip</path>
+    <path>./Power Factor (USA, Europe).zip</path>
     <name>Power Factor (USA, Europe)</name>
     <image>./media/images/Power Factor (USA, Europe).png</image>
     <video>./media/videos/Power Factor (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//QIX (USA, Europe).zip</path>
+    <path>./QIX (USA, Europe).zip</path>
     <name>QIX (USA, Europe)</name>
     <image>./media/images/QIX (USA, Europe).png</image>
     <video>./media/videos/QIX (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Raiden (USA) (Proto).zip</path>
+    <path>./Raiden (USA) (Proto).zip</path>
     <name>Raiden (USA) (Proto)</name>
     <image>./media/images/Raiden (USA) (Proto).png</image>
     <video>./media/videos/Raiden (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Rampage (USA, Europe).zip</path>
+    <path>./Rampage (USA, Europe).zip</path>
     <name>Rampage (USA, Europe)</name>
     <image>./media/images/Rampage (USA, Europe).png</image>
     <video>./media/videos/Rampage (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Rampart (USA, Europe).zip</path>
+    <path>./Rampart (USA, Europe).zip</path>
     <name>Rampart (USA, Europe)</name>
     <image>./media/images/Rampart (USA, Europe).png</image>
     <video>./media/videos/Rampart (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Road Riot 4WD (USA) (Proto 1).zip</path>
+    <path>./Road Riot 4WD (USA) (Proto 1).zip</path>
     <name>Road Riot 4WD (USA) (Proto 1)</name>
     <image>./media/images/Road Riot 4WD (USA) (Proto 1).png</image>
     <video>./media/videos/Road Riot 4WD (USA) (Proto 1).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Road Riot 4WD (USA) (Proto 2).zip</path>
+    <path>./Road Riot 4WD (USA) (Proto 2).zip</path>
     <name>Road Riot 4WD (USA) (Proto 2)</name>
     <image>./media/images/Road Riot 4WD (USA) (Proto 2).png</image>
     <video>./media/videos/Road Riot 4WD (USA) (Proto 2).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Road Riot 4WD (USA) (Proto 3).zip</path>
+    <path>./Road Riot 4WD (USA) (Proto 3).zip</path>
     <name>Road Riot 4WD (USA) (Proto 3)</name>
     <image>./media/images/Road Riot 4WD (USA) (Proto 3).png</image>
     <video>./media/videos/Road Riot 4WD (USA) (Proto 3).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//RoadBlasters (USA, Europe).zip</path>
+    <path>./RoadBlasters (USA, Europe).zip</path>
     <name>RoadBlasters (USA, Europe)</name>
     <image>./media/images/RoadBlasters (USA, Europe).png</image>
     <video>./media/videos/RoadBlasters (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Robo-Squash (USA, Europe).zip</path>
+    <path>./Robo-Squash (USA, Europe).zip</path>
     <name>Robo-Squash (USA, Europe)</name>
     <image>./media/images/Robo-Squash (USA, Europe).png</image>
     <video>./media/videos/Robo-Squash (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Robotron 2084 (USA, Europe).zip</path>
+    <path>./Robotron 2084 (USA, Europe).zip</path>
     <name>Robotron 2084 (USA, Europe)</name>
     <image>./media/images/Robotron 2084 (USA, Europe).png</image>
     <video>./media/videos/Robotron 2084 (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Rygar (USA, Europe).zip</path>
+    <path>./Rygar (USA, Europe).zip</path>
     <name>Rygar (USA, Europe)</name>
     <image>./media/images/Rygar (USA, Europe).png</image>
     <video>./media/videos/Rygar (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//S.T.U.N. Runner (USA, Europe).zip</path>
+    <path>./S.T.U.N. Runner (USA, Europe).zip</path>
     <name>S.T.U.N. Runner (USA, Europe)</name>
     <image>./media/images/S.T.U.N. Runner (USA, Europe).png</image>
     <video>./media/videos/S.T.U.N. Runner (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Scrapyard Dog (USA, Europe).zip</path>
+    <path>./Scrapyard Dog (USA, Europe).zip</path>
     <name>Scrapyard Dog (USA, Europe)</name>
     <image>./media/images/Scrapyard Dog (USA, Europe).png</image>
     <video>./media/videos/Scrapyard Dog (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Shadow of the Beast (USA, Europe).zip</path>
+    <path>./Shadow of the Beast (USA, Europe).zip</path>
     <name>Shadow of the Beast (USA, Europe)</name>
     <image>./media/images/Shadow of the Beast (USA, Europe).png</image>
     <video>./media/videos/Shadow of the Beast (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Shanghai (USA, Europe).zip</path>
+    <path>./Shanghai (USA, Europe).zip</path>
     <name>Shanghai (USA, Europe)</name>
     <image>./media/images/Shanghai (USA, Europe).png</image>
     <video>./media/videos/Shanghai (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Steel Talons (USA, Europe).zip</path>
+    <path>./Steel Talons (USA, Europe).zip</path>
     <name>Steel Talons (USA, Europe)</name>
     <image>./media/images/Steel Talons (USA, Europe).png</image>
     <video>./media/videos/Steel Talons (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Super Asteroids, Missile Command (USA, Europe).zip</path>
+    <path>./Super Asteroids, Missile Command (USA, Europe).zip</path>
     <name>Super Asteroids, Missile Command (USA, Europe)</name>
     <image>./media/images/Super Asteroids, Missile Command (USA, Europe).png</image>
     <video>./media/videos/Super Asteroids, Missile Command (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Super Off-Road (USA, Europe).zip</path>
+    <path>./Super Off-Road (USA, Europe).zip</path>
     <name>Super Off-Road (USA, Europe)</name>
     <image>./media/images/Super Off-Road (USA, Europe).png</image>
     <video>./media/videos/Super Off-Road (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Super Skweek (USA, Europe).zip</path>
+    <path>./Super Skweek (USA, Europe).zip</path>
     <name>Super Skweek (USA, Europe)</name>
     <image>./media/images/Super Skweek (USA, Europe).png</image>
     <video>./media/videos/Super Skweek (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Switchblade II (USA, Europe).zip</path>
+    <path>./Switchblade II (USA, Europe).zip</path>
     <name>Switchblade II (USA, Europe)</name>
     <image>./media/images/Switchblade II (USA, Europe).png</image>
     <video>./media/videos/Switchblade II (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Todd's Adventures in Slime World (USA, Europe).zip</path>
+    <path>./Todd's Adventures in Slime World (USA, Europe).zip</path>
     <name>Todd's Adventures in Slime World (USA, Europe)</name>
     <image>./media/images/Todd's Adventures in Slime World (USA, Europe).png</image>
     <video>./media/videos/Todd's Adventures in Slime World (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Toki (USA, Europe).zip</path>
+    <path>./Toki (USA, Europe).zip</path>
     <name>Toki (USA, Europe)</name>
     <image>./media/images/Toki (USA, Europe).png</image>
     <video>./media/videos/Toki (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Tournament Cyberball (USA, Europe).zip</path>
+    <path>./Tournament Cyberball (USA, Europe).zip</path>
     <name>Tournament Cyberball (USA, Europe)</name>
     <image>./media/images/Tournament Cyberball (USA, Europe).png</image>
     <video>./media/videos/Tournament Cyberball (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Turbo Sub (USA, Europe).zip</path>
+    <path>./Turbo Sub (USA, Europe).zip</path>
     <name>Turbo Sub (USA, Europe)</name>
     <image>./media/images/Turbo Sub (USA, Europe).png</image>
     <video>./media/videos/Turbo Sub (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Viking Child (USA, Europe).zip</path>
+    <path>./Viking Child (USA, Europe).zip</path>
     <name>Viking Child (USA, Europe)</name>
     <image>./media/images/Viking Child (USA, Europe).png</image>
     <video>./media/videos/Viking Child (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Warbirds (USA, Europe).zip</path>
+    <path>./Warbirds (USA, Europe).zip</path>
     <name>Warbirds (USA, Europe)</name>
     <image>./media/images/Warbirds (USA, Europe).png</image>
     <video>./media/videos/Warbirds (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//World Class Soccer (USA, Europe).zip</path>
+    <path>./World Class Soccer (USA, Europe).zip</path>
     <name>World Class Soccer (USA, Europe)</name>
     <image>./media/images/World Class Soccer (USA, Europe).png</image>
     <video>./media/videos/World Class Soccer (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Xenophobe (USA, Europe).zip</path>
+    <path>./Xenophobe (USA, Europe).zip</path>
     <name>Xenophobe (USA, Europe)</name>
     <image>./media/images/Xenophobe (USA, Europe).png</image>
     <video>./media/videos/Xenophobe (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Xybots (USA, Europe).zip</path>
+    <path>./Xybots (USA, Europe).zip</path>
     <name>Xybots (USA, Europe)</name>
     <image>./media/images/Xybots (USA, Europe).png</image>
     <video>./media/videos/Xybots (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Zaku (USA) (Beta) (Unl).zip</path>
+    <path>./Zaku (USA) (Beta) (Unl).zip</path>
     <name>Zaku (USA) (Beta) (Unl)</name>
     <image>./media/images/Zaku (USA) (Beta) (Unl).png</image>
     <video>./media/videos/Zaku (USA) (Beta) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Zaku (USA) (Unl).zip</path>
+    <path>./Zaku (USA) (Unl).zip</path>
     <name>Zaku (USA) (Unl)</name>
     <image>./media/images/Zaku (USA) (Unl).png</image>
     <video>./media/videos/Zaku (USA) (Unl).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//Zarlor Mercenary (USA, Europe).zip</path>
+    <path>./Zarlor Mercenary (USA, Europe).zip</path>
     <name>Zarlor Mercenary (USA, Europe)</name>
     <image>./media/images/Zarlor Mercenary (USA, Europe).png</image>
     <video>./media/videos/Zarlor Mercenary (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>/RECALBOX/share/rom/No-Intro/Atari - Lynx//[BIOS] Atari Lynx (USA, Europe).zip</path>
+    <path>./[BIOS] Atari Lynx (USA, Europe).zip</path>
     <name>[BIOS] Atari Lynx (USA, Europe)</name>
     <image>./media/images/[BIOS] Atari Lynx (USA, Europe).png</image>
     <video>./media/videos/[BIOS] Atari Lynx (USA, Europe).mp4</video>
