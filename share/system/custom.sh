@@ -203,14 +203,6 @@ else
     echo "Directory /recalbox/share/zip already exists. No need to create."
 fi
 
-# If platforms.txt does not exist, copy it
-if [ ! -e /recalbox/share/system/.config/platforms.txt ]; then
-    cp /recalbox/share/userscripts/.config/readystream/platforms.txt /recalbox/share/system/.config/
-    echo "platforms.txt copied successfully."
-else
-    echo "platforms.txt already exists. No need to copy."
-fi
-
 # If rclone.conf does not exist, copy it
 if [ ! -e /recalbox/share/system/rclone.conf ]; then
     cp /recalbox/share/userscripts/.config/readystream/rclone.conf /recalbox/share/system/
@@ -254,7 +246,7 @@ if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
     # Mount rclone using the provided command
     echo "Mounting rclone..."
     # Replace the following line with the actual rclone mount command
-    rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone.conf --daemon --allow-non-empty --http-no-head
+    rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone.conf --daemon --http-no-head
     # Backup the existing systemlist.xml
     echo "Backing up systemlist.xml..."
     cp "$offline_systemlist" "$offline_backup"
