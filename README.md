@@ -1,10 +1,10 @@
 
 
-# This is for Recalbox / Batocera
+# This is for Recalbox
 
 Essentially what the script does is offer you an OFFLINE and ONLINE way of playing games
 
-It mounts whatever FTP/HTTP directory to your arcade (Recalbox/Batocera) and makes it playable instantly.
+It mounts whatever FTP/HTTP directory to your arcade (Recalbox) and makes it playable instantly.
 
 For our examples in the rclone.conf
 ```
