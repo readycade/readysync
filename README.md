@@ -1,6 +1,6 @@
 
 
-# Readystream (Everygame, All at Once)
+# Readystream (Every Game, All at Once)
 
 Essentially what the script does is offer you an OFFLINE and ONLINE way of playing games
 
