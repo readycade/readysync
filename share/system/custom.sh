@@ -254,7 +254,7 @@ if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
     # Mount rclone using the provided command
     echo "Mounting rclone..."
     # Replace the following line with the actual rclone mount command
-    rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone.conf --daemon --http-no-head
+    rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone.conf --daemon
     # Backup the existing systemlist.xml
     echo "Backing up systemlist.xml..."
     cp "$offline_systemlist" "$offline_backup"
