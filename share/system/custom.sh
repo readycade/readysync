@@ -121,6 +121,11 @@ for console_name in $console_names; do
   fi
 done
 
+
+
+
+
+
 # Function to perform actions specific to Online Mode
 online_mode() {
     # Add your specific actions for Online Mode here
@@ -134,6 +139,7 @@ offline_mode() {
     # ...
     echo "Performing actions specific to Offline Mode..."
 }
+
 
 # Detect architecture
 case $(uname -m) in
@@ -195,6 +201,14 @@ if [ ! -d /recalbox/share/zip ]; then
     echo "Directory /recalbox/share/zip created successfully."
 else
     echo "Directory /recalbox/share/zip already exists. No need to create."
+fi
+
+# If platforms.txt does not exist, copy it
+if [ ! -e /recalbox/share/system/.config/platforms.txt ]; then
+    cp /recalbox/share/userscripts/.config/readystream/platforms.txt /recalbox/share/system/.config/
+    echo "platforms.txt copied successfully."
+else
+    echo "platforms.txt already exists. No need to copy."
 fi
 
 # If rclone.conf does not exist, copy it
@@ -277,12 +291,16 @@ for rom_entry in "${roms[@]}"; do
     mkdir -p "$destination_path"
 
     # Use rsync to create hard link backups
-    rsync -a --link-dest="$source_path" "$source_path/" "$destination_path/"
+    rsync -aPi --link-dest="$source_path" --stats "$source_path/" "$destination_path/"
 done
+
+
+
 
 else
     echo "Error: systemlist.xml files not found."
 fi
+
 
 # Offline Mode
 if [ "$mode_choice" != "1" ]; then
