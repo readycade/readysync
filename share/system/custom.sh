@@ -252,9 +252,15 @@ offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlis
 # Online Mode
 if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
     # Mount rclone using the provided command
-    echo "Mounting rclone..."
+#    echo "Mounting rclone..."
     # Replace the following line with the actual rclone mount command
-    rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone.conf --daemon
+#    rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone.conf --daemon
+
+	# Mounting Rsync Directories Manually
+#	rsync -aPi --link-dest="rsync://rsync.myrient.erista.me/files/No-Intro/Arduboy%20Inc%20-%20Arduboy/" "rsync://rsync.myrient.erista.me/files/No-Intro/Arduboy%20Inc%20-%20Arduboy/" /recalbox/share/roms/readystream/arduboy
+
+
+
     # Backup the existing systemlist.xml
     echo "Backing up systemlist.xml..."
     cp "$offline_systemlist" "$offline_backup"
@@ -268,6 +274,7 @@ if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
 # Read the roms array from platforms.txt
 platforms_file="/recalbox/share/userscripts/.config/readystream/platforms.txt"
 mapfile -t roms < "$platforms_file"
+
 
 # Loop through the roms array
 for rom_entry in "${roms[@]}"; do
@@ -284,15 +291,16 @@ for rom_entry in "${roms[@]}"; do
     console_directory="${rom_data[1]}"
 
     # Create the source and destination paths
-    source_path="/recalbox/share/rom/$console_directory"
+    source_path="rsync://rsync.myrient.erista.me/files/$console_directory"
     destination_path="/recalbox/share/roms/readystream/$console_name"
 
     # Create the destination directory if it doesn't exist
     mkdir -p "$destination_path"
 
     # Use rsync to create hard link backups
-    rsync -aPi --link-dest="$source_path" --stats "$source_path/" "$destination_path/"
+    rsync -aP --link-dest="$destination_path" "$source_path/" "$destination_path/"
 done
+
 
 
 
