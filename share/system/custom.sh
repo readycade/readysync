@@ -122,10 +122,6 @@ for console_name in $console_names; do
 done
 
 
-
-
-
-
 # Function to perform actions specific to Online Mode
 online_mode() {
     # Add your specific actions for Online Mode here
@@ -218,6 +214,133 @@ if [ ! -e /recalbox/share/system/rclone.conf ]; then
 else
     echo "rclone.conf already exists. No need to copy."
 fi
+
+# Function to toggle a platform in the array
+toggle_platform() {
+    local platform_name=$1
+    local action=$2
+
+    case $action in
+        "enable")
+            sed -i "/^#roms+=(\"$platform_name;/ s/^#//" "/recalbox/share/userscripts/.config/readystream/platforms.tx>
+            ;;
+        "disable")
+            sed -i "/^roms+=(\"$platform_name;/ s/^/#/" "/recalbox/share/userscripts/.config/readystream/platforms.txt"
+            ;;
+        *)
+            echo "Invalid action. Use 'enable' or 'disable'."
+            ;;
+    esac
+}
+
+# Function to delete the platform directory if it's disabled
+delete_disabled_platform_directory() {
+    local platform_name=$1
+    local platform_dir="/recalbox/share/roms/readystream/$platform_name"
+
+    if [ ! -z "$platform_dir" ] && [ ! -e "$platform_dir" ]; then
+        echo "Deleting directory: $platform_dir"
+        rm -rf "$platform_dir"
+    fi
+}
+
+# List of platforms and their status (1 for enabled, 0 for disabled)
+platforms=(
+    "arduboy 1"
+    "channelf 0"
+    "vectrex 0"
+    "o2em 0"
+    "videopacplus 0"
+    "intellivision 0"
+    "colecovision 0"
+    "scv 0"
+    "supervision 0"
+    "wswan 0"
+    "wswanc 0"
+    "atari2600 0"
+    "atari5200 0"
+    "atari7800 0"
+    "jaguar 0"
+    "lynx 0"
+    "nes 0"
+    "fds 0"
+    "snes 0"
+    "satellaview 0"
+    "sufami 0"
+    "n64 0"
+    "gamecube 0"
+    "wii 0"
+    "pokemini 0"
+    "virtualboy 0"
+    "gb 1"
+    "gbc 1"
+    "gba 0"
+    "nds 0"
+    "3ds 0"
+    "sg1000 0"
+    "mastersystem 0"
+    "megadrive 0"
+    "pico 0"
+    "sega32x 0"
+    "segacd 0"
+    "saturn 0"
+    "dreamcast 0"
+    "gamegear 0"
+    "psx 0"
+    "ps2 0"
+    "psp 0"
+    "pcengine 0"
+    "pcenginecd 0"
+    "supergrafx 0"
+    "pcfx 0"
+    "cdi 0"
+    "3do 0"
+    "neogeocd 0"
+    "ngp 0"
+    "ngpc 0"
+    "dos 0"
+    "msx1 0"
+    "msx2 0"
+    "atarist 0"
+    "amiga1200 0"
+    "amigacd32 0"
+    "amigacdtv 0"
+    "cplus4 0"
+    "vic20 0"
+    "c64 0"
+    # Zip Array
+    "pet 0"
+    "pc88 0"
+    "pc98 0"
+    "x1 0"
+    "x68000 0"
+    "atari800 0"
+    "amstradcpc 0"
+    "zx81 0"
+    "zxspectrum 0"
+    "spectravideo 0"
+    # Add more platforms as needed
+)
+
+# Loop through platforms
+for platform_info in "${platforms[@]}"; do
+    platform_name=$(echo "$platform_info" | cut -d ' ' -f 1)
+    platform_status=$(echo "$platform_info" | cut -d ' ' -f 2)
+
+    case $platform_status in
+        1)
+            toggle_platform "$platform_name" "enable"
+            ;;
+        0)
+            toggle_platform "$platform_name" "disable"
+            delete_disabled_platform_directory "$platform_name"
+            ;;
+        *)
+            echo "Invalid status. Use '1' for enable and '0' for disable."
+            ;;
+    esac
+done
+
 
 # Display menu
 echo "Please select a mode:"
