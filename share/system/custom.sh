@@ -229,7 +229,7 @@ toggle_platform() {
 
     case $action in
         "enable")
-            sed -i "/^#roms+=(\"$platform_name;/ s/^#//" "/recalbox/share/userscripts/.config/readystream/platforms.tx>
+            sed -i "/^#roms+=(\"$platform_name;/ s/^#//" "/recalbox/share/userscripts/.config/readystream/platforms.txt"
             ;;
         "disable")
             sed -i "/^roms+=(\"$platform_name;/ s/^/#/" "/recalbox/share/userscripts/.config/readystream/platforms.txt"
@@ -239,6 +239,7 @@ toggle_platform() {
             ;;
     esac
 }
+
 
 # Function to delete the platform directory if it's disabled
 delete_disabled_platform_directory() {
