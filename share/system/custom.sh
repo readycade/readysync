@@ -192,6 +192,13 @@ else
     echo "Directory /recalbox/share/rom already exists. No need to create."
 fi
 
+if [ ! -d /recalbox/share/thumbs ]; then
+    mkdir -p /recalbox/share/thumbs
+    echo "Directory /recalbox/share/thumbs created successfully."
+else
+    echo "Directory /recalbox/share/thumbs already exists. No need to create."
+fi
+
 if [ ! -d /recalbox/share/zip ]; then
     mkdir -p /recalbox/share/zip
     echo "Directory /recalbox/share/zip created successfully."
@@ -378,11 +385,7 @@ if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
 #    echo "Mounting rclone..."
     # Replace the following line with the actual rclone mount command
 #    rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone.conf --daemon
-
-	# Mounting Rsync Directories Manually
-#	rsync -aPi --link-dest="rsync://rsync.myrient.erista.me/files/No-Intro/Arduboy%20Inc%20-%20Arduboy/" "rsync://rsync.myrient.erista.me/files/No-Intro/Arduboy%20Inc%20-%20Arduboy/" /recalbox/share/roms/readystream/arduboy
-
-
+	rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h
 
     # Backup the existing systemlist.xml
     echo "Backing up systemlist.xml..."
