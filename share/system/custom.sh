@@ -303,8 +303,16 @@ fi
 
 # Install mount-zip
 if [ ! -f /usr/bin/mount-zip ]; then
-  echo "Copying mount-zip..."
-  cp /recalbox/share/userscripts/.config/readystream/mount-zip /usr/bin/mount-zip
+  echo "Downloading mount-zip..."
+
+  # Choose the appropriate mount-zip file URL based on architecture
+  case $mount_zip_arch in
+    x64) mount_zip_url="https://github.com/dockercompose-man/readystream/raw/master/share/userscripts/.config/readystream/mount-zip-x64/mount-zip" ;;
+    arm64) mount_zip_url="https://github.com/dockercompose-man/readystream/raw/master/share/userscripts/.config/readystream/mount-zip-arm64/mount-zip" ;;
+    *) echo "Unsupported mount-zip architecture."; exit 1 ;;
+  esac
+
+  wget -O /usr/bin/mount-zip $mount_zip_url
   chmod +x /usr/bin/mount-zip
   echo "mount-zip installed successfully."
 else
