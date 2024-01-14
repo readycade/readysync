@@ -273,8 +273,8 @@ fi
 
 # Detect architecture
 case $(uname -m) in
-  x86_64) sevenzip_arch="x64"; rclone_arch="amd64" ;;
-  aarch64) sevenzip_arch="arm64"; rclone_arch="arm64" ;;
+  x86_64) sevenzip_arch="x64"; rclone_arch="amd64"; mount_zip_arch="x64" ;;
+  aarch64) sevenzip_arch="arm64"; rclone_arch="arm64"; mount_zip_arch="arm64" ;;
   *) echo "Unsupported architecture."; exit 1 ;;
 esac
 
