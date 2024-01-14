@@ -23,7 +23,6 @@ sanitize_dir_name() {
   tr -cd '[:alnum:]' <<< "$1"
 }
 
-
 # Function to check if a game already exists in the gamelist.xml
 game_exists() {
   local game_name="$1"
@@ -73,9 +72,6 @@ update_or_add_game() {
         echo "ERROR: Failed to extract platform name for '$console_name'"
     fi
 }
-
-
-
 
 # Function to generate gamelist.xml
 generate_gamelist_xml() {
@@ -270,7 +266,6 @@ fi
 	
 }
 
-
 # Detect architecture
 case $(uname -m) in
   x86_64) sevenzip_arch="x64"; rclone_arch="amd64"; mount_zip_arch="x64" ;;
@@ -278,7 +273,7 @@ case $(uname -m) in
   *) echo "Unsupported architecture."; exit 1 ;;
 esac
 
-# Install 7zip
+# Download and Install 7zip
 if [ ! -f /usr/bin/7za ]; then
   echo "Downloading and installing 7zip..."
   wget -O /usr/bin/7za https://github.com/develar/7zip-bin/raw/master/linux/${sevenzip_arch}/7za
@@ -288,7 +283,7 @@ else
   echo "7zip is already installed."
 fi
 
-# Install rclone
+# Download and Install rclone
 if [ ! -f /usr/bin/rclone ]; then
   echo "Downloading and installing rclone..."
   wget -O /usr/bin/rclone.zip https://downloads.rclone.org/v1.65.0/rclone-v1.65.0-linux-${rclone_arch}.zip
@@ -301,22 +296,89 @@ else
   echo "rclone is already installed."
 fi
 
-# Install mount-zip
+# Download and Install mount-zip
 if [ ! -f /usr/bin/mount-zip ]; then
   echo "Downloading mount-zip..."
 
-  # Choose the appropriate mount-zip file URL based on architecture
-  case $mount_zip_arch in
-    x64) mount_zip_url="https://github.com/dockercompose-man/readystream/raw/master/share/userscripts/.config/readystream/mount-zip-x64/mount-zip" ;;
-    arm64) mount_zip_url="https://github.com/dockercompose-man/readystream/raw/master/share/userscripts/.config/readystream/mount-zip-arm64/mount-zip" ;;
-    *) echo "Unsupported mount-zip architecture."; exit 1 ;;
+  # Detect the architecture
+  case $(arch) in
+    x86_64) mount_zip_arch="x64" ;;
+    aarch64) mount_zip_arch="arm64" ;;
+    *) echo "Unsupported mount-zip architecture: $(arch)."; exit 1 ;;
   esac
 
-  wget -O /usr/bin/mount-zip $mount_zip_url
+  mount_zip_url="https://github.com/dockercompose-man/readystream/raw/master/share/userscripts/.config/readystream/mount-zip-${mount_zip_arch}/mount-zip"
+
+  # Download and Install mount-zip
+  wget -O /usr/bin/mount-zip ${mount_zip_url}
   chmod +x /usr/bin/mount-zip
-  echo "mount-zip installed successfully."
+
+  echo "mount-zip installed successfully for architecture: ${mount_zip_arch}."
 else
   echo "mount-zip is already installed."
+fi
+
+# Download rclone.conf if it doesn't exist
+if [ ! -e /recalbox/share/userscripts/.config/readystream/rclone.conf ]; then
+    wget -O /recalbox/share/userscripts/.config/readystream/rclone.conf https://raw.githubusercontent.com/dockercompose-man/readystream/master/share/userscripts/.config/readystream/rclone.conf
+    echo "rclone.conf downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
+fi
+
+# Copy rclone.conf to /recalbox/share/system/ if it doesn't exist there
+if [ ! -e /recalbox/share/system/rclone.conf ]; then
+    cp /recalbox/share/userscripts/.config/readystream/rclone.conf /recalbox/share/system/
+    echo "rclone.conf copied to /recalbox/share/system/ successfully."
+else
+    echo "rclone.conf already exists in /recalbox/share/system/. No need to copy."
+fi
+
+# Download platforms.txt if it doesn't exist in /recalbox/share/userscripts/.config/readystream/
+if [ ! -e /recalbox/share/userscripts/.config/readystream/platforms.txt ]; then
+    wget -O /recalbox/share/userscripts/.config/readystream/platforms.txt https://raw.githubusercontent.com/dockercompose-man/readystream/master/share/userscripts/.config/readystream/platforms.txt
+    echo "platforms.txt downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
+fi
+
+# Check if platforms.txt exists in /recalbox/share/system/.config/
+if [ ! -e /recalbox/share/system/.config/platforms.txt ]; then
+    # Copy platforms.txt to /recalbox/share/system/.config/
+    cp /recalbox/share/userscripts/.config/readystream/platforms.txt /recalbox/share/system/.config/
+    echo "platforms.txt copied to /recalbox/share/system/.config/ successfully."
+else
+    echo "platforms.txt already exists in /recalbox/share/system/.config/. No need to copy."
+fi
+
+# Check if files already exist in /recalbox/share/userscripts/.config/.emulationstation/
+if [ -e /recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml ] && \
+   [ -e /recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml ] && \
+   [ -e /recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml ]; then
+    echo "Files already exist. No need to download."
+else
+    # Download systemlist-backup.xml
+    wget -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml https://raw.githubusercontent.com/dockercompose-man/readystream/master/share/userscripts/.config/.emulationstation/systemlist-backup.xml
+
+    # Download systemlist-online.xml
+    wget -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml https://raw.githubusercontent.com/dockercompose-man/readystream/master/share/userscripts/.config/.emulationstation/systemlist-online.xml
+
+    # Download systemlist-offline.xml
+    wget -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml https://raw.githubusercontent.com/dockercompose-man/readystream/master/share/userscripts/.config/.emulationstation/systemlist-offline.xml
+
+    # Check if files were downloaded successfully
+    if [ -e /recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml ] && \
+       [ -e /recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml ] && \
+       [ -e /recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml ]; then
+        echo "Files downloaded successfully."
+    else
+        echo "Failed to download one or more files."
+    fi
+fi
+
+# Check if /recalbox/share/userscripts/.config/readystream/roms is empty
+if [ -z "$(ls -A /recalbox/share/userscripts/.config/readystream/roms)" ]; then
+    echo "Downloading roms..."
+    wget --recursive --no-parent -P /recalbox/share/userscripts/.config/readystream/roms https://github.com/dockercompose-man/readystream/tree/master/share/userscripts/.config/readystream/roms
+    echo "gamelist.xml and checksums downloaded successfully."
+else
+    echo "gamelist.xml and checksums directory is not empty. No need to download."
 fi
 
 # If directories don't exist, create them
@@ -346,22 +408,6 @@ if [ ! -d /recalbox/share/zip ]; then
     echo "Directory /recalbox/share/zip created successfully."
 else
     echo "Directory /recalbox/share/zip already exists. No need to create."
-fi
-
-# If platforms.txt does not exist, copy it
-if [ ! -e /recalbox/share/system/.config/platforms.txt ]; then
-    cp /recalbox/share/userscripts/.config/readystream/platforms.txt /recalbox/share/system/.config/
-    echo "platforms.txt copied successfully."
-else
-    echo "platforms.txt already exists. No need to copy."
-fi
-
-# If rclone.conf does not exist, copy it
-if [ ! -e /recalbox/share/system/rclone.conf ]; then
-    cp /recalbox/share/userscripts/.config/readystream/rclone.conf /recalbox/share/system/
-    echo "rclone.conf copied successfully."
-else
-    echo "rclone.conf already exists. No need to copy."
 fi
 
 # Function to delete the directory of a disabled platform
@@ -398,27 +444,27 @@ toggle_platform() {
 # List of platforms and their status (1 for enabled, 0 for disabled)
 platforms=(
     "arduboy 1"
-    "channelf 1"
-    "vectrex 1"
-    "o2em 1"
-    "videopacplus 1"
-    "intellivision 1"
-    "colecovision 1"
-    "scv 1"
-    "supervision 1"
-    "wswan 1"
-    "wswanc 1"
-    "atari2600 1"
-    "atari5200 1"
-    "atari7800 1"
-    "jaguar 0"
-    "lynx 0"
-    "nes 0"
-    "fds 0"
-    "snes 0"
-    "satellaview 0"
-    "sufami 0"
-    "n64 0"
+    "channelf 0"
+    "vectrex 0"
+    "o2em 0"
+    "videopacplus 0"
+    "intellivision 0"
+    "colecovision 0"
+    "scv 0"
+    "supervision 0"
+    "wswan 0"
+    "wswanc 0"
+    "atari2600 0"
+    "atari5200 0"
+    "atari7800 0"
+    "jaguar 1"
+    "lynx 1"
+    "nes 1"
+    "fds 1"
+    "snes 1"
+    "satellaview 1"
+    "sufami 1"
+    "n64 1"
     "gamecube 0"
     "wii 0"
     "pokemini 0"
