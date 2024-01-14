@@ -173,6 +173,61 @@ online_mode() {
     # Add your specific actions for Online Mode here
     # ...
     echo "Performing actions specific to Online Mode..."
+
+# Check and update systemlist.xml based on user choice
+offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
+offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml"
+offline_online="/recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml"
+offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml"
+
+# Online Mode
+if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
+    # Mount rclone using the provided command
+	rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h
+    
+	# Backup the existing systemlist.xml
+    echo "Backing up systemlist.xml..."
+    cp "$offline_systemlist" "$offline_backup"
+    echo "Backup created: $offline_backup"
+
+    # Overwrite systemlist.xml with the online version
+    echo "Overwriting systemlist.xml with the online version..."
+    cp "$offline_online" "$offline_systemlist"
+    echo "Online version applied."
+fi
+
+# Read the roms array from platforms.txt
+platforms_file="/recalbox/share/userscripts/.config/readystream/platforms.txt"
+mapfile -t roms < "$platforms_file"
+
+
+# Loop through the roms array
+for rom_entry in "${roms[@]}"; do
+    # Remove roms+=(" from the beginning of the entry
+    rom_entry="${rom_entry#roms+=(\"}"
+
+    # Split the entry into components
+    IFS=';' read -r -a rom_data <<< "$rom_entry"
+
+    # Extract console name (first name in the array)
+    console_name="${rom_data[0]}"
+
+    # Extract console directory
+    console_directory="${rom_data[1]}"
+
+    # Check if the platform is enabled
+    if grep -q "^roms+=(\"$console_name;" "/recalbox/share/userscripts/.config/readystream/platforms.txt"; then
+        # Create the source and destination paths
+        source_path="rsync://rsync.myrient.erista.me/files/$console_directory"
+        destination_path="/recalbox/share/roms/readystream/$console_name"
+
+        # Create the destination directory if it doesn't exist
+        mkdir -p "$destination_path"
+
+        # Use rsync to create hard link backups
+        rsync -aP --link-dest="$destination_path" "$source_path/" "$destination_path/"
+    fi
+done
 }
 
 # Function to perform actions specific to Offline Mode
@@ -180,6 +235,33 @@ offline_mode() {
     # Add your specific actions for Offline Mode here
     # ...
     echo "Performing actions specific to Offline Mode..."
+	
+# Offline Mode
+if [ "$mode_choice" != "1" ]; then
+    if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
+        # Backup existing systemlist.xml
+        echo "Backing up systemlist.xml..."
+        cp "$offline_systemlist" "$offline_backup"
+        echo "Backup created: $offline_backup"
+
+        # Overwrite systemlist.xml with offline version
+        echo "Overwriting systemlist.xml with offline version..."
+        cp "$offline_offline" "$offline_systemlist"
+        echo "Offline version applied."
+
+        # Replace the following line with your specific actions for Offline Mode
+        echo "Performing actions specific to Offline Mode..."
+        # ...
+
+        echo "Installation complete. Log saved to: $log_file"
+
+        # Replace the following line with the actual command to start emulation station
+        chvt 1; es start
+    else
+        echo "Error: systemlist.xml files not found."
+    fi
+fi	
+	
 }
 
 
@@ -420,100 +502,5 @@ case "$mode_choice" in
         echo "Invalid choice: $mode_choice"
         ;;
 esac
-
-# Check and update systemlist.xml based on user choice
-offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
-offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml"
-offline_online="/recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml"
-offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml"
-
-# Online Mode
-if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
-    # Mount rclone using the provided command
-#    echo "Mounting rclone..."
-    # Replace the following line with the actual rclone mount command
-#    rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone.conf --daemon
-	rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h
-
-    # Backup the existing systemlist.xml
-    echo "Backing up systemlist.xml..."
-    cp "$offline_systemlist" "$offline_backup"
-    echo "Backup created: $offline_backup"
-
-    # Overwrite systemlist.xml with the online version
-    echo "Overwriting systemlist.xml with the online version..."
-    cp "$offline_online" "$offline_systemlist"
-    echo "Online version applied."
-
-# Read the roms array from platforms.txt
-platforms_file="/recalbox/share/userscripts/.config/readystream/platforms.txt"
-mapfile -t roms < "$platforms_file"
-
-
-# Loop through the roms array
-for rom_entry in "${roms[@]}"; do
-    # Remove roms+=(" from the beginning of the entry
-    rom_entry="${rom_entry#roms+=(\"}"
-
-    # Split the entry into components
-    IFS=';' read -r -a rom_data <<< "$rom_entry"
-
-    # Extract console name (first name in the array)
-    console_name="${rom_data[0]}"
-
-    # Extract console directory
-    console_directory="${rom_data[1]}"
-
-    # Check if the platform is enabled
-    if grep -q "^roms+=(\"$console_name;" "/recalbox/share/userscripts/.config/readystream/platforms.txt"; then
-        # Create the source and destination paths
-        source_path="rsync://rsync.myrient.erista.me/files/$console_directory"
-        destination_path="/recalbox/share/roms/readystream/$console_name"
-
-        # Create the destination directory if it doesn't exist
-        mkdir -p "$destination_path"
-
-        # Use rsync to create hard link backups
-        rsync -aP --link-dest="$destination_path" "$source_path/" "$destination_path/"
-    fi
-done
-
-
-
-
-
-
-
-
-else
-    echo "Error: systemlist.xml files not found."
-fi
-
-
-# Offline Mode
-if [ "$mode_choice" != "1" ]; then
-    if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
-        # Backup existing systemlist.xml
-        echo "Backing up systemlist.xml..."
-        cp "$offline_systemlist" "$offline_backup"
-        echo "Backup created: $offline_backup"
-
-        # Overwrite systemlist.xml with offline version
-        echo "Overwriting systemlist.xml with offline version..."
-        cp "$offline_offline" "$offline_systemlist"
-        echo "Offline version applied."
-
-        # Replace the following line with your specific actions for Offline Mode
-        echo "Performing actions specific to Offline Mode..."
-        # ...
-
-        echo "Installation complete. Log saved to: $log_file"
-
-        # Replace the following line with the actual command to start emulation station
-        chvt 1; es start
-    else
-        echo "Error: systemlist.xml files not found."
-    fi
-fi
 
 exit
