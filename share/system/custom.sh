@@ -183,8 +183,9 @@ offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlis
 # Online Mode
 if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
     # Mount rclone using the provided command
-	rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h
-    
+	rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h &
+	disown
+
 	# Backup the existing systemlist.xml
     echo "Backing up systemlist.xml..."
     cp "$offline_systemlist" "$offline_backup"
@@ -390,13 +391,13 @@ platforms=(
     "videopacplus 1"
     "intellivision 1"
     "colecovision 1"
-    "scv 0"
-    "supervision 0"
-    "wswan 0"
-    "wswanc 0"
-    "atari2600 0"
-    "atari5200 0"
-    "atari7800 0"
+    "scv 1"
+    "supervision 1"
+    "wswan 1"
+    "wswanc 1"
+    "atari2600 1"
+    "atari5200 1"
+    "atari7800 1"
     "jaguar 0"
     "lynx 0"
     "nes 0"
