@@ -50,7 +50,7 @@ update_or_add_game() {
     local console_name="$3"
     local gamelist_file="/recalbox/share/roms/readystream/$console_name/gamelist.xml"
 
-    local platform_name=$(grep "$console_name" "$platforms_file" | cut -d';' -f3 | sed 's/^<p>//;s/<\/p>$//')
+    local platform_name=$(grep -w "$console_name" "$platforms_file" | cut -d';' -f3 | sed 's/^<p>//;s/<\/p>$//')
 
     if [ -n "$platform_name" ]; then
         if game_exists "$game_name" "$gamelist_file"; then
