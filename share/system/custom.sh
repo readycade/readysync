@@ -19,10 +19,10 @@ exec 3>&1 4>&2
 trap 'exec 2>&4 1>&3' 0 1 2 3
 exec 1>>"$log_file" 2>&1
 
-# Function to sanitize directory names
 sanitize_dir_name() {
-  echo "$1" | tr -cd '[:alnum:]'
+  tr -cd '[:alnum:]' <<< "$1"
 }
+
 
 # Function to check if a game already exists in the gamelist.xml
 game_exists() {
@@ -47,6 +47,7 @@ xml_escape() {
 update_or_add_game() {
   local game_name="$1"
   local rom_name="$2"
+  console_name_escaped=$(xml_escape "$console_name")
   local console_name="$3"
   local platform_name="$4"  # Add platform_name as an argument
   local gamelist_file="/recalbox/share/roms/readystream/$console_name/gamelist.xml"
@@ -78,9 +79,12 @@ generate_gamelist_xml() {
 
   for console_name_dir in "$online_dir"/*; do
     if [ -d "$console_name_dir" ]; then
-      console_name=$(basename "$console_name_dir")
+      console_name=$(sanitize_dir_name "$(basename "$console_name_dir")")
+echo "DEBUG: Console name extracted: '$console_name'" >> "$log_file"
 
       local console_roms_dir="/recalbox/share/roms/readystream/$console_name"
+echo "DEBUG: Console ROMs directory: '$console_roms_dir'" >> "$log_file"
+
       local gamelist_file="$console_roms_dir/gamelist.xml"
 
       local log_file="/recalbox/share/roms/readystream/gamelist.log"  # Replace with the actual path to your log file
@@ -129,7 +133,7 @@ generate_gamelist_xml "/recalbox/share/roms/readystream"
 # Function to create console directory
 create_console_directory() {
   local console_name="$1"
-  console_name=$(echo "$console_name" | sed 's:/*$::')  # This removes trailing slashes
+  console_name="${console_name//\/}"  # This removes trailing slashes
   mkdir -p "/recalbox/share/userscripts/.config/readystream/roms/$console_name"
   mkdir -p "/recalbox/share/roms/readystream/$console_name"
 }
@@ -264,6 +268,19 @@ else
     echo "rclone.conf already exists. No need to copy."
 fi
 
+# Function to delete the directory of a disabled platform
+delete_disabled_platform_directory() {
+  local platform_name="$1"
+  local directory="/recalbox/share/roms/readystream/$platform_name"
+
+  if [ -d "$directory" ]; then
+    echo "Deleting directory for disabled platform: $platform_name"
+    rm -rf "$directory"
+  else
+    echo "Directory for disabled platform does not exist: $directory"
+  fi
+}
+
 # Function to toggle a platform in the array
 toggle_platform() {
     local platform_name=$1
@@ -282,27 +299,15 @@ toggle_platform() {
     esac
 }
 
-
-# Function to delete the platform directory if it's disabled
-delete_disabled_platform_directory() {
-    local platform_name=$1
-    local platform_dir="/recalbox/share/roms/readystream/$platform_name"
-
-    if [ ! -z "$platform_dir" ] && [ ! -e "$platform_dir" ]; then
-        echo "Deleting directory: $platform_dir"
-        rm -rf "$platform_dir"
-    fi
-}
-
 # List of platforms and their status (1 for enabled, 0 for disabled)
 platforms=(
     "arduboy 1"
-    "channelf 0"
-    "vectrex 0"
-    "o2em 0"
-    "videopacplus 0"
-    "intellivision 0"
-    "colecovision 0"
+    "channelf 1"
+    "vectrex 1"
+    "o2em 1"
+    "videopacplus 1"
+    "intellivision 1"
+    "colecovision 1"
     "scv 0"
     "supervision 0"
     "wswan 0"
@@ -322,8 +327,8 @@ platforms=(
     "wii 0"
     "pokemini 0"
     "virtualboy 0"
-    "gb 1"
-    "gbc 1"
+    "gb 0"
+    "gbc 0"
     "gba 0"
     "nds 0"
     "3ds 0"
@@ -459,16 +464,22 @@ for rom_entry in "${roms[@]}"; do
     # Extract console directory
     console_directory="${rom_data[1]}"
 
-    # Create the source and destination paths
-    source_path="rsync://rsync.myrient.erista.me/files/$console_directory"
-    destination_path="/recalbox/share/roms/readystream/$console_name"
+    # Check if the platform is enabled
+    if grep -q "^roms+=(\"$console_name;" "/recalbox/share/userscripts/.config/readystream/platforms.txt"; then
+        # Create the source and destination paths
+        source_path="rsync://rsync.myrient.erista.me/files/$console_directory"
+        destination_path="/recalbox/share/roms/readystream/$console_name"
 
-    # Create the destination directory if it doesn't exist
-    mkdir -p "$destination_path"
+        # Create the destination directory if it doesn't exist
+        mkdir -p "$destination_path"
 
-    # Use rsync to create hard link backups
-    rsync -aP --link-dest="$destination_path" "$source_path/" "$destination_path/"
+        # Use rsync to create hard link backups
+        rsync -aP --link-dest="$destination_path" "$source_path/" "$destination_path/"
+    fi
 done
+
+
+
 
 
 
