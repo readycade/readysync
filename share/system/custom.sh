@@ -45,30 +45,35 @@ xml_escape() {
 
 # Function to update or add a game to the gamelist.xml
 update_or_add_game() {
-  local game_name="$1"
-  local rom_name="$2"
-  console_name_escaped=$(xml_escape "$console_name")
-  local console_name="$3"
-  local platform_name="$4"  # Add platform_name as an argument
-  local gamelist_file="/recalbox/share/roms/readystream/$console_name/gamelist.xml"
+    local game_name="$1"
+    local rom_name="$2"
+    local console_name="$3"
+    local gamelist_file="/recalbox/share/roms/readystream/$console_name/gamelist.xml"
 
-  if game_exists "$game_name" "$gamelist_file"; then
-    # Update existing game entry
-    echo "DEBUG: Updating existing entry for '$game_name' in '$gamelist_file'" >> "$log_file"
-    sed -i "s|<name>$game_name</name>|<name>$(xml_escape "$game_name")</name>|g" "$gamelist_file"
-    sed -i "s|<path>./$rom_name</path>|<path>./$(xml_escape "$rom_name")</path>|g" "$gamelist_file"
-    sed -i "s|<video>./media/videos/$game_name.mp4</video>|<video>./media/videos/$(xml_escape "$game_name").mp4</video>|g" "$gamelist_file"
-  else
-    # Add new game entry
-    echo "DEBUG: Adding new entry for '$game_name' in '$gamelist_file'" >> "$log_file"
-    echo "  <game>" >> "$gamelist_file"
-    echo "    <path>./$(xml_escape "$rom_name")</path>" >> "$gamelist_file"
-    echo "    <name>$(xml_escape "$game_name")</name>" >> "$gamelist_file"
-    echo "    <video>./media/videos/$(xml_escape "$game_name").mp4</video>" >> "$gamelist_file"
-    echo "    <image>/recalbox/share/thumbs/$platform_name/Named_Titles/$(xml_escape "$game_name").png</image>" | sed 's#//#/#g' >> "$gamelist_file"
-    echo "  </game>" >> "$gamelist_file"
-  fi
+    local platform_name=$(grep "$console_name" "$platforms_file" | cut -d';' -f3 | sed 's/^<p>//;s/<\/p>$//')
+
+    if [ -n "$platform_name" ]; then
+        if game_exists "$game_name" "$gamelist_file"; then
+            # Update existing game entry
+            echo "DEBUG: Updating existing entry for '$game_name' in '$gamelist_file'" >> "$log_file"
+            sed -i "s|<name>$game_name</name>|<name>$(xml_escape "$game_name")</name>|g" "$gamelist_file"
+            sed -i "s|<path>./$rom_name</path>|<path>./$(xml_escape "$rom_name")</path>|g" "$gamelist_file"
+            sed -i "s|<video>./media/videos/$game_name.mp4</video>|<video>./media/videos/$(xml_escape "$game_name").mp4</video>|g" "$gamelist_file"
+        else
+            # Add new game entry
+            echo "DEBUG: Adding new entry for '$game_name' in '$gamelist_file'" >> "$log_file"
+            echo "  <game>" >> "$gamelist_file"
+            echo "    <path>./$(xml_escape "$rom_name")</path>" >> "$gamelist_file"
+            echo "    <name>$(xml_escape "$game_name")</name>" >> "$gamelist_file"
+            echo "    <video>./media/videos/$(xml_escape "$game_name").mp4</video>" >> "$gamelist_file"
+            echo "    <image>/recalbox/share/thumbs/$platform_name/Named_Titles/$(xml_escape "$game_name").png</image>" | sed 's#//#/#g' >> "$gamelist_file"
+            echo "  </game>" >> "$gamelist_file"
+        fi
+    else
+        echo "ERROR: Failed to extract platform name for '$console_name'"
+    fi
 }
+
 
 
 
@@ -184,7 +189,7 @@ offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlis
 if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
     # Mount rclone using the provided command
 	rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h &
-	disown
+disown
 
 	# Backup the existing systemlist.xml
     echo "Backing up systemlist.xml..."
