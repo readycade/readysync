@@ -32,6 +32,10 @@ and run the command below from the terminal
 /etc/init.d/S99custom start
 ```
 
+Log File:
+```
+/recalbox/share/system/.systemstream.log
+```
 Enabled Consoles - Download romsets via rsync in alphabetical order (syncing may take time depending on how large the romset is)
 
 Notes:
