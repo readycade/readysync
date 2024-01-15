@@ -4,7 +4,7 @@
 
 Essentially what the script does is offer you an OFFLINE and ONLINE way of playing games.
 
-It rsync's whatever online Rsync directory to your arcade (Recalbox) and makes it playable almost instantly.
+It rsync's whatever online rsync directory to your arcade (Recalbox) and makes it playable almost instantly.
 
 It rclone's the thumbnails from libretro and generates gamelist.xml's with update functionality.
 
