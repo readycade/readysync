@@ -20,7 +20,8 @@ eg: /recalbox/share/system/custom.sh
 
 The script will run on every boot.
 
-#### If you wish to run the script manually..
+
+### If you wish to run the script manually..
 
 login to your recalbox via ssh
 
