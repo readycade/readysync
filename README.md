@@ -66,3 +66,5 @@ Selecting Online or Offline Mode (Offline is default)
 read -t "$timeout_seconds" -r input || mode_choice="2"
 ----------------------------------------------------------------------------------------
 ```
+## Flowchart (Visual Representation)
+![ReadyStream Flowchart](Readystream-FLOWCHART.png)
