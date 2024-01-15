@@ -20,7 +20,7 @@ eg: /recalbox/share/system/custom.sh
 
 The script will run on every boot.
 
-If you wish to run the script manually..
+#### If you wish to run the script manually..
 
 login to your recalbox via ssh
 
@@ -32,13 +32,13 @@ and run the command below from the terminal
 /etc/init.d/S99custom start
 ```
 
-Log File:
+#### Log File:
 ```
 /recalbox/share/system/.systemstream.log
 ```
 Enabled Consoles - Download romsets via rsync in alphabetical order (syncing may take time depending on how large the romset is)
 
-Notes:
+#### Notes:
 Default gamelist.xml's and checksums are provided..
 The script is smart enough to notice changes and update your gamelist.xml and checksum
 
