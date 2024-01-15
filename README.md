@@ -39,7 +39,7 @@ and run the command below from the terminal
 ```
 Enabled Consoles - Download romsets via rsync in alphabetical order (syncing may take time depending on how large the romset is)
 
-#### Notes:
+## Notes:
 Default gamelist.xml's and checksums are provided..
 The script is smart enough to notice changes and update your gamelist.xml and checksum
 
