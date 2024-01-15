@@ -1,44 +1,68 @@
 
 
-# Readystream (Every Game, All at Once)
+# Readystream (Ready... Set... Play!)
 
-Essentially what the script does is offer you an OFFLINE and ONLINE way of playing games
+Essentially what the script does is offer you an OFFLINE and ONLINE way of playing games.
 
-It mounts whatever FTP/HTTP directory to your arcade (Recalbox) and makes it playable instantly.
+It rsync's whatever online Rsync directory to your arcade (Recalbox) and makes it playable almost instantly.
 
-For our examples in the rclone.conf
+It rclone's the thumbnails from libretro and generates gamelist.xml's with update functionality.
+
+We use zip-mount to mount .zip's when the emulator doesn't support .zip's (eg. arduboy, gamecube, ps2, wii.. ect)
+
+
+## INSTALLATION
+
+Download custom.sh and place it in /recalbox/share/system
 ```
-[myrient]
-type = http
-url = https://myrient.erista.me/files/
-
-#[thumbnails]
-#type = http
-#url = http://thumbnails.libretro.com
-
-#[dos]
-#type = ftp
-#host = old-dos.ru
-#user = oscollect
-#pass = SxrRwRGbMe50XcwMKB53j6LSN9DehYMJag
+eg: /recalbox/share/system/custom.sh
 ```
 
+The script will run on every boot.
+
+If you wish to run the script manually..
+
+login to your recalbox via ssh
+
+```
+root@recalbox
+```
+and run the command below from the terminal
+```
+/etc/init.d/S99custom start
+```
+
+Enabled Consoles - Download romsets via rsync in alphabetical order (syncing may take time depending on how large the romset is)
+
+Notes:
+Default gamelist.xml's and checksums are provided..
+The script is smart enough to notice changes and update your gamelist.xml and checksum
+
+Disabled Consoles - Previously downloaded romsets be deleted when the script is run again (or on next reboot)
+
+in the custom.sh file you can Enable/Disable consoles you wish to download... and also change which mode you are in.
+```
+# List of platforms and their status (1 for enabled, 0 for disabled)
+platforms=(
+    "arduboy 1"
+    "channelf 0"
+    "vectrex 0"
+    "o2em 0"
+    "videopacplus 0"
+    "intellivision 0"
+    # And More...
+    # Zip Array
+    "pet 0"
+    "pc88 0"
+    "pc98 0"
+    # And More
+)
 ```
 ----------------------------------------------------------------------------------------
-Online = 1, Offline = 2
-
-Default mode is Offline
+Selecting Online or Offline Mode (Offline is default)
 ----------------------------------------------------------------------------------------
-in the custom.sh file
-
-# Display menu
-echo "Please select a mode:"
-echo "1. Online Mode"
-echo "2. Offline Mode"
-
-# Capture input with timeout
-# change mode_choice="2" to "1" if you wish to enable Online
-timeout_seconds=5
+```
+# Capture input with timeout (Change mode_choice="2" to "1" if you wish to enable Online Mode
 read -t "$timeout_seconds" -r input || mode_choice="2"
 ----------------------------------------------------------------------------------------
 ```
