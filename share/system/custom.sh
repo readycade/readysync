@@ -101,15 +101,19 @@ echo "DEBUG: Console ROMs directory: '$console_roms_dir'" >> "$log_file"
         # Get the platform name from platforms.txt
         platform_name=$(grep "^$console_name;" "$platforms_file" | cut -d';' -f4)
 
-        # Iterate through rom files
-        for rom_file in "$console_roms_dir"/*; do
-          if [ -f "$rom_file" ]; then
-            rom_name=$(basename "$rom_file")
-            game_name="${rom_name%.*}"
+# Iterate through rom files
+for rom_file in "$console_roms_dir"/*; do
+  if [ -f "$rom_file" ]; then
+    # Exclude gamelist.xml and gamelist.xml.md5
+    if [ "$(basename "$rom_file")" != "gamelist.xml" ] && [ "$(basename "$rom_file")" != "gamelist.xml.md5" ]; then
+      rom_name=$(basename "$rom_file")
+      game_name="${rom_name%.*}"
 
-            update_or_add_game "$game_name" "$rom_name" "$console_name" "$platform_name"
-          fi
-        done
+      update_or_add_game "$game_name" "$rom_name" "$console_name" "$platform_name"
+    fi
+  fi
+done
+
 
         echo "</gameList>" >> "$gamelist_file"
 
