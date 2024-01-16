@@ -25,14 +25,14 @@ The script will run on every boot.
 ```
 /recalbox/share/system/.systemstream.log
 ```
-Enabled Consoles - Download's romsets via rsync in alphabetical order (syncing may take time depending on how large the romset is)
+**Enabled Consoles** - Download's romsets via rsync in alphabetical order (syncing may take time depending on how large the romset is)
 There are currently 45 Consoles/Systems that work 100%. The platforms under # Zip Array still need to be worked on and should not be enabled for now.
 
-Disabled Consoles - Previously downloaded romsets be deleted when the script is run again (or on next reboot)
+**Disabled Consoles** - Previously downloaded romsets be deleted when the script is run again (or on next reboot)
 
 #### custom.sh
 
-Enabling Consoles/Systems (1 for enabled, 0 for disabled)
+**Enabling Consoles/Systems** (1 for enabled, 0 for disabled)
 ```
 # List of platforms and their status (1 for enabled, 0 for disabled)
 platforms=(
@@ -51,7 +51,7 @@ platforms=(
 )
 ```
 ----------------------------------------------------------------------------------------
-Selecting Online or Offline Mode (Offline is default)
+**Selecting Online or Offline Mode (Offline is default)**
 ----------------------------------------------------------------------------------------
 ```
 # Capture input with timeout (Change mode_choice="2" to "1" if you wish to enable Online Mode
