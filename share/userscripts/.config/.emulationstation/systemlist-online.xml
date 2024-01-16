@@ -511,7 +511,7 @@
     </emulatorList>
   </system>
   <system uuid="e92e3aca-b93c-4a0b-91ed-af85fee79da4" name="jaguar" fullname="Atari Jaguar">
-    <descriptor path="%ROOT%/readystream/jaguar" theme="jaguar" extensions=".abs .jag .bin .j64 .cof .zip .prg .rom .7z" icon="$F2af" downloader="0"/>
+    <descriptor path="%ROOT%/readystream/jaguar" theme="jaguar" extensions=".abs .jag .bin .j64 .cof .zip .prg .rom .7z" icon="$F2af" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.abs$|\.jag$|\.bin$|\.j64$|\.cof$|\.prg$|\.rom$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="27"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1993-11" manufacturer="Atari" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
