@@ -8,7 +8,7 @@ It rsync's whatever online rsync directory to your arcade (Recalbox) and makes i
 
 It rclone's the thumbnails from libretro and generates gamelist.xml's with update functionality.
 
-We use zip-mount to mount .zip's when the emulator doesn't support .zip's (eg. arduboy, gamecube, ps2, wii.. ect)
+It zip-mount's .zip's to /iso when the emulator doesn't support .zip's (eg. arduboy, gamecube, ps2, wii.. ect)
 
 
 ## INSTALLATION
