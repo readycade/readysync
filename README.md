@@ -59,7 +59,8 @@ read -t "$timeout_seconds" -r input || mode_choice="2"
 ----------------------------------------------------------------------------------------
 ```
 
-### If you wish to run the script manually.. (Generate Gamelist.xml's) *I would disable rsync if you just want to create gamelist.xml's*
+### If you wish to run the script manually.. (Generate Gamelist.xml's)
+*I would disable rsync if you just want to create gamelist.xml's*
 
 To **disable rsync** just put a # in front of the rsync command like so
 ```
