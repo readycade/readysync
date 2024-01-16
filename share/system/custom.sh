@@ -184,8 +184,8 @@ offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlis
 # Online Mode
 if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
     # Mount rclone using the provided command
-	rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h &
-disown
+	#rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h &
+#disown
 
 	# Backup the existing systemlist.xml
     echo "Backing up systemlist.xml..."
@@ -227,9 +227,10 @@ for rom_entry in "${roms[@]}"; do
         mkdir -p "$destination_path"
 
         # Use rsync to create hard link backups
-        rsync -aP --link-dest="$destination_path" "$source_path/" "$destination_path/"
+        #rsync -aP --link-dest="$destination_path" "$source_path/" "$destination_path/"
     fi
 done
+chvt 1; es start
 }
 
 # Function to perform actions specific to Offline Mode
@@ -296,6 +297,28 @@ else
   echo "rclone is already installed."
 fi
 
+# Download and Install jq 1.7.1
+if [ ! -f /usr/bin/jq ]; then
+  echo "Downloading jq 1.7.1..."
+
+  # Detect the architecture
+  case $(arch) in
+    x86_64) jq_arch="amd64" ;;
+    aarch64) jq_arch="arm64" ;;
+    *) echo "Unsupported jq architecture: $(arch)."; exit 1 ;;
+  esac
+
+  jq_url="https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-${jq_arch}"
+
+  # Download and Install jq
+  wget -O /usr/bin/jq ${jq_url}
+  chmod +x /usr/bin/jq
+
+  echo "jq 1.7.1 installed successfully for architecture: ${jq_arch}."
+else
+  echo "jq 1.7.1 is already installed."
+fi
+
 # Download and Install mount-zip
 if [ ! -f /usr/bin/mount-zip ]; then
   echo "Downloading mount-zip..."
@@ -338,15 +361,6 @@ if [ ! -e /recalbox/share/userscripts/.config/readystream/platforms.txt ]; then
     echo "platforms.txt downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
 fi
 
-# Check if platforms.txt exists in /recalbox/share/system/.config/
-if [ ! -e /recalbox/share/system/.config/platforms.txt ]; then
-    # Copy platforms.txt to /recalbox/share/system/.config/
-    cp /recalbox/share/userscripts/.config/readystream/platforms.txt /recalbox/share/system/.config/
-    echo "platforms.txt copied to /recalbox/share/system/.config/ successfully."
-else
-    echo "platforms.txt already exists in /recalbox/share/system/.config/. No need to copy."
-fi
-
 # Check if files already exist in /recalbox/share/userscripts/.config/.emulationstation/
 if [ -e /recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml ] && \
    [ -e /recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml ] && \
@@ -374,7 +388,7 @@ fi
 
 # Check if /recalbox/share/userscripts/.config/readystream/roms is empty
 if [ -z "$(ls -A /recalbox/share/userscripts/.config/readystream/roms)" ]; then
-    echo "Downloading roms..."
+    echo "Downloading gamelist.xml and checksums for ALL Consoles..."
     wget --recursive --no-parent -P /recalbox/share/userscripts/.config/readystream/roms https://github.com/dockercompose-man/readystream/tree/master/share/userscripts/.config/readystream/roms
     echo "gamelist.xml and checksums downloaded successfully."
 else
@@ -401,6 +415,13 @@ if [ ! -d /recalbox/share/thumbs ]; then
     echo "Directory /recalbox/share/thumbs created successfully."
 else
     echo "Directory /recalbox/share/thumbs already exists. No need to create."
+fi
+
+if [ ! -d /iso ]; then
+    mkdir -p /iso
+    echo "Directory /iso created successfully."
+else
+    echo "Directory /iso already exists. No need to create."
 fi
 
 if [ ! -d /recalbox/share/zip ]; then
@@ -443,7 +464,7 @@ toggle_platform() {
 
 # List of platforms and their status (1 for enabled, 0 for disabled)
 platforms=(
-    "arduboy 1"
+    "arduboy 0"
     "channelf 0"
     "vectrex 0"
     "o2em 0"
@@ -458,13 +479,13 @@ platforms=(
     "atari5200 0"
     "atari7800 0"
     "jaguar 1"
-    "lynx 1"
-    "nes 1"
-    "fds 1"
+    "lynx 0"
+    "nes 0"
+    "fds 0"
     "snes 1"
-    "satellaview 1"
-    "sufami 1"
-    "n64 1"
+    "satellaview 0"
+    "sufami 0"
+    "n64 0"
     "gamecube 0"
     "wii 0"
     "pokemini 0"
@@ -505,7 +526,7 @@ platforms=(
     "cplus4 0"
     "vic20 0"
     "c64 0"
-    # Zip Array
+    # Zip Array (doesn't work yet, do not enable)
     "pet 0"
     "pc88 0"
     "pc98 0"
@@ -546,7 +567,7 @@ echo "2. Offline Mode"
 
 # Capture input with timeout
 timeout_seconds=5
-read -t "$timeout_seconds" -r input || mode_choice="1"
+read -t "$timeout_seconds" -r input || mode_choice="2"
 
 # Determine the mode based on user input or timeout
 case "$mode_choice" in
