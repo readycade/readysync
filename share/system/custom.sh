@@ -227,7 +227,7 @@ for rom_entry in "${roms[@]}"; do
         mkdir -p "$destination_path"
 
         # Use rsync to create hard link backups
-        #rsync -aP --link-dest="$destination_path" "$source_path/" "$destination_path/"
+        rsync -aP --link-dest="$destination_path" "$source_path/" "$destination_path/"
     fi
 done
 chvt 1; es start
