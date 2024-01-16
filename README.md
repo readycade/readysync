@@ -26,7 +26,8 @@ The script will run on **every boot**.
 /recalbox/share/system/.systemstream.log
 ```
 **Enabled Consoles** - Download's romsets via rsync in alphabetical order (syncing may take time depending on how large the romset is)
-There are currently 45 Consoles/Systems that work 100%. The platforms under # Zip Array still need to be worked on and should not be enabled for now.
+There are currently 45 Consoles/Systems that work 100%.
+The platforms under # Zip Array still need to be worked on and should not be enabled for now.
 
 **Disabled Consoles** - Previously downloaded romsets be deleted when the script is run again (or on next reboot)
 
