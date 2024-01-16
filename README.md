@@ -32,9 +32,8 @@ There are currently 45 Consoles/Systems that work 100%. The platforms under # Zi
 
 #### custom.sh
 
-**Enabling Consoles/Systems** (1 for enabled, 0 for disabled)
+**Enabling Consoles/Systems** (1 for **enabled**, 0 for **disabled**)
 ```
-# List of platforms and their status (1 for enabled, 0 for disabled)
 platforms=(
     "arduboy 1"
     "channelf 0"
@@ -61,18 +60,18 @@ read -t "$timeout_seconds" -r input || mode_choice="2"
 
 ### If you wish to run the script manually.. (Generate Gamelist.xml's) *I would disable rsync if you just want to create gamelist.xml's*
 
-To disable rsync just put a # in front of the rsync command like so
+To **disable rsync** just put a # in front of the rsync command like so
 ```
 #rsync -aP --link-dest="$destination_path" "$source_path/" "$destination_path/"
 ```
 
 ### Running the script manually
-login to your recalbox via ssh (Open a Command Prompt on windows or terminal on linux/mac)
+login to your recalbox via ssh (Open a **Command Prompt** on **windows** or **terminal** on **linux/mac**)
 
 ```
 root@recalbox
 ```
-password: recalboxroot
+**password**: recalboxroot
 
 and run the command below from the terminal
 ```
@@ -80,8 +79,8 @@ and run the command below from the terminal
 ```
 
 ## Notes:
-Default gamelist.xml's and checksums are provided..
-The script is smart enough to notice changes and update your gamelist.xml and checksum
+Default **gamelist.xml's** and **checksums** are provided..
+The script is smart enough to notice changes and **update** your **gamelist.xml** and **checksum**
 
 ## Flowchart (Visual Representation)
 ![ReadyStream Flowchart](Readystream-FLOWCHART.png)
