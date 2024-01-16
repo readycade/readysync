@@ -22,8 +22,7 @@ The script will run on **every boot**.
 
 #### To stop the script from running every boot.
 Navigate to **/recalbox/share/system/** and rename the file from **custom.sh** to **custom.shit** (or whatever you wish)
-OR
-just enable OFFLINE Mode.. see below.
+OR enable **OFFLINE Mode**.. see below.
 
 #### Log File:
 ```
