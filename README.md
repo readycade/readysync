@@ -21,31 +21,17 @@ eg: /recalbox/share/system/custom.sh
 The script will run on every boot.
 
 
-### If you wish to run the script manually..
-
-login to your recalbox via ssh
-
-```
-root@recalbox
-```
-and run the command below from the terminal
-```
-/etc/init.d/S99custom start
-```
-
 #### Log File:
 ```
 /recalbox/share/system/.systemstream.log
 ```
 Enabled Consoles - Download romsets via rsync in alphabetical order (syncing may take time depending on how large the romset is)
-
-## Notes:
-Default gamelist.xml's and checksums are provided..
-The script is smart enough to notice changes and update your gamelist.xml and checksum
+There are currently 45 Consoles/Systems that work 100%. The platforms under # Zip Array still need to be worked on and should not be enabled for now.
 
 Disabled Consoles - Previously downloaded romsets be deleted when the script is run again (or on next reboot)
 
 in the custom.sh file you can Enable/Disable consoles you wish to download... and also change which mode you are in.
+Enabling Consoles/Systems (1 for enabled, 0 for disabled)
 ```
 # List of platforms and their status (1 for enabled, 0 for disabled)
 platforms=(
@@ -71,5 +57,30 @@ Selecting Online or Offline Mode (Offline is default)
 read -t "$timeout_seconds" -r input || mode_choice="2"
 ----------------------------------------------------------------------------------------
 ```
+
+### If you wish to run the script manually.. (Generate Gamelist.xml's) *I would disable rsync if you just want to create gamelist.xml's*
+
+To disable rsync just put a # in front of the rsync command like so
+```
+#rsync -aP --link-dest="$destination_path" "$source_path/" "$destination_path/"
+```
+
+### Running the script manually
+login to your recalbox via ssh (Open a Command Prompt on windows or terminal on linux/mac)
+
+```
+root@recalbox
+```
+password: recalboxroot
+
+and run the command below from the terminal
+```
+/etc/init.d/S99custom start
+```
+
+## Notes:
+Default gamelist.xml's and checksums are provided..
+The script is smart enough to notice changes and update your gamelist.xml and checksum
+
 ## Flowchart (Visual Representation)
 ![ReadyStream Flowchart](Readystream-FLOWCHART.png)
