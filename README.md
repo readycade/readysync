@@ -13,12 +13,12 @@ It zip-mount's .zip's to /iso when the emulator doesn't support .zip's (eg. ardu
 
 ## INSTALLATION
 
-Download custom.sh and place it in /recalbox/share/system
+Download **custom.sh** and place it in **/recalbox/share/system**
 ```
 eg: /recalbox/share/system/custom.sh
 ```
 
-The script will run on every boot.
+The script will run on **every boot**.
 
 
 #### Log File:
