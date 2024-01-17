@@ -206,8 +206,10 @@ fi
 platforms_file="/recalbox/share/userscripts/.config/readystream/platforms.txt"
 mapfile -t roms < "$platforms_file"
 
+# Specify the temporary destination path for zip files
+destination_path_zip_temp="/recalbox/share/zip"
 
-# Loop through the roms array
+# Loop through the roms array for normal files
 for rom_entry in "${roms[@]}"; do
     # Remove roms+=(" from the beginning of the entry
     rom_entry="${rom_entry#roms+=(\"}"
@@ -223,18 +225,63 @@ for rom_entry in "${roms[@]}"; do
 
     # Check if the platform is enabled
     if grep -q "^roms+=(\"$console_name;" "/recalbox/share/userscripts/.config/readystream/platforms.txt"; then
-        # Create the source and destination paths
+        # Create the source and destination paths for normal files
         source_path="rsync://rsync.myrient.erista.me/files/$console_directory"
         destination_path="/recalbox/share/roms/readystream/$console_name"
 
         # Create the destination directory if it doesn't exist
         mkdir -p "$destination_path"
 
-        # Use rsync to create hard link backups
-        rsync -aP --link-dest="$destination_path" "$source_path/" "$destination_path/"
+        # Use rsync to download normal files
+        rsync -aP --delete --link-dest="$destination_path" "$source_path/" "$destination_path/"
     fi
 done
-chvt 1; es start
+
+# Loop through the roms array for zip files
+for rom_entry in "${roms[@]}"; do
+    # Remove roms+=(" from the beginning of the entry
+    rom_entry="${rom_entry#roms+=(\"}"
+
+    # Split the entry into components
+    IFS=';' read -r -a rom_data <<< "$rom_entry"
+
+    # Extract console name (first name in the array)
+    console_name="${rom_data[0]}"
+
+    # Extract console directory for zip
+    console_directory_zip="${rom_data[1]}"
+
+    # Check if the platform is enabled
+    if grep -q "^roms+=(\"$console_name;" "/recalbox/share/userscripts/.config/readystream/platforms.txt"; then
+        # Create the source and destination paths for zip files
+        source_path_zip="rsync://rsync.myrient.erista.me/files/$console_directory_zip"
+        source_path_zip_http="ftp://ftp.myrient.erista.me/files/$console_directory_zip"
+
+        # Correct the destination_path_zip to remove the trailing slash
+        destination_path_zip="/recalbox/share/zip"
+
+        # Create the destination directory if it doesn't exist
+        mkdir -p "$destination_path_zip/$console_name"
+
+        # Extract the filename from the URL
+        filename=$(basename "$console_directory_zip")
+
+        # Use curl to download zip files with a unique name
+        #curl -u "anonymous:myUcMnWBKX9R-Gya--f8j0K26zYNvaWCqyqL" -o "$destination_path_zip/$console_name/$filename" "$source_path_zip_http/$console_directory_zip"
+		
+		# Use unzip to extract the contents of the ZIP file
+        unzip -o "$destination_path_zip/$console_name/$filename" -d "/recalbox/share/roms/readystream/$console_name"
+
+		#I think this is the GOOD ONE (copied from unzip)
+		#mount-zip "$destination_path_zip/$console_name/$filename" "/recalbox/share/roms/readystream/$console_name"
+		
+    fi
+done
+
+
+
+
+
 }
 
 # Function to perform actions specific to Offline Mode
@@ -482,11 +529,11 @@ platforms=(
     "atari2600 0"
     "atari5200 0"
     "atari7800 0"
-    "jaguar 1"
+    "jaguar 0"
     "lynx 0"
     "nes 0"
     "fds 0"
-    "snes 1"
+    "snes 0"
     "satellaview 0"
     "sufami 0"
     "n64 0"
@@ -530,7 +577,7 @@ platforms=(
     "cplus4 0"
     "vic20 0"
     "c64 0"
-    # Zip Array (doesn't work yet, do not enable)
+    # Zip Array
     "pet 0"
     "pc88 0"
     "pc98 0"
@@ -587,5 +634,7 @@ case "$mode_choice" in
         echo "Invalid choice: $mode_choice"
         ;;
 esac
+
+chvt 1; es start
 
 exit
