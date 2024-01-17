@@ -3,6 +3,7 @@
 
 ## Author Michael Cabral 2024
 ## Title: Readystream
+## GPL-3.0 license
 ## Description: Mounts any FTP/HTTP repository of games using rclone giving you an Online and Offline experience.
 ## Online = FTP/HTTP Mounted Games
 ## Offline = Local Hard Drive Games
