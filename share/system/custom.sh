@@ -233,7 +233,7 @@ for rom_entry in "${roms[@]}"; do
         mkdir -p "$destination_path"
 
         # Use rsync to download normal files
-        rsync -aP --delete --link-dest="$destination_path" "$source_path/" "$destination_path/"
+        #rsync -aP --delete --link-dest="$destination_path" "$source_path/" "$destination_path/"
     fi
 done
 
@@ -270,7 +270,7 @@ for rom_entry in "${roms[@]}"; do
         #curl -u "anonymous:myUcMnWBKX9R-Gya--f8j0K26zYNvaWCqyqL" -o "$destination_path_zip/$console_name/$filename" "$source_path_zip_http/$console_directory_zip"
 		
 		# Use unzip to extract the contents of the ZIP file
-        unzip -o "$destination_path_zip/$console_name/$filename" -d "/recalbox/share/roms/readystream/$console_name"
+        unzip -u "$destination_path_zip/$console_name/$filename" -d "/recalbox/share/roms/readystream/$console_name"
 
 		#I think this is the GOOD ONE (copied from unzip)
 		#mount-zip "$destination_path_zip/$console_name/$filename" "/recalbox/share/roms/readystream/$console_name"
@@ -578,16 +578,16 @@ platforms=(
     "vic20 0"
     "c64 0"
     # Zip Array
-    "pet 0"
-    "pc88 0"
-    "pc98 0"
-    "x1 0"
-    "x68000 0"
-    "atari800 0"
-    "amstradcpc 0"
-    "zx81 0"
-    "zxspectrum 0"
-    "spectravideo 0"
+    "pet 1"
+    "pc88 1"
+    "pc98 1"
+    "x1 1"
+    "x68000 1"
+    "atari800 1"
+    "amstradcpc 1"
+    "zx81 1"
+    "zxspectrum 1"
+    "spectravideo 1"
     # Add more platforms as needed
 )
 
@@ -618,7 +618,7 @@ echo "2. Offline Mode"
 
 # Capture input with timeout
 timeout_seconds=5
-read -t "$timeout_seconds" -r input || mode_choice="2"
+read -t "$timeout_seconds" -r input || mode_choice="1"
 
 # Determine the mode based on user input or timeout
 case "$mode_choice" in
