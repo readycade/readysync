@@ -491,20 +491,28 @@ else
     echo "Directory /recalbox/share/zip already exists. No need to create."
 fi
 
-# Function to delete the directory of a disabled platform
 delete_disabled_platform_directory() {
   local platform_name="$1"
-  local directory="/recalbox/share/roms/readystream/$platform_name"
-  local zipdirectory="/recalbox/share/zip/$platform_name"
+  local roms_directory="/recalbox/share/roms/readystream/$platform_name"
+  local zip_directory="/recalbox/share/zip/$platform_name"
 
-  if [ -d "$directory" ]; then
-    echo "Deleting directory for disabled platform: $platform_name"
-    rm -rf "$directory"
-	rm -rf "$zipdirectory"
+  # Delete ROMs directory
+  if [ -d "$roms_directory" ]; then
+    echo "Deleting ROMs directory for disabled platform: $platform_name"
+    rm -rf "$roms_directory"
   else
-    echo "Directory for disabled platform does not exist: $directory"
+    echo "ROMs directory for disabled platform does not exist: $roms_directory"
+  fi
+
+  # Delete ZIP directory
+  if [ -d "$zip_directory" ]; then
+    echo "Deleting ZIP directory for disabled platform: $platform_name"
+    rm -rf "$zip_directory"
+  else
+    echo "ZIP directory for disabled platform does not exist: $zip_directory"
   fi
 }
+
 
 # Function to toggle a platform in the array
 toggle_platform() {
@@ -544,7 +552,7 @@ platforms=(
     "lynx 0"
     "nes 0"
     "fds 0"
-    "snes 1"
+    "snes 0"
     "satellaview 0"
     "sufami 0"
     "n64 0"
