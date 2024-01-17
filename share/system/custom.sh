@@ -268,13 +268,16 @@ for rom_entry in "${roms[@]}"; do
 
         # Use curl to download zip files with a unique name
         #curl -u "anonymous:myUcMnWBKX9R-Gya--f8j0K26zYNvaWCqyqL" -o "$destination_path_zip/$console_name/$filename" "$source_path_zip_http/$console_directory_zip"
-		
-		# Use unzip to extract the contents of the ZIP file
+
+        # Use unzip to extract the contents of the ZIP file
         unzip -o -u "$destination_path_zip/$console_name/$filename" -d "/recalbox/share/roms/readystream/$console_name"
 
-		#I think this is the GOOD ONE (copied from unzip)
-		#mount-zip "$destination_path_zip/$console_name/$filename" "/recalbox/share/roms/readystream/$console_name"
-		
+        # I think this is the GOOD ONE (copied from unzip)
+        #mount-zip "$destination_path_zip/$console_name/$filename" "/recalbox/share/roms/readystream/$console_name"
+
+        # Fix the bad regex in the debug output
+        echo "Fixed regex for console: $console_name"
+        grep -E "^<name>$(echo "$console_name" | sed 's/[][()\.^$?*+|{}\\]/\\&/g')</name>" "$console_directory_zip"
     fi
 done
 
