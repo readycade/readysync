@@ -581,16 +581,16 @@ platforms=(
     "vic20 0"
     "c64 0"
     # Zip Array
-    "pet 1"
-    "pc88 1"
-    "pc98 1"
-    "x1 1"
-    "x68000 1"
-    "atari800 1"
-    "amstradcpc 1"
-    "zx81 1"
-    "zxspectrum 1"
-    "spectravideo 1"
+    "pet 0"
+    "pc88 0"
+    "pc98 0"
+    "x1 0"
+    "x68000 0"
+    "atari800 0"
+    "amstradcpc 0"
+    "zx81 0"
+    "zxspectrum 0"
+    "spectravideo 0"
     # Add more platforms as needed
 )
 
@@ -621,7 +621,7 @@ echo "2. Offline Mode"
 
 # Capture input with timeout
 timeout_seconds=5
-read -t "$timeout_seconds" -r input || mode_choice="1"
+read -t "$timeout_seconds" -r input || mode_choice="2"
 
 # Determine the mode based on user input or timeout
 case "$mode_choice" in
