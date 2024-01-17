@@ -188,8 +188,8 @@ offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlis
 # Online Mode
 if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
     # Mount rclone using the provided command
-	#rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h &
-#disown
+	rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h &
+disown
 
 	# Backup the existing systemlist.xml
     echo "Backing up systemlist.xml..."
@@ -233,7 +233,7 @@ for rom_entry in "${roms[@]}"; do
         mkdir -p "$destination_path"
 
         # Use rsync to download normal files
-        #rsync -aP --delete --link-dest="$destination_path" "$source_path/" "$destination_path/"
+        rsync -aP --delete --link-dest="$destination_path" "$source_path/" "$destination_path/"
     fi
 done
 
@@ -292,6 +292,12 @@ offline_mode() {
     # Add your specific actions for Offline Mode here
     # ...
     echo "Performing actions specific to Offline Mode..."
+
+# Check and update systemlist.xml based on user choice
+offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
+offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml"
+offline_online="/recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml"
+offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml"
 	
 # Offline Mode
 if [ "$mode_choice" != "1" ]; then
