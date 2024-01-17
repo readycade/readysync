@@ -189,7 +189,7 @@ offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlis
 if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
     # Mount rclone using the provided command
 	rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h &
-disown
+#disown
 
 	# Backup the existing systemlist.xml
     echo "Backing up systemlist.xml..."
@@ -495,10 +495,12 @@ fi
 delete_disabled_platform_directory() {
   local platform_name="$1"
   local directory="/recalbox/share/roms/readystream/$platform_name"
+  local zipdirectory="/recalbox/share/zip/$platform_name"
 
   if [ -d "$directory" ]; then
     echo "Deleting directory for disabled platform: $platform_name"
     rm -rf "$directory"
+	rm -rf "$zipdirectory"
   else
     echo "Directory for disabled platform does not exist: $directory"
   fi
@@ -542,7 +544,7 @@ platforms=(
     "lynx 0"
     "nes 0"
     "fds 0"
-    "snes 0"
+    "snes 1"
     "satellaview 0"
     "sufami 0"
     "n64 0"
