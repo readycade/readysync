@@ -1,6 +1,6 @@
 
 
-# Readystream (Ready... Set... Play!)
+# Readysync (Ready... Set... Play!)
 
 Essentially what the script does is offer you an OFFLINE and ONLINE way of playing games.
 
@@ -89,4 +89,4 @@ Default **gamelist.xml's** and **checksums** are provided..
 The script is smart enough to notice changes and **update** your **gamelist.xml** and **checksum**
 
 ## Flowchart (Visual Representation)
-![ReadyStream Flowchart](Readystream-FLOWCHART.png)
+![ReadySync Flowchart](Readysync-FLOWCHART.png)
