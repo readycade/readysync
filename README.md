@@ -13,6 +13,8 @@ It zip-mount's .zip's to /iso when the emulator doesn't support .zip's (eg. ardu
 
 ## INSTALLATION
 
+### Recalbox 9.1+ Supported ONLY:
+
 Download **custom.sh** and place it in **/recalbox/share/system**
 ```
 eg: /recalbox/share/system/custom.sh
