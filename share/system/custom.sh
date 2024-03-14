@@ -320,7 +320,7 @@ if [ "$mode_choice" != "1" ]; then
         echo "Installation complete. Log saved to: $log_file"
 
         # Replace the following line with the actual command to start emulation station
-        chvt 1; es start
+#        chvt 1; es start
     else
         echo "Error: systemlist.xml files not found."
     fi
