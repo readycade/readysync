@@ -89,4 +89,4 @@ Default **gamelist.xml's** and **checksums** are provided..
 The script is smart enough to notice changes and **update** your **gamelist.xml** and **checksum**
 
 ## Flowchart (Visual Representation)
-![ReadySync Flowchart](Readysync-FLOWCHART.png)
+![ReadySync Flowchart](https://github.com/readycade/readysync/blob/master/ReadySync-FLOWCHART.png)
