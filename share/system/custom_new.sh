@@ -4,7 +4,7 @@
 ## Author Michael Cabral 2024
 ## Title: Readystream
 ## GPL-3.0 license
-## Description: Mounts any FTP/HTTP repository of games using rclone giving you an Online and Offline experience.
+## Description: Downloads or Mounts any HTTP repository of games using httpdirfs, wget, mount-zip, rclone, jq and 7-zip giving you an Online and Offline experience.
 ## Online = FTP/HTTP Mounted Games
 ## Offline = Local Hard Drive Games
 
@@ -391,7 +391,7 @@ if [ ! -f /usr/bin/mount-zip ]; then
     *) echo "Unsupported mount-zip architecture: $(arch)."; exit 1 ;;
   esac
 
-  mount_zip_url="https://github.com/dockercompose-man/readystream/raw/master/share/userscripts/.config/readystream/mount-zip-${mount_zip_arch}/mount-zip"
+  mount_zip_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/mount-zip-${mount_zip_arch}/mount-zip"
 
   # Download and Install mount-zip
   wget -O /usr/bin/mount-zip ${mount_zip_url}
@@ -402,9 +402,31 @@ else
   echo "mount-zip is already installed."
 fi
 
+# Download and Install httpdirfs
+if [ ! -f /usr/bin/httpdirfs ]; then
+  echo "Downloading httpdirfs..."
+
+  # Detect the architecture
+  case $(arch) in
+    x86_64) httpdirfs_arch="x64" ;;
+    aarch64) httpdirfs_arch="arm64" ;;
+    *) echo "Unsupported httpdirfs architecture: $(arch)."; exit 1 ;;
+  esac
+
+  httpdirfs_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/httpdirfs-${httpdirfs_arch}/httpdirfs"
+
+  # Download and Install httpdirfs
+  wget -O /usr/bin/httpdirfs ${httpdirfs_url}
+  chmod +x /usr/bin/httpdirfs
+
+  echo "httpdirfs installed successfully for architecture: ${httpdirfs_arch}."
+else
+  echo "httpdirfs is already installed."
+fi
+
 # Download rclone.conf if it doesn't exist
 if [ ! -e /recalbox/share/userscripts/.config/readystream/rclone.conf ]; then
-    wget -O /recalbox/share/userscripts/.config/readystream/rclone.conf https://raw.githubusercontent.com/dockercompose-man/readystream/master/share/userscripts/.config/readystream/rclone.conf
+    wget -O /recalbox/share/userscripts/.config/readystream/rclone.conf https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclone.conf
     echo "rclone.conf downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
 fi
 
@@ -418,7 +440,7 @@ fi
 
 # Download platforms.txt if it doesn't exist in /recalbox/share/userscripts/.config/readystream/
 if [ ! -e /recalbox/share/userscripts/.config/readystream/platforms.txt ]; then
-    wget -O /recalbox/share/userscripts/.config/readystream/platforms.txt https://raw.githubusercontent.com/dockercompose-man/readystream/master/share/userscripts/.config/readystream/platforms.txt
+    wget -O /recalbox/share/userscripts/.config/readystream/platforms.txt https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/platforms.txt
     echo "platforms.txt downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
 fi
 
@@ -429,13 +451,13 @@ if [ -e /recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.
     echo "Files already exist. No need to download."
 else
     # Download systemlist-backup.xml
-    wget -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml https://raw.githubusercontent.com/dockercompose-man/readystream/master/share/userscripts/.config/.emulationstation/systemlist-backup.xml
+    wget -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-backup.xml
 
     # Download systemlist-online.xml
-    wget -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml https://raw.githubusercontent.com/dockercompose-man/readystream/master/share/userscripts/.config/.emulationstation/systemlist-online.xml
+    wget -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-online.xml
 
     # Download systemlist-offline.xml
-    wget -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml https://raw.githubusercontent.com/dockercompose-man/readystream/master/share/userscripts/.config/.emulationstation/systemlist-offline.xml
+    wget -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-offline.xml
 
     # Check if files were downloaded successfully
     if [ -e /recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml ] && \
@@ -450,7 +472,7 @@ fi
 # Check if /recalbox/share/userscripts/.config/readystream/roms is empty
 if [ -z "$(ls -A /recalbox/share/userscripts/.config/readystream/roms)" ]; then
     echo "Downloading gamelist.xml and checksums for ALL Consoles..."
-    wget --recursive --no-parent -P /recalbox/share/userscripts/.config/readystream/roms https://github.com/dockercompose-man/readystream/tree/master/share/userscripts/.config/readystream/roms
+    wget --recursive --no-parent -P /recalbox/share/userscripts/.config/readystream/roms https://github.com/readycade/readysync/tree/master/share/userscripts/.config/readystream/roms
     echo "gamelist.xml and checksums downloaded successfully."
 else
     echo "gamelist.xml and checksums directory is not empty. No need to download."
