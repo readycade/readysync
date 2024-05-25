@@ -227,14 +227,18 @@ for rom_entry in "${roms[@]}"; do
     # Check if the platform is enabled
     if grep -q "^roms+=(\"$console_name;" "/recalbox/share/userscripts/.config/readystream/platforms.txt"; then
         # Create the source and destination paths for normal files
-        source_path="rsync://rsync.myrient.erista.me/files/$console_directory"
+        #source_path="rsync://rsync.myrient.erista.me/files/$console_directory"
+        source_path="http://myrient.erista.me/files/$console_directory"
         destination_path="/recalbox/share/roms/readystream/$console_name"
 
         # Create the destination directory if it doesn't exist
         mkdir -p "$destination_path"
 
         # Use rsync to download normal files
-        rsync -aP --delete --link-dest="$destination_path" "$source_path/" "$destination_path/"
+        #rsync -aP --delete --link-dest="$destination_path" "$source_path/" "$destination_path/"
+
+        # Use httpdirfs to mount normal files (got to test this still)
+        mount -t httpdirfs "$source_path/" "$destination_path/"
     fi
 done
 
@@ -255,8 +259,8 @@ for rom_entry in "${roms[@]}"; do
     # Check if the platform is enabled
     if grep -q "^roms+=(\"$console_name;" "/recalbox/share/userscripts/.config/readystream/platforms.txt"; then
         # Create the source and destination paths for zip files
-        source_path_zip="rsync://rsync.myrient.erista.me/files/$console_directory_zip"
-        source_path_zip_http="ftp://ftp.myrient.erista.me/files/$console_directory_zip"
+        source_path_zip="http://myrient.erista.me/files/$console_directory_zip"
+        source_path_zip_http="http://myrient.erista.me/files/$console_directory_zip"
 
         # Correct the destination_path_zip to remove the trailing slash
         destination_path_zip="/recalbox/share/zip"
@@ -271,10 +275,10 @@ for rom_entry in "${roms[@]}"; do
         #curl -u "anonymous:myUcMnWBKX9R-Gya--f8j0K26zYNvaWCqyqL" -o "$destination_path_zip/$console_name/$filename" "$source_path_zip_http/$console_directory_zip"
 
         # Use unzip to extract the contents of the ZIP file
-        unzip -o -u "$destination_path_zip/$console_name/$filename" -d "/recalbox/share/roms/readystream/$console_name"
+        #unzip -o -u "$destination_path_zip/$console_name/$filename" -d "/recalbox/share/roms/readystream/$console_name"
 
         # I think this is the GOOD ONE (copied from unzip)
-        #mount-zip "$destination_path_zip/$console_name/$filename" "/recalbox/share/roms/readystream/$console_name"
+        mount-zip "$destination_path_zip/$console_name/$filename" "/recalbox/share/roms/readystream/$console_name"
 
         # Fix the bad regex in the debug output
         echo "Fixed regex for console: $console_name"
