@@ -136,6 +136,196 @@ done
 # Call the function with the online directory as an argument
 generate_gamelist_xml "/recalbox/share/roms/readystream"
 
+# Download Gamelists from Github Repo
+wget -P /recalbox/share/.config/readystream/roms/3do/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/3do/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/3do/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/3ds/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/3ds/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/3ds/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/amiga1200/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/amiga1200/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/amiga1200/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/amigacd32/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/amigacd32/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/amigacd32/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/amigacdtv/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/amigacdtv/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/amigacdtv/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/amstradcpc/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/amstradcpc/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/amstradcpc/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/arduboy/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/arduboy/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/arduboy/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/atari2600/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/atari2600/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/atari2600/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/atari5200/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/atari5200/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/atari5200/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/atari7800/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/atari7800/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/atari7800/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/atarist/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/atarist/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/atarist/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/c64/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/c64/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/c64/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/cdi/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/cdi/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/cdi/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/channelf/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/channelf/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/channelf/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/colecovision/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/colecovision/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/colecovision/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/cplus4/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/cplus4/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/cplus4/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/dos/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/dos/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/dos/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/dreamcast/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/dreamcast/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/dreamcast/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/fds/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/fds/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/fds/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/gamecube/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/gamecube/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/gamecube/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/gamegear/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/gamegear/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/gamegear/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/gb/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/gb/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/gb/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/gba/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/gba/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/gba/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/gbc/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/gbc/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/gbc/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/intellivision/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/intellivision/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/intellivision/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/jaguar/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/jaguar/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/jaguar/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/lynx/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/lynx/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/lynx/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/mastersystem/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/mastersystem/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/mastersystem/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/megadrive/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/megadrive/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/megadrive/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/msx1/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/msx1/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/msx1/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/msx2/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/msx2/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/msx2/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/n64/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/n64/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/n64/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/nds/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/nds/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/nds/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/neogeocd/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/neogeocd/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/neogeocd/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/nes/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/nes/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/nes/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/ngp/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/ngp/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/ngp/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/ngpc/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/ngpc/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/ngpc/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/o2em/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/o2em/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/o2em/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/pc88/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/pc88/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/pc88/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/pc98/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/pc98/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/pc98/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/pcengine/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/pcengine/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/pcengine/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/pcenginecd/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/pcenginecd/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/pcenginecd/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/pcfx/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/pcfx/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/pcfx/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/pet/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/pet/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/pet/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/pico8/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/pico8/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/pico8/gamelist.xml.md5
+
+wget -P /recalbox/share/.config/readystream/roms/pokemini/ \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/pokemini/gamelist.xml \
+  https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms/pokemini/gamelist.xml.md5
+
+
+
+
+
+
 # Function to create console directory
 create_console_directory() {
   local console_name="$1"
@@ -238,7 +428,13 @@ for rom_entry in "${roms[@]}"; do
         #rsync -aP --delete --link-dest="$destination_path" "$source_path/" "$destination_path/"
 
         # Use httpdirfs to mount normal files (got to test this still)
-        mount -t httpdirfs "$source_path/" "$destination_path/"
+        #mount -t httpdirfs "$source_path/" "$destination_path/"
+
+        # httpdirfs with caching to mount normal files (got to test this still)
+        #httpdirfs --cache --no-range-check --cache-location ~/share/system/.cache/httpdirfs https://myrient.erista.me/files ~/myrient
+
+        # httpdirfs with caching to mount normal files (got to test this still)
+        mount -t httpdirfs --cache --no-range-check --cache-location ~/share/system/.cache/httpdirfs "$source_path/" "$destination_path/"
     fi
 done
 
@@ -561,81 +757,121 @@ toggle_platform() {
 
 # List of platforms and their status (1 for enabled, 0 for disabled)
 platforms=(
+    # No-Intro Romsets
     "arduboy 0"
-    "channelf 0"
-    "vectrex 0"
-    "o2em 0"
-    "videopacplus 0"
-    "intellivision 0"
-    "colecovision 0"
-    "scv 0"
-    "supervision 0"
-    "wswan 0"
-    "wswanc 0"
     "atari2600 0"
     "atari5200 0"
     "atari7800 0"
+    "atarist 0"
     "jaguar 0"
     "lynx 0"
-    "nes 0"
+    "wswan 0"
+    "wswanc 0"
+    "colecovision 0"
+    "c64 0"
+    "cplus4 0"
+    "vic20 0"
+    "scv 0"
+    "channelf 0"
+    "vectrex 0"
+    "o2em 0"
+    "intellivision 0"
+    "msx1 0"
+    "msx2 0"
+    "pcengine 0"
+    "supergrafx 0"
     "fds 0"
-    "snes 0"
-    "satellaview 0"
-    "sufami 0"
-    "n64 0"
-    "gamecube 0"
-    "wii 0"
-    "pokemini 0"
-    "virtualboy 0"
     "gb 0"
     "gbc 0"
     "gba 0"
-    "nds 0"
-    "3ds 0"
+    "n64 0"
+    "nes 0"
+    "pokemini 0"
+    "satellaview 0"
+    "sufami 0"
+    "snes 0"
+    "virtualboy 0"
+    "videopacplus 0"
+    "ngp 0"
+    "ngpc 0"
+    "sega32x 0"
+    "gamegear 0"
     "sg1000 0"
     "mastersystem 0"
     "megadrive 0"
     "pico 0"
-    "sega32x 0"
+    "supervision 0"
+    "pcv2 0"
+    "palm 0"
+    "gw 0"
+    "64dd 0"
+    "nds 0"
+    # Redump Romsets (CD/DVD BASED) (WARNING: these are VERY large!)
+    "amigacd32 0"
+    "amigacdtv 0"
+    "amiga1200 0"
+    "gamecube 0"
+    "wii 0"
+    "3do 0"
+    "cdi 0"
+    "pcenginecd 0"
+    "neogeocd 0"
+    "dreamcast 0"
     "segacd 0"
     "saturn 0"
-    "dreamcast 0"
-    "gamegear 0"
     "psx 0"
     "ps2 0"
     "psp 0"
-    "pcengine 0"
-    "pcenginecd 0"
-    "supergrafx 0"
     "pcfx 0"
-    "cdi 0"
-    "3do 0"
-    "neogeocd 0"
-    "ngp 0"
-    "ngpc 0"
-    "dos 0"
-    "msx1 0"
-    "msx2 0"
-    "atarist 0"
-    "amiga1200 0"
-    "amigacd32 0"
-    "amigacdtv 0"
-    "cplus4 0"
-    "vic20 0"
-    "c64 0"
-    # Zip Array
+    "naomi 0"
+    "jaguar 0"
+    # TOSEC Romsets
+    "amstradcpc 0"
+    "atari800 0"
     "pet 0"
     "pc88 0"
     "pc98 0"
+    "pcengine 0"
+    "zxspectrum 0"
+    "zx81 0"
     "x1 0"
     "x68000 0"
-    "atari800 0"
-    "amstradcpc 0"
-    "zx81 0"
-    "zxspectrum 0"
-    "spectravideo 0"
+    "gx4000 0"
+    "macintosh 0"
+    "apple2gs 0"
+    "apple2 0"
+    "amiga1200 0"
+    "bk 0"
+    "msx1 0"
+    # MSX 2
+    "msx2 0"
+    # MSX 2+
+    "msx2 0"
+    "msxturbor 0"
+    # The EYE Romsets
+    "dos 0"
     # Add more platforms as needed
 )
+
+    # Experimental (DO NOT USE)
+    #"analogue 0"
+    #"triforce 0"
+    #"amiga1200 0"
+    
+    # No Intro Experimental (DO NO USE)
+    # New Nintendo 3DS
+    #"3ds 0"
+    # Nintendo 3DS
+    #"3ds 0"
+
+    # Redump Experimental (DO NOT USE)
+    #"naomi 0"
+    #"xbox 0"
+    #"xbox360 0"
+    #"ps3 0"
+    #"ps3keys 0"
+    #"ps3keystxt 0"
+
 
 # Loop through platforms
 for platform_info in "${platforms[@]}"; do
