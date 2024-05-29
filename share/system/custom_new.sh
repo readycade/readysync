@@ -244,7 +244,7 @@ for rom_entry in "${roms[@]}"; do
         #httpdirfs --cache --no-range-check --cache-location ~/share/system/.cache/httpdirfs https://myrient.erista.me/files ~/myrient
 
         # httpdirfs with caching to mount normal files (got to test this still)
-        mkdir -P /recalbox/share/system/.cache/httpdirfs
+        mkdir -p /recalbox/share/system/.cache/httpdirfs
         mount -t httpdirfs --cache --no-range-check --cache-location /recalbox/share/system/.cache/httpdirfs "$source_path/" "$destination_path/"
     fi
 done
@@ -569,11 +569,11 @@ toggle_platform() {
 # List of platforms and their status (1 for enabled, 0 for disabled)
 platforms=(
     # No-Intro Romsets
-    "arduboy 1"
-    "atari2600 1"
-    "atari5200 1"
-    "atari7800 1"
-    "atarist 1"
+    "arduboy 0"
+    "atari2600 0"
+    "atari5200 0"
+    "atari7800 0"
+    "atarist 0"
     "jaguar 0"
     "lynx 0"
     "wswan 0"
