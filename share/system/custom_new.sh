@@ -456,33 +456,34 @@ else
   echo "git is already installed."
 fi
 
-
-
 # Function to clone the repository if not already cloned
 clone_repository() {
+    local cache_dir="/recalbox/share/system/.cache"
     local target_dir="/recalbox/share"
-    local flag_file="$target_dir/.cloned"
+    local flag_file="$cache_dir/.cloned"
 
     # Check if the flag file exists
     if [ -f "$flag_file" ]; then
-        echo "Repository already cloned in $target_dir"
+        echo "Repository already cloned in $cache_dir"
     else
-        # Clone the repository directly into /recalbox/share
+        # Clone the repository directly into /recalbox/share/system/.cache
         echo "Cloning repository..."
-        git clone --no-checkout https://github.com/readycade/readysync.git "$target_dir" || { echo "Failed to clone repository"; exit 1; }
+        git clone --no-checkout https://github.com/readycade/readysync.git "$cache_dir" || { echo "Failed to clone repository"; exit 1; }
 
         # Create the flag file to indicate that the repository has been cloned
         touch "$flag_file"
 
-        echo "Repository cloned into $target_dir successfully!"
+        echo "Repository cloned into $cache_dir successfully!"
+
+        # Copy the files to /recalbox/share
+        echo "Copying files to $target_dir..."
+        cp -r "$cache_dir"/* "$target_dir" || { echo "Failed to copy files"; exit 1; }
+        echo "Files copied to $target_dir successfully!"
     fi
 }
 
 # Call the function to clone the repository if needed
 clone_repository
-
-
-
 
 # Download rclone.conf if it doesn't exist
 if [ ! -e /recalbox/share/userscripts/.config/readystream/rclone.conf ]; then
