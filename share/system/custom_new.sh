@@ -245,34 +245,35 @@ for rom_entry in "${roms[@]}"; do
     fi
 done
 
-# Loop through the roms array for zip files
-#for rom_entry in "${roms[@]}"; do
-#    # Remove roms+=(" from the beginning of the entry
-#    rom_entry="${rom_entry#roms+=(\"}"
-#
-#    # Split the entry into components
-#    IFS=';' read -r -a rom_data <<< "$rom_entry"
-#
-#    # Extract console name (first name in the array)
-#    console_name="${rom_data[0]}"
-#
-#    # Extract console directory for zip
-#    console_directory_zip="${rom_data[1]}"
-#
-#    # Check if the platform is enabled
-#    if grep -q "^roms+=(\"$console_name;" "/recalbox/share/userscripts/.config/readystream/platforms.txt"; then
-#        # Create the source and destination paths for zip files
-#        source_path_zip="http://myrient.erista.me/files/$console_directory_zip"
-#        source_path_zip_http="http://myrient.erista.me/files/$console_directory_zip"
+    # Loop through the roms array for zip files
+for rom_entry in "${roms[@]}"; do
+    
+    # Remove roms+=(" from the beginning of the entry
+    rom_entry="${rom_entry#roms+=(\"}"
 
-#        # Correct the destination_path_zip to remove the trailing slash
-#        destination_path_zip="/recalbox/share/zip"
+    # Split the entry into components
+    IFS=';' read -r -a rom_data <<< "$rom_entry"
+
+    # Extract console name (first name in the array)
+    console_name="${rom_data[0]}"
+
+    # Extract console directory for zip
+    console_directory_zip="${rom_data[1]}"
+
+    # Check if the platform is enabled
+    if grep -q "^roms+=(\"$console_name;" "/recalbox/share/userscripts/.config/readystream/platforms.txt"; then
+        # Create the source and destination paths for zip files
+        source_path_zip="http://myrient.erista.me/files/$console_directory_zip"
+        source_path_zip_http="http://myrient.erista.me/files/$console_directory_zip"
+
+        # Correct the destination_path_zip to remove the trailing slash
+        destination_path_zip="/recalbox/share/zip"
 
         # Create the destination directory if it doesn't exist
-#        mkdir -p "$destination_path_zip/$console_name"
+        mkdir -p "$destination_path_zip/$console_name"
 
         # Extract the filename from the URL
-#        filename=$(basename "$console_directory_zip")
+        filename=$(basename "$console_directory_zip")
 
         # Use curl to download zip files with a unique name
         #curl -u "anonymous:myUcMnWBKX9R-Gya--f8j0K26zYNvaWCqyqL" -o "$destination_path_zip/$console_name/$filename" "$source_path_zip_http/$console_directory_zip"
@@ -281,19 +282,19 @@ done
         #unzip -o -u "$destination_path_zip/$console_name/$filename" -d "/recalbox/share/roms/readystream/$console_name"
 
         # I think this is the GOOD ONE (copied from unzip)
-#        mount-zip "$destination_path_zip/$console_name/$filename" "/recalbox/share/roms/readystream/$console_name"
+        mount-zip "$destination_path_zip/$console_name/$filename" "/recalbox/share/roms/readystream/$console_name"
 
         # Fix the bad regex in the debug output
-#        echo "Fixed regex for console: $console_name"
-#        grep -E "^<name>$(echo "$console_name" | sed 's/[][()\.^$?*+|{}\\]/\\&/g')</name>" "$console_directory_zip"
-#    fi
-#done
+        echo "Fixed regex for console: $console_name"
+        grep -E "^<name>$(echo "$console_name" | sed 's/[][()\.^$?*+|{}\\]/\\&/g')</name>" "$console_directory_zip"
+    fi
+done
 
 
 
 
 
-#}
+}
 
 # Function to perform actions specific to Offline Mode
 offline_mode() {
@@ -327,7 +328,7 @@ if [ "$mode_choice" != "1" ]; then
         echo "Installation complete. Log saved to: $log_file"
 
         # Replace the following line with the actual command to start emulation station
-#        chvt 1; es start
+        chvt 1; es start
     else
         echo "Error: systemlist.xml files not found."
     fi
@@ -521,10 +522,10 @@ else
     echo "Directory /recalbox/share/zip already exists. No need to create."
 fi
 
-#delete_disabled_platform_directory() {
-#  local platform_name="$1"
-#  local roms_directory="/recalbox/share/roms/readystream/$platform_name"
-#  local zip_directory="/recalbox/share/zip/$platform_name"
+delete_disabled_platform_directory() {
+  local platform_name="$1"
+  local roms_directory="/recalbox/share/roms/readystream/$platform_name"
+  local zip_directory="/recalbox/share/zip/$platform_name"
 
   # Delete ROMs directory
 #  if [ -d "$roms_directory" ]; then
@@ -545,22 +546,22 @@ fi
 
 
 # Function to toggle a platform in the array
-#toggle_platform() {
-#    local platform_name=$1
-#    local action=$2
+toggle_platform() {
+    local platform_name=$1
+    local action=$2
 
-#    case $action in
-#        "enable")
-#            sed -i "/^#roms+=(\"$platform_name;/ s/^#//" "/recalbox/share/userscripts/.config/readystream/platforms.txt"
-#            ;;
-#        "disable")
-#            sed -i "/^roms+=(\"$platform_name;/ s/^/#/" "/recalbox/share/userscripts/.config/readystream/platforms.txt"
-#            ;;
-#        *)
-#            echo "Invalid action. Use 'enable' or 'disable'."
-#            ;;
-#    esac
-#}
+    case $action in
+        "enable")
+            sed -i "/^#roms+=(\"$platform_name;/ s/^#//" "/recalbox/share/userscripts/.config/readystream/platforms.txt"
+            ;;
+        "disable")
+            sed -i "/^roms+=(\"$platform_name;/ s/^/#/" "/recalbox/share/userscripts/.config/readystream/platforms.txt"
+            ;;
+        *)
+            echo "Invalid action. Use 'enable' or 'disable'."
+            ;;
+    esac
+}
 
 # List of platforms and their status (1 for enabled, 0 for disabled)
 platforms=(
@@ -726,4 +727,4 @@ esac
 
 chvt 1; es start
 
-#exit
+exit
