@@ -245,7 +245,7 @@ for rom_entry in "${roms[@]}"; do
 
         # httpdirfs with caching to mount normal files (got to test this still)
         mkdir -p /recalbox/share/system/.cache/httpdirfs
-        httpdirfs -d -o --cache --no-range-check --cache-location /recalbox/share/system/.cache/httpdirfs "$source_path/" "$destination_path/"
+        httpdirfs --cache --no-range-check --cache-location /recalbox/share/system/.cache/httpdirfs "$source_path/" "$destination_path/"
         #httpdirfs --cache --no-range-check --debug --cache-location  /recalbox/share/system/.cache/httpdirfs "http://myrient.erista.me/files/" "/recalbox/share/roms/readystream/"
     fi
 done
