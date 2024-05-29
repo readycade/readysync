@@ -233,27 +233,15 @@ for rom_entry in "${roms[@]}"; do
         # Use rsync to download normal files
         #rsync -aP --delete --link-dest="$destination_path" "$source_path/" "$destination_path/"
 
-        source_path_nointro="https://myrient.erista.me/files/No-Intro/"
-        destination_path_nointro="/recalbox/share/roms/readystream/No-Intro"
-
-        source_path_redump="https://myrient.erista.me/files/Redump/"
-        destination_path_redump="/recalbox/share/roms/readystream/Redump"
-
-        source_path_tosec="https://myrient.erista.me/files/TOSEC/"
-        destination_path_tosec="/recalbox/share/roms/readystream/TOSEC"
+        source_path="https://myrient.erista.me/files/"
+        destination_path="/recalbox/share/roms/readystream/"
 
         # Create the destination directory if it doesn't exist
         mkdir -p "$destination_path"
 
         # httpdirfs with caching to mount ALL files
         mkdir -p /recalbox/share/system/.cache/httpdirfs
-        mkdir -p /recalbox/share/roms/readystream/No-Intro
-        httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs -o nonempty "$source_path_nointro" "$destination_path_nointro"
-        mkdir -p /recalbox/share/roms/readystream/Redump
-        httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs -o nonempty "$source_path_redump" "$destination_path_redump"
-        mkdir -p /recalbox/share/roms/readystream/TOSEC
-        httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs -o nonempty "$source_path_tosec" "$destination_path_tosec"
-
+        httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs -o nonempty "$source_path" "$destination_path
     fi
 done
 
@@ -305,7 +293,7 @@ done
 
 
 
-}
+#}
 
 # Function to perform actions specific to Offline Mode
 offline_mode() {
