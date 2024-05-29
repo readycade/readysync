@@ -726,4 +726,4 @@ esac
 
 chvt 1; es start
 
-exit
+#exit
