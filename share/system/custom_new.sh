@@ -456,6 +456,32 @@ else
   echo "git is already installed."
 fi
 
+
+
+# Download and Install git-core if not already installed
+if [ ! -x /usr/bin/git ]; then
+  echo "Downloading and installing git-core..."
+
+  # Detect the architecture
+  case $(arch) in
+    x86_64) git_arch="x64" ;;
+    aarch64) git_arch="arm64" ;;
+    *) echo "Unsupported git-core architecture: $(arch)."; exit 1 ;;
+  esac
+
+  git_core_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/git-core-${git_arch}.tar"
+
+  # Download and extract git-core
+  wget -O git-core-${git_arch}.tar "${git_core_url}"
+    tar -xvf git-core-${git_arch}.tar -C /usr/local/share --strip-components=1
+
+  echo "git-core installed successfully for architecture: ${git_arch}."
+else
+  echo "git-core is already installed."
+fi
+
+
+
 # Function to clone the repository if not already cloned
 clone_repository() {
     local cache_dir="/recalbox/share/system/.cache/readysync"
