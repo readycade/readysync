@@ -244,7 +244,8 @@ for rom_entry in "${roms[@]}"; do
         #httpdirfs --cache --no-range-check --cache-location ~/share/system/.cache/httpdirfs https://myrient.erista.me/files ~/myrient
 
         # httpdirfs with caching to mount normal files (got to test this still)
-        mount -t httpdirfs --cache --no-range-check --cache-location ~/share/system/.cache/httpdirfs "$source_path/" "$destination_path/"
+        mkdir -P /recalbox/share/system/.cache/httpdirfs
+        mount -t httpdirfs --cache --no-range-check --cache-location /recalbox/share/system/.cache/httpdirfs "$source_path/" "$destination_path/"
     fi
 done
 
