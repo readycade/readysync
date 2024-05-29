@@ -614,11 +614,11 @@ toggle_platform() {
 # List of platforms and their status (1 for enabled, 0 for disabled)
 platforms=(
     # No-Intro Romsets
-    "arduboy 0"
-    "atari2600 0"
-    "atari5200 0"
-    "atari7800 0"
-    "atarist 0"
+    "arduboy 1"
+    "atari2600 1"
+    "atari5200 1"
+    "atari7800 1"
+    "atarist 1"
     "jaguar 0"
     "lynx 0"
     "wswan 0"
@@ -756,7 +756,7 @@ echo "2. Offline Mode"
 
 # Capture input with timeout
 timeout_seconds=5
-read -t "$timeout_seconds" -r input || mode_choice="2"
+read -t "$timeout_seconds" -r input || mode_choice="1"
 
 # Determine the mode based on user input or timeout
 case "$mode_choice" in
