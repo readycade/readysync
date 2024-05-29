@@ -434,28 +434,53 @@ else
   echo "httpdirfs is already installed."
 fi
 
-
 # Download and Install git
-if [ ! -f /usr/bin/httpdirfs ]; then
-  echo "Downloading httpdirfs..."
+if [ ! -f /usr/bin/git ]; then
+  echo "Downloading git..."
 
   # Detect the architecture
   case $(arch) in
-    x86_64) httpdirfs_arch="x64" ;;
-    aarch64) httpdirfs_arch="arm64" ;;
-    *) echo "Unsupported httpdirfs architecture: $(arch)."; exit 1 ;;
+    x86_64) git_arch="x64" ;;
+    aarch64) git_arch="arm64" ;;
+    *) echo "Unsupported git architecture: $(arch)."; exit 1 ;;
   esac
 
-  httpdirfs_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/httpdirfs-${httpdirfs_arch}/httpdirfs"
+  git_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/git-${git_arch}/git"
 
   # Download and Install httpdirfs
-  wget -O /usr/bin/httpdirfs ${httpdirfs_url}
-  chmod +x /usr/bin/httpdirfs
+  wget -O /usr/bin/git ${git_url}
+  chmod +x /usr/bin/git
 
-  echo "httpdirfs installed successfully for architecture: ${httpdirfs_arch}."
+  echo "git installed successfully for architecture: ${git_arch}."
 else
-  echo "httpdirfs is already installed."
+  echo "git is already installed."
 fi
+
+
+
+# Function to clone the repository if not already cloned
+clone_repository() {
+    local target_dir="/recalbox/share"
+    local flag_file="$target_dir/.cloned"
+
+    # Check if the flag file exists
+    if [ -f "$flag_file" ]; then
+        echo "Repository already cloned in $target_dir"
+    else
+        # Clone the repository directly into /recalbox/share
+        echo "Cloning repository..."
+        git clone --no-checkout https://github.com/readycade/readysync.git "$target_dir" || { echo "Failed to clone repository"; exit 1; }
+
+        # Create the flag file to indicate that the repository has been cloned
+        touch "$flag_file"
+
+        echo "Repository cloned into $target_dir successfully!"
+    fi
+}
+
+# Call the function to clone the repository if needed
+clone_repository
+
 
 
 
