@@ -435,50 +435,27 @@ else
 fi
 
 
+# Download and Install git
+if [ ! -f /usr/bin/httpdirfs ]; then
+  echo "Downloading httpdirfs..."
 
+  # Detect the architecture
+  case $(arch) in
+    x86_64) httpdirfs_arch="x64" ;;
+    aarch64) httpdirfs_arch="arm64" ;;
+    *) echo "Unsupported httpdirfs architecture: $(arch)."; exit 1 ;;
+  esac
 
+  httpdirfs_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/httpdirfs-${httpdirfs_arch}/httpdirfs"
 
-# Function to install Git from the provided tarball URL
-install_git() {
-  local git_url="https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.9.5.tar.xz"
+  # Download and Install httpdirfs
+  wget -O /usr/bin/httpdirfs ${httpdirfs_url}
+  chmod +x /usr/bin/httpdirfs
 
-  # Download and extract the Git tarball
-  echo "Downloading Git..."
-  wget "$git_url" -O git.tar.xz || { echo "Failed to download Git"; exit 1; }
-  tar -xf git.tar.xz || { echo "Failed to extract Git"; exit 1; }
-
-  # Enter the extracted directory
-  cd git-2.9.5 || { echo "Failed to enter Git directory"; exit 1; }
-
-  # Build and install Git
-  echo "Building and installing Git..."
-  make prefix=/usr all || { echo "Failed to build Git"; exit 1; }
-  sudo make prefix=/usr install || { echo "Failed to install Git"; exit 1; }
-
-  # Clean up
-  cd ..
-  rm -rf git-2.9.5 git.tar.xz
-
-  echo "Git installation completed successfully!"
-}
-
-# Install Git
-install_git
-
-# Ensure the target directory exists
-mkdir -p /recalbox/share
-
-# Clone the repository directly into /recalbox/share
-echo "Cloning repository..."
-git clone --no-checkout https://github.com/readycade/readysync.git /recalbox/share || { echo "Failed to clone repository"; exit 1; }
-
-# Remove the .git directory to avoid creating a subdirectory
-rm -rf /recalbox/share/.git
-
-echo "Repository cloned into /recalbox/share successfully!"
-
-
-
+  echo "httpdirfs installed successfully for architecture: ${httpdirfs_arch}."
+else
+  echo "httpdirfs is already installed."
+fi
 
 
 
