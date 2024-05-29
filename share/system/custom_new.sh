@@ -76,7 +76,6 @@ update_or_add_game() {
     fi
 }
 
-
 # Function to generate gamelist.xml
 generate_gamelist_xml() {
   local online_dir="$1"
@@ -106,48 +105,32 @@ generate_gamelist_xml() {
 
       if [ -n "$platform_name" ]; then
         # Iterate over roms for this platform and update/add games
-        # Example:
-        # for rom_file in "$console_roms_dir"/*; do
-        #   update_or_add_game "$rom_file"
-        # done
-      else
-        echo "ERROR: Failed to extract platform name for '$platform_name'"
-      fi
+        for rom_file in "$console_roms_dir"/*; do
+          if [ -f "$rom_file" ]; then
+            # Exclude gamelist.xml and gamelist.xml.md5
+            if [ "$(basename "$rom_file")" != "gamelist.xml" ] && [ "$(basename "$rom_file")" != "gamelist.xml.md5" ]; then
+              rom_name=$(basename "$rom_file")
+              game_name="${rom_name%.*}"
 
-      echo "</gameList>" >> "$gamelist_file"
-    else
-      echo "INFO: gamelist.xml already exists for '$platform_name'. Skipping generation." >> "$log_file"
-    fi
-  done
-}
-
-
-# Iterate through rom files
-for rom_file in "$console_roms_dir"/*; do
-  if [ -f "$rom_file" ]; then
-    # Exclude gamelist.xml and gamelist.xml.md5
-    if [ "$(basename "$rom_file")" != "gamelist.xml" ] && [ "$(basename "$rom_file")" != "gamelist.xml.md5" ]; then
-      rom_name=$(basename "$rom_file")
-      game_name="${rom_name%.*}"
-
-      update_or_add_game "$game_name" "$rom_name" "$console_name" "$platform_name"
-    fi
-  fi
-done
-
+              update_or_add_game "$game_name" "$rom_name" "$platform_name"
+            fi
+          fi
+        done
 
         echo "</gameList>" >> "$gamelist_file"
 
         # Check if MD5 exists and matches, if not, create MD5 checksum for gamelist.xml
         if [ ! -f "$gamelist_file.md5" ] || ! md5sum -c --status "$gamelist_file.md5"; then
-          md5sum "$gamelist_file" | sed "s|/recalbox/share/roms/readystream/$console_name/gamelist.xml| *gamelist.xml|" > "$gamelist_file.md5"
+          md5sum "$gamelist_file" | sed "s|$console_roms_dir/gamelist.xml| *gamelist.xml|" > "$gamelist_file.md5"
           echo "INFO: Gamelist.xml MD5 checksum created: '$gamelist_file.md5'" >> "$log_file"
         else
-          echo "INFO: Gamelist.xml MD5 checksum matches existing checksum for '$console_name'" >> "$log_file"
+          echo "INFO: Gamelist.xml MD5 checksum matches existing checksum for '$platform_name'" >> "$log_file"
         fi
       else
-        echo "INFO: Gamelist.xml already exists for '$console_name'" >> "$log_file"
+        echo "ERROR: Failed to extract platform name for '$platform_name'"
       fi
+    else
+      echo "INFO: gamelist.xml already exists for '$platform_name'. Skipping generation." >> "$log_file"
     fi
   done
 }
