@@ -440,15 +440,15 @@ fi
 
 # Function to install Git from the provided tarball URL
 install_git() {
-  local git_url="https://www.kernel.org/pub/software/scm/git/git-2.45.1.tar.gz"
+  local git_url="https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.9.5.tar.xz"
 
   # Download and extract the Git tarball
   echo "Downloading Git..."
-  wget "$git_url" -O git.tar.gz || { echo "Failed to download Git"; exit 1; }
-  tar -xzf git.tar.gz || { echo "Failed to extract Git"; exit 1; }
+  wget "$git_url" -O git.tar.xz || { echo "Failed to download Git"; exit 1; }
+  tar -xf git.tar.xz || { echo "Failed to extract Git"; exit 1; }
 
   # Enter the extracted directory
-  cd git-2.45.1 || { echo "Failed to enter Git directory"; exit 1; }
+  cd git-2.9.5 || { echo "Failed to enter Git directory"; exit 1; }
 
   # Build and install Git
   echo "Building and installing Git..."
@@ -457,7 +457,7 @@ install_git() {
 
   # Clean up
   cd ..
-  rm -rf git-2.45.1 git.tar.gz
+  rm -rf git-2.9.5 git.tar.xz
 
   echo "Git installation completed successfully!"
 }
@@ -476,6 +476,8 @@ git clone --no-checkout https://github.com/readycade/readysync.git /recalbox/sha
 rm -rf /recalbox/share/.git
 
 echo "Repository cloned into /recalbox/share successfully!"
+
+
 
 
 
