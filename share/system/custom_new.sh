@@ -545,22 +545,22 @@ fi
 
 
 # Function to toggle a platform in the array
-toggle_platform() {
-    local platform_name=$1
-    local action=$2
+#toggle_platform() {
+#    local platform_name=$1
+#    local action=$2
 
-    case $action in
-        "enable")
-            sed -i "/^#roms+=(\"$platform_name;/ s/^#//" "/recalbox/share/userscripts/.config/readystream/platforms.txt"
-            ;;
-        "disable")
-            sed -i "/^roms+=(\"$platform_name;/ s/^/#/" "/recalbox/share/userscripts/.config/readystream/platforms.txt"
-            ;;
-        *)
-            echo "Invalid action. Use 'enable' or 'disable'."
-            ;;
-    esac
-}
+#    case $action in
+#        "enable")
+#            sed -i "/^#roms+=(\"$platform_name;/ s/^#//" "/recalbox/share/userscripts/.config/readystream/platforms.txt"
+#            ;;
+#        "disable")
+#            sed -i "/^roms+=(\"$platform_name;/ s/^/#/" "/recalbox/share/userscripts/.config/readystream/platforms.txt"
+#            ;;
+#        *)
+#            echo "Invalid action. Use 'enable' or 'disable'."
+#            ;;
+#    esac
+#}
 
 # List of platforms and their status (1 for enabled, 0 for disabled)
 platforms=(
@@ -681,23 +681,23 @@ platforms=(
 
 
 # Loop through platforms
-#for platform_info in "${platforms[@]}"; do
-#    platform_name=$(echo "$platform_info" | cut -d ' ' -f 1)
-#    platform_status=$(echo "$platform_info" | cut -d ' ' -f 2)
-#
-#    case $platform_status in
-#        1)
-#            toggle_platform "$platform_name" "enable"
-#            ;;
-#        0)
-#            toggle_platform "$platform_name" "disable"
-#            delete_disabled_platform_directory "$platform_name"
-#            ;;
-#        *)
-#            echo "Invalid status. Use '1' for enable and '0' for disable."
-#            ;;
-#    esac
-#done
+for platform_info in "${platforms[@]}"; do
+    platform_name=$(echo "$platform_info" | cut -d ' ' -f 1)
+    platform_status=$(echo "$platform_info" | cut -d ' ' -f 2)
+
+    case $platform_status in
+        1)
+            toggle_platform "$platform_name" "enable"
+            ;;
+        0)
+            toggle_platform "$platform_name" "disable"
+            delete_disabled_platform_directory "$platform_name"
+            ;;
+        *)
+            echo "Invalid status. Use '1' for enable and '0' for disable."
+            ;;
+    esac
+done
 
 
 # Display menu
