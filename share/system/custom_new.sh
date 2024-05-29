@@ -437,42 +437,29 @@ fi
 
 
 
-# Function to install Git
+
+# Function to install Git from the provided tarball URL
 install_git() {
-  local arch
-  arch=$(uname -m)
+  local git_url="https://www.kernel.org/pub/software/scm/git/git-2.45.1.tar.gz"
 
-  # Determine the appropriate Git binary URL
-  if [ "$arch" == "x86_64" ]; then
-    git_url="https://github.com/git/git/releases/download/v2.35.1/git-2.35.1-linux-x86_64.tar.gz"
-  elif [ "$arch" == "aarch64" ]; then
-    git_url="https://github.com/git/git/releases/download/v2.35.1/git-2.35.1-linux-arm64.tar.gz"
-  else
-    echo "Unsupported architecture: $arch"
-    return 1
-  fi
+  # Download and extract the Git tarball
+  echo "Downloading Git..."
+  wget "$git_url" -O git.tar.gz || { echo "Failed to download Git"; exit 1; }
+  tar -xzf git.tar.gz || { echo "Failed to extract Git"; exit 1; }
 
-  # Create a temporary directory for downloading
-  tmp_dir=$(mktemp -d)
-  cd "$tmp_dir" || { echo "Failed to create temporary directory"; return 1; }
+  # Enter the extracted directory
+  cd git-2.45.1 || { echo "Failed to enter Git directory"; exit 1; }
 
-  # Download and extract the Git binary
-  echo "Downloading Git for $arch..."
-  wget "$git_url" -O git.tar.gz || { echo "Failed to download Git"; return 1; }
-  tar -xzf git.tar.gz || { echo "Failed to extract Git"; return 1; }
-
-  # Find the extracted directory
-  git_dir=$(tar -tzf git.tar.gz | head -1 | cut -f1 -d"/")
-
-  # Install Git binaries into /usr/bin
-  echo "Installing Git into /usr/bin..."
-  sudo cp -r "$git_dir"/* /usr/bin/ || { echo "Failed to install Git"; return 1; }
+  # Build and install Git
+  echo "Building and installing Git..."
+  make prefix=/usr all || { echo "Failed to build Git"; exit 1; }
+  sudo make prefix=/usr install || { echo "Failed to install Git"; exit 1; }
 
   # Clean up
   cd ..
-  rm -rf "$tmp_dir"
+  rm -rf git-2.45.1 git.tar.gz
 
-  echo "Git installation for $arch completed successfully!"
+  echo "Git installation completed successfully!"
 }
 
 # Install Git
@@ -481,20 +468,17 @@ install_git
 # Ensure the target directory exists
 mkdir -p /recalbox/share
 
-# Create a temporary directory for cloning
-tmp_clone_dir=$(mktemp -d)
+# Clone the repository directly into /recalbox/share
+echo "Cloning repository..."
+git clone --no-checkout https://github.com/readycade/readysync.git /recalbox/share || { echo "Failed to clone repository"; exit 1; }
 
-# Clone the repository into the temporary directory
-git clone --depth 1 https://github.com/readycade/readysync.git "$tmp_clone_dir"
-
-# Move the contents from the temporary directory to the target directory
-mv "$tmp_clone_dir"/* /recalbox/share/
-#mv "$tmp_clone_dir"/.??* /recalbox/share/  # To move hidden files like .git
-
-# Clean up
-rm -rf "$tmp_clone_dir"
+# Remove the .git directory to avoid creating a subdirectory
+rm -rf /recalbox/share/.git
 
 echo "Repository cloned into /recalbox/share successfully!"
+
+
+
 
 # Download rclone.conf if it doesn't exist
 if [ ! -e /recalbox/share/userscripts/.config/readystream/rclone.conf ]; then
