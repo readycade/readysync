@@ -229,9 +229,16 @@ for rom_entry in "${roms[@]}"; do
         # Create the source and destination paths for normal files
         #source_path="rsync://rsync.myrient.erista.me/files/$console_directory"
         #source_path="http://myrient.erista.me/files/$console_directory"
-        destination_path="/recalbox/share/roms/readystream/$console_name"
+        #destination_path="/recalbox/share/roms/readystream/$console_name"
 
-        source_path="https://myrient.erista.me/files/"
+        source_path_nointro="https://myrient.erista.me/files/No-Intro/"
+        destination_path_nointro="/recalbox/share/roms/readystream/No-Intro"
+
+        source_path_redump="https://myrient.erista.me/files/Redump/"
+        destination_path_redump="/recalbox/share/roms/readystream/Redump"
+
+        source_path_tosec="https://myrient.erista.me/files/TOSEC/"
+        destination_path_tosec="/recalbox/share/roms/readystream/TOSEC"
 
         # Create the destination directory if it doesn't exist
         mkdir -p "$destination_path"
@@ -247,8 +254,10 @@ for rom_entry in "${roms[@]}"; do
 
         # httpdirfs with caching to mount normal files (got to test this still)
         mkdir -p /recalbox/share/system/.cache/httpdirfs
-        #httpdirfs -d -o debug --cache -o --cache-location /recalbox/share/system/.cache/httpdirfs "$source_path/" "$destination_path/"
-        httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs -o nonempty "$source_path" "$destination_path/"
+        httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs -o nonempty "$source_path_nointro" "$destination_path_nointro"
+        httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs -o nonempty "$source_path_redump" "$destination_path_redump"
+        httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs -o nonempty "$source_path_tosec" "$destination_path_tosec"
+
         #httpdirfs --cache --no-range-check --debug --cache-location  /recalbox/share/system/.cache/httpdirfs "http://myrient.erista.me/files/" "/recalbox/share/roms/readystream/"
     fi
 done
