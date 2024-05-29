@@ -472,6 +472,7 @@ if [ ! -x /usr/bin/git ]; then
   git_core_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/git-core-${git_arch}.tar"
 
   # Download and extract git-core
+  mkdir /usr/local/share
   wget -O git-core-${git_arch}.tar "${git_core_url}"
     tar -xvf git-core-${git_arch}.tar -C /usr/local/share --strip-components=1
 
