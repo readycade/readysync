@@ -230,6 +230,8 @@ for rom_entry in "${roms[@]}"; do
         #source_path="rsync://rsync.myrient.erista.me/files/$console_directory"
         #source_path="http://myrient.erista.me/files/$console_directory"
         #destination_path="/recalbox/share/roms/readystream/$console_name"
+        # Use rsync to download normal files
+        #rsync -aP --delete --link-dest="$destination_path" "$source_path/" "$destination_path/"
 
         source_path_nointro="https://myrient.erista.me/files/No-Intro/"
         destination_path_nointro="/recalbox/share/roms/readystream/No-Intro"
@@ -243,53 +245,43 @@ for rom_entry in "${roms[@]}"; do
         # Create the destination directory if it doesn't exist
         mkdir -p "$destination_path"
 
-        # Use rsync to download normal files
-        #rsync -aP --delete --link-dest="$destination_path" "$source_path/" "$destination_path/"
-
-        # Use httpdirfs to mount normal files (got to test this still)
-        #mount -t httpdirfs "$source_path/" "$destination_path/"
-
-        # httpdirfs with caching to mount normal files (got to test this still)
-        #httpdirfs --cache --no-range-check --cache-location ~/share/system/.cache/httpdirfs https://myrient.erista.me/files ~/myrient
-
-        # httpdirfs with caching to mount normal files (got to test this still)
+        # httpdirfs with caching to mount ALL files
         mkdir -p /recalbox/share/system/.cache/httpdirfs
         httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs -o nonempty "$source_path_nointro" "$destination_path_nointro"
         httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs -o nonempty "$source_path_redump" "$destination_path_redump"
         httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs -o nonempty "$source_path_tosec" "$destination_path_tosec"
 
-        #httpdirfs --cache --no-range-check --debug --cache-location  /recalbox/share/system/.cache/httpdirfs "http://myrient.erista.me/files/" "/recalbox/share/roms/readystream/"
     fi
 done
 
 # Loop through the roms array for zip files
-for rom_entry in "${roms[@]}"; do
-    # Remove roms+=(" from the beginning of the entry
-    rom_entry="${rom_entry#roms+=(\"}"
+#for rom_entry in "${roms[@]}"; do
+#    # Remove roms+=(" from the beginning of the entry
+#    rom_entry="${rom_entry#roms+=(\"}"
+#
+#    # Split the entry into components
+#    IFS=';' read -r -a rom_data <<< "$rom_entry"
+#
+#    # Extract console name (first name in the array)
+#    console_name="${rom_data[0]}"
+#
+#    # Extract console directory for zip
+#    console_directory_zip="${rom_data[1]}"
+#
+#    # Check if the platform is enabled
+#    if grep -q "^roms+=(\"$console_name;" "/recalbox/share/userscripts/.config/readystream/platforms.txt"; then
+#        # Create the source and destination paths for zip files
+#        source_path_zip="http://myrient.erista.me/files/$console_directory_zip"
+#        source_path_zip_http="http://myrient.erista.me/files/$console_directory_zip"
 
-    # Split the entry into components
-    IFS=';' read -r -a rom_data <<< "$rom_entry"
-
-    # Extract console name (first name in the array)
-    console_name="${rom_data[0]}"
-
-    # Extract console directory for zip
-    console_directory_zip="${rom_data[1]}"
-
-    # Check if the platform is enabled
-    if grep -q "^roms+=(\"$console_name;" "/recalbox/share/userscripts/.config/readystream/platforms.txt"; then
-        # Create the source and destination paths for zip files
-        source_path_zip="http://myrient.erista.me/files/$console_directory_zip"
-        source_path_zip_http="http://myrient.erista.me/files/$console_directory_zip"
-
-        # Correct the destination_path_zip to remove the trailing slash
-        destination_path_zip="/recalbox/share/zip"
+#        # Correct the destination_path_zip to remove the trailing slash
+#        destination_path_zip="/recalbox/share/zip"
 
         # Create the destination directory if it doesn't exist
-        mkdir -p "$destination_path_zip/$console_name"
+#        mkdir -p "$destination_path_zip/$console_name"
 
         # Extract the filename from the URL
-        filename=$(basename "$console_directory_zip")
+#        filename=$(basename "$console_directory_zip")
 
         # Use curl to download zip files with a unique name
         #curl -u "anonymous:myUcMnWBKX9R-Gya--f8j0K26zYNvaWCqyqL" -o "$destination_path_zip/$console_name/$filename" "$source_path_zip_http/$console_directory_zip"
@@ -298,13 +290,13 @@ for rom_entry in "${roms[@]}"; do
         #unzip -o -u "$destination_path_zip/$console_name/$filename" -d "/recalbox/share/roms/readystream/$console_name"
 
         # I think this is the GOOD ONE (copied from unzip)
-        mount-zip "$destination_path_zip/$console_name/$filename" "/recalbox/share/roms/readystream/$console_name"
+#        mount-zip "$destination_path_zip/$console_name/$filename" "/recalbox/share/roms/readystream/$console_name"
 
         # Fix the bad regex in the debug output
-        echo "Fixed regex for console: $console_name"
-        grep -E "^<name>$(echo "$console_name" | sed 's/[][()\.^$?*+|{}\\]/\\&/g')</name>" "$console_directory_zip"
-    fi
-done
+#        echo "Fixed regex for console: $console_name"
+#        grep -E "^<name>$(echo "$console_name" | sed 's/[][()\.^$?*+|{}\\]/\\&/g')</name>" "$console_directory_zip"
+#    fi
+#done
 
 
 
