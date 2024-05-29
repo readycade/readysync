@@ -228,8 +228,10 @@ for rom_entry in "${roms[@]}"; do
     if grep -q "^roms+=(\"$console_name;" "/recalbox/share/userscripts/.config/readystream/platforms.txt"; then
         # Create the source and destination paths for normal files
         #source_path="rsync://rsync.myrient.erista.me/files/$console_directory"
-        source_path="http://myrient.erista.me/files/$console_directory"
+        #source_path="http://myrient.erista.me/files/$console_directory"
         destination_path="/recalbox/share/roms/readystream/$console_name"
+
+        source_path="https://myrient.erista.me/files/"
 
         # Create the destination directory if it doesn't exist
         mkdir -p "$destination_path"
@@ -245,7 +247,8 @@ for rom_entry in "${roms[@]}"; do
 
         # httpdirfs with caching to mount normal files (got to test this still)
         mkdir -p /recalbox/share/system/.cache/httpdirfs
-        httpdirfs -d -o --cache --cache-location /recalbox/share/system/.cache/httpdirfs "$source_path/" "$destination_path/"
+        #httpdirfs -d -o debug --cache -o --cache-location /recalbox/share/system/.cache/httpdirfs "$source_path/" "$destination_path/"
+        httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs -o nonempty "$source_path" "$destination_path/"
         #httpdirfs --cache --no-range-check --debug --cache-location  /recalbox/share/system/.cache/httpdirfs "http://myrient.erista.me/files/" "/recalbox/share/roms/readystream/"
     fi
 done
