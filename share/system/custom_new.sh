@@ -458,7 +458,7 @@ fi
 
 # Function to clone the repository if not already cloned
 clone_repository() {
-    local cache_dir="/recalbox/share/system/.cache"
+    local cache_dir="/recalbox/share/system/.cache/readysync"
     local target_dir="/recalbox/share"
     local flag_file="$cache_dir/.cloned"
 
