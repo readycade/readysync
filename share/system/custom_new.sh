@@ -247,8 +247,11 @@ for rom_entry in "${roms[@]}"; do
 
         # httpdirfs with caching to mount ALL files
         mkdir -p /recalbox/share/system/.cache/httpdirfs
+        mkdir -p /recalbox/share/roms/readystream/No-Intro
         httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs -o nonempty "$source_path_nointro" "$destination_path_nointro"
+        mkdir -p /recalbox/share/roms/readystream/Redump
         httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs -o nonempty "$source_path_redump" "$destination_path_redump"
+        mkdir -p /recalbox/share/roms/readystream/TOSEC
         httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs -o nonempty "$source_path_tosec" "$destination_path_tosec"
 
     fi
