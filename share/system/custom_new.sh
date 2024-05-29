@@ -711,7 +711,7 @@ echo "2. Offline Mode"
 
 # Capture input with timeout
 timeout_seconds=5
-read -t "$timeout_seconds" -r input || mode_choice="1"
+read -t "$timeout_seconds" -r input || mode_choice="2"
 
 # Determine the mode based on user input or timeout
 case "$mode_choice" in
