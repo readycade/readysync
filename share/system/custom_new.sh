@@ -49,6 +49,7 @@ update_or_add_game() {
     local game_name="$1"
     local rom_name="$2"
     local console_name="$3"
+    local console_directory=""
     local gamelist_file="/recalbox/share/roms/readystream/$console_name/gamelist.xml"
 
     local platform_name=$(grep -w "$console_name" "$platforms_file" | cut -d';' -f3 | sed 's/^<p>//;s/<\/p>$//')
@@ -75,33 +76,51 @@ update_or_add_game() {
     fi
 }
 
+
 # Function to generate gamelist.xml
 generate_gamelist_xml() {
   local online_dir="$1"
   local platforms_file="/recalbox/share/userscripts/.config/readystream/platforms.txt"
 
-  for console_name_dir in "$online_dir"/*; do
-    if [ -d "$console_name_dir" ]; then
-      console_name=$(sanitize_dir_name "$(basename "$console_name_dir")")
-echo "DEBUG: Console name extracted: '$console_name'" >> "$log_file"
+  # Extract platform names from commented lines in platforms.txt
+  local selected_platforms=$(grep '^#roms+=' "$platforms_file" | awk -F";" '{print $1}' | cut -d"(" -f2 | tr -d ')')
 
-      local console_roms_dir="/recalbox/share/roms/readystream/$console_name"
-echo "DEBUG: Console ROMs directory: '$console_roms_dir'" >> "$log_file"
+  for platform_name in $selected_platforms; do
+    console_roms_dir="/recalbox/share/roms/readystream/$platform_name"
+    echo "DEBUG: Console ROMs directory: '$console_roms_dir'" >> "$log_file"
 
-      local gamelist_file="$console_roms_dir/gamelist.xml"
+    gamelist_file="$console_roms_dir/gamelist.xml"
 
-      local log_file="/recalbox/share/roms/readystream/gamelist.log"  # Replace with the actual path to your log file
+    log_file="/recalbox/share/roms/readystream/gamelist.log"  # Replace with the actual path to your log file
 
-      # Check if gamelist.xml already exists
-      if [ ! -f "$gamelist_file" ]; then
-        echo "INFO: Generating gamelist.xml for '$console_name'" >> "$log_file"
+    # Check if gamelist.xml already exists
+    if [ ! -f "$gamelist_file" ]; then
+      echo "INFO: Generating gamelist.xml for '$platform_name'" >> "$log_file"
 
-        # Create gamelist.xml
-        echo "<?xml version=\"1.0\"?>" > "$gamelist_file"
-        echo "<gameList>" >> "$gamelist_file"
+      # Create gamelist.xml
+      echo "<?xml version=\"1.0\"?>" > "$gamelist_file"
+      echo "<gameList>" >> "$gamelist_file"
 
-        # Get the platform name from platforms.txt
-        platform_name=$(grep "^$console_name;" "$platforms_file" | cut -d';' -f4)
+      # Get the platform name from platforms.txt
+      platform_name=$(grep "^$platform_name;" "$platforms_file" | cut -d';' -f4)
+
+      if [ -n "$platform_name" ]; then
+        # Iterate over roms for this platform and update/add games
+        # Example:
+        # for rom_file in "$console_roms_dir"/*; do
+        #   update_or_add_game "$rom_file"
+        # done
+      else
+        echo "ERROR: Failed to extract platform name for '$platform_name'"
+      fi
+
+      echo "</gameList>" >> "$gamelist_file"
+    else
+      echo "INFO: gamelist.xml already exists for '$platform_name'. Skipping generation." >> "$log_file"
+    fi
+  done
+}
+
 
 # Iterate through rom files
 for rom_file in "$console_roms_dir"/*; do
@@ -241,13 +260,12 @@ for rom_entry in "${roms[@]}"; do
 
         # httpdirfs with caching to mount ALL files
         mkdir -p /recalbox/share/system/.cache/httpdirfs
-        httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs -o nonempty "$source_path" "$destination_path
+        httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs -o nonempty "$source_path" "$destination_path"
     fi
 done
 
-    # Loop through the roms array for zip files
+# Loop through the roms array for zip files
 for rom_entry in "${roms[@]}"; do
-    
     # Remove roms+=(" from the beginning of the entry
     rom_entry="${rom_entry#roms+=(\"}"
 
@@ -263,8 +281,8 @@ for rom_entry in "${roms[@]}"; do
     # Check if the platform is enabled
     if grep -q "^roms+=(\"$console_name;" "/recalbox/share/userscripts/.config/readystream/platforms.txt"; then
         # Create the source and destination paths for zip files
-        source_path_zip="http://myrient.erista.me/files/$console_directory_zip"
-        source_path_zip_http="http://myrient.erista.me/files/$console_directory_zip"
+        source_path_zip="rsync://rsync.myrient.erista.me/files/$console_directory_zip"
+        source_path_zip_http="ftp://ftp.myrient.erista.me/files/$console_directory_zip"
 
         # Correct the destination_path_zip to remove the trailing slash
         destination_path_zip="/recalbox/share/zip"
@@ -288,11 +306,7 @@ for rom_entry in "${roms[@]}"; do
         echo "Fixed regex for console: $console_name"
         grep -E "^<name>$(echo "$console_name" | sed 's/[][()\.^$?*+|{}\\]/\\&/g')</name>" "$console_directory_zip"
     fi
-done
-
-
-
-
+done 
 
 }
 
@@ -528,21 +542,21 @@ delete_disabled_platform_directory() {
   local zip_directory="/recalbox/share/zip/$platform_name"
 
   # Delete ROMs directory
-#  if [ -d "$roms_directory" ]; then
-#    echo "Deleting ROMs directory for disabled platform: $platform_name"
-#    rm -rf "$roms_directory"
-#  else
-#    echo "ROMs directory for disabled platform does not exist: $roms_directory"
-#  fi
+  if [ -d "$roms_directory" ]; then
+    echo "Deleting ROMs directory for disabled platform: $platform_name"
+    rm -rf "$roms_directory"
+  else
+    echo "ROMs directory for disabled platform does not exist: $roms_directory"
+  fi
 
-#  # Delete ZIP directory
-#  if [ -d "$zip_directory" ]; then
-#    echo "Deleting ZIP directory for disabled platform: $platform_name"
-#    rm -rf "$zip_directory"
-#  else
-#    echo "ZIP directory for disabled platform does not exist: $zip_directory"
-#  fi
-#}
+  # Delete ZIP directory
+  if [ -d "$zip_directory" ]; then
+    echo "Deleting ZIP directory for disabled platform: $platform_name"
+    rm -rf "$zip_directory"
+  else
+    echo "ZIP directory for disabled platform does not exist: $zip_directory"
+  fi
+}
 
 
 # Function to toggle a platform in the array
@@ -566,7 +580,7 @@ toggle_platform() {
 # List of platforms and their status (1 for enabled, 0 for disabled)
 platforms=(
     # No-Intro Romsets
-    "arduboy 0"
+    "arduboy 1"
     "atari2600 0"
     "atari5200 0"
     "atari7800 0"
