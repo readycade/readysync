@@ -533,27 +533,27 @@ else
     echo "Directory /recalbox/share/zip already exists. No need to create."
 fi
 
-delete_disabled_platform_directory() {
-  local platform_name="$1"
-  local roms_directory="/recalbox/share/roms/readystream/$platform_name"
-  local zip_directory="/recalbox/share/zip/$platform_name"
+#delete_disabled_platform_directory() {
+#  local platform_name="$1"
+#  local roms_directory="/recalbox/share/roms/readystream/$platform_name"
+#  local zip_directory="/recalbox/share/zip/$platform_name"
 
   # Delete ROMs directory
-  if [ -d "$roms_directory" ]; then
-    echo "Deleting ROMs directory for disabled platform: $platform_name"
-    rm -rf "$roms_directory"
-  else
-    echo "ROMs directory for disabled platform does not exist: $roms_directory"
-  fi
+#  if [ -d "$roms_directory" ]; then
+#    echo "Deleting ROMs directory for disabled platform: $platform_name"
+#    rm -rf "$roms_directory"
+#  else
+#    echo "ROMs directory for disabled platform does not exist: $roms_directory"
+#  fi
 
-  # Delete ZIP directory
-  if [ -d "$zip_directory" ]; then
-    echo "Deleting ZIP directory for disabled platform: $platform_name"
-    rm -rf "$zip_directory"
-  else
-    echo "ZIP directory for disabled platform does not exist: $zip_directory"
-  fi
-}
+#  # Delete ZIP directory
+#  if [ -d "$zip_directory" ]; then
+#    echo "Deleting ZIP directory for disabled platform: $platform_name"
+#    rm -rf "$zip_directory"
+#  else
+#    echo "ZIP directory for disabled platform does not exist: $zip_directory"
+#  fi
+#}
 
 
 # Function to toggle a platform in the array
@@ -693,23 +693,23 @@ platforms=(
 
 
 # Loop through platforms
-for platform_info in "${platforms[@]}"; do
-    platform_name=$(echo "$platform_info" | cut -d ' ' -f 1)
-    platform_status=$(echo "$platform_info" | cut -d ' ' -f 2)
-
-    case $platform_status in
-        1)
-            toggle_platform "$platform_name" "enable"
-            ;;
-        0)
-            toggle_platform "$platform_name" "disable"
-            delete_disabled_platform_directory "$platform_name"
-            ;;
-        *)
-            echo "Invalid status. Use '1' for enable and '0' for disable."
-            ;;
-    esac
-done
+#for platform_info in "${platforms[@]}"; do
+#    platform_name=$(echo "$platform_info" | cut -d ' ' -f 1)
+#    platform_status=$(echo "$platform_info" | cut -d ' ' -f 2)
+#
+#    case $platform_status in
+#        1)
+#            toggle_platform "$platform_name" "enable"
+#            ;;
+#        0)
+#            toggle_platform "$platform_name" "disable"
+#            delete_disabled_platform_directory "$platform_name"
+#            ;;
+#        *)
+#            echo "Invalid status. Use '1' for enable and '0' for disable."
+#            ;;
+#    esac
+#done
 
 
 # Display menu
