@@ -26,155 +26,142 @@ sanitize_dir_name() {
 
 
 # Function to check if a game already exists in the gamelist.xml
+#game_exists() {
+#  local game_name="$1"
+#  local gamelist_file="$2"
+
+#  if grep -q "<name>$game_name</name>" "$gamelist_file"; then
+#    echo "DEBUG: Game '$game_name' exists in '$gamelist_file'" >> "$log_file"
+#    return 0  # Game exists
+#  else
+#    echo "DEBUG: Game '$game_name' does not exist in '$gamelist_file'" >> "$log_file"
+#    return 1  # Game does not exist
+#  fi
+#}
+
+# Function to escape special characters for XML
+#xml_escape() {
+#  echo "$1" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'\''/\&apos;/g'
+#}
+
+
+# Function to escape XML special characters
+xml_escape() {
+  echo "$1" | sed 's/&/\&amp;/g; s/</\</g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&apos;/g'
+}
+
+
+
+# Function to check if a game already exists in the gamelist.xml
 game_exists() {
   local game_name="$1"
   local gamelist_file="$2"
+  grep -q "<name>$(xml_escape "$game_name")</name>" "$gamelist_file"
+}
 
-  if grep -q "<name>$game_name</name>" "$gamelist_file"; then
-    echo "DEBUG: Game '$game_name' exists in '$gamelist_file'" >> "$log_file"
-    return 0  # Game exists
+
+
+# Function to validate the existing gamelist.xml file
+validate_gamelist() {
+  local gamelist_file="$1"
+    # Check if the file is non-empty and has at least one <game> entry
+  if [ -s "$gamelist_file" ] && grep -q "<game>" "$gamelist_file"; then
+    return 0
   else
-    echo "DEBUG: Game '$game_name' does not exist in '$gamelist_file'" >> "$log_file"
-    return 1  # Game does not exist
+    return 1
   fi
 }
 
-# Function to escape special characters for XML
-xml_escape() {
-  echo "$1" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'\''/\&apos;/g'
-}
+
 
 # Function to update or add a game to the gamelist.xml
 update_or_add_game() {
-    local game_name="$1"
-    local rom_name="$2"
-    local console_name="$3"
-    local console_directory=""
-    local gamelist_file="/recalbox/share/roms/readystream/$console_name/gamelist.xml"
+  local game_name="$1"
+  local rom_name="$2"
+  local console_name="$3"
+  local console_directory="$4"
+  local gamelist_file="$console_directory/gamelist.xml"
 
-    local platform_name=$(grep -w "$console_name" "$platforms_file" | cut -d';' -f3 | sed 's/^<p>//;s/<\/p>$//')
-
-    if [ -n "$platform_name" ]; then
-        if game_exists "$game_name" "$gamelist_file"; then
-            # Update existing game entry
-            echo "DEBUG: Updating existing entry for '$game_name' in '$gamelist_file'" >> "$log_file"
-            sed -i "s|<name>$game_name</name>|<name>$(xml_escape "$game_name")</name>|g" "$gamelist_file"
-            sed -i "s|<path>./$rom_name</path>|<path>./$(xml_escape "$rom_name")</path>|g" "$gamelist_file"
-            sed -i "s|<video>./media/videos/$game_name.mp4</video>|<video>./media/videos/$(xml_escape "$game_name").mp4</video>|g" "$gamelist_file"
-        else
-            # Add new game entry
-            echo "DEBUG: Adding new entry for '$game_name' in '$gamelist_file'" >> "$log_file"
-            echo "  <game>" >> "$gamelist_file"
-            echo "    <path>./$(xml_escape "$rom_name")</path>" >> "$gamelist_file"
-            echo "    <name>$(xml_escape "$game_name")</name>" >> "$gamelist_file"
-            echo "    <video>./media/videos/$(xml_escape "$game_name").mp4</video>" >> "$gamelist_file"
-            echo "    <image>/recalbox/share/thumbs/$platform_name/Named_Titles/$(xml_escape "$game_name").png</image>" | sed 's#//#/#g' >> "$gamelist_file"
-            echo "  </game>" >> "$gamelist_file"
-        fi
+  if [ -n "$console_name" ]; then
+    if game_exists "$game_name"  "$gamelist_file"; then
+         # Update existing game entry
+      echo "DEBUG: Updating existing entry for '$game_name' in '$gamelist_file'" >> "$log_file"
+      sed -i "s|<name>$game_name</name>|<name>$(xml_escape "$game_name")</name>|g" "$gamelist_file"
+      sed -i "s|<path>.*$rom_name.*|<path>/recalbox/share/rom/No-Intro/$(xml_escape "$rom_name")</path>|g" "$gamelist_file"
+      sed -i "s|<video>.*$game_name.*.mp4.*|<video>/share/videos/$console_name/$(xml_escape "$game_name").mp4</video>|g" "$gamelist_file"
     else
-        echo "ERROR: Failed to extract platform name for '$console_name'"
+         # Add new game entry
+      echo "DEBUG: Adding new entry for '$game_name' in '$gamelist_file'" >> "$log_file"
+      echo "    <game>"  >> "$gamelist_file"
+      echo "      <path>/recalbox/share/rom/No-Intro/$(xml_escape "$rom_name")</path>"  >> "$gamelist_file"
+      echo "      <name>$(xml_escape "$game_name")</name>"  >> "$gamelist_file"
+      echo "      <video>/share/videos/$console_name/$(xml_escape "$game_name").mp4</video>"  >> "$gamelist_file"
+      echo "      <image>/share/thumbs/$console_name/Named_Titles/$(xml_escape "$game_name").png</image>"  >> "$gamelist_file"
+      echo "    </game>"  >> "$gamelist_file"
     fi
-}
-
-# Function to generate gamelist.xml
-generate_gamelist_xml() {
-  local online_dir="$1"
-  local platforms_file="/recalbox/share/userscripts/.config/readystream/platforms.txt"
-
-  # Extract platform names from commented lines in platforms.txt
-  local selected_platforms=$(grep '^#roms+=' "$platforms_file" | awk -F";" '{print $1}' | cut -d"(" -f2 | tr -d ')')
-
-  for platform_name in $selected_platforms; do
-    console_roms_dir="/recalbox/share/roms/readystream/$platform_name"
-    echo "DEBUG: Console ROMs directory: '$console_roms_dir'" >> "$log_file"
-
-    gamelist_file="$console_roms_dir/gamelist.xml"
-
-    log_file="/recalbox/share/roms/readystream/gamelist.log"  # Replace with the actual path to your log file
-
-    # Check if gamelist.xml already exists
-    if [ ! -f "$gamelist_file" ]; then
-      echo "INFO: Generating gamelist.xml for '$platform_name'" >> "$log_file"
-
-      # Create gamelist.xml
-      echo "<?xml version=\"1.0\"?>" > "$gamelist_file"
-      echo "<gameList>" >> "$gamelist_file"
-
-      # Get the platform name from platforms.txt
-      platform_name=$(grep "^$platform_name;" "$platforms_file" | cut -d';' -f4)
-
-      if [ -n "$platform_name" ]; then
-        # Iterate over roms for this platform and update/add games
-        for rom_file in "$console_roms_dir"/*; do
-          if [ -f "$rom_file" ]; then
-            # Exclude gamelist.xml and gamelist.xml.md5
-            if [ "$(basename "$rom_file")" != "gamelist.xml" ] && [ "$(basename "$rom_file")" != "gamelist.xml.md5" ]; then
-              rom_name=$(basename "$rom_file")
-              game_name="${rom_name%.*}"
-
-              update_or_add_game "$game_name" "$rom_name" "$platform_name"
-            fi
-          fi
-        done
-
-        echo "</gameList>" >> "$gamelist_file"
-
-        # Check if MD5 exists and matches, if not, create MD5 checksum for gamelist.xml
-        if [ ! -f "$gamelist_file.md5" ] || ! md5sum -c --status "$gamelist_file.md5"; then
-          md5sum "$gamelist_file" | sed "s|$console_roms_dir/gamelist.xml| *gamelist.xml|" > "$gamelist_file.md5"
-          echo "INFO: Gamelist.xml MD5 checksum created: '$gamelist_file.md5'" >> "$log_file"
-        else
-          echo "INFO: Gamelist.xml MD5 checksum matches existing checksum for '$platform_name'" >> "$log_file"
-        fi
-      else
-        echo "ERROR: Failed to extract platform name for '$platform_name'"
-      fi
-    else
-      echo "INFO: gamelist.xml already exists for '$platform_name'. Skipping generation." >> "$log_file"
-    fi
-  done
-}
-
-
-# Call the function with the online directory as an argument
-generate_gamelist_xml "/recalbox/share/roms/readystream"
-
-# Function to create console directory
-create_console_directory() {
-  local console_name="$1"
-  console_name="${console_name//\/}"  # This removes trailing slashes
-  mkdir -p "/recalbox/share/userscripts/.config/readystream/roms/$console_name"
-  mkdir -p "/recalbox/share/roms/readystream/$console_name"
-}
-
-# Extract console names from platforms.txt using awk
-console_names=$(awk -F';' '/^roms\+=/{gsub(/roms\+=\("/, ""); gsub(/".*/, ""); print $1}' /recalbox/share/userscripts/.config/readystream/platforms.txt)
-
-# Display extracted console names for debugging
-echo "Console names extracted from platforms.txt: '$console_names'"
-
-# Loop through extracted console names and create directories
-IFS=$'\n'  # Set Internal Field Separator to newline to handle multiple console names
-for console_name in $console_names; do
-  # Use the extracted console name to create the console directory
-  create_console_directory "$console_name"
-
-  # Set source and destination directories
-  source_dir="/recalbox/share/userscripts/.config/readystream/roms/$console_name"
-  dest_dir="/recalbox/share/roms/readystream/$console_name"
-
-  # Display source directory for debugging
-  echo "Source directory: '$source_dir'"
-
-  # Check if source directory exists
-  if [ -d "$source_dir" ]; then
-    # Copy everything from source_dir to dest_dir without overwriting existing files
-    cp -n "$source_dir"/* "$dest_dir/"
-    echo "Copy completed successfully for '$console_name'."
   else
-    echo "Source directory does not exist for '$console_name': $source_dir"
+    echo "ERROR: Failed to extract platform name for '$console_name'" >> "$log_file"
   fi
-done
+}
+
+
+
+# Function to generate or update gamelist.xml files
+generate_gamelist_xml() {
+  local platforms_file="/recalbox/share/userscripts/.config/readystream/platforms.txt"
+  local output_base_dir="/recalbox/share/roms/readystream"
+
+     # Check if the platforms.txt file exists
+  if [ ! -f "$platforms_file" ]; then
+    echo "ERROR: platforms.txt file not found at '$platforms_file'" >> "$log_file"
+    return 1
+  fi
+
+     # Loop through each line in the platforms.txt file
+  while IFS= read -r line; do
+       # Extract console name, ROM directory, and platform name
+    console_name=$(echo "$line" | awk -F ';' '{print $1}' | sed 's/roms+=("//' | sed 's/"//g')
+    if [[ "$console_name" == "#"* ]]; then
+      continue
+    fi
+    
+    console_rom_directory=$(echo "$line" | cut -d';' -f2)
+    echo "Console names extracted from platforms.txt: '$console_name'" >> "$log_file"
+
+       # Determine the output directory for the gamelist.xml file
+    output_dir="$output_base_dir/$console_name"
+    echo "DEBUG: Console ROMs directory: '$output_dir'" >> "$log_file"
+
+     # Generate or update the gamelist.xml file
+     gamelist_file="$output_dir/gamelist.xml"
+    if [ ! -f "$gamelist_file" ]; then
+      echo "INFO: Generating gamelist.xml for '$console_name'" >> "$log_file"
+      mkdir -p "$output_dir" >> "$log_file" 2>&1
+      echo "<?xml version=\"1.0\"?><gameList>" > "$gamelist_file"
+    else
+       # Check the file size of the gamelist.xml file before updating it
+      filesize=$(du -b "$gamelist_file" | awk '{print $1}')
+      if [ "$filesize" -ge 4096 ]; then
+        echo "INFO: Skipping update for '$console_name' as the gamelist.xml exceeds the size threshold (4KB)" >> "$log_file"
+        continue
+      else
+        echo "INFO: Updating existing gamelist.xml for '$console_name'" >> "$log_file"
+      fi
+    fi
+
+     # Close the gameList tag if it was opened
+    echo "</gameList>" >> "$gamelist_file"
+
+       # Create an MD5 checksum for the gamelist.xml file
+     md5sum --status -c "$gamelist_file" > /dev/null 2>&1
+    if [ $? -ne 0 ]; then
+      md5sum "$gamelist_file" > "$gamelist_file.md5" >> "$log_file" 2>&1
+      echo "INFO: Gamelist.xml MD5 checksum created: '$gamelist_file.md5'" >> "$log_file"
+    fi
+  done < "$platforms_file"
+}
+
+
 
 # Function to perform actions specific to Online Mode
 online_mode() {
@@ -236,7 +223,7 @@ for rom_entry in "${roms[@]}"; do
         #rsync -aP --delete --link-dest="$destination_path" "$source_path/" "$destination_path/"
 
         source_path="https://myrient.erista.me/files/"
-        destination_path="/recalbox/share/roms/readystream/"
+        destination_path="/recalbox/share/rom/"
 
         # Create the destination directory if it doesn't exist
         mkdir -p "$destination_path"
@@ -244,8 +231,17 @@ for rom_entry in "${roms[@]}"; do
         # httpdirfs with caching to mount ALL files
         mkdir -p /recalbox/share/system/.cache/httpdirfs
         httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs -o nonempty "$source_path" "$destination_path"
+
+        sleep 5
+        # Call the function to generate or update gamelist.xml files
+        generate_gamelist_xml
+
     fi
+
+
+
 done
+
 
 # Loop through the roms array for zip files
 for rom_entry in "${roms[@]}"; do
@@ -283,7 +279,7 @@ for rom_entry in "${roms[@]}"; do
         #unzip -o -u "$destination_path_zip/$console_name/$filename" -d "/recalbox/share/roms/readystream/$console_name"
 
         # I think this is the GOOD ONE (copied from unzip)
-        mount-zip "$destination_path_zip/$console_name/$filename" "/recalbox/share/roms/readystream/$console_name"
+        #mount-zip "$destination_path_zip/$console_name/$filename" "/recalbox/share/roms/readystream/$console_name"
 
         # Fix the bad regex in the debug output
         echo "Fixed regex for console: $console_name"
@@ -292,6 +288,45 @@ for rom_entry in "${roms[@]}"; do
 done 
 
 }
+
+# Function to create console directory
+create_console_directory() {
+  local console_name="$1"
+  console_name="${console_name//\/}"  # This removes trailing slashes
+  mkdir -p "/recalbox/share/userscripts/.config/readystream/roms/$console_name"
+  mkdir -p "/recalbox/share/roms/readystream/$console_name"
+
+}
+
+# Extract console names from platforms.txt using awk
+console_names=$(awk -F';' '/^roms\+=/{gsub(/roms\+=\("/, ""); gsub(/".*/, ""); print $1}' /recalbox/share/userscripts/.config/readystream/platforms.txt)
+
+# Display extracted console names for debugging
+echo "Console names extracted from platforms.txt: '$console_names'"
+
+# Loop through extracted console names and create directories
+IFS=$'\n'  # Set Internal Field Separator to newline to handle multiple console names
+for console_name in $console_names; do
+  # Use the extracted console name to create the console directory
+  create_console_directory "$console_name"
+
+  # Set source and destination directories
+  #source_dir="/recalbox/share/userscripts/.config/readystream/roms/$console_name"
+  #dest_dir="/recalbox/share/roms/readystream/$console_name"
+
+  # Display source directory for debugging
+  #echo "Source directory: '$source_dir'"
+
+  # Check if source directory exists
+#  if [ -d "$source_dir" ]; then
+    # Copy everything from source_dir to dest_dir without overwriting existing files
+#    cp -n "$source_dir"/* "$dest_dir/"
+#    echo "Copy completed successfully for '$console_name'."
+#  else
+#    echo "Source directory does not exist for '$console_name': $source_dir"
+#  fi
+
+done
 
 # Function to perform actions specific to Offline Mode
 offline_mode() {
@@ -475,13 +510,13 @@ else
 fi
 
 # Check if /recalbox/share/userscripts/.config/readystream/roms is empty
-if [ -z "$(ls -A /recalbox/share/userscripts/.config/readystream/roms)" ]; then
-    echo "Downloading gamelist.xml and checksums for ALL Consoles..."
-    wget --recursive --no-parent -P /recalbox/share/userscripts/.config/readystream/roms https://github.com/readycade/readysync/tree/master/share/userscripts/.config/readystream/roms
-    echo "gamelist.xml and checksums downloaded successfully."
-else
-    echo "gamelist.xml and checksums directory is not empty. No need to download."
-fi
+#if [ -z "$(ls -A /recalbox/share/userscripts/.config/readystream/roms)" ]; then
+#    echo "Downloading gamelist.xml and checksums for ALL Consoles..."
+#    wget --recursive --no-parent -P /recalbox/share/userscripts/.config/readystream/roms https://github.com/readycade/readysync/tree/master/share/userscripts/.config/readystream/roms
+#    echo "gamelist.xml and checksums downloaded successfully."
+#else
+#    echo "gamelist.xml and checksums directory is not empty. No need to download."
+#fi
 
 # If directories don't exist, create them
 if [ ! -d /recalbox/share/roms/readystream ]; then
@@ -564,10 +599,10 @@ toggle_platform() {
 platforms=(
     # No-Intro Romsets
     "arduboy 1"
-    "atari2600 0"
-    "atari5200 0"
-    "atari7800 0"
-    "atarist 0"
+    "atari2600 1"
+    "atari5200 1"
+    "atari7800 1"
+    "atarist 1"
     "jaguar 0"
     "lynx 0"
     "wswan 0"
