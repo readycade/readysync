@@ -296,6 +296,51 @@ else
     echo "rclone3.conf already exists in /recalbox/share/system/. No need to copy."
 fi
 
+# Download rclone4.conf if it doesn't exist
+if [ ! -e /recalbox/share/userscripts/.config/readystream/rclone4.conf ]; then
+    mkdir -p /recalbox/share/userscripts/.config/readystream
+    wget -O /recalbox/share/userscripts/.config/readystream/rclone4.conf https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclone4.conf
+    echo "rclone4.conf downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
+fi
+
+# Copy rclone4.conf to /recalbox/share/system/ if it doesn't exist there
+if [ ! -e /recalbox/share/system/rclone4.conf ]; then
+    cp /recalbox/share/userscripts/.config/readystream/rclone4.conf /recalbox/share/system/
+    echo "rclone4.conf copied to /recalbox/share/system/ successfully."
+else
+    echo "rclone4.conf already exists in /recalbox/share/system/. No need to copy."
+fi
+
+# Download rclone5.conf if it doesn't exist
+if [ ! -e /recalbox/share/userscripts/.config/readystream/rclone5.conf ]; then
+    mkdir -p /recalbox/share/userscripts/.config/readystream
+    wget -O /recalbox/share/userscripts/.config/readystream/rclone5.conf https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclone5.conf
+    echo "rclone5.conf downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
+fi
+
+# Copy rclone5.conf to /recalbox/share/system/ if it doesn't exist there
+if [ ! -e /recalbox/share/system/rclone5.conf ]; then
+    cp /recalbox/share/userscripts/.config/readystream/rclone5.conf /recalbox/share/system/
+    echo "rclone5.conf copied to /recalbox/share/system/ successfully."
+else
+    echo "rclone5.conf already exists in /recalbox/share/system/. No need to copy."
+fi
+
+# Download rclone6.conf if it doesn't exist
+if [ ! -e /recalbox/share/userscripts/.config/readystream/rclone6.conf ]; then
+    mkdir -p /recalbox/share/userscripts/.config/readystream
+    wget -O /recalbox/share/userscripts/.config/readystream/rclone6.conf https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclone6.conf
+    echo "rclone6.conf downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
+fi
+
+# Copy rclone6.conf to /recalbox/share/system/ if it doesn't exist there
+if [ ! -e /recalbox/share/system/rclone6.conf ]; then
+    cp /recalbox/share/userscripts/.config/readystream/rclone6.conf /recalbox/share/system/
+    echo "rclone6.conf copied to /recalbox/share/system/ successfully."
+else
+    echo "rclone6.conf already exists in /recalbox/share/system/. No need to copy."
+fi
+
 # Download platforms.txt if it doesn't exist in /recalbox/share/userscripts/.config/readystream/
 if [ ! -e /recalbox/share/userscripts/.config/readystream/platforms.txt ]; then
     mkdir -p /recalbox/share/userscripts/.config/readystream
