@@ -10,9 +10,9 @@
 
 ln -s /usr/bin/fusermount /usr/bin/fusermount3
 mount -o remount,rw /
-export NOINTRO=/recalbox/share/No-Intro
-export REDUMP=/recalbox/share/Redump
-export TOSEC=/recalbox/share/TOSEC
+export NOINTRO=/recalbox/share/rom/No-Intro
+export REDUMP=/recalbox/share/rom/Redump
+export TOSEC=/recalbox/share/rom/TOSEC
 
 
 
