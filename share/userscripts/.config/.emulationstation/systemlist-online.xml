@@ -29,7 +29,7 @@
     </emulatorList>
   </system>
   <system uuid="b58b9072-0e44-4330-869d-96b72f53de1f" name="3do" fullname="Panasonic 3DO">
-    <descriptor path="%REDUMP%/Panasonic - 3DO Interactive Multiplayer" theme="3do" extensions=".iso .chd .cue .zip" icon="$F28d" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.chd$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/Redump/Panasonic - 3DO Interactive Multiplayer" theme="3do" extensions=".iso .chd .cue .zip" icon="$F28d" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.chd$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="29"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="optional" releasedate="1993-10" manufacturer="Panasonic" retroachievements="1" crt.multiresolution="1" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -39,7 +39,7 @@
     </emulatorList>
   </system>
   <system uuid="c771dc13-7d3e-4330-a61d-9676a4d6c468" name="64dd" fullname="Nintendo 64DD">
-    <descriptor path="%NOINTRO%/Nintendo - Nintendo 64DD" theme="64dd" extensions=".ndd .bin .z64 .v64 .n64 .zip" icon="$F28f" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Nintendo - Nintendo 64DD" theme="64dd" extensions=".ndd .bin .z64 .v64 .n64 .zip" icon="$F28f" downloader="0"/>
     <scraper screenscraper="122"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="optional" lightgun="no" releasedate="1999-12" manufacturer="Nintendo" retroachievements="0" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -50,7 +50,7 @@
     </emulatorList>
   </system>
   <system uuid="fae2f6a8-84b1-43c3-ab84-d0191ef4786a" name="amiga1200" fullname="Amiga 1200">
-    <descriptor path="%NOINTRO%/Commodore - Amiga" theme="amiga1200" extensions=".dms .adf .zip .raw .hdz .ipf .hdf .m3u .adz .lzx .lha .lhz" icon="$F245" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Commodore - Amiga" theme="amiga1200" extensions=".dms .adf .zip .raw .hdz .ipf .hdf .m3u .adz .lzx .lha .lhz" icon="$F245" downloader="0"/>
     <scraper screenscraper="111"/>
     <properties type="computer" pad="mandatory" keyboard="optional" mouse="optional" lightgun="no" releasedate="1992-10" manufacturer="Commodore" retroachievements="0" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -70,7 +70,7 @@
     </emulatorList>
   </system>
   <system uuid="d7702775-ed5b-4f89-97f1-2c1d0b0fed2c" name="amigacd32" fullname="Amiga CD32">
-    <descriptor path="%REDUMP%/Commodore - Amiga CD32" theme="amigacd32" extensions=".mds .chd .ccd .iso .m3u .uae .nrg .cue" icon="$F293" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.mds$|\.chd$|\.ccd$|\.m3u$|\.uae$|\.nrg$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/Redump/Commodore - Amiga CD32" theme="amigacd32" extensions=".mds .chd .ccd .iso .m3u .uae .nrg .cue" icon="$F293" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.mds$|\.chd$|\.ccd$|\.m3u$|\.uae$|\.nrg$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="130"/>
     <properties type="console" pad="mandatory" keyboard="optional" mouse="optional" lightgun="no" releasedate="1993-09" manufacturer="Commodore" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -80,7 +80,7 @@
     </emulatorList>
   </system>
   <system uuid="3c290260-a94c-47e4-a8f5-cd47d1c0dad6" name="amigacdtv" fullname="Amiga CDTV">
-    <descriptor path="%REDUMP%/Commodore - Amiga CDTV" theme="amigacdtv" extensions=".mds .chd .ccd .iso .m3u .uae .zip .nrg .cue" icon="$F294" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.mds$|\.chd$|\.ccd$|\.m3u$|\.uae$|\.nrg$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/Redump/Commodore - Amiga CDTV" theme="amigacdtv" extensions=".mds .chd .ccd .iso .m3u .uae .zip .nrg .cue" icon="$F294" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.mds$|\.chd$|\.ccd$|\.m3u$|\.uae$|\.nrg$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="129"/>
     <properties type="console" pad="mandatory" keyboard="optional" mouse="optional" lightgun="no" releasedate="1991-08" manufacturer="Commodore" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -124,7 +124,7 @@
     </emulatorList>
   </system>
   <system uuid="dc5b81d6-daaa-11ed-afa1-0242ac120002" name="arduboy" fullname="Arduboy">
-    <descriptor path="%NOINTRO%/Arduboy Inc - Arduboy" theme="arduboy" extensions=".hex" icon="$F286" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.hex -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Arduboy Inc - Arduboy" theme="arduboy" extensions=".hex" icon="$F286" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.hex -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
     <scraper screenscraper="263"/>
     <properties type="fantasy" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2021-08" manufacturer="fantasy" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -134,7 +134,7 @@
     </emulatorList>
   </system>
   <system uuid="7cbd64f9-4e34-48d0-b735-24c5819f2835" name="atari2600" fullname="Atari 2600">
-    <descriptor path="%NOINTRO%/Atari - 2600" theme="atari2600" extensions=".zip .7z .bin .a26" icon="$F23c" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Atari - 2600" theme="atari2600" extensions=".zip .7z .bin .a26" icon="$F23c" downloader="0"/>
     <scraper screenscraper="26"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1977-10" manufacturer="Atari" retroachievements="1" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -144,7 +144,7 @@
     </emulatorList>
   </system>
   <system uuid="1489e5b5-e3a5-42fd-86d2-8ea03045e8c4" name="atari5200" fullname="Atari 5200">
-    <descriptor path="%NOINTRO%/Atari - 5200" theme="atari5200" extensions=".car .xfd.gz .xfd .atr .a52 .bin .xex .atr.gz .zip .bas .cdm" icon="$F23d" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Atari - 5200" theme="atari5200" extensions=".car .xfd.gz .xfd .atr .a52 .bin .xex .atr.gz .zip .bas .cdm" icon="$F23d" downloader="0"/>
     <scraper screenscraper="40"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1982-01" manufacturer="Atari" retroachievements="0" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -155,7 +155,7 @@
     </emulatorList>
   </system>
   <system uuid="4d0a5178-2a6b-4501-9afd-a4d9204589ce" name="atari7800" fullname="Atari 7800">
-    <descriptor path="%NOINTRO%/Atari - 7800" theme="atari7800" extensions=".a78 .7z .bin .zip" icon="$F23e" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Atari - 7800" theme="atari7800" extensions=".a78 .7z .bin .zip" icon="$F23e" downloader="0"/>
     <scraper screenscraper="41"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1986-01" manufacturer="Atari" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -175,7 +175,7 @@
     </emulatorList>
   </system>
   <system uuid="7a648629-3851-4418-965a-750ae6830e37" name="atarist" fullname="Atari ST">
-    <descriptor path="%NOINTRO%/Atari - ST" theme="atarist" extensions=".dim .raw .ipf .ctr .msa .m3u .stx .zip .7z .st" icon="$F29a" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Atari - ST" theme="atarist" extensions=".dim .raw .ipf .ctr .msa .m3u .stx .zip .7z .st" icon="$F29a" downloader="0"/>
     <scraper screenscraper="42"/>
     <properties type="computer" pad="recommended" keyboard="mandatory" mouse="recommended" lightgun="no" releasedate="1985-06" manufacturer="Atari" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -218,7 +218,7 @@
     </emulatorList>
   </system>
   <system uuid="3ceece17-2bdd-404d-8207-529cdd76f7fb" name="c64" fullname="Commodore 64">
-    <descriptor path="%NOINTRO%/Commodore - Commodore 64" theme="c64" extensions=".g4z .d67 .t64 .d90 .dhd .m3u .tcrt .d81 .b0 .d4m .x64 .d7z .bin .40 .a0 .60 .d1m .crt .nib .d6z .p64 .x6z .d71 .20 .gz .prg .d64 .g41 .p00 .d8z .g6z .d80 .vfl .d2m .tap .nbz .g64 .vsf .cmd .d82 .zip .rom .7z" icon="$F29c" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Commodore - Commodore 64" theme="c64" extensions=".g4z .d67 .t64 .d90 .dhd .m3u .tcrt .d81 .b0 .d4m .x64 .d7z .bin .40 .a0 .60 .d1m .crt .nib .d6z .p64 .x6z .d71 .20 .gz .prg .d64 .g41 .p00 .d8z .g6z .d80 .vfl .d2m .tap .nbz .g64 .vsf .cmd .d82 .zip .rom .7z" icon="$F29c" downloader="0"/>
     <scraper screenscraper="66"/>
     <properties type="computer" pad="recommended" keyboard="mandatory" mouse="optional" lightgun="no" releasedate="1982-08" manufacturer="Commodore" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -257,7 +257,7 @@
     </emulatorList>
   </system>
   <system uuid="1e0ae4a3-b65e-40f2-b3e3-01fd2576bb8e" name="cdi" fullname="Philips CD-I">
-    <descriptor path="%REDUMP%/Philips - CD-i" theme="cdi" extensions=".chd .cmd .iso .zip .cue" icon="$F29E" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.chd$|\.cmd$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/Redump/Philips - CD-i" theme="cdi" extensions=".chd .cmd .iso .zip .cue" icon="$F29E" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.chd$|\.cmd$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="133"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="optional" lightgun="optional" releasedate="1991-10" manufacturer="Phillips" retroachievements="0" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -268,7 +268,7 @@
     </emulatorList>
   </system>
   <system uuid="dfa4bf61-1fb5-4e5a-a036-7400ee385f3a" name="channelf" fullname="Fairchild Channel F">
-    <descriptor path="%NOINTRO%/Fairchild - Channel F" theme="channelf" extensions=".chf .bin .zip .rom .7z" icon="$F2a0" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Fairchild - Channel F" theme="channelf" extensions=".chf .bin .zip .rom .7z" icon="$F2a0" downloader="0"/>
     <scraper screenscraper="80"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1976-11" manufacturer="Fairchild" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -279,7 +279,7 @@
     </emulatorList>
   </system>
   <system uuid="c65c6520-9a85-4a8f-9538-54fa9007d45e" name="colecovision" fullname="Colecovision">
-    <descriptor path="%NOINTRO%/Coleco - ColecoVision" theme="colecovision" extensions=".bin .cv .zip .col .rom .7z" icon="$F23f" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Coleco - ColecoVision" theme="colecovision" extensions=".bin .cv .zip .col .rom .7z" icon="$F23f" downloader="0"/>
     <scraper screenscraper="0"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1982-08" manufacturer="Coleco" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -344,7 +344,7 @@
     </emulatorList>
   </system>
   <system uuid="795903fb-4077-4a0d-b8a3-94b813d62f8d" name="dreamcast" fullname="Sega Dreamcast">
-    <descriptor path="%REDUMP%/Sega - Dreamcast" theme="dreamcast" extensions=".chd .gdi .bin .iso .m3u .cdi .elf .cue" icon="$F26e" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.chd$|\.gdi$|\.cdi$|\.m3u$|\.elf$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/Redump/Sega - Dreamcast" theme="dreamcast" extensions=".chd .gdi .bin .iso .m3u .cdi .elf .cue" icon="$F26e" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.chd$|\.gdi$|\.cdi$|\.m3u$|\.elf$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="23"/>
     <properties type="console" pad="mandatory" keyboard="optional" mouse="optional" lightgun="optional" releasedate="1998-11" manufacturer="Sega" retroachievements="1" crt.multiresolution="1" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -374,7 +374,7 @@
     </emulatorList>
   </system>
   <system uuid="0a7fd1d3-9673-44ab-bfef-5bb3c8a0d79a" name="fds" fullname="Family Computer Disk System">
-    <descriptor path="%NOINTRO%/Nintendo - Family Computer Disk System (FDS)" theme="fds" extensions=".fds .7z .zip" icon="$F2a7" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Nintendo - Family Computer Disk System (FDS)" theme="fds" extensions=".fds .7z .zip" icon="$F2a7" downloader="0"/>
     <scraper screenscraper="106"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1986-02" manufacturer="Nintendo" retroachievements="0" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -397,7 +397,7 @@
     </emulatorList>
   </system>
   <system uuid="5db67a8d-3373-4166-94b8-14d95898b006" name="gamecube" fullname="GameCube">
-    <descriptor path="%REDUMP%/Nintendo - GameCube - NKit RVZ [zstd-19-128k]" theme="gc" extensions=".gcm .iso .ciso .wia .gc .rvz .gcz" icon="$F262" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.gcm$|\.ciso$|\.wia$|\.gc$|\.rvz$|\.gcz$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/Redump/Nintendo - GameCube - NKit RVZ [zstd-19-128k]" theme="gc" extensions=".gcm .iso .ciso .wia .gc .rvz .gcz" icon="$F262" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.gcm$|\.ciso$|\.wia$|\.gc$|\.rvz$|\.gcz$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="13"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2001-09" manufacturer="Nintendo" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -407,7 +407,7 @@
     </emulatorList>
   </system>
   <system uuid="5d519df9-1ed4-42ce-870a-a13158ea3105" name="gamegear" fullname="Sega Game Gear">
-    <descriptor path="%NOINTRO%/Sega - Game Gear" theme="gamegear" extensions=".gg .7z .bin .zip" icon="$F26f" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Sega - Game Gear" theme="gamegear" extensions=".gg .7z .bin .zip" icon="$F26f" downloader="0"/>
     <scraper screenscraper="21"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1990-10" manufacturer="Sega" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -419,7 +419,7 @@
     </emulatorList>
   </system>
   <system uuid="19a93303-aef1-4105-b89e-1ad2ff56529f" name="gb" fullname="Game Boy">
-    <descriptor path="%NOINTRO%/Nintendo - Game Boy" theme="gb" extensions=".bin .7z .gb .zip" icon="$F264" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Nintendo - Game Boy" theme="gb" extensions=".bin .7z .gb .zip" icon="$F264" downloader="0"/>
     <scraper screenscraper="9"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1989-04" manufacturer="Nintendo" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -434,7 +434,7 @@
     </emulatorList>
   </system>
   <system uuid="a5590077-47ea-48f8-98bb-a53210d773d6" name="gba" fullname="Game Boy Advance">
-    <descriptor path="%NOINTRO%/Nintendo - Game Boy Advance" theme="gba" extensions=".bin .zip .7z .gba" icon="$F266" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Nintendo - Game Boy Advance" theme="gba" extensions=".bin .zip .7z .gba" icon="$F266" downloader="0"/>
     <scraper screenscraper="12"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2001-03" manufacturer="Nintendo" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -446,7 +446,7 @@
     </emulatorList>
   </system>
   <system uuid="8675fd2c-db99-44bd-a6e5-eaf70b4f8f1b" name="gbc" fullname="Game Boy Color">
-    <descriptor path="%NOINTRO%/Nintendo - Game Boy Color" theme="gbc" extensions=".gbc .bin .gb .zip .7z" icon="$F265" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Nintendo - Game Boy Color" theme="gbc" extensions=".gbc .bin .gb .zip .7z" icon="$F265" downloader="0"/>
     <scraper screenscraper="10"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1998-10" manufacturer="Nintendo" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -471,7 +471,7 @@
     </emulatorList>
   </system>
   <system uuid="a74b3722-bb28-4a96-b92c-352638a88238" name="gw" fullname="Game and Watch">
-    <descriptor path="%NOINTRO%/Nintendo - Game &amp; Watch" theme="gw" extensions=".zip .7z .mgw" icon="$F278" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Nintendo - Game &amp; Watch" theme="gw" extensions=".zip .7z .mgw" icon="$F278" downloader="0"/>
     <scraper screenscraper="52"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1980-04" manufacturer="Nintendo" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -501,7 +501,7 @@
     </emulatorList>
   </system>
   <system uuid="b20d915f-ed49-4c7b-bf79-476fac7c53c4" name="intellivision" fullname="Mattel Intellivision">
-    <descriptor path="%NOINTRO%/Mattel - Intellivision" theme="intellivision" extensions=".7z .bin .zip .rom .int" icon="$F2ad" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Mattel - Intellivision" theme="intellivision" extensions=".7z .bin .zip .rom .int" icon="$F2ad" downloader="0"/>
     <scraper screenscraper="115"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1979-01" manufacturer="Mattel" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -511,7 +511,7 @@
     </emulatorList>
   </system>
   <system uuid="e92e3aca-b93c-4a0b-91ed-af85fee79da4" name="jaguar" fullname="Atari Jaguar">
-    <descriptor path="%NOINTRO%/readystream/Atari - Jaguar (J64)" theme="jaguar" extensions=".abs .jag .bin .j64 .cof .zip .prg .rom .7z" icon="$F2af" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.abs$|\.jag$|\.bin$|\.j64$|\.cof$|\.prg$|\.rom$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/No-Intro/readystream/Atari - Jaguar (J64)" theme="jaguar" extensions=".abs .jag .bin .j64 .cof .zip .prg .rom .7z" icon="$F2af" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.abs$|\.jag$|\.bin$|\.j64$|\.cof$|\.prg$|\.rom$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="27"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1993-11" manufacturer="Atari" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -541,7 +541,7 @@
     </emulatorList>
   </system>
   <system uuid="b5646865-44e2-4ed0-b862-9fa0c69ab984" name="lynx" fullname="Lynx">
-    <descriptor path="%NOINTRO%/Atari - Lynx (LYX)" theme="lynx" extensions=".7z .lnx .o .zip" icon="$F270" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)" theme="lynx" extensions=".7z .lnx .o .zip" icon="$F270" downloader="0"/>
     <scraper screenscraper="28"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1989-10" manufacturer="Atari" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -576,7 +576,7 @@
     </emulatorList>
   </system>
   <system uuid="5abf95fa-4774-4f26-9f2e-095d84fd8573" name="mastersystem" fullname="Sega Master System / Mark III">
-    <descriptor path="%NOINTRO%/Sega - Master System - Mark III" theme="mastersystem" extensions=".zip .7z .sms" icon="$F26a" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Sega - Master System - Mark III" theme="mastersystem" extensions=".zip .7z .sms" icon="$F26a" downloader="0"/>
     <scraper screenscraper="2"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="1985-10" manufacturer="Sega" retroachievements="1" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -589,7 +589,7 @@
     </emulatorList>
   </system>
   <system uuid="9918b675-22c2-4448-8880-9870f801bf4f" name="megadrive" fullname="Sega Megadrive">
-    <descriptor path="%NOINTRO%/Sega - Mega Drive - Genesis" theme="megadrive" extensions=".md .68k .gen .bin .smd .mdx .zip .7z" icon="$F26b" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Sega - Mega Drive - Genesis" theme="megadrive" extensions=".md .68k .gen .bin .smd .mdx .zip .7z" icon="$F26b" downloader="0"/>
     <scraper screenscraper="1"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="1988-10" manufacturer="Sega" retroachievements="1" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -652,7 +652,7 @@
     </emulatorList>
   </system>
   <system uuid="b0da53a9-8191-47a6-bfb6-5aa7d13f178e" name="msx1" fullname="MSX1">
-    <descriptor path="%NOINTRO%/Microsoft - MSX" theme="msx1" extensions=".msx1 .7z .dsk .m3u .zip .rom .cas .ri" icon="$F24e" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Microsoft - MSX" theme="msx1" extensions=".msx1 .7z .dsk .m3u .zip .rom .cas .ri" icon="$F24e" downloader="0"/>
     <scraper screenscraper="113"/>
     <properties type="computer" pad="recommended" keyboard="recommended" mouse="no" lightgun="no" releasedate="1983-06" manufacturer="Microsoft" retroachievements="1" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -664,7 +664,7 @@
     </emulatorList>
   </system>
   <system uuid="c488252d-60a7-46c0-89df-3fd5c9aaa30d" name="msx2" fullname="MSX2">
-    <descriptor path="%NOINTRO%/Microsoft - MSX2" theme="msx2" extensions=".msx1 .7z .dsk .m3u .msx2 .zip .rom .cas .ri" icon="$F24f" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Microsoft - MSX2" theme="msx2" extensions=".msx1 .7z .dsk .m3u .msx2 .zip .rom .cas .ri" icon="$F24f" downloader="0"/>
     <scraper screenscraper="116"/>
     <properties type="computer" pad="recommended" keyboard="recommended" mouse="optional" lightgun="no" releasedate="1985-01" manufacturer="Microsoft" retroachievements="1" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -695,7 +695,7 @@
     </emulatorList>
   </system>
   <system uuid="162fbf63-0931-40b7-83cd-c5c301ff4a93" name="n64" fullname="Nintendo 64">
-    <descriptor path="%NOINTRO%/Nintendo - Nintendo 64 (BigEndian)" theme="n64" extensions=".zip .z64 .v64 .7z .n64" icon="$F260" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Nintendo - Nintendo 64 (BigEndian)" theme="n64" extensions=".zip .z64 .v64 .7z .n64" icon="$F260" downloader="0"/>
     <scraper screenscraper="14"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1996-06" manufacturer="Nintendo" retroachievements="1" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -710,7 +710,7 @@
     </emulatorList>
   </system>
   <system uuid="01536f08-36f6-4014-aa08-4ccb7f327bd3" name="naomi" fullname="Sega NAOMI">
-    <descriptor path="%REDUMP%/Arcade - Sega - Naomi" theme="naomi" extensions=".dat .lst .7z .zip" icon="$F2b9" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/Redump/Arcade - Sega - Naomi" theme="naomi" extensions=".dat .lst .7z .zip" icon="$F2b9" downloader="0"/>
     <scraper screenscraper="56"/>
     <properties type="arcade" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="1998-01" manufacturer="Sega" retroachievements="1" crt.multiresolution="1" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -730,7 +730,7 @@
     </emulatorList>
   </system>
   <system uuid="ac0f2799-9a45-4acb-b3ed-f9f954f98c5c" name="nds" fullname="Nintendo DS">
-    <descriptor path="%NOINTRO%/Nintendo - Nintendo DS (Decrypted)" theme="nds" extensions=".7z .nds .bin .zip" icon="$F267" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.nds -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Nintendo - Nintendo DS (Decrypted)" theme="nds" extensions=".7z .nds .bin .zip" icon="$F267" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.nds -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
     <scraper screenscraper="15"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2004-11" manufacturer="Nintendo" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -755,7 +755,7 @@
     </emulatorList>
   </system>
   <system uuid="4b3915a7-8b05-4646-ae4c-255057060e7a" name="neogeocd" fullname="Neo-Geo CD">
-    <descriptor path="%REDUMP%/SNK - Neo Geo CD" theme="neogeocd" extensions=".chd .img .bin .ccd .iso .cue" icon="$F2bb" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.chd$|\.ccd$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/Redump/SNK - Neo Geo CD" theme="neogeocd" extensions=".chd .img .bin .ccd .iso .cue" icon="$F2bb" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.chd$|\.ccd$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="70"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1994-09" manufacturer="SNK" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -766,7 +766,7 @@
     </emulatorList>
   </system>
   <system uuid="62f2cbed-5bcb-46d8-bca9-daaa36613c7a" name="nes" fullname="Nintendo Entertainment System">
-    <descriptor path="%NOINTRO%/Nintendo - Nintendo Entertainment System (Headered)" theme="nes" extensions=".unif .nes .unf .zip .7z" icon="$F25c" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Nintendo - Nintendo Entertainment System (Headered)" theme="nes" extensions=".unif .nes .unf .zip .7z" icon="$F25c" downloader="0"/>
     <scraper screenscraper="3"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="1983-07" manufacturer="Nintendo" retroachievements="1" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -781,7 +781,7 @@
     </emulatorList>
   </system>
   <system uuid="75072788-87e4-4dab-9d4c-9201d43858df" name="ngp" fullname="Neo-Geo Pocket">
-    <descriptor path="%NOINTRO%/SNK - NeoGeo Pocket" theme="ngp" extensions=".7z .ngp .zip" icon="$F258" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/SNK - NeoGeo Pocket" theme="ngp" extensions=".7z .ngp .zip" icon="$F258" downloader="0"/>
     <scraper screenscraper="25"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1998-10" manufacturer="SNK" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -793,7 +793,7 @@
     </emulatorList>
   </system>
   <system uuid="6d2a272c-a165-4985-aa8c-72d74b9e35a2" name="ngpc" fullname="Neo-Geo Pocket Color">
-    <descriptor path="%NOINTRO%/SNK - NeoGeo Pocket Color" theme="ngpc" extensions=".7z .ngc .ngpc .zip" icon="$F259" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/SNK - NeoGeo Pocket Color" theme="ngpc" extensions=".7z .ngc .ngpc .zip" icon="$F259" downloader="0"/>
     <scraper screenscraper="82"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1999-03" manufacturer="SNK" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -804,7 +804,7 @@
     </emulatorList>
   </system>
   <system uuid="3bac42f2-c18c-4b1e-ba90-b66d7fdc0ac5" name="o2em" fullname="Odyssey2">
-    <descriptor path="%NOINTRO%/Magnavox - Odyssey 2" theme="odyssey2" extensions=".7z .bin .zip" icon="$F241" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2" theme="odyssey2" extensions=".7z .bin .zip" icon="$F241" downloader="0"/>
     <scraper screenscraper="104"/>
     <properties type="console" pad="mandatory" keyboard="mandatory" mouse="no" lightgun="no" releasedate="1978-01" manufacturer="Magnavox" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -844,7 +844,7 @@
     </emulatorList>
   </system>
   <system uuid="5e4703d3-9d8d-4cad-b7dd-c69538e80ccd" name="palm" fullname="Palm">
-    <descriptor path="%NOINTRO%/Mobile - Palm OS (Digital)" theme="palm" extensions=".pdb .img .prc .pqa" icon="$F2bf" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)" theme="palm" extensions=".pdb .img .prc .pqa" icon="$F2bf" downloader="0"/>
     <scraper screenscraper="219"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1996-01" manufacturer="Palm" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -874,7 +874,7 @@
     </emulatorList>
   </system>
   <system uuid="9e441dae-e416-4648-a6b8-84cb68652406" name="pcengine" fullname="PC Engine">
-    <descriptor path="%NOINTRO%/NEC - PC Engine - TurboGrafx-16" theme="pcengine" extensions=".chd .sgx .img .bin .ccd .iso .zip .7z .pce .cue" icon="$F271" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/NEC - PC Engine - TurboGrafx-16" theme="pcengine" extensions=".chd .sgx .img .bin .ccd .iso .zip .7z .pce .cue" icon="$F271" downloader="0"/>
     <scraper screenscraper="31"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1987-10" manufacturer="NEC" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -886,7 +886,7 @@
     </emulatorList>
   </system>
   <system uuid="27291bbe-713a-4e2b-a64b-7651f580ad32" name="pcenginecd" fullname="PC Engine CD">
-    <descriptor path="%REDUMP%/NEC - PC Engine CD &amp; TurboGrafx CD" theme="pcenginecd" extensions=".chd .sgx .img .bin .ccd .iso pce .pce .cue" icon="$F273" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.chd$|\.sgx$|\.img$|\.ccd$|\.pce$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/Redump/NEC - PC Engine CD &amp; TurboGrafx CD" theme="pcenginecd" extensions=".chd .sgx .img .bin .ccd .iso pce .pce .cue" icon="$F273" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.chd$|\.sgx$|\.img$|\.ccd$|\.pce$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="114"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1988-12" manufacturer="NEC" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -897,7 +897,7 @@
     </emulatorList>
   </system>
   <system uuid="f5fd45c4-c18e-4279-90f4-321146dd1677" name="pcfx" fullname="NEC PC-FX">
-    <descriptor path="%REDUMP%/NEC - PC-FX &amp; PC-FXGA" theme="pcfx" extensions=".ccd .toc .chd .cue" icon="$F2c2" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.ccd$|\.toc$|\.chd$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/Redump/NEC - PC-FX &amp; PC-FXGA" theme="pcfx" extensions=".ccd .toc .chd .cue" icon="$F2c2" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.ccd$|\.toc$|\.chd$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="72"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1994-12" manufacturer="NEC" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -907,7 +907,7 @@
     </emulatorList>
   </system>
   <system uuid="527ab566-b5af-4139-9653-33634f47615a" name="pcv2" fullname="Pocket Challenge v2">
-    <descriptor path="%NOINTRO%/Benesse - Pocket Challenge V2" theme="pcv2" extensions=".ws .pc2 .wsc .zip .7z" icon="$F2c3" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Benesse - Pocket Challenge V2" theme="pcv2" extensions=".ws .pc2 .wsc .zip .7z" icon="$F2c3" downloader="0"/>
     <scraper screenscraper="237"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2000-01" manufacturer="Benesse" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -917,7 +917,7 @@
     </emulatorList>
   </system>
   <system uuid="4557dd71-973e-4e6f-a329-fd0ffae5c9e5" name="pico8" fullname="PICO-8">
-    <descriptor path="%NOINTRO%/Sega - PICO" theme="pico8" extensions=".zip .png .7z .p8" icon="$F2c4" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Sega - PICO" theme="pico8" extensions=".zip .png .7z .p8" icon="$F2c4" downloader="0"/>
     <scraper screenscraper="234"/>
     <properties type="fantasy" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2015-04" manufacturer="virtual" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -927,7 +927,7 @@
     </emulatorList>
   </system>
   <system uuid="1b5da229-54ca-4bf9-9694-e7a5399c723b" name="pokemini" fullname="Pokémon Mini">
-    <descriptor path="%NOINTRO%/Nintendo - Pokemon Mini" theme="pokemini" extensions=".min .zip" icon="$F268" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini" theme="pokemini" extensions=".min .zip" icon="$F268" downloader="0"/>
     <scraper screenscraper="211"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2001-11" manufacturer="Nintendo" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -937,7 +937,7 @@
     </emulatorList>
   </system>
   <system uuid="4dd5637f-efe5-4f77-918c-f18b0873094d" name="ps2" fullname="Sony Playstation 2">
-	<descriptor path="%REDUMP%/Sony - PlayStation 2" theme="ps2" extensions=".chd .img .gz .cso .bin .iso .mdf .nrg .cue" icon="$F2c8" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+	<descriptor path="/recalbox/share/rom/Redump/Sony - PlayStation 2" theme="ps2" extensions=".chd .img .gz .cso .bin .iso .mdf .nrg .cue" icon="$F2c8" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="58"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2000-03" manufacturer="Sony" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -950,7 +950,7 @@
     </emulatorList>
   </system>
   <system uuid="3036aed7-6c91-49f3-be3d-3be465c002eb" name="psp" fullname="Sony Playstation Portable">
-    <descriptor path="%REDUMP%/Sony - PlayStation Portable" theme="psp" extensions=".prx .cso .iso .elf .pbp" icon="$F274" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/Redump/Sony - PlayStation Portable" theme="psp" extensions=".prx .cso .iso .elf .pbp" icon="$F274" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="61"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2004-12" manufacturer="Sony" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -963,7 +963,7 @@
     </emulatorList>
   </system>
   <system uuid="3fc6d10e-aec1-41c9-9c84-0da8b0fa26ee" name="psx" fullname="Sony Playstation 1">
-    <descriptor path="%REDUMP%/Sony - PlayStation" theme="psx" extensions=".mds .chd .img .bin .ccd .iso .m3u .ecm .toc .pbp .cue" icon="$F275" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.mds$|\.chd$|\.img$|\.ccd$|\.m3u$|\.ecm$|\.toc$|\.pbp$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/Redump/Sony - PlayStation" theme="psx" extensions=".mds .chd .img .bin .ccd .iso .m3u .ecm .toc .pbp .cue" icon="$F275" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.mds$|\.chd$|\.img$|\.ccd$|\.m3u$|\.ecm$|\.toc$|\.pbp$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="57"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="optional" releasedate="1994-12" manufacturer="Sony" retroachievements="1" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -1019,7 +1019,7 @@
     </emulatorList>
   </system>
   <system uuid="99e312bc-7602-4038-a871-e53c17fd1d76" name="satellaview" fullname="Satellaview">
-    <descriptor path="%NOINTRO%/Nintendo - Satellaview" theme="satellaview" extensions=".bs .smc .sfc .zip .7z" icon="$F2d4" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Nintendo - Satellaview" theme="satellaview" extensions=".bs .smc .sfc .zip .7z" icon="$F2d4" downloader="0"/>
     <scraper screenscraper="107"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1995-04" manufacturer="Nintendo" retroachievements="1" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -1032,7 +1032,7 @@
     </emulatorList>
   </system>
   <system uuid="27be49e9-54df-441b-b66a-5f803d5c4e57" name="saturn" fullname="Sega Saturn">
-    <descriptor path="%REDUMP%/Sega - Saturn" theme="saturn" extensions=".mds .chd .ccd .iso .m3u .cue" icon="$F2d5" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.mds$|\.chd$|\.ccd$|\.m3u$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/Redump/Sega - Saturn" theme="saturn" extensions=".mds .chd .ccd .iso .m3u .cue" icon="$F2d5" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.mds$|\.chd$|\.ccd$|\.m3u$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="22"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="1994-11" manufacturer="Sega" retroachievements="1" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -1055,7 +1055,7 @@
     </emulatorList>
   </system>
   <system uuid="d4733803-a484-4bc5-9790-1024ec8fd7bb" name="scv" fullname="Super Cassette Vision">
-    <descriptor path="%NOINTRO%/Epoch - Super Cassette Vision" theme="scv" extensions=".bin .cart .zip .7z .0" icon="$F2d6" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Epoch - Super Cassette Vision" theme="scv" extensions=".bin .cart .zip .7z .0" icon="$F2d6" downloader="0"/>
     <scraper screenscraper="67"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1984-07" manufacturer="Epoch" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1065,7 +1065,7 @@
     </emulatorList>
   </system>
   <system uuid="1a6fada6-06e7-4e8b-a2b2-375d948df62c" name="sega32x" fullname="Sega 32X">
-    <descriptor path="%NOINTRO%/Sega - 32X" theme="sega32x" extensions=".32x .bin .smd .zip .7z" icon="$F26c" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Sega - 32X" theme="sega32x" extensions=".32x .bin .smd .zip .7z" icon="$F26c" downloader="0"/>
     <scraper screenscraper="19"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1994-09" manufacturer="Sega" retroachievements="1" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -1075,7 +1075,7 @@
     </emulatorList>
   </system>
   <system uuid="bcb385ac-2ead-4183-9750-9630910f37f2" name="segacd" fullname="Sega CD">
-    <descriptor path="%REDUMP%/Sega - Mega CD &amp; Sega CD" theme="segacd" extensions=".iso .chd .cue" icon="$F26d" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.chd$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/Redump/Sega - Mega CD &amp; Sega CD" theme="segacd" extensions=".iso .chd .cue" icon="$F26d" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.chd$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="20"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="1991-12" manufacturer="Sega" retroachievements="1" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -1086,7 +1086,7 @@
     </emulatorList>
   </system>
   <system uuid="88db2b3e-89d0-465d-89eb-72fd33b3cd8f" name="sg1000" fullname="Sega SG1000">
-    <descriptor path="%NOINTRO%/Sega - SG-1000" theme="sg1000" extensions=".sg .7z .bin .zip" icon="$F269" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Sega - SG-1000" theme="sg1000" extensions=".sg .7z .bin .zip" icon="$F269" downloader="0"/>
     <scraper screenscraper="109"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1983-07" manufacturer="Sega" retroachievements="1" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -1098,7 +1098,7 @@
     </emulatorList>
   </system>
   <system uuid="3df92492-d69a-48f8-8e14-9a62bd9805a6" name="snes" fullname="Super Nintendo Entertainment System">
-    <descriptor path="%NOINTRO%/Nintendo - Super Nintendo Entertainment System" theme="snes" extensions=".bs .gd3 .smc .gd7 .swc .sfc .bsx .zip .dx2 .7z .fig .st" icon="$F25e" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Nintendo - Super Nintendo Entertainment System" theme="snes" extensions=".bs .gd3 .smc .gd7 .swc .sfc .bsx .zip .dx2 .7z .fig .st" icon="$F25e" downloader="0"/>
     <scraper screenscraper="4"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="optional" lightgun="optional" releasedate="1990-11" manufacturer="Nintendo" retroachievements="1" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -1135,7 +1135,7 @@
     </emulatorList>
   </system>
   <system uuid="d62d89f4-135c-4cf7-9a35-b39a3881c4b5" name="sufami" fullname="SuFami Turbo">
-    <descriptor path="%NOINTRO%/Nintendo - Sufami Turbo" theme="sufami" extensions=".bs .smc .swc .sfc .zip .7z .fig .st" icon="$F2dd" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Nintendo - Sufami Turbo" theme="sufami" extensions=".bs .smc .swc .sfc .zip .7z .fig .st" icon="$F2dd" downloader="0"/>
     <scraper screenscraper="4"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="optional" lightgun="recommended" releasedate="1996-06" manufacturer="Bandai" retroachievements="1" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -1145,7 +1145,7 @@
     </emulatorList>
   </system>
   <system uuid="f8929aee-cc80-4e87-8fbb-e03026081318" name="supergrafx" fullname="Supergrafx">
-    <descriptor path="%NOINTRO%/NEC - PC Engine SuperGrafx" theme="supergrafx" extensions=".chd .sgx .ccd .zip .7z .pce .cue" icon="$F272" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/NEC - PC Engine SuperGrafx" theme="supergrafx" extensions=".chd .sgx .ccd .zip .7z .pce .cue" icon="$F272" downloader="0"/>
     <scraper screenscraper="105"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1989-12" manufacturer="NEC" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1156,7 +1156,7 @@
     </emulatorList>
   </system>
   <system uuid="78a6ec5c-62fd-491e-8683-9ecfb2e96878" name="supervision" fullname="Watara Supervision">
-    <descriptor path="%NOINTRO%/Watara - Supervision" theme="supervision" extensions=".sv .7z .bin .zip" icon="$F2e0" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Watara - Supervision" theme="supervision" extensions=".sv .7z .bin .zip" icon="$F2e0" downloader="0"/>
     <scraper screenscraper="207"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1992-01" manufacturer="Watara" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1216,7 +1216,7 @@
     </emulatorList>
   </system>
   <system uuid="7e8cd112-54be-43d4-9fec-e3c8e4238ade" name="vectrex" fullname="Vectrex">
-    <descriptor path="%NOINTRO%/GCE - Vectrex" theme="vectrex" extensions=".bin .7z .vec .zip" icon="$F240" downloader="1"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/GCE - Vectrex" theme="vectrex" extensions=".bin .7z .vec .zip" icon="$F240" downloader="1"/>
     <scraper screenscraper="102"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1982-11" manufacturer="MB" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1236,7 +1236,7 @@
     </emulatorList>
   </system>
   <system uuid="3fe144d4-d7ee-4807-a175-6da778cb58d7" name="vic20" fullname="Commodore VIC-20">
-    <descriptor path="%NOINTRO%/Commodore - VIC-20" theme="vic20" extensions=".70 .7z .tap .20 .prg .d64 .a0 .bin .m3u .60 .zip .b0 .40 .crt" icon="$F2e7" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Commodore - VIC-20" theme="vic20" extensions=".70 .7z .tap .20 .prg .d64 .a0 .bin .m3u .60 .zip .b0 .40 .crt" icon="$F2e7" downloader="0"/>
     <scraper screenscraper="73"/>
     <properties type="computer" pad="optional" keyboard="mandatory" mouse="optional" lightgun="no" releasedate="1980-06" manufacturer="Commodore" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1246,7 +1246,7 @@
     </emulatorList>
   </system>
   <system uuid="cfb3e1d1-536d-40e8-bacd-9f92c79b9d5f" name="videopacplus" fullname="Videopac+ G7400">
-    <descriptor path="%NOINTRO%/Philips - Videopac+" theme="videopacplus" extensions=".7z .bin .zip" icon="$F2e8" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Philips - Videopac+" theme="videopacplus" extensions=".7z .bin .zip" icon="$F2e8" downloader="0"/>
     <scraper screenscraper="104"/>
     <properties type="console" pad="mandatory" keyboard="mandatory" mouse="no" lightgun="no" releasedate="1983-11" manufacturer="Philips" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1256,7 +1256,7 @@
     </emulatorList>
   </system>
   <system uuid="eb15012b-8411-444f-b4f8-f36fd73aaf7d" name="virtualboy" fullname="Virtual Boy">
-    <descriptor path="%NOINTRO%/Nintendo - Virtual Boy" theme="virtualboy" extensions=".vb .vboy .bin .zip .7z" icon="$F25f" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Nintendo - Virtual Boy" theme="virtualboy" extensions=".vb .vboy .bin .zip .7z" icon="$F25f" downloader="0"/>
     <scraper screenscraper="11"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1995-07" manufacturer="Nintendo" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1276,7 +1276,7 @@
     </emulatorList>
   </system>
   <system uuid="f15edcf2-3154-40ba-8648-6e6d818b92e1" name="wii" fullname="Wii">
-    <descriptor path="%REDUMP%/Nintendo - Wii - NKit RVZ [zstd-19-128k]" theme="wii" extensions=".wbfs .iso .ciso .wia .rvz .gcz" icon="$F263" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.wbfs$|\.ciso$|\.wia$|\.rvz$|\.gcz$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/Redump/Nintendo - Wii - NKit RVZ [zstd-19-128k]" theme="wii" extensions=".wbfs .iso .ciso .wia .rvz .gcz" icon="$F263" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.wbfs$|\.ciso$|\.wia$|\.rvz$|\.gcz$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="16"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2006-11" manufacturer="Nintendo" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1296,7 +1296,7 @@
     </emulatorList>
   </system>
   <system uuid="02728654-fa4f-49f9-981a-e5e6d9c0adba" name="wswan" fullname="WonderSwan">
-    <descriptor path="%NOINTRO%/Bandai - WonderSwan" theme="wonderswan" extensions=".ws .pc2 .wsc .zip .7z" icon="$F25a" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Bandai - WonderSwan" theme="wonderswan" extensions=".ws .pc2 .wsc .zip .7z" icon="$F25a" downloader="0"/>
     <scraper screenscraper="45"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1999-03" manufacturer="Bandai" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1306,7 +1306,7 @@
     </emulatorList>
   </system>
   <system uuid="d4df80e5-fec8-4485-8b4d-a39f30c14e02" name="wswanc" fullname="WonderSwan Color">
-    <descriptor path="%NOINTRO%/Bandai - WonderSwan Color" theme="wonderswancolor" extensions=".ws .pc2 .wsc .zip .7z" icon="$F25b" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Bandai - WonderSwan Color" theme="wonderswancolor" extensions=".ws .pc2 .wsc .zip .7z" icon="$F25b" downloader="0"/>
     <scraper screenscraper="46"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2000-12" manufacturer="Bandai" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
