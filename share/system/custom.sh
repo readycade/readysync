@@ -67,28 +67,7 @@ httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/htt
     echo "Online version applied."
 fi
 
-# Read the roms array from platforms.txt
-platforms_file="/recalbox/share/userscripts/.config/readystream/platforms.txt"
-mapfile -t roms < "$platforms_file"
-
-# Specify the temporary destination path for zip files
-destination_path_zip_temp="/recalbox/share/zip"
-
-# Loop through the roms array for normal files
-for rom_entry in "${roms[@]}"; do
-    # Remove roms+=(" from the beginning of the entry
-    rom_entry="${rom_entry#roms+=(\"}"
-
-    # Split the entry into components
-    IFS=';' read -r -a rom_data <<< "$rom_entry"
-
-    # Extract console name (first name in the array)
-    console_name="${rom_data[0]}"
-
-    # Extract console directory
-    console_directory="${rom_data[1]}"
-
-done
+}
 
 
 # Function to perform actions specific to Offline Mode
