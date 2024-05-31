@@ -45,29 +45,41 @@ offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlis
 # Online Mode
 if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
 # Mount thumbnails with rclone
-rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
+#rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
+rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty &
+
 echo "Mounting libretro thumbnails..."
 
 # Mount thumbnails2 with rclone
 #rclone mount thumbnails2: /recalbox/share/thumbs2 --config=/recalbox/share/system/rclone2.conf --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
+rclone mount thumbnails2: /recalbox/share/thumbs2 --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty &
+
 echo "Mounting missing thumbnails..."
 
 # Mount videos with rclone
 #rclone mount videos: /recalbox/share/videos --config=/recalbox/share/system/rclone3.conf --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
+rclone mount videos: /recalbox/share/videos --config=/recalbox/share/system/rclone3.conf --daemon --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty &
+
 echo "Mounting videos..."
 
 # Mount Myrient to recalbox/share/rom
 ####httpdirfs -f -o debug -o auto_unmount --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 #--retry-wait=1 -o nonempty "https://myrient.erista.me/files/" "/recalbox/share/rom/"
 #httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://myrient.erista.me/files/ /recalbox/share/rom
 #httpdirfs -d --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget https://myrient.erista.me/files/ /recalbox/share/rom
+
 httpdirfs -d --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget https://myrient.erista.me/files/ /recalbox/share/rom
+#httpdirfs -d --cache --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget https://myrient.erista.me/files/ /recalbox/share/rom
 
 echo "Mounting romsets..."
 echo "(No-Intro, Redump, TOSEC)..."
 
 # Mount The-Eye to recalbox/share/rom2
 ####httpdirfs -f -o debug -o auto_unmount --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 #--retry-wait=1 -o nonempty "https://the-eye.eu/public/" "/recalbox/share/rom2/"
-#httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://the-eye.eu/public/ /recalbox/share/rom2
+##httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://the-eye.eu/public/ /recalbox/share/rom2
+
+#httpdirfs -d --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget https://the-eye.eu/public/ /recalbox/share/rom2
+#httpdirfs -d --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget https://the-eye.eu/public/ /recalbox/share/rom2
+
 echo "Mounting romsets..."
 echo "(Mixed)..."
 
@@ -75,6 +87,10 @@ echo "(Mixed)..."
 # Mount Old-Dos to recalbox/share/rom3
 ####httpdirfs -f -o debug -o auto_unmount --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty "ftp://oscollect:SxrRwRGbMe50XcwMKB53j6LSN9DehYMJag@old-dos.ru/" "/recalbox/share/rom3/"
 #httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io ftp://oscollect:SxrRwRGbMe50XcwMKB53j6LSN9DehYMJag@old-dos.ru/ /recalbox/share/rom3
+
+#httpdirfs -d --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget ftp://oscollect:SxrRwRGbMe50XcwMKB53j6LSN9DehYMJag@old-dos.ru/ /recalbox/share/rom3
+#httpdirfs -d --cache --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget ftp://oscollect:SxrRwRGbMe50XcwMKB53j6LSN9DehYMJag@old-dos.ru/ /recalbox/share/rom3
+
 echo "Mounting romsets..."
 echo "(DOS)..."
 
