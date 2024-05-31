@@ -1,0 +1,788 @@
+<gamelist>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/4 en 1 Ligne (France).zip</path>
+    <name>4 en 1 Ligne (France)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/4 en 1 Ligne (France).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/4 en 1 Ligne (France).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/4 in 1 Row (Europe).zip</path>
+    <name>4 in 1 Row (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/4 in 1 Row (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/4 in 1 Row (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Alien Invaders - Plus (USA, Europe).zip</path>
+    <name>Alien Invaders - Plus (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Alien Invaders - Plus (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Alien Invaders - Plus (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Alpine Skiing (USA, Europe).zip</path>
+    <name>Alpine Skiing (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Alpine Skiing (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Alpine Skiing (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Armored Encounter + Sub Chase (USA, Europe).zip</path>
+    <name>Armored Encounter + Sub Chase (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Armored Encounter + Sub Chase (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Armored Encounter + Sub Chase (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Atlantis (USA, Europe).zip</path>
+    <name>Atlantis (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Atlantis (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Atlantis (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Attack of the Timelord (USA).zip</path>
+    <name>Attack of the Timelord (USA)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Attack of the Timelord (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Attack of the Timelord (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Baseball (USA, Europe).zip</path>
+    <name>Baseball (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Baseball (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Baseball (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Billard Electrique (France).zip</path>
+    <name>Billard Electrique (France)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Billard Electrique (France).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Billard Electrique (France).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Billiard Americain (France).zip</path>
+    <name>Billiard Americain (France)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Billiard Americain (France).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Billiard Americain (France).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Blackjack (France).zip</path>
+    <name>Blackjack (France)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Blackjack (France).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Blackjack (France).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Blobbers, The (Europe).zip</path>
+    <name>Blobbers, The (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Blobbers, The (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Blobbers, The (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Blockout + Breakdown (USA, Europe).zip</path>
+    <name>Blockout + Breakdown (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Blockout + Breakdown (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Blockout + Breakdown (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Bombardeio Submarino + Tiro ao Alvo (Brazil) (En).zip</path>
+    <name>Bombardeio Submarino + Tiro ao Alvo (Brazil) (En)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Bombardeio Submarino + Tiro ao Alvo (Brazil) (En).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Bombardeio Submarino + Tiro ao Alvo (Brazil) (En).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Bowling + Basketball (USA, Europe).zip</path>
+    <name>Bowling + Basketball (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Bowling + Basketball (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Bowling + Basketball (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Buraco Negro (Brazil) (En).zip</path>
+    <name>Buraco Negro (Brazil) (En)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Buraco Negro (Brazil) (En).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Buraco Negro (Brazil) (En).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Casino Slot Machine (USA, Europe).zip</path>
+    <name>Casino Slot Machine (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Casino Slot Machine (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Casino Slot Machine (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Catch the Ball + Noughts and Crosses (Europe).zip</path>
+    <name>Catch the Ball + Noughts and Crosses (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Catch the Ball + Noughts and Crosses (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Catch the Ball + Noughts and Crosses (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Chat et Souris (France).zip</path>
+    <name>Chat et Souris (France)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Chat et Souris (France).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Chat et Souris (France).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Chess (Europe).zip</path>
+    <name>Chess (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Chess (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Chess (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Chinese Logic (Europe).zip</path>
+    <name>Chinese Logic (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Chinese Logic (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Chinese Logic (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Clay Pigeon (Brazil) (En).zip</path>
+    <name>Clay Pigeon (Brazil) (En)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Clay Pigeon (Brazil) (En).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Clay Pigeon (Brazil) (En).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Comando Noturno (Brazil) (En).zip</path>
+    <name>Comando Noturno (Brazil) (En)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Comando Noturno (Brazil) (En).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Comando Noturno (Brazil) (En).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Computer Golf (USA).zip</path>
+    <name>Computer Golf (USA)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Computer Golf (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Computer Golf (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Computer Intro (USA).zip</path>
+    <name>Computer Intro (USA)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Computer Intro (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Computer Intro (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Computer Programmer (Europe).zip</path>
+    <name>Computer Programmer (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Computer Programmer (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Computer Programmer (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Conflit Cosmique (Canada).zip</path>
+    <name>Conflit Cosmique (Canada)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Conflit Cosmique (Canada).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Conflit Cosmique (Canada).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Conquest of the World (USA, Europe).zip</path>
+    <name>Conquest of the World (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Conquest of the World (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Conquest of the World (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Cosmic Conflict (Europe) (Alt).zip</path>
+    <name>Cosmic Conflict (Europe) (Alt)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Cosmic Conflict (Europe) (Alt).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Cosmic Conflict (Europe) (Alt).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Cosmic Conflict (Europe).zip</path>
+    <name>Cosmic Conflict (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Cosmic Conflict (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Cosmic Conflict (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Cosmic Conflict (USA).zip</path>
+    <name>Cosmic Conflict (USA)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Cosmic Conflict (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Cosmic Conflict (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Course de Voitures + Autodrome + Cryptogramme (France).zip</path>
+    <name>Course de Voitures + Autodrome + Cryptogramme (France)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Course de Voitures + Autodrome + Cryptogramme (France).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Course de Voitures + Autodrome + Cryptogramme (France).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Demon Attack (USA, Europe).zip</path>
+    <name>Demon Attack (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Demon Attack (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Demon Attack (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Depth Charge + Marksman (Europe).zip</path>
+    <name>Depth Charge + Marksman (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Depth Charge + Marksman (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Depth Charge + Marksman (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Desafio Chines (Brazil) (En).zip</path>
+    <name>Desafio Chines (Brazil) (En)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Desafio Chines (Brazil) (En).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Desafio Chines (Brazil) (En).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Dynasty (USA).zip</path>
+    <name>Dynasty (USA)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Dynasty (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Dynasty (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Electronic Table Soccer (USA, Europe).zip</path>
+    <name>Electronic Table Soccer (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Electronic Table Soccer (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Electronic Table Soccer (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Faire du ski (France).zip</path>
+    <name>Faire du ski (France)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Faire du ski (France).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Faire du ski (France).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Football (USA, Europe).zip</path>
+    <name>Football (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Football (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Football (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Football Electronique + Hockey Electronique (France).zip</path>
+    <name>Football Electronique + Hockey Electronique (France)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Football Electronique + Hockey Electronique (France).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Football Electronique + Hockey Electronique (France).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Freedom Fighters (USA, Europe).zip</path>
+    <name>Freedom Fighters (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Freedom Fighters (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Freedom Fighters (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Frogger (Brazil) (En).zip</path>
+    <name>Frogger (Brazil) (En)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Frogger (Brazil) (En).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Frogger (Brazil) (En).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Frogger (Europe).zip</path>
+    <name>Frogger (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Frogger (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Frogger (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Golf (Europe).zip</path>
+    <name>Golf (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Golf (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Golf (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Great Wall Street Fortune Hunt, The (USA, Europe).zip</path>
+    <name>Great Wall Street Fortune Hunt, The (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Great Wall Street Fortune Hunt, The (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Great Wall Street Fortune Hunt, The (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Guerre Laser (France).zip</path>
+    <name>Guerre Laser (France)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Guerre Laser (France).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Guerre Laser (France).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Gunfighter (Europe).zip</path>
+    <name>Gunfighter (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Gunfighter (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Gunfighter (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Hockey + Soccer (USA, Europe).zip</path>
+    <name>Hockey + Soccer (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Hockey + Soccer (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Hockey + Soccer (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/I've Got Your Number (USA, Europe).zip</path>
+    <name>I&apos;ve Got Your Number (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/I&apos;ve Got Your Number (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/I&apos;ve Got Your Number (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Interpol (Europe) (Proto).zip</path>
+    <name>Interpol (Europe) (Proto)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Interpol (Europe) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Interpol (Europe) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Invaders from Hyperspace (USA).zip</path>
+    <name>Invaders from Hyperspace (USA)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Invaders from Hyperspace (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Invaders from Hyperspace (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Jeu de Quilles + Basket Ball (France).zip</path>
+    <name>Jeu de Quilles + Basket Ball (France)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Jeu de Quilles + Basket Ball (France).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Jeu de Quilles + Basket Ball (France).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Jumping Acrobats (Europe) (Alt).zip</path>
+    <name>Jumping Acrobats (Europe) (Alt)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Jumping Acrobats (Europe) (Alt).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Jumping Acrobats (Europe) (Alt).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Jumping Acrobats (Europe).zip</path>
+    <name>Jumping Acrobats (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Jumping Acrobats (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Jumping Acrobats (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/K.C. Munchkin (USA).zip</path>
+    <name>K.C. Munchkin (USA)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/K.C. Munchkin (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/K.C. Munchkin (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/K.C.'s Krazy Chase (USA, Europe).zip</path>
+    <name>K.C.&apos;s Krazy Chase (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/K.C.&apos;s Krazy Chase (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/K.C.&apos;s Krazy Chase (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Keyboard Creations (USA).zip</path>
+    <name>Keyboard Creations (USA)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Keyboard Creations (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Keyboard Creations (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Killer Bees (USA).zip</path>
+    <name>Killer Bees (USA)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Killer Bees (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Killer Bees (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Kinder im Verkehr 1 (Germany).zip</path>
+    <name>Kinder im Verkehr 1 (Germany)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Kinder im Verkehr 1 (Germany).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Kinder im Verkehr 1 (Germany).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/La Quete des Anneaux (France).zip</path>
+    <name>La Quete des Anneaux (France)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/La Quete des Anneaux (France).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/La Quete des Anneaux (France).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Labyrinth Game, A + Supermind (Europe).zip</path>
+    <name>Labyrinth Game, A + Supermind (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Labyrinth Game, A + Supermind (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Labyrinth Game, A + Supermind (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Las Vegas (France).zip</path>
+    <name>Las Vegas (France)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Las Vegas (France).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Las Vegas (France).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Las Vegas Blackjack (USA, Europe).zip</path>
+    <name>Las Vegas Blackjack (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Las Vegas Blackjack (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Las Vegas Blackjack (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Laser War (Europe).zip</path>
+    <name>Laser War (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Laser War (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Laser War (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Loony Balloon (Europe) (Proto).zip</path>
+    <name>Loony Balloon (Europe) (Proto)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Loony Balloon (Europe) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Loony Balloon (Europe) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Martian Threat (Europe) (Proto) (Alt).zip</path>
+    <name>Martian Threat (Europe) (Proto) (Alt)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Martian Threat (Europe) (Proto) (Alt).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Martian Threat (Europe) (Proto) (Alt).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Martian Threat (Europe) (Proto).zip</path>
+    <name>Martian Threat (Europe) (Proto)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Martian Threat (Europe) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Martian Threat (Europe) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Matchmaker + Logix + Buzzword (USA).zip</path>
+    <name>Matchmaker + Logix + Buzzword (USA)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Matchmaker + Logix + Buzzword (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Matchmaker + Logix + Buzzword (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Math-A-Magic + Echo (USA, Europe).zip</path>
+    <name>Math-A-Magic + Echo (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Math-A-Magic + Echo (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Math-A-Magic + Echo (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Mathematicien + Echo (France).zip</path>
+    <name>Mathematicien + Echo (France)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Mathematicien + Echo (France).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Mathematicien + Echo (France).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Mission Impossible (Brazil) (En) (Proto).zip</path>
+    <name>Mission Impossible (Brazil) (En) (Proto)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Mission Impossible (Brazil) (En) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Mission Impossible (Brazil) (En) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Monkeyshines (USA, Europe).zip</path>
+    <name>Monkeyshines (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Monkeyshines (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Monkeyshines (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Morse (Europe).zip</path>
+    <name>Morse (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Morse (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Morse (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Morse (France).zip</path>
+    <name>Morse (France)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Morse (France).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Morse (France).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Mousing Cat, The (Europe).zip</path>
+    <name>Mousing Cat, The (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Mousing Cat, The (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Mousing Cat, The (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Munchkin (Europe).zip</path>
+    <name>Munchkin (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Munchkin (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Munchkin (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Mur Magique, Le (France).zip</path>
+    <name>Mur Magique, Le (France)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Mur Magique, Le (France).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Mur Magique, Le (France).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Musician (Europe).zip</path>
+    <name>Musician (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Musician (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Musician (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Neutron Star (Europe) (Proto).zip</path>
+    <name>Neutron Star (Europe) (Proto)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Neutron Star (Europe) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Neutron Star (Europe) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Newscaster (Europe).zip</path>
+    <name>Newscaster (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Newscaster (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Newscaster (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Nightfighter (Europe) (Proto).zip</path>
+    <name>Nightfighter (Europe) (Proto)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Nightfighter (Europe) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Nightfighter (Europe) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Nightmare (Europe).zip</path>
+    <name>Nightmare (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Nightmare (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Nightmare (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Nimble Numbers Ned (USA).zip</path>
+    <name>Nimble Numbers Ned (USA)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Nimble Numbers Ned (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Nimble Numbers Ned (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/O Malabarista + Jogo da Velha (Brazil) (En).zip</path>
+    <name>O Malabarista + Jogo da Velha (Brazil) (En)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/O Malabarista + Jogo da Velha (Brazil) (En).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/O Malabarista + Jogo da Velha (Brazil) (En).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/O Segredo do Farao (Brazil) (En).zip</path>
+    <name>O Segredo do Farao (Brazil) (En)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/O Segredo do Farao (Brazil) (En).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/O Segredo do Farao (Brazil) (En).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Out of This World + Helicopter Rescue (USA).zip</path>
+    <name>Out of This World + Helicopter Rescue (USA)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Out of This World + Helicopter Rescue (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Out of This World + Helicopter Rescue (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/P.T. Barnum's Acrobats (USA).zip</path>
+    <name>P.T. Barnum&apos;s Acrobats (USA)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/P.T. Barnum&apos;s Acrobats (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/P.T. Barnum&apos;s Acrobats (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Pachinko (USA, Europe).zip</path>
+    <name>Pachinko (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Pachinko (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Pachinko (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Pairs + Space Rendezvous + Logic (Europe).zip</path>
+    <name>Pairs + Space Rendezvous + Logic (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Pairs + Space Rendezvous + Logic (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Pairs + Space Rendezvous + Logic (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Pick Axe Pete (USA, Europe).zip</path>
+    <name>Pick Axe Pete (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Pick Axe Pete (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Pick Axe Pete (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Pinball (USA) (Proto).zip</path>
+    <name>Pinball (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Pinball (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Pinball (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Playtag (Europe) (Proto).zip</path>
+    <name>Playtag (Europe) (Proto)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Playtag (Europe) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Playtag (Europe) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Pocket Billiards (USA, Europe).zip</path>
+    <name>Pocket Billiards (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Pocket Billiards (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Pocket Billiards (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Popeye (Brazil) (En).zip</path>
+    <name>Popeye (Brazil) (En)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Popeye (Brazil) (En).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Popeye (Brazil) (En).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Popeye (Europe).zip</path>
+    <name>Popeye (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Popeye (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Popeye (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Power Lords (USA) (Alt).zip</path>
+    <name>Power Lords (USA) (Alt)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Power Lords (USA) (Alt).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Power Lords (USA) (Alt).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Power Lords (USA).zip</path>
+    <name>Power Lords (USA)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Power Lords (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Power Lords (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Prendre l'Argent et Fuir (France).zip</path>
+    <name>Prendre l&apos;Argent et Fuir (France)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Prendre l&apos;Argent et Fuir (France).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Prendre l&apos;Argent et Fuir (France).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Q-Bert (Europe).zip</path>
+    <name>Q-Bert (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Q-Bert (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Q-Bert (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Quest for the Rings (USA, Europe).zip</path>
+    <name>Quest for the Rings (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Quest for the Rings (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Quest for the Rings (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Red Baron (Europe) (Proto) (Alt).zip</path>
+    <name>Red Baron (Europe) (Proto) (Alt)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Red Baron (Europe) (Proto) (Alt).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Red Baron (Europe) (Proto) (Alt).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Red Baron (Europe) (Proto).zip</path>
+    <name>Red Baron (Europe) (Proto)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Red Baron (Europe) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Red Baron (Europe) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Robot City (Europe) (Proto).zip</path>
+    <name>Robot City (Europe) (Proto)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Robot City (Europe) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Robot City (Europe) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Samurai (Europe).zip</path>
+    <name>Samurai (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Samurai (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Samurai (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Satellite Attack (Europe).zip</path>
+    <name>Satellite Attack (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Satellite Attack (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Satellite Attack (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Secret of the Pharaohs (Europe).zip</path>
+    <name>Secret of the Pharaohs (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Secret of the Pharaohs (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Secret of the Pharaohs (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Shark Hunter (Europe) (Proto).zip</path>
+    <name>Shark Hunter (Europe) (Proto)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Shark Hunter (Europe) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Shark Hunter (Europe) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Showdown in 2100 A.D. (USA).zip</path>
+    <name>Showdown in 2100 A.D. (USA)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Showdown in 2100 A.D. (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Showdown in 2100 A.D. (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Sid the Spellbinder (USA).zip</path>
+    <name>Sid the Spellbinder (USA)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Sid the Spellbinder (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Sid the Spellbinder (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Smithereens (USA).zip</path>
+    <name>Smithereens (USA)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Smithereens (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Smithereens (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Speedway + Spin-out + Crypto-logic (USA, Europe).zip</path>
+    <name>Speedway + Spin-out + Crypto-logic (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Speedway + Spin-out + Crypto-logic (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Speedway + Spin-out + Crypto-logic (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Spider-Man (Europe) (Proto) (Alt).zip</path>
+    <name>Spider-Man (Europe) (Proto) (Alt)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Spider-Man (Europe) (Proto) (Alt).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Spider-Man (Europe) (Proto) (Alt).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Spider-Man (Europe) (Proto).zip</path>
+    <name>Spider-Man (Europe) (Proto)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Spider-Man (Europe) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Spider-Man (Europe) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Stone Sling (Europe).zip</path>
+    <name>Stone Sling (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Stone Sling (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Stone Sling (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Super Bee (Brazil) (En).zip</path>
+    <name>Super Bee (Brazil) (En)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Super Bee (Brazil) (En).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Super Bee (Brazil) (En).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Super Bee (Europe).zip</path>
+    <name>Super Bee (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Super Bee (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Super Bee (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Super Cobra (Brazil) (En).zip</path>
+    <name>Super Cobra (Brazil) (En)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Super Cobra (Brazil) (En).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Super Cobra (Brazil) (En).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Super Cobra (Europe).zip</path>
+    <name>Super Cobra (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Super Cobra (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Super Cobra (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Take the Money and Run (USA, Europe).zip</path>
+    <name>Take the Money and Run (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Take the Money and Run (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Take the Money and Run (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Thunderball (USA, Europe).zip</path>
+    <name>Thunderball (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Thunderball (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Thunderball (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Turtles (Europe).zip</path>
+    <name>Turtles (Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Turtles (Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Turtles (Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Turtles (USA).zip</path>
+    <name>Turtles (USA)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Turtles (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Turtles (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Tutankham (Europe) (Proto).zip</path>
+    <name>Tutankham (Europe) (Proto)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Tutankham (Europe) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Tutankham (Europe) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Type &amp; Tell (USA).zip</path>
+    <name>Type &amp; Tell (USA)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Type &amp; Tell (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Type &amp; Tell (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/UFO (USA).zip</path>
+    <name>UFO (USA)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/UFO (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/UFO (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Verkehrsspiele 1 (Germany).zip</path>
+    <name>Verkehrsspiele 1 (Germany)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Verkehrsspiele 1 (Germany).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Verkehrsspiele 1 (Germany).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Verkehrsspiele 2 (Germany).zip</path>
+    <name>Verkehrsspiele 2 (Germany)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Verkehrsspiele 2 (Germany).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Verkehrsspiele 2 (Germany).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Volleyball (USA, Europe).zip</path>
+    <name>Volleyball (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Volleyball (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Volleyball (USA, Europe).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Volleyball Electronique (France).zip</path>
+    <name>Volleyball Electronique (France)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Volleyball Electronique (France).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Volleyball Electronique (France).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/Wall Street (Brazil) (En).zip</path>
+    <name>Wall Street (Brazil) (En)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/Wall Street (Brazil) (En).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/Wall Street (Brazil) (En).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Magnavox - Odyssey 2/War of Nerves (USA, Europe).zip</path>
+    <name>War of Nerves (USA, Europe)</name>
+    <image>/recalbox/share/thumbs/Magnavox - Odyssey2/Named_Titles/War of Nerves (USA, Europe).png</image>
+    <video>/recalbox/share/videos/No-Intro/Magnavox - Odyssey 2/War of Nerves (USA, Europe).mp4</video>
+  </game>
+</gamelist>

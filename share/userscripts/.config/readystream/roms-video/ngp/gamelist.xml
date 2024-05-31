@@ -1,0 +1,26 @@
+<gamelist>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/SNK - NeoGeo Pocket/Baseball Stars - Pocket Sports Series (Japan, Europe) (En,Ja).zip</path>
+    <name>Baseball Stars - Pocket Sports Series (Japan, Europe) (En,Ja)</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo Pocket/Named_Titles/Baseball Stars - Pocket Sports Series (Japan, Europe) (En,Ja).png</image>
+    <video>/recalbox/share/videos/No-Intro/SNK - NeoGeo Pocket/Baseball Stars - Pocket Sports Series (Japan, Europe) (En,Ja).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/SNK - NeoGeo Pocket/King of Fighters R-1 - Pocket Fighting Series (Japan, Europe) (En,Ja).zip</path>
+    <name>King of Fighters R-1 - Pocket Fighting Series (Japan, Europe) (En,Ja)</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo Pocket/Named_Titles/King of Fighters R-1 - Pocket Fighting Series (Japan, Europe) (En,Ja).png</image>
+    <video>/recalbox/share/videos/No-Intro/SNK - NeoGeo Pocket/King of Fighters R-1 - Pocket Fighting Series (Japan, Europe) (En,Ja).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/SNK - NeoGeo Pocket/Melon-chan no Seichou Nikki (Japan).zip</path>
+    <name>Melon-chan no Seichou Nikki (Japan)</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo Pocket/Named_Titles/Melon-chan no Seichou Nikki (Japan).png</image>
+    <video>/recalbox/share/videos/No-Intro/SNK - NeoGeo Pocket/Melon-chan no Seichou Nikki (Japan).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/SNK - NeoGeo Pocket/Samurai Shodown! - Pocket Fighting Series (Japan, Europe) (En,Ja).zip</path>
+    <name>Samurai Shodown! - Pocket Fighting Series (Japan, Europe) (En,Ja)</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo Pocket/Named_Titles/Samurai Shodown! - Pocket Fighting Series (Japan, Europe) (En,Ja).png</image>
+    <video>/recalbox/share/videos/No-Intro/SNK - NeoGeo Pocket/Samurai Shodown! - Pocket Fighting Series (Japan, Europe) (En,Ja).mp4</video>
+  </game>
+</gamelist>

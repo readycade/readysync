@@ -1,0 +1,716 @@
+<gamelist>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/5200 Menu (USA) (Proto).zip</path>
+    <name>5200 Menu (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/5200 Menu (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/5200 Menu (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/A.E. (USA) (Proto).zip</path>
+    <name>A.E. (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/A.E. (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/A.E. (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Activision Decathlon, The (USA).zip</path>
+    <name>Activision Decathlon, The (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Activision Decathlon, The (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Activision Decathlon, The (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Asteroids (USA) (Proto).zip</path>
+    <name>Asteroids (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Asteroids (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Asteroids (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Astro Chase (USA).zip</path>
+    <name>Astro Chase (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Astro Chase (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Astro Chase (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Astrogrover (USA) (Proto).zip</path>
+    <name>Astrogrover (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Astrogrover (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Astrogrover (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Atari PAM - Pete's Test (USA).zip</path>
+    <name>Atari PAM - Pete&apos;s Test (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Atari PAM - Pete&apos;s Test (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Atari PAM - Pete&apos;s Test (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Atari PAM Diagnostics (USA) (v2.0).zip</path>
+    <name>Atari PAM Diagnostics (USA) (v2.0)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Atari PAM Diagnostics (USA) (v2.0).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Atari PAM Diagnostics (USA) (v2.0).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Atari PAM Diagnostics (USA) (v2.3).zip</path>
+    <name>Atari PAM Diagnostics (USA) (v2.3)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Atari PAM Diagnostics (USA) (v2.3).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Atari PAM Diagnostics (USA) (v2.3).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Atari PAM System Test (USA) (v1.02).zip</path>
+    <name>Atari PAM System Test (USA) (v1.02)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Atari PAM System Test (USA) (v1.02).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Atari PAM System Test (USA) (v1.02).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Ballblazer (USA).zip</path>
+    <name>Ballblazer (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Ballblazer (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Ballblazer (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Barroom Baseball (USA) (Proto).zip</path>
+    <name>Barroom Baseball (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Barroom Baseball (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Barroom Baseball (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Battlezone (USA) (Proto) (Alt).zip</path>
+    <name>Battlezone (USA) (Proto) (Alt)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Battlezone (USA) (Proto) (Alt).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Battlezone (USA) (Proto) (Alt).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Battlezone (USA) (Proto).zip</path>
+    <name>Battlezone (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Battlezone (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Battlezone (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Beamrider (USA).zip</path>
+    <name>Beamrider (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Beamrider (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Beamrider (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Behind Jaggi Lines! (USA) (Proto).zip</path>
+    <name>Behind Jaggi Lines! (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Behind Jaggi Lines! (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Behind Jaggi Lines! (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/BerZerk (USA).zip</path>
+    <name>BerZerk (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/BerZerk (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/BerZerk (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Black Belt (USA) (Proto).zip</path>
+    <name>Black Belt (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Black Belt (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Black Belt (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Blaster (USA) (Proto).zip</path>
+    <name>Blaster (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Blaster (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Blaster (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Blue Print (USA).zip</path>
+    <name>Blue Print (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Blue Print (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Blue Print (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Boogie (USA) (Demo).zip</path>
+    <name>Boogie (USA) (Demo)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Boogie (USA) (Demo).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Boogie (USA) (Demo).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Bounty Bob Strikes Back! (USA).zip</path>
+    <name>Bounty Bob Strikes Back! (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Bounty Bob Strikes Back! (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Bounty Bob Strikes Back! (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Buck Rogers - Planet of Zoom (USA) (Alt).zip</path>
+    <name>Buck Rogers - Planet of Zoom (USA) (Alt)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Buck Rogers - Planet of Zoom (USA) (Alt).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Buck Rogers - Planet of Zoom (USA) (Alt).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Buck Rogers - Planet of Zoom (USA).zip</path>
+    <name>Buck Rogers - Planet of Zoom (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Buck Rogers - Planet of Zoom (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Buck Rogers - Planet of Zoom (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Carol Shaw's River Raid (USA).zip</path>
+    <name>Carol Shaw&apos;s River Raid (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Carol Shaw&apos;s River Raid (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Carol Shaw&apos;s River Raid (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Castle Blast (USA) (Unl).zip</path>
+    <name>Castle Blast (USA) (Unl)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Castle Blast (USA) (Unl).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Castle Blast (USA) (Unl).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Castle Crisis (USA) (Unl).zip</path>
+    <name>Castle Crisis (USA) (Unl)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Castle Crisis (USA) (Unl).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Castle Crisis (USA) (Unl).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Centipede (USA).zip</path>
+    <name>Centipede (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Centipede (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Centipede (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Choplifter! (USA).zip</path>
+    <name>Choplifter! (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Choplifter! (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Choplifter! (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Congo Bongo (USA).zip</path>
+    <name>Congo Bongo (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Congo Bongo (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Congo Bongo (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Countermeasure (USA).zip</path>
+    <name>Countermeasure (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Countermeasure (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Countermeasure (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/David Crane's Pitfall II - Lost Caverns (USA).zip</path>
+    <name>David Crane&apos;s Pitfall II - Lost Caverns (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/David Crane&apos;s Pitfall II - Lost Caverns (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/David Crane&apos;s Pitfall II - Lost Caverns (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Defender (USA).zip</path>
+    <name>Defender (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Defender (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Defender (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Dig Dug (USA).zip</path>
+    <name>Dig Dug (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Dig Dug (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Dig Dug (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Dreadnaught Factor, The (USA).zip</path>
+    <name>Dreadnaught Factor, The (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Dreadnaught Factor, The (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Dreadnaught Factor, The (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Final Legacy (USA) (Proto).zip</path>
+    <name>Final Legacy (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Final Legacy (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Final Legacy (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Frisky Tom (USA) (Proto).zip</path>
+    <name>Frisky Tom (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Frisky Tom (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Frisky Tom (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Frogger (USA).zip</path>
+    <name>Frogger (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Frogger (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Frogger (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Frogger II - Threeedeep! (USA).zip</path>
+    <name>Frogger II - Threeedeep! (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Frogger II - Threeedeep! (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Frogger II - Threeedeep! (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Galaxian (USA) (Alt).zip</path>
+    <name>Galaxian (USA) (Alt)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Galaxian (USA) (Alt).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Galaxian (USA) (Alt).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Galaxian (USA).zip</path>
+    <name>Galaxian (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Galaxian (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Galaxian (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Gorf (USA).zip</path>
+    <name>Gorf (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Gorf (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Gorf (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Gremlins (USA).zip</path>
+    <name>Gremlins (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Gremlins (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Gremlins (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Gyruss (USA) (Alt).zip</path>
+    <name>Gyruss (USA) (Alt)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Gyruss (USA) (Alt).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Gyruss (USA) (Alt).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Gyruss (USA).zip</path>
+    <name>Gyruss (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Gyruss (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Gyruss (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/H.E.R.O. (USA).zip</path>
+    <name>H.E.R.O. (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/H.E.R.O. (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/H.E.R.O. (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/James Bond 007 (USA).zip</path>
+    <name>James Bond 007 (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/James Bond 007 (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/James Bond 007 (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Joust (USA).zip</path>
+    <name>Joust (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Joust (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Joust (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Jr. Pac-Man (USA) (Proto).zip</path>
+    <name>Jr. Pac-Man (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Jr. Pac-Man (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Jr. Pac-Man (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Jungle Hunt (USA).zip</path>
+    <name>Jungle Hunt (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Jungle Hunt (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Jungle Hunt (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/K-Razy Shoot-Out (USA).zip</path>
+    <name>K-Razy Shoot-Out (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/K-Razy Shoot-Out (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/K-Razy Shoot-Out (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Kaboom! (USA).zip</path>
+    <name>Kaboom! (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Kaboom! (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Kaboom! (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Kangaroo (USA).zip</path>
+    <name>Kangaroo (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Kangaroo (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Kangaroo (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Keystone Kapers (USA).zip</path>
+    <name>Keystone Kapers (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Keystone Kapers (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Keystone Kapers (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Koffi - Yellow Kopter (USA) (Unl).zip</path>
+    <name>Koffi - Yellow Kopter (USA) (Unl)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Koffi - Yellow Kopter (USA) (Unl).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Koffi - Yellow Kopter (USA) (Unl).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Last Starfighter, The (USA) (Proto).zip</path>
+    <name>Last Starfighter, The (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Last Starfighter, The (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Last Starfighter, The (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Looney Tunes Hotel (USA) (Proto).zip</path>
+    <name>Looney Tunes Hotel (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Looney Tunes Hotel (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Looney Tunes Hotel (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Mario Bros. (USA) (Alt).zip</path>
+    <name>Mario Bros. (USA) (Alt)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Mario Bros. (USA) (Alt).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Mario Bros. (USA) (Alt).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Mario Bros. (USA).zip</path>
+    <name>Mario Bros. (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Mario Bros. (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Mario Bros. (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Meebzork (USA) (Proto).zip</path>
+    <name>Meebzork (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Meebzork (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Meebzork (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/MegaMania (USA).zip</path>
+    <name>MegaMania (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/MegaMania (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/MegaMania (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Meteorites (USA).zip</path>
+    <name>Meteorites (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Meteorites (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Meteorites (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Microgammon SB (USA) (Proto).zip</path>
+    <name>Microgammon SB (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Microgammon SB (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Microgammon SB (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Millipede (USA) (Proto).zip</path>
+    <name>Millipede (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Millipede (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Millipede (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Miner 2049er Starring Bounty Bob (USA).zip</path>
+    <name>Miner 2049er Starring Bounty Bob (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Miner 2049er Starring Bounty Bob (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Miner 2049er Starring Bounty Bob (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Miniature Golf (USA) (Proto).zip</path>
+    <name>Miniature Golf (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Miniature Golf (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Miniature Golf (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Missile Command (USA).zip</path>
+    <name>Missile Command (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Missile Command (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Missile Command (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Montezuma's Revenge - Featuring Panama Joe (USA).zip</path>
+    <name>Montezuma&apos;s Revenge - Featuring Panama Joe (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Montezuma&apos;s Revenge - Featuring Panama Joe (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Montezuma&apos;s Revenge - Featuring Panama Joe (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Moon Patrol (USA).zip</path>
+    <name>Moon Patrol (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Moon Patrol (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Moon Patrol (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Mountain King (USA).zip</path>
+    <name>Mountain King (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Mountain King (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Mountain King (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Mr. Do!'s Castle (USA).zip</path>
+    <name>Mr. Do!&apos;s Castle (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Mr. Do!&apos;s Castle (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Mr. Do!&apos;s Castle (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Ms. Pac-Man (USA).zip</path>
+    <name>Ms. Pac-Man (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Ms. Pac-Man (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Ms. Pac-Man (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Pac-Man (USA).zip</path>
+    <name>Pac-Man (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Pac-Man (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Pac-Man (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Pengo (USA).zip</path>
+    <name>Pengo (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Pengo (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Pengo (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Pitfall! (USA).zip</path>
+    <name>Pitfall! (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Pitfall! (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Pitfall! (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Pole Position (USA) (Proto).zip</path>
+    <name>Pole Position (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Pole Position (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Pole Position (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Pole Position (USA).zip</path>
+    <name>Pole Position (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Pole Position (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Pole Position (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Popeye (USA).zip</path>
+    <name>Popeye (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Popeye (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Popeye (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Q-bert (USA).zip</path>
+    <name>Q-bert (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Q-bert (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Q-bert (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/QIX (USA).zip</path>
+    <name>QIX (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/QIX (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/QIX (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Quest for Quintana Roo (USA).zip</path>
+    <name>Quest for Quintana Roo (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Quest for Quintana Roo (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Quest for Quintana Roo (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/RealSports Baseball (USA).zip</path>
+    <name>RealSports Baseball (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/RealSports Baseball (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/RealSports Baseball (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/RealSports Basketball (USA) (Proto) (1982-11-05).zip</path>
+    <name>RealSports Basketball (USA) (Proto) (1982-11-05)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/RealSports Basketball (USA) (Proto) (1982-11-05).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/RealSports Basketball (USA) (Proto) (1982-11-05).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/RealSports Basketball (USA) (Proto) (1983-10-31).zip</path>
+    <name>RealSports Basketball (USA) (Proto) (1983-10-31)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/RealSports Basketball (USA) (Proto) (1983-10-31).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/RealSports Basketball (USA) (Proto) (1983-10-31).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/RealSports Basketball (USA).zip</path>
+    <name>RealSports Basketball (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/RealSports Basketball (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/RealSports Basketball (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/RealSports Football (USA).zip</path>
+    <name>RealSports Football (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/RealSports Football (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/RealSports Football (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/RealSports Soccer (USA).zip</path>
+    <name>RealSports Soccer (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/RealSports Soccer (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/RealSports Soccer (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/RealSports Tennis (USA).zip</path>
+    <name>RealSports Tennis (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/RealSports Tennis (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/RealSports Tennis (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Rescue on Fractalus! (USA).zip</path>
+    <name>Rescue on Fractalus! (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Rescue on Fractalus! (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Rescue on Fractalus! (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Road Runner (USA) (Proto).zip</path>
+    <name>Road Runner (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Road Runner (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Road Runner (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Robotron 2084 (USA).zip</path>
+    <name>Robotron 2084 (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Robotron 2084 (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Robotron 2084 (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Space Dungeon (USA).zip</path>
+    <name>Space Dungeon (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Space Dungeon (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Space Dungeon (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Space Invaders (USA).zip</path>
+    <name>Space Invaders (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Space Invaders (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Space Invaders (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Space Shuttle - A Journey Into Space (USA).zip</path>
+    <name>Space Shuttle - A Journey Into Space (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Space Shuttle - A Journey Into Space (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Space Shuttle - A Journey Into Space (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Spitfire (USA) (Proto).zip</path>
+    <name>Spitfire (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Spitfire (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Spitfire (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Sport Goofy (USA) (Proto).zip</path>
+    <name>Sport Goofy (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Sport Goofy (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Sport Goofy (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Star Raiders (USA) (Alternate).zip</path>
+    <name>Star Raiders (USA) (Alternate)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Star Raiders (USA) (Alternate).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Star Raiders (USA) (Alternate).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Star Raiders (USA).zip</path>
+    <name>Star Raiders (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Star Raiders (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Star Raiders (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Star Trek - Strategic Operations Simulator (USA) (Alt).zip</path>
+    <name>Star Trek - Strategic Operations Simulator (USA) (Alt)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Star Trek - Strategic Operations Simulator (USA) (Alt).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Star Trek - Strategic Operations Simulator (USA) (Alt).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Star Trek - Strategic Operations Simulator (USA).zip</path>
+    <name>Star Trek - Strategic Operations Simulator (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Star Trek - Strategic Operations Simulator (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Star Trek - Strategic Operations Simulator (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Star Wars - Return of the Jedi - Death Star Battle (USA).zip</path>
+    <name>Star Wars - Return of the Jedi - Death Star Battle (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Star Wars - Return of the Jedi - Death Star Battle (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Star Wars - Return of the Jedi - Death Star Battle (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Star Wars - The Arcade Game (USA).zip</path>
+    <name>Star Wars - The Arcade Game (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Star Wars - The Arcade Game (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Star Wars - The Arcade Game (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Stargate (USA) (Proto).zip</path>
+    <name>Stargate (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Stargate (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Stargate (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Super Breakout (USA).zip</path>
+    <name>Super Breakout (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Super Breakout (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Super Breakout (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Super Cobra (USA).zip</path>
+    <name>Super Cobra (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Super Cobra (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Super Cobra (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Super Pac-Man (USA) (Proto).zip</path>
+    <name>Super Pac-Man (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Super Pac-Man (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Super Pac-Man (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Super Pacman (USA) (Proto) (Alt).zip</path>
+    <name>Super Pacman (USA) (Proto) (Alt)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Super Pacman (USA) (Proto) (Alt).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Super Pacman (USA) (Proto) (Alt).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Tempest (USA) (AtariAge).zip</path>
+    <name>Tempest (USA) (AtariAge)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Tempest (USA) (AtariAge).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Tempest (USA) (AtariAge).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Tempest (USA) (Proto).zip</path>
+    <name>Tempest (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Tempest (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Tempest (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Track and Field (USA) (Proto).zip</path>
+    <name>Track and Field (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Track and Field (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Track and Field (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Vanguard (USA).zip</path>
+    <name>Vanguard (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Vanguard (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Vanguard (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Wizard of Wor (USA).zip</path>
+    <name>Wizard of Wor (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Wizard of Wor (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Wizard of Wor (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Xari Arena (USA) (Proto 2).zip</path>
+    <name>Xari Arena (USA) (Proto 2)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Xari Arena (USA) (Proto 2).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Xari Arena (USA) (Proto 2).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Xari Arena (USA) (Proto).zip</path>
+    <name>Xari Arena (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Xari Arena (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Xari Arena (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Xevious (USA) (Proto).zip</path>
+    <name>Xevious (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Xevious (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Xevious (USA) (Proto).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Yellow Submarine (USA) (Demo).zip</path>
+    <name>Yellow Submarine (USA) (Demo)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Yellow Submarine (USA) (Demo).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Yellow Submarine (USA) (Demo).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Zaxxon (USA).zip</path>
+    <name>Zaxxon (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Zaxxon (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Zaxxon (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Zenji (USA).zip</path>
+    <name>Zenji (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Zenji (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Zenji (USA).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Atari - 5200/Zone Ranger (USA).zip</path>
+    <name>Zone Ranger (USA)</name>
+    <image>/recalbox/share/thumbs/Atari - 5200/Named_Titles/Zone Ranger (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/Atari - 5200/Zone Ranger (USA).mp4</video>
+  </game>
+</gamelist>

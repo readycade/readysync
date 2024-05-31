@@ -3,2286 +3,1905 @@
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/2048 (World) (Aftermarket) (Unl).zip</path>
     <name>2048 (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/2048 (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/2048 (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/4Ttude (World) (v1.0) (Atari Lynx 30th Birthday) (Aftermarket) (Unl).zip</path>
     <name>4Ttude (World) (v1.0) (Atari Lynx 30th Birthday) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/4Ttude (World) (v1.0) (Atari Lynx 30th Birthday) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/4Ttude (World) (v1.0) (Atari Lynx 30th Birthday) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/4Ttude (World) (v1.1) (Aftermarket) (Unl).zip</path>
     <name>4Ttude (World) (v1.1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/4Ttude (World) (v1.1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/4Ttude (World) (v1.1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/4Ttude (World) (v1.2) (Aftermarket) (Unl).zip</path>
     <name>4Ttude (World) (v1.2) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/4Ttude (World) (v1.2) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/4Ttude (World) (v1.2) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/8bit-Dungeon (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>8bit-Dungeon (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/8bit-Dungeon (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/8bit-Dungeon (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/8bit-Slicks (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>8bit-Slicks (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/8bit-Slicks (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/8bit-Slicks (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/A.P.B. (USA, Europe).zip</path>
     <name>A.P.B. (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/A.P.B. (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/A.P.B. (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Alien (World) (v1.02) (Aftermarket) (Unl).zip</path>
     <name>Alien (World) (v1.02) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Alien (World) (v1.02) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Alien (World) (v1.02) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Alien (World) (v1.03) (Aftermarket) (Unl).zip</path>
     <name>Alien (World) (v1.03) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Alien (World) (v1.03) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Alien (World) (v1.03) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Alien (World) (v1.04) (Aftermarket) (Unl).zip</path>
     <name>Alien (World) (v1.04) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Alien (World) (v1.04) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Alien (World) (v1.04) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Alien (World) (v1.06) (Aftermarket) (Unl).zip</path>
     <name>Alien (World) (v1.06) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Alien (World) (v1.06) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Alien (World) (v1.06) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Alien vs Predator (USA) (Proto) (1993-12-17).zip</path>
     <name>Alien vs Predator (USA) (Proto) (1993-12-17)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Alien vs Predator (USA) (Proto) (1993-12-17).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Alien vs Predator (USA) (Proto) (1993-12-17).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Allein (World) (De) (Aftermarket) (Unl).zip</path>
     <name>Allein (World) (De) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Allein (World) (De) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Allein (World) (De) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Always Winter, Never Christmas (World) (Aftermarket) (Unl).zip</path>
     <name>Always Winter, Never Christmas (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Always Winter, Never Christmas (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Always Winter, Never Christmas (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Angry Motes (World) (Aftermarket) (Unl).zip</path>
     <name>Angry Motes (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Angry Motes (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Angry Motes (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Anti A-Bomb Aircraft Artillery (World) (v1.0) (Aftermarket) (Unl).zip</path>
     <name>Anti A-Bomb Aircraft Artillery (World) (v1.0) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Anti A-Bomb Aircraft Artillery (World) (v1.0) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Anti A-Bomb Aircraft Artillery (World) (v1.0) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Anti A-Bomb Aircraft Artillery (World) (v1.1) (Aftermarket) (Unl).zip</path>
     <name>Anti A-Bomb Aircraft Artillery (World) (v1.1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Anti A-Bomb Aircraft Artillery (World) (v1.1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Anti A-Bomb Aircraft Artillery (World) (v1.1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Assembloids (World) (v1.00) (Digital) (Atari Lynx 30th Birthday) (Aftermarket) (Unl).zip</path>
     <name>Assembloids (World) (v1.00) (Digital) (Atari Lynx 30th Birthday) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Assembloids (World) (v1.00) (Digital) (Atari Lynx 30th Birthday) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Assembloids (World) (v1.00) (Digital) (Atari Lynx 30th Birthday) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Assembloids (World) (v1.04) (Digital) (Aftermarket) (Unl).zip</path>
     <name>Assembloids (World) (v1.04) (Digital) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Assembloids (World) (v1.04) (Digital) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Assembloids (World) (v1.04) (Digital) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Asteroids Chasers (World) (2020-08-14) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Asteroids Chasers (World) (2020-08-14) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Asteroids Chasers (World) (2020-08-14) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Asteroids Chasers (World) (2020-08-14) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Asteroids Chasers (World) (2020-08-16) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Asteroids Chasers (World) (2020-08-16) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Asteroids Chasers (World) (2020-08-16) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Asteroids Chasers (World) (2020-08-16) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Atari Lynx Pong (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Atari Lynx Pong (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Atari Lynx Pong (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Atari Lynx Pong (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Atari Tabletops Collection (World) (v1.0) (Aftermarket) (Unl).zip</path>
     <name>Atari Tabletops Collection (World) (v1.0) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Atari Tabletops Collection (World) (v1.0) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Atari Tabletops Collection (World) (v1.0) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Atari Tabletops Collection (World) (v1.1) (Aftermarket) (Unl).zip</path>
     <name>Atari Tabletops Collection (World) (v1.1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Atari Tabletops Collection (World) (v1.1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Atari Tabletops Collection (World) (v1.1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Atomix (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Atomix (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Atomix (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Atomix (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Awesome Golf (USA, Europe).zip</path>
     <name>Awesome Golf (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Awesome Golf (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Awesome Golf (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Banana Ghost (World) (v0.1) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Banana Ghost (World) (v0.1) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Banana Ghost (World) (v0.1) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Banana Ghost (World) (v0.1) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Banana Ghost (World) (v0.2) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Banana Ghost (World) (v0.2) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Banana Ghost (World) (v0.2) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Banana Ghost (World) (v0.2) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Bars (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Bars (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Bars (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Bars (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Baseball Heroes (USA, Europe).zip</path>
     <name>Baseball Heroes (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Baseball Heroes (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Baseball Heroes (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Basketbrawl (USA, Europe).zip</path>
     <name>Basketbrawl (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Basketbrawl (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Basketbrawl (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Bastion (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Bastion (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Bastion (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Bastion (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Bathman (World) (Aftermarket) (Unl).zip</path>
     <name>Bathman (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Bathman (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Bathman (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Batman Returns (USA, Europe).zip</path>
     <name>Batman Returns (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Batman Returns (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Batman Returns (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Battle Wheels (USA, Europe).zip</path>
     <name>Battle Wheels (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Battle Wheels (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Battle Wheels (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Battlespace (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Battlespace (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Battlespace (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Battlespace (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Battlezone 2000 (USA, Europe).zip</path>
     <name>Battlezone 2000 (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Battlezone 2000 (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Battlezone 2000 (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Befok (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Befok (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Befok (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Befok (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Bezerkoids (World) (Proto 1) (Aftermarket) (Unl).zip</path>
     <name>Bezerkoids (World) (Proto 1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Bezerkoids (World) (Proto 1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Bezerkoids (World) (Proto 1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Bezerkoids (World) (Proto 2) (Aftermarket) (Unl).zip</path>
     <name>Bezerkoids (World) (Proto 2) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Bezerkoids (World) (Proto 2) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Bezerkoids (World) (Proto 2) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Bezerkoids (World) (Proto 3) (Aftermarket) (Unl).zip</path>
     <name>Bezerkoids (World) (Proto 3) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Bezerkoids (World) (Proto 3) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Bezerkoids (World) (Proto 3) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Bill &amp; Ted's Excellent Adventure (USA, Europe).zip</path>
     <name>Bill &amp; Ted&apos;s Excellent Adventure (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Bill &amp; Ted&apos;s Excellent Adventure (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Bill &amp; Ted&apos;s Excellent Adventure (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Biniax (World) (v0.1) (Beta) (Aftermarket) (Unl).zip</path>
     <name>Biniax (World) (v0.1) (Beta) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Biniax (World) (v0.1) (Beta) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Biniax (World) (v0.1) (Beta) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Biniax (World) (v0.2) (Beta) (Aftermarket) (Unl).zip</path>
     <name>Biniax (World) (v0.2) (Beta) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Biniax (World) (v0.2) (Beta) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Biniax (World) (v0.2) (Beta) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Biniax (World) (v0.3) (Beta) (Aftermarket) (Unl).zip</path>
     <name>Biniax (World) (v0.3) (Beta) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Biniax (World) (v0.3) (Beta) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Biniax (World) (v0.3) (Beta) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Biniax (World) (v1.0) (Aftermarket) (Unl).zip</path>
     <name>Biniax (World) (v1.0) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Biniax (World) (v1.0) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Biniax (World) (v1.0) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Bitchy (World) (Digital) (Aftermarket) (Unl).zip</path>
     <name>Bitchy (World) (Digital) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Bitchy (World) (Digital) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Bitchy (World) (Digital) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Black Pit (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Black Pit (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Black Pit (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Black Pit (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Block Out (USA, Europe).zip</path>
     <name>Block Out (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Block Out (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Block Out (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Blue Lightning (World) (Demo).zip</path>
     <name>Blue Lightning (World) (Demo)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Blue Lightning (World) (Demo).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Blue Lightning (World) (Demo).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Blue Lightning (World).zip</path>
     <name>Blue Lightning (World)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Blue Lightning (World).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Blue Lightning (World).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Bobo (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Bobo (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Bobo (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Bobo (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Booster (World) (v0.3) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Booster (World) (v0.3) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Booster (World) (v0.3) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Booster (World) (v0.3) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Booster - Xmas Edition (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Booster - Xmas Edition (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Booster - Xmas Edition (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Booster - Xmas Edition (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Bowling Area (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Bowling Area (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Bowling Area (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Bowling Area (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Bowling Beast (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Bowling Beast (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Bowling Beast (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Bowling Beast (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Bubble Trouble (USA, Europe).zip</path>
     <name>Bubble Trouble (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Bubble Trouble (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Bubble Trouble (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Bug Hunt (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Bug Hunt (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Bug Hunt (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Bug Hunt (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Bug's Lynx, A (World) (2009-04-20) (Demo) (AC2k9) (Aftermarket) (Unl).zip</path>
     <name>Bug&apos;s Lynx, A (World) (2009-04-20) (Demo) (AC2k9) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Bug&apos;s Lynx, A (World) (2009-04-20) (Demo) (AC2k9) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Bug&apos;s Lynx, A (World) (2009-04-20) (Demo) (AC2k9) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Bug's Lynx, A (World) (2018-11-02) (Demo) (eJagFest 2018) (Aftermarket) (Unl).zip</path>
     <name>Bug&apos;s Lynx, A (World) (2018-11-02) (Demo) (eJagFest 2018) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Bug&apos;s Lynx, A (World) (2018-11-02) (Demo) (eJagFest 2018) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Bug&apos;s Lynx, A (World) (2018-11-02) (Demo) (eJagFest 2018) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Bug's Lynx, A (World) (2020-04-03) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Bug&apos;s Lynx, A (World) (2020-04-03) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Bug&apos;s Lynx, A (World) (2020-04-03) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Bug&apos;s Lynx, A (World) (2020-04-03) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Bug's Trip Redux, A (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Bug&apos;s Trip Redux, A (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Bug&apos;s Trip Redux, A (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Bug&apos;s Trip Redux, A (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/C-Gull (World) (Aftermarket) (Unl).zip</path>
     <name>C-Gull (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/C-Gull (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/C-Gull (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/CSS - Traffic Regulation (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>CSS - Traffic Regulation (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/CSS - Traffic Regulation (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/CSS - Traffic Regulation (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Cabal (USA) (Demo).zip</path>
     <name>Cabal (USA) (Demo)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Cabal (USA) (Demo).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Cabal (USA) (Demo).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/California Games (World).zip</path>
     <name>California Games (World)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/California Games (World).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/California Games (World).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Captain Harlynx (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Captain Harlynx (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Captain Harlynx (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Captain Harlynx (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Cardtest (World) (Beta) (Aftermarket) (Unl).zip</path>
     <name>Cardtest (World) (Beta) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Cardtest (World) (Beta) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Cardtest (World) (Beta) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Castle of Khon-gis, The (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Castle of Khon-gis, The (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Castle of Khon-gis, The (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Castle of Khon-gis, The (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Catkanoid (World) (Aftermarket) (Unl).zip</path>
     <name>Catkanoid (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Catkanoid (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Catkanoid (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Centipede (USA) (Proto).zip</path>
     <name>Centipede (USA) (Proto)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Centipede (USA) (Proto).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Centipede (USA) (Proto).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Chase (World) (Aftermarket) (Unl).zip</path>
     <name>Chase (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Chase (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Chase (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Chasm Warden (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Chasm Warden (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Chasm Warden (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Chasm Warden (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Checkered Flag (USA, Europe).zip</path>
     <name>Checkered Flag (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Checkered Flag (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Checkered Flag (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Chip's Challenge (World).zip</path>
     <name>Chip&apos;s Challenge (World)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Chip&apos;s Challenge (World).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Chip&apos;s Challenge (World).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Choplifter (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Choplifter (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Choplifter (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Choplifter (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Choplifter X (World) (Aftermarket) (Unl).zip</path>
     <name>Choplifter X (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Choplifter X (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Choplifter X (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Circuit Dude (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Circuit Dude (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Circuit Dude (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Circuit Dude (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Clicks! (World) (Aftermarket) (Unl).zip</path>
     <name>Clicks! (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Clicks! (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Clicks! (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Columns (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Columns (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Columns (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Columns (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Conquest of Zow (World) (Demo) (Unl).zip</path>
     <name>Conquest of Zow (World) (Demo) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Conquest of Zow (World) (Demo) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Conquest of Zow (World) (Demo) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Conquistador (World) (v1.0) (Aftermarket) (Unl).zip</path>
     <name>Conquistador (World) (v1.0) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Conquistador (World) (v1.0) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Conquistador (World) (v1.0) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Conquistador (World) (v1.1) (Aftermarket) (Unl).zip</path>
     <name>Conquistador (World) (v1.1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Conquistador (World) (v1.1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Conquistador (World) (v1.1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Crate Challenge (World) (v1.1) (Aftermarket) (Unl).zip</path>
     <name>Crate Challenge (World) (v1.1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Crate Challenge (World) (v1.1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Crate Challenge (World) (v1.1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Critter Championship (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Critter Championship (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Critter Championship (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Critter Championship (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Cross Bomber (World) (Aftermarket) (Unl).zip</path>
     <name>Cross Bomber (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Cross Bomber (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Cross Bomber (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Cross Chase (World) (v1.0) (Aftermarket) (Unl).zip</path>
     <name>Cross Chase (World) (v1.0) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Cross Chase (World) (v1.0) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Cross Chase (World) (v1.0) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Cross Chase (World) (v1.1) (Aftermarket) (Unl).zip</path>
     <name>Cross Chase (World) (v1.1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Cross Chase (World) (v1.1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Cross Chase (World) (v1.1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Cross Chase (World) (v1.2) (Aftermarket) (Unl).zip</path>
     <name>Cross Chase (World) (v1.2) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Cross Chase (World) (v1.2) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Cross Chase (World) (v1.2) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Cross Horde (World) (Aftermarket) (Unl).zip</path>
     <name>Cross Horde (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Cross Horde (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Cross Horde (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Cross Shoot (World) (Aftermarket) (Unl).zip</path>
     <name>Cross Shoot (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Cross Shoot (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Cross Shoot (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Cross Snake (World) (Aftermarket) (Unl).zip</path>
     <name>Cross Snake (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Cross Snake (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Cross Snake (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Crystal Mines II (USA, Europe).zip</path>
     <name>Crystal Mines II (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Crystal Mines II (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Crystal Mines II (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Crystal Mines II - Buried Treasure (World) (Aftermarket) (Unl).zip</path>
     <name>Crystal Mines II - Buried Treasure (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Crystal Mines II - Buried Treasure (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Crystal Mines II - Buried Treasure (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Cyberpunk Experiment 2037 (World) (2020-04-13) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Cyberpunk Experiment 2037 (World) (2020-04-13) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Cyberpunk Experiment 2037 (World) (2020-04-13) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Cyberpunk Experiment 2037 (World) (2020-04-13) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Cyberpunk Experiment 2037 (World) (2020-04-14) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Cyberpunk Experiment 2037 (World) (2020-04-14) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Cyberpunk Experiment 2037 (World) (2020-04-14) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Cyberpunk Experiment 2037 (World) (2020-04-14) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Cyberpunk Experiment 2037 (World) (2020-04-21) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Cyberpunk Experiment 2037 (World) (2020-04-21) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Cyberpunk Experiment 2037 (World) (2020-04-21) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Cyberpunk Experiment 2037 (World) (2020-04-21) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Cyberpunk Experiment 2037 (World) (2020-06-01) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Cyberpunk Experiment 2037 (World) (2020-06-01) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Cyberpunk Experiment 2037 (World) (2020-06-01) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Cyberpunk Experiment 2037 (World) (2020-06-01) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Daemon's Gate (USA) (Proto 1).zip</path>
     <name>Daemon&apos;s Gate (USA) (Proto 1)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Daemon&apos;s Gate (USA) (Proto 1).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Daemon&apos;s Gate (USA) (Proto 1).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Daemon's Gate (USA) (Proto 2).zip</path>
     <name>Daemon&apos;s Gate (USA) (Proto 2)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Daemon&apos;s Gate (USA) (Proto 2).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Daemon&apos;s Gate (USA) (Proto 2).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Dance, Bro! (World) (Aftermarket) (Unl).zip</path>
     <name>Dance, Bro! (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Dance, Bro! (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Dance, Bro! (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Desert Strike - Return to the Gulf (USA, Europe).zip</path>
     <name>Desert Strike - Return to the Gulf (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Desert Strike - Return to the Gulf (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Desert Strike - Return to the Gulf (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Devil's Show, The (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Devil&apos;s Show, The (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Devil&apos;s Show, The (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Devil&apos;s Show, The (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Dice - Board Game (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Dice - Board Game (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Dice - Board Game (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Dice - Board Game (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Dinolympics (USA, Europe).zip</path>
     <name>Dinolympics (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Dinolympics (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Dinolympics (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Dirty Larry - Renegade Cop (USA, Europe).zip</path>
     <name>Dirty Larry - Renegade Cop (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Dirty Larry - Renegade Cop (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Dirty Larry - Renegade Cop (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Doom (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Doom (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Doom (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Doom (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Double Dragon (USA, Europe).zip</path>
     <name>Double Dragon (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Double Dragon (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Double Dragon (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Dracula - The Undead (USA, Europe).zip</path>
     <name>Dracula - The Undead (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Dracula - The Undead (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Dracula - The Undead (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/DrunkWitch (World) (Aftermarket) (Unl).zip</path>
     <name>DrunkWitch (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/DrunkWitch (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/DrunkWitch (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Dungeddon (World) (Beta) (Aftermarket) (Unl).zip</path>
     <name>Dungeddon (World) (Beta) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Dungeddon (World) (Beta) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Dungeddon (World) (Beta) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Dungeddon (World) (v1.1) (Aftermarket) (Unl).zip</path>
     <name>Dungeddon (World) (v1.1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Dungeddon (World) (v1.1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Dungeddon (World) (v1.1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Dynalynx (World) (v0.4) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Dynalynx (World) (v0.4) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Dynalynx (World) (v0.4) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Dynalynx (World) (v0.4) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Eggsavier's Cackleberry Rescue (World) (v1.0) (Aftermarket) (Unl).zip</path>
     <name>Eggsavier&apos;s Cackleberry Rescue (World) (v1.0) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Eggsavier&apos;s Cackleberry Rescue (World) (v1.0) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Eggsavier&apos;s Cackleberry Rescue (World) (v1.0) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Eggsavier's Cackleberry Rescue (World) (v1.1) (Aftermarket) (Unl).zip</path>
     <name>Eggsavier&apos;s Cackleberry Rescue (World) (v1.1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Eggsavier&apos;s Cackleberry Rescue (World) (v1.1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Eggsavier&apos;s Cackleberry Rescue (World) (v1.1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Electrocop (World).zip</path>
     <name>Electrocop (World)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Electrocop (World).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Electrocop (World).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Escape from Dungeon of Deja Vu (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Escape from Dungeon of Deja Vu (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Escape from Dungeon of Deja Vu (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Escape from Dungeon of Deja Vu (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/European Soccer Challenge (USA, Europe).zip</path>
     <name>European Soccer Challenge (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/European Soccer Challenge (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/European Soccer Challenge (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Eye of the Beholder (USA) (Proto 1).zip</path>
     <name>Eye of the Beholder (USA) (Proto 1)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Eye of the Beholder (USA) (Proto 1).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Eye of the Beholder (USA) (Proto 1).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Eye of the Beholder (USA) (Proto 2) (Aftermarket) (Unl).zip</path>
     <name>Eye of the Beholder (USA) (Proto 2) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Eye of the Beholder (USA) (Proto 2) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Eye of the Beholder (USA) (Proto 2) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Eye of the Beholder (World) (Unl).zip</path>
     <name>Eye of the Beholder (World) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Eye of the Beholder (World) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Eye of the Beholder (World) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Fat Bobby (USA, Europe).zip</path>
     <name>Fat Bobby (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Fat Bobby (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Fat Bobby (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Fidelity Ultimate Chess Challenge, The (USA, Europe).zip</path>
     <name>Fidelity Ultimate Chess Challenge, The (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Fidelity Ultimate Chess Challenge, The (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Fidelity Ultimate Chess Challenge, The (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Final Melee (World) (Aftermarket) (Unl).zip</path>
     <name>Final Melee (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Final Melee (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Final Melee (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Find a Way to My Heart (World) (Aftermarket) (Unl).zip</path>
     <name>Find a Way to My Heart (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Find a Way to My Heart (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Find a Way to My Heart (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Find a Way to My Heart (World) (Atari Lynx 30th Birthday) (Aftermarket) (Unl).zip</path>
     <name>Find a Way to My Heart (World) (Atari Lynx 30th Birthday) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Find a Way to My Heart (World) (Atari Lynx 30th Birthday) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Find a Way to My Heart (World) (Atari Lynx 30th Birthday) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Fishing for Atari (World) (Aftermarket) (Unl).zip</path>
     <name>Fishing for Atari (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Fishing for Atari (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Fishing for Atari (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Fission (World) (v0.6) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Fission (World) (v0.6) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Fission (World) (v0.6) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Fission (World) (v0.6) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Fortress Fighter (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Fortress Fighter (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Fortress Fighter (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Fortress Fighter (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Friendly (World) (Demo) (Unl).zip</path>
     <name>Friendly (World) (Demo) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Friendly (World) (Demo) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Friendly (World) (Demo) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Full Court Press (USA) (Proto).zip</path>
     <name>Full Court Press (USA) (Proto)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Full Court Press (USA) (Proto).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Full Court Press (USA) (Proto).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Game of Life (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Game of Life (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Game of Life (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Game of Life (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Garci (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Garci (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Garci (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Garci (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Gates of Zendocon (World).zip</path>
     <name>Gates of Zendocon (World)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Gates of Zendocon (World).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Gates of Zendocon (World).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Gauntlet - The Third Encounter (World) (Beta) (1990-06-04).zip</path>
     <name>Gauntlet - The Third Encounter (World) (Beta) (1990-06-04)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Gauntlet - The Third Encounter (World) (Beta) (1990-06-04).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Gauntlet - The Third Encounter (World) (Beta) (1990-06-04).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Gauntlet - The Third Encounter (World).zip</path>
     <name>Gauntlet - The Third Encounter (World)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Gauntlet - The Third Encounter (World).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Gauntlet - The Third Encounter (World).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Geoduel (USA) (Demo).zip</path>
     <name>Geoduel (USA) (Demo)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Geoduel (USA) (Demo).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Geoduel (USA) (Demo).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Gift Catcher (World) (Aftermarket) (Unl).zip</path>
     <name>Gift Catcher (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Gift Catcher (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Gift Catcher (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Glob Shoot (World) (v0.62) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Glob Shoot (World) (v0.62) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Glob Shoot (World) (v0.62) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Glob Shoot (World) (v0.62) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Gnop! (World) (v0.4) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Gnop! (World) (v0.4) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Gnop! (World) (v0.4) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Gnop! (World) (v0.4) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Gnop! (World) (v0.6) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Gnop! (World) (v0.6) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Gnop! (World) (v0.6) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Gnop! (World) (v0.6) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Gomoku (World) (Aftermarket) (Unl).zip</path>
     <name>Gomoku (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Gomoku (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Gomoku (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Gordo 106 (USA, Europe).zip</path>
     <name>Gordo 106 (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Gordo 106 (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Gordo 106 (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Grail of the Lava Kingdom, The (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Grail of the Lava Kingdom, The (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Grail of the Lava Kingdom, The (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Grail of the Lava Kingdom, The (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Griel's Quest for the Sangraal (World) (v0.1) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Griel&apos;s Quest for the Sangraal (World) (v0.1) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Griel&apos;s Quest for the Sangraal (World) (v0.1) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Griel&apos;s Quest for the Sangraal (World) (v0.1) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Griel's Quest for the Sangraal (World) (v0.2) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Griel&apos;s Quest for the Sangraal (World) (v0.2) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Griel&apos;s Quest for the Sangraal (World) (v0.2) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Griel&apos;s Quest for the Sangraal (World) (v0.2) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Griel's Quest for the Sangraal (World) (v0.3) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Griel&apos;s Quest for the Sangraal (World) (v0.3) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Griel&apos;s Quest for the Sangraal (World) (v0.3) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Griel&apos;s Quest for the Sangraal (World) (v0.3) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Griel's Quest for the Sangraal (World) (v0.4) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Griel&apos;s Quest for the Sangraal (World) (v0.4) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Griel&apos;s Quest for the Sangraal (World) (v0.4) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Griel&apos;s Quest for the Sangraal (World) (v0.4) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Grime 6502 (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Grime 6502 (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Grime 6502 (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Grime 6502 (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Grogger (World) (Aftermarket) (Unl).zip</path>
     <name>Grogger (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Grogger (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Grogger (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Growing Ties (World) (Aftermarket) (Unl).zip</path>
     <name>Growing Ties (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Growing Ties (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Growing Ties (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Guardians, The - Storm Over Doria (USA) (Proto 1).zip</path>
     <name>Guardians, The - Storm Over Doria (USA) (Proto 1)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Guardians, The - Storm Over Doria (USA) (Proto 1).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Guardians, The - Storm Over Doria (USA) (Proto 1).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Guardians, The - Storm Over Doria (USA) (Proto 2).zip</path>
     <name>Guardians, The - Storm Over Doria (USA) (Proto 2)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Guardians, The - Storm Over Doria (USA) (Proto 2).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Guardians, The - Storm Over Doria (USA) (Proto 2).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Hard Drivin' (USA, Europe).zip</path>
     <name>Hard Drivin&apos; (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Hard Drivin&apos; (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Hard Drivin&apos; (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Hero Dust (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Hero Dust (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Hero Dust (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Hero Dust (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Hockey (USA, Europe).zip</path>
     <name>Hockey (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Hockey (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Hockey (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Hotdog (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Hotdog (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Hotdog (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Hotdog (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Hungry Monsters (World) (v1.0) (Retro Platform Jam #4) (Aftermarket) (Unl).zip</path>
     <name>Hungry Monsters (World) (v1.0) (Retro Platform Jam #4) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Hungry Monsters (World) (v1.0) (Retro Platform Jam #4) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Hungry Monsters (World) (v1.0) (Retro Platform Jam #4) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Hungry Monsters (World) (v1.1) (Aftermarket) (Unl).zip</path>
     <name>Hungry Monsters (World) (v1.1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Hungry Monsters (World) (v1.1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Hungry Monsters (World) (v1.1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Hydra (USA, Europe).zip</path>
     <name>Hydra (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Hydra (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Hydra (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Inside World, The (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Inside World, The (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Inside World, The (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Inside World, The (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Invaders (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Invaders (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Invaders (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Invaders (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Ishido - The Way of Stones (USA, Europe).zip</path>
     <name>Ishido - The Way of Stones (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Ishido - The Way of Stones (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Ishido - The Way of Stones (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Jelly Beans (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Jelly Beans (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Jelly Beans (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Jelly Beans (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/JetPack Hero (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>JetPack Hero (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/JetPack Hero (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/JetPack Hero (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Jimmy Connors' Tennis (USA, Europe).zip</path>
     <name>Jimmy Connors&apos; Tennis (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Jimmy Connors&apos; Tennis (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Jimmy Connors&apos; Tennis (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Joust (USA, Europe).zip</path>
     <name>Joust (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Joust (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Joust (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Jungle Jack (World) (Aftermarket) (Unl).zip</path>
     <name>Jungle Jack (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Jungle Jack (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Jungle Jack (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Jungle Jack (World) (Beta) (Aftermarket) (Unl).zip</path>
     <name>Jungle Jack (World) (Beta) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Jungle Jack (World) (Beta) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Jungle Jack (World) (Beta) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Karateboy (World) (v1.0) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Karateboy (World) (v1.0) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Karateboy (World) (v1.0) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Karateboy (World) (v1.0) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Karateboy (World) (v1.1) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Karateboy (World) (v1.1) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Karateboy (World) (v1.1) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Karateboy (World) (v1.1) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Kistenschieben (World) (v0.2) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Kistenschieben (World) (v0.2) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Kistenschieben (World) (v0.2) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Kistenschieben (World) (v0.2) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Klax (World) (Beta).zip</path>
     <name>Klax (World) (Beta)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Klax (World) (Beta).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Klax (World) (Beta).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Klax (World).zip</path>
     <name>Klax (World)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Klax (World).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Klax (World).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Klondike (World) (Beta 1) (Aftermarket) (Unl).zip</path>
     <name>Klondike (World) (Beta 1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Klondike (World) (Beta 1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Klondike (World) (Beta 1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Klondike (World) (Beta 2) (Aftermarket) (Unl).zip</path>
     <name>Klondike (World) (Beta 2) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Klondike (World) (Beta 2) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Klondike (World) (Beta 2) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Knight Moves (World) (Aftermarket) (Unl).zip</path>
     <name>Knight Moves (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Knight Moves (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Knight Moves (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Knightmare (World) (v1.0) (Aftermarket) (Unl).zip</path>
     <name>Knightmare (World) (v1.0) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Knightmare (World) (v1.0) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Knightmare (World) (v1.0) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Knightmare (World) (v1.1) (Aftermarket) (Unl).zip</path>
     <name>Knightmare (World) (v1.1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Knightmare (World) (v1.1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Knightmare (World) (v1.1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Krazy Ace - Miniature Golf (USA, Europe).zip</path>
     <name>Krazy Ace - Miniature Golf (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Krazy Ace - Miniature Golf (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Krazy Ace - Miniature Golf (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Krow (World) (v1.01) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Krow (World) (v1.01) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Krow (World) (v1.01) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Krow (World) (v1.01) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Kung Food (USA, Europe).zip</path>
     <name>Kung Food (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Kung Food (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Kung Food (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Lawnmower (World) (v1.1) (Aftermarket) (Unl).zip</path>
     <name>Lawnmower (World) (v1.1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Lawnmower (World) (v1.1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Lawnmower (World) (v1.1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Lemmings (USA, Europe).zip</path>
     <name>Lemmings (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Lemmings (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Lemmings (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Lexis (World) (Aftermarket) (Unl).zip</path>
     <name>Lexis (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Lexis (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Lexis (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Limny (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Limny (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Limny (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Limny (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Lode Runner (World) (Proto 1) (Aftermarket) (Unl).zip</path>
     <name>Lode Runner (World) (Proto 1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Lode Runner (World) (Proto 1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Lode Runner (World) (Proto 1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Lode Runner (World) (Proto 2) (Aftermarket) (Unl).zip</path>
     <name>Lode Runner (World) (Proto 2) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Lode Runner (World) (Proto 2) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Lode Runner (World) (Proto 2) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Loopz (USA) (v0.04) (Proto) (1992-09-16).zip</path>
     <name>Loopz (USA) (v0.04) (Proto) (1992-09-16)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Loopz (USA) (v0.04) (Proto) (1992-09-16).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Loopz (USA) (v0.04) (Proto) (1992-09-16).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Loopz (USA) (v0.06) (Proto) (1992-11-05).zip</path>
     <name>Loopz (USA) (v0.06) (Proto) (1992-11-05)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Loopz (USA) (v0.06) (Proto) (1992-11-05).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Loopz (USA) (v0.06) (Proto) (1992-11-05).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Luchsenstein 3D (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Luchsenstein 3D (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Luchsenstein 3D (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Luchsenstein 3D (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Lynx Blast (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Lynx Blast (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Lynx Blast (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Lynx Blast (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Lynx Casino (USA, Europe).zip</path>
     <name>Lynx Casino (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Lynx Casino (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Lynx Casino (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Lynx II Production Test Program (USA).zip</path>
     <name>Lynx II Production Test Program (USA)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Lynx II Production Test Program (USA).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Lynx II Production Test Program (USA).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Lynx Ops (World) (v0.1) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Lynx Ops (World) (v0.1) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Lynx Ops (World) (v0.1) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Lynx Ops (World) (v0.1) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Lynx Ops (World) (v0.2) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Lynx Ops (World) (v0.2) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Lynx Ops (World) (v0.2) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Lynx Ops (World) (v0.2) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Lynx Othello (World) (Aftermarket) (Unl).zip</path>
     <name>Lynx Othello (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Lynx Othello (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Lynx Othello (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Lynx Quest (World) (v1.00) (Atari Lynx 30th Birthday) (Aftermarket) (Unl).zip</path>
     <name>Lynx Quest (World) (v1.00) (Atari Lynx 30th Birthday) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Lynx Quest (World) (v1.00) (Atari Lynx 30th Birthday) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Lynx Quest (World) (v1.00) (Atari Lynx 30th Birthday) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Lynx Quest (World) (v1.04) (Aftermarket) (Unl).zip</path>
     <name>Lynx Quest (World) (v1.04) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Lynx Quest (World) (v1.04) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Lynx Quest (World) (v1.04) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Lynx Sketch (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Lynx Sketch (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Lynx Sketch (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Lynx Sketch (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Lynx Tris (World) (Aftermarket) (Unl).zip</path>
     <name>Lynx Tris (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Lynx Tris (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Lynx Tris (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Lynx Tris (World) (Beta) (Aftermarket) (Unl).zip</path>
     <name>Lynx Tris (World) (Beta) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Lynx Tris (World) (Beta) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Lynx Tris (World) (Beta) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Lynxopoly (World) (Aftermarket) (Unl).zip</path>
     <name>Lynxopoly (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Lynxopoly (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Lynxopoly (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Maldetetemagic Vol.1 (World) (Aftermarket) (Unl).zip</path>
     <name>Maldetetemagic Vol.1 (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Maldetetemagic Vol.1 (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Maldetetemagic Vol.1 (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Maldetetemagic Vol.2 (World) (Aftermarket) (Unl).zip</path>
     <name>Maldetetemagic Vol.2 (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Maldetetemagic Vol.2 (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Maldetetemagic Vol.2 (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Malibu Bikini Volleyball (USA, Europe) (Beta) (1993-05-11).zip</path>
     <name>Malibu Bikini Volleyball (USA, Europe) (Beta) (1993-05-11)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Malibu Bikini Volleyball (USA, Europe) (Beta) (1993-05-11).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Malibu Bikini Volleyball (USA, Europe) (Beta) (1993-05-11).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Malibu Bikini Volleyball (USA, Europe).zip</path>
     <name>Malibu Bikini Volleyball (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Malibu Bikini Volleyball (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Malibu Bikini Volleyball (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Marble Madness (World) (Aftermarket) (Unl).zip</path>
     <name>Marble Madness (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Marble Madness (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Marble Madness (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Marble Madness (World) (Beta) (Aftermarket) (Unl).zip</path>
     <name>Marble Madness (World) (Beta) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Marble Madness (World) (Beta) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Marble Madness (World) (Beta) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Marlboro Go! (Europe) (Proto 1).zip</path>
     <name>Marlboro Go! (Europe) (Proto 1)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Marlboro Go! (Europe) (Proto 1).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Marlboro Go! (Europe) (Proto 1).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Marlboro Go! (Europe) (Proto 2).zip</path>
     <name>Marlboro Go! (Europe) (Proto 2)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Marlboro Go! (Europe) (Proto 2).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Marlboro Go! (Europe) (Proto 2).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/MegaPak Vol.1 (World) (Aftermarket) (Unl).zip</path>
     <name>MegaPak Vol.1 (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/MegaPak Vol.1 (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/MegaPak Vol.1 (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Microvaders (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Microvaders (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Microvaders (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Microvaders (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Mines 2 (World) (Demo) (Unl).zip</path>
     <name>Mines 2 (World) (Demo) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Mines 2 (World) (Demo) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Mines 2 (World) (Demo) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Minimal (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Minimal (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Minimal (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Minimal (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Moon Runner (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Moon Runner (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Moon Runner (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Moon Runner (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Mortal Kombat (World) (Aftermarket) (Unl).zip</path>
     <name>Mortal Kombat (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Mortal Kombat (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Mortal Kombat (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Ms. Pac-Man (World).zip</path>
     <name>Ms. Pac-Man (World)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Ms. Pac-Man (World).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Ms. Pac-Man (World).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/MultiPong 1k (World) (Aftermarket) (Unl).zip</path>
     <name>MultiPong 1k (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/MultiPong 1k (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/MultiPong 1k (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/NFL Football (USA, Europe).zip</path>
     <name>NFL Football (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/NFL Football (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/NFL Football (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Naughty (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Naughty (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Naughty (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Naughty (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Nezumi-kun to Poker Shiyouyo (World) (Ja) (v1.0) (Aftermarket) (Unl).zip</path>
     <name>Nezumi-kun to Poker Shiyouyo (World) (Ja) (v1.0) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Nezumi-kun to Poker Shiyouyo (World) (Ja) (v1.0) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Nezumi-kun to Poker Shiyouyo (World) (Ja) (v1.0) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Nezumi-kun to Poker Shiyouyo (World) (Ja) (v1.1) (Aftermarket) (Unl).zip</path>
     <name>Nezumi-kun to Poker Shiyouyo (World) (Ja) (v1.1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Nezumi-kun to Poker Shiyouyo (World) (Ja) (v1.1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Nezumi-kun to Poker Shiyouyo (World) (Ja) (v1.1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Nezumi-kun to Poker Shiyouyo (World) (Ja) (v1.2) (Aftermarket) (Unl).zip</path>
     <name>Nezumi-kun to Poker Shiyouyo (World) (Ja) (v1.2) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Nezumi-kun to Poker Shiyouyo (World) (Ja) (v1.2) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Nezumi-kun to Poker Shiyouyo (World) (Ja) (v1.2) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Ninja Gaiden (USA, Europe).zip</path>
     <name>Ninja Gaiden (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Ninja Gaiden (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Ninja Gaiden (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Ninja Gaiden III - The Ancient Ship of Doom (USA, Europe).zip</path>
     <name>Ninja Gaiden III - The Ancient Ship of Doom (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Ninja Gaiden III - The Ancient Ship of Doom (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Ninja Gaiden III - The Ancient Ship of Doom (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Ninja Nerd (USA) (Demo).zip</path>
     <name>Ninja Nerd (USA) (Demo)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Ninja Nerd (USA) (Demo).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Ninja Nerd (USA) (Demo).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/No Time (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>No Time (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/No Time (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/No Time (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Nomad Rally 2018 (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Nomad Rally 2018 (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Nomad Rally 2018 (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Nomad Rally 2018 (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Nutmeg (World) (Aftermarket) (Unl).zip</path>
     <name>Nutmeg (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Nutmeg (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Nutmeg (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Nyan Cat (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Nyan Cat (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Nyan Cat (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Nyan Cat (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Odynexus - Journey to Ithaca (World) (Demo) (Silly Venture 2019) (Aftermarket) (Unl).zip</path>
     <name>Odynexus - Journey to Ithaca (World) (Demo) (Silly Venture 2019) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Odynexus - Journey to Ithaca (World) (Demo) (Silly Venture 2019) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Odynexus - Journey to Ithaca (World) (Demo) (Silly Venture 2019) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Odynexus - Journey to Ithaca (World) (v0.98) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Odynexus - Journey to Ithaca (World) (v0.98) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Odynexus - Journey to Ithaca (World) (v0.98) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Odynexus - Journey to Ithaca (World) (v0.98) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/On Duty (World) (Aftermarket) (Unl).zip</path>
     <name>On Duty (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/On Duty (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/On Duty (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/On Duty (World) (Beta) (Aftermarket) (Unl).zip</path>
     <name>On Duty (World) (Beta) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/On Duty (World) (Beta) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/On Duty (World) (Beta) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Othello (World) (Aftermarket) (Unl).zip</path>
     <name>Othello (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Othello (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Othello (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Ouragan (World) (Demo 1) (Aftermarket) (Unl).zip</path>
     <name>Ouragan (World) (Demo 1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Ouragan (World) (Demo 1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Ouragan (World) (Demo 1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Ouragan (World) (Demo 2) (Aftermarket) (Unl).zip</path>
     <name>Ouragan (World) (Demo 2) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Ouragan (World) (Demo 2) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Ouragan (World) (Demo 2) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Oxymore (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Oxymore (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Oxymore (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Oxymore (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Pac-Land (USA, Europe).zip</path>
     <name>Pac-Land (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Pac-Land (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Pac-Land (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Paperboy (World).zip</path>
     <name>Paperboy (World)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Paperboy (World).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Paperboy (World).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Paraply (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Paraply (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Paraply (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Paraply (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Peg Solitaire (World) (v1.0) (Aftermarket) (Unl).zip</path>
     <name>Peg Solitaire (World) (v1.0) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Peg Solitaire (World) (v1.0) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Peg Solitaire (World) (v1.0) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Peg Solitaire (World) (v1.1) (Aftermarket) (Unl).zip</path>
     <name>Peg Solitaire (World) (v1.1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Peg Solitaire (World) (v1.1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Peg Solitaire (World) (v1.1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Peg Solitaire (World) (v1.2) (256k) (Aftermarket) (Unl).zip</path>
     <name>Peg Solitaire (World) (v1.2) (256k) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Peg Solitaire (World) (v1.2) (256k) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Peg Solitaire (World) (v1.2) (256k) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Peg Solitaire (World) (v1.2) (512k) (Aftermarket) (Unl).zip</path>
     <name>Peg Solitaire (World) (v1.2) (512k) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Peg Solitaire (World) (v1.2) (512k) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Peg Solitaire (World) (v1.2) (512k) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Peg Solitaire (World) (v1.3) (Aftermarket) (Unl).zip</path>
     <name>Peg Solitaire (World) (v1.3) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Peg Solitaire (World) (v1.3) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Peg Solitaire (World) (v1.3) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Pinball Jam (USA, Europe).zip</path>
     <name>Pinball Jam (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Pinball Jam (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Pinball Jam (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Pit-Fighter (USA, Europe) (Beta) (1992-10-13).zip</path>
     <name>Pit-Fighter (USA, Europe) (Beta) (1992-10-13)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Pit-Fighter (USA, Europe) (Beta) (1992-10-13).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Pit-Fighter (USA, Europe) (Beta) (1992-10-13).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Pit-Fighter (USA, Europe).zip</path>
     <name>Pit-Fighter (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Pit-Fighter (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Pit-Fighter (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Poachin' Jeff (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Poachin&apos; Jeff (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Poachin&apos; Jeff (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Poachin&apos; Jeff (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Poker (Europe) (Fr) (Proto).zip</path>
     <name>Poker (Europe) (Fr) (Proto)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Poker (Europe) (Fr) (Proto).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Poker (Europe) (Fr) (Proto).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Pong (World) (Demo 1) (Aftermarket) (Unl).zip</path>
     <name>Pong (World) (Demo 1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Pong (World) (Demo 1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Pong (World) (Demo 1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Pong (World) (Demo 2) (Aftermarket) (Unl).zip</path>
     <name>Pong (World) (Demo 2) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Pong (World) (Demo 2) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Pong (World) (Demo 2) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Pong-4-Fun (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Pong-4-Fun (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Pong-4-Fun (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Pong-4-Fun (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Pounce! (USA) (Proto).zip</path>
     <name>Pounce! (USA) (Proto)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Pounce! (USA) (Proto).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Pounce! (USA) (Proto).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Power Factor (USA, Europe).zip</path>
     <name>Power Factor (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Power Factor (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Power Factor (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Push Around the World (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Push Around the World (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Push Around the World (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Push Around the World (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Puyo Puyo (World) (Demo 1) (Aftermarket) (Unl).zip</path>
     <name>Puyo Puyo (World) (Demo 1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Puyo Puyo (World) (Demo 1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Puyo Puyo (World) (Demo 1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Puyo Puyo (World) (Demo 2) (Aftermarket) (Unl).zip</path>
     <name>Puyo Puyo (World) (Demo 2) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Puyo Puyo (World) (Demo 2) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Puyo Puyo (World) (Demo 2) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Puzzler 2000 (World) (Proto) (Unl).zip</path>
     <name>Puzzler 2000 (World) (Proto) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Puzzler 2000 (World) (Proto) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Puzzler 2000 (World) (Proto) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/QIX (USA, Europe).zip</path>
     <name>QIX (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/QIX (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/QIX (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/RAM cart (USA) (Proto) (Program).zip</path>
     <name>RAM cart (USA) (Proto) (Program)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/RAM cart (USA) (Proto) (Program).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/RAM cart (USA) (Proto) (Program).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/RED Against the Machines (World) (v1.01) (Demo) (LynXmas 2020) (Aftermarket) (Unl).zip</path>
     <name>RED Against the Machines (World) (v1.01) (Demo) (LynXmas 2020) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/RED Against the Machines (World) (v1.01) (Demo) (LynXmas 2020) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/RED Against the Machines (World) (v1.01) (Demo) (LynXmas 2020) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/RED Against the Machines (World) (v1.11) (Demo) (Aftermarket) (Unl).zip</path>
     <name>RED Against the Machines (World) (v1.11) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/RED Against the Machines (World) (v1.11) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/RED Against the Machines (World) (v1.11) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/RabbiLynx EggCatcher (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>RabbiLynx EggCatcher (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/RabbiLynx EggCatcher (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/RabbiLynx EggCatcher (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Raid on TriCity (World) (Beta) (Aftermarket) (Unl).zip</path>
     <name>Raid on TriCity (World) (Beta) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Raid on TriCity (World) (Beta) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Raid on TriCity (World) (Beta) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Raid on TriCity - First Impact (World) (v1.01) (Aftermarket) (Unl).zip</path>
     <name>Raid on TriCity - First Impact (World) (v1.01) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Raid on TriCity - First Impact (World) (v1.01) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Raid on TriCity - First Impact (World) (v1.01) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Raid on TriCity - Second Wave (World) (Digital) (Aftermarket) (Unl).zip</path>
     <name>Raid on TriCity - Second Wave (World) (Digital) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Raid on TriCity - Second Wave (World) (Digital) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Raid on TriCity - Second Wave (World) (Digital) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Raiden (USA) (Beta).zip</path>
     <name>Raiden (USA) (Beta)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Raiden (USA) (Beta).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Raiden (USA) (Beta).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Raiden (World) (Aftermarket) (Unl).zip</path>
     <name>Raiden (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Raiden (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Raiden (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Rainbow (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Rainbow (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Rainbow (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Rainbow (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Rampage (World).zip</path>
     <name>Rampage (World)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Rampage (World).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Rampage (World).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Rampart (USA, Europe).zip</path>
     <name>Rampart (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Rampart (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Rampart (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Rapid Racer (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Rapid Racer (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Rapid Racer (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Rapid Racer (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Red Square (World) (v1.0) (Aftermarket) (Unl).zip</path>
     <name>Red Square (World) (v1.0) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Red Square (World) (v1.0) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Red Square (World) (v1.0) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Red Square (World) (v1.1) (Aftermarket) (Unl).zip</path>
     <name>Red Square (World) (v1.1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Red Square (World) (v1.1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Red Square (World) (v1.1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Remnant - Planar Wars 3D (World) (2000-05-24) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Remnant - Planar Wars 3D (World) (2000-05-24) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Remnant - Planar Wars 3D (World) (2000-05-24) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Remnant - Planar Wars 3D (World) (2000-05-24) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Return of the Space Coyote (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Return of the Space Coyote (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Return of the Space Coyote (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Return of the Space Coyote (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Reussite (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Reussite (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Reussite (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Reussite (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Road Riot 4WD (USA) (Proto 1).zip</path>
     <name>Road Riot 4WD (USA) (Proto 1)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Road Riot 4WD (USA) (Proto 1).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Road Riot 4WD (USA) (Proto 1).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Road Riot 4WD (USA) (Proto 2).zip</path>
     <name>Road Riot 4WD (USA) (Proto 2)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Road Riot 4WD (USA) (Proto 2).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Road Riot 4WD (USA) (Proto 2).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Road Riot 4WD (USA) (Proto 3).zip</path>
     <name>Road Riot 4WD (USA) (Proto 3)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Road Riot 4WD (USA) (Proto 3).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Road Riot 4WD (USA) (Proto 3).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Road Riot 4WD (USA) (Proto 4).zip</path>
     <name>Road Riot 4WD (USA) (Proto 4)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Road Riot 4WD (USA) (Proto 4).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Road Riot 4WD (USA) (Proto 4).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/RoadBlasters (World).zip</path>
     <name>RoadBlasters (World)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/RoadBlasters (World).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/RoadBlasters (World).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Robo-Squash (World).zip</path>
     <name>Robo-Squash (World)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Robo-Squash (World).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Robo-Squash (World).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Robotron 2084 (USA, Europe).zip</path>
     <name>Robotron 2084 (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Robotron 2084 (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Robotron 2084 (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Rolling Thunder (USA) (Proto).zip</path>
     <name>Rolling Thunder (USA) (Proto)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Rolling Thunder (USA) (Proto).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Rolling Thunder (USA) (Proto).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Running Knight (World) (Aftermarket) (Unl).zip</path>
     <name>Running Knight (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Running Knight (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Running Knight (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Rygar (World).zip</path>
     <name>Rygar (World)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Rygar (World).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Rygar (World).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/S.T.U.N. Runner (USA, Europe).zip</path>
     <name>S.T.U.N. Runner (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/S.T.U.N. Runner (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/S.T.U.N. Runner (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Santa Factory (World) (Aftermarket) (Unl).zip</path>
     <name>Santa Factory (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Santa Factory (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Santa Factory (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Santa's Empty Sack (World) (Aftermarket) (Unl).zip</path>
     <name>Santa&apos;s Empty Sack (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Santa&apos;s Empty Sack (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Santa&apos;s Empty Sack (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Saving Santa Tree (World) (Aftermarket) (Unl).zip</path>
     <name>Saving Santa Tree (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Saving Santa Tree (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Saving Santa Tree (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Scooternia (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Scooternia (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Scooternia (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Scooternia (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Scrapyard Dog (USA, Europe).zip</path>
     <name>Scrapyard Dog (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Scrapyard Dog (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Scrapyard Dog (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Scroll of theTime Lords - Lovejoy Prologue (World) (Aftermarket) (Unl).zip</path>
     <name>Scroll of theTime Lords - Lovejoy Prologue (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Scroll of theTime Lords - Lovejoy Prologue (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Scroll of theTime Lords - Lovejoy Prologue (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Shadow of the Beast (USA, Europe).zip</path>
     <name>Shadow of the Beast (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Shadow of the Beast (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Shadow of the Beast (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Shaken, Not Stirred (World) (v1.0) (Aftermarket) (Unl).zip</path>
     <name>Shaken, Not Stirred (World) (v1.0) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Shaken, Not Stirred (World) (v1.0) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Shaken, Not Stirred (World) (v1.0) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Shaken, Not Stirred (World) (v1.1) (Aftermarket) (Unl).zip</path>
     <name>Shaken, Not Stirred (World) (v1.1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Shaken, Not Stirred (World) (v1.1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Shaken, Not Stirred (World) (v1.1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Shaken, Not Stirred (World) (v1.2) (Aftermarket) (Unl).zip</path>
     <name>Shaken, Not Stirred (World) (v1.2) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Shaken, Not Stirred (World) (v1.2) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Shaken, Not Stirred (World) (v1.2) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Shaken, Not Stirred (World) (v1.3) (Aftermarket) (Unl).zip</path>
     <name>Shaken, Not Stirred (World) (v1.3) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Shaken, Not Stirred (World) (v1.3) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Shaken, Not Stirred (World) (v1.3) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Shanghai (World).zip</path>
     <name>Shanghai (World)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Shanghai (World).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Shanghai (World).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Shuriken (World) (Aftermarket) (Unl).zip</path>
     <name>Shuriken (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Shuriken (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Shuriken (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Silas Adventure (World) (Aftermarket) (Unl).zip</path>
     <name>Silas Adventure (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Silas Adventure (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Silas Adventure (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Silly Archery (World) (Aftermarket) (Unl).zip</path>
     <name>Silly Archery (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Silly Archery (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Silly Archery (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Silly Blaster (World) (Aftermarket) (Unl).zip</path>
     <name>Silly Blaster (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Silly Blaster (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Silly Blaster (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/SillySis (World) (Aftermarket) (Unl).zip</path>
     <name>SillySis (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/SillySis (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/SillySis (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Sky Raider (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Sky Raider (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Sky Raider (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Sky Raider (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Snake (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Snake (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Snake (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Snake (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Snow Ball (World) (Aftermarket) (Unl).zip</path>
     <name>Snow Ball (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Snow Ball (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Snow Ball (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Solitaire (World) (2009-08-27) (karri) (Aftermarket) (Unl).zip</path>
     <name>Solitaire (World) (2009-08-27) (karri) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Solitaire (World) (2009-08-27) (karri) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Solitaire (World) (2009-08-27) (karri) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Solitaire (World) (2009-08-28) (karri) (Aftermarket) (Unl).zip</path>
     <name>Solitaire (World) (2009-08-28) (karri) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Solitaire (World) (2009-08-28) (karri) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Solitaire (World) (2009-08-28) (karri) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Solitaire (World) (2009-08-31) (karri) (Aftermarket) (Unl).zip</path>
     <name>Solitaire (World) (2009-08-31) (karri) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Solitaire (World) (2009-08-31) (karri) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Solitaire (World) (2009-08-31) (karri) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Solitaire (World) (2009-09-28) (karri) (Aftermarket) (Unl).zip</path>
     <name>Solitaire (World) (2009-09-28) (karri) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Solitaire (World) (2009-09-28) (karri) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Solitaire (World) (2009-09-28) (karri) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Solitaire (World) (Demo) (Inga) (Aftermarket) (Unl).zip</path>
     <name>Solitaire (World) (Demo) (Inga) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Solitaire (World) (Demo) (Inga) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Solitaire (World) (Demo) (Inga) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Sorrow (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Sorrow (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Sorrow (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Sorrow (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Space Domino (World) (Aftermarket) (Unl).zip</path>
     <name>Space Domino (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Space Domino (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Space Domino (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Space Lock &amp; Space Shoot (World) (2005-04-25) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Space Lock &amp; Space Shoot (World) (2005-04-25) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Space Lock &amp; Space Shoot (World) (2005-04-25) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Space Lock &amp; Space Shoot (World) (2005-04-25) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Space Lock &amp; Space Shoot (World) (2005-05-16) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Space Lock &amp; Space Shoot (World) (2005-05-16) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Space Lock &amp; Space Shoot (World) (2005-05-16) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Space Lock &amp; Space Shoot (World) (2005-05-16) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Spacewar (USA) (Demo).zip</path>
     <name>Spacewar (USA) (Demo)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Spacewar (USA) (Demo).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Spacewar (USA) (Demo).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Springtime Is Here (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Springtime Is Here (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Springtime Is Here (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Springtime Is Here (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Star Blader (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Star Blader (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Star Blader (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Star Blader (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Star Raiders (World) (Demo 1) (Aftermarket) (Unl).zip</path>
     <name>Star Raiders (World) (Demo 1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Star Raiders (World) (Demo 1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Star Raiders (World) (Demo 1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Star Raiders (World) (Demo 2) (Aftermarket) (Unl).zip</path>
     <name>Star Raiders (World) (Demo 2) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Star Raiders (World) (Demo 2) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Star Raiders (World) (Demo 2) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Stardreamer (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Stardreamer (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Stardreamer (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Stardreamer (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Steel Talons (USA, Europe).zip</path>
     <name>Steel Talons (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Steel Talons (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Steel Talons (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Stinger (World) (Aftermarket) (Unl).zip</path>
     <name>Stinger (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Stinger (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Stinger (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Sudoku (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Sudoku (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Sudoku (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Sudoku (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Super Asteroids, Missile Command (USA, Europe).zip</path>
     <name>Super Asteroids, Missile Command (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Super Asteroids, Missile Command (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Super Asteroids, Missile Command (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Super Off-Road (USA, Europe).zip</path>
     <name>Super Off-Road (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Super Off-Road (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Super Off-Road (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Super Skweek (USA, Europe).zip</path>
     <name>Super Skweek (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Super Skweek (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Super Skweek (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Swaping Tiles (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Swaping Tiles (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Swaping Tiles (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Swaping Tiles (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Switchblade II (USA, Europe).zip</path>
     <name>Switchblade II (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Switchblade II (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Switchblade II (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Sybil's Nightmare Run (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Sybil&apos;s Nightmare Run (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Sybil&apos;s Nightmare Run (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Sybil&apos;s Nightmare Run (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/T-Tris (World) (Pirate) (Alt).zip</path>
     <name>T-Tris (World) (Pirate) (Alt)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/T-Tris (World) (Pirate) (Alt).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/T-Tris (World) (Pirate) (Alt).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/T-Tris (World) (Pirate).zip</path>
     <name>T-Tris (World) (Pirate)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/T-Tris (World) (Pirate).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/T-Tris (World) (Pirate).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Teen Dance (World) (Aftermarket) (Unl).zip</path>
     <name>Teen Dance (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Teen Dance (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Teen Dance (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Tetris Raiden (World) (Beta) (Aftermarket) (Unl).zip</path>
     <name>Tetris Raiden (World) (Beta) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Tetris Raiden (World) (Beta) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Tetris Raiden (World) (Beta) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Tetrisnoid (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Tetrisnoid (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Tetrisnoid (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Tetrisnoid (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Timeloop (World) (Aftermarket) (Unl).zip</path>
     <name>Timeloop (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Timeloop (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Timeloop (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Tiny Lynx Adventure (World) (Aftermarket) (Unl).zip</path>
     <name>Tiny Lynx Adventure (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Tiny Lynx Adventure (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Tiny Lynx Adventure (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Titan (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Titan (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Titan (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Titan (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Todd's Adventures in Slime World (World).zip</path>
     <name>Todd&apos;s Adventures in Slime World (World)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Todd&apos;s Adventures in Slime World (World).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Todd&apos;s Adventures in Slime World (World).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Toki (USA, Europe).zip</path>
     <name>Toki (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Toki (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Toki (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Tournament Cyberball (USA, Europe).zip</path>
     <name>Tournament Cyberball (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Tournament Cyberball (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Tournament Cyberball (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Traffic Jam (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Traffic Jam (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Traffic Jam (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Traffic Jam (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Tron-6-Fun (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Tron-6-Fun (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Tron-6-Fun (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Tron-6-Fun (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Tropsy (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Tropsy (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Tropsy (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Tropsy (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Turbo Sub (USA, Europe).zip</path>
     <name>Turbo Sub (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Turbo Sub (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Turbo Sub (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Turkey Puncher 3 - Hyper Punching (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Turkey Puncher 3 - Hyper Punching (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Turkey Puncher 3 - Hyper Punching (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Turkey Puncher 3 - Hyper Punching (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Twitter Panic (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Twitter Panic (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Twitter Panic (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Twitter Panic (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Undergrounders (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Undergrounders (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Undergrounders (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Undergrounders (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Verbix (World) (Aftermarket) (Unl).zip</path>
     <name>Verbix (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Verbix (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Verbix (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Viking Child (USA, Europe).zip</path>
     <name>Viking Child (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Viking Child (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Viking Child (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Vindicators (USA) (Proto).zip</path>
     <name>Vindicators (USA) (Proto)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Vindicators (USA) (Proto).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Vindicators (USA) (Proto).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Warbirds (USA, Europe).zip</path>
     <name>Warbirds (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Warbirds (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Warbirds (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Weltenschlacht (World) (v0.41) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Weltenschlacht (World) (v0.41) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Weltenschlacht (World) (v0.41) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Weltenschlacht (World) (v0.41) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Wizzy (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Wizzy (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Wizzy (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Wizzy (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Wolfenstein 3D (World) (Demo 1) (Aftermarket) (Unl).zip</path>
     <name>Wolfenstein 3D (World) (Demo 1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Wolfenstein 3D (World) (Demo 1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Wolfenstein 3D (World) (Demo 1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Wolfenstein 3D (World) (Demo 2) (Aftermarket) (Unl).zip</path>
     <name>Wolfenstein 3D (World) (Demo 2) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Wolfenstein 3D (World) (Demo 2) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Wolfenstein 3D (World) (Demo 2) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Wolfman (USA) (Demo) (Kiosk).zip</path>
     <name>Wolfman (USA) (Demo) (Kiosk)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Wolfman (USA) (Demo) (Kiosk).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Wolfman (USA) (Demo) (Kiosk).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/World Class Soccer (USA, Europe).zip</path>
     <name>World Class Soccer (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/World Class Soccer (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/World Class Soccer (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Xenophobe (World).zip</path>
     <name>Xenophobe (World)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Xenophobe (World).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Xenophobe (World).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Xump - The Final Run (World) (v1.00) (Aftermarket) (Unl).zip</path>
     <name>Xump - The Final Run (World) (v1.00) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Xump - The Final Run (World) (v1.00) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Xump - The Final Run (World) (v1.00) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Xump - The Final Run (World) (v1.20) (Aftermarket) (Unl).zip</path>
     <name>Xump - The Final Run (World) (v1.20) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Xump - The Final Run (World) (v1.20) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Xump - The Final Run (World) (v1.20) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Xump 2 - Back to Space (World) (Proto) (Aftermarket) (Unl).zip</path>
     <name>Xump 2 - Back to Space (World) (Proto) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Xump 2 - Back to Space (World) (Proto) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Xump 2 - Back to Space (World) (Proto) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Xybots (USA, Europe).zip</path>
     <name>Xybots (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Xybots (USA, Europe).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Xybots (USA, Europe).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/YNXA (World) (Game Jam Edition) (Digital) (Aftermarket) (Unl).zip</path>
     <name>YNXA (World) (Game Jam Edition) (Digital) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/YNXA (World) (Game Jam Edition) (Digital) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/YNXA (World) (Game Jam Edition) (Digital) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/YNXA - Leaf and the Guardians of Time (World) (Proto 1) (Aftermarket) (Unl).zip</path>
     <name>YNXA - Leaf and the Guardians of Time (World) (Proto 1) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/YNXA - Leaf and the Guardians of Time (World) (Proto 1) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/YNXA - Leaf and the Guardians of Time (World) (Proto 1) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/YNXA - Leaf and the Guardians of Time (World) (Proto 2) (LynxJam23) (Aftermarket) (Unl).zip</path>
     <name>YNXA - Leaf and the Guardians of Time (World) (Proto 2) (LynxJam23) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/YNXA - Leaf and the Guardians of Time (World) (Proto 2) (LynxJam23) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/YNXA - Leaf and the Guardians of Time (World) (Proto 2) (LynxJam23) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Yastuna Volume 1 - The Alchemy of Cubes (World) (v1.00) (Digital) (Aftermarket) (Unl).zip</path>
     <name>Yastuna Volume 1 - The Alchemy of Cubes (World) (v1.00) (Digital) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Yastuna Volume 1 - The Alchemy of Cubes (World) (v1.00) (Digital) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Yastuna Volume 1 - The Alchemy of Cubes (World) (v1.00) (Digital) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Yastuna Volume 1 - The Alchemy of Cubes (World) (v1.01) (Digital) (Aftermarket) (Unl).zip</path>
     <name>Yastuna Volume 1 - The Alchemy of Cubes (World) (v1.01) (Digital) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Yastuna Volume 1 - The Alchemy of Cubes (World) (v1.01) (Digital) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Yastuna Volume 1 - The Alchemy of Cubes (World) (v1.01) (Digital) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Yastuna Volume 2 - The Space Incident (World) (v1.00) (Digital) (Aftermarket) (Unl).zip</path>
     <name>Yastuna Volume 2 - The Space Incident (World) (v1.00) (Digital) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Yastuna Volume 2 - The Space Incident (World) (v1.00) (Digital) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Yastuna Volume 2 - The Space Incident (World) (v1.00) (Digital) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Yastuna Volume 2 - The Space Incident (World) (v1.01) (Digital) (Aftermarket) (Unl).zip</path>
     <name>Yastuna Volume 2 - The Space Incident (World) (v1.01) (Digital) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Yastuna Volume 2 - The Space Incident (World) (v1.01) (Digital) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Yastuna Volume 2 - The Space Incident (World) (v1.01) (Digital) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Z.A.P. (World) (Aftermarket) (Unl).zip</path>
     <name>Z.A.P. (World) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Z.A.P. (World) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Z.A.P. (World) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Zaku (World) (Beta) (Unl).zip</path>
     <name>Zaku (World) (Beta) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Zaku (World) (Beta) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Zaku (World) (Beta) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Zaku (World) (Unl).zip</path>
     <name>Zaku (World) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Zaku (World) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Zaku (World) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Zaku Puzzle (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Zaku Puzzle (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Zaku Puzzle (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Zaku Puzzle (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Zap (World) (Demo) (Aftermarket) (Unl).zip</path>
     <name>Zap (World) (Demo) (Aftermarket) (Unl)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Zap (World) (Demo) (Aftermarket) (Unl).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Zap (World) (Demo) (Aftermarket) (Unl).mp4</video>
-  </game>
+</game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)/Zarlor Mercenary (World).zip</path>
     <name>Zarlor Mercenary (World)</name>
     <image>/recalbox/share/thumbs/Atari - Lynx/Named_Titles/Zarlor Mercenary (World).png</image>
-    <video>/recalbox/share/videos/No-Intro/Atari - Lynx (LYX)/Zarlor Mercenary (World).mp4</video>
-  </game>
+</game>
 </gamelist>
