@@ -111,7 +111,8 @@ echo "(DOS)..."
 
 fi
 
-
+sleep 5
+chvt 1; es start
 }
 
 
