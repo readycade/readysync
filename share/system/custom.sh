@@ -91,30 +91,6 @@ for rom_entry in "${roms[@]}"; do
 done
 
 
-# Function to create console directory
-create_console_directory() {
-  local console_name="$1"
-  console_name="${console_name//\/}"  # This removes trailing slashes
-  mkdir -p "/recalbox/share/userscripts/.config/readystream/roms/$console_name"
-  mkdir -p "/recalbox/share/roms/readystream/$console_name"
-
-}
-
-# Extract console names from platforms.txt using awk
-console_names=$(awk -F';' '/^roms\+=/{gsub(/roms\+=\("/, ""); gsub(/".*/, ""); print $1}' /recalbox/share/userscripts/.config/readystream/platforms.txt)
-
-# Display extracted console names for debugging
-echo "Console names extracted from platforms.txt: '$console_names'"
-
-# Loop through extracted console names and create directories
-IFS=$'\n'  # Set Internal Field Separator to newline to handle multiple console names
-for console_name in $console_names; do
-  # Use the extracted console name to create the console directory
-  create_console_directory "$console_name"
-
-done
-}
-
 # Function to perform actions specific to Offline Mode
 offline_mode() {
     # Add your specific actions for Offline Mode here
@@ -355,6 +331,9 @@ if [ -z "$(ls -A $TARGET_DIR)" ]; then
     # Move the contents of the desired directory to the target location
     mv readysync-master/share/userscripts/.config/readystream/roms/* $TARGET_DIR/
 
+    # Move the contents to online directory
+    mv readysync-master/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
+
     # Clean up
     rm -rf readysync.zip readysync-master
 
@@ -362,7 +341,6 @@ if [ -z "$(ls -A $TARGET_DIR)" ]; then
 else
     echo "gamelist.xml and checksums directory is not empty. No need to download."
 fi
-
 
 # If directories don't exist, create them
 if [ ! -d /recalbox/share/roms/readystream ]; then
