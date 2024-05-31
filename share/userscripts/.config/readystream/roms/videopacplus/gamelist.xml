@@ -1,207 +1,92 @@
-<?xml version="1.0"?>
-<gameList>
+<gamelist>
   <game>
-    <path>./Air Battle (Europe).zip</path>
-    <name>Air Battle (Europe)</name>
-    <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Air Battle (Europe).png</image>
-    <video>./media/videos/Air Battle (Europe).mp4</video>
-  </game>
-  <game>
-    <path>./Billard Americain (France).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Philips - Videopac+/Billard Americain (France).zip</path>
     <name>Billard Americain (France)</name>
     <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Billard Americain (France).png</image>
-    <video>./media/videos/Billard Americain (France).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Philips - Videopac+/Billard Americain (France).mp4</video>
   </game>
   <game>
-    <path>./Billard Electrique (France).zip</path>
-    <name>Billard Electrique (France)</name>
-    <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Billard Electrique (France).png</image>
-    <video>./media/videos/Billard Electrique (France).mp4</video>
-  </game>
-  <game>
-    <path>./Chez Maxime (France).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Philips - Videopac+/Chez Maxime (France).zip</path>
     <name>Chez Maxime (France)</name>
     <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Chez Maxime (France).png</image>
-    <video>./media/videos/Chez Maxime (France).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Philips - Videopac+/Chez Maxime (France).mp4</video>
   </game>
   <game>
-    <path>./Clay Pigeon (Europe) (Proto) (Alt).zip</path>
-    <name>Clay Pigeon (Europe) (Proto) (Alt)</name>
-    <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Clay Pigeon (Europe) (Proto) (Alt).png</image>
-    <video>./media/videos/Clay Pigeon (Europe) (Proto) (Alt).mp4</video>
-  </game>
-  <game>
-    <path>./Clay Pigeon (Europe) (Proto).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Philips - Videopac+/Clay Pigeon (Europe) (Proto).zip</path>
     <name>Clay Pigeon (Europe) (Proto)</name>
     <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Clay Pigeon (Europe) (Proto).png</image>
-    <video>./media/videos/Clay Pigeon (Europe) (Proto).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Philips - Videopac+/Clay Pigeon (Europe) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Cosmic Conflict (Europe).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Philips - Videopac+/Cosmic Conflict (Europe).zip</path>
     <name>Cosmic Conflict (Europe)</name>
     <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Cosmic Conflict (Europe).png</image>
-    <video>./media/videos/Cosmic Conflict (Europe).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Philips - Videopac+/Cosmic Conflict (Europe).mp4</video>
   </game>
   <game>
-    <path>./Course de Voitures + Autodrome + Cryptogramme (France).zip</path>
-    <name>Course de Voitures + Autodrome + Cryptogramme (France)</name>
-    <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Course de Voitures + Autodrome + Cryptogramme (France).png</image>
-    <video>./media/videos/Course de Voitures + Autodrome + Cryptogramme (France).mp4</video>
-  </game>
-  <game>
-    <path>./Demon Attack (France).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Philips - Videopac+/Demon Attack (France).zip</path>
     <name>Demon Attack (France)</name>
     <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Demon Attack (France).png</image>
-    <video>./media/videos/Demon Attack (France).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Philips - Videopac+/Demon Attack (France).mp4</video>
   </game>
   <game>
-    <path>./Electronic Billiards (Europe) (Proto).zip</path>
-    <name>Electronic Billiards (Europe) (Proto)</name>
-    <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Electronic Billiards (Europe) (Proto).png</image>
-    <video>./media/videos/Electronic Billiards (Europe) (Proto).mp4</video>
-  </game>
-  <game>
-    <path>./Exojet (France).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Philips - Videopac+/Exojet (France).zip</path>
     <name>Exojet (France)</name>
     <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Exojet (France).png</image>
-    <video>./media/videos/Exojet (France).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Philips - Videopac+/Exojet (France).mp4</video>
   </game>
   <game>
-    <path>./Flipper Game (Europe) (Proto).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Philips - Videopac+/Flipper Game (Europe) (Proto).zip</path>
     <name>Flipper Game (Europe) (Proto)</name>
     <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Flipper Game (Europe) (Proto).png</image>
-    <video>./media/videos/Flipper Game (Europe) (Proto).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Philips - Videopac+/Flipper Game (Europe) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Freedom Fighters (Europe).zip</path>
-    <name>Freedom Fighters (Europe)</name>
-    <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Freedom Fighters (Europe).png</image>
-    <video>./media/videos/Freedom Fighters (Europe).mp4</video>
-  </game>
-  <game>
-    <path>./Guerre de l'Espace (France).zip</path>
-    <name>Guerre de l'Espace (France)</name>
-    <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Guerre de l'Espace (France).png</image>
-    <video>./media/videos/Guerre de l'Espace (France).mp4</video>
-  </game>
-  <game>
-    <path>./Helicopter Rescue (Europe).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Philips - Videopac+/Helicopter Rescue (Europe).zip</path>
     <name>Helicopter Rescue (Europe)</name>
     <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Helicopter Rescue (Europe).png</image>
-    <video>./media/videos/Helicopter Rescue (Europe).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Philips - Videopac+/Helicopter Rescue (Europe).mp4</video>
   </game>
   <game>
-    <path>./Jeu de Quilles + Basketball (France).zip</path>
-    <name>Jeu de Quilles + Basketball (France)</name>
-    <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Jeu de Quilles + Basketball (France).png</image>
-    <video>./media/videos/Jeu de Quilles + Basketball (France).mp4</video>
-  </game>
-  <game>
-    <path>./Killer Bees (Europe).zip</path>
-    <name>Killer Bees (Europe)</name>
-    <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Killer Bees (Europe).png</image>
-    <video>./media/videos/Killer Bees (Europe).mp4</video>
-  </game>
-  <game>
-    <path>./Loony Balloon (Europe).zip</path>
-    <name>Loony Balloon (Europe)</name>
-    <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Loony Balloon (Europe).png</image>
-    <video>./media/videos/Loony Balloon (Europe).mp4</video>
-  </game>
-  <game>
-    <path>./Moto-Crash (France).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Philips - Videopac+/Moto-Crash (France).zip</path>
     <name>Moto-Crash (France)</name>
     <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Moto-Crash (France).png</image>
-    <video>./media/videos/Moto-Crash (France).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Philips - Videopac+/Moto-Crash (France).mp4</video>
   </game>
   <game>
-    <path>./Neutron Star (Europe).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Philips - Videopac+/Neutron Star (Europe).zip</path>
     <name>Neutron Star (Europe)</name>
     <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Neutron Star (Europe).png</image>
-    <video>./media/videos/Neutron Star (Europe).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Philips - Videopac+/Neutron Star (Europe).mp4</video>
   </game>
   <game>
-    <path>./Nightmare (Europe).zip</path>
-    <name>Nightmare (Europe)</name>
-    <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Nightmare (Europe).png</image>
-    <video>./media/videos/Nightmare (Europe).mp4</video>
-  </game>
-  <game>
-    <path>./Norseman (Europe).zip</path>
-    <name>Norseman (Europe)</name>
-    <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Norseman (Europe).png</image>
-    <video>./media/videos/Norseman (Europe).mp4</video>
-  </game>
-  <game>
-    <path>./Pickaxe Pete (Europe).zip</path>
-    <name>Pickaxe Pete (Europe)</name>
-    <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Pickaxe Pete (Europe).png</image>
-    <video>./media/videos/Pickaxe Pete (Europe).mp4</video>
-  </game>
-  <game>
-    <path>./Race + Spin-out + Cryptogram (Europe).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Philips - Videopac+/Race + Spin-out + Cryptogram (Europe).zip</path>
     <name>Race + Spin-out + Cryptogram (Europe)</name>
     <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Race + Spin-out + Cryptogram (Europe).png</image>
-    <video>./media/videos/Race + Spin-out + Cryptogram (Europe).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Philips - Videopac+/Race + Spin-out + Cryptogram (Europe).mp4</video>
   </game>
   <game>
-    <path>./Ruche Infernale, La (France).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Philips - Videopac+/Ruche Infernale, La (France).zip</path>
     <name>Ruche Infernale, La (France)</name>
     <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Ruche Infernale, La (France).png</image>
-    <video>./media/videos/Ruche Infernale, La (France).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Philips - Videopac+/Ruche Infernale, La (France).mp4</video>
   </game>
   <game>
-    <path>./Satellite Attack (Europe).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Philips - Videopac+/Satellite Attack (Europe).zip</path>
     <name>Satellite Attack (Europe)</name>
     <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Satellite Attack (Europe).png</image>
-    <video>./media/videos/Satellite Attack (Europe).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Philips - Videopac+/Satellite Attack (Europe).mp4</video>
   </game>
   <game>
-    <path>./Stone Sling (Europe).zip</path>
-    <name>Stone Sling (Europe)</name>
-    <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Stone Sling (Europe).png</image>
-    <video>./media/videos/Stone Sling (Europe).mp4</video>
-  </game>
-  <game>
-    <path>./Syracuse (France).zip</path>
-    <name>Syracuse (France)</name>
-    <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Syracuse (France).png</image>
-    <video>./media/videos/Syracuse (France).mp4</video>
-  </game>
-  <game>
-    <path>./Tenpin Bowling + Basketball (Europe) (Proto).zip</path>
-    <name>Tenpin Bowling + Basketball (Europe) (Proto)</name>
-    <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Tenpin Bowling + Basketball (Europe) (Proto).png</image>
-    <video>./media/videos/Tenpin Bowling + Basketball (Europe) (Proto).mp4</video>
-  </game>
-  <game>
-    <path>./Terrahawks (Europe).zip</path>
-    <name>Terrahawks (Europe)</name>
-    <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Terrahawks (Europe).png</image>
-    <video>./media/videos/Terrahawks (Europe).mp4</video>
-  </game>
-  <game>
-    <path>./Trans American Rally (Europe).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Philips - Videopac+/Trans American Rally (Europe).zip</path>
     <name>Trans American Rally (Europe)</name>
     <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Trans American Rally (Europe).png</image>
-    <video>./media/videos/Trans American Rally (Europe).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Philips - Videopac+/Trans American Rally (Europe).mp4</video>
   </game>
   <game>
-    <path>./Tresor Englouti, Le (France).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Philips - Videopac+/Tresor Englouti, Le (France).zip</path>
     <name>Tresor Englouti, Le (France)</name>
     <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/Tresor Englouti, Le (France).png</image>
-    <video>./media/videos/Tresor Englouti, Le (France).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Philips - Videopac+/Tresor Englouti, Le (France).mp4</video>
   </game>
-  <game>
-    <path>./[BIOS] Brandt Jopac (France).zip</path>
-    <name>[BIOS] Brandt Jopac (France)</name>
-    <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/[BIOS] Brandt Jopac (France).png</image>
-    <video>./media/videos/[BIOS] Brandt Jopac (France).mp4</video>
-  </game>
-  <game>
-    <path>./[BIOS] Philips Videopac+ (Europe).zip</path>
-    <name>[BIOS] Philips Videopac+ (Europe)</name>
-    <image>/recalbox/share/thumbs/Philips - Videopac+/Named_Titles/[BIOS] Philips Videopac+ (Europe).png</image>
-    <video>./media/videos/[BIOS] Philips Videopac+ (Europe).mp4</video>
-  </game>
-</gameList>
+</gamelist>

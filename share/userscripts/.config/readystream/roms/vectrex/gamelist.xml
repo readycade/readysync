@@ -1,273 +1,272 @@
-<?xml version="1.0"?>
-<gameList>
+<gamelist>
   <game>
-    <path>./3D Crazy Coaster (USA).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/3D Crazy Coaster (USA).zip</path>
     <name>3D Crazy Coaster (USA)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/3D Crazy Coaster (USA).png</image>
-    <video>./media/videos/3D Crazy Coaster (USA).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/3D Crazy Coaster (USA).mp4</video>
   </game>
   <game>
-    <path>./3D Mine Storm (USA).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/3D Mine Storm (USA).zip</path>
     <name>3D Mine Storm (USA)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/3D Mine Storm (USA).png</image>
-    <video>./media/videos/3D Mine Storm (USA).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/3D Mine Storm (USA).mp4</video>
   </game>
   <game>
-    <path>./3D Narrow Escape (USA).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/3D Narrow Escape (USA).zip</path>
     <name>3D Narrow Escape (USA)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/3D Narrow Escape (USA).png</image>
-    <video>./media/videos/3D Narrow Escape (USA).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/3D Narrow Escape (USA).mp4</video>
   </game>
   <game>
-    <path>./AnimAction - Advanced Animation (USA).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/AnimAction - Advanced Animation (USA).zip</path>
     <name>AnimAction - Advanced Animation (USA)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/AnimAction - Advanced Animation (USA).png</image>
-    <video>./media/videos/AnimAction - Advanced Animation (USA).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/AnimAction - Advanced Animation (USA).mp4</video>
   </game>
   <game>
-    <path>./Armor..Attack (World).zip</path>
-    <name>Armor..Attack (World)</name>
-    <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Armor..Attack (World).png</image>
-    <video>./media/videos/Armor..Attack (World).mp4</video>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Armor Attack (World).zip</path>
+    <name>Armor Attack (World)</name>
+    <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Armor Attack (World).png</image>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Armor Attack (World).mp4</video>
   </game>
   <game>
-    <path>./Art Master (USA).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Art Master (USA).zip</path>
     <name>Art Master (USA)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Art Master (USA).png</image>
-    <video>./media/videos/Art Master (USA).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Art Master (USA).mp4</video>
   </game>
   <game>
-    <path>./Bedlam (USA, Europe).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Bedlam (USA, Europe).zip</path>
     <name>Bedlam (USA, Europe)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Bedlam (USA, Europe).png</image>
-    <video>./media/videos/Bedlam (USA, Europe).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Bedlam (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>./Berzerk (World).zip</path>
-    <name>Berzerk (World)</name>
-    <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Berzerk (World).png</image>
-    <video>./media/videos/Berzerk (World).mp4</video>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Berzerk (Europe) (Rev 2).zip</path>
+    <name>Berzerk (Europe) (Rev 2)</name>
+    <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Berzerk (Europe) (Rev 2).png</image>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Berzerk (Europe) (Rev 2).mp4</video>
   </game>
   <game>
-    <path>./Blitz! - Action Football (USA, Europe) (0F11CE0C).zip</path>
-    <name>Blitz! - Action Football (USA, Europe) (0F11CE0C)</name>
-    <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Blitz! - Action Football (USA, Europe) (0F11CE0C).png</image>
-    <video>./media/videos/Blitz! - Action Football (USA, Europe) (0F11CE0C).mp4</video>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Berzerk (USA).zip</path>
+    <name>Berzerk (USA)</name>
+    <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Berzerk (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Berzerk (USA).mp4</video>
   </game>
   <game>
-    <path>./Blitz! - Action Football (USA, Europe) (881B27C5).zip</path>
-    <name>Blitz! - Action Football (USA, Europe) (881B27C5)</name>
-    <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Blitz! - Action Football (USA, Europe) (881B27C5).png</image>
-    <video>./media/videos/Blitz! - Action Football (USA, Europe) (881B27C5).mp4</video>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Blitz! - Action Football (USA, Europe) (Alt).zip</path>
+    <name>Blitz! - Action Football (USA, Europe) (Alt)</name>
+    <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Blitz! - Action Football (USA, Europe) (Alt).png</image>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Blitz! - Action Football (USA, Europe) (Alt).mp4</video>
   </game>
   <game>
-    <path>./Clean Sweep (World).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Blitz! - Action Football (World).zip</path>
+    <name>Blitz! - Action Football (World)</name>
+    <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Blitz! - Action Football (World).png</image>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Blitz! - Action Football (World).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Clean Sweep (World).zip</path>
     <name>Clean Sweep (World)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Clean Sweep (World).png</image>
-    <video>./media/videos/Clean Sweep (World).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Clean Sweep (World).mp4</video>
   </game>
   <game>
-    <path>./Cosmic Chasm (World).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Cosmic Chasm (World).zip</path>
     <name>Cosmic Chasm (World)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Cosmic Chasm (World).png</image>
-    <video>./media/videos/Cosmic Chasm (World).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Cosmic Chasm (World).mp4</video>
   </game>
   <game>
-    <path>./Dark Tower (USA) (Proto).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Dark Tower (USA) (Proto).zip</path>
     <name>Dark Tower (USA) (Proto)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Dark Tower (USA) (Proto).png</image>
-    <video>./media/videos/Dark Tower (USA) (Proto).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Dark Tower (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Engine Analyzer (USA) (Proto).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Engine Analyzer (USA) (Proto).zip</path>
     <name>Engine Analyzer (USA) (Proto)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Engine Analyzer (USA) (Proto).png</image>
-    <video>./media/videos/Engine Analyzer (USA) (Proto).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Engine Analyzer (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Fortress of Narzod (USA, Europe).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Fortress of Narzod (USA, Europe).zip</path>
     <name>Fortress of Narzod (USA, Europe)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Fortress of Narzod (USA, Europe).png</image>
-    <video>./media/videos/Fortress of Narzod (USA, Europe).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Fortress of Narzod (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>./Heads-Up - Action Soccer (USA).zip</path>
-    <name>Heads-Up - Action Soccer (USA)</name>
-    <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Heads-Up - Action Soccer (USA).png</image>
-    <video>./media/videos/Heads-Up - Action Soccer (USA).mp4</video>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Heads-Up - Action Soccer (World).zip</path>
+    <name>Heads-Up - Action Soccer (World)</name>
+    <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Heads-Up - Action Soccer (World).png</image>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Heads-Up - Action Soccer (World).mp4</video>
   </game>
   <game>
-    <path>./HyperChase - Auto Race (World).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/HyperChase - Auto Race (World).zip</path>
     <name>HyperChase - Auto Race (World)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/HyperChase - Auto Race (World).png</image>
-    <video>./media/videos/HyperChase - Auto Race (World).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/HyperChase - Auto Race (World).mp4</video>
   </game>
   <game>
-    <path>./Mail Plane (USA) (Proto) (05838962).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Mail Plane (USA) (Proto) (05838962).zip</path>
     <name>Mail Plane (USA) (Proto) (05838962)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Mail Plane (USA) (Proto) (05838962).png</image>
-    <video>./media/videos/Mail Plane (USA) (Proto) (05838962).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Mail Plane (USA) (Proto) (05838962).mp4</video>
   </game>
   <game>
-    <path>./Mail Plane (USA) (Proto) (DA1AC0DB).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Mail Plane (USA) (Proto) (DA1AC0DB).zip</path>
     <name>Mail Plane (USA) (Proto) (DA1AC0DB)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Mail Plane (USA) (Proto) (DA1AC0DB).png</image>
-    <video>./media/videos/Mail Plane (USA) (Proto) (DA1AC0DB).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Mail Plane (USA) (Proto) (DA1AC0DB).mp4</video>
   </game>
   <game>
-    <path>./Melody Master - Music Composition and Entertainment (USA).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Melody Master - Music Composition and Entertainment (USA).zip</path>
     <name>Melody Master - Music Composition and Entertainment (USA)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Melody Master - Music Composition and Entertainment (USA).png</image>
-    <video>./media/videos/Melody Master - Music Composition and Entertainment (USA).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Melody Master - Music Composition and Entertainment (USA).mp4</video>
   </game>
   <game>
-    <path>./Mine Storm (World).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Mine Storm (World).zip</path>
     <name>Mine Storm (World)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Mine Storm (World).png</image>
-    <video>./media/videos/Mine Storm (World).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Mine Storm (World).mp4</video>
   </game>
   <game>
-    <path>./Mine Storm II (USA) (Rev 2).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Mine Storm II (USA) (Rev 2).zip</path>
     <name>Mine Storm II (USA) (Rev 2)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Mine Storm II (USA) (Rev 2).png</image>
-    <video>./media/videos/Mine Storm II (USA) (Rev 2).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Mine Storm II (USA) (Rev 2).mp4</video>
   </game>
   <game>
-    <path>./Mr. Boston Clean Sweep (Europe).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Mr. Boston Clean Sweep (Europe).zip</path>
     <name>Mr. Boston Clean Sweep (Europe)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Mr. Boston Clean Sweep (Europe).png</image>
-    <video>./media/videos/Mr. Boston Clean Sweep (Europe).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Mr. Boston Clean Sweep (Europe).mp4</video>
   </game>
   <game>
-    <path>./Pitcher's Duel (USA) (Proto).zip</path>
-    <name>Pitcher's Duel (USA) (Proto)</name>
-    <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Pitcher's Duel (USA) (Proto).png</image>
-    <video>./media/videos/Pitcher's Duel (USA) (Proto).mp4</video>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Pitcher's Duel (USA) (Proto).zip</path>
+    <name>Pitcher&apos;s Duel (USA) (Proto)</name>
+    <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Pitcher&apos;s Duel (USA) (Proto).png</image>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Pitcher&apos;s Duel (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Polar Rescue (USA) (Beta).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Polar Rescue (USA) (Beta).zip</path>
     <name>Polar Rescue (USA) (Beta)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Polar Rescue (USA) (Beta).png</image>
-    <video>./media/videos/Polar Rescue (USA) (Beta).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Polar Rescue (USA) (Beta).mp4</video>
   </game>
   <game>
-    <path>./Polar Rescue (USA).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Polar Rescue (USA).zip</path>
     <name>Polar Rescue (USA)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Polar Rescue (USA).png</image>
-    <video>./media/videos/Polar Rescue (USA).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Polar Rescue (USA).mp4</video>
   </game>
   <game>
-    <path>./Pole Position (USA) (A00ED3D6).zip</path>
-    <name>Pole Position (USA) (A00ED3D6)</name>
-    <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Pole Position (USA) (A00ED3D6).png</image>
-    <video>./media/videos/Pole Position (USA) (A00ED3D6).mp4</video>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Pole Position (USA) (Alt).zip</path>
+    <name>Pole Position (USA) (Alt)</name>
+    <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Pole Position (USA) (Alt).png</image>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Pole Position (USA) (Alt).mp4</video>
   </game>
   <game>
-    <path>./Pole Position (USA) (C10F37D8).zip</path>
-    <name>Pole Position (USA) (C10F37D8)</name>
-    <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Pole Position (USA) (C10F37D8).png</image>
-    <video>./media/videos/Pole Position (USA) (C10F37D8).mp4</video>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Pole Position (USA).zip</path>
+    <name>Pole Position (USA)</name>
+    <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Pole Position (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Pole Position (USA).mp4</video>
   </game>
   <game>
-    <path>./RA+A Spectrum I+ Stress Tester (USA) (Proto).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/RA+A Spectrum I+ Stress Tester (USA) (Proto).zip</path>
     <name>RA+A Spectrum I+ Stress Tester (USA) (Proto)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/RA+A Spectrum I+ Stress Tester (USA) (Proto).png</image>
-    <video>./media/videos/RA+A Spectrum I+ Stress Tester (USA) (Proto).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/RA+A Spectrum I+ Stress Tester (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Rip Off (World).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Rip Off (World).zip</path>
     <name>Rip Off (World)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Rip Off (World).png</image>
-    <video>./media/videos/Rip Off (World).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Rip Off (World).mp4</video>
   </game>
   <game>
-    <path>./Scramble (USA, Europe).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Scramble (USA, Europe).zip</path>
     <name>Scramble (USA, Europe)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Scramble (USA, Europe).png</image>
-    <video>./media/videos/Scramble (USA, Europe).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Scramble (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>./Sledge 3D (USA) (Sample).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Sledge 3D (USA) (Sample).zip</path>
     <name>Sledge 3D (USA) (Sample)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Sledge 3D (USA) (Sample).png</image>
-    <video>./media/videos/Sledge 3D (USA) (Sample).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Sledge 3D (USA) (Sample).mp4</video>
   </game>
   <game>
-    <path>./Solar Quest (World).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Solar Quest (World).zip</path>
     <name>Solar Quest (World)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Solar Quest (World).png</image>
-    <video>./media/videos/Solar Quest (World).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Solar Quest (World).mp4</video>
   </game>
   <game>
-    <path>./Space Wars (World).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Space Wars (World).zip</path>
     <name>Space Wars (World)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Space Wars (World).png</image>
-    <video>./media/videos/Space Wars (World).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Space Wars (World).mp4</video>
   </game>
   <game>
-    <path>./Spike (USA, Europe).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Spike (USA, Europe).zip</path>
     <name>Spike (USA, Europe)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Spike (USA, Europe).png</image>
-    <video>./media/videos/Spike (USA, Europe).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Spike (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>./Spin ball (USA).zip</path>
-    <name>Spin ball (USA)</name>
-    <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Spin ball (USA).png</image>
-    <video>./media/videos/Spin ball (USA).mp4</video>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Spinball (USA).zip</path>
+    <name>Spinball (USA)</name>
+    <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Spinball (USA).png</image>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Spinball (USA).mp4</video>
   </game>
   <game>
-    <path>./Star Castle (USA).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Star Castle (USA).zip</path>
     <name>Star Castle (USA)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Star Castle (USA).png</image>
-    <video>./media/videos/Star Castle (USA).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Star Castle (USA).mp4</video>
   </game>
   <game>
-    <path>./Star Ship (Europe).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Star Ship (Europe).zip</path>
     <name>Star Ship (Europe)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Star Ship (Europe).png</image>
-    <video>./media/videos/Star Ship (Europe).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Star Ship (Europe).mp4</video>
   </game>
   <game>
-    <path>./Star Trek - The Motion Picture (USA).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Star Trek - The Motion Picture (USA).zip</path>
     <name>Star Trek - The Motion Picture (USA)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Star Trek - The Motion Picture (USA).png</image>
-    <video>./media/videos/Star Trek - The Motion Picture (USA).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Star Trek - The Motion Picture (USA).mp4</video>
   </game>
   <game>
-    <path>./StarHawk (World).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/StarHawk (World).zip</path>
     <name>StarHawk (World)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/StarHawk (World).png</image>
-    <video>./media/videos/StarHawk (World).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/StarHawk (World).mp4</video>
   </game>
   <game>
-    <path>./Test Cartridge (USA) (Rev 4) (Proto).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Test Cartridge (USA) (Rev 4) (Proto).zip</path>
     <name>Test Cartridge (USA) (Rev 4) (Proto)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Test Cartridge (USA) (Rev 4) (Proto).png</image>
-    <video>./media/videos/Test Cartridge (USA) (Rev 4) (Proto).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Test Cartridge (USA) (Rev 4) (Proto).mp4</video>
   </game>
   <game>
-    <path>./Tour De France (USA) (Proto).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/Tour De France (USA) (Proto).zip</path>
     <name>Tour De France (USA) (Proto)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/Tour De France (USA) (Proto).png</image>
-    <video>./media/videos/Tour De France (USA) (Proto).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/Tour De France (USA) (Proto).mp4</video>
   </game>
   <game>
-    <path>./WebWarp (Europe).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/WebWarp (Europe).zip</path>
     <name>WebWarp (Europe)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/WebWarp (Europe).png</image>
-    <video>./media/videos/WebWarp (Europe).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/WebWarp (Europe).mp4</video>
   </game>
   <game>
-    <path>./WebWars (USA).zip</path>
+    <path>/recalbox/share/rom/No-Intro/GCE - Vectrex/WebWars (USA).zip</path>
     <name>WebWars (USA)</name>
     <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/WebWars (USA).png</image>
-    <video>./media/videos/WebWars (USA).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/GCE - Vectrex/WebWars (USA).mp4</video>
   </game>
-  <game>
-    <path>./[BIOS] GCE Vectrex (World).zip</path>
-    <name>[BIOS] GCE Vectrex (World)</name>
-    <image>/recalbox/share/thumbs/GCE - Vectrex/Named_Titles/[BIOS] GCE Vectrex (World).png</image>
-    <video>./media/videos/[BIOS] GCE Vectrex (World).mp4</video>
-  </game>
-</gameList>
+</gamelist>

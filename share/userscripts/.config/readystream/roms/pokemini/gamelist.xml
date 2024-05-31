@@ -1,267 +1,260 @@
-<?xml version="1.0"?>
-<gameList>
+<gamelist>
   <game>
-    <path>./Lunch Time (USA) (GameCube).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Lunch Time (USA) (GameCube).zip</path>
     <name>Lunch Time (USA) (GameCube)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Lunch Time (USA) (GameCube).png</image>
-    <video>./media/videos/Lunch Time (USA) (GameCube).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Lunch Time (USA) (GameCube).mp4</video>
   </game>
   <game>
-    <path>./Pichu Bros. Mini (Japan).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pichu Bros. Mini (Japan).zip</path>
     <name>Pichu Bros. Mini (Japan)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pichu Bros. Mini (Japan).png</image>
-    <video>./media/videos/Pichu Bros. Mini (Japan).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pichu Bros. Mini (Japan).mp4</video>
   </game>
   <game>
-    <path>./Pichu Bros. Mini - Hoppip's Jump Match (Japan) (Preview).zip</path>
-    <name>Pichu Bros. Mini - Hoppip's Jump Match (Japan) (Preview)</name>
-    <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pichu Bros. Mini - Hoppip's Jump Match (Japan) (Preview).png</image>
-    <video>./media/videos/Pichu Bros. Mini - Hoppip's Jump Match (Japan) (Preview).mp4</video>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pichu Bros. Mini - Hoppip's Jump Match (Japan) (Preview).zip</path>
+    <name>Pichu Bros. Mini - Hoppip&apos;s Jump Match (Japan) (Preview)</name>
+    <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pichu Bros. Mini - Hoppip&apos;s Jump Match (Japan) (Preview).png</image>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pichu Bros. Mini - Hoppip&apos;s Jump Match (Japan) (Preview).mp4</video>
   </game>
   <game>
-    <path>./Pichu Bros. Mini - Netsukikyuu (Japan) (Preview).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pichu Bros. Mini - Netsukikyuu (Japan) (Preview).zip</path>
     <name>Pichu Bros. Mini - Netsukikyuu (Japan) (Preview)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pichu Bros. Mini - Netsukikyuu (Japan) (Preview).png</image>
-    <video>./media/videos/Pichu Bros. Mini - Netsukikyuu (Japan) (Preview).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pichu Bros. Mini - Netsukikyuu (Japan) (Preview).mp4</video>
   </game>
   <game>
-    <path>./Pichu Bros. Mini - Skateboard (Japan) (Preview).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pichu Bros. Mini - Skateboard (Japan) (Preview).zip</path>
     <name>Pichu Bros. Mini - Skateboard (Japan) (Preview)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pichu Bros. Mini - Skateboard (Japan) (Preview).png</image>
-    <video>./media/videos/Pichu Bros. Mini - Skateboard (Japan) (Preview).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pichu Bros. Mini - Skateboard (Japan) (Preview).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Anime Card Daisakusen (Japan).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Anime Card Daisakusen (Japan).zip</path>
     <name>Pokemon Anime Card Daisakusen (Japan)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Anime Card Daisakusen (Japan).png</image>
-    <video>./media/videos/Pokemon Anime Card Daisakusen (Japan).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Anime Card Daisakusen (Japan).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Party Mini (Europe).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini (Europe).zip</path>
     <name>Pokemon Party Mini (Europe)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Party Mini (Europe).png</image>
-    <video>./media/videos/Pokemon Party Mini (Europe).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini (Europe).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Party Mini (Japan).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini (Japan).zip</path>
     <name>Pokemon Party Mini (Japan)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Party Mini (Japan).png</image>
-    <video>./media/videos/Pokemon Party Mini (Japan).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini (Japan).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Party Mini (USA).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini (USA).zip</path>
     <name>Pokemon Party Mini (USA)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Party Mini (USA).png</image>
-    <video>./media/videos/Pokemon Party Mini (USA).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini (USA).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Party Mini - Baseline Judge (Europe) (GameCube).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini - Baseline Judge (Europe) (GameCube).zip</path>
     <name>Pokemon Party Mini - Baseline Judge (Europe) (GameCube)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Party Mini - Baseline Judge (Europe) (GameCube).png</image>
-    <video>./media/videos/Pokemon Party Mini - Baseline Judge (Europe) (GameCube).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini - Baseline Judge (Europe) (GameCube).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Party Mini - Baseline Judge (Japan) (GameCube).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini - Baseline Judge (Japan) (GameCube).zip</path>
     <name>Pokemon Party Mini - Baseline Judge (Japan) (GameCube)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Party Mini - Baseline Judge (Japan) (GameCube).png</image>
-    <video>./media/videos/Pokemon Party Mini - Baseline Judge (Japan) (GameCube).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini - Baseline Judge (Japan) (GameCube).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Party Mini - Baseline Judge (USA) (GameCube).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini - Baseline Judge (USA) (GameCube).zip</path>
     <name>Pokemon Party Mini - Baseline Judge (USA) (GameCube)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Party Mini - Baseline Judge (USA) (GameCube).png</image>
-    <video>./media/videos/Pokemon Party Mini - Baseline Judge (USA) (GameCube).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini - Baseline Judge (USA) (GameCube).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Party Mini - Chansey's Dribble (Europe) (GameCube).zip</path>
-    <name>Pokemon Party Mini - Chansey's Dribble (Europe) (GameCube)</name>
-    <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Party Mini - Chansey's Dribble (Europe) (GameCube).png</image>
-    <video>./media/videos/Pokemon Party Mini - Chansey's Dribble (Europe) (GameCube).mp4</video>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini - Chansey's Dribble (Europe) (GameCube).zip</path>
+    <name>Pokemon Party Mini - Chansey&apos;s Dribble (Europe) (GameCube)</name>
+    <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Party Mini - Chansey&apos;s Dribble (Europe) (GameCube).png</image>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini - Chansey&apos;s Dribble (Europe) (GameCube).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Party Mini - Pikachu's Rocket Start (Europe) (GameCube).zip</path>
-    <name>Pokemon Party Mini - Pikachu's Rocket Start (Europe) (GameCube)</name>
-    <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Party Mini - Pikachu's Rocket Start (Europe) (GameCube).png</image>
-    <video>./media/videos/Pokemon Party Mini - Pikachu's Rocket Start (Europe) (GameCube).mp4</video>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini - Pikachu's Rocket Start (Europe) (GameCube).zip</path>
+    <name>Pokemon Party Mini - Pikachu&apos;s Rocket Start (Europe) (GameCube)</name>
+    <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Party Mini - Pikachu&apos;s Rocket Start (Europe) (GameCube).png</image>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini - Pikachu&apos;s Rocket Start (Europe) (GameCube).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Party Mini - Ricochet Dribble (Japan) (GameCube).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini - Ricochet Dribble (Japan) (GameCube).zip</path>
     <name>Pokemon Party Mini - Ricochet Dribble (Japan) (GameCube)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Party Mini - Ricochet Dribble (Japan) (GameCube).png</image>
-    <video>./media/videos/Pokemon Party Mini - Ricochet Dribble (Japan) (GameCube).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini - Ricochet Dribble (Japan) (GameCube).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Party Mini - Ricochet Dribble (USA) (GameCube).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini - Ricochet Dribble (USA) (GameCube).zip</path>
     <name>Pokemon Party Mini - Ricochet Dribble (USA) (GameCube)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Party Mini - Ricochet Dribble (USA) (GameCube).png</image>
-    <video>./media/videos/Pokemon Party Mini - Ricochet Dribble (USA) (GameCube).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini - Ricochet Dribble (USA) (GameCube).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Party Mini - Rocket Start (USA) (GameCube).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini - Rocket Start (USA) (GameCube).zip</path>
     <name>Pokemon Party Mini - Rocket Start (USA) (GameCube)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Party Mini - Rocket Start (USA) (GameCube).png</image>
-    <video>./media/videos/Pokemon Party Mini - Rocket Start (USA) (GameCube).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini - Rocket Start (USA) (GameCube).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Party Mini - Slowking's Judge (Europe) (GameCube).zip</path>
-    <name>Pokemon Party Mini - Slowking's Judge (Europe) (GameCube)</name>
-    <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Party Mini - Slowking's Judge (Europe) (GameCube).png</image>
-    <video>./media/videos/Pokemon Party Mini - Slowking's Judge (Europe) (GameCube).mp4</video>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini - Slowking's Judge (Europe) (GameCube).zip</path>
+    <name>Pokemon Party Mini - Slowking&apos;s Judge (Europe) (GameCube)</name>
+    <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Party Mini - Slowking&apos;s Judge (Europe) (GameCube).png</image>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Party Mini - Slowking&apos;s Judge (Europe) (GameCube).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Pinball Mini (Japan) (Preview).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Pinball Mini (Japan) (Preview).zip</path>
     <name>Pokemon Pinball Mini (Japan) (Preview)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Pinball Mini (Japan) (Preview).png</image>
-    <video>./media/videos/Pokemon Pinball Mini (Japan) (Preview).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Pinball Mini (Japan) (Preview).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Pinball Mini (Japan).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Pinball Mini (Japan).zip</path>
     <name>Pokemon Pinball Mini (Japan)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Pinball Mini (Japan).png</image>
-    <video>./media/videos/Pokemon Pinball Mini (Japan).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Pinball Mini (Japan).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Pinball Mini (USA) (GameCube Preview).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Pinball Mini (USA) (GameCube Preview).zip</path>
     <name>Pokemon Pinball Mini (USA) (GameCube Preview)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Pinball Mini (USA) (GameCube Preview).png</image>
-    <video>./media/videos/Pokemon Pinball Mini (USA) (GameCube Preview).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Pinball Mini (USA) (GameCube Preview).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Pinball Mini (USA, Europe).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Pinball Mini (USA, Europe).zip</path>
     <name>Pokemon Pinball Mini (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Pinball Mini (USA, Europe).png</image>
-    <video>./media/videos/Pokemon Pinball Mini (USA, Europe).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Pinball Mini (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Puzzle Collection (France) (GameCube Preview).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Puzzle Collection (France) (GameCube Preview).zip</path>
     <name>Pokemon Puzzle Collection (France) (GameCube Preview)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Puzzle Collection (France) (GameCube Preview).png</image>
-    <video>./media/videos/Pokemon Puzzle Collection (France) (GameCube Preview).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Puzzle Collection (France) (GameCube Preview).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Puzzle Collection (France).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Puzzle Collection (France).zip</path>
     <name>Pokemon Puzzle Collection (France)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Puzzle Collection (France).png</image>
-    <video>./media/videos/Pokemon Puzzle Collection (France).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Puzzle Collection (France).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Puzzle Collection (Germany) (GameCube Preview).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Puzzle Collection (Germany) (GameCube Preview).zip</path>
     <name>Pokemon Puzzle Collection (Germany) (GameCube Preview)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Puzzle Collection (Germany) (GameCube Preview).png</image>
-    <video>./media/videos/Pokemon Puzzle Collection (Germany) (GameCube Preview).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Puzzle Collection (Germany) (GameCube Preview).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Puzzle Collection (Germany).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Puzzle Collection (Germany).zip</path>
     <name>Pokemon Puzzle Collection (Germany)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Puzzle Collection (Germany).png</image>
-    <video>./media/videos/Pokemon Puzzle Collection (Germany).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Puzzle Collection (Germany).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Puzzle Collection (Japan) (GameCube).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Puzzle Collection (Japan) (GameCube).zip</path>
     <name>Pokemon Puzzle Collection (Japan) (GameCube)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Puzzle Collection (Japan) (GameCube).png</image>
-    <video>./media/videos/Pokemon Puzzle Collection (Japan) (GameCube).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Puzzle Collection (Japan) (GameCube).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Puzzle Collection (Japan).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Puzzle Collection (Japan).zip</path>
     <name>Pokemon Puzzle Collection (Japan)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Puzzle Collection (Japan).png</image>
-    <video>./media/videos/Pokemon Puzzle Collection (Japan).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Puzzle Collection (Japan).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Puzzle Collection (USA) (GameCube Preview).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Puzzle Collection (USA) (GameCube Preview).zip</path>
     <name>Pokemon Puzzle Collection (USA) (GameCube Preview)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Puzzle Collection (USA) (GameCube Preview).png</image>
-    <video>./media/videos/Pokemon Puzzle Collection (USA) (GameCube Preview).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Puzzle Collection (USA) (GameCube Preview).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Puzzle Collection (USA, Europe).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Puzzle Collection (USA, Europe).zip</path>
     <name>Pokemon Puzzle Collection (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Puzzle Collection (USA, Europe).png</image>
-    <video>./media/videos/Pokemon Puzzle Collection (USA, Europe).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Puzzle Collection (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Puzzle Collection Vol. 2 (Japan).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Puzzle Collection Vol. 2 (Japan).zip</path>
     <name>Pokemon Puzzle Collection Vol. 2 (Japan)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Puzzle Collection Vol. 2 (Japan).png</image>
-    <video>./media/videos/Pokemon Puzzle Collection Vol. 2 (Japan).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Puzzle Collection Vol. 2 (Japan).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Race Mini (Japan) (Preview).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Race Mini (Japan) (Preview).zip</path>
     <name>Pokemon Race Mini (Japan) (Preview)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Race Mini (Japan) (Preview).png</image>
-    <video>./media/videos/Pokemon Race Mini (Japan) (Preview).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Race Mini (Japan) (Preview).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Race Mini (Japan).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Race Mini (Japan).zip</path>
     <name>Pokemon Race Mini (Japan)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Race Mini (Japan).png</image>
-    <video>./media/videos/Pokemon Race Mini (Japan).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Race Mini (Japan).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Shock Tetris (Japan).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Shock Tetris (Japan).zip</path>
     <name>Pokemon Shock Tetris (Japan)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Shock Tetris (Japan).png</image>
-    <video>./media/videos/Pokemon Shock Tetris (Japan).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Shock Tetris (Japan).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Sodateyasan Mini (Japan).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Sodateyasan Mini (Japan).zip</path>
     <name>Pokemon Sodateyasan Mini (Japan)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Sodateyasan Mini (Japan).png</image>
-    <video>./media/videos/Pokemon Sodateyasan Mini (Japan).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Sodateyasan Mini (Japan).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Tetris (Europe) (En,Ja,Fr).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Tetris (Europe) (En,Ja,Fr).zip</path>
     <name>Pokemon Tetris (Europe) (En,Ja,Fr)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Tetris (Europe) (En,Ja,Fr).png</image>
-    <video>./media/videos/Pokemon Tetris (Europe) (En,Ja,Fr).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Tetris (Europe) (En,Ja,Fr).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Zany Cards (France).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Zany Cards (France).zip</path>
     <name>Pokemon Zany Cards (France)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Zany Cards (France).png</image>
-    <video>./media/videos/Pokemon Zany Cards (France).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Zany Cards (France).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Zany Cards (Germany).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Zany Cards (Germany).zip</path>
     <name>Pokemon Zany Cards (Germany)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Zany Cards (Germany).png</image>
-    <video>./media/videos/Pokemon Zany Cards (Germany).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Zany Cards (Germany).mp4</video>
   </game>
   <game>
-    <path>./Pokemon Zany Cards (USA, Europe).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Pokemon Zany Cards (USA, Europe).zip</path>
     <name>Pokemon Zany Cards (USA, Europe)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Pokemon Zany Cards (USA, Europe).png</image>
-    <video>./media/videos/Pokemon Zany Cards (USA, Europe).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Pokemon Zany Cards (USA, Europe).mp4</video>
   </game>
   <game>
-    <path>./Snorlax's Lunch Time (Europe) (GameCube).zip</path>
-    <name>Snorlax's Lunch Time (Europe) (GameCube)</name>
-    <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Snorlax's Lunch Time (Europe) (GameCube).png</image>
-    <video>./media/videos/Snorlax's Lunch Time (Europe) (GameCube).mp4</video>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Snorlax's Lunch Time (Europe) (GameCube).zip</path>
+    <name>Snorlax&apos;s Lunch Time (Europe) (GameCube)</name>
+    <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Snorlax&apos;s Lunch Time (Europe) (GameCube).png</image>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Snorlax&apos;s Lunch Time (Europe) (GameCube).mp4</video>
   </game>
   <game>
-    <path>./Snorlax's Lunch Time (Japan) (GameCube).zip</path>
-    <name>Snorlax's Lunch Time (Japan) (GameCube)</name>
-    <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Snorlax's Lunch Time (Japan) (GameCube).png</image>
-    <video>./media/videos/Snorlax's Lunch Time (Japan) (GameCube).mp4</video>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Snorlax's Lunch Time (Japan) (GameCube).zip</path>
+    <name>Snorlax&apos;s Lunch Time (Japan) (GameCube)</name>
+    <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Snorlax&apos;s Lunch Time (Japan) (GameCube).png</image>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Snorlax&apos;s Lunch Time (Japan) (GameCube).mp4</video>
   </game>
   <game>
-    <path>./Togepi no Daibouken (Japan) (Preview).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Togepi no Daibouken (Japan) (Preview).zip</path>
     <name>Togepi no Daibouken (Japan) (Preview)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Togepi no Daibouken (Japan) (Preview).png</image>
-    <video>./media/videos/Togepi no Daibouken (Japan) (Preview).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Togepi no Daibouken (Japan) (Preview).mp4</video>
   </game>
   <game>
-    <path>./Togepi no Daibouken (Japan).zip</path>
+    <path>/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini/Togepi no Daibouken (Japan).zip</path>
     <name>Togepi no Daibouken (Japan)</name>
     <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/Togepi no Daibouken (Japan).png</image>
-    <video>./media/videos/Togepi no Daibouken (Japan).mp4</video>
+    <video>/recalbox/share/videos/No-Intro/Nintendo - Pokemon Mini/Togepi no Daibouken (Japan).mp4</video>
   </game>
-  <game>
-    <path>./[BIOS] Nintendo Pokemon Mini (World).zip</path>
-    <name>[BIOS] Nintendo Pokemon Mini (World)</name>
-    <image>/recalbox/share/thumbs/Nintendo - Pokemon Mini/Named_Titles/[BIOS] Nintendo Pokemon Mini (World).png</image>
-    <video>./media/videos/[BIOS] Nintendo Pokemon Mini (World).mp4</video>
-  </game>
-</gameList>
+</gamelist>

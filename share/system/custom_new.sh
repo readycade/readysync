@@ -47,119 +47,106 @@ sanitize_dir_name() {
 
 # Function to escape XML special characters
 xml_escape() {
-  echo "$1" | sed 's/&/\&amp;/g; s/</\</g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&apos;/g'
+  local input="$1"
+  echo "$input" | sed 's/\&/\&amp;/g; s/\"/\&quot;/g; s/'"'"'/\&apos;/g; s/</\&lt;/g; s/>/\&gt;/g'
 }
-
-
 
 # Function to check if a game already exists in the gamelist.xml
 game_exists() {
   local game_name="$1"
   local gamelist_file="$2"
-  grep -q "<name>$(xml_escape "$game_name")</name>" "$gamelist_file"
-}
 
-
-
-# Function to validate the existing gamelist.xml file
-validate_gamelist() {
-  local gamelist_file="$1"
-    # Check if the file is non-empty and has at least one <game> entry
-  if [ -s "$gamelist_file" ] && grep -q "<game>" "$gamelist_file"; then
-    return 0
+  if grep -q "<name>$game_name</name>" "$gamelist_file"; then
+    echo "DEBUG: Game '$game_name' exists in '$gamelist_file'" >> "$log_file"
+    return 0  # Game exists
   else
-    return 1
+    echo "DEBUG: Game '$game_name' does not exist in '$gamelist_file'" >> "$log_file"
+    return 1  # Game does not exist
   fi
 }
-
-
 
 # Function to update or add a game to the gamelist.xml
 update_or_add_game() {
   local game_name="$1"
   local rom_name="$2"
   local console_name="$3"
-  local console_directory="$4"
-  local gamelist_file="$console_directory/gamelist.xml"
+  local gamelist_file="/recalbox/share/rom/$console_name/gamelist.xml"
 
-  if [ -n "$console_name" ]; then
-    if game_exists "$game_name"  "$gamelist_file"; then
-         # Update existing game entry
-      echo "DEBUG: Updating existing entry for '$game_name' in '$gamelist_file'" >> "$log_file"
-      sed -i "s|<name>$game_name</name>|<name>$(xml_escape "$game_name")</name>|g" "$gamelist_file"
-      sed -i "s|<path>.*$rom_name.*|<path>/recalbox/share/rom/No-Intro/$(xml_escape "$rom_name")</path>|g" "$gamelist_file"
-      sed -i "s|<video>.*$game_name.*.mp4.*|<video>/share/videos/$console_name/$(xml_escape "$game_name").mp4</video>|g" "$gamelist_file"
-    else
-         # Add new game entry
-      echo "DEBUG: Adding new entry for '$game_name' in '$gamelist_file'" >> "$log_file"
-      echo "    <game>"  >> "$gamelist_file"
-      echo "      <path>/recalbox/share/rom/No-Intro/$(xml_escape "$rom_name")</path>"  >> "$gamelist_file"
-      echo "      <name>$(xml_escape "$game_name")</name>"  >> "$gamelist_file"
-      echo "      <video>/share/videos/$console_name/$(xml_escape "$game_name").mp4</video>"  >> "$gamelist_file"
-      echo "      <image>/share/thumbs/$console_name/Named_Titles/$(xml_escape "$game_name").png</image>"  >> "$gamelist_file"
-      echo "    </game>"  >> "$gamelist_file"
-    fi
+  if game_exists "$game_name" "$gamelist_file"; then
+    # Update existing game entry
+    echo "DEBUG: Updating existing entry for '$game_name' in '$gamelist_file'" >> "$log_file"
+    sed -i "s|<name>$game_name</name>|<name>$(xml_escape "$game_name")</name>|g" "$gamelist_file"
+    sed -i "s|<path>./$rom_name</path>|<path>./$(xml_escape "$rom_name")</path>|g" "$gamelist_file"
+    sed -i "s|<video>./media/videos/$game_name.mp4</video>|<video>./media/videos/$(xml_escape "$game_name").mp4</video>|g" "$gamelist_file"
   else
-    echo "ERROR: Failed to extract platform name for '$console_name'" >> "$log_file"
+    # Add new game entry
+    echo "DEBUG: Adding new entry for '$game_name' in '$gamelist_file'" >> "$log_file"
+    echo "  <game>" >> "$gamelist_file"
+    echo "    <path>./$(xml_escape "$rom_name")</path>" >> "$gamelist_file"
+    echo "    <name>$(xml_escape "$game_name")</name>" >> "$gamelist_file"
+    echo "    <video>./media/videos/$(xml_escape "$game_name").mp4</video>" >> "$gamelist_file"
+    echo "  </game>" >> "$gamelist_file"
   fi
 }
 
-
-
-# Function to generate or update gamelist.xml files
+# Function to generate gamelist.xml
 generate_gamelist_xml() {
-  local platforms_file="/recalbox/share/userscripts/.config/readystream/platforms.txt"
-  local output_base_dir="/recalbox/share/roms/readystream"
+  local online_dir="$1"
 
-     # Check if the platforms.txt file exists
-  if [ ! -f "$platforms_file" ]; then
-    echo "ERROR: platforms.txt file not found at '$platforms_file'" >> "$log_file"
-    return 1
-  fi
+  for console_name_dir in "$online_dir"/*; do
+    if [ -d "$console_name_dir" ]; then
+      console_name=$(basename "$console_name_dir")
 
-     # Loop through each line in the platforms.txt file
-  while IFS= read -r line; do
-       # Extract console name, ROM directory, and platform name
-    console_name=$(echo "$line" | awk -F ';' '{print $1}' | sed 's/roms+=("//' | sed 's/"//g')
-    if [[ "$console_name" == "#"* ]]; then
-      continue
-    fi
-    
-    console_rom_directory=$(echo "$line" | cut -d';' -f2)
-    echo "Console names extracted from platforms.txt: '$console_name'" >> "$log_file"
+      local console_roms_dir="/recalbox/share/rom/$console_name"
+      local gamelist_file="$console_roms_dir/gamelist.xml"
+      local log_file="/recalbox/share/rom/gamelist.log"  # Path to log file
 
-       # Determine the output directory for the gamelist.xml file
-    output_dir="$output_base_dir/$console_name"
-    echo "DEBUG: Console ROMs directory: '$output_dir'" >> "$log_file"
+      # Create the console ROMs directory if it does not exist
+      if [ ! -d "$console_roms_dir" ]; then
+        mkdir -p "$console_roms_dir"
+        echo "INFO: Created directory '$console_roms_dir'" >> "$log_file"
+      fi
 
-     # Generate or update the gamelist.xml file
-     gamelist_file="$output_dir/gamelist.xml"
-    if [ ! -f "$gamelist_file" ]; then
-      echo "INFO: Generating gamelist.xml for '$console_name'" >> "$log_file"
-      mkdir -p "$output_dir" >> "$log_file" 2>&1
-      echo "<?xml version=\"1.0\"?><gameList>" > "$gamelist_file"
-    else
-       # Check the file size of the gamelist.xml file before updating it
-      filesize=$(du -b "$gamelist_file" | awk '{print $1}')
-      if [ "$filesize" -ge 4096 ]; then
-        echo "INFO: Skipping update for '$console_name' as the gamelist.xml exceeds the size threshold (4KB)" >> "$log_file"
-        continue
+      # Check if gamelist.xml already exists
+      if [ ! -f "$gamelist_file" ]; then
+        echo "INFO: Generating gamelist.xml for '$console_name'" >> "$log_file"
+
+        # Create gamelist.xml
+        echo "<?xml version=\"1.0\"?>" > "$gamelist_file"
+        echo "<gameList>" >> "$gamelist_file"
+
+        # Iterate through rom files
+        for rom_file in "$console_roms_dir"/*; do
+          if [ -f "$rom_file" ]; then
+            rom_name=$(basename "$rom_file")
+            game_name="${rom_name%.*}"
+
+            echo "  <game>" >> "$gamelist_file"
+            echo "    <path>./$(xml_escape "$rom_name")</path>" >> "$gamelist_file"
+            echo "    <name>$(xml_escape "$game_name")</name>" >> "$gamelist_file"
+            echo "    <video>./media/videos/$(xml_escape "$game_name").mp4</video>" >> "$gamelist_file"
+            echo "  </game>" >> "$gamelist_file"
+          fi
+        done
+
+        echo "</gameList>" >> "$gamelist_file"
+
+        # Check if MD5 exists and matches, if not, create MD5 checksum for gamelist.xml
+        if [ ! -f "$gamelist_file.md5" ] || ! md5sum -c --status "$gamelist_file.md5"; then
+          md5sum "$gamelist_file" > "$gamelist_file.md5"
+          echo "INFO: Gamelist.xml MD5 checksum created: '$gamelist_file.md5'" >> "$log_file"
+        else
+          echo "INFO: Gamelist.xml MD5 checksum matches existing checksum for '$console_name'" >> "$log_file"
+        fi
       else
-        echo "INFO: Updating existing gamelist.xml for '$console_name'" >> "$log_file"
+        echo "INFO: Gamelist.xml already exists for '$console_name'" >> "$log_file"
       fi
     fi
-
-     # Close the gameList tag if it was opened
-    echo "</gameList>" >> "$gamelist_file"
-
-       # Create an MD5 checksum for the gamelist.xml file
-     md5sum --status -c "$gamelist_file" > /dev/null 2>&1
-    if [ $? -ne 0 ]; then
-      md5sum "$gamelist_file" > "$gamelist_file.md5" >> "$log_file" 2>&1
-      echo "INFO: Gamelist.xml MD5 checksum created: '$gamelist_file.md5'" >> "$log_file"
-    fi
-  done < "$platforms_file"
+  done
 }
+
+# Call the function with the online directory as an argument
+generate_gamelist_xml "/recalbox/share/roms/readystream"
 
 
 
@@ -179,7 +166,23 @@ offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlis
 if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
     # Mount rclone using the provided command
 	rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h &
+
+  # Disable Cache + max conns + dl-seg-size
+
+  #source_path="https://myrient.erista.me/files/"
+  #destination_path="/recalbox/share/rom/"
+
+  # Create the destination directory if it doesn't exist
+  #mkdir -p "$destination_path"
+
+  # httpdirfs with caching to mount ALL files
+  #mkdir -p /recalbox/share/system/.cache/httpdirfs
+
+  #httpdirfs -d -f -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io "$source_path" "$destination_path"
 #disown
+
+
+
 
 	# Backup the existing systemlist.xml
     echo "Backing up systemlist.xml..."
@@ -229,12 +232,32 @@ for rom_entry in "${roms[@]}"; do
         mkdir -p "$destination_path"
 
         # httpdirfs with caching to mount ALL files
-        mkdir -p /recalbox/share/system/.cache/httpdirfs
-        httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs -o nonempty "$source_path" "$destination_path"
+        #mkdir -p /recalbox/share/system/.cache/httpdirfs
+        #httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs -o nonempty "$source_path" "$destination_path"
 
-        sleep 5
-        # Call the function to generate or update gamelist.xml files
-        generate_gamelist_xml
+        # Disable Cache + max conns + dl-seg-size
+        #httpdirfs -d -o debug --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 -o nonempty "$source_path" "$destination_path"
+
+        # Reduce Download Segment Size
+        #httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 -o nonempty "$source_path" "$destination_path"
+
+        # Increase Maximum Number of Connections
+        #httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --max-conns=20 -o nonempty "$source_path" "$destination_path"
+
+        # Adjust Retry Wait Time
+        #httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --retry-wait=1 -o nonempty "$source_path" "$destination_path"
+
+        # Foreground Operation
+        #httpdirfs -d -f -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs -o nonempty "$source_path" "$destination_path"
+
+        # Combined Command
+        #httpdirfs -d -f -o debug --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty --cache=0 "$source_path" "$destination_path"
+
+        rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h &
+        #rclone mount dos: /recalbox/share/rom --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h &
+        #rclone mount eye: /recalbox/share/rom --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h &
+
+
 
     fi
 
