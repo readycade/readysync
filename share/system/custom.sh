@@ -68,7 +68,7 @@ echo "(No-Intro, Redump, TOSEC)..."
 ####httpdirfs -f -o debug -o auto_unmount --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 #--retry-wait=1 -o nonempty "https://the-eye.eu/public/" "/recalbox/share/rom2/"
 #httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://the-eye.eu/public/ /recalbox/share/rom2
 echo "Mounting romsets..."
-echo "(Mixed..."
+echo "(Mixed)..."
 
 
 # Mount Old-Dos to recalbox/share/rom3
