@@ -11,47 +11,6 @@
 ln -s /usr/bin/fusermount /usr/bin/fusermount3
 mount -o remount,rw /
 
-# Check if the script is running as root
-if [ "$EUID" -ne 0 ]; then
-  echo "Please run as root"
-  exit 1
-fi
-
-# Function to set environment variables
-set_environment_variables() {
-    export NOINTRO="/recalbox/share/rom/No-Intro"
-    export REDUMP="/recalbox/share/rom/Redump"
-    export TOSEC="/recalbox/share/rom/TOSEC"
-    
-    # Also append these variables to /etc/environment to ensure they are set globally
-    echo "NOINTRO=/recalbox/share/rom/No-Intro" >> /etc/environment
-    echo "REDUMP=/recalbox/share/rom/Redump" >> /etc/environment
-    echo "TOSEC=/recalbox/share/rom/TOSEC" >> /etc/environment
-}
-
-# Function to check if environment variables are set
-check_environment_variables() {
-    source /etc/environment
-    if [[ -z "${NOINTRO}" || -z "${REDUMP}" || -z "${TOSEC}" ]]; then
-        return 1
-    else
-        return 0
-    fi
-}
-
-# Loop until the environment variables are set
-until check_environment_variables; do
-    set_environment_variables
-    echo "Trying to set environment variables..."
-    sleep 1
-done
-
-echo "Environment variables set successfully:"
-printenv NOINTRO
-printenv REDUMP
-printenv TOSEC
-
-
 log_file="/recalbox/share/system/.systemstream.log"
 
 # Clear the log file
