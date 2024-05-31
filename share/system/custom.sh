@@ -330,15 +330,39 @@ else
     fi
 fi
 
-# Check if /recalbox/share/userscripts/.config/readystream/roms is empty
-if [ -z "$(ls -A /recalbox/share/userscripts/.config/readystream/roms)" ]; then
+# Download LATEST Gamelist.xml's from github
+# (remove the TARGET_DIR from your recalbox and the script will download the latest gamelists)
+
+# Target directory
+TARGET_DIR="/recalbox/share/userscripts/.config/readystream/roms"
+
+# Check if the directory is empty
+if [ -z "$(ls -A $TARGET_DIR)" ]; then
     echo "Downloading gamelist.xml and checksums for ALL Consoles..."
-    mkdir -p /recalbox/share/userscripts/.config/readystream/roms
-    wget --recursive --no-parent -P /recalbox/share/userscripts/.config/readystream/roms https://github.com/readycade/readysync/tree/master/share/userscripts/.config/readystream/roms
+
+    # Ensure the target directory exists
+    mkdir -p $TARGET_DIR
+
+    # Navigate to the parent directory
+    cd /recalbox/share/userscripts/.config/readystream
+
+    # Download the ZIP file from GitHub
+    wget -O readysync.zip https://github.com/readycade/readysync/archive/refs/heads/master.zip
+
+    # Unzip the downloaded file
+    unzip readysync.zip
+
+    # Move the contents of the desired directory to the target location
+    mv readysync-master/share/userscripts/.config/readystream/roms/* $TARGET_DIR/
+
+    # Clean up
+    rm -rf readysync.zip readysync-master
+
     echo "gamelist.xml and checksums downloaded successfully."
 else
     echo "gamelist.xml and checksums directory is not empty. No need to download."
 fi
+
 
 # If directories don't exist, create them
 if [ ! -d /recalbox/share/roms/readystream ]; then
