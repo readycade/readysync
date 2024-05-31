@@ -10,11 +10,16 @@
 
 ln -s /usr/bin/fusermount /usr/bin/fusermount3
 mount -o remount,rw /
+echo "mount and unmount as read-write..."
 
 log_file="/recalbox/share/system/.systemstream.log"
 
 # Clear the log file
 truncate -s 0 "$log_file"
+echo "Log file:..."
+echo "/recalbox/share/system/.systemstream.log"
+echo "Truncating log file..."
+
 
 exec 3>&1 4>&2
 trap 'exec 2>&4 1>&3' 0 1 2 3
@@ -28,6 +33,7 @@ sanitize_dir_name() {
 online_mode() {
     # Add your specific actions for Online Mode here
     # ...
+    echo "Online Mode Enabled..."
     echo "Performing actions specific to Online Mode..."
 
 # Check and update systemlist.xml based on user choice
@@ -40,20 +46,34 @@ offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlis
 if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
 # Mount thumbnails with rclone
 rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
+echo "Mounting libretro thumbnails..."
+
 # Mount thumbnails2 with rclone
 #rclone mount thumbnails2: /recalbox/share/thumbs2 --config=/recalbox/share/system/rclone2.conf --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
+echo "Mounting missing thumbnails..."
+
 # Mount videos with rclone
 #rclone mount videos: /recalbox/share/videos --config=/recalbox/share/system/rclone3.conf --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
+echo "Mounting videos..."
 
 # Mount Myrient to recalbox/share/rom
-#httpdirfs -f -o debug -o auto_unmount --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 #--retry-wait=1 -o nonempty "https://myrient.erista.me/files/" "/recalbox/share/rom/"
+####httpdirfs -f -o debug -o auto_unmount --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 #--retry-wait=1 -o nonempty "https://myrient.erista.me/files/" "/recalbox/share/rom/"
 httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://myrient.erista.me/files/ /recalbox/share/rom
+echo "Mounting romsets..."
+echo "(No-Intro, Redump, TOSEC)..."
+
 # Mount The-Eye to recalbox/share/rom2
-#httpdirfs -f -o debug -o auto_unmount --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 #--retry-wait=1 -o nonempty "https://the-eye.eu/public/" "/recalbox/share/rom2/"
+####httpdirfs -f -o debug -o auto_unmount --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 #--retry-wait=1 -o nonempty "https://the-eye.eu/public/" "/recalbox/share/rom2/"
+#httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://the-eye.eu/public/ /recalbox/share/rom2
+echo "Mounting romsets..."
+echo "(Mixed..."
 
-# Mount The-Eye to recalbox/share/rom3
-#httpdirfs -f -o debug -o auto_unmount --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty "ftp://oscollect:SxrRwRGbMe50XcwMKB53j6LSN9DehYMJag@old-dos.ru/" "/recalbox/share/rom3/"
 
+# Mount Old-Dos to recalbox/share/rom3
+####httpdirfs -f -o debug -o auto_unmount --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty "ftp://oscollect:SxrRwRGbMe50XcwMKB53j6LSN9DehYMJag@old-dos.ru/" "/recalbox/share/rom3/"
+#httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io ftp://oscollect:SxrRwRGbMe50XcwMKB53j6LSN9DehYMJag@old-dos.ru/ /recalbox/share/rom3
+echo "Mounting romsets..."
+echo "(DOS)..."
 
 
 	# Backup the existing systemlist.xml
@@ -65,7 +85,13 @@ httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/htt
     echo "Overwriting systemlist.xml with the online version..."
     cp "$offline_online" "$offline_systemlist"
     echo "Online version applied."
+
+    # Move the contents to online directory
+    cp -r /recalbox/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
+    echo "copied ALL gamelists.xml to online directory."
+
 fi
+
 
 }
 
@@ -74,6 +100,7 @@ fi
 offline_mode() {
     # Add your specific actions for Offline Mode here
     # ...
+    echo "Offline Mode Enabled..."
     echo "Performing actions specific to Offline Mode..."
 
 # Check and update systemlist.xml based on user choice
@@ -262,11 +289,12 @@ fi
 if [ -e /recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml ] && \
    [ -e /recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml ] && \
    [ -e /recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml ]; then
-    echo "Files already exist. No need to download."
+    echo "Files already exist. systemlist-backup.xml, systemlist-online.xml and systemlist-offline.xml. No need to download."
 else
     # Download systemlist-backup.xml
     mkdir -p /recalbox/share/userscripts/.config/.emulationstation/
 
+    echo "Downloading systemlist-backup.xml, systemlist-online.xml and systemlist-offline.xml"
     wget -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-backup.xml
 
     # Download systemlist-online.xml
@@ -281,7 +309,7 @@ else
        [ -e /recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml ]; then
         echo "Files downloaded successfully."
     else
-        echo "Failed to download one or more files."
+        echo "Failed to download systemlist-backup.xml, systemlist-online.xml and systemlist-offline.xml..."
     fi
 fi
 
@@ -309,9 +337,6 @@ if [ -z "$(ls -A $TARGET_DIR)" ]; then
 
     # Move the contents of the desired directory to the target location
     mv readysync-master/share/userscripts/.config/readystream/roms/* $TARGET_DIR/
-
-    # Move the contents to online directory
-    mv readysync-master/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
 
     # Clean up
     rm -rf readysync.zip readysync-master
