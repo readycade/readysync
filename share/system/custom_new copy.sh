@@ -4,8 +4,8 @@
 ## Author Michael Cabral 2024
 ## Title: Readystream
 ## GPL-3.0 license
-## Description: Downloads or Mounts any HTTP repository of games using httpdirfs, wget, mount-zip, rclone, jq and 7-zip giving you an Online and Offline experience.
-## Online = FTP/HTTP Mounted Games
+## Description: Downloads or Mounts any HTTP repository of games using httpdirfs, wget, mount-zip, rclone, and 7-zip giving you an Online and Offline experience.
+## Online = HTTP/FTP Mounted Games
 ## Offline = Local Hard Drive Games
 
 ln -s /usr/bin/fusermount /usr/bin/fusermount3
@@ -24,31 +24,6 @@ sanitize_dir_name() {
   tr -cd '[:alnum:]' <<< "$1"
 }
 
-
-# Function to check if a game already exists in the gamelist.xml
-#game_exists() {
-#  local game_name="$1"
-#  local gamelist_file="$2"
-
-#  if grep -q "<name>$game_name</name>" "$gamelist_file"; then
-#    echo "DEBUG: Game '$game_name' exists in '$gamelist_file'" >> "$log_file"
-#    return 0  # Game exists
-#  else
-#    echo "DEBUG: Game '$game_name' does not exist in '$gamelist_file'" >> "$log_file"
-#    return 1  # Game does not exist
-#  fi
-#}
-
-# Function to escape special characters for XML
-#xml_escape() {
-#  echo "$1" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'\''/\&apos;/g'
-#}
-
-
-
-
-
-
 # Function to perform actions specific to Online Mode
 online_mode() {
     # Add your specific actions for Online Mode here
@@ -63,14 +38,23 @@ offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlis
 
 # Online Mode
 if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
-# Mount rclone using the provided command
-
+# Mount thumbnails with rclone
 rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
-#rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone.conf --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
+# Mount thumbnails2 with rclone
+#rclone mount thumbnails2: /recalbox/share/thumbs2 --config=/recalbox/share/system/rclone2.conf --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
+# Mount videos with rclone
+#rclone mount videos: /recalbox/share/videos --config=/recalbox/share/system/rclone3.conf --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
 
-httpdirfs -d -f -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://myrient.erista.me/files/ /recalbox/share/rom
+# Mount Myrient to recalbox/share/rom
+#httpdirfs -f -o debug -o auto_unmount --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 #--retry-wait=1 -o nonempty "https://myrient.erista.me/files/" "/recalbox/share/rom/"
 
-  #rclone mount myrient: ~/myrient --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
+# Mount The-Eye to recalbox/share/rom2
+#httpdirfs -f -o debug -o auto_unmount --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 #--retry-wait=1 -o nonempty "https://the-eye.eu/public/" "/recalbox/share/rom2/"
+
+# Mount The-Eye to recalbox/share/rom3
+#httpdirfs -f -o debug -o auto_unmount --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty "ftp://oscollect:SxrRwRGbMe50XcwMKB53j6LSN9DehYMJag@old-dos.ru/" "/recalbox/share/rom3/"
+
+
 
 	# Backup the existing systemlist.xml
     echo "Backing up systemlist.xml..."
@@ -269,6 +253,7 @@ fi
 
 # Download rclone.conf if it doesn't exist
 if [ ! -e /recalbox/share/userscripts/.config/readystream/rclone.conf ]; then
+    mkdir -p /recalbox/share/userscripts/.config/readystream
     wget -O /recalbox/share/userscripts/.config/readystream/rclone.conf https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclone.conf
     echo "rclone.conf downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
 fi
@@ -281,8 +266,39 @@ else
     echo "rclone.conf already exists in /recalbox/share/system/. No need to copy."
 fi
 
+# Download rclone2.conf if it doesn't exist
+if [ ! -e /recalbox/share/userscripts/.config/readystream/rclone2.conf ]; then
+    mkdir -p /recalbox/share/userscripts/.config/readystream
+    wget -O /recalbox/share/userscripts/.config/readystream/rclone2.conf https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclone2.conf
+    echo "rclone2.conf downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
+fi
+
+# Copy rclone2.conf to /recalbox/share/system/ if it doesn't exist there
+if [ ! -e /recalbox/share/system/rclone2.conf ]; then
+    cp /recalbox/share/userscripts/.config/readystream/rclone2.conf /recalbox/share/system/
+    echo "rclone2.conf copied to /recalbox/share/system/ successfully."
+else
+    echo "rclone2.conf already exists in /recalbox/share/system/. No need to copy."
+fi
+
+# Download rclone3.conf if it doesn't exist
+if [ ! -e /recalbox/share/userscripts/.config/readystream/rclone3.conf ]; then
+    mkdir -p /recalbox/share/userscripts/.config/readystream
+    wget -O /recalbox/share/userscripts/.config/readystream/rclone3.conf https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclone3.conf
+    echo "rclone3.conf downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
+fi
+
+# Copy rclone3.conf to /recalbox/share/system/ if it doesn't exist there
+if [ ! -e /recalbox/share/system/rclone3.conf ]; then
+    cp /recalbox/share/userscripts/.config/readystream/rclone3.conf /recalbox/share/system/
+    echo "rclone3.conf copied to /recalbox/share/system/ successfully."
+else
+    echo "rclone3.conf already exists in /recalbox/share/system/. No need to copy."
+fi
+
 # Download platforms.txt if it doesn't exist in /recalbox/share/userscripts/.config/readystream/
 if [ ! -e /recalbox/share/userscripts/.config/readystream/platforms.txt ]; then
+    mkdir -p /recalbox/share/userscripts/.config/readystream
     wget -O /recalbox/share/userscripts/.config/readystream/platforms.txt https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/platforms.txt
     echo "platforms.txt downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
 fi
@@ -294,6 +310,8 @@ if [ -e /recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.
     echo "Files already exist. No need to download."
 else
     # Download systemlist-backup.xml
+    mkdir -p /recalbox/share/userscripts/.config/.emulationstation/
+
     wget -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-backup.xml
 
     # Download systemlist-online.xml
@@ -313,13 +331,14 @@ else
 fi
 
 # Check if /recalbox/share/userscripts/.config/readystream/roms is empty
-#if [ -z "$(ls -A /recalbox/share/userscripts/.config/readystream/roms)" ]; then
-#    echo "Downloading gamelist.xml and checksums for ALL Consoles..."
-#    wget --recursive --no-parent -P /recalbox/share/userscripts/.config/readystream/roms https://github.com/readycade/readysync/tree/master/share/userscripts/.config/readystream/roms
-#    echo "gamelist.xml and checksums downloaded successfully."
-#else
-#    echo "gamelist.xml and checksums directory is not empty. No need to download."
-#fi
+if [ -z "$(ls -A /recalbox/share/userscripts/.config/readystream/roms)" ]; then
+    echo "Downloading gamelist.xml and checksums for ALL Consoles..."
+    mkdir -p /recalbox/share/userscripts/.config/readystream/roms
+    wget --recursive --no-parent -P /recalbox/share/userscripts/.config/readystream/roms https://github.com/readycade/readysync/tree/master/share/userscripts/.config/readystream/roms
+    echo "gamelist.xml and checksums downloaded successfully."
+else
+    echo "gamelist.xml and checksums directory is not empty. No need to download."
+fi
 
 # If directories don't exist, create them
 if [ ! -d /recalbox/share/roms/readystream ]; then
@@ -336,11 +355,39 @@ else
     echo "Directory /recalbox/share/rom already exists. No need to create."
 fi
 
+if [ ! -d /recalbox/share/rom2 ]; then
+    mkdir -p /recalbox/share/rom2
+    echo "Directory /recalbox/share/rom2 created successfully."
+else
+    echo "Directory /recalbox/share/rom2 already exists. No need to create."
+fi
+
+if [ ! -d /recalbox/share/rom3 ]; then
+    mkdir -p /recalbox/share/rom3
+    echo "Directory /recalbox/share/rom3 created successfully."
+else
+    echo "Directory /recalbox/share/rom3 already exists. No need to create."
+fi
+
+if [ ! -d /recalbox/share/rom4 ]; then
+    mkdir -p /recalbox/share/rom4
+    echo "Directory /recalbox/share/rom4 created successfully."
+else
+    echo "Directory /recalbox/share/rom4 already exists. No need to create."
+fi
+
 if [ ! -d /recalbox/share/thumbs ]; then
     mkdir -p /recalbox/share/thumbs
     echo "Directory /recalbox/share/thumbs created successfully."
 else
     echo "Directory /recalbox/share/thumbs already exists. No need to create."
+fi
+
+if [ ! -d /recalbox/share/thumbs2 ]; then
+    mkdir -p /recalbox/share/thumbs2
+    echo "Directory /recalbox/share/thumbs2 created successfully."
+else
+    echo "Directory /recalbox/share/thumbs2 already exists. No need to create."
 fi
 
 if [ ! -d /iso ]; then
@@ -356,29 +403,6 @@ if [ ! -d /recalbox/share/zip ]; then
 else
     echo "Directory /recalbox/share/zip already exists. No need to create."
 fi
-
-delete_disabled_platform_directory() {
-  local platform_name="$1"
-  local roms_directory="/recalbox/share/roms/readystream/$platform_name"
-  local zip_directory="/recalbox/share/zip/$platform_name"
-
-  # Delete ROMs directory
-  if [ -d "$roms_directory" ]; then
-    echo "Deleting ROMs directory for disabled platform: $platform_name"
-    rm -rf "$roms_directory"
-  else
-    echo "ROMs directory for disabled platform does not exist: $roms_directory"
-  fi
-
-  # Delete ZIP directory
-  if [ -d "$zip_directory" ]; then
-    echo "Deleting ZIP directory for disabled platform: $platform_name"
-    rm -rf "$zip_directory"
-  else
-    echo "ZIP directory for disabled platform does not exist: $zip_directory"
-  fi
-}
-
 
 # Function to toggle a platform in the array
 toggle_platform() {
@@ -491,7 +515,7 @@ platforms=(
     # MSX 2+
     "msx2 0"
     "msxturbor 0"
-    # The EYE Romsets
+    # Old-DOS Romsets
     "dos 0"
     # Add more platforms as needed
 )
@@ -515,7 +539,6 @@ platforms=(
     #"ps3keys 0"
     #"ps3keystxt 0"
 
-
 # Loop through platforms
 for platform_info in "${platforms[@]}"; do
     platform_name=$(echo "$platform_info" | cut -d ' ' -f 1)
@@ -534,78 +557,6 @@ for platform_info in "${platforms[@]}"; do
             ;;
     esac
 done
-
-
-
-# Function to escape XML special characters
-xml_escape() {
-  local input="$1"
-  echo "$input" | sed 's/\&/\&amp;/g; s/\"/\&quot;/g; s/'"'"'/\&apos;/g; s/</\&lt;/g; s/>/\&gt;/g'
-}
-
-# Function to update or add a game to the gamelist.xml
-update_or_add_game() {
-  local game_name="$1"
-  local rom_name="$2"
-  local console_name="$3"
-  local gamelist_file="/recalbox/share/roms/readystream/$console_name/gamelist.xml"
-  local rom_directory="/recalbox/share/roms/readystream/$console_name"
-
-  # Check if gamelist file exists, if not, create it
-  if [ ! -f "$gamelist_file" ]; then
-    echo "<?xml version=\"1.0\"?><gameList>" > "$gamelist_file"
-  fi
-
-  # Check if game already exists
-  if grep -q "<name>$game_name</name>" "$gamelist_file"; then
-    # Update existing game entry
-    echo "DEBUG: Updating existing entry for '$game_name' in '$gamelist_file'" >> "$log_file"
-    sed -i "s|<name>$game_name</name>|<name>$(xml_escape "$game_name")</name>|g" "$gamelist_file"
-    sed -i "s|<path>.*</path>|<path>$(xml_escape "$rom_directory/$rom_name")</path>|g" "$gamelist_file"
-    sed -i "s|<video>.*</video>|<video>$(xml_escape "$rom_directory/media/videos/$game_name.mp4")</video>|g" "$gamelist_file"
-  else
-    # Add new game entry
-    echo "DEBUG: Adding new entry for '$game_name' in '$gamelist_file'" >> "$log_file"
-    echo "  <game>" >> "$gamelist_file"
-    echo "    <path>$(xml_escape "$rom_directory/$rom_name")</path>" >> "$gamelist_file"
-    echo "    <name>$(xml_escape "$game_name")</name>" >> "$gamelist_file"
-    echo "    <video>$(xml_escape "$rom_directory/media/videos/$game_name.mp4")</video>" >> "$gamelist_file"
-    echo "  </game>" >> "$gamelist_file"
-  fi
-}
-
-# Function to generate gamelist.xml for each enabled platform
-generate_gamelist_xml() {
-  local platforms_file="/recalbox/share/userscripts/.config/platforms.txt"
-  local log_file="/recalbox/share/system/gamelist.log"
-
-  # Check if platforms file exists
-  if [ ! -f "$platforms_file" ]; then
-    echo "ERROR: Platforms file '$platforms_file' not found!" >> "$log_file"
-    return 1
-  fi
-
-  # Loop through enabled platforms
-  while IFS=';' read -r platform_name console_name enabled; do
-    if [ "$enabled" != "#" ]; then
-      # Generate gamelist.xml for enabled platform
-      local gamelist_file="/recalbox/share/roms/readystream/$console_name/gamelist.xml"
-      echo "<?xml version=\"1.0\"?><gameList>" > "$gamelist_file"
-      echo "INFO: Generated gamelist.xml for '$platform_name' in '$console_name'" >> "$log_file"
-
-      # Loop through ROM files in ROM directory
-      while IFS= read -r -d '' rom_file; do
-        local game_name=$(basename "$rom_file" .zip)
-        update_or_add_game "$game_name" "$(basename "$rom_file")" "$console_name"
-      done < <(find "/recalbox/share/roms/readystream/$console_name" -type f -name '*.zip' -print0)
-    fi
-  done < "$platforms_file"
-}
-
-# Call the function to generate gamelist.xml for enabled platforms
-generate_gamelist_xml
-
-
 
 # Display menu
 echo "Please select a mode:"
