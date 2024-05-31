@@ -52,13 +52,13 @@ echo "Mounting libretro thumbnails..."
 
 # Mount thumbnails2 with rclone
 #rclone mount thumbnails2: /recalbox/share/thumbs2 --config=/recalbox/share/system/rclone2.conf --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
-rclone mount thumbnails2: /recalbox/share/thumbs2 --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty &
+#rclone mount thumbnails2: /recalbox/share/thumbs2 --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty &
 
 echo "Mounting missing thumbnails..."
 
 # Mount videos with rclone
 #rclone mount videos: /recalbox/share/videos --config=/recalbox/share/system/rclone3.conf --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
-rclone mount videos: /recalbox/share/videos --config=/recalbox/share/system/rclone3.conf --daemon --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty &
+#rclone mount videos: /recalbox/share/videos --config=/recalbox/share/system/rclone3.conf --daemon --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty &
 
 echo "Mounting videos..."
 
@@ -67,8 +67,8 @@ echo "Mounting videos..."
 #httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://myrient.erista.me/files/ /recalbox/share/rom
 #httpdirfs -d --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget https://myrient.erista.me/files/ /recalbox/share/rom
 
-httpdirfs -d --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget https://myrient.erista.me/files/ /recalbox/share/rom
-#httpdirfs -d --cache --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget https://myrient.erista.me/files/ /recalbox/share/rom
+#httpdirfs -d --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget https://myrient.erista.me/files/ /recalbox/share/rom
+httpdirfs -d --cache --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget https://myrient.erista.me/files/ /recalbox/share/rom
 
 echo "Mounting romsets..."
 echo "(No-Intro, Redump, TOSEC)..."
