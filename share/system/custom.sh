@@ -10,6 +10,11 @@
 
 ln -s /usr/bin/fusermount /usr/bin/fusermount3
 mount -o remount,rw /
+export NOINTRO=/recalbox/share/No-Intro
+export REDUMP=/recalbox/share/Redump
+export TOSEC=/recalbox/share/TOSEC
+
+
 
 log_file="/recalbox/share/system/.systemstream.log"
 
