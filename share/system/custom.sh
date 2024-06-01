@@ -278,7 +278,7 @@ echo "(No-Intro, Redump, TOSEC)..."
 }
 
 # Function to download and install a binary with retries
-download_and_install_with_retry() {
+download_input-event-daemon_with_retry() {
   local url=$1
   local output=$2
   local max_retries=3
@@ -307,6 +307,7 @@ download_and_install_with_retry() {
   echo "Max retries reached. Failed to install $output."
   exit 1
 }
+
 
 # Function to download and install 7zip and rclone with retries
 download_7zip_and_rclone() {
