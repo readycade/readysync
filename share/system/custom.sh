@@ -29,161 +29,57 @@ sanitize_dir_name() {
   tr -cd '[:alnum:]' <<< "$1"
 }
 
-# Function to toggle a platform in the array
-toggle_platform() {
-    local platform_name=$1
-    local action=$2
-
-    case $action in
-        "enable")
-            sed -i "/^#roms+=(\"$platform_name;/ s/^#//" "/recalbox/share/userscripts/.config/readystream/platforms.txt"
-            ;;
-        "disable")
-            sed -i "/^roms+=(\"$platform_name;/ s/^/#/" "/recalbox/share/userscripts/.config/readystream/platforms.txt"
-            ;;
-        *)
-            echo "Invalid action. Use 'enable' or 'disable'."
-            ;;
-    esac
+# Function to monitor keyboard input using evtest
+monitor_keyboard_input() {
+    evtest /dev/input/event3 --grab | while read -r line; do
+        echo "DEBUG: Keyboard event detected: $line"
+        if [[ $line == *"BTN_TOP"* ]]; then
+            echo "DEBUG: B button pressed. Switching to online mode..."
+            online_mode
+            break
+        fi
+    done
 }
 
-# List of platforms and their status (1 for enabled, 0 for disabled)
-platforms=(
-    # No-Intro Romsets
-    "arduboy 1"
-    "atari2600 1"
-    "atari5200 1"
-    "atari7800 1"
-    "atarist 1"
-    "jaguar 0"
-    "lynx 0"
-    "wswan 0"
-    "wswanc 0"
-    "colecovision 0"
-    "c64 0"
-    "cplus4 0"
-    "vic20 0"
-    "scv 0"
-    "channelf 0"
-    "vectrex 0"
-    "o2em 0"
-    "intellivision 0"
-    "msx1 0"
-    "msx2 0"
-    "pcengine 0"
-    "supergrafx 0"
-    "fds 0"
-    "gb 0"
-    "gbc 0"
-    "gba 0"
-    "n64 0"
-    "nes 0"
-    "pokemini 0"
-    "satellaview 0"
-    "sufami 0"
-    "snes 0"
-    "virtualboy 0"
-    "videopacplus 0"
-    "ngp 0"
-    "ngpc 0"
-    "sega32x 0"
-    "gamegear 0"
-    "sg1000 0"
-    "mastersystem 0"
-    "megadrive 0"
-    "pico 0"
-    "supervision 0"
-    "pcv2 0"
-    "palm 0"
-    "gw 0"
-    "64dd 0"
-    "nds 0"
-    # Redump Romsets (CD/DVD BASED) (WARNING: these are VERY large!)
-    "amigacd32 0"
-    "amigacdtv 0"
-    "amiga1200 0"
-    "gamecube 0"
-    "wii 0"
-    "3do 0"
-    "cdi 0"
-    "pcenginecd 0"
-    "neogeocd 0"
-    "dreamcast 0"
-    "segacd 0"
-    "saturn 0"
-    "psx 0"
-    "ps2 0"
-    "psp 0"
-    "pcfx 0"
-    "naomi 0"
-    "jaguar 0"
-    # TOSEC Romsets
-    "amstradcpc 0"
-    "atari800 0"
-    "pet 0"
-    "pc88 0"
-    "pc98 0"
-    "pcengine 0"
-    "zxspectrum 0"
-    "zx81 0"
-    "x1 0"
-    "x68000 0"
-    "gx4000 0"
-    "macintosh 0"
-    "apple2gs 0"
-    "apple2 0"
-    "amiga1200 0"
-    "bk 0"
-    "msx1 0"
-    # MSX 2
-    "msx2 0"
-    # MSX 2+
-    "msx2 0"
-    "msxturbor 0"
-    # Old-DOS Romsets
-    "dos 0"
-    # Add more platforms as needed
-)
+# Default to Offline Mode if B button not pressed
+offline_mode() {
+    echo "DEBUG: Offline Mode Selected..."
+    echo "Offline Mode Enabled..."
+    echo "Performing actions specific to Offline Mode..."
 
-    # Experimental (DO NOT USE)
-    #"analogue 0"
-    #"triforce 0"
-    #"amiga1200 0"
+    # Check and update systemlist.xml based on user choice
+    offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
+    offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml"
+    offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml"
     
-    # No Intro Experimental (DO NO USE)
-    # New Nintendo 3DS
-    #"3ds 0"
-    # Nintendo 3DS
-    #"3ds 0"
+    # Offline Mode
+    if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
+        # Backup existing systemlist.xml
+        echo "Backing up systemlist.xml..."
+        cp "$offline_systemlist" "$offline_backup"
+        echo "Backup created: $offline_backup"
 
-    # Redump Experimental (DO NOT USE)
-    #"naomi 0"
-    #"xbox 0"
-    #"xbox360 0"
-    #"ps3 0"
-    #"ps3keys 0"
-    #"ps3keystxt 0"
+        # Overwrite systemlist.xml with offline version
+        echo "Overwriting systemlist.xml with offline version..."
+        cp "$offline_offline" "$offline_systemlist"
+        echo "Offline version applied."
 
-# Loop through platforms
-for platform_info in "${platforms[@]}"; do
-    platform_name=$(echo "$platform_info" | cut -d ' ' -f 1)
-    platform_status=$(echo "$platform_info" | cut -d ' ' -f 2)
+        # Replace the following line with your specific actions for Offline Mode
+        echo "Performing actions specific to Offline Mode..."
+        # ...
 
-    case $platform_status in
-        1)
-            toggle_platform "$platform_name" "enable"
-            ;;
-        0)
-            toggle_platform "$platform_name" "disable"
-            #delete_disabled_platform_directory "$platform_name"
-            ;;
-        *)
-            echo "Invalid status. Use '1' for enable and '0' for disable."
-            ;;
-    esac
-done
+        echo "Installation complete. Log saved to: $log_file"
+
+        # Replace the following line with the actual command to start emulation station
+        chvt 1; es start
+    else
+        echo "Error: systemlist.xml files not found."
+    fi
+}
+
 
 online_mode() {
+    echo "DEBUG: Online Mode Enabled..."
     echo "Online Mode Enabled..."
     echo "Performing actions specific to Online Mode..."
 
@@ -368,98 +264,53 @@ online_mode() {
             echo "httpdirfs is already installed."
         fi
 
-        # Download ratarmount AppImage
-        download_with_retry() {
-            local url=$1
-            local output=$2
-            local max_retries=3
-            local retry_delay=5
+# Function to download a file with retries
+download_with_retry() {
+    local url=$1
+    local output=$2
+    local max_retries=3
+    local retry_delay=5
 
-            for ((attempt = 1; attempt <= max_retries; attempt++)); do
-                wget -O "$output" "$url"
-                if [ $? -eq 0 ]; then
-                    echo "Download succeeded."
-                    return 0
-                else
-                    echo "Download failed (attempt $attempt/$max_retries). Retrying in $retry_delay seconds..."
-                    sleep $retry_delay
-                fi
-            done
-
-            echo "Max retries reached. Download failed."
-            return 1
-        }
-
-        # Download ratarmount AppImage with retry
-        download_with_retry "https://github.com/mxmlnkn/ratarmount/releases/download/v0.15.0/ratarmount-0.15.0-x86_64.AppImage" "/usr/bin/ratarmount"
-        if [ $? -ne 0 ]; then
-            exit 1
+    for ((attempt = 1; attempt <= max_retries; attempt++)); do
+        wget -q --show-progress -O "$output" "$url"
+        if [ $? -eq 0 ]; then
+            echo "Download succeeded."
+            return 0
+        else
+            echo "Download failed (attempt $attempt/$max_retries). Retrying in $retry_delay seconds..."
+            sleep $retry_delay
         fi
+    done
 
-        echo "Downloading ratarmount-0.15.0-x86_64.AppImage as /usr/bin/ratarmount"
+    echo "Max retries reached. Download failed."
+    return 1
+}
 
-        chmod +x /usr/bin/ratarmount
+# Define the URL and output path
+url="https://github.com/mxmlnkn/ratarmount/releases/download/v0.15.0/ratarmount-0.15.0-x86_64.AppImage"
+output="/usr/bin/ratarmount"
 
-        echo "ratarmount installed."
+# Check if file already exists
+if [ -f "$output" ]; then
+    echo "File already exists. Skipping download."
+else
+    # Download ratarmount AppImage with retry
+    download_with_retry "$url" "$output"
+fi
+
+# Set execute permissions if the file exists
+if [ -f "$output" ]; then
+    chmod +x "$output"
+    echo "ratarmount installed."
+fi
+
 
         # Switch to the appropriate TTY
-        chvt 2
+        #chvt 2
 
         # Start EmulationStation
         chvt 1; es start
     fi
-}
-
-
-    # Function to perform actions specific to Offline Mode
-offline_mode() {
-    # Add your specific actions for Offline Mode here
-    # ...
-    echo "Offline Mode Enabled..."
-    echo "Performing actions specific to Offline Mode..."
-
-# Check and update systemlist.xml based on user choice
-offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
-offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml"
-offline_online="/recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml"
-offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml"
-	
-# Offline Mode
-if [ "$mode_choice" != "1" ]; then
-    if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
-        # Backup existing systemlist.xml
-        echo "Backing up systemlist.xml..."
-        cp "$offline_systemlist" "$offline_backup"
-        echo "Backup created: $offline_backup"
-
-        # Overwrite systemlist.xml with offline version
-        echo "Overwriting systemlist.xml with offline version..."
-        cp "$offline_offline" "$offline_systemlist"
-        echo "Offline version applied."
-
-        # Replace the following line with your specific actions for Offline Mode
-        echo "Performing actions specific to Offline Mode..."
-        # ...
-
-        echo "Installation complete. Log saved to: $log_file"
-
-        # Replace the following line with the actual command to start emulation station
-        chvt 1; es start
-    else
-        echo "Error: systemlist.xml files not found."
-    fi
-fi	
-
-}
-
-# Function to monitor keyboard input using evtest
-monitor_keyboard_input() {
-    evtest /dev/input/event3 --grab | while read -r line; do
-        if [[ $line == *"BTN_TOP"* ]]; then
-            online_mode
-            break
-        fi
-    done
 }
 
 # Start monitoring keyboard input in the background
