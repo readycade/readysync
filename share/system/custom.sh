@@ -29,6 +29,233 @@ sanitize_dir_name() {
   tr -cd '[:alnum:]' <<< "$1"
 }
 
+# Function to toggle a platform in the array
+toggle_platform() {
+    local platform_name=$1
+    local action=$2
+
+    case $action in
+        "enable")
+            sed -i "/^#roms+=(\"$platform_name;/ s/^#//" "/recalbox/share/userscripts/.config/readystream/platforms.txt"
+            ;;
+        "disable")
+            sed -i "/^roms+=(\"$platform_name;/ s/^/#/" "/recalbox/share/userscripts/.config/readystream/platforms.txt"
+            ;;
+        *)
+            echo "Invalid action. Use 'enable' or 'disable'."
+            ;;
+    esac
+}
+
+# List of platforms and their status (1 for enabled, 0 for disabled)
+platforms=(
+    # No-Intro Romsets
+    "arduboy 1"
+    "atari2600 1"
+    "atari5200 1"
+    "atari7800 1"
+    "atarist 1"
+    "jaguar 0"
+    "lynx 0"
+    "wswan 0"
+    "wswanc 0"
+    "colecovision 0"
+    "c64 0"
+    "cplus4 0"
+    "vic20 0"
+    "scv 0"
+    "channelf 0"
+    "vectrex 0"
+    "o2em 0"
+    "intellivision 0"
+    "msx1 0"
+    "msx2 0"
+    "pcengine 0"
+    "supergrafx 0"
+    "fds 0"
+    "gb 0"
+    "gbc 0"
+    "gba 0"
+    "n64 0"
+    "nes 0"
+    "pokemini 0"
+    "satellaview 0"
+    "sufami 0"
+    "snes 0"
+    "virtualboy 0"
+    "videopacplus 0"
+    "ngp 0"
+    "ngpc 0"
+    "sega32x 0"
+    "gamegear 0"
+    "sg1000 0"
+    "mastersystem 0"
+    "megadrive 0"
+    "pico 0"
+    "supervision 0"
+    "pcv2 0"
+    "palm 0"
+    "gw 0"
+    "64dd 0"
+    "nds 0"
+    # Redump Romsets (CD/DVD BASED) (WARNING: these are VERY large!)
+    "amigacd32 0"
+    "amigacdtv 0"
+    "amiga1200 0"
+    "gamecube 0"
+    "wii 0"
+    "3do 0"
+    "cdi 0"
+    "pcenginecd 0"
+    "neogeocd 0"
+    "dreamcast 0"
+    "segacd 0"
+    "saturn 0"
+    "psx 0"
+    "ps2 0"
+    "psp 0"
+    "pcfx 0"
+    "naomi 0"
+    "jaguar 0"
+    # TOSEC Romsets
+    "amstradcpc 0"
+    "atari800 0"
+    "pet 0"
+    "pc88 0"
+    "pc98 0"
+    "pcengine 0"
+    "zxspectrum 0"
+    "zx81 0"
+    "x1 0"
+    "x68000 0"
+    "gx4000 0"
+    "macintosh 0"
+    "apple2gs 0"
+    "apple2 0"
+    "amiga1200 0"
+    "bk 0"
+    "msx1 0"
+    # MSX 2
+    "msx2 0"
+    # MSX 2+
+    "msx2 0"
+    "msxturbor 0"
+    # Old-DOS Romsets
+    "dos 0"
+    # Add more platforms as needed
+)
+
+    # Experimental (DO NOT USE)
+    #"analogue 0"
+    #"triforce 0"
+    #"amiga1200 0"
+    
+    # No Intro Experimental (DO NO USE)
+    # New Nintendo 3DS
+    #"3ds 0"
+    # Nintendo 3DS
+    #"3ds 0"
+
+    # Redump Experimental (DO NOT USE)
+    #"naomi 0"
+    #"xbox 0"
+    #"xbox360 0"
+    #"ps3 0"
+    #"ps3keys 0"
+    #"ps3keystxt 0"
+
+# Loop through platforms
+for platform_info in "${platforms[@]}"; do
+    platform_name=$(echo "$platform_info" | cut -d ' ' -f 1)
+    platform_status=$(echo "$platform_info" | cut -d ' ' -f 2)
+
+    case $platform_status in
+        1)
+            toggle_platform "$platform_name" "enable"
+            ;;
+        0)
+            toggle_platform "$platform_name" "disable"
+            #delete_disabled_platform_directory "$platform_name"
+            ;;
+        *)
+            echo "Invalid status. Use '1' for enable and '0' for disable."
+            ;;
+    esac
+done
+
+# Function to handle online mode
+online_mode() {
+
+    echo "Online Mode Enabled..."
+    echo "Performing actions specific to Online Mode..."
+
+# Check and update systemlist.xml based on user choice
+offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
+offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml"
+offline_online="/recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml"
+offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml"
+
+# Online Mode
+if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
+
+    # Backup the existing systemlist.xml
+    echo "Backing up systemlist.xml..."
+    cp "$offline_systemlist" "$offline_backup"
+    echo "Backup created: $offline_backup"
+
+    # Overwrite systemlist.xml with the online version
+    echo "Overwriting systemlist.xml with the online version..."
+    cp "$offline_online" "$offline_systemlist"
+    echo "Online version applied."
+
+    # Move the contents to online directory
+    cp -r /recalbox/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
+    echo "copied ALL gamelists.xml to online directory."
+
+
+# Mount thumbnails with rclone
+rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+
+echo "Mounting libretro thumbnails..."
+
+# Mount myrient with rclone
+rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+# Mount myrient with httpdirfs
+#httpdirfs -d --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget https://myrient.erista.me/files/ /recalbox/share/rom
+# Mount myrient with httpdirfs with cache
+#httpdirfs -d --cache --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget https://myrient.erista.me/files/ /recalbox/share/rom
+echo "Mounting romsets..."
+echo "(No-Intro, Redump, TOSEC)..."
+
+# Mount theeye with rclone
+#rclone mount theeye: /recalbox/share/rom2 --config=/recalbox/share/system/rclone3.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+# Mount theeye with httpdirfs
+#httpdirfs -f -o debug -o auto_unmount --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 #--retry-wait=1 -o nonempty "https://the-eye.eu/public/" "/recalbox/share/rom2/"
+# Mount theeye with httpdirfs with cache
+#httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://the-eye.eu/public/ /recalbox/share/rom2
+
+#echo "Mounting romsets..."
+#echo "(Mixed)..."
+
+# Mount olddos with rclone
+#rclone mount olddos: /recalbox/share/rom3 --config=/recalbox/share/system/rclone4.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+# Mount olddos with httpdirfs
+#httpdirfs -d --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget ftp://oscollect:SxrRwRGbMe50XcwMKB53j6LSN9DehYMJag@old-dos.ru/ /recalbox/share/rom3
+# Mount olddos with httpdirfs with cache
+#httpdirfs -d --cache --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget ftp://oscollect:SxrRwRGbMe50XcwMKB53j6LSN9DehYMJag@old-dos.ru/ /recalbox/share/rom3
+
+#echo "Mounting romsets..."
+#echo "(DOS)..."
+
+# Mount thumbnails2 with rclone
+#rclone mount thumbnails2: /recalbox/share/thumbs2 --config=/recalbox/share/system/rclone5.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+
+#echo "Mounting missing thumbnails..."
+
+# Mount videos with rclone
+#rclone mount videos: /recalbox/share/videos --config=/recalbox/share/system/rclone6.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+
+#echo "Mounting videos..."
 
 # Function to download and install a binary with retries
 download_and_install_with_retry() {
@@ -395,234 +622,6 @@ for dir in "${directories[@]}"; do
     echo "Directory $dir already exists. No need to create."
   fi
 done
-
-# Function to toggle a platform in the array
-toggle_platform() {
-    local platform_name=$1
-    local action=$2
-
-    case $action in
-        "enable")
-            sed -i "/^#roms+=(\"$platform_name;/ s/^#//" "/recalbox/share/userscripts/.config/readystream/platforms.txt"
-            ;;
-        "disable")
-            sed -i "/^roms+=(\"$platform_name;/ s/^/#/" "/recalbox/share/userscripts/.config/readystream/platforms.txt"
-            ;;
-        *)
-            echo "Invalid action. Use 'enable' or 'disable'."
-            ;;
-    esac
-}
-
-# List of platforms and their status (1 for enabled, 0 for disabled)
-platforms=(
-    # No-Intro Romsets
-    "arduboy 1"
-    "atari2600 1"
-    "atari5200 1"
-    "atari7800 1"
-    "atarist 1"
-    "jaguar 0"
-    "lynx 0"
-    "wswan 0"
-    "wswanc 0"
-    "colecovision 0"
-    "c64 0"
-    "cplus4 0"
-    "vic20 0"
-    "scv 0"
-    "channelf 0"
-    "vectrex 0"
-    "o2em 0"
-    "intellivision 0"
-    "msx1 0"
-    "msx2 0"
-    "pcengine 0"
-    "supergrafx 0"
-    "fds 0"
-    "gb 0"
-    "gbc 0"
-    "gba 0"
-    "n64 0"
-    "nes 0"
-    "pokemini 0"
-    "satellaview 0"
-    "sufami 0"
-    "snes 0"
-    "virtualboy 0"
-    "videopacplus 0"
-    "ngp 0"
-    "ngpc 0"
-    "sega32x 0"
-    "gamegear 0"
-    "sg1000 0"
-    "mastersystem 0"
-    "megadrive 0"
-    "pico 0"
-    "supervision 0"
-    "pcv2 0"
-    "palm 0"
-    "gw 0"
-    "64dd 0"
-    "nds 0"
-    # Redump Romsets (CD/DVD BASED) (WARNING: these are VERY large!)
-    "amigacd32 0"
-    "amigacdtv 0"
-    "amiga1200 0"
-    "gamecube 0"
-    "wii 0"
-    "3do 0"
-    "cdi 0"
-    "pcenginecd 0"
-    "neogeocd 0"
-    "dreamcast 0"
-    "segacd 0"
-    "saturn 0"
-    "psx 0"
-    "ps2 0"
-    "psp 0"
-    "pcfx 0"
-    "naomi 0"
-    "jaguar 0"
-    # TOSEC Romsets
-    "amstradcpc 0"
-    "atari800 0"
-    "pet 0"
-    "pc88 0"
-    "pc98 0"
-    "pcengine 0"
-    "zxspectrum 0"
-    "zx81 0"
-    "x1 0"
-    "x68000 0"
-    "gx4000 0"
-    "macintosh 0"
-    "apple2gs 0"
-    "apple2 0"
-    "amiga1200 0"
-    "bk 0"
-    "msx1 0"
-    # MSX 2
-    "msx2 0"
-    # MSX 2+
-    "msx2 0"
-    "msxturbor 0"
-    # Old-DOS Romsets
-    "dos 0"
-    # Add more platforms as needed
-)
-
-    # Experimental (DO NOT USE)
-    #"analogue 0"
-    #"triforce 0"
-    #"amiga1200 0"
-    
-    # No Intro Experimental (DO NO USE)
-    # New Nintendo 3DS
-    #"3ds 0"
-    # Nintendo 3DS
-    #"3ds 0"
-
-    # Redump Experimental (DO NOT USE)
-    #"naomi 0"
-    #"xbox 0"
-    #"xbox360 0"
-    #"ps3 0"
-    #"ps3keys 0"
-    #"ps3keystxt 0"
-
-# Loop through platforms
-for platform_info in "${platforms[@]}"; do
-    platform_name=$(echo "$platform_info" | cut -d ' ' -f 1)
-    platform_status=$(echo "$platform_info" | cut -d ' ' -f 2)
-
-    case $platform_status in
-        1)
-            toggle_platform "$platform_name" "enable"
-            ;;
-        0)
-            toggle_platform "$platform_name" "disable"
-            #delete_disabled_platform_directory "$platform_name"
-            ;;
-        *)
-            echo "Invalid status. Use '1' for enable and '0' for disable."
-            ;;
-    esac
-done
-
-# Function to handle online mode
-online_mode() {
-
-    echo "Online Mode Enabled..."
-    echo "Performing actions specific to Online Mode..."
-
-# Check and update systemlist.xml based on user choice
-offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
-offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml"
-offline_online="/recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml"
-offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml"
-
-# Online Mode
-if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
-
-    # Backup the existing systemlist.xml
-    echo "Backing up systemlist.xml..."
-    cp "$offline_systemlist" "$offline_backup"
-    echo "Backup created: $offline_backup"
-
-    # Overwrite systemlist.xml with the online version
-    echo "Overwriting systemlist.xml with the online version..."
-    cp "$offline_online" "$offline_systemlist"
-    echo "Online version applied."
-
-    # Move the contents to online directory
-    cp -r /recalbox/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
-    echo "copied ALL gamelists.xml to online directory."
-
-
-# Mount thumbnails with rclone
-rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-
-echo "Mounting libretro thumbnails..."
-
-# Mount myrient with rclone
-rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-# Mount myrient with httpdirfs
-#httpdirfs -d --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget https://myrient.erista.me/files/ /recalbox/share/rom
-# Mount myrient with httpdirfs with cache
-#httpdirfs -d --cache --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget https://myrient.erista.me/files/ /recalbox/share/rom
-echo "Mounting romsets..."
-echo "(No-Intro, Redump, TOSEC)..."
-
-# Mount theeye with rclone
-#rclone mount theeye: /recalbox/share/rom2 --config=/recalbox/share/system/rclone3.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-# Mount theeye with httpdirfs
-#httpdirfs -f -o debug -o auto_unmount --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 #--retry-wait=1 -o nonempty "https://the-eye.eu/public/" "/recalbox/share/rom2/"
-# Mount theeye with httpdirfs with cache
-#httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://the-eye.eu/public/ /recalbox/share/rom2
-
-#echo "Mounting romsets..."
-#echo "(Mixed)..."
-
-# Mount olddos with rclone
-#rclone mount olddos: /recalbox/share/rom3 --config=/recalbox/share/system/rclone4.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-# Mount olddos with httpdirfs
-#httpdirfs -d --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget ftp://oscollect:SxrRwRGbMe50XcwMKB53j6LSN9DehYMJag@old-dos.ru/ /recalbox/share/rom3
-# Mount olddos with httpdirfs with cache
-#httpdirfs -d --cache --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget ftp://oscollect:SxrRwRGbMe50XcwMKB53j6LSN9DehYMJag@old-dos.ru/ /recalbox/share/rom3
-
-#echo "Mounting romsets..."
-#echo "(DOS)..."
-
-# Mount thumbnails2 with rclone
-#rclone mount thumbnails2: /recalbox/share/thumbs2 --config=/recalbox/share/system/rclone5.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-
-#echo "Mounting missing thumbnails..."
-
-# Mount videos with rclone
-#rclone mount videos: /recalbox/share/videos --config=/recalbox/share/system/rclone6.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-
-#echo "Mounting videos..."
 
 fi
 
