@@ -288,6 +288,7 @@ download_input-event-daemon_with_retry() {
   exit 1
 }
 
+}
 
 # Function to download and install 7zip and rclone with retries
 download_7zip_and_rclone() {
@@ -627,6 +628,8 @@ done
 sleep 5
 chvt 1; es start
 
+}
+
     # Function to perform actions specific to Offline Mode
 offline_mode() {
     # Add your specific actions for Offline Mode here
@@ -665,10 +668,9 @@ if [ "$mode_choice" != "1" ]; then
         echo "Error: systemlist.xml files not found."
     fi
 fi	
-	
+
 }
 
-#!/bin/bash
 
 # Function to download and install a binary with retries
 download_input-event-daemon_with_retry() {
@@ -698,7 +700,6 @@ download_input-event-daemon_with_retry() {
   done
 
   echo "Max retries reached. Failed to install $output."
-  exit 1
 }
 
 # URL and output file for input-event-daemon
