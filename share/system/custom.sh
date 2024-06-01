@@ -258,14 +258,29 @@ install_ratarmount() {
 
   # Make sure the AppImage is executable
   chmod +x /usr/bin/ratarmount
-  
-  # Download run_ratarmount.sh
-  wget -O /usr/bin/ratarmount wget -O /usr/bin/ratarmount https://github.com/mxmlnkn/ratarmount/releases/download/v0.15.0/ratarmount-0.15.0-x86_64.AppImage
-  echo "Downloading ratarmount-0.15.0-x86_64.AppImage as /usr/bin/ratarmount"
+
+  # Download run_ratarmount.sh if it doesn't exist
+if [ ! -e /recalbox/share/userscripts/.config/readystream/run_ratarmount.sh ]; then
+    mkdir -p /recalbox/share/userscripts/.config/readystream
+    wget -O /recalbox/share/userscripts/.config/readystream/run_ratarmount.sh https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/run_ratarmount.sh
+    echo "run_ratarmount.sh downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
+fi
+
+# Copy run_ratarmount.sh to /usr/bin/ if it doesn't exist there
+if [ ! -e /usr/bin/run_ratarmount.sh ]; then
+    cp /recalbox/share/userscripts/.config/readystream/run_ratarmount.sh /usr/bin/
+    echo "ratarmount.sh copied to /usr/bin/ successfully."
+else
+    echo "ratarmount.sh already exists in /usr/bin/. No need to copy."
+fi
+
+  # Make sure run_ratarmount.sh is executable
+  chmod +x /usr/bin/run_ratarmount.sh
 
   #Extract the AppImage
   /usr/bin/ratarmount --appimage-extract
   echo "Extracting AppImage's squashfs-root folder"
+
 
 
   # Create a symbolic link to the launcher script
