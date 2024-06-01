@@ -249,21 +249,46 @@ fi
 
 
 # Download and Install ratarmount
+
 # Variables
 appImageName="ratarmount-0.15.0-x86_64.AppImage"
 appImageUrl="https://github.com/mxmlnkn/ratarmount/releases/download/v0.15.0/$appImageName"
 installPath="/usr/local/bin/ratarmount"
+maxRetries=3
+retryDelay=5
+
+# Function to download the AppImage with retries
+download_appimage() {
+    local attempt=1
+    while [ $attempt -le $maxRetries ]; do
+        echo "Attempting to download $appImageName (Attempt $attempt of $maxRetries)..."
+        wget "$appImageUrl" -O "$appImageName"
+        if [ $? -eq 0 ]; then
+            echo "Download succeeded."
+            return 0
+        else
+            echo "Download failed. Retrying in $retryDelay seconds..."
+            sleep $retryDelay
+            attempt=$((attempt + 1))
+        fi
+    done
+    echo "Failed to download $appImageName after $maxRetries attempts."
+    return 1
+}
 
 # Check if ratarmount is already installed
-if command -v ratarmount &> /dev/null
-then
+if command -v ratarmount &> /dev/null; then
     echo "ratarmount is already installed."
     exit 0
 fi
 
 # Download the AppImage
 echo "Downloading $appImageName..."
-wget "$appImageUrl" -O "$appImageName"
+download_appimage
+if [ $? -ne 0 ]; then
+    echo "Aborting installation due to download failure."
+    exit 1
+fi
 
 # Make it executable
 echo "Making $appImageName executable..."
@@ -282,6 +307,7 @@ echo "Cleaning up..."
 rm "$appImageName"
 
 echo "Installation complete."
+
 
 # Download rclone.conf if it doesn't exist
 if [ ! -e /recalbox/share/userscripts/.config/readystream/rclone.conf ]; then
