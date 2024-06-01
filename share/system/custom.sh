@@ -538,13 +538,12 @@ monitor_keyboard_input() {
     done
 }
 
-#!/bin/bash
-
 # Function to monitor keyboard input using evtest and append output to file
 monitor_keyboard_input() {
     evtest /dev/input/event3 --grab | while read -r line; do
         if [[ $line == *"Event: "* && $line == *"type 1 (EV_KEY), code 291 (BTN_TOP), value 1"* ]]; then
             mode_choice="1"  # Set mode choice to Online Mode
+            echo "Online Mode Enabled..."
             break  # Exit loop after detecting the button press
         fi
     done
