@@ -685,13 +685,15 @@ offline_mode() {
 
 # Function to check for keyboard input
 check_keyboard_input() {
-    local timeout_seconds=5
     local input
-    if read -t "$timeout_seconds" -n 1 -r input; then
-        mode_choice="$input"
-    else
-        mode_choice="2"  # Default to offline mode if no input is received
-    fi
+    # Continuously listen for keyboard input
+    while true; do
+        # Read a single character from the keyboard device
+        if read -rsn 1 input < /dev/input/event0; then
+            mode_choice="$input"
+            break  # Exit the loop if input received
+        fi
+    done
 }
 
 # Display menu
@@ -699,7 +701,7 @@ echo "Please select a mode:"
 echo "1. Online Mode"
 echo "2. Offline Mode"
 
-# Capture input or default to offline mode after timeout
+# Capture input or default to offline mode
 check_keyboard_input
 
 # Determine the mode based on user input or timeout
@@ -717,6 +719,7 @@ case "$mode_choice" in
         ;;
 esac
 
+# Other commands after mode selection
 chvt 1; es start
 
 exit
