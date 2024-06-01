@@ -29,43 +29,6 @@ sanitize_dir_name() {
   tr -cd '[:alnum:]' <<< "$1"
 }
 
-# Function to download and install a binary with retries
-download_input-event-daemon_with_retry() {
-  local url=$1
-  local output=$2
-  local max_retries=3
-  local retry_delay=5
-
-  # Check if the binary already exists
-  if [ -f "$output" ]; then
-    echo "$output is already installed."
-    return
-  fi
-
-  for ((attempt = 1; attempt <= max_retries; attempt++)); do
-    echo "Downloading and installing $output (attempt $attempt/$max_retries)..."
-    
-    # Retry downloading
-    if wget -O "$output" "$url"; then
-      chmod +x "$output"
-      echo "$output installed successfully."
-      return
-    else
-      echo "Download failed. Retrying in $retry_delay seconds..."
-      sleep $retry_delay
-    fi
-  done
-
-  echo "Max retries reached. Failed to install $output."
-}
-
-# URL and output file for input-event-daemon
-input_event_daemon_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/input-event-daemon/input-event-daemon"
-input_event_daemon_output="/usr/bin/input-event-daemon"
-
-# Download and install input-event-daemon
-download_input-event-daemon_with_retry "$input_event_daemon_url" "$input_event_daemon_output"
-
 # Function to toggle a platform in the array
 toggle_platform() {
     local platform_name=$1
@@ -705,6 +668,46 @@ fi
 	
 }
 
+#!/bin/bash
+
+# Function to download and install a binary with retries
+download_input-event-daemon_with_retry() {
+  local url=$1
+  local output=$2
+  local max_retries=3
+  local retry_delay=5
+
+  # Check if the binary already exists
+  if [ -f "$output" ]; then
+    echo "$output is already installed."
+    return
+  fi
+
+  for ((attempt = 1; attempt <= max_retries; attempt++)); do
+    echo "Downloading and installing $output (attempt $attempt/$max_retries)..."
+    
+    # Retry downloading
+    if wget -O "$output" "$url"; then
+      chmod +x "$output"
+      echo "$output installed successfully."
+      return
+    else
+      echo "Download failed. Retrying in $retry_delay seconds..."
+      sleep $retry_delay
+    fi
+  done
+
+  echo "Max retries reached. Failed to install $output."
+  exit 1
+}
+
+# URL and output file for input-event-daemon
+input_event_daemon_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/input-event-daemon/input-event-daemon"
+input_event_daemon_output="/usr/bin/input-event-daemon"
+
+# Download and install input-event-daemon
+download_input-event-daemon_with_retry "$input_event_daemon_url" "$input_event_daemon_output"
+
 # Function to monitor keyboard input using input-event-daemon
 monitor_keyboard_input() {
     /usr/bin/input-event-daemon --monitor
@@ -722,11 +725,8 @@ echo "1. Online Mode"
 echo "2. Offline Mode"
 
 # Capture input or default to offline mode
-read -rsn 1 -t 10 mode_choice
-
-# If no input event detected within 10 seconds, default to offline mode
 if [ -z "$mode_choice" ]; then
-    mode_choice="2"  # Defaulting to offline mode
+    read -rsn 1 -t 10 mode_choice
 fi
 
 # Determine the mode based on user input or timeout
@@ -741,10 +741,11 @@ case "$mode_choice" in
         ;;
     *)
         echo "Invalid choice: $mode_choice"
+        offline_mode
         ;;
 esac
 
 # Other commands after mode selection
 chvt 1; es start
 
-exit
+exit 0
