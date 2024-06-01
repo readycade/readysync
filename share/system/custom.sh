@@ -552,18 +552,13 @@ mode_choice="2"  # Default to Offline Mode
 
 # Function to capture mode choice
 capture_mode_choice() {
-    read -rsn 1 -t 10 mode_choice
+    read -rsn 1 mode_choice
 }
 
 # Capture input or default to offline mode
 capture_mode_choice
 
-# If mode choice is not set yet, determine it based on user input or timeout
-if [ -z "$mode_choice" ]; then
-    capture_mode_choice
-fi
-
-# Determine the mode based on user input or timeout
+# Determine the mode based on user input or button press
 case "$mode_choice" in
     "1")
         # Online Mode
