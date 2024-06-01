@@ -264,8 +264,11 @@ install_ratarmount() {
   # Make ratarmount executable
   chmod +x /usr/bin/ratarmount
 
-  # Add symlink for easy calling
+  # Add symlink to the python environment
   ln -sf /usr/bin/opt/python3.12/bin/ratarmount /usr/bin/ratarmount
+
+  # Create a symbolic link to the launcher script
+  ln -s /usr/bin/ratarmount_launcher.sh /usr/bin/ratarmount
 
   echo "ratarmount installed successfully for architecture: ${ratarmount_arch}."
 }
