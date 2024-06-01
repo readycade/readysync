@@ -564,6 +564,22 @@ offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlis
 
 # Online Mode
 if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
+
+    # Backup the existing systemlist.xml
+    echo "Backing up systemlist.xml..."
+    cp "$offline_systemlist" "$offline_backup"
+    echo "Backup created: $offline_backup"
+
+    # Overwrite systemlist.xml with the online version
+    echo "Overwriting systemlist.xml with the online version..."
+    cp "$offline_online" "$offline_systemlist"
+    echo "Online version applied."
+
+    # Move the contents to online directory
+    cp -r /recalbox/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
+    echo "copied ALL gamelists.xml to online directory."
+
+
 # Mount thumbnails with rclone
 rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 
@@ -607,21 +623,6 @@ echo "(No-Intro, Redump, TOSEC)..."
 #rclone mount videos: /recalbox/share/videos --config=/recalbox/share/system/rclone6.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 
 #echo "Mounting videos..."
-
-
-	# Backup the existing systemlist.xml
-    echo "Backing up systemlist.xml..."
-    cp "$offline_systemlist" "$offline_backup"
-    echo "Backup created: $offline_backup"
-
-    # Overwrite systemlist.xml with the online version
-    echo "Overwriting systemlist.xml with the online version..."
-    cp "$offline_online" "$offline_systemlist"
-    echo "Online version applied."
-
-    # Move the contents to online directory
-    cp -r /recalbox/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
-    echo "copied ALL gamelists.xml to online directory."
 
 fi
 
