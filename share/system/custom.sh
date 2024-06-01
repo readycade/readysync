@@ -29,56 +29,11 @@ sanitize_dir_name() {
   tr -cd '[:alnum:]' <<< "$1"
 }
 
-# Function to monitor keyboard input using evtest
-monitor_keyboard_input() {
-    evtest /dev/input/event3 --grab | while read -r line; do
-        echo "DEBUG: Keyboard event detected: $line"
-        if [[ $line == *"BTN_TOP"* ]]; then
-            echo "DEBUG: B button pressed. Switching to online mode..."
-            online_mode
-            break
-        fi
-    done
-}
+online_mode_enabled=false
 
-# Default to Offline Mode if B button not pressed
-offline_mode() {
-    echo "DEBUG: Offline Mode Selected..."
-    echo "Offline Mode Enabled..."
-    echo "Performing actions specific to Offline Mode..."
-
-    # Check and update systemlist.xml based on user choice
-    offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
-    offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml"
-    offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml"
-    
-    # Offline Mode
-    if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
-        # Backup existing systemlist.xml
-        echo "Backing up systemlist.xml..."
-        cp "$offline_systemlist" "$offline_backup"
-        echo "Backup created: $offline_backup"
-
-        # Overwrite systemlist.xml with offline version
-        echo "Overwriting systemlist.xml with offline version..."
-        cp "$offline_offline" "$offline_systemlist"
-        echo "Offline version applied."
-
-        # Replace the following line with your specific actions for Offline Mode
-        echo "Performing actions specific to Offline Mode..."
-        # ...
-
-        echo "Installation complete. Log saved to: $log_file"
-
-        # Replace the following line with the actual command to start emulation station
-        chvt 1; es start
-    else
-        echo "Error: systemlist.xml files not found."
-    fi
-}
-
-
+# Function to switch to online mode
 online_mode() {
+    echo "Online Mode Enabled..."
     echo "DEBUG: Online Mode Enabled..."
     echo "Online Mode Enabled..."
     echo "Performing actions specific to Online Mode..."
@@ -311,6 +266,56 @@ fi
         # Start EmulationStation
         chvt 1; es start
     fi
+    online_mode_enabled=true
+}
+
+# Function to switch to offline mode
+offline_mode() {
+    echo "Offline Mode Enabled..."
+    echo "DEBUG: Offline Mode Selected..."
+    echo "Offline Mode Enabled..."
+    echo "Performing actions specific to Offline Mode..."
+
+    # Check and update systemlist.xml based on user choice
+    offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
+    offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml"
+    offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml"
+    
+    # Offline Mode
+    if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
+        # Backup existing systemlist.xml
+        echo "Backing up systemlist.xml..."
+        cp "$offline_systemlist" "$offline_backup"
+        echo "Backup created: $offline_backup"
+
+        # Overwrite systemlist.xml with offline version
+        echo "Overwriting systemlist.xml with offline version..."
+        cp "$offline_offline" "$offline_systemlist"
+        echo "Offline version applied."
+
+        # Replace the following line with your specific actions for Offline Mode
+        echo "Performing actions specific to Offline Mode..."
+        # ...
+
+        echo "Installation complete. Log saved to: $log_file"
+
+        # Replace the following line with the actual command to start emulation station
+        chvt 1; es start
+    else
+        echo "Error: systemlist.xml files not found."
+    fi
+}
+
+# Monitor keyboard input and switch modes accordingly
+monitor_keyboard_input() {
+    evtest /dev/input/event3 --grab | while read -r line; do
+        echo "DEBUG: Keyboard event detected: $line"
+        if [[ $line == *"BTN_TOP"* ]]; then
+            echo "DEBUG: B button pressed. Switching to online mode..."
+            online_mode
+            break
+        fi
+    done
 }
 
 # Start monitoring keyboard input in the background
@@ -319,7 +324,12 @@ monitor_keyboard_input &
 # Wait for the background process to finish
 wait
 
-# Default to Offline Mode if B button not pressed
+# If online mode is enabled, exit the script
+if [ "$online_mode_enabled" = true ]; then
+    exit 0
+fi
+
+# Otherwise, switch to offline mode
 offline_mode
 
 exit 0
