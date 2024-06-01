@@ -694,6 +694,9 @@ echo "Please select a mode:"
 echo "1. Online Mode"
 echo "2. Offline Mode"
 
+# Delay to allow users to make a selection
+sleep 3
+
 # Capture input or default to offline mode
 check_keyboard_input
 
