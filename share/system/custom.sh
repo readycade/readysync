@@ -294,19 +294,17 @@ fi
 echo "Making $appImageName executable..."
 chmod u+x "$appImageName"
 
-# Test run
-echo "Running a test..."
-./"$appImageName" --help
 
 # Move to /usr/local/bin
 echo "Installing ratarmount to $installPath..."
-sudo cp "$appImageName" "$installPath"
+cp "$appImageName" "$installPath"
 
 # Cleanup
 echo "Cleaning up..."
 rm "$appImageName"
 
 echo "Installation complete."
+
 
 
 # Download rclone.conf if it doesn't exist
