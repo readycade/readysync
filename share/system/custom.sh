@@ -59,38 +59,34 @@ echo "Mounting romsets..."
 echo "(No-Intro, Redump, TOSEC)..."
 
 # Mount theeye with rclone
-rclone mount theeye: /recalbox/share/rom2 --config=/recalbox/share/system/rclone3.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+#rclone mount theeye: /recalbox/share/rom2 --config=/recalbox/share/system/rclone3.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 # Mount theeye with httpdirfs
 #httpdirfs -f -o debug -o auto_unmount --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 #--retry-wait=1 -o nonempty "https://the-eye.eu/public/" "/recalbox/share/rom2/"
 # Mount theeye with httpdirfs with cache
 #httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://the-eye.eu/public/ /recalbox/share/rom2
 
-echo "Mounting romsets..."
-echo "(Mixed)..."
+#echo "Mounting romsets..."
+#echo "(Mixed)..."
 
 # Mount olddos with rclone
-rclone mount olddos: /recalbox/share/rom3 --config=/recalbox/share/system/rclone4.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+#rclone mount olddos: /recalbox/share/rom3 --config=/recalbox/share/system/rclone4.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 # Mount olddos with httpdirfs
 #httpdirfs -d --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget ftp://oscollect:SxrRwRGbMe50XcwMKB53j6LSN9DehYMJag@old-dos.ru/ /recalbox/share/rom3
 # Mount olddos with httpdirfs with cache
 #httpdirfs -d --cache --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget ftp://oscollect:SxrRwRGbMe50XcwMKB53j6LSN9DehYMJag@old-dos.ru/ /recalbox/share/rom3
 
-echo "Mounting romsets..."
-echo "(DOS)..."
+#echo "Mounting romsets..."
+#echo "(DOS)..."
 
 # Mount thumbnails2 with rclone
-rclone mount thumbnails2: /recalbox/share/thumbs2 --config=/recalbox/share/system/rclone5.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+#rclone mount thumbnails2: /recalbox/share/thumbs2 --config=/recalbox/share/system/rclone5.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 
-echo "Mounting missing thumbnails..."
+#echo "Mounting missing thumbnails..."
 
 # Mount videos with rclone
-rclone mount videos: /recalbox/share/videos --config=/recalbox/share/system/rclone6.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+#rclone mount videos: /recalbox/share/videos --config=/recalbox/share/system/rclone6.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 
-echo "Mounting videos..."
-
-
-
-
+#echo "Mounting videos..."
 
 
 	# Backup the existing systemlist.xml
@@ -250,6 +246,42 @@ if [ ! -f /usr/bin/httpdirfs ]; then
 else
   echo "httpdirfs is already installed."
 fi
+
+
+# Download and Install ratarmount
+# Variables
+appImageName="ratarmount-0.15.0-x86_64.AppImage"
+appImageUrl="https://github.com/mxmlnkn/ratarmount/releases/download/v0.15.0/$appImageName"
+installPath="/usr/local/bin/ratarmount"
+
+# Check if ratarmount is already installed
+if command -v ratarmount &> /dev/null
+then
+    echo "ratarmount is already installed."
+    exit 0
+fi
+
+# Download the AppImage
+echo "Downloading $appImageName..."
+wget "$appImageUrl" -O "$appImageName"
+
+# Make it executable
+echo "Making $appImageName executable..."
+chmod u+x "$appImageName"
+
+# Test run
+echo "Running a test..."
+./"$appImageName" --help
+
+# Move to /usr/local/bin
+echo "Installing ratarmount to $installPath..."
+sudo cp "$appImageName" "$installPath"
+
+# Cleanup
+echo "Cleaning up..."
+rm "$appImageName"
+
+echo "Installation complete."
 
 # Download rclone.conf if it doesn't exist
 if [ ! -e /recalbox/share/userscripts/.config/readystream/rclone.conf ]; then
