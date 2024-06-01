@@ -674,31 +674,29 @@ fi
 check_keyboard_input() {
     local input
     local event_number
-    local timeout_counter=0
-    local timeout_limit=30  # Adjust the timeout limit as needed
+    local max_event_number=30  # Maximum event number to check
 
-    # Continuously listen for keyboard input on events 0 to 30
-    while true; do
-        for event_number in {0..30}; do
+    # Dynamically determine the maximum event number
+    for ((event_number = 0; event_number <= max_event_number; event_number++)); do
+        if [ ! -e "/dev/input/event$event_number" ]; then
+            max_event_number=$((event_number - 1))
+            break
+        fi
+    done
+
+    # Continuously listen for keyboard input on existing event devices
+    for ((event_number = 0; event_number <= max_event_number; event_number++)); do
+        while true; do
             # Read a single character from the keyboard device
             if read -rsn 1 input < "/dev/input/event$event_number" 2>/dev/null; then
                 mode_choice="$input"
                 return  # Exit the loop if input received
             fi
         done
-
-        # Increment timeout counter
-        ((timeout_counter++))
-
-        # Check if timeout limit reached
-        if [ $timeout_counter -ge $timeout_limit ]; then
-            mode_choice="2"  # Default to offline mode if timeout reached
-            return
-        fi
-
-        # Pause for a short interval before checking again
-        sleep 1
     done
+
+    # Default to offline mode if no input is received
+    mode_choice="2"
 }
 
 # Capture input in the background
