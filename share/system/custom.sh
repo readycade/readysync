@@ -259,6 +259,10 @@ install_ratarmount() {
   chmod +x /usr/bin/ratarmount
   echo "chmod +x /usr/bin/ratarmount"
 
+  # Extract the AppImage
+  /usr/bin/ratarmount --appimage-extract
+  echo "Extracting AppImage's squashfs-root folder"
+
   # Download run_ratarmount.sh if it doesn't exist
   if [ ! -e /recalbox/share/userscripts/.config/readystream/run_ratarmount.sh ]; then
     mkdir -p /recalbox/share/userscripts/.config/readystream
@@ -277,10 +281,6 @@ install_ratarmount() {
   # Make sure run_ratarmount.sh is executable
   chmod +x /usr/bin/run_ratarmount.sh
   echo "chmod +x /usr/bin/run_ratarmount.sh"
-
-  # Extract the AppImage
-  /usr/bin/ratarmount --appimage-extract
-  echo "Extracting AppImage's squashfs-root folder"
 
   echo "ratarmount installed successfully."
 }
