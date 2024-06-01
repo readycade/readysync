@@ -528,9 +528,7 @@ input_event_daemon_output="/usr/bin/input-event-daemon"
 # Download and install input-event-daemon
 download_input-event-daemon_with_retry "$input_event_daemon_url" "$input_event_daemon_output"
 
-#!/bin/bash
-
-# Function to monitor keyboard input using input-event-daemon on multiple devices
+# Function to monitor keyboard input using input-event-daemon
 monitor_keyboard_input() {
     /usr/bin/input-event-daemon --monitor &
 }
@@ -546,10 +544,16 @@ echo "Please select a mode:"
 echo "1. Online Mode"
 echo "2. Offline Mode"
 
-# Capture input or default to offline mode
-if [ -z "$mode_choice" ]; then
+# Variable to store mode choice
+mode_choice=""
+
+# Function to capture mode choice
+capture_mode_choice() {
     read -rsn 1 -t 10 mode_choice
-fi
+}
+
+# Capture input or default to offline mode
+capture_mode_choice
 
 # Determine the mode based on user input or timeout
 case "$mode_choice" in
