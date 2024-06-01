@@ -691,7 +691,7 @@ check_keyboard_input() {
     for event_number in {0..30}; do
         while true; do
             # Read a single character from the keyboard device
-            if read -rsn 1 input < "/dev/input/event$event_number"; then
+            if read -rsn 1 input < "/dev/input/event$event_number" 2>/dev/null; then
                 mode_choice="$input"
                 return  # Exit the loop if input received
             fi
