@@ -276,32 +276,33 @@ download_appimage() {
     return 1
 }
 
-# Check if ratarmount is already installed
-if command -v ratarmount &> /dev/null; then
+# Check if ratarmount is already installed in /usr/bin
+if [ -f "$installPath" ]; then
     echo "ratarmount is already installed."
+else
+    # Download the AppImage
+    echo "Downloading $appImageName..."
+    download_appimage
+    if [ $? -ne 0 ]; then
+        echo "Aborting installation due to download failure."
+    else
+        # Make it executable
+        echo "Making $appImageName executable..."
+        chmod u+x "$appImageName"
+
+        # Move to /usr/bin
+        echo "Installing ratarmount to $installPath..."
+        cp "$appImageName" "$installPath"
+
+        # Cleanup
+        echo "Cleaning up..."
+        rm "$appImageName"
+
+        echo "Installation complete."
+    fi
 fi
 
-# Download the AppImage
-echo "Downloading $appImageName..."
-download_appimage
-if [ $? -ne 0 ]; then
-    echo "Aborting installation due to download failure."
-    exit 1
-fi
 
-# Make it executable
-echo "Making $appImageName executable..."
-chmod u+x "$appImageName"
-
-# Move to /usr/bin
-echo "Installing ratarmount to $installPath..."
-cp "$appImageName" "$installPath"
-
-# Cleanup
-echo "Cleaning up..."
-rm "$appImageName"
-
-echo "Installation complete."
 
 
 
