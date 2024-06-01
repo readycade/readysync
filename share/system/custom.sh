@@ -247,46 +247,68 @@ else
   echo "httpdirfs is already installed."
 fi
 
-install_ratarmount() {
-
-  echo "Only x64 Supported for ratarmount"
-  
   # Download ratarmount AppImage
-  wget -O /usr/bin/ratarmount https://github.com/mxmlnkn/ratarmount/releases/download/v0.15.0/ratarmount-0.15.0-x86_64.AppImage
-  echo "Downloading ratarmount-0.15.0-x86_64.AppImage as /usr/bin/ratarmount"
+# Function to download ratarmount and run_ratarmount.sh with retries
+download_with_retry() {
+  local url=$1
+  local output=$2
+  local max_retries=3
+  local retry_delay=5
 
-  # Make sure the AppImage is executable
-  chmod +x /usr/bin/ratarmount
-  echo "chmod +x /usr/bin/ratarmount"
+  for ((attempt = 1; attempt <= max_retries; attempt++)); do
+    wget -O "$output" "$url"
+    if [ $? -eq 0 ]; then
+      echo "Download succeeded."
+      return 0
+    else
+      echo "Download failed (attempt $attempt/$max_retries). Retrying in $retry_delay seconds..."
+      sleep $retry_delay
+    fi
+  done
 
-  # Extract the AppImage
-  /usr/bin/ratarmount --appimage-extract
-  echo "Extracting AppImage's squashfs-root folder"
-
-  # Download run_ratarmount.sh if it doesn't exist
-  if [ ! -e /recalbox/share/userscripts/.config/readystream/run_ratarmount.sh ]; then
-    mkdir -p /recalbox/share/userscripts/.config/readystream
-    wget -O /recalbox/share/userscripts/.config/readystream/run_ratarmount.sh https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/run_ratarmount.sh
-    echo "run_ratarmount.sh downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
-  fi
-
-  # Copy run_ratarmount.sh to /usr/bin/ if it doesn't exist there
-  if [ ! -e /usr/bin/run_ratarmount.sh ]; then
-    cp /recalbox/share/userscripts/.config/readystream/run_ratarmount.sh /usr/bin/
-    echo "run_ratarmount.sh copied to /usr/bin/ successfully."
-  else
-    echo "run_ratarmount.sh already exists in /usr/bin/. No need to copy."
-  fi
-
-  # Make sure run_ratarmount.sh is executable
-  chmod +x /usr/bin/run_ratarmount.sh
-  echo "chmod +x /usr/bin/run_ratarmount.sh"
-
-  echo "ratarmount installed successfully."
+  echo "Max retries reached. Download failed."
+  return 1
 }
 
-# Call the function
-install_ratarmount
+# Download ratarmount AppImage with retry
+download_with_retry "https://github.com/mxmlnkn/ratarmount/releases/download/v0.15.0/ratarmount-0.15.0-x86_64.AppImage" "/usr/bin/ratarmount"
+if [ $? -ne 0 ]; then
+  exit 1
+fi
+
+echo "Downloading ratarmount-0.15.0-x86_64.AppImage as /usr/bin/ratarmount"
+
+# Make sure the AppImage is executable
+chmod +x /usr/bin/ratarmount
+echo "chmod +x /usr/bin/ratarmount"
+
+# Extract the AppImage
+/usr/bin/ratarmount --appimage-extract
+echo "Extracting AppImage's squashfs-root folder"
+
+# Download run_ratarmount.sh with retry
+download_with_retry "https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/run_ratarmount.sh" "/recalbox/share/userscripts/.config/readystream/run_ratarmount.sh"
+if [ $? -ne 0 ]; then
+  exit 1
+fi
+
+echo "run_ratarmount.sh downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
+
+# Copy run_ratarmount.sh to /usr/bin/ if it doesn't exist there
+if [ ! -e /usr/bin/run_ratarmount.sh ]; then
+  cp /recalbox/share/userscripts/.config/readystream/run_ratarmount.sh /usr/bin/
+  echo "run_ratarmount.sh copied to /usr/bin/ successfully."
+else
+  echo "run_ratarmount.sh already exists in /usr/bin/. No need to copy."
+fi
+
+# Make sure run_ratarmount.sh is executable
+chmod +x /usr/bin/run_ratarmount.sh
+echo "chmod +x /usr/bin/run_ratarmount.sh"
+
+echo "ratarmount installed successfully."
+
+
 
 # Download rclone.conf if it doesn't exist
 if [ ! -e /recalbox/share/userscripts/.config/readystream/rclone.conf ]; then
