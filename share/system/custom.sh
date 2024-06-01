@@ -261,7 +261,7 @@ if [ ! -f /usr/bin/ratarmount ]; then
 
   ratarmount_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/ratarmount-${ratarmount_arch}/ratarmount"
 
-  # Download and Install mount-zip
+  # Download and Install ratarmount
   wget -O /usr/bin/ratarmount ${ratarmount_url}
   chmod +x /usr/bin/ratarmount
 
