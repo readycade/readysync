@@ -294,8 +294,7 @@ fi
 echo "Making $appImageName executable..."
 chmod u+x "$appImageName"
 
-
-# Move to /usr/local/bin
+# Move to /usr/bin
 echo "Installing ratarmount to $installPath..."
 cp "$appImageName" "$installPath"
 
@@ -304,6 +303,7 @@ echo "Cleaning up..."
 rm "$appImageName"
 
 echo "Installation complete."
+
 
 
 
