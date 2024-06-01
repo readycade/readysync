@@ -250,19 +250,23 @@ fi
 
 # Download and Install ratarmount
 install_ratarmount() {
-  local ratarmount_arch="$1"
-  local ratarmount_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/ratarmount-${ratarmount_arch}/ratarmount_bundle.tar.gz"
 
-  echo "Downloading ratarmount for architecture: ${ratarmount_arch}..."
+  echo "Only x64 Supported for ratarmount"
+  # Download ratarmount AppImage
+  wget -O /usr/bin/ratarmount wget -O /usr/bin/ratarmount https://github.com/mxmlnkn/ratarmount/releases/download/v0.15.0/ratarmount-0.15.0-x86_64.AppImage
+  echo "Downloading ratarmount-0.15.0-x86_64.AppImage as /usr/bin/ratarmount"
 
-  # Download ratarmount_bundle.tar.gz
-  wget -O /tmp/ratarmount_bundle.tar.gz "${ratarmount_url}"
-
-  # Extract ratarmount_bundle.tar.gz to /usr/bin
-  tar -xzf /tmp/ratarmount_bundle.tar.gz -C /usr/bin
-
-  # Make ratarmount executable
+  # Make sure the AppImage is executable
   chmod +x /usr/bin/ratarmount
+  
+  # Download run_ratarmount.sh
+  wget -O /usr/bin/ratarmount wget -O /usr/bin/ratarmount https://github.com/mxmlnkn/ratarmount/releases/download/v0.15.0/ratarmount-0.15.0-x86_64.AppImage
+  echo "Downloading ratarmount-0.15.0-x86_64.AppImage as /usr/bin/ratarmount"
+
+  #Extract the AppImage
+  /usr/bin/ratarmount --appimage-extract
+  echo "Extracting AppImage's squashfs-root folder"
+
 
   # Create a symbolic link to the launcher script
   ln -s /usr/bin/ratarmount_launcher.sh /usr/bin/ratarmount
