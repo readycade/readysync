@@ -687,8 +687,8 @@ offline_mode() {
 check_keyboard_input() {
     local input
     local event_number
-    # Continuously listen for keyboard input on events 3 to 9
-    for event_number in {3..9}; do
+    # Continuously listen for keyboard input on events 0 to 30
+    for event_number in {0..30}; do
         while true; do
             # Read a single character from the keyboard device
             if read -rsn 1 input < "/dev/input/event$event_number"; then
@@ -728,4 +728,3 @@ esac
 chvt 1; es start
 
 exit
-
