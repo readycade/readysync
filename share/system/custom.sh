@@ -249,26 +249,36 @@ fi
 
 
 # Download and Install ratarmount
-if [ ! -f /usr/bin/ratarmount ]; then
-  echo "Downloading ratarmount..."
+install_ratarmount() {
+  local ratarmount_arch="$1"
+  local ratarmount_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/ratarmount-${ratarmount_arch}/ratarmount_bundle.tar.gz"
 
-  # Detect the architecture
-  case $(arch) in
-    x86_64) ratarmount_arch="x64" ;;
-    aarch64) ratarmount_arch="arm64" ;;
-    *) echo "Unsupported ratarmount architecture: $(arch)."; exit 1 ;;
-  esac
+  echo "Downloading ratarmount for architecture: ${ratarmount_arch}..."
 
-  ratarmount_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/ratarmount-${ratarmount_arch}/ratarmount"
+  # Download ratarmount_bundle.tar.gz
+  wget -q -O /tmp/ratarmount_bundle.tar.gz "${ratarmount_url}"
 
-  # Download and Install ratarmount
-  wget -O /usr/bin/ratarmount ${ratarmount_url}
+  # Extract ratarmount_bundle.tar.gz to /usr/bin
+  tar -xzf /tmp/ratarmount_bundle.tar.gz -C /usr/bin
+
+  # Make ratarmount executable
   chmod +x /usr/bin/ratarmount
 
   echo "ratarmount installed successfully for architecture: ${ratarmount_arch}."
+}
+
+# Check if ratarmount is already installed
+if [ ! -f /usr/bin/ratarmount ]; then
+  # Detect the architecture
+  case $(arch) in
+    x86_64) install_ratarmount "x64" ;;
+    aarch64) install_ratarmount "arm64" ;;
+    *) echo "Unsupported ratarmount architecture: $(arch)."; exit 1 ;;
+  esac
 else
   echo "ratarmount is already installed."
 fi
+
 
 
 
