@@ -29,127 +29,6 @@ sanitize_dir_name() {
   tr -cd '[:alnum:]' <<< "$1"
 }
 
-# Function to perform actions specific to Online Mode
-online_mode() {
-    # Add your specific actions for Online Mode here
-    # ...
-    echo "Online Mode Enabled..."
-    echo "Performing actions specific to Online Mode..."
-
-# Check and update systemlist.xml based on user choice
-offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
-offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml"
-offline_online="/recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml"
-offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml"
-
-# Online Mode
-if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
-# Mount thumbnails with rclone
-rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-
-echo "Mounting libretro thumbnails..."
-
-# Mount myrient with rclone
-rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-# Mount myrient with httpdirfs
-#httpdirfs -d --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget https://myrient.erista.me/files/ /recalbox/share/rom
-# Mount myrient with httpdirfs with cache
-#httpdirfs -d --cache --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget https://myrient.erista.me/files/ /recalbox/share/rom
-echo "Mounting romsets..."
-echo "(No-Intro, Redump, TOSEC)..."
-
-# Mount theeye with rclone
-#rclone mount theeye: /recalbox/share/rom2 --config=/recalbox/share/system/rclone3.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-# Mount theeye with httpdirfs
-#httpdirfs -f -o debug -o auto_unmount --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 #--retry-wait=1 -o nonempty "https://the-eye.eu/public/" "/recalbox/share/rom2/"
-# Mount theeye with httpdirfs with cache
-#httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://the-eye.eu/public/ /recalbox/share/rom2
-
-#echo "Mounting romsets..."
-#echo "(Mixed)..."
-
-# Mount olddos with rclone
-#rclone mount olddos: /recalbox/share/rom3 --config=/recalbox/share/system/rclone4.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-# Mount olddos with httpdirfs
-#httpdirfs -d --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget ftp://oscollect:SxrRwRGbMe50XcwMKB53j6LSN9DehYMJag@old-dos.ru/ /recalbox/share/rom3
-# Mount olddos with httpdirfs with cache
-#httpdirfs -d --cache --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget ftp://oscollect:SxrRwRGbMe50XcwMKB53j6LSN9DehYMJag@old-dos.ru/ /recalbox/share/rom3
-
-#echo "Mounting romsets..."
-#echo "(DOS)..."
-
-# Mount thumbnails2 with rclone
-#rclone mount thumbnails2: /recalbox/share/thumbs2 --config=/recalbox/share/system/rclone5.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-
-#echo "Mounting missing thumbnails..."
-
-# Mount videos with rclone
-#rclone mount videos: /recalbox/share/videos --config=/recalbox/share/system/rclone6.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-
-#echo "Mounting videos..."
-
-
-	# Backup the existing systemlist.xml
-    echo "Backing up systemlist.xml..."
-    cp "$offline_systemlist" "$offline_backup"
-    echo "Backup created: $offline_backup"
-
-    # Overwrite systemlist.xml with the online version
-    echo "Overwriting systemlist.xml with the online version..."
-    cp "$offline_online" "$offline_systemlist"
-    echo "Online version applied."
-
-    # Move the contents to online directory
-    cp -r /recalbox/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
-    echo "copied ALL gamelists.xml to online directory."
-
-fi
-
-sleep 5
-chvt 1; es start
-}
-
-
-# Function to perform actions specific to Offline Mode
-offline_mode() {
-    # Add your specific actions for Offline Mode here
-    # ...
-    echo "Offline Mode Enabled..."
-    echo "Performing actions specific to Offline Mode..."
-
-# Check and update systemlist.xml based on user choice
-offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
-offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml"
-offline_online="/recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml"
-offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml"
-	
-# Offline Mode
-if [ "$mode_choice" != "1" ]; then
-    if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
-        # Backup existing systemlist.xml
-        echo "Backing up systemlist.xml..."
-        cp "$offline_systemlist" "$offline_backup"
-        echo "Backup created: $offline_backup"
-
-        # Overwrite systemlist.xml with offline version
-        echo "Overwriting systemlist.xml with offline version..."
-        cp "$offline_offline" "$offline_systemlist"
-        echo "Offline version applied."
-
-        # Replace the following line with your specific actions for Offline Mode
-        echo "Performing actions specific to Offline Mode..."
-        # ...
-
-        echo "Installation complete. Log saved to: $log_file"
-
-        # Replace the following line with the actual command to start emulation station
-        chvt 1; es start
-    else
-        echo "Error: systemlist.xml files not found."
-    fi
-fi	
-	
-}
 
 # Function to download and install a binary with retries
 download_and_install_with_retry() {
@@ -673,14 +552,122 @@ done
 
 # Function to handle online mode
 online_mode() {
-    echo "Online Mode Selected"
-    # Add your online mode logic here
+
+    echo "Online Mode Enabled..."
+    echo "Performing actions specific to Online Mode..."
+
+# Check and update systemlist.xml based on user choice
+offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
+offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml"
+offline_online="/recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml"
+offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml"
+
+# Online Mode
+if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
+# Mount thumbnails with rclone
+rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+
+echo "Mounting libretro thumbnails..."
+
+# Mount myrient with rclone
+rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+# Mount myrient with httpdirfs
+#httpdirfs -d --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget https://myrient.erista.me/files/ /recalbox/share/rom
+# Mount myrient with httpdirfs with cache
+#httpdirfs -d --cache --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget https://myrient.erista.me/files/ /recalbox/share/rom
+echo "Mounting romsets..."
+echo "(No-Intro, Redump, TOSEC)..."
+
+# Mount theeye with rclone
+#rclone mount theeye: /recalbox/share/rom2 --config=/recalbox/share/system/rclone3.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+# Mount theeye with httpdirfs
+#httpdirfs -f -o debug -o auto_unmount --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 #--retry-wait=1 -o nonempty "https://the-eye.eu/public/" "/recalbox/share/rom2/"
+# Mount theeye with httpdirfs with cache
+#httpdirfs -d -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://the-eye.eu/public/ /recalbox/share/rom2
+
+#echo "Mounting romsets..."
+#echo "(Mixed)..."
+
+# Mount olddos with rclone
+#rclone mount olddos: /recalbox/share/rom3 --config=/recalbox/share/system/rclone4.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+# Mount olddos with httpdirfs
+#httpdirfs -d --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget ftp://oscollect:SxrRwRGbMe50XcwMKB53j6LSN9DehYMJag@old-dos.ru/ /recalbox/share/rom3
+# Mount olddos with httpdirfs with cache
+#httpdirfs -d --cache --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o noforget ftp://oscollect:SxrRwRGbMe50XcwMKB53j6LSN9DehYMJag@old-dos.ru/ /recalbox/share/rom3
+
+#echo "Mounting romsets..."
+#echo "(DOS)..."
+
+# Mount thumbnails2 with rclone
+#rclone mount thumbnails2: /recalbox/share/thumbs2 --config=/recalbox/share/system/rclone5.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+
+#echo "Mounting missing thumbnails..."
+
+# Mount videos with rclone
+#rclone mount videos: /recalbox/share/videos --config=/recalbox/share/system/rclone6.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+
+#echo "Mounting videos..."
+
+
+	# Backup the existing systemlist.xml
+    echo "Backing up systemlist.xml..."
+    cp "$offline_systemlist" "$offline_backup"
+    echo "Backup created: $offline_backup"
+
+    # Overwrite systemlist.xml with the online version
+    echo "Overwriting systemlist.xml with the online version..."
+    cp "$offline_online" "$offline_systemlist"
+    echo "Online version applied."
+
+    # Move the contents to online directory
+    cp -r /recalbox/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
+    echo "copied ALL gamelists.xml to online directory."
+
+fi
+
+sleep 5
+chvt 1; es start
 }
 
-# Function to handle offline mode
+    # Function to perform actions specific to Offline Mode
 offline_mode() {
-    echo "Offline Mode Selected"
-    # Add your offline mode logic here
+    # Add your specific actions for Offline Mode here
+    # ...
+    echo "Offline Mode Enabled..."
+    echo "Performing actions specific to Offline Mode..."
+
+# Check and update systemlist.xml based on user choice
+offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
+offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml"
+offline_online="/recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml"
+offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml"
+	
+# Offline Mode
+if [ "$mode_choice" != "1" ]; then
+    if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
+        # Backup existing systemlist.xml
+        echo "Backing up systemlist.xml..."
+        cp "$offline_systemlist" "$offline_backup"
+        echo "Backup created: $offline_backup"
+
+        # Overwrite systemlist.xml with offline version
+        echo "Overwriting systemlist.xml with offline version..."
+        cp "$offline_offline" "$offline_systemlist"
+        echo "Offline version applied."
+
+        # Replace the following line with your specific actions for Offline Mode
+        echo "Performing actions specific to Offline Mode..."
+        # ...
+
+        echo "Installation complete. Log saved to: $log_file"
+
+        # Replace the following line with the actual command to start emulation station
+        chvt 1; es start
+    else
+        echo "Error: systemlist.xml files not found."
+    fi
+fi	
+	
 }
 
 # Function to check for keyboard input
