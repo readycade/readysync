@@ -273,7 +273,6 @@ else
   echo "input-event-daemon installed successfully."
 fi
 
-
 # Function to download and install a binary with retries
 download_and_install_with_retry() {
   local url=$1
@@ -687,38 +686,9 @@ fi
 	
 }
 
-# Function to check for keyboard input
-check_keyboard_input() {
-    local input
-    local event_number
-    local max_event_number=30  # Maximum event number to check
-
-    # Dynamically determine the maximum event number
-    for ((event_number = 0; event_number <= max_event_number; event_number++)); do
-        if [ ! -e "/dev/input/event$event_number" ]; then
-            max_event_number=$((event_number - 1))
-            break
-        fi
-    done
-
-    # Continuously listen for keyboard input on existing event devices
-    for ((event_number = 0; event_number <= max_event_number; event_number++)); do
-        while true; do
-            # Read a single character from the keyboard device
-            if read -rsn 1 input < "/dev/input/event$event_number" 2>/dev/null; then
-                mode_choice="$input"
-                return  # Exit the loop if input received
-            fi
-        done
-    done
-
-    # Default to offline mode if no input is received
-    mode_choice="2"
-}
-
-# Function to monitor keyboard input in the background
+# Function to monitor keyboard input using input-event-daemon
 monitor_keyboard_input() {
-    check_keyboard_input
+    /usr/bin/input-event-daemon --monitor
 }
 
 # Start monitoring keyboard input in the background
