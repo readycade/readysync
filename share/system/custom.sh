@@ -530,14 +530,11 @@ download_input-event-daemon_with_retry "$input_event_daemon_url" "$input_event_d
 
 # Function to monitor keyboard input using input-event-daemon
 monitor_keyboard_input() {
-    /usr/bin/input-event-daemon --monitor > keyboard_events.txt &
+    /usr/bin/input-event-daemon --monitor
 }
 
-# Start monitoring keyboard input in the background
-monitor_keyboard_input
-
-# Delay to allow time for the background process to start
-sleep 1
+# Start monitoring keyboard input and capture output in real time
+monitor_keyboard_input | tee keyboard_events.txt
 
 # Display menu
 echo "Please select a mode:"
@@ -574,16 +571,5 @@ esac
 # Other commands after mode selection
 chvt 1; es start
 
-# Kill the background input-event-daemon process
-pkill -f input-event-daemon
-
-# Read and process keyboard events from the file
-while IFS= read -r line; do
-    # Process each line of the file containing keyboard events
-    echo "$line"  # You can replace this with your custom logic
-done < keyboard_events.txt
-
-# Remove the temporary file
-rm keyboard_events.txt
-
 exit 0
+
