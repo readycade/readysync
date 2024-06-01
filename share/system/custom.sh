@@ -675,7 +675,7 @@ for platform_info in "${platforms[@]}"; do
             ;;
         0)
             toggle_platform "$platform_name" "disable"
-            delete_disabled_platform_directory "$platform_name"
+            #delete_disabled_platform_directory "$platform_name"
             ;;
         *)
             echo "Invalid status. Use '1' for enable and '0' for disable."
