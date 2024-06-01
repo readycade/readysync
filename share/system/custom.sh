@@ -247,7 +247,6 @@ else
   echo "httpdirfs is already installed."
 fi
 
-
 install_ratarmount() {
   if [ -e /usr/bin/ratarmount ]; then
     echo "ratarmount already exists in /usr/bin."
@@ -292,12 +291,6 @@ install_ratarmount() {
 
 # Call the function
 install_ratarmount
-
-
-
-
-
-
 
 # Download rclone.conf if it doesn't exist
 if [ ! -e /recalbox/share/userscripts/.config/readystream/rclone.conf ]; then
