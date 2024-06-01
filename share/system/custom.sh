@@ -266,11 +266,18 @@ fi
         # Start EmulationStation
         chvt 1; es start
     fi
+     # Set online_mode_enabled flag to true
     online_mode_enabled=true
 }
 
 # Function to switch to offline mode
 offline_mode() {
+    # Check if online mode is already enabled
+    if [ "$online_mode_enabled" = true ]; then
+        echo "Online mode already enabled. Skipping offline mode."
+        return
+    fi
+    
     echo "Offline Mode Enabled..."
     echo "DEBUG: Offline Mode Selected..."
     echo "Offline Mode Enabled..."
