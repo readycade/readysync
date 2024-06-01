@@ -249,59 +249,26 @@ fi
 
 
 # Download and Install ratarmount
+if [ ! -f /usr/bin/ratarmount ]; then
+  echo "Downloading ratarmount..."
 
-# Variables
-appImageName="ratarmount-0.15.0-x86_64.AppImage"
-appImageUrl="https://github.com/mxmlnkn/ratarmount/releases/download/v0.15.0/$appImageName"
-installPath="/usr/bin/ratarmount"
-maxRetries=3
-retryDelay=5
+  # Detect the architecture
+  case $(arch) in
+    x86_64) ratarmount_arch="x64" ;;
+    aarch64) ratarmount_arch="arm64" ;;
+    *) echo "Unsupported ratarmount architecture: $(arch)."; exit 1 ;;
+  esac
 
-# Function to download the AppImage with retries
-download_appimage() {
-    local attempt=1
-    while [ $attempt -le $maxRetries ]; do
-        echo "Attempting to download $appImageName (Attempt $attempt of $maxRetries)..."
-        wget "$appImageUrl" -O "$appImageName"
-        if [ $? -eq 0 ]; then
-            echo "Download succeeded."
-            return 0
-        else
-            echo "Download failed. Retrying in $retryDelay seconds..."
-            sleep $retryDelay
-            attempt=$((attempt + 1))
-        fi
-    done
-    echo "Failed to download $appImageName after $maxRetries attempts."
-    return 1
-}
+  ratarmount_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/mount-zip-${ratarmount_arch}/ratarmount"
 
-# Check if ratarmount is already installed in /usr/bin
-if [ -f "$installPath" ]; then
-    echo "ratarmount is already installed."
+  # Download and Install mount-zip
+  wget -O /usr/bin/ratarmount ${ratarmount_url}
+  chmod +x /usr/bin/ratarmount
+
+  echo "ratarmount installed successfully for architecture: ${ratarmount_arch}."
 else
-    # Download the AppImage
-    echo "Downloading $appImageName..."
-    download_appimage
-    if [ $? -ne 0 ]; then
-        echo "Aborting installation due to download failure."
-    else
-        # Make it executable
-        echo "Making $appImageName executable..."
-        chmod u+x "$appImageName"
-
-        # Move to /usr/bin
-        echo "Installing ratarmount to $installPath..."
-        cp "$appImageName" "$installPath"
-
-        # Cleanup
-        echo "Cleaning up..."
-        rm "$appImageName"
-
-        echo "Installation complete."
-    fi
+  echo "ratarmount is already installed."
 fi
-
 
 
 
