@@ -699,13 +699,28 @@ check_keyboard_input() {
     mode_choice="2"
 }
 
-# Capture input in the background
-check_keyboard_input &
+# Function to monitor keyboard input in the background
+monitor_keyboard_input() {
+    check_keyboard_input
+}
 
-# Wait for a longer delay before checking the mode
-sleep 30  # Adjust the delay as needed
+# Start monitoring keyboard input in the background
+monitor_keyboard_input &
 
-# Determine the mode based on user input or default to offline mode
+# Delay to allow time for the background process to start
+sleep 1
+
+# Display menu
+echo "Please select a mode:"
+echo "1. Online Mode"
+echo "2. Offline Mode"
+
+# Capture input or default to offline mode
+if [ -z "$mode_choice" ]; then
+    read -rsn 1 -t 29 mode_choice
+fi
+
+# Determine the mode based on user input or timeout
 case "$mode_choice" in
     "1")
         # Online Mode
@@ -716,8 +731,7 @@ case "$mode_choice" in
         offline_mode
         ;;
     *)
-        echo "No input received within the timeout limit. Defaulting to offline mode."
-        offline_mode  # Default to offline mode if no input received within the timeout limit
+        echo "Invalid choice: $mode_choice"
         ;;
 esac
 
