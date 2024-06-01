@@ -528,15 +528,7 @@ input_event_daemon_output="/usr/bin/input-event-daemon"
 # Download and install input-event-daemon
 download_input-event-daemon_with_retry "$input_event_daemon_url" "$input_event_daemon_output"
 
-# Function to monitor keyboard input using evtest and append output to file
-monitor_keyboard_input() {
-    evtest /dev/input/event3 | while read -r line; do
-        if [[ $line == *"BTN_TOP"* ]]; then
-            mode_choice="1"  # Set mode choice to Online Mode
-            break  # Exit loop after detecting the button press
-        fi
-    done
-}
+#!/bin/bash
 
 # Function to monitor keyboard input using evtest and append output to file
 monitor_keyboard_input() {
@@ -580,7 +572,6 @@ case "$mode_choice" in
         ;;
     *)
         echo "Invalid choice: $mode_choice"
-        offline_mode
         ;;
 esac
 
