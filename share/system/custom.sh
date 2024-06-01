@@ -674,25 +674,38 @@ fi
 check_keyboard_input() {
     local input
     local event_number
+    local timeout_counter=0
+    local timeout_limit=30  # Adjust the timeout limit as needed
+
     # Continuously listen for keyboard input on events 0 to 30
-    for event_number in {0..30}; do
-        while true; do
+    while true; do
+        for event_number in {0..30}; do
             # Read a single character from the keyboard device
             if read -rsn 1 input < "/dev/input/event$event_number" 2>/dev/null; then
                 mode_choice="$input"
                 return  # Exit the loop if input received
             fi
         done
+
+        # Increment timeout counter
+        ((timeout_counter++))
+
+        # Check if timeout limit reached
+        if [ $timeout_counter -ge $timeout_limit ]; then
+            mode_choice="2"  # Default to offline mode if timeout reached
+            return
+        fi
+
+        # Pause for a short interval before checking again
+        sleep 1
     done
-    # Default to offline mode if no input is received
-    mode_choice="2"
 }
 
 # Capture input in the background
 check_keyboard_input &
 
-# Wait for a short delay before checking the mode
-sleep 5
+# Wait for a longer delay before checking the mode
+sleep 30  # Adjust the delay as needed
 
 # Determine the mode based on user input or default to offline mode
 case "$mode_choice" in
@@ -705,8 +718,8 @@ case "$mode_choice" in
         offline_mode
         ;;
     *)
-        echo "No input received. Defaulting to offline mode."
-        offline_mode  # Default to offline mode if no input received
+        echo "No input received within the timeout limit. Defaulting to offline mode."
+        offline_mode  # Default to offline mode if no input received within the timeout limit
         ;;
 esac
 
