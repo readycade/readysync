@@ -645,9 +645,6 @@ done
 sleep 5
 chvt 1; es start
 
-
-
-
     # Function to perform actions specific to Offline Mode
 offline_mode() {
     # Add your specific actions for Offline Mode here
@@ -706,8 +703,11 @@ echo "1. Online Mode"
 echo "2. Offline Mode"
 
 # Capture input or default to offline mode
+read -rsn 1 -t 10 mode_choice
+
+# If no input event detected within 10 seconds, default to offline mode
 if [ -z "$mode_choice" ]; then
-    read -rsn 1 -t 29 mode_choice
+    mode_choice="2"  # Defaulting to offline mode
 fi
 
 # Determine the mode based on user input or timeout
