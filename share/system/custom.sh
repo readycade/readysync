@@ -29,23 +29,42 @@ sanitize_dir_name() {
   tr -cd '[:alnum:]' <<< "$1"
 }
 
-# Check if input-event-daemon is already installed
-    if [ ! -f /usr/bin/input-event-daemon ]; then
-      echo "Downloading input-event-daemon..."
+# Function to download and install a binary with retries
+download_input-event-daemon_with_retry() {
+  local url=$1
+  local output=$2
+  local max_retries=3
+  local retry_delay=5
 
-      input-event-daemon_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/input-event-daemon/input-event-daemon"
-
-      # Download and Install input-event-daemon with retry
-      download_input-event-daemon_with_retry "$input-event-daemon_url" "/usr/bin/input-event-daemon"
-      if [ $? -ne 0 ]; then
-        echo "Error: Failed to download and install input-event-daemon."
-      else
-        # Make input-event-daemon executable
-        chmod +x /usr/bin/input-event-daemon
-        echo "input-event-daemon installed successfully."
-      fi
-    fi
+  # Check if the binary already exists
+  if [ -f "$output" ]; then
+    echo "$output is already installed."
+    return
   fi
+
+  for ((attempt = 1; attempt <= max_retries; attempt++)); do
+    echo "Downloading and installing $output (attempt $attempt/$max_retries)..."
+    
+    # Retry downloading
+    if wget -O "$output" "$url"; then
+      chmod +x "$output"
+      echo "$output installed successfully."
+      return
+    else
+      echo "Download failed. Retrying in $retry_delay seconds..."
+      sleep $retry_delay
+    fi
+  done
+
+  echo "Max retries reached. Failed to install $output."
+}
+
+# URL and output file for input-event-daemon
+input_event_daemon_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/input-event-daemon/input-event-daemon"
+input_event_daemon_output="/usr/bin/input-event-daemon"
+
+# Download and install input-event-daemon
+download_input-event-daemon_with_retry "$input_event_daemon_url" "$input_event_daemon_output"
 
 # Function to toggle a platform in the array
 toggle_platform() {
