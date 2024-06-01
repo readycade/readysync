@@ -693,6 +693,9 @@ echo "Please select a mode:"
 echo "1. Online Mode"
 echo "2. Offline Mode"
 
+# Prompt user to make a selection
+echo -n "Enter your choice (1 or 2): "
+
 # Delay to allow users to make a selection
 sleep 3
 
