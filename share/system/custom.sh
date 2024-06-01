@@ -647,7 +647,6 @@ fi
 sleep 5
 chvt 1; es start
 
-}
 
 
     # Function to perform actions specific to Offline Mode
