@@ -279,7 +279,6 @@ download_appimage() {
 # Check if ratarmount is already installed
 if command -v ratarmount &> /dev/null; then
     echo "ratarmount is already installed."
-    exit 0
 fi
 
 # Download the AppImage
