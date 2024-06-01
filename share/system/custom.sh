@@ -263,19 +263,16 @@ if [ ! -f /usr/bin/input-event-daemon ]; then
 
   input-event-daemon_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/input-event-daemon/input-event-daemon"
 
-  # Download and Install input-event-daemon with retry
-  download_input-event-daemon_with_retry "$input-event-daemon_url" "/usr/bin/input-event-daemon"
-  if [ $? -ne 0 ]; then
-    exit 1
-  fi
-
+# Download and Install input-event-daemon with retry
+download_input-event-daemon_with_retry "$input-event-daemon_url" "/usr/bin/input-event-daemon"
+if [ $? -ne 0 ]; then
+  echo "Error: Failed to download and install input-event-daemon."
+else
   # Make input-event-daemon executable
   chmod +x /usr/bin/input-event-daemon
-
   echo "input-event-daemon installed successfully."
-else
-  echo "input-event-daemon is already installed."
 fi
+
 
 # Function to download and install a binary with retries
 download_and_install_with_retry() {
