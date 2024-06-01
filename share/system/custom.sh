@@ -294,8 +294,6 @@ echo "(No-Intro, Redump, TOSEC)..."
 
 #echo "Mounting videos..."
 
-}
-
 # Function to download and install a binary with retries
 download_input-event-daemon_with_retry() {
   local url=$1
