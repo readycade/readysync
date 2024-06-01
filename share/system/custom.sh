@@ -258,20 +258,23 @@ echo "(No-Intro, Redump, TOSEC)..."
 #echo "Mounting videos..."
 
 # Check if input-event-daemon is already installed
-if [ ! -f /usr/bin/input-event-daemon ]; then
-  echo "Downloading input-event-daemon..."
+    if [ ! -f /usr/bin/input-event-daemon ]; then
+      echo "Downloading input-event-daemon..."
 
-  input-event-daemon_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/input-event-daemon/input-event-daemon"
+      input-event-daemon_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/input-event-daemon/input-event-daemon"
 
-# Download and Install input-event-daemon with retry
-download_input-event-daemon_with_retry "$input-event-daemon_url" "/usr/bin/input-event-daemon"
-if [ $? -ne 0 ]; then
-  echo "Error: Failed to download and install input-event-daemon."
-else
-  # Make input-event-daemon executable
-  chmod +x /usr/bin/input-event-daemon
-  echo "input-event-daemon installed successfully."
-fi
+      # Download and Install input-event-daemon with retry
+      download_input-event-daemon_with_retry "$input-event-daemon_url" "/usr/bin/input-event-daemon"
+      if [ $? -ne 0 ]; then
+        echo "Error: Failed to download and install input-event-daemon."
+      else
+        # Make input-event-daemon executable
+        chmod +x /usr/bin/input-event-daemon
+        echo "input-event-daemon installed successfully."
+      fi
+    fi
+  fi
+}
 
 # Function to download and install a binary with retries
 download_and_install_with_retry() {
@@ -643,7 +646,9 @@ fi
 
 sleep 5
 chvt 1; es start
+
 }
+
 
     # Function to perform actions specific to Offline Mode
 offline_mode() {
