@@ -256,7 +256,7 @@ install_ratarmount() {
   echo "Downloading ratarmount for architecture: ${ratarmount_arch}..."
 
   # Download ratarmount_bundle.tar.gz
-  wget -q -O /tmp/ratarmount_bundle.tar.gz "${ratarmount_url}"
+  wget -O /tmp/ratarmount_bundle.tar.gz "${ratarmount_url}"
 
   # Extract ratarmount_bundle.tar.gz to /usr/bin
   tar -xzf /tmp/ratarmount_bundle.tar.gz -C /usr/bin
