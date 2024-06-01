@@ -253,7 +253,7 @@ fi
 # Variables
 appImageName="ratarmount-0.15.0-x86_64.AppImage"
 appImageUrl="https://github.com/mxmlnkn/ratarmount/releases/download/v0.15.0/$appImageName"
-installPath="/usr/local/bin/ratarmount"
+installPath="/usr/bin/ratarmount"
 maxRetries=3
 retryDelay=5
 
