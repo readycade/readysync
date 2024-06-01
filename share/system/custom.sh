@@ -528,13 +528,15 @@ input_event_daemon_output="/usr/bin/input-event-daemon"
 # Download and install input-event-daemon
 download_input-event-daemon_with_retry "$input_event_daemon_url" "$input_event_daemon_output"
 
-# Function to monitor keyboard input using input-event-daemon
+#!/bin/bash
+
+# Function to monitor keyboard input using input-event-daemon on multiple devices
 monitor_keyboard_input() {
-    /usr/bin/input-event-daemon --monitor
+    /usr/bin/input-event-daemon --monitor &
 }
 
 # Start monitoring keyboard input in the background
-monitor_keyboard_input &
+monitor_keyboard_input
 
 # Delay to allow time for the background process to start
 sleep 1
@@ -567,5 +569,8 @@ esac
 
 # Other commands after mode selection
 chvt 1; es start
+
+# Kill the background input-event-daemon process
+pkill -f input-event-daemon
 
 exit 0
