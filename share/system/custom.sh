@@ -460,7 +460,6 @@ done
     else
         echo "Failed to download systemlist-backup.xml, systemlist-online.xml and systemlist-offline.xml..."
     fi
-fi
 
 # Download LATEST Gamelist.xml's from github
 # (remove the TARGET_DIR from your recalbox and the script will download the latest gamelists)
