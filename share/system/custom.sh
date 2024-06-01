@@ -528,13 +528,18 @@ input_event_daemon_output="/usr/bin/input-event-daemon"
 # Download and install input-event-daemon
 download_input-event-daemon_with_retry "$input_event_daemon_url" "$input_event_daemon_output"
 
-# Function to monitor keyboard input using input-event-daemon
+# Function to monitor keyboard input using evtest and append output to file
 monitor_keyboard_input() {
-    /usr/bin/input-event-daemon --monitor
+    evtest /dev/input/event3 | while read -r line; do
+        if [[ $line == *"BTN_TOP"* ]]; then
+            mode_choice="1"  # Set mode choice to Online Mode
+            break  # Exit loop after detecting the button press
+        fi
+    done
 }
 
-# Start monitoring keyboard input and capture output in real time
-monitor_keyboard_input | tee keyboard_events.txt
+# Start monitoring keyboard input in the background
+monitor_keyboard_input &
 
 # Display menu
 echo "Please select a mode:"
@@ -542,7 +547,7 @@ echo "1. Online Mode"
 echo "2. Offline Mode"
 
 # Variable to store mode choice
-mode_choice=""
+mode_choice="2"  # Default to Offline Mode
 
 # Function to capture mode choice
 capture_mode_choice() {
@@ -570,6 +575,9 @@ esac
 
 # Other commands after mode selection
 chvt 1; es start
+
+# Wait for the background process to finish
+wait
 
 exit 0
 
