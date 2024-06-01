@@ -688,21 +688,13 @@ check_keyboard_input() {
     mode_choice="2"
 }
 
-# Display menu
-echo "Please select a mode:"
-echo "1. Online Mode"
-echo "2. Offline Mode"
+# Capture input in the background
+check_keyboard_input &
 
-# Prompt user to make a selection
-echo -n "Enter your choice (1 or 2): "
+# Wait for a short delay before checking the mode
+sleep 5
 
-# Delay to allow users to make a selection
-sleep 3
-
-# Capture input or default to offline mode
-check_keyboard_input
-
-# Determine the mode based on user input or timeout
+# Determine the mode based on user input or default to offline mode
 case "$mode_choice" in
     "1")
         # Online Mode
@@ -713,7 +705,8 @@ case "$mode_choice" in
         offline_mode
         ;;
     *)
-        echo "Invalid choice: $mode_choice"
+        echo "No input received. Defaulting to offline mode."
+        offline_mode  # Default to offline mode if no input received
         ;;
 esac
 
