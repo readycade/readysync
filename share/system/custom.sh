@@ -257,37 +257,6 @@ echo "(No-Intro, Redump, TOSEC)..."
 
 #echo "Mounting videos..."
 
-# Function to download and install a binary with retries
-download_input-event-daemon_with_retry() {
-  local url=$1
-  local output=$2
-  local max_retries=3
-  local retry_delay=5
-
-  # Check if the binary already exists
-  if [ -f "$output" ]; then
-    echo "$output is already installed."
-    return
-  fi
-
-  for ((attempt = 1; attempt <= max_retries; attempt++)); do
-    echo "Downloading and installing $output (attempt $attempt/$max_retries)..."
-    
-    # Retry downloading
-    if wget -O "$output" "$url"; then
-      chmod +x "$output"
-      echo "$output installed successfully."
-      return
-    else
-      echo "Download failed. Retrying in $retry_delay seconds..."
-      sleep $retry_delay
-    fi
-  done
-
-  echo "Max retries reached. Failed to install $output."
-  exit 1
-}
-
 }
 
 # Function to download and install 7zip and rclone with retries
