@@ -248,10 +248,6 @@ else
 fi
 
 install_ratarmount() {
-  if [ -e /usr/bin/ratarmount ]; then
-    echo "ratarmount already exists in /usr/bin."
-    return
-  fi
 
   echo "Only x64 Supported for ratarmount"
   
