@@ -402,52 +402,14 @@ online_mode() {
 
         echo "ratarmount installed."
 
-        # Download and Install simg2img
-        download_and_install_simg2img_with_retry() {
-            local url=$1
-            local output="/usr/bin/simg2img"
-            local max_retries=3
-            local retry_delay=5
+        # Switch to the appropriate TTY
+        chvt 2
 
-            # Check if simg2img is already installed
-            if [ -f "$output" ]; then
-                echo "simg2img is already installed."
-                return
-            fi
-
-            for ((attempt = 1; attempt <= max_retries; attempt++)); do
-                wget -O "$output" "$url"
-                if [ $? -eq 0 ]; then
-                    chmod +x "$output"
-                    echo "simg2img installed successfully."
-                    return
-                else
-                    echo "Download failed (attempt $attempt/$max_retries). Retrying in $retry_delay seconds..."
-                    sleep $retry_delay
-                fi
-            done
-
-            echo "Max retries reached. Failed to install simg2img."
-            exit 1
-        }
-
-        # Base URL for downloading simg2img
-        base_url="https://github.com/anestisb/android-simg2img/raw/master"
-
-        # Call the function with the URL
-        download_and_install_simg2img_with_retry "$base_url/simg2img"
-
-        # Exit the script
-        echo "Exiting the script."
-        exit 0
+        # Start EmulationStation
+        chvt 1; es start
     fi
 }
 
-# Switch to the appropriate TTY
-chvt 2
-
-# Start EmulationStation
-es start
 
     # Function to perform actions specific to Offline Mode
 offline_mode() {
@@ -490,93 +452,23 @@ fi
 
 }
 
-
-# Function to download and install a binary with retries
-download_input-event-daemon_with_retry() {
-  local url=$1
-  local output=$2
-  local max_retries=3
-  local retry_delay=5
-
-  # Check if the binary already exists
-  if [ -f "$output" ]; then
-    echo "$output is already installed."
-    return
-  fi
-
-  for ((attempt = 1; attempt <= max_retries; attempt++)); do
-    echo "Downloading and installing $output (attempt $attempt/$max_retries)..."
-    
-    # Retry downloading
-    if wget -O "$output" "$url"; then
-      chmod +x "$output"
-      echo "$output installed successfully."
-      return
-    else
-      echo "Download failed. Retrying in $retry_delay seconds..."
-      sleep $retry_delay
-    fi
-  done
-
-  echo "Max retries reached. Failed to install $output."
-}
-
-# URL and output file for input-event-daemon
-input_event_daemon_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/input-event-daemon/input-event-daemon"
-input_event_daemon_output="/usr/bin/input-event-daemon"
-
-# Download and install input-event-daemon
-download_input-event-daemon_with_retry "$input_event_daemon_url" "$input_event_daemon_output"
-
 # Function to monitor keyboard input using evtest
 monitor_keyboard_input() {
-    while read -r line; do
+    evtest /dev/input/event3 --grab | while read -r line; do
         if [[ $line == *"BTN_TOP"* ]]; then
-            mode_choice="1"  # Set mode choice to Online Mode
-            echo "Online Mode Enabled..."
-            break  # Exit loop after detecting the button press
+            online_mode
+            break
         fi
-    done < <(evtest /dev/input/event3 --grab)
+    done
 }
 
 # Start monitoring keyboard input in the background
 monitor_keyboard_input &
 
-# Display menu
-echo "Please select a mode:"
-echo "1. Online Mode"
-echo "2. Offline Mode"
-
-# Variable to store mode choice
-mode_choice="2"  # Default to Offline Mode
-
-# Function to capture mode choice
-capture_mode_choice() {
-    read -rsn 1 mode_choice
-}
-
-# Capture input or default to offline mode
-capture_mode_choice
-
-# Determine the mode based on user input or button press
-case "$mode_choice" in
-    "1")
-        # Online Mode
-        echo "Online Mode Selected..."
-        ;;
-    "2")
-        # Offline Mode
-        echo "Offline Mode Selected..."
-        ;;
-    *)
-        echo "Invalid choice: $mode_choice"
-        ;;
-esac
-
-# Other commands after mode selection
-chvt 1; es start
-
 # Wait for the background process to finish
 wait
+
+# Default to Offline Mode if B button not pressed
+offline_mode
 
 exit 0
