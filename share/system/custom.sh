@@ -259,7 +259,7 @@ if [ ! -f /usr/bin/ratarmount ]; then
     *) echo "Unsupported ratarmount architecture: $(arch)."; exit 1 ;;
   esac
 
-  ratarmount_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/mount-zip-${ratarmount_arch}/ratarmount"
+  ratarmount_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/ratarmount-${ratarmount_arch}/ratarmount"
 
   # Download and Install mount-zip
   wget -O /usr/bin/ratarmount ${ratarmount_url}
