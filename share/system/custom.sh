@@ -671,19 +671,41 @@ for platform_info in "${platforms[@]}"; do
     esac
 done
 
+# Function to handle online mode
+online_mode() {
+    echo "Online Mode Selected"
+    # Add your online mode logic here
+}
+
+# Function to handle offline mode
+offline_mode() {
+    echo "Offline Mode Selected"
+    # Add your offline mode logic here
+}
+
+# Function to check for keyboard input
+check_keyboard_input() {
+    local timeout_seconds=5
+    local input
+    if read -t "$timeout_seconds" -n 1 -r input; then
+        mode_choice="$input"
+    else
+        mode_choice="2"  # Default to offline mode if no input is received
+    fi
+}
+
 # Display menu
 echo "Please select a mode:"
 echo "1. Online Mode"
 echo "2. Offline Mode"
 
-# Capture input with timeout
-timeout_seconds=5
-read -t "$timeout_seconds" -r input || mode_choice="1"
+# Capture input or default to offline mode after timeout
+check_keyboard_input
 
 # Determine the mode based on user input or timeout
 case "$mode_choice" in
     "1")
-		# Online Mode
+        # Online Mode
         online_mode
         ;;
     "2")
