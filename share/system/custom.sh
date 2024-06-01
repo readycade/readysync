@@ -151,39 +151,80 @@ fi
 	
 }
 
-# Detect architecture
-case $(uname -m) in
-  x86_64) sevenzip_arch="x64"; rclone_arch="amd64"; mount_zip_arch="x64" ;;
-  aarch64) sevenzip_arch="arm64"; rclone_arch="arm64"; mount_zip_arch="arm64" ;;
-  *) echo "Unsupported architecture."; exit 1 ;;
-esac
+# Function to download and install a binary with retries
+download_and_install_with_retry() {
+  local url=$1
+  local output=$2
+  local max_retries=3
+  local retry_delay=5
 
-# Download and Install 7zip
-if [ ! -f /usr/bin/7za ]; then
-  echo "Downloading and installing 7zip..."
-  wget -O /usr/bin/7za https://github.com/develar/7zip-bin/raw/master/linux/${sevenzip_arch}/7za
-  chmod +x /usr/bin/7za
-  echo "7zip installed successfully."
-else
-  echo "7zip is already installed."
-fi
+  # Check if the binary already exists
+  if [ -f "$output" ]; then
+    echo "$output is already installed."
+    return
+  fi
 
-# Download and Install rclone
-if [ ! -f /usr/bin/rclone ]; then
-  echo "Downloading and installing rclone..."
-  wget -O /usr/bin/rclone.zip https://downloads.rclone.org/v1.65.0/rclone-v1.65.0-linux-${rclone_arch}.zip
-  7za e -y /usr/bin/rclone.zip
-  mv rclone /usr/bin
-  chmod +x /usr/bin/rclone
-  rm /usr/bin/rclone.zip
-  echo "rclone installed successfully."
-else
-  echo "rclone is already installed."
-fi
+  for ((attempt = 1; attempt <= max_retries; attempt++)); do
+    echo "Downloading and installing $output (attempt $attempt/$max_retries)..."
+    
+    # Retry downloading
+    if wget -O "$output" "$url"; then
+      chmod +x "$output"
+      echo "$output installed successfully."
+      return
+    else
+      echo "Download failed. Retrying in $retry_delay seconds..."
+      sleep $retry_delay
+    fi
+  done
+
+  echo "Max retries reached. Failed to install $output."
+  exit 1
+}
+
+# Function to download and install 7zip and rclone with retries
+download_7zip_and_rclone() {
+  local sevenzip_arch
+  local rclone_arch
+
+  # Detect architecture
+  case $(uname -m) in
+    x86_64) sevenzip_arch="x64"; rclone_arch="amd64"; mount_zip_arch="x64" ;;
+    aarch64) sevenzip_arch="arm64"; rclone_arch="arm64"; mount_zip_arch="arm64" ;;
+    *) echo "Unsupported architecture."; exit 1 ;;
+  esac
+
+  local sevenzip_url="https://github.com/develar/7zip-bin/raw/master/linux/${sevenzip_arch}/7za"
+  local rclone_url="https://downloads.rclone.org/v1.65.0/rclone-v1.65.0-linux-${rclone_arch}.zip"
+
+  # Download and install 7zip
+  download_and_install_with_retry "$sevenzip_url" "/usr/bin/7za"
+
+  # Download and install rclone
+  download_and_install_with_retry "$rclone_url" "/usr/bin/rclone.zip"
+  if [ $? -eq 0 ]; then
+    7za e -y /usr/bin/rclone.zip
+    mv rclone /usr/bin
+    chmod +x /usr/bin/rclone
+    rm /usr/bin/rclone.zip
+  fi
+}
+
+# Call the function to download and install 7zip and rclone
+download_7zip_and_rclone
 
 # Download and Install jq 1.7.1
-if [ ! -f /usr/bin/jq ]; then
-  echo "Downloading jq 1.7.1..."
+download_and_install_jq_with_retry() {
+  local url=$1
+  local output="/usr/bin/jq"
+  local max_retries=3
+  local retry_delay=5
+
+  # Check if jq is already installed
+  if [ -f "$output" ]; then
+    echo "jq is already installed."
+    return
+  fi
 
   # Detect the architecture
   case $(arch) in
@@ -192,18 +233,55 @@ if [ ! -f /usr/bin/jq ]; then
     *) echo "Unsupported jq architecture: $(arch)."; exit 1 ;;
   esac
 
-  jq_url="https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-${jq_arch}"
+  for ((attempt = 1; attempt <= max_retries; attempt++)); do
+    jq_url="${url}-linux-${jq_arch}"
+    echo "Downloading jq 1.7.1..."
 
-  # Download and Install jq
-  wget -O /usr/bin/jq ${jq_url}
-  chmod +x /usr/bin/jq
+    # Retry downloading
+    if wget -O "$output" "$jq_url"; then
+      chmod +x "$output"
+      echo "jq 1.7.1 installed successfully for architecture: ${jq_arch}."
+      return
+    else
+      echo "Download failed (attempt $attempt/$max_retries). Retrying in $retry_delay seconds..."
+      sleep $retry_delay
+    fi
+  done
 
-  echo "jq 1.7.1 installed successfully for architecture: ${jq_arch}."
-else
-  echo "jq 1.7.1 is already installed."
-fi
+  echo "Max retries reached. Failed to install jq."
+  exit 1
+}
+
+# Base URL for downloading jq
+base_url="https://github.com/jqlang/jq/releases/download/jq-1.7.1"
+
+# Call the function with the URL
+download_and_install_jq_with_retry "$base_url/jq"
+
 
 # Download and Install mount-zip
+download_mount_zip_with_retry() {
+  local url=$1
+  local output=$2
+  local max_retries=3
+  local retry_delay=5
+
+  for ((attempt = 1; attempt <= max_retries; attempt++)); do
+    wget -O "$output" "$url"
+    if [ $? -eq 0 ]; then
+      echo "Download succeeded."
+      return 0
+    else
+      echo "Download failed (attempt $attempt/$max_retries). Retrying in $retry_delay seconds..."
+      sleep $retry_delay
+    fi
+  done
+
+  echo "Max retries reached. Download failed."
+  return 1
+}
+
+# Check if mount-zip is already installed
 if [ ! -f /usr/bin/mount-zip ]; then
   echo "Downloading mount-zip..."
 
@@ -216,8 +294,13 @@ if [ ! -f /usr/bin/mount-zip ]; then
 
   mount_zip_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/mount-zip-${mount_zip_arch}/mount-zip"
 
-  # Download and Install mount-zip
-  wget -O /usr/bin/mount-zip ${mount_zip_url}
+  # Download and Install mount-zip with retry
+  download_mount_zip_with_retry "$mount_zip_url" "/usr/bin/mount-zip"
+  if [ $? -ne 0 ]; then
+    exit 1
+  fi
+
+  # Make mount-zip executable
   chmod +x /usr/bin/mount-zip
 
   echo "mount-zip installed successfully for architecture: ${mount_zip_arch}."
@@ -247,8 +330,7 @@ else
   echo "httpdirfs is already installed."
 fi
 
-  # Download ratarmount AppImage
-# Function to download ratarmount and run_ratarmount.sh with retries
+# Download ratarmount AppImage
 download_with_retry() {
   local url=$1
   local output=$2
@@ -308,111 +390,56 @@ echo "chmod +x /usr/bin/run_ratarmount.sh"
 
 echo "ratarmount installed successfully."
 
+# Function to download and copy files with retry
+download_and_copy_file_with_retry() {
+  local filename=$1
+  local url=$2
+  local target_directory=$3
 
+  # Check if the file exists
+  if [ ! -e "$target_directory/$filename" ]; then
+    echo "Downloading $filename..."
+    mkdir -p "$target_directory"
+    
+    # Retry downloading
+    if ! wget -O "$target_directory/$filename" "$url"; then
+      echo "Failed to download $filename."
+      return 1
+    fi
 
-# Download rclone.conf if it doesn't exist
-if [ ! -e /recalbox/share/userscripts/.config/readystream/rclone.conf ]; then
-    mkdir -p /recalbox/share/userscripts/.config/readystream
-    wget -O /recalbox/share/userscripts/.config/readystream/rclone.conf https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclone.conf
-    echo "rclone.conf downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
-fi
+    echo "$filename downloaded successfully."
+  else
+    echo "$filename already exists. No need to download."
+  fi
 
-# Copy rclone.conf to /recalbox/share/system/ if it doesn't exist there
-if [ ! -e /recalbox/share/system/rclone.conf ]; then
-    cp /recalbox/share/userscripts/.config/readystream/rclone.conf /recalbox/share/system/
-    echo "rclone.conf copied to /recalbox/share/system/ successfully."
-else
-    echo "rclone.conf already exists in /recalbox/share/system/. No need to copy."
-fi
+  # Copy the file to the system directory if it doesn't exist there
+  if [ ! -e "/recalbox/share/system/$filename" ]; then
+    cp "$target_directory/$filename" "/recalbox/share/system/"
+    echo "$filename copied to /recalbox/share/system/ successfully."
+  else
+    echo "$filename already exists in /recalbox/share/system/. No need to copy."
+  fi
+}
 
-# Download rclone2.conf if it doesn't exist
-if [ ! -e /recalbox/share/userscripts/.config/readystream/rclone2.conf ]; then
-    mkdir -p /recalbox/share/userscripts/.config/readystream
-    wget -O /recalbox/share/userscripts/.config/readystream/rclone2.conf https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclone2.conf
-    echo "rclone2.conf downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
-fi
+# List of files to download and copy
+files=(
+  "rclone.conf"
+  "rclone2.conf"
+  "rclone3.conf"
+  "rclone4.conf"
+  "rclone5.conf"
+  "rclone6.conf"
+  "platforms.txt"
+)
 
-# Copy rclone2.conf to /recalbox/share/system/ if it doesn't exist there
-if [ ! -e /recalbox/share/system/rclone2.conf ]; then
-    cp /recalbox/share/userscripts/.config/readystream/rclone2.conf /recalbox/share/system/
-    echo "rclone2.conf copied to /recalbox/share/system/ successfully."
-else
-    echo "rclone2.conf already exists in /recalbox/share/system/. No need to copy."
-fi
+# Base URL for downloading files
+base_url="https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/"
 
-# Download rclone3.conf if it doesn't exist
-if [ ! -e /recalbox/share/userscripts/.config/readystream/rclone3.conf ]; then
-    mkdir -p /recalbox/share/userscripts/.config/readystream
-    wget -O /recalbox/share/userscripts/.config/readystream/rclone3.conf https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclone3.conf
-    echo "rclone3.conf downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
-fi
+# Iterate over each file and call the function
+for file in "${files[@]}"; do
+  download_and_copy_file_with_retry "$file" "${base_url}${file}" "/recalbox/share/userscripts/.config/readystream"
+done
 
-# Copy rclone3.conf to /recalbox/share/system/ if it doesn't exist there
-if [ ! -e /recalbox/share/system/rclone3.conf ]; then
-    cp /recalbox/share/userscripts/.config/readystream/rclone3.conf /recalbox/share/system/
-    echo "rclone3.conf copied to /recalbox/share/system/ successfully."
-else
-    echo "rclone3.conf already exists in /recalbox/share/system/. No need to copy."
-fi
-
-# Download rclone4.conf if it doesn't exist
-if [ ! -e /recalbox/share/userscripts/.config/readystream/rclone4.conf ]; then
-    mkdir -p /recalbox/share/userscripts/.config/readystream
-    wget -O /recalbox/share/userscripts/.config/readystream/rclone4.conf https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclone4.conf
-    echo "rclone4.conf downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
-fi
-
-# Copy rclone4.conf to /recalbox/share/system/ if it doesn't exist there
-if [ ! -e /recalbox/share/system/rclone4.conf ]; then
-    cp /recalbox/share/userscripts/.config/readystream/rclone4.conf /recalbox/share/system/
-    echo "rclone4.conf copied to /recalbox/share/system/ successfully."
-else
-    echo "rclone4.conf already exists in /recalbox/share/system/. No need to copy."
-fi
-
-# Download rclone5.conf if it doesn't exist
-if [ ! -e /recalbox/share/userscripts/.config/readystream/rclone5.conf ]; then
-    mkdir -p /recalbox/share/userscripts/.config/readystream
-    wget -O /recalbox/share/userscripts/.config/readystream/rclone5.conf https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclone5.conf
-    echo "rclone5.conf downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
-fi
-
-# Copy rclone5.conf to /recalbox/share/system/ if it doesn't exist there
-if [ ! -e /recalbox/share/system/rclone5.conf ]; then
-    cp /recalbox/share/userscripts/.config/readystream/rclone5.conf /recalbox/share/system/
-    echo "rclone5.conf copied to /recalbox/share/system/ successfully."
-else
-    echo "rclone5.conf already exists in /recalbox/share/system/. No need to copy."
-fi
-
-# Download rclone6.conf if it doesn't exist
-if [ ! -e /recalbox/share/userscripts/.config/readystream/rclone6.conf ]; then
-    mkdir -p /recalbox/share/userscripts/.config/readystream
-    wget -O /recalbox/share/userscripts/.config/readystream/rclone6.conf https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclone6.conf
-    echo "rclone6.conf downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
-fi
-
-# Copy rclone6.conf to /recalbox/share/system/ if it doesn't exist there
-if [ ! -e /recalbox/share/system/rclone6.conf ]; then
-    cp /recalbox/share/userscripts/.config/readystream/rclone6.conf /recalbox/share/system/
-    echo "rclone6.conf copied to /recalbox/share/system/ successfully."
-else
-    echo "rclone6.conf already exists in /recalbox/share/system/. No need to copy."
-fi
-
-# Download platforms.txt if it doesn't exist in /recalbox/share/userscripts/.config/readystream/
-if [ ! -e /recalbox/share/userscripts/.config/readystream/platforms.txt ]; then
-    mkdir -p /recalbox/share/userscripts/.config/readystream
-    wget -O /recalbox/share/userscripts/.config/readystream/platforms.txt https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/platforms.txt
-    echo "platforms.txt downloaded to /recalbox/share/userscripts/.config/readystream/ successfully."
-fi
-
-# Check if files already exist in /recalbox/share/userscripts/.config/.emulationstation/
-if [ -e /recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml ] && \
-   [ -e /recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml ] && \
-   [ -e /recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml ]; then
-    echo "Files already exist. systemlist-backup.xml, systemlist-online.xml and systemlist-offline.xml. No need to download."
-else
     # Download systemlist-backup.xml
     mkdir -p /recalbox/share/userscripts/.config/.emulationstation/
 
@@ -468,69 +495,28 @@ else
     echo "gamelist.xml and checksums directory is not empty. No need to download."
 fi
 
-# If directories don't exist, create them
-if [ ! -d /recalbox/share/roms/readystream ]; then
-    mkdir -p /recalbox/share/roms/readystream
-    echo "Directory /recalbox/share/roms/readystream created successfully."
-else
-    echo "Directory /recalbox/share/roms/readystream already exists. No need to create."
-fi
+# Define directories to create
+directories=(
+  "/recalbox/share/roms/readystream"
+  "/recalbox/share/rom"
+  "/recalbox/share/rom2"
+  "/recalbox/share/rom3"
+  "/recalbox/share/rom4"
+  "/recalbox/share/thumbs"
+  "/recalbox/share/thumbs2"
+  "/iso"
+  "/recalbox/share/zip"
+)
 
-if [ ! -d /recalbox/share/rom ]; then
-    mkdir -p /recalbox/share/rom
-    echo "Directory /recalbox/share/rom created successfully."
-else
-    echo "Directory /recalbox/share/rom already exists. No need to create."
-fi
-
-if [ ! -d /recalbox/share/rom2 ]; then
-    mkdir -p /recalbox/share/rom2
-    echo "Directory /recalbox/share/rom2 created successfully."
-else
-    echo "Directory /recalbox/share/rom2 already exists. No need to create."
-fi
-
-if [ ! -d /recalbox/share/rom3 ]; then
-    mkdir -p /recalbox/share/rom3
-    echo "Directory /recalbox/share/rom3 created successfully."
-else
-    echo "Directory /recalbox/share/rom3 already exists. No need to create."
-fi
-
-if [ ! -d /recalbox/share/rom4 ]; then
-    mkdir -p /recalbox/share/rom4
-    echo "Directory /recalbox/share/rom4 created successfully."
-else
-    echo "Directory /recalbox/share/rom4 already exists. No need to create."
-fi
-
-if [ ! -d /recalbox/share/thumbs ]; then
-    mkdir -p /recalbox/share/thumbs
-    echo "Directory /recalbox/share/thumbs created successfully."
-else
-    echo "Directory /recalbox/share/thumbs already exists. No need to create."
-fi
-
-if [ ! -d /recalbox/share/thumbs2 ]; then
-    mkdir -p /recalbox/share/thumbs2
-    echo "Directory /recalbox/share/thumbs2 created successfully."
-else
-    echo "Directory /recalbox/share/thumbs2 already exists. No need to create."
-fi
-
-if [ ! -d /iso ]; then
-    mkdir -p /iso
-    echo "Directory /iso created successfully."
-else
-    echo "Directory /iso already exists. No need to create."
-fi
-
-if [ ! -d /recalbox/share/zip ]; then
-    mkdir -p /recalbox/share/zip
-    echo "Directory /recalbox/share/zip created successfully."
-else
-    echo "Directory /recalbox/share/zip already exists. No need to create."
-fi
+# Loop through each directory and create it if it doesn't exist
+for dir in "${directories[@]}"; do
+  if [ ! -d "$dir" ]; then
+    mkdir -p "$dir"
+    echo "Directory $dir created successfully."
+  else
+    echo "Directory $dir already exists. No need to create."
+  fi
+done
 
 # Function to toggle a platform in the array
 toggle_platform() {
