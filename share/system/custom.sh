@@ -302,7 +302,7 @@ if [ "$online_mode_enabled" = false ]; then
 fi
 
 # Start monitoring keyboard input in the background
-monitor_keyboard_input &
+monitor_keyboard_input
 evtest_pid=$
 
 # Wait for the background process to finish
