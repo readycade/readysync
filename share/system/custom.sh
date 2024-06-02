@@ -272,23 +272,22 @@ if [ "$online_mode_enabled" = true ]; then
     fi
 }
 
-if [ "$online_mode_enabled" = false ]; then
-    offline_mode
-fi
-
 # Monitor keyboard input and switch modes accordingly
 monitor_keyboard_input() {
     evtest /dev/input/event3 --grab | while read -r line; do
         echo "DEBUG: Keyboard event detected: $line"
         if [[ $line == *"BTN_TOP"* ]]; then
             echo "DEBUG: B button pressed. Switching to online mode..."
-            online_mode
             echo "true" > "$online_mode_flag_file"
             echo "DEBUG: online_mode_enabled set to true"
             break
         fi
     done
 }
+
+if [ "$online_mode_enabled" = false ]; then
+    offline_mode
+fi
 
 # Start monitoring keyboard input in the background
 monitor_keyboard_input &
