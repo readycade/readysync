@@ -216,11 +216,6 @@ monitor_keyboard_input() {
             break
         fi
     done
-
-    if [ "$(cat $online_mode_flag_file)" = "false" ]; then
-        echo "DEBUG: Online mode not enabled. Switching to offline mode..."
-        offline_mode
-    fi
 }
 
 # Start monitoring keyboard input in the background
