@@ -153,6 +153,7 @@ fi
 
     # Exit the script after online mode is enabled
     exit 0
+fi
 }
 
 # Function to switch to offline mode
