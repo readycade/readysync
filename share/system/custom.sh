@@ -303,8 +303,12 @@ fi
 
 # Start monitoring keyboard input in the background
 monitor_keyboard_input &
+evtest_process_name="evtest"  # Adjust this based on the process name
 
 # Wait for the background process to finish
 wait
+
+# Kill the evtest process
+pkill $evtest_process_name
 
 exit 0
