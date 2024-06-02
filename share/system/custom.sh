@@ -39,29 +39,6 @@ online_mode() {
     echo "Online Mode Enabled..."
     echo "Performing actions specific to Online Mode..."
 
-    # Check and update systemlist.xml based on user choice
-    offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
-    offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml"
-    offline_online="/recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml"
-    offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml"
-
-    # Online Mode
-    if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
-
-        # Backup the existing systemlist.xml
-        echo "Backing up systemlist.xml..."
-        cp "$offline_systemlist" "$offline_backup"
-        echo "Backup created: $offline_backup"
-
-        # Overwrite systemlist.xml with the online version
-        echo "Overwriting systemlist.xml with the online version..."
-        cp "$offline_online" "$offline_systemlist"
-        echo "Online version applied."
-
-        # Move the contents to online directory
-        cp -r /recalbox/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
-        echo "copied ALL gamelists.xml to online directory."
-
 # Function to download a file with retries
 download_rclone_with_retry() {
     local url=$1
@@ -95,6 +72,30 @@ if [ $? -eq 0 ]; then
 else
     echo "Error: Failed to download rclone."
 fi
+
+
+    # Check and update systemlist.xml based on user choice
+    offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
+    offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml"
+    offline_online="/recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml"
+    offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml"
+
+    # Online Mode
+    if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
+
+        # Backup the existing systemlist.xml
+        echo "Backing up systemlist.xml..."
+        cp "$offline_systemlist" "$offline_backup"
+        echo "Backup created: $offline_backup"
+
+        # Overwrite systemlist.xml with the online version
+        echo "Overwriting systemlist.xml with the online version..."
+        cp "$offline_online" "$offline_systemlist"
+        echo "Online version applied."
+
+        # Move the contents to online directory
+        cp -r /recalbox/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
+        echo "copied ALL gamelists.xml to online directory."
 
 # Function to download a file with retries
 download_with_retry() {
