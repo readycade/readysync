@@ -114,7 +114,8 @@ if [ $? -eq 0 ]; then
 fi
 
 # Download rclone
-curl -O https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/rclone-${rclone_arch}/rclone
+
+curl -O https://github.com/readycade/readysync/blob/master/share/userscripts/.config/readystream/rclone-${rclone_arch}/rclone
 if [ $? -eq 0 ]; then
     echo "rclone binary downloaded successfully."
     # Move the binary to /usr/bin
