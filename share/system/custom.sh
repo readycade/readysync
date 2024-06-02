@@ -280,7 +280,7 @@ install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/sh
 echo "true" > "$online_mode_flag_file"
 
 # Sleep to let everything sync up
-sleep 20
+sleep 30
 
 # Start EmulationStation
 chvt 1; es start
