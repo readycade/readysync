@@ -273,7 +273,7 @@ if [ "$online_mode_enabled" = true ]; then
         echo "false" > "$online_mode_flag_file"
 
         # Sleep to let everything sync up
-        sleep 2
+        sleep 10
 
         # Replace the following line with the actual command to start emulation station
         chvt 1; es start
