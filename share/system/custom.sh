@@ -75,6 +75,11 @@ online_mode() {
         echo "Mounting romsets..."
         echo "(No-Intro, Redump, TOSEC)..."
 
+        # Exit the script after online mode is enabled
+        exit 0
+    fi
+}
+
 # Function to download a file with retries
 download_with_retry() {
     local url=$1
@@ -115,8 +120,8 @@ install_binary() {
 
 # Determine architecture
 case $(uname -m) in
-    x86_64) arch="x64"; rclone_arch="amd64"; jq_arch="amd64";;
-    aarch64) arch="arm64"; rclone_arch="arm64"; jq_arch="arm64";;
+    x86_64) arch="x64"; rclone_arch="amd64"; jq_arch="amd64"; ratarmount_arch="x86_64";;
+    aarch64) arch="arm64"; rclone_arch="arm64"; jq_arch="arm64"; ratarmount_arch="x86_64";;
     *) echo "Unsupported architecture."; exit 1 ;;
 esac
 
@@ -139,10 +144,9 @@ install_binary "jq" "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-
 install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/mount-zip-${arch}/mount-zip" "/usr/bin/mount-zip"
 
 # Install ratarmount
-ratarmount_appimage="/usr/bin/ratarmount.AppImage"
-install_binary "ratarmount" "https://github.com/mxmlnkn/ratarmount/releases/download/v0.15.0/ratarmount-0.15.0-${arch}.AppImage" "$ratarmount_appimage"
+install_binary "ratarmount" "https://github.com/mxmlnkn/ratarmount/releases/download/v0.15.0/ratarmount-0.15.0-${ratarmount_arch}.AppImage" "/usr/bin/ratarmount.AppImage"
 if [ $? -eq 0 ]; then
-    chmod +x "$ratarmount_appimage"  # Ensure the binary is executable
+    chmod +x "/usr/bin/ratarmount.AppImage"  # Ensure the binary is executable
 fi
 
     # Mark online mode as enabled
