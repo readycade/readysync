@@ -137,15 +137,17 @@ download_with_retry() {
 
 # Download rclone with retry
 rclone_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/rclone-${rclone_arch}/rclone"
-rclone_tmp="/tmp/"
+rclone_tmp="/tmp/rclone"
 download_with_retry "$rclone_url" "$rclone_tmp"
 if [ $? -eq 0 ]; then
     echo "rclone binary downloaded successfully."
     # Move the binary to /usr/bin
-    cp "$rclone_tmp" /usr/bin/
+    sudo cp "$rclone_tmp" /usr/bin/
     if [ -f "/usr/bin/rclone" ]; then
         echo "rclone binary successfully moved to /usr/bin."
-
+        # Set permissions
+        sudo chown root:root /usr/bin/rclone
+        sudo chmod 755 /usr/bin/rclone
     else
         echo "Error: rclone binary not found in /usr/bin after moving."
     fi
@@ -154,6 +156,7 @@ if [ $? -eq 0 ]; then
 else
     echo "Error: Failed to download rclone."
 fi
+
 
 
 # Install jq
