@@ -15,12 +15,22 @@ echo "mount and unmount as read-write..."
 log_file="/recalbox/share/system/.systemstream.log"
 online_mode_flag_file="/recalbox/share/system/.online_mode_enabled.log"
 online_mode_enabled=$(cat "$online_mode_flag_file")
+keyboard_events="/recalbox/share/system/keyboard_events.txt"
 
-# Clear the log file
+# Clear the log files
 truncate -s 0 "$log_file"
 echo "Log file:..."
 echo "/recalbox/share/system/.systemstream.log"
 echo "Truncating log file..."
+
+truncate -s 0 "$keyboard_events"
+echo "Log file:..."
+echo "/recalbox/share/system/keyboard_events.txt"
+echo "Truncating log file..."
+
+# Initialize online_mode_enabled flag file
+echo "false" > "$online_mode_flag_file"
+echo "DEBUG $online_mode_flag_file set to false"
 
 exec 3>&1 4>&2
 trap 'exec 2>&4 1>&3' 0 1 2 3
@@ -29,10 +39,6 @@ exec 1>>"$log_file" 2>&1
 sanitize_dir_name() {
   tr -cd '[:alnum:]' <<< "$1"
 }
-
-# Initialize online_mode_enabled flag file
-echo "false" > "$online_mode_flag_file"
-echo "DEBUG $online_mode_flag_file set to false"
 
 # Function to switch to online mode
 online_mode() {
