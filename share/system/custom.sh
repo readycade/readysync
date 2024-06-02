@@ -262,9 +262,8 @@ if [ -f "$output" ]; then
 fi
         
     fi
-     # Set online_mode_enabled flag to true
-    online_mode_enabled=true
-    echo "DEBUG: online_mode_enabled set to $online_mode_enabled"
+    # Mark online mode as enabled
+    echo "true" > "$online_mode_flag_file"
 
     # Start EmulationStation
     chvt 1; es start
