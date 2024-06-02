@@ -14,6 +14,7 @@ echo "mount and unmount as read-write..."
 
 log_file="/recalbox/share/system/.systemstream.log"
 online_mode_flag_file="/recalbox/share/system/.online_mode_enabled.log"
+online_mode_enabled=$(cat "$online_mode_flag_file")
 
 # Clear the log file
 truncate -s 0 "$log_file"
