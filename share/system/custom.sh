@@ -298,13 +298,13 @@ monitor_keyboard_input() {
 
 if [ "$online_mode_enabled" = false ]; then
     echo "Offline mode detected."
-    exit 0
-else
-    # Start monitoring keyboard input in the background
-    monitor_keyboard_input &
-    
-    # Wait for the background process to finish
-    wait
+    offline_mode
 fi
+
+# Start monitoring keyboard input in the background
+monitor_keyboard_input &
+
+# Wait for the background process to finish
+wait
 
 exit 0
