@@ -113,8 +113,6 @@ else
     fi
 fi
 
-
-
     # Check and update systemlist.xml based on user choice
     offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
     offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml"
@@ -201,31 +199,31 @@ if [ $? -eq 0 ]; then
     chmod +x "/usr/bin/ratarmount.AppImage"  # Ensure the binary is executable
 fi
 
-        # Mount thumbnails with rclone
-        #rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-        rclone mount thumbnails: --config "/recalbox/share/userscripts/.config/readystream/rclone.conf" /recalbox/share/thumbs --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
+# Mount thumbnails with rclone
+#rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+rclone mount thumbnails: --config "/recalbox/share/userscripts/.config/readystream/rclone.conf" /recalbox/share/thumbs --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
 
-        echo "Mounting libretro thumbnails..."
+echo "Mounting libretro thumbnails..."
 
-        # Mount myrient with rclone
-        #rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-        rclone mount myrient: --config "/recalbox/share/userscripts/.config/readystream/rclone2.conf" /recalbox/share/rom --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
+# Mount myrient with rclone
+#rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+rclone mount myrient: --config "/recalbox/share/userscripts/.config/readystream/rclone2.conf" /recalbox/share/rom --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
 
-        echo "Mounting romsets..."
-        echo "(No-Intro, Redump, TOSEC)..."
+echo "Mounting romsets..."
+echo "(No-Intro, Redump, TOSEC)..."
 
-        # Mark online mode as enabled
-        echo "true" > "$online_mode_flag_file"
+# Mark online mode as enabled
+echo "true" > "$online_mode_flag_file"
 
-        # Sleep to let everything sync up
-        sleep 10
+# Sleep to let everything sync up
+sleep 10
 
-        # Start EmulationStation
-        chvt 1; es start
+# Start EmulationStation
+chvt 1; es start
 
-        # Exit the script after online mode is enabled
-        exit 0
-    fi
+# Exit the script after online mode is enabled
+exit 0
+fi
 
 }
 
@@ -272,6 +270,13 @@ if [ "$online_mode_enabled" = true ]; then
     fi
 }
 
+# Check if online mode is already enabled
+if [ "$online_mode_enabled" = false ]; then
+        echo "Offline mode enabled."
+        offline_mode
+        return
+    fi
+
 # Monitor keyboard input and switch modes accordingly
 monitor_keyboard_input() {
     evtest /dev/input/event3 --grab | while read -r line; do
@@ -284,15 +289,6 @@ monitor_keyboard_input() {
         fi
     done
 }
-
-if [ "$online_mode_enabled" = false ]; then
-    offline_mode
-fi
-
-
-if [ "$online_mode_enabled" = true ]; then
-    online_mode
-fi
 
 # Start monitoring keyboard input in the background
 monitor_keyboard_input &
