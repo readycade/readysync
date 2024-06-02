@@ -289,6 +289,11 @@ if [ "$online_mode_enabled" = false ]; then
     offline_mode
 fi
 
+
+if [ "$online_mode_enabled" = true ]; then
+    online_mode
+fi
+
 # Start monitoring keyboard input in the background
 monitor_keyboard_input &
 
