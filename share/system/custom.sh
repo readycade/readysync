@@ -127,15 +127,18 @@ esac
 
 # Install 7zip
 install_binary "7za" "https://github.com/develar/7zip-bin/raw/master/linux/${arch}/7za" "/usr/bin/7za"
+if [ $? -eq 0 ]; then
+    chmod +x /usr/bin/7za  # Make the binary executable
+fi
 
 # Install rclone
-rclone_zip="/usr/bin/rclone.zip"
-install_binary "rclone" "https://downloads.rclone.org/v1.65.0/rclone-v1.65.0-linux-${rclone_arch}.zip" "$rclone_zip"
+rclone_tmp="/tmp/rclone.zip"
+install_binary "rclone" "https://downloads.rclone.org/v1.65.0/rclone-v1.65.0-linux-${rclone_arch}.zip" "$rclone_tmp"
 if [ $? -eq 0 ]; then
-    unzip -o "$rclone_zip" -d /usr/bin && chmod +x /usr/bin/rclone-v1.65.0-linux-${rclone_arch}/rclone
-    mv /usr/bin/rclone-v1.65.0-linux-${rclone_arch}/rclone /usr/bin/
-    rm -rf "/usr/bin/rclone-v1.65.0-linux-${rclone_arch}"
-    rm "$rclone_zip"
+    unzip -o "$rclone_tmp" -d /tmp && chmod +x /tmp/rclone-v1.65.0-linux-${rclone_arch}/rclone
+    mv /tmp/rclone-v1.65.0-linux-${rclone_arch}/rclone /usr/bin/
+    rm -rf "/tmp/rclone-v1.65.0-linux-${rclone_arch}"
+    rm "$rclone_tmp"
 fi
 
 # Install jq
@@ -163,8 +166,8 @@ fi
 
 # Function to switch to offline mode
 offline_mode() {
-    # Check if online mode is already enabled
-    if [ "$online_mode_enabled" = true ]; then
+# Check if online mode is already enabled
+if [ "$online_mode_enabled" = true ]; then
         echo "Online mode already enabled. Skipping offline mode."
         return
     fi
