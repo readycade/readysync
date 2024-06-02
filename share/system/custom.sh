@@ -73,132 +73,7 @@ online_mode() {
         echo "Mounting romsets..."
         echo "(No-Intro, Redump, TOSEC)..."
 
-        # Function to download and install 7zip and rclone with retries
-        download_7zip_and_rclone() {
-            local sevenzip_arch
-            local rclone_arch
-
-            # Detect architecture
-            case $(uname -m) in
-                x86_64) sevenzip_arch="x64"; rclone_arch="amd64"; mount_zip_arch="x64" ;;
-                aarch64) sevenzip_arch="arm64"; rclone_arch="arm64"; mount_zip_arch="arm64" ;;
-                *) echo "Unsupported architecture."; exit 1 ;;
-            esac
-
-            local sevenzip_url="https://github.com/develar/7zip-bin/raw/master/linux/${sevenzip_arch}/7za"
-            local rclone_url="https://downloads.rclone.org/v1.65.0/rclone-v1.65.0-linux-${rclone_arch}.zip"
-
-            # Download and install 7zip
-            download_and_install_with_retry "$sevenzip_url" "/usr/bin/7za"
-
-            # Download and install rclone
-            download_and_install_with_retry "$rclone_url" "/usr/bin/rclone.zip"
-            if [ $? -eq 0 ]; then
-                7za e -y /usr/bin/rclone.zip
-                mv rclone /usr/bin
-                chmod +x /usr/bin/rclone
-                rm /usr/bin/rclone.zip
-            fi
-        }
-
-        # Call the function to download and install 7zip and rclone
-        download_7zip_and_rclone
-
-        # Download and Install jq 1.7.1
-        download_and_install_jq_with_retry() {
-            local url=$1
-            local output="/usr/bin/jq"
-            local max_retries=3
-            local retry_delay=5
-
-            # Check if jq is already installed
-            if [ -f "$output" ]; then
-                echo "jq is already installed."
-                return
-            fi
-
-            # Detect the architecture
-            case $(arch) in
-                x86_64) jq_arch="amd64" ;;
-                aarch64) jq_arch="arm64" ;;
-                *) echo "Unsupported jq architecture: $(arch)."; exit 1 ;;
-            esac
-
-            for ((attempt = 1; attempt <= max_retries; attempt++)); do
-                jq_url="${url}-linux-${jq_arch}"
-                echo "Downloading jq 1.7.1..."
-
-                # Retry downloading
-                if wget -O "$output" "$jq_url"; then
-                    chmod +x "$output"
-                    echo "jq 1.7.1 installed successfully for architecture: ${jq_arch}."
-                    return
-                else
-                    echo "Download failed (attempt $attempt/$max_retries). Retrying in $retry_delay seconds..."
-                    sleep $retry_delay
-                fi
-            done
-
-            echo "Max retries reached. Failed to install jq."
-            exit 1
-        }
-
-        # Base URL for downloading jq
-        base_url="https://github.com/jqlang/jq/releases/download/jq-1.7.1"
-
-        # Call the function with the URL
-        download_and_install_jq_with_retry "$base_url/jq"
-
-        # Download and Install mount-zip
-        download_mount_zip_with_retry() {
-            local url=$1
-            local output=$2
-            local max_retries=3
-            local retry_delay=5
-
-            for ((attempt = 1; attempt <= max_retries; attempt++)); do
-                wget -O "$output" "$url"
-                if [ $? -eq 0 ]; then
-                    echo "Download succeeded."
-                    return 0
-                else
-                    echo "Download failed (attempt $attempt/$max_retries). Retrying in $retry_delay seconds..."
-                    sleep $retry_delay
-                fi
-            done
-
-            echo "Max retries reached. Download failed."
-            return 1
-        }
-
-        # Check if mount-zip is already installed
-        if [ ! -f /usr/bin/mount-zip ]; then
-            echo "Downloading mount-zip..."
-
-            # Detect the architecture
-            case $(arch) in
-                x86_64) mount_zip_arch="x64" ;;
-                aarch64) mount_zip_arch="arm64" ;;
-                *) echo "Unsupported mount-zip architecture: $(arch)."; exit 1 ;;
-            esac
-
-            mount_zip_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/mount-zip-${mount_zip_arch}/mount-zip"
-
-            # Download and Install mount-zip with retry
-            download_mount_zip_with_retry "$mount_zip_url" "/usr/bin/mount-zip"
-            if [ $? -ne 0 ]; then
-                exit 1
-            fi
-
-            # Make mount-zip executable
-            chmod +x /usr/bin/mount-zip
-
-            echo "mount-zip installed successfully for architecture: ${mount_zip_arch}."
-        else
-            echo "mount-zip is already installed."
-        fi
-
-# Function to download a ratarmount
+# Function to download a file with retries
 download_with_retry() {
     local url=$1
     local output=$2
@@ -220,25 +95,55 @@ download_with_retry() {
     return 1
 }
 
-# Define the URL and output path
-url="https://github.com/mxmlnkn/ratarmount/releases/download/v0.15.0/ratarmount-0.15.0-x86_64.AppImage"
-output="/usr/bin/ratarmount"
+# Function to download and install a binary file
+install_binary() {
+    local binary_name=$1
+    local url=$2
+    local output=$3
 
-# Check if file already exists
-if [ -f "$output" ]; then
-    echo "File already exists. Skipping download."
-else
-    # Download ratarmount AppImage with retry
-    download_with_retry "$url" "$output"
-fi
-
-# Set execute permissions if the file exists
-if [ -f "$output" ]; then
-    chmod +x "$output"
-    echo "ratarmount installed."
-fi
-        
+    if [ -f "$output" ]; then
+        echo "$binary_name is already installed."
+    else
+        download_with_retry "$url" "$output"
+        chmod +x "$output"  # Ensure the binary is executable
+        mv "$output" "/usr/bin/$binary_name"  # Move the binary to /usr/bin
+        echo "$binary_name installed."
     fi
+}
+
+# Determine architecture
+case $(uname -m) in
+    x86_64) arch="x64"; rclone_arch="amd64"; jq_arch="amd64";;
+    aarch64) arch="arm64"; rclone_arch="arm64"; jq_arch="arm64";;
+    *) echo "Unsupported architecture."; exit 1 ;;
+esac
+
+# Install 7zip
+install_binary "7za" "https://github.com/develar/7zip-bin/raw/master/linux/${arch}/7za" "/usr/bin/7za"
+
+# Install rclone
+rclone_zip="/usr/bin/rclone.zip"
+install_binary "rclone" "https://downloads.rclone.org/v1.65.0/rclone-v1.65.0-linux-${rclone_arch}.zip" "$rclone_zip"
+if [ $? -eq 0 ]; then
+    7za e -y "$rclone_zip" -o/usr/bin rclone
+    chmod +x /usr/bin/rclone  # Ensure the binary is executable
+    rm "$rclone_zip"
+fi
+
+# Install jq
+install_binary "jq" "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-${jq_arch}" "/usr/bin/jq"
+
+# Install mount-zip
+install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/mount-zip-${arch}/mount-zip" "/usr/bin/mount-zip"
+
+# Install ratarmount
+ratarmount_appimage="/usr/bin/ratarmount.AppImage"
+install_binary "ratarmount" "https://github.com/mxmlnkn/ratarmount/releases/download/v0.15.0/ratarmount-0.15.0-${arch}.AppImage" "$ratarmount_appimage"
+if [ $? -eq 0 ]; then
+    chmod +x "$ratarmount_appimage"  # Ensure the binary is executable
+fi
+
+
     # Mark online mode as enabled
     echo "true" > "$online_mode_flag_file"
 
