@@ -322,22 +322,19 @@ monitor_keyboard_input() {
             echo "DEBUG: B button pressed. Switching to online mode..."
             online_mode
             break
+        else
+            echo "Switching to offline mode..."
+            offline_mode
+            break
         fi
     done
 }
+
 
 # Start monitoring keyboard input in the background
 monitor_keyboard_input &
 
 # Wait for the background process to finish
 wait
-
-# If online mode is enabled, exit the script
-if [ "$online_mode_enabled" = true ]; then
-    exit 0
-fi
-
-# Otherwise, switch to offline mode
-offline_mode
 
 exit 0
