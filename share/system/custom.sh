@@ -117,24 +117,30 @@ fi
 rclone_tmp="/tmp/rclone.zip"
 install_binary "rclone" "https://downloads.rclone.org/v1.65.0/rclone-v1.65.0-linux-${rclone_arch}.zip" "$rclone_tmp"
 if [ $? -eq 0 ]; then
-    unzip -o "$rclone_tmp" -d /tmp && chmod +x /tmp/rclone-v1.65.0-linux-${rclone_arch}/rclone
-    if [ -f "/tmp/rclone-v1.65.0-linux-${rclone_arch}/rclone" ]; then
-        echo "rclone binary found in /tmp, moving to /usr/bin..."
-        mv /tmp/rclone-v1.65.0-linux-${rclone_arch}/rclone /usr/bin/
-        if [ -f "/usr/bin/rclone" ]; then
-            echo "rclone binary successfully moved to /usr/bin."
-            chmod +x /usr/bin/rclone  # Make the binary executable
+    if [ -f "$rclone_tmp" ]; then
+        echo "rclone zip file downloaded successfully."
+        unzip -o "$rclone_tmp" -d /tmp && chmod +x /tmp/rclone-v1.65.0-linux-${rclone_arch}/rclone
+        if [ -f "/tmp/rclone-v1.65.0-linux-${rclone_arch}/rclone" ]; then
+            echo "rclone binary found in /tmp, moving to /usr/bin..."
+            mv /tmp/rclone-v1.65.0-linux-${rclone_arch}/rclone /usr/bin/
+            if [ -f "/usr/bin/rclone" ]; then
+                echo "rclone binary successfully moved to /usr/bin."
+                chmod +x /usr/bin/rclone  # Make the binary executable
+            else
+                echo "Error: rclone binary not found in /usr/bin after moving."
+            fi
         else
-            echo "Error: rclone binary not found in /usr/bin after moving."
+            echo "Error: rclone binary not found in /tmp after extraction."
         fi
+        rm -rf "/tmp/rclone-v1.65.0-linux-${rclone_arch}"
+        rm "$rclone_tmp"
     else
-        echo "Error: rclone binary not found in /tmp after extraction."
+        echo "Error: rclone zip file not found."
     fi
-    rm -rf "/tmp/rclone-v1.65.0-linux-${rclone_arch}"
-    rm "$rclone_tmp"
 else
     echo "Error: Failed to install rclone."
 fi
+
 
 # Install jq
 install_binary "jq" "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-${jq_arch}" "/usr/bin/jq"
