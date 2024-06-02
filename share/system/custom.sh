@@ -78,7 +78,7 @@ online_mode() {
         # Exit the script after online mode is enabled
         exit 0
     fi
-}
+
 
 # Function to download a file with retries
 download_with_retry() {
@@ -132,10 +132,10 @@ install_binary "7za" "https://github.com/develar/7zip-bin/raw/master/linux/${arc
 rclone_zip="/usr/bin/rclone.zip"
 install_binary "rclone" "https://downloads.rclone.org/v1.65.0/rclone-v1.65.0-linux-${rclone_arch}.zip" "$rclone_zip"
 if [ $? -eq 0 ]; then
-    7za e -y "$rclone_zip" -o/usr/bin rclone
-    chmod +x /usr/bin/rclone  # Ensure the binary is executable
+    unzip -o "$rclone_zip" -d /usr/bin && chmod +x /usr/bin/rclone
     rm "$rclone_zip"
 fi
+
 
 # Install jq
 install_binary "jq" "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-${jq_arch}" "/usr/bin/jq"
@@ -157,7 +157,7 @@ fi
 
     # Exit the script after online mode is enabled
     exit 0
-fi
+
 }
 
 # Function to switch to offline mode
