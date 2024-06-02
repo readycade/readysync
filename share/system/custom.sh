@@ -63,7 +63,7 @@ online_mode() {
         echo "copied ALL gamelists.xml to online directory."
 
 # Function to download a file with retries
-download_with_retry() {
+download_rclone_with_retry() {
     local url=$1
     local output=$2
     local max_retries=3
@@ -86,7 +86,7 @@ download_with_retry() {
 
 # Download rclone with retry
 rclone_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/rclone-${rclone_arch}/rclone"
-download_with_retry "$rclone_url" "/usr/bin/rclone"
+download_rclone_with_retry "$rclone_url" "/usr/bin/rclone"
 if [ $? -eq 0 ]; then
     echo "rclone binary downloaded successfully."
     # Set permissions
