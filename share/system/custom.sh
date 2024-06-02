@@ -13,6 +13,7 @@ mount -o remount,rw /
 echo "mount and unmount as read-write..."
 
 log_file="/recalbox/share/system/.systemstream.log"
+online_mode_flag_file="/recalbox/share/system/.online_mode_enabled.log"
 
 # Clear the log file
 truncate -s 0 "$log_file"
@@ -29,7 +30,8 @@ sanitize_dir_name() {
   tr -cd '[:alnum:]' <<< "$1"
 }
 
-online_mode_enabled=false
+# Initialize online_mode_enabled flag file
+echo "false" > "$online_mode_flag_file"
 
 # Function to switch to online mode
 online_mode() {
@@ -316,24 +318,25 @@ offline_mode() {
 
 # Monitor keyboard input and switch modes accordingly
 monitor_keyboard_input() {
-    local online_mode_enabled=false
     evtest /dev/input/event3 --grab | while read -r line; do
         echo "DEBUG: Keyboard event detected: $line"
         if [[ $line == *"BTN_TOP"* ]]; then
             echo "DEBUG: B button pressed. Switching to online mode..."
             online_mode
-            online_mode_enabled=true
-            echo "DEBUG: online_mode_enabled set to $online_mode_enabled"
+            echo "true" > "$online_mode_flag_file"
+            echo "DEBUG: online_mode_enabled set to true"
             break
         fi
     done
 
-    if [ "$online_mode_enabled" = false ]; then
+    if [ "$(cat $online_mode_flag_file)" = "false" ]; then
         echo "DEBUG: Online mode not enabled. Switching to offline mode..."
         offline_mode
     fi
 }
 
+# Main script execution
+monitor_keyboard_input
 
 
 
