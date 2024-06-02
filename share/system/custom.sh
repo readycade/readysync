@@ -137,19 +137,12 @@ download_with_retry() {
 
 # Download rclone with retry
 rclone_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/rclone-${rclone_arch}/rclone"
-rclone_tmp="/tmp/rclone"
-download_with_retry "$rclone_url" "$rclone_tmp"
+download_with_retry "$rclone_url" "/usr/bin/rclone"
 if [ $? -eq 0 ]; then
     echo "rclone binary downloaded successfully."
-    # Move the binary to /usr/bin
-    cp "$rclone_tmp" /usr/bin/
-    if [ -f "/usr/bin/rclone" ]; then
-        echo "rclone binary successfully moved to /usr/bin."
-    else
-        echo "Error: rclone binary not found in /usr/bin after moving."
-    fi
-    # Clean up
-    rm "$rclone_tmp"
+    # Set permissions
+    sudo chmod +x /usr/bin/rclone
+    echo "Execute permission set for rclone binary."
 else
     echo "Error: Failed to download rclone."
 fi
