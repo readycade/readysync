@@ -282,22 +282,15 @@ if [ "$online_mode_enabled" = true ]; then
     fi
 }
 
-# Check if online mode is already enabled
-if [ "$online_mode_enabled" = false ]; then
-        echo "Offline mode enabled."
-        offline_mode
-        return
-    fi
-
 monitor_keyboard_input() {
     online_mode_flag_file="/recalbox/share/system/.online_mode_enabled.log"
     evtest /dev/input/event3 --grab | while read -r line; do
         echo "DEBUG: Keyboard event detected: $line"
         if [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90004"* ]]; then
-            echo "DEBUG: Specific event detected. Switching to online mode..."
+            echo "DEBUG: B Button Press detected. Switching to online mode..."
             echo "true" > "$online_mode_flag_file"
-            online_mode
             echo "DEBUG: online_mode_enabled set to true"
+            online_mode
         else
             echo "DEBUG: No button press detected. Offline mode enabled."
         fi
