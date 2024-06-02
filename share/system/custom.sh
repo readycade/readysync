@@ -62,24 +62,6 @@ online_mode() {
         cp -r /recalbox/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
         echo "copied ALL gamelists.xml to online directory."
 
-        # Mount thumbnails with rclone
-        #rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-        rclone mount thumbnails: /recalbox/share/thumbs --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
-
-        echo "Mounting libretro thumbnails..."
-
-        # Mount myrient with rclone
-        #rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-        rclone mount myrient: /recalbox/share/rom --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
-
-        echo "Mounting romsets..."
-        echo "(No-Intro, Redump, TOSEC)..."
-
-        # Exit the script after online mode is enabled
-        exit 0
-    fi
-
-
 # Function to download a file with retries
 download_with_retry() {
     local url=$1
@@ -165,6 +147,23 @@ install_binary "ratarmount" "https://github.com/mxmlnkn/ratarmount/releases/down
 if [ $? -eq 0 ]; then
     chmod +x "/usr/bin/ratarmount.AppImage"  # Ensure the binary is executable
 fi
+
+        # Mount thumbnails with rclone
+        #rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+        rclone mount thumbnails: /recalbox/share/thumbs --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
+
+        echo "Mounting libretro thumbnails..."
+
+        # Mount myrient with rclone
+        #rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+        rclone mount myrient: /recalbox/share/rom --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
+
+        echo "Mounting romsets..."
+        echo "(No-Intro, Redump, TOSEC)..."
+
+        # Exit the script after online mode is enabled
+        exit 0
+    fi
 
     # Mark online mode as enabled
     echo "true" > "$online_mode_flag_file"
