@@ -305,11 +305,11 @@ monitor_keyboard_input() {
     # Iterate over each input device
     for input_device in $input_devices; do
         evtest "$input_device" --grab | while read -r line; do
-            echo "DEBUG: Event detected on $input_device: $line"
             button_state="offline"
             # Check if the event matches any controller scan value
             for scan_value in "${controller_scan_values[@]}"; do
                 if [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value $scan_value"* ]]; then
+                    echo "DEBUG: Button press event detected on $input_device: $line"
                     button_state="online"
                     break  # Exit the loop if a match is found
                 fi
@@ -333,6 +333,18 @@ monitor_keyboard_input() {
     # Wait for all background processes to finish
     wait
 }
+
+# Start monitoring keyboard input in the background and capture the PID
+monitor_keyboard_input &
+evtest_pid=$!
+
+# Wait for the background process to finish
+wait
+
+# Kill the evtest process
+kill -TERM $evtest_pid
+
+exit 0
 
 # Start monitoring keyboard input in the background and capture the PID
 monitor_keyboard_input &
