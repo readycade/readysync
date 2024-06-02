@@ -61,6 +61,9 @@ download_rclone_with_retry() {
     return 1
 }
 
+# Set rclone architecture
+rclone_arch="amd64"  # or "arm64" depending on your system
+
 # Download rclone with retry
 rclone_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/rclone-${rclone_arch}/rclone"
 download_rclone_with_retry "$rclone_url" "/usr/bin/rclone"
