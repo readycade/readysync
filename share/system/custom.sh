@@ -147,8 +147,6 @@ else
     echo "Error: Failed to download rclone."
 fi
 
-
-
 # Install jq
 install_binary "jq" "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-${jq_arch}" "/usr/bin/jq"
 
