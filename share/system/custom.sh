@@ -143,7 +143,6 @@ if [ $? -eq 0 ]; then
     chmod +x "$ratarmount_appimage"  # Ensure the binary is executable
 fi
 
-
     # Mark online mode as enabled
     echo "true" > "$online_mode_flag_file"
 
