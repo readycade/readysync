@@ -212,21 +212,18 @@ fi
         echo "Mounting romsets..."
         echo "(No-Intro, Redump, TOSEC)..."
 
+        # Mark online mode as enabled
+        echo "true" > "$online_mode_flag_file"
+
+        # Sleep to let everything sync up
+        sleep 10
+
+        # Start EmulationStation
+        chvt 1; es start
+
         # Exit the script after online mode is enabled
         exit 0
     fi
-
-    # Mark online mode as enabled
-    echo "true" > "$online_mode_flag_file"
-
-    # Sleep to let everything sync up
-    sleep 10
-
-    # Start EmulationStation
-    chvt 1; es start
-
-    # Exit the script after online mode is enabled
-    exit 0
 
 }
 
