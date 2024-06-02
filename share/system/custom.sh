@@ -323,15 +323,17 @@ monitor_keyboard_input() {
             echo "DEBUG: B button pressed. Switching to online mode..."
             online_mode
             online_mode_enabled=true
+            echo "DEBUG: online_mode_enabled set to $online_mode_enabled"
             break
         fi
     done
 
     if [ "$online_mode_enabled" = false ]; then
-        echo "Online mode not enabled. Switching to offline mode..."
+        echo "DEBUG: Online mode not enabled. Switching to offline mode..."
         offline_mode
     fi
 }
+
 
 
 
