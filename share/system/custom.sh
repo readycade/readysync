@@ -285,6 +285,11 @@ sleep 30
 # Start EmulationStation
 chvt 1; es start
 
+sleep 5
+
+# Start Emulationstation (twice incase it doesn't populate)
+chvt 1; es start
+
 # Exit the script after online mode is enabled
 exit 0
 fi
