@@ -263,6 +263,12 @@ if [ "$online_mode_enabled" = true ]; then
 
         echo "Installation complete. Log saved to: $log_file"
 
+        # Mark offline mode as enabled
+        echo "false" > "$online_mode_flag_file"
+
+        # Sleep to let everything sync up
+        sleep 10
+
         # Replace the following line with the actual command to start emulation station
         chvt 1; es start
     else
@@ -277,18 +283,23 @@ if [ "$online_mode_enabled" = false ]; then
         return
     fi
 
-# Monitor keyboard input and switch modes accordingly
 monitor_keyboard_input() {
+    online_mode_flag_file="/recalbox/share/system/.online_mode_enabled.log"
     evtest /dev/input/event3 --grab | while read -r line; do
         echo "DEBUG: Keyboard event detected: $line"
-        if [[ $line == *"code 291 (BTN_TOP)"* ]]; then
-            echo "DEBUG: B button pressed. Switching to online mode..."
+        if [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90004"* ]]; then
+            echo "DEBUG: Specific event detected. Switching to online mode..."
             echo "true" > "$online_mode_flag_file"
             echo "DEBUG: online_mode_enabled set to true"
-            break
+        else
+            echo "DEBUG: No button press detected. Offline mode enabled."
         fi
     done
 }
+
+# Run the function
+monitor_keyboard_input
+
 
 # Start monitoring keyboard input in the background
 monitor_keyboard_input &
