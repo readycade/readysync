@@ -258,17 +258,14 @@ if [ -f "$output" ]; then
     chmod +x "$output"
     echo "ratarmount installed."
 fi
-
-
-        # Switch to the appropriate TTY
-        #chvt 2
-
-        # Start EmulationStation
-        chvt 1; es start
+        
     fi
      # Set online_mode_enabled flag to true
     online_mode_enabled=true
     echo "DEBUG: online_mode_enabled set to $online_mode_enabled"
+
+    # Start EmulationStation
+    chvt 1; es start
 
     # Exit the script after online mode is enabled
     exit 0
