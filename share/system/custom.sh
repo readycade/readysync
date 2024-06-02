@@ -276,7 +276,7 @@ if [ "$online_mode_enabled" = true ]; then
 monitor_keyboard_input() {
     evtest /dev/input/event3 --grab | while read -r line; do
         echo "DEBUG: Keyboard event detected: $line"
-        if [[ $line == *"BTN_TOP"* ]]; then
+        if [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90004"* ]]; then
             echo "DEBUG: B button pressed. Switching to online mode..."
             echo "true" > "$online_mode_flag_file"
             echo "DEBUG: online_mode_enabled set to true"
