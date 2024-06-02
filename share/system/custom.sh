@@ -21,7 +21,6 @@ echo "Log file:..."
 echo "/recalbox/share/system/.systemstream.log"
 echo "Truncating log file..."
 
-
 exec 3>&1 4>&2
 trap 'exec 2>&4 1>&3' 0 1 2 3
 exec 1>>"$log_file" 2>&1
@@ -197,28 +196,6 @@ online_mode() {
             echo "mount-zip installed successfully for architecture: ${mount_zip_arch}."
         else
             echo "mount-zip is already installed."
-        fi
-
-        # Download and Install httpdirfs
-        if [ ! -f /usr/bin/httpdirfs ]; then
-            echo "Downloading httpdirfs..."
-
-            # Detect the architecture
-            case $(arch) in
-                x86_64) httpdirfs_arch="x64" ;;
-                aarch64) httpdirfs_arch="arm64" ;;
-                *) echo "Unsupported httpdirfs architecture: $(arch)."; exit 1 ;;
-            esac
-
-            httpdirfs_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/httpdirfs-${httpdirfs_arch}/httpdirfs"
-
-            # Download and Install httpdirfs
-            wget -O /usr/bin/httpdirfs ${httpdirfs_url}
-            chmod +x /usr/bin/httpdirfs
-
-            echo "httpdirfs installed successfully for architecture: ${httpdirfs_arch}."
-        else
-            echo "httpdirfs is already installed."
         fi
 
 # Function to download a file with retries
