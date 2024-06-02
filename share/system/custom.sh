@@ -296,6 +296,7 @@ monitor_keyboard_input() {
         if [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90004"* ]]; then
             echo "DEBUG: Specific event detected. Switching to online mode..."
             echo "true" > "$online_mode_flag_file"
+            online_mode
             echo "DEBUG: online_mode_enabled set to true"
         else
             echo "DEBUG: No button press detected. Offline mode enabled."
