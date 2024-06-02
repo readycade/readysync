@@ -283,7 +283,7 @@ echo "true" > "$online_mode_flag_file"
 sleep 20
 
 # Start EmulationStation
-es start
+chvt 1; es start
 
 # Exit the script after online mode is enabled
 exit 0
@@ -325,7 +325,7 @@ if [ "$online_mode_enabled" = true ]; then
         sleep 10
 
         # Replace the following line with the actual command to start emulation station
-        es start
+        chvt 1; es start
     else
         echo "Error: systemlist.xml files not found."
     fi
