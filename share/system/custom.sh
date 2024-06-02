@@ -20,6 +20,12 @@ online_mode_flag_file="/recalbox/share/system/.online_mode_enabled.log"
 online_mode_enabled=$(cat "$online_mode_flag_file")
 keyboard_events="/recalbox/share/system/keyboard_events.txt"
 
+# Check and update systemlist.xml based on user choice
+offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
+offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml"
+offline_online="/recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml"
+offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml"
+
 # Clear the log files
 truncate -s 0 "$log_file"
 echo "Log file:..."
@@ -49,6 +55,23 @@ online_mode() {
     echo "DEBUG: Online Mode Enabled..."
     echo "Online Mode Enabled..."
     echo "Performing actions specific to Online Mode..."
+
+    # Online Mode
+    if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
+
+        # Backup the existing systemlist.xml
+        echo "Backing up systemlist.xml..."
+        cp "$offline_systemlist" "$offline_backup"
+        echo "Backup created: $offline_backup"
+
+        # Overwrite systemlist.xml with the online version
+        echo "Overwriting systemlist.xml with the online version..."
+        cp "$offline_online" "$offline_systemlist"
+        echo "Online version applied."
+
+        # Move the contents to online directory
+        cp -r /recalbox/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
+        echo "copied ALL gamelists.xml to online directory."
 
 # Function to download a file with retries
 download_rclone_with_retry() {
@@ -172,31 +195,21 @@ else
     fi
 fi
 
+# Mount thumbnails with rclone
+#rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+#rclone mount thumbnails: --config "/recalbox/share/system/rclone.conf" /recalbox/share/thumbs --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
 
+# Mount thumbnails with httpdirfs
+httpdirfs -d -f -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://thumbnails.libretro.com/ /recalbox/share/thumbs
 
+echo "Mounting libretro thumbnails..."
 
-    # Check and update systemlist.xml based on user choice
-    offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
-    offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml"
-    offline_online="/recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml"
-    offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml"
+# Mount myrient with rclone
+#rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+rclone mount myrient: --config "/recalbox/share/system/rclone2.conf" /recalbox/share/rom --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
 
-    # Online Mode
-    if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
-
-        # Backup the existing systemlist.xml
-        echo "Backing up systemlist.xml..."
-        cp "$offline_systemlist" "$offline_backup"
-        echo "Backup created: $offline_backup"
-
-        # Overwrite systemlist.xml with the online version
-        echo "Overwriting systemlist.xml with the online version..."
-        cp "$offline_online" "$offline_systemlist"
-        echo "Online version applied."
-
-        # Move the contents to online directory
-        cp -r /recalbox/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
-        echo "copied ALL gamelists.xml to online directory."
+echo "Mounting romsets..."
+echo "(No-Intro, Redump, TOSEC)..."
 
 # Function to download a file with retries
 download_with_retry() {
@@ -256,37 +269,21 @@ install_binary "jq" "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-
 install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/mount-zip-${arch}/mount-zip" "/usr/bin/mount-zip"
 
 # Install ratarmount
-install_binary "ratarmount" "https://github.com/mxmlnkn/ratarmount/releases/download/v0.15.0/ratarmount-0.15.0-${ratarmount_arch}.AppImage" "/usr/bin/ratarmount.AppImage"
-if [ $? -eq 0 ]; then
-    chmod +x "/usr/bin/ratarmount.AppImage"  # Ensure the binary is executable
-    /usr/bin/ratarmount --appimage-extract
+#install_binary "ratarmount" "https://github.com/mxmlnkn/ratarmount/releases/download/v0.15.0/ratarmount-0.15.0-${ratarmount_arch}.AppImage" "/usr/bin/ratarmount.AppImage"
+#if [ $? -eq 0 ]; then
+#    chmod +x "/usr/bin/ratarmount.AppImage"  # Ensure the binary is executable
+#    /usr/bin/ratarmount --appimage-extract
 
-fi
-
-# Mount thumbnails with rclone
-#rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-#rclone mount thumbnails: --config "/recalbox/share/system/rclone.conf" /recalbox/share/thumbs --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
-
-# Mount thumbnails with httpdirfs
-httpdirfs -d -f -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://thumbnails.libretro.com/ /recalbox/share/thumbs
-
-echo "Mounting libretro thumbnails..."
-
-# Mount myrient with rclone
-#rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-rclone mount myrient: --config "/recalbox/share/system/rclone2.conf" /recalbox/share/rom --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
-
-echo "Mounting romsets..."
-echo "(No-Intro, Redump, TOSEC)..."
+#fi
 
 # Mark online mode as enabled
 echo "true" > "$online_mode_flag_file"
 
 # Sleep to let everything sync up
-sleep 5
+sleep 10
 
 # Start EmulationStation
-chvt 1; es start
+es start
 
 # Exit the script after online mode is enabled
 exit 0
@@ -307,26 +304,17 @@ if [ "$online_mode_enabled" = true ]; then
     echo "Offline Mode Enabled..."
     echo "Performing actions specific to Offline Mode..."
 
-    # Check and update systemlist.xml based on user choice
-    offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
-    offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml"
-    offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml"
-    
     # Offline Mode
     if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
         # Backup existing systemlist.xml
-        echo "Backing up systemlist.xml..."
+        echo "Backing up current systemlist.xml..."
         cp "$offline_systemlist" "$offline_backup"
         echo "Backup created: $offline_backup"
 
         # Overwrite systemlist.xml with offline version
         echo "Overwriting systemlist.xml with offline version..."
         cp "$offline_offline" "$offline_systemlist"
-        echo "Offline version applied."
-
-        # Replace the following line with your specific actions for Offline Mode
-        echo "Performing actions specific to Offline Mode..."
-        # ...
+        echo "Offline systemlist.xml applied."
 
         echo "Installation complete. Log saved to: $log_file"
 
@@ -337,7 +325,7 @@ if [ "$online_mode_enabled" = true ]; then
         sleep 10
 
         # Replace the following line with the actual command to start emulation station
-        chvt 1; es start
+        es start
     else
         echo "Error: systemlist.xml files not found."
     fi
