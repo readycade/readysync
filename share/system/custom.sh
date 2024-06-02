@@ -132,10 +132,11 @@ install_binary "7za" "https://github.com/develar/7zip-bin/raw/master/linux/${arc
 rclone_zip="/usr/bin/rclone.zip"
 install_binary "rclone" "https://downloads.rclone.org/v1.65.0/rclone-v1.65.0-linux-${rclone_arch}.zip" "$rclone_zip"
 if [ $? -eq 0 ]; then
-    unzip -o "$rclone_zip" -d /usr/bin && chmod +x /usr/bin/rclone
+    unzip -o "$rclone_zip" -d /usr/bin && chmod +x /usr/bin/rclone-v1.65.0-linux-${rclone_arch}/rclone
+    mv /usr/bin/rclone-v1.65.0-linux-${rclone_arch}/rclone /usr/bin/
+    rm -rf "/usr/bin/rclone-v1.65.0-linux-${rclone_arch}"
     rm "$rclone_zip"
 fi
-
 
 # Install jq
 install_binary "jq" "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-${jq_arch}" "/usr/bin/jq"
