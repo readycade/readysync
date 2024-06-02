@@ -308,12 +308,6 @@ monitor_keyboard_input() {
     done
 }
 
-
-if [ "$online_mode_enabled" = false ]; then
-    echo "Offline mode detected."
-    offline_mode
-fi
-
 # Start monitoring keyboard input in the background and capture the PID
 monitor_keyboard_input &
 evtest_pid=$!
