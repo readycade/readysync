@@ -70,6 +70,40 @@ download_with_retry() {
     local retry_delay=5
 
     for ((attempt = 1; attempt <= max_retries; attempt++)); do
+        wget --quiet --show-progress --retry-connrefused --waitretry=$retry_delay --timeout=30 --tries=$max_retries -O "$output" "$url"
+        if [ $? -eq 0 ]; then
+            echo "Download succeeded."
+            return 0
+        else
+            echo "Download failed (attempt $attempt/$max_retries). Retrying in $retry_delay seconds..."
+            sleep $retry_delay
+        fi
+    done
+
+    echo "Max retries reached. Download failed."
+    return 1
+}
+
+# Download rclone with retry
+rclone_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/rclone-${rclone_arch}/rclone"
+download_with_retry "$rclone_url" "/usr/bin/rclone"
+if [ $? -eq 0 ]; then
+    echo "rclone binary downloaded successfully."
+    # Set permissions
+    chmod +x /usr/bin/rclone
+    echo "Execute permission set for rclone binary."
+else
+    echo "Error: Failed to download rclone."
+fi
+
+# Function to download a file with retries
+download_with_retry() {
+    local url=$1
+    local output=$2
+    local max_retries=3
+    local retry_delay=5
+
+    for ((attempt = 1; attempt <= max_retries; attempt++)); do
         wget -q --show-progress -O "$output" "$url"
         if [ $? -eq 0 ]; then
             echo "Download succeeded."
@@ -111,40 +145,6 @@ esac
 install_binary "7za" "https://github.com/develar/7zip-bin/raw/master/linux/${arch}/7za" "/usr/bin/7za"
 if [ $? -eq 0 ]; then
     chmod +x /usr/bin/7za  # Make the binary executable
-fi
-
-# Function to download a file with retries
-download_with_retry() {
-    local url=$1
-    local output=$2
-    local max_retries=3
-    local retry_delay=5
-
-    for ((attempt = 1; attempt <= max_retries; attempt++)); do
-        wget --quiet --show-progress --retry-connrefused --waitretry=$retry_delay --timeout=30 --tries=$max_retries -O "$output" "$url"
-        if [ $? -eq 0 ]; then
-            echo "Download succeeded."
-            return 0
-        else
-            echo "Download failed (attempt $attempt/$max_retries). Retrying in $retry_delay seconds..."
-            sleep $retry_delay
-        fi
-    done
-
-    echo "Max retries reached. Download failed."
-    return 1
-}
-
-# Download rclone with retry
-rclone_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/rclone-${rclone_arch}/rclone"
-download_with_retry "$rclone_url" "/usr/bin/rclone"
-if [ $? -eq 0 ]; then
-    echo "rclone binary downloaded successfully."
-    # Set permissions
-    chmod +x /usr/bin/rclone
-    echo "Execute permission set for rclone binary."
-else
-    echo "Error: Failed to download rclone."
 fi
 
 # Install jq
