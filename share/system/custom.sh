@@ -31,6 +31,7 @@ sanitize_dir_name() {
 
 # Initialize online_mode_enabled flag file
 echo "false" > "$online_mode_flag_file"
+echo "DEBUG $online_mode_flag_file set to false"
 
 # Function to switch to online mode
 online_mode() {
@@ -269,6 +270,10 @@ if [ "$online_mode_enabled" = true ]; then
         echo "Error: systemlist.xml files not found."
     fi
 }
+
+if [ "$online_mode_enabled" = false ]; then
+    offline_mode
+fi
 
 # Monitor keyboard input and switch modes accordingly
 monitor_keyboard_input() {
