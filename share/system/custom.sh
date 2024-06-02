@@ -141,7 +141,7 @@ download_with_retry "$rclone_url" "/usr/bin/rclone"
 if [ $? -eq 0 ]; then
     echo "rclone binary downloaded successfully."
     # Set permissions
-    sudo chmod +x /usr/bin/rclone
+    chmod +x /usr/bin/rclone
     echo "Execute permission set for rclone binary."
 else
     echo "Error: Failed to download rclone."
