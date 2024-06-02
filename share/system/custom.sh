@@ -122,6 +122,59 @@ else
     fi
 fi
 
+# Function to download a file with retries
+download_httpdirfs_with_retry() {
+    local url=$1
+    local output=$2
+    local max_retries=3
+    local retry_delay=5
+
+    for ((attempt = 1; attempt <= max_retries; attempt++)); do
+        wget --quiet --show-progress --retry-connrefused --waitretry=$retry_delay --timeout=30 --tries=$max_retries -O "$output" "$url"
+        if [ $? -eq 0 ]; then
+            echo "Download succeeded."
+            return 0
+        else
+            echo "Download failed (attempt $attempt/$max_retries). Retrying in $retry_delay seconds..."
+            sleep $retry_delay
+        fi
+    done
+
+    echo "Max retries reached. Download failed."
+    return 1
+}
+
+# Determine architecture
+architecture=$(uname -m)
+if [ "$architecture" == "x86_64" ]; then
+    httpdirfs_arch="x64"
+elif [ "$architecture" == "aarch64" ]; then
+    httpdirfs_arch="arm64"
+else
+    echo "Error: Unsupported architecture."
+    exit 1
+fi
+
+# Check if httpdirfs exists in /usr/bin
+if [ -x /usr/bin/httpdirfs ]; then
+    echo "httpdirfs already exists in /usr/bin. Skipping download."
+else
+    # Download httpdirfs with retry
+    httpdirfs_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/httpdirfs-${httpdirfs_arch}/httpdirfs"
+    download_httpdirfs_with_retry "$httpdirfs_url" "/usr/bin/httpdirfs"
+    if [ $? -eq 0 ]; then
+        echo "httpdirfs binary downloaded successfully."
+        # Set permissions
+        chmod +x /usr/bin/httpdirfs
+        echo "Execute permission set for httpdirfs binary."
+    else
+        echo "Error: Failed to download httpdirfs."
+    fi
+fi
+
+
+
+
     # Check and update systemlist.xml based on user choice
     offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
     offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml"
