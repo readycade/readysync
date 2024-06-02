@@ -113,19 +113,24 @@ if [ $? -eq 0 ]; then
     chmod +x /usr/bin/7za  # Make the binary executable
 fi
 
-# Install rclone
-rclone_path="/recalbox/share/userscripts/.config/readystream/rclone-${rclone_arch}/rclone"
-if [ -f "$rclone_path" ]; then
-    echo "rclone binary found at $rclone_path, copying to /usr/bin..."
-    cp "$rclone_path" /usr/bin/
+# Download rclone
+curl -O https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/rclone-${rclone_arch}/rclone
+if [ $? -eq 0 ]; then
+    echo "rclone binary downloaded successfully."
+    # Move the binary to /usr/bin
+    sudo cp rclone /usr/bin/
     if [ -f "/usr/bin/rclone" ]; then
-        echo "rclone binary successfully copied to /usr/bin."
-        chmod +x /usr/bin/rclone  # Make the binary executable
+        echo "rclone binary successfully moved to /usr/bin."
+        # Set permissions
+        sudo chown root:root /usr/bin/rclone
+        sudo chmod 755 /usr/bin/rclone
     else
-        echo "Error: rclone binary not found in /usr/bin after copying."
+        echo "Error: rclone binary not found in /usr/bin after moving."
     fi
+    # Clean up
+    rm rclone
 else
-    echo "Error: rclone binary not found at $rclone_path."
+    echo "Error: Failed to download rclone."
 fi
 
 # Install jq
