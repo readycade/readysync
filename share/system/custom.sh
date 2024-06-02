@@ -345,72 +345,33 @@ if [ "$online_mode_enabled" = true ]; then
 
 monitor_keyboard_input() {
     prev_button_state=""
-    
-    # Define an array of controller scan values
-    # Default Lenovo Keyboard = (7001e) (KEY_1)
-    # PS4 Controller (Player 1) = (90003) (CIRCLE)
-    # Dragonarcade Joystick (Player 1) = 90004 (B)
-    controller_scan_values=("90003" "90004" "7001e")
-    
-    # Get a list of input devices
-    input_devices=$(find /dev/input -name 'event*')
-    
-    # Iterate over each input device
-    for input_device in $input_devices; do
-        evtest "$input_device" --grab | while read -r line; do
+
+    evtest /dev/input/event3 --grab | while read -r line; do
+        echo "DEBUG: Keyboard event detected: $line"
+        if [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90004"* ]]; then
+            button_state="online"
+        elif [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90003"* ]]; then
+            button_state="online"
+        elif [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 7001e"* ]]; then
+            button_state="online"
+        else
             button_state="offline"
-            # Check if the event matches any controller scan value
-            for scan_value in "${controller_scan_values[@]}"; do
-                if [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value $scan_value"* ]]; then
-                    echo "DEBUG: Button press event detected on $input_device: $line"
-                    button_state="online"
-                    break  # Exit the loop if a match is found
-                fi
-            done
-            
-            if [ "$button_state" != "$prev_button_state" ]; then
-                if [ "$button_state" = "online" ]; then
-                    echo "DEBUG: Button Press detected. Switching to online mode..."
-                    echo "true" > "$online_mode_flag_file"
-                    echo "DEBUG: online_mode_enabled set to true"
-                    online_mode
-                else
-                    echo "DEBUG: No button press detected. Offline mode enabled."
-                    offline_mode
-                fi
-                prev_button_state="$button_state"
+        fi
+
+        if [ "$button_state" != "$prev_button_state" ]; then
+            if [ "$button_state" = "online" ]; then
+                echo "DEBUG: Button Press detected. Switching to online mode..."
+                echo "true" > "$online_mode_flag_file"
+                echo "DEBUG: online_mode_enabled set to true"
+                online_mode
+            else
+                echo "DEBUG: No button press detected. Offline mode enabled."
+                offline_mode
             fi
-        done &
+            prev_button_state="$button_state"
+        fi
     done
-    
-    # Wait for all background processes to finish
-    wait
 }
-
-# Start monitoring keyboard input in the background and capture the PID
-monitor_keyboard_input &
-evtest_pid=$!
-
-# Wait for the background process to finish
-wait
-
-# Kill the evtest process
-kill -TERM $evtest_pid
-
-exit 0
-
-# Start monitoring keyboard input in the background and capture the PID
-monitor_keyboard_input &
-evtest_pid=$!
-
-# Wait for the background process to finish
-wait
-
-# Kill the evtest process
-kill -TERM $evtest_pid
-
-exit 0
-
 
 # Start monitoring keyboard input in the background and capture the PID
 monitor_keyboard_input &
