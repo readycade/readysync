@@ -268,6 +268,10 @@ fi
     fi
      # Set online_mode_enabled flag to true
     online_mode_enabled=true
+    echo "DEBUG: online_mode_enabled set to $online_mode_enabled"
+
+    # Exit the script after online mode is enabled
+    exit 0
 }
 
 # Function to switch to offline mode
@@ -277,7 +281,7 @@ offline_mode() {
         echo "Online mode already enabled. Skipping offline mode."
         return
     fi
-    
+
     echo "Offline Mode Enabled..."
     echo "DEBUG: Offline Mode Selected..."
     echo "Offline Mode Enabled..."
