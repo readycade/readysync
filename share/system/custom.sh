@@ -296,11 +296,7 @@ monitor_keyboard_input() {
     done
 }
 
-# Run the function
-monitor_keyboard_input
-
-
-# Start monitoring keyboard input in the background
+# Run the function / Start monitoring keyboard input in the background
 monitor_keyboard_input &
 
 # Wait for the background process to finish
