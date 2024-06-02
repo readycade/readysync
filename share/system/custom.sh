@@ -113,13 +113,36 @@ if [ $? -eq 0 ]; then
     chmod +x /usr/bin/7za  # Make the binary executable
 fi
 
-# Download rclone
+# Function to download a file with retries
+download_with_retry() {
+    local url=$1
+    local output=$2
+    local max_retries=3
+    local retry_delay=5
 
-curl -O https://github.com/readycade/readysync/blob/master/share/userscripts/.config/readystream/rclone-${rclone_arch}/rclone
+    for ((attempt = 1; attempt <= max_retries; attempt++)); do
+        wget --quiet --show-progress --retry-connrefused --waitretry=$retry_delay --timeout=30 --tries=$max_retries -O "$output" "$url"
+        if [ $? -eq 0 ]; then
+            echo "Download succeeded."
+            return 0
+        else
+            echo "Download failed (attempt $attempt/$max_retries). Retrying in $retry_delay seconds..."
+            sleep $retry_delay
+        fi
+    done
+
+    echo "Max retries reached. Download failed."
+    return 1
+}
+
+# Download rclone with retry
+rclone_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/rclone-${rclone_arch}/rclone"
+rclone_tmp="/tmp/rclone"
+download_with_retry "$rclone_url" "$rclone_tmp"
 if [ $? -eq 0 ]; then
     echo "rclone binary downloaded successfully."
     # Move the binary to /usr/bin
-    sudo cp rclone /usr/bin/
+    sudo cp "$rclone_tmp" /usr/bin/
     if [ -f "/usr/bin/rclone" ]; then
         echo "rclone binary successfully moved to /usr/bin."
         # Set permissions
@@ -129,10 +152,11 @@ if [ $? -eq 0 ]; then
         echo "Error: rclone binary not found in /usr/bin after moving."
     fi
     # Clean up
-    rm rclone
+    rm "$rclone_tmp"
 else
     echo "Error: Failed to download rclone."
 fi
+
 
 # Install jq
 install_binary "jq" "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-${jq_arch}" "/usr/bin/jq"
