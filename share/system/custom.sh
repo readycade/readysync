@@ -283,32 +283,45 @@ if [ "$online_mode_enabled" = true ]; then
 }
 
 monitor_keyboard_input() {
+    prev_button_state=""
+
     evtest /dev/input/event3 --grab | while read -r line; do
         echo "DEBUG: Keyboard event detected: $line"
         if [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90004"* ]]; then
-            echo "DEBUG: B Button Press detected. Switching to online mode..."
-            echo "true" > "$online_mode_flag_file"
-            echo "DEBUG: online_mode_enabled set to true"
-            online_mode
+            button_state="online"
         else
-            echo "DEBUG: No button press detected. Offline mode enabled."
+            button_state="offline"
+        fi
+
+        if [ "$button_state" != "$prev_button_state" ]; then
+            if [ "$button_state" = "online" ]; then
+                echo "DEBUG: B Button Press detected. Switching to online mode..."
+                echo "true" > "$online_mode_flag_file"
+                echo "DEBUG: online_mode_enabled set to true"
+                online_mode
+            else
+                echo "DEBUG: No button press detected. Offline mode enabled."
+                offline_mode
+            fi
+            prev_button_state="$button_state"
         fi
     done
 }
+
 
 if [ "$online_mode_enabled" = false ]; then
     echo "Offline mode detected."
     offline_mode
 fi
 
-# Start monitoring keyboard input in the background
-monitor_keyboard_input
-evtest_pid=$
+# Start monitoring keyboard input in the background and capture the PID
+monitor_keyboard_input &
+evtest_pid=$!
 
 # Wait for the background process to finish
 wait
 
 # Kill the evtest process
-kill $evtest_pid
+kill -TERM $evtest_pid
 
 exit 0
