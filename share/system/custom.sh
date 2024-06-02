@@ -198,7 +198,7 @@ online_mode() {
             echo "mount-zip is already installed."
         fi
 
-# Function to download a file with retries
+# Function to download a ratarmount
 download_with_retry() {
     local url=$1
     local output=$2
