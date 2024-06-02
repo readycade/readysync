@@ -335,11 +335,6 @@ monitor_keyboard_input() {
     fi
 }
 
-# Main script execution
-monitor_keyboard_input
-
-
-
 # Start monitoring keyboard input in the background
 monitor_keyboard_input &
 
