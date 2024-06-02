@@ -222,7 +222,7 @@ echo "(No-Intro, Redump, TOSEC)..."
 echo "true" > "$online_mode_flag_file"
 
 # Sleep to let everything sync up
-sleep 10
+sleep 5
 
 # Start EmulationStation
 chvt 1; es start
@@ -273,7 +273,7 @@ if [ "$online_mode_enabled" = true ]; then
         echo "false" > "$online_mode_flag_file"
 
         # Sleep to let everything sync up
-        sleep 10
+        sleep 2
 
         # Replace the following line with the actual command to start emulation station
         chvt 1; es start
