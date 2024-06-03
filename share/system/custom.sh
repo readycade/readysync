@@ -211,9 +211,77 @@ echo "(No-Intro, Redump, TOSEC)..."
 #httpdirfs -f -o debug --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o no_cache https://thumbnails.libretro.com/ /recalbox/share/thumbs
 
 #WIZARDS COMMAND
-httpdirfs --cache --no-range-check --cache-location /recalbox/share/system/.cache/httpdirfs http://thumbnails.libretro.com/ /recalbox/share/thumbs
+httpdirfs --cache --cache-location /recalbox/share/system/.cache/httpdirfs http://thumbnails.libretro.com/ /recalbox/share/thumbs
 
 echo "Mounting libretro thumbnails..."
+
+# Function to download a file with retries
+download_with_retry() {
+    local url=$1
+    local output=$2
+    local max_retries=3
+    local retry_delay=5
+
+    for ((attempt = 1; attempt <= max_retries; attempt++)); do
+        wget -q --show-progress -O "$output" "$url"
+        if [ $? -eq 0 ]; then
+            echo "Download succeeded."
+            return 0
+        else
+            echo "Download failed (attempt $attempt/$max_retries). Retrying in $retry_delay seconds..."
+            sleep $retry_delay
+        fi
+    done
+
+    echo "Max retries reached. Download failed."
+    return 1
+}
+
+# Function to download and install a binary file
+install_binary() {
+    local binary_name=$1
+    local url=$2
+    local output=$3
+
+    if [ -f "$output" ]; then
+        echo "$binary_name is already installed."
+    else
+        download_with_retry "$url" "$output"
+        chmod +x "$output"  # Ensure the binary is executable
+        mv "$output" "/usr/bin/$binary_name"  # Move the binary to /usr/bin
+        echo "$binary_name installed."
+    fi
+}
+
+# Determine architecture
+case $(uname -m) in
+    x86_64) arch="x64"; rclone_arch="amd64"; jq_arch="amd64"; ratarmount_arch="x86_64";;
+    aarch64) arch="arm64"; rclone_arch="arm64"; jq_arch="arm64"; ratarmount_arch="x86_64";;
+    *) echo "Unsupported architecture."; exit 1 ;;
+esac
+
+# Install 7zip
+install_binary "7za" "https://github.com/develar/7zip-bin/raw/master/linux/${arch}/7za" "/usr/bin/7za"
+if [ $? -eq 0 ]; then
+    chmod +x /usr/bin/7za  # Make the binary executable
+fi
+
+# Install jq
+install_binary "jq" "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-${jq_arch}" "/usr/bin/jq"
+
+# Install mount-zip
+install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/mount-zip-${arch}/mount-zip" "/usr/bin/mount-zip"
+
+# Install ratarmount
+#install_binary "ratarmount" "https://github.com/mxmlnkn/ratarmount/releases/download/v0.15.0/ratarmount-0.15.0-${ratarmount_arch}.AppImage" "/usr/bin/ratarmount.AppImage"
+#if [ $? -eq 0 ]; then
+#    chmod +x "/usr/bin/ratarmount.AppImage"  # Ensure the binary is executable
+#    /usr/bin/ratarmount --appimage-extract
+
+#fi
+
+# Mark online mode as enabled
+echo "true" > "$online_mode_flag_file"
 
 # Define TOSEC Romsets Array
 declare -A consoles
@@ -307,74 +375,6 @@ for console in "${enabled_consoles[@]}"; do
 done
 
 echo "Selected consoles have been mounted."
-
-# Function to download a file with retries
-download_with_retry() {
-    local url=$1
-    local output=$2
-    local max_retries=3
-    local retry_delay=5
-
-    for ((attempt = 1; attempt <= max_retries; attempt++)); do
-        wget -q --show-progress -O "$output" "$url"
-        if [ $? -eq 0 ]; then
-            echo "Download succeeded."
-            return 0
-        else
-            echo "Download failed (attempt $attempt/$max_retries). Retrying in $retry_delay seconds..."
-            sleep $retry_delay
-        fi
-    done
-
-    echo "Max retries reached. Download failed."
-    return 1
-}
-
-# Function to download and install a binary file
-install_binary() {
-    local binary_name=$1
-    local url=$2
-    local output=$3
-
-    if [ -f "$output" ]; then
-        echo "$binary_name is already installed."
-    else
-        download_with_retry "$url" "$output"
-        chmod +x "$output"  # Ensure the binary is executable
-        mv "$output" "/usr/bin/$binary_name"  # Move the binary to /usr/bin
-        echo "$binary_name installed."
-    fi
-}
-
-# Determine architecture
-case $(uname -m) in
-    x86_64) arch="x64"; rclone_arch="amd64"; jq_arch="amd64"; ratarmount_arch="x86_64";;
-    aarch64) arch="arm64"; rclone_arch="arm64"; jq_arch="arm64"; ratarmount_arch="x86_64";;
-    *) echo "Unsupported architecture."; exit 1 ;;
-esac
-
-# Install 7zip
-install_binary "7za" "https://github.com/develar/7zip-bin/raw/master/linux/${arch}/7za" "/usr/bin/7za"
-if [ $? -eq 0 ]; then
-    chmod +x /usr/bin/7za  # Make the binary executable
-fi
-
-# Install jq
-install_binary "jq" "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-${jq_arch}" "/usr/bin/jq"
-
-# Install mount-zip
-install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/mount-zip-${arch}/mount-zip" "/usr/bin/mount-zip"
-
-# Install ratarmount
-#install_binary "ratarmount" "https://github.com/mxmlnkn/ratarmount/releases/download/v0.15.0/ratarmount-0.15.0-${ratarmount_arch}.AppImage" "/usr/bin/ratarmount.AppImage"
-#if [ $? -eq 0 ]; then
-#    chmod +x "/usr/bin/ratarmount.AppImage"  # Ensure the binary is executable
-#    /usr/bin/ratarmount --appimage-extract
-
-#fi
-
-# Mark online mode as enabled
-echo "true" > "$online_mode_flag_file"
 
 # Sleep to let everything sync up
 sleep 30
