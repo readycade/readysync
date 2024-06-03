@@ -23,11 +23,13 @@ eg: /recalbox/share/system/custom.sh
 
 login to your recalbox via ssh (Open a **Command Prompt** on **windows** or **terminal** on **linux/mac**)
 
+**login username and host**
 ```
 root@recalbox
 ```
+**password:**
 ```
-**password**: recalboxroot
+recalboxroot
 ```
 **run the command to download and auto install**
 ```
