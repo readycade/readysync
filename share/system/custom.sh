@@ -280,12 +280,6 @@ install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/sh
 
 #fi
 
-# Mark online mode as enabled
-echo "true" > "$online_mode_flag_file"
-
-# Start EmulationStation
-chvt 1; es start
-
 # Define TOSEC Romsets Array
 declare -A consoles
 consoles=(
@@ -385,7 +379,13 @@ done
 
 echo "Selected consoles have been mounted."
 
-sleep 15
+# Mark online mode as enabled
+echo "true" > "$online_mode_flag_file"
+
+# Start EmulationStation
+chvt 1; es start
+
+sleep 10
 
 # Start Emulationstation (twice incase it doesn't populate)
 chvt 1; es start
