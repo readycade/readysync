@@ -26,8 +26,10 @@ login to your recalbox via ssh (Open a **Command Prompt** on **windows** or **te
 ```
 root@recalbox
 ```
+```
 **password**: recalboxroot
-
+```
+**run the command to download and auto install**
 ```
 wget -O /recalbox/share/system/custom.sh https://raw.githubusercontent.com/readycade/readysync/master/share/system/custom.sh && chmod +x /recalbox/share/system/custom.sh
 ```
