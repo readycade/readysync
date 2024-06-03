@@ -21,7 +21,7 @@ eg: /recalbox/share/system/custom.sh
 
 ### Alternative Installation method:
 
-login to your recalbox via ssh (Open a **Command Prompt** on **windows** or **terminal** on **linux/mac**)
+Login to your recalbox via ssh (Open a **Command Prompt** on **windows** or **terminal** on **linux/mac**)
 
 **login username and host:**
 ```
@@ -31,7 +31,7 @@ root@recalbox
 ```
 recalboxroot
 ```
-**run the command to download and auto install**
+**Run the command to download and auto install**
 ```
 wget -O /recalbox/share/system/custom.sh https://raw.githubusercontent.com/readycade/readysync/master/share/system/custom.sh && chmod +x /recalbox/share/system/custom.sh
 ```
