@@ -296,6 +296,8 @@ consoles=(
     ["Sharp_X68000"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Sharp/X68000/Games/[DIM]/Sharp X68000 - Games - [DIM].zip\" \"/recalbox/share/zip/x68000/\""
     ["Amstrad_GX4000"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Amstrad/GX4000/Games/Amstrad GX4000 - Games.zip\" \"/recalbox/share/zip/gx4000/\""
     ["Apple_Macintosh"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Apple/Macintosh/Games/[DSK]/Apple Macintosh - Games - [DSK].zip\" \"/recalbox/share/zip/macintosh/\""
+    ["Apple_II"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Apple/II/Games/[DSK]/Apple II - Games - [DSK].zip\" \"/recalbox/share/zip/apple2/\""
+    ["Apple_IIgs"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Apple/IIGS/Games/[2MG]/Apple IIGS - Games - [2MG].zip\" \"/recalbox/share/zip/apple2gs/\""
     ["Elektronika_BK-0011-411"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Elektronika/BK-0011-411/Games/Elektronika BK-0011-411 - Games.zip\" \"/recalbox/share/zip/bk/\""
     ["MSX_TurboR"]="mount-zip -v \"/recalbox/share/rom/TOSEC/MSX/TurboR/Games/MSX TurboR - Games.zip\" \"/recalbox/share/zip/msxturbor/\""
     ["Acorn_BBC"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Acorn/BBC/Games/[SSD]/Acorn BBC - Games - [SSD].zip\" \"/recalbox/share/zip/bbcmicro/\""
@@ -337,6 +339,10 @@ enabled_consoles+=("Sharp_X68000")
 #enabled_consoles+=("Amstrad_GX4000")
 # Apple Macintosh
 enabled_consoles+=("Apple_Macintosh")
+# Apple II
+enabled_consoles+=("Apple_II")
+# Apple IIgs
+enabled_consoles+=("Apple_II2gs")
 # Elektronika BK-0011-411
 enabled_consoles+=("Elektronika_BK-0011-411")
 # MSX TurboR
