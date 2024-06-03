@@ -2,7 +2,7 @@
 <systemList>
   <defaults command="python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom %ROM% -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
   <system uuid="c47d1c20-ec15-43a4-a4fe-c6f438a64f13" name="2048" fullname="2048">
-    <descriptor path="%ROOT%/readystream/ports/2048" theme="2048" extensions=".game" icon="$F28c" downloader="0" port="1" readonly="1"/>
+    <descriptor path="%ROOT%/ports/2048" theme="2048" extensions=".game" icon="$F28c" downloader="0" port="1" readonly="1"/>
     <scraper screenscraper="135"/>
     <properties type="port" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2014-03" manufacturer="port" retroachievements="0" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -12,7 +12,7 @@
     </emulatorList>
   </system>
   <system uuid="58d140e8-52ec-4b48-8b2f-5d240fcbd28f" name="240ptestsuite" fullname="240ptestsuite">
-    <descriptor path="%ROOT%/readystream/240ptestsuite" theme="240ptestsuite" extensions=".nes .chd .gba .toc .bin .ccd .m3u .sfc .gb .cdi .pbp .pce .cue" icon="$0" downloader="0"/>
+    <descriptor path="%ROOT%/240ptestsuite" theme="240ptestsuite" extensions=".nes .chd .gba .toc .bin .ccd .m3u .sfc .gb .cdi .pbp .pce .cue" icon="$0" downloader="0"/>
     <scraper screenscraper="135"/>
     <properties type="virtual" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2011-01" manufacturer="virtual" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -60,7 +60,7 @@
     </emulatorList>
   </system>
   <system uuid="532f6c8c-bfe2-4a5d-8ede-fa967bf5c05b" name="amiga600" fullname="Amiga 600">
-    <descriptor path="%ROOT%/readystream/amiga600" theme="amiga600" extensions=".dms .adf .zip .raw .hdz .ipf .hdf .m3u .adz .lzx .lha .lhz" icon="$F244" downloader="0"/>
+    <descriptor path="%ROOT%/amiga600" theme="amiga600" extensions=".dms .adf .zip .raw .hdz .ipf .hdf .m3u .adz .lzx .lha .lhz" icon="$F244" downloader="0"/>
     <scraper screenscraper="64"/>
     <properties type="computer" pad="mandatory" keyboard="optional" mouse="optional" lightgun="no" releasedate="1992-03" manufacturer="Commodore" retroachievements="0" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -90,7 +90,7 @@
     </emulatorList>
   </system>
   <system uuid="53afab22-49ee-4e53-a398-941942831894" name="amstradcpc" fullname="AmstradCPC">
-    <descriptor path="%ROOT%/readystream/amstradcpc" theme="amstradcpc" extensions=".sna .cdt .dsk .m3u .zip .7z" icon="$F295" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/amstradcpc" theme="amstradcpc" extensions=".sna .cdt .dsk .m3u .zip .7z" icon="$F295" downloader="0"/>
     <scraper screenscraper="65"/>
     <properties type="computer" pad="recommended" keyboard="mandatory" mouse="optional" lightgun="no" releasedate="1984-04" manufacturer="Amstrad" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -101,7 +101,7 @@
     </emulatorList>
   </system>
   <system uuid="8778ff19-1dd5-471c-950f-f9cf136dc953" name="apple2" fullname="Apple II">
-    <descriptor path="%ROOT%/readystream/apple2" theme="apple2" extensions=".dsk .do .iie .po .nib" icon="$F247" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/apple2" theme="apple2" extensions=".dsk .do .iie .po .nib" icon="$F247" downloader="0"/>
     <scraper screenscraper="86"/>
     <properties type="computer" pad="optional" keyboard="mandatory" mouse="recommended" lightgun="no" releasedate="1977-04" manufacturer="Apple" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -114,7 +114,7 @@
     </emulatorList>
   </system>
   <system uuid="73d6d33d-320f-4f37-a1f8-956bcefeffe1" name="apple2gs" fullname="Apple IIGS">
-    <descriptor path="%ROOT%/readystream/apple2gs" theme="apple2gs" extensions=".hdv .2mg .gsplus .po" icon="$F296" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/apple2gs" theme="apple2gs" extensions=".hdv .2mg .gsplus .po" icon="$F296" downloader="0"/>
     <scraper screenscraper="217"/>
     <properties type="computer" pad="optional" keyboard="mandatory" mouse="recommended" lightgun="no" releasedate="1986-09" manufacturer="Apple" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -165,7 +165,7 @@
     </emulatorList>
   </system>
   <system uuid="983f801f-3436-48a6-a01c-77e057c092c3" name="atari800" fullname="Atari 800">
-    <descriptor path="%ROOT%/readystream/atari800" theme="atari800" extensions=".car .dcm .xfd .atr .bin .m3u .xex .zip .com .atx .rom .cas" icon="$F299" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/atari800" theme="atari800" extensions=".car .dcm .xfd .atr .bin .m3u .xex .zip .com .atx .rom .cas" icon="$F299" downloader="0"/>
     <scraper screenscraper="43"/>
     <properties type="computer" pad="mandatory" keyboard="recommended" mouse="no" lightgun="no" releasedate="1979-11" manufacturer="Atari" retroachievements="0" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -188,7 +188,7 @@
     </emulatorList>
   </system>
   <system uuid="313a4578-d413-404f-a0bf-994ca6342838" name="atomiswave" fullname="Sammy Atomiswave">
-    <descriptor path="%ROOT%/readystream/atomiswave" theme="atomiswave" extensions=".7z .zip" icon="$F29b" downloader="0"/>
+    <descriptor path="%ROOT%/atomiswave" theme="atomiswave" extensions=".7z .zip" icon="$F29b" downloader="0"/>
     <scraper screenscraper="53"/>
     <properties type="arcade" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="2003-01" manufacturer="Sammy" retroachievements="1" crt.multiresolution="1" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -198,7 +198,7 @@
     </emulatorList>
   </system>
   <system uuid="05e9713d-7220-4864-abf2-9a07ea4b2f41" name="bbcmicro" fullname="Acorn BBC Micro">
-    <descriptor path="%ROOT%/readystream/bbcmicro" theme="bbcmicro" extensions=".adf .csw .adl .m3u .uef .dsd .zip .ssd" icon="$0" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/bbcmicro" theme="bbcmicro" extensions=".adf .csw .adl .m3u .uef .dsd .zip .ssd" icon="$0" downloader="0"/>
     <scraper screenscraper="37"/>
     <properties type="computer" pad="recommended" keyboard="recommended" mouse="optional" lightgun="no" releasedate="1981-12" manufacturer="Acorn" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -208,7 +208,7 @@
     </emulatorList>
   </system>
   <system uuid="81a1727c-541e-48d8-bcfe-549a3d83a0cd" name="bk" fullname="Elektronika BK">
-    <descriptor path="%ROOT%/readystream/bk" theme="bk" extensions=".7z .bin .zip" icon="$0" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/bk" theme="bk" extensions=".7z .bin .zip" icon="$0" downloader="0"/>
     <scraper screenscraper="93"/>
     <properties type="computer" pad="optional" keyboard="mandatory" mouse="no" lightgun="no" releasedate="1984-01" manufacturer="Elektronika" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -247,7 +247,7 @@
     </emulatorList>
   </system>
   <system uuid="ea72450d-06fa-4bc1-9f4f-982e5d09ece6" name="cavestory" fullname="Cave Story">
-    <descriptor path="%ROOT%/readystream/ports/Cave Story" theme="cavestory" extensions=".exe" icon="$F276" downloader="0" port="1" readonly="1"/>
+    <descriptor path="%ROOT%/ports/Cave Story" theme="cavestory" extensions=".exe" icon="$F276" downloader="0" port="1" readonly="1"/>
     <scraper screenscraper="138"/>
     <properties type="engine" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2004-12" manufacturer="Studio Pixel" retroachievements="0" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -291,7 +291,7 @@
     </emulatorList>
   </system>
   <system uuid="8ff2d76b-4668-48a8-b22e-95bf8787c8f9" name="daphne" fullname="Daphne">
-    <descriptor path="%ROOT%/readystream/daphne" theme="daphne" extensions=".daphne" icon="$F2a1" downloader="0"/>
+    <descriptor path="%ROOT%/daphne" theme="daphne" extensions=".daphne" icon="$F2a1" downloader="0"/>
     <scraper screenscraper="49"/>
     <properties type="arcade" pad="mandatory" keyboard="no" mouse="no" lightgun="optional" releasedate="1993-08" manufacturer="Daphne" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles="actionmax.daphne"/>
     <emulatorList>
@@ -301,7 +301,7 @@
     </emulatorList>
   </system>
   <system uuid="c3053be4-3c75-4d98-8936-8a324df19fa4" name="dinothawr" fullname="Dinothawr">
-    <descriptor path="%ROOT%/readystream/ports/Dinothawr" theme="dinothawr" extensions=".7z .game .zip" icon="$F2a2" downloader="0" port="1" readonly="1"/>
+    <descriptor path="%ROOT%/ports/Dinothawr" theme="dinothawr" extensions=".7z .game .zip" icon="$F2a2" downloader="0" port="1" readonly="1"/>
     <scraper screenscraper="135"/>
     <properties type="port" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2013-09" manufacturer="port" retroachievements="0" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -311,7 +311,7 @@
     </emulatorList>
   </system>
   <system uuid="45075616-dec4-4d25-ac6d-58b4687eec1e" name="doom" fullname="Doom">
-    <descriptor path="%ROOT%/readystream/ports/Doom" theme="doom" extensions=".iwad .lmp .zip .7z .pwad .wad" icon="$F277" downloader="0" port="1" readonly="0"/>
+    <descriptor path="%ROOT%/ports/Doom" theme="doom" extensions=".iwad .lmp .zip .7z .pwad .wad" icon="$F277" downloader="0" port="1" readonly="0"/>
     <scraper screenscraper="135"/>
     <properties type="engine" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1993-12" manufacturer="IdSoftware" retroachievements="0" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -321,7 +321,7 @@
     </emulatorList>
   </system>
   <system uuid="be655d24-11d6-4456-8007-f17239df83dd" name="dos" fullname="Dos (x86)">
-    <descriptor path="%ROOT%/readystream/dos" theme="pc" extensions=".pc .dos .zip" icon="$F24a" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/dos" theme="pc" extensions=".pc .dos .zip" icon="$F24a" downloader="0"/>
     <scraper screenscraper="135"/>
     <properties type="computer" pad="recommended" keyboard="recommended" mouse="recommended" lightgun="no" releasedate="1981-02" manufacturer="IBM" retroachievements="0" crt.multiresolution="1" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -334,7 +334,7 @@
     </emulatorList>
   </system>
   <system uuid="629b18fb-0ab4-f3a1-b34c-f235cd0c147c" name="dragon" fullname="Dragon 32/64">
-    <descriptor path="%ROOT%/readystream/dragon" theme="dragon" extensions=".wav .bas .dsk .os9 .ccc .jvc .rom .vdk .cas .asc .dmk" icon="$F2a4" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/dragon" theme="dragon" extensions=".wav .bas .dsk .os9 .ccc .jvc .rom .vdk .cas .asc .dmk" icon="$F2a4" downloader="0"/>
     <scraper screenscraper="144"/>
     <properties type="computer" pad="optional" keyboard="mandatory" mouse="optional" lightgun="no" releasedate="1982-08" manufacturer="DragonData" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -354,7 +354,7 @@
     </emulatorList>
   </system>
   <system uuid="94652d3c-ccba-4135-9f88-2c2f207b95db" name="easyrpg" fullname="EasyRPG">
-    <descriptor path="%ROOT%/readystream/easyrpg" theme="easyrpg" extensions="files: RPG_RT.INI" icon="$F2a6" downloader="0"/>
+    <descriptor path="%ROOT%/easyrpg" theme="easyrpg" extensions="files: RPG_RT.INI" icon="$F2a6" downloader="0"/>
     <scraper screenscraper="231"/>
     <properties type="engine" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2006-06" manufacturer="virtual" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -364,7 +364,7 @@
     </emulatorList>
   </system>
   <system uuid="70512af1-c5cf-4ea2-954d-38ecb000599d" name="fbneo" fullname="FinalBurn Neo">
-    <descriptor path="%ROOT%/readystream/fbneo" theme="fbneo" extensions=".7z .zip" icon="$F253" downloader="0"/>
+    <descriptor path="%ROOT%/fbneo" theme="fbneo" extensions=".7z .zip" icon="$F253" downloader="0"/>
     <scraper screenscraper="75"/>
     <properties type="arcade" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="2019-01" manufacturer="FBN" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -387,7 +387,7 @@
     </emulatorList>
   </system>
   <system uuid="3d0176f6-9106-43c6-964d-f56e5ed1c674" name="flashback" fullname="Flashback">
-    <descriptor path="%ROOT%/readystream/ports/Flashback" theme="flashback" extensions="files:instru_e.map instru_f.map demo_uk.aba" icon="$F2a8" downloader="0" port="1" readonly="0"/>
+    <descriptor path="%ROOT%/ports/Flashback" theme="flashback" extensions="files:instru_e.map instru_f.map demo_uk.aba" icon="$F2a8" downloader="0" port="1" readonly="0"/>
     <scraper screenscraper="135"/>
     <properties type="engine" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1992-01" manufacturer="Delphine" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -461,7 +461,7 @@
     </emulatorList>
   </system>
   <system uuid="c62f9c77a-a93e-4bb5-97f7-4127941e5eb2" name="gong" fullname="Gong">
-    <descriptor path="%ROOT%/readystream/ports/Gong" theme="gong" extensions=".game" icon="$F27f" downloader="0" port="1" readonly="1"/>
+    <descriptor path="%ROOT%/ports/Gong" theme="gong" extensions=".game" icon="$F27f" downloader="0" port="1" readonly="1"/>
     <scraper screenscraper="0"/>
     <properties type="port" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2021-03" manufacturer="port" retroachievements="0" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -481,7 +481,7 @@
     </emulatorList>
   </system>
   <system uuid="773b49bd-f420-4bba-a1ac-4641d0cfe53c" name="gx4000" fullname="Amstrad GX4000">
-    <descriptor path="%ROOT%/readystream/gx4000" theme="gx4000" extensions=".m3u .cpr .7z .zip" icon="$F2ac" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/gx4000" theme="gx4000" extensions=".m3u .cpr .7z .zip" icon="$F2ac" downloader="0"/>
     <scraper screenscraper="87"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1990-09" manufacturer="Amstrad" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -511,7 +511,7 @@
     </emulatorList>
   </system>
   <system uuid="e92e3aca-b93c-4a0b-91ed-af85fee79da4" name="jaguar" fullname="Atari Jaguar">
-    <descriptor path="/recalbox/share/rom/No-Intro/readystream/Atari - Jaguar (J64)" theme="jaguar" extensions=".abs .jag .bin .j64 .cof .zip .prg .rom .7z" icon="$F2af" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.abs$|\.jag$|\.bin$|\.j64$|\.cof$|\.prg$|\.rom$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Atari - Jaguar (J64)" theme="jaguar" extensions=".abs .jag .bin .j64 .cof .zip .prg .rom .7z" icon="$F2af" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.abs$|\.jag$|\.bin$|\.j64$|\.cof$|\.prg$|\.rom$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="27"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1993-11" manufacturer="Atari" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -521,7 +521,7 @@
     </emulatorList>
   </system>
   <system uuid="fc22d3f9-2c7f-44e8-ad6b-890a50c6081b" name="lowresnx" fullname="LowRes NX">
-    <descriptor path="%ROOT%/readystream/lowresnx" theme="lowresnx" extensions=".nx .7z .zip" icon="$0" downloader="0"/>
+    <descriptor path="%ROOT%/lowresnx" theme="lowresnx" extensions=".nx .7z .zip" icon="$0" downloader="0"/>
     <scraper screenscraper="244"/>
     <properties type="fantasy" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2017-08" manufacturer="virtual" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -531,7 +531,7 @@
     </emulatorList>
   </system>
   <system uuid="e7a752d8-265f-4d05-86ca-206b4d71f44e" name="lutro" fullname="Lutro">
-    <descriptor path="%ROOT%/readystream/lutro" theme="lutro" extensions=".lua .7z .lutro .zip" icon="$F27d" downloader="0"/>
+    <descriptor path="%ROOT%/lutro" theme="lutro" extensions=".lua .7z .lutro .zip" icon="$F27d" downloader="0"/>
     <scraper screenscraper="206"/>
     <properties type="fantasy" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2008-01" manufacturer="virtual" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -552,7 +552,7 @@
     </emulatorList>
   </system>
   <system uuid="f295b04f-39bd-4477-9a19-5905e0c0369f" name="macintosh" fullname="Apple Macintosh">
-    <descriptor path="%ROOT%/readystream/macintosh" theme="macintosh" extensions=".img .cmd .dsk .zip .hvf" icon="$F2b3" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/macintosh" theme="macintosh" extensions=".img .cmd .dsk .zip .hvf" icon="$F2b3" downloader="0"/>
     <scraper screenscraper="0"/>
     <properties type="computer" pad="mandatory" keyboard="optional" mouse="mandatory" lightgun="no" releasedate="1984-01" manufacturer="Apple" retroachievements="0" crt.multiresolution="1" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -562,7 +562,7 @@
     </emulatorList>
   </system>
   <system uuid="d80b0a13-6b33-469e-bf68-4f5a1696c48d" name="mame" fullname="Mame">
-    <descriptor path="%ROOT%/readystream/mame" theme="mame" extensions=".7z .zip" icon="$F255" downloader="0"/>
+    <descriptor path="%ROOT%/mame" theme="mame" extensions=".7z .zip" icon="$F255" downloader="0"/>
     <scraper screenscraper="75"/>
     <properties type="arcade" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="1997-02" manufacturer="Mame" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -602,7 +602,7 @@
     </emulatorList>
   </system>
   <system uuid="5a7050c1-6589-4179-8a32-9452cb70e25f" name="megaduck" fullname="MegaDuck">
-    <descriptor path="%ROOT%/readystream/megaduck" theme="megaduck" extensions=".bin" icon="$F280" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/megaduck" theme="megaduck" extensions=".bin" icon="$F280" downloader="0"/>
     <scraper screenscraper="90"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="1993-01" manufacturer="Welback" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -612,7 +612,7 @@
     </emulatorList>
   </system>
   <system uuid="091761b4-157c-4f06-a5d6-c739000b9fcd" name="minecraft" fullname="Minecraft">
-    <descriptor path="%ROOT%/readystream/ports/Minecraft" theme="minecraft" extensions=".game" icon="$F2b4" downloader="0" port="1" readonly="1"/>
+    <descriptor path="%ROOT%/ports/Minecraft" theme="minecraft" extensions=".game" icon="$F2b4" downloader="0" port="1" readonly="1"/>
     <scraper screenscraper="0"/>
     <properties type="engine" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2013-12" manufacturer="Mojang" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -622,7 +622,7 @@
     </emulatorList>
   </system>
   <system uuid="4135d5b4-ed4b-4c97-a757-5666a9c615ae" name="model3" fullname="Sega Model3">
-    <descriptor path="%ROOT%/readystream/model3" theme="model3" extensions=".zip" icon="$F2b5" downloader="0"/>
+    <descriptor path="%ROOT%/model3" theme="model3" extensions=".zip" icon="$F2b5" downloader="0"/>
     <scraper screenscraper="55"/>
     <properties type="arcade" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1996-01" manufacturer="Sega" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -632,7 +632,7 @@
     </emulatorList>
   </system>
   <system uuid="cb1c4e8b-b23f-460b-a5b3-7aef8e4d897b" name="moonlight" fullname="Moonlight">
-    <descriptor path="%ROOT%/readystream/moonlight" theme="moonlight" extensions=".moonlight" icon="$F27e" downloader="0"/>
+    <descriptor path="%ROOT%/moonlight" theme="moonlight" extensions=".moonlight" icon="$F27e" downloader="0"/>
     <scraper screenscraper="0"/>
     <properties type="virtual" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2015-05" manufacturer="NVidia" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -642,7 +642,7 @@
     </emulatorList>
   </system>
   <system uuid="a868b410-7d9b-49e9-acee-43c88fcd217d" name="mrboom" fullname="Mr. Boom">
-    <descriptor path="%ROOT%/readystream/ports/Mr. Boom" theme="mrboom" extensions=".game" icon="$F2b6" downloader="0" port="1" readonly="1"/>
+    <descriptor path="%ROOT%/ports/Mr. Boom" theme="mrboom" extensions=".game" icon="$F2b6" downloader="0" port="1" readonly="1"/>
     <scraper screenscraper="0"/>
     <properties type="port" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2017-01" manufacturer="port" retroachievements="0" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -675,7 +675,7 @@
     </emulatorList>
   </system>
   <system uuid="44593983-e8f1-4ae6-90bb-4f7ba7091fc3" name="msxturbor" fullname="MSXturboR">
-    <descriptor path="%ROOT%/readystream/msxturbor" theme="msxturbor" extensions=".7z .dsk .m3u .mx2 .mx1 .zip .rom .cas" icon="$F2b7" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/msxturbor" theme="msxturbor" extensions=".7z .dsk .m3u .mx2 .mx1 .zip .rom .cas" icon="$F2b7" downloader="0"/>
     <scraper screenscraper="118"/>
     <properties type="computer" pad="recommended" keyboard="recommended" mouse="optional" lightgun="no" releasedate="1990-01" manufacturer="Microsoft" retroachievements="1" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -685,7 +685,7 @@
     </emulatorList>
   </system>
   <system uuid="2bb4a383-e195-4b56-8f4d-20fe99a9bcf8" name="multivision" fullname="Othello Multivision">
-    <descriptor path="%ROOT%/readystream/multivision" theme="multivision" extensions=".mv .sg .bin .zip .7z" icon="$F2b8" downloader="0"/>
+    <descriptor path="%ROOT%/multivision" theme="multivision" extensions=".mv .sg .bin .zip .7z" icon="$F2b8" downloader="0"/>
     <scraper screenscraper="109"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1983-07" manufacturer="Tsukuda" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -720,7 +720,7 @@
     </emulatorList>
   </system>
   <system uuid="42a3fa8f-a538-468c-899e-2d27bd2f1490" name="naomigd" fullname="Sega NAOMI GD-ROM System">
-    <descriptor path="%ROOT%/readystream/naomigd" theme="naomigd" extensions=".dat .lst .7z .zip" icon="$F2ba" downloader="0"/>
+    <descriptor path="%ROOT%/naomigd" theme="naomigd" extensions=".dat .lst .7z .zip" icon="$F2ba" downloader="0"/>
     <scraper screenscraper="227"/>
     <properties type="arcade" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="2000-09" manufacturer="Sega" retroachievements="1" crt.multiresolution="1" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -741,7 +741,7 @@
     </emulatorList>
   </system>
   <system uuid="e2a0a36b-03ea-47b8-a951-a8f0b4870d14" name="neogeo" fullname="Neo-Geo">
-    <descriptor path="%ROOT%/readystream/neogeo" theme="neogeo" extensions=".7z .zip" icon="$F257" downloader="0"/>
+    <descriptor path="%ROOT%/neogeo" theme="neogeo" extensions=".7z .zip" icon="$F257" downloader="0"/>
     <scraper screenscraper="142"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1990-04" manufacturer="SNK" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -814,7 +814,7 @@
     </emulatorList>
   </system>
   <system uuid="0fd61ffe-bd53-4eed-b17b-4e29694822c5" name="openbor" fullname="OpenBOR">
-    <descriptor path="%ROOT%/readystream/openbor" theme="openbor" extensions=".pak" icon="$F2bd" downloader="0"/>
+    <descriptor path="%ROOT%/openbor" theme="openbor" extensions=".pak" icon="$F2bd" downloader="0"/>
     <scraper screenscraper="214"/>
     <properties type="engine" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2004-01" manufacturer="Senile Team" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -824,7 +824,7 @@
     </emulatorList>
   </system>
   <system uuid="abbe867d-295f-45ba-aff0-13aa3bbdf457" name="oricatmos" fullname="Oric/Atmos">
-    <descriptor path="%ROOT%/readystream/oricatmos" theme="oric" extensions=".dsk .tap" icon="$F2be" downloader="0"/>
+    <descriptor path="%ROOT%/oricatmos" theme="oric" extensions=".dsk .tap" icon="$F2be" downloader="0"/>
     <scraper screenscraper="131"/>
     <properties type="computer" pad="mandatory" keyboard="mandatory" mouse="no" lightgun="no" releasedate="1984-01" manufacturer="Tangerine" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -834,7 +834,7 @@
     </emulatorList>
   </system>
   <system uuid="19bcd6ec-1c84-4c33-b03b-9a354594c9ae" name="outrun" fullname="Out Run">
-    <descriptor path="%ROOT%/readystream/ports/Out Run" theme="outrun" extensions=".88" icon="$F29d" downloader="0" port="1" readonly="0"/>
+    <descriptor path="%ROOT%/ports/Out Run" theme="outrun" extensions=".88" icon="$F29d" downloader="0" port="1" readonly="0"/>
     <scraper screenscraper="135"/>
     <properties type="engine" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1986-09" manufacturer="port" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -854,7 +854,7 @@
     </emulatorList>
   </system>
   <system uuid="07d1d12d-b4bf-45b9-a73a-b16d5954dcb0" name="pc88" fullname="NEC PC-88">
-    <descriptor path="%ROOT%/readystream/pc88" theme="pc88" extensions=".d88 .t88 .cmt .m3u .zip .7z" icon="$F2c0" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/pc88" theme="pc88" extensions=".d88 .t88 .cmt .m3u .zip .7z" icon="$F2c0" downloader="0"/>
     <scraper screenscraper="221"/>
     <properties type="computer" pad="optional" keyboard="mandatory" mouse="no" lightgun="no" releasedate="1981-11" manufacturer="NEC" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -864,7 +864,7 @@
     </emulatorList>
   </system>
   <system uuid="15f824eb-3277-4ecf-9cbc-8f09c72a4139" name="pc98" fullname="NEC PC-98">
-    <descriptor path="%ROOT%/readystream/pc98" theme="pc98" extensions=".fdd .nfd .2hd .thd .m3u .xdf .hdn .tfd .fdi .hdm .nhd .d98 .dup .98d .hdd .d88 .hdi .dcp .cmd .88d .zip .7z" icon="$F2c1" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/pc98" theme="pc98" extensions=".fdd .nfd .2hd .thd .m3u .xdf .hdn .tfd .fdi .hdm .nhd .d98 .dup .98d .hdd .d88 .hdi .dcp .cmd .88d .zip .7z" icon="$F2c1" downloader="0"/>
     <scraper screenscraper="208"/>
     <properties type="computer" pad="recommended" keyboard="mandatory" mouse="optional" lightgun="no" releasedate="1982-10" manufacturer="NEC" retroachievements="0" crt.multiresolution="1" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -979,7 +979,7 @@
     </emulatorList>
   </system>
   <system uuid="4517d91e-d886-4e98-85b6-f53bac11e875" name="quake" fullname="Quake">
-    <descriptor path="%ROOT%/readystream/ports/Quake" theme="quake" extensions=".pak .7z .zip" icon="$F2cd" downloader="0" port="1" readonly="0"/>
+    <descriptor path="%ROOT%/ports/Quake" theme="quake" extensions=".pak .7z .zip" icon="$F2cd" downloader="0" port="1" readonly="0"/>
     <scraper screenscraper="135"/>
     <properties type="engine" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1996-06" manufacturer="IdSoftware" retroachievements="0" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -989,7 +989,7 @@
     </emulatorList>
   </system>
   <system uuid="cf34a3a4-b38e-475d-81b5-214ebe6f8d45" name="quake2" fullname="Quake 2">
-    <descriptor path="%ROOT%/readystream/ports/Quake 2" theme="quake" extensions=".pak .7z .zip" icon="$F2ce" downloader="0" port="1" readonly="0"/>
+    <descriptor path="%ROOT%/ports/Quake 2" theme="quake" extensions=".pak .7z .zip" icon="$F2ce" downloader="0" port="1" readonly="0"/>
     <scraper screenscraper="0"/>
     <properties type="engine" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1997-12" manufacturer="IdSoftware" retroachievements="0" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -999,7 +999,7 @@
     </emulatorList>
   </system>
   <system uuid="ac2e6507-2645-4aba-8fdc-133015973a56" name="rickdangerous" fullname="Rick Dangerous">
-    <descriptor path="%ROOT%/readystream/ports/Rick Dangerous" theme="xrick" extensions=".7z .zip" icon="$F2d1" downloader="0" port="1" readonly="1"/>
+    <descriptor path="%ROOT%/ports/Rick Dangerous" theme="xrick" extensions=".7z .zip" icon="$F2d1" downloader="0" port="1" readonly="1"/>
     <scraper screenscraper="135"/>
     <properties type="engine" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1989-01" manufacturer="Core Design" retroachievements="0" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -1009,7 +1009,7 @@
     </emulatorList>
   </system>
   <system uuid="b2d8800d-a935-4421-b6a1-43aa6daad202" name="samcoupe" fullname="MGT SAM Coupé">
-    <descriptor path="%ROOT%/readystream/samcoupe" theme="samcoupe" extensions=".sbt .sad .mgt .dsk" icon="$F2d3" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/samcoupe" theme="samcoupe" extensions=".sbt .sad .mgt .dsk" icon="$F2d3" downloader="0"/>
     <scraper screenscraper="213"/>
     <properties type="computer" pad="mandatory" keyboard="mandatory" mouse="no" lightgun="no" releasedate="1989-01" manufacturer="MGT" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1045,7 +1045,7 @@
     </emulatorList>
   </system>
   <system uuid="8f05756d-78f5-4d5e-b207-6dbe2a971739" name="scummvm" fullname="ScummVM">
-    <descriptor path="%ROOT%/readystream/scummvm" theme="scummvm" extensions=".scummvm .residualvm" icon="$F27a" downloader="0"/>
+    <descriptor path="%ROOT%/scummvm" theme="scummvm" extensions=".scummvm .residualvm" icon="$F27a" downloader="0"/>
     <scraper screenscraper="123"/>
     <properties type="engine" pad="mandatory" keyboard="no" mouse="mandatory" lightgun="no" releasedate="2001-10" manufacturer="Ludvig Strigeus" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1115,7 +1115,7 @@
     </emulatorList>
   </system>
   <system uuid="c76d8cd6-ebaa-4925-864a-46c84b0dc524" name="solarus" fullname="Solarus">
-    <descriptor path="%ROOT%/readystream/solarus" theme="solarus" extensions=".solarus .zip" icon="$F2d7" downloader="0"/>
+    <descriptor path="%ROOT%/solarus" theme="solarus" extensions=".solarus .zip" icon="$F2d7" downloader="0"/>
     <scraper screenscraper="223"/>
     <properties type="engine" pad="mandatory" keyboard="optional" mouse="no" lightgun="no" releasedate="2011-12" manufacturer="Solarus" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1125,7 +1125,7 @@
     </emulatorList>
   </system>
   <system uuid="5903388e-2948-4cfa-86b5-79c44a2522c5" name="spectravideo" fullname="Spectravideo">
-    <descriptor path="%ROOT%/readystream/spectravideo" theme="spectravideo" extensions=".cas .bin .zip" icon="$F2d8" downloader="0"/>
+    <descriptor path="%ROOT%/spectravideo" theme="spectravideo" extensions=".cas .bin .zip" icon="$F2d8" downloader="0"/>
     <scraper screenscraper="218"/>
     <properties type="computer" pad="recommended" keyboard="mandatory" mouse="no" lightgun="no" releasedate="1983-01" manufacturer="Spectravideo" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1166,7 +1166,7 @@
     </emulatorList>
   </system>
   <system uuid="9d11b8ff-9ecd-4e45-8e39-2e2f44f21353" name="thomson" fullname="Thomson">
-    <descriptor path="%ROOT%/readystream/thomson" theme="to8" extensions=".k7 .sap .zip .m5 .m7 .7z .fd .rom" icon="$F2e3" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/thomson" theme="to8" extensions=".k7 .sap .zip .m5 .m7 .7z .fd .rom" icon="$F2e3" downloader="0"/>
     <scraper screenscraper="141"/>
     <properties type="computer" pad="recommended" keyboard="mandatory" mouse="optional" lightgun="no" releasedate="1982-11" manufacturer="Thomson" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1176,7 +1176,7 @@
     </emulatorList>
   </system>
   <system uuid="65338078-f443-4f5f-aaee-9ea7ffee9c32" name="ti994a" fullname="Texas Instrument TI-99/4A">
-    <descriptor path="%ROOT%/readystream/ti994a" theme="ti994a" extensions=".ctg" icon="$0" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/ti994a" theme="ti994a" extensions=".ctg" icon="$0" downloader="0"/>
     <scraper screenscraper="205"/>
     <properties type="computer" pad="optional" keyboard="mandatory" mouse="optional" lightgun="no" releasedate="1981-06" manufacturer="Texas Instrument" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1186,7 +1186,7 @@
     </emulatorList>
   </system>
   <system uuid="e2e512b0-f929-4f7b-b5f0-1cbca9757a24" name="tic80" fullname="TIC-80">
-    <descriptor path="%ROOT%/readystream/tic80" theme="tic80" extensions=".tic .7z .zip" icon="$F2e4" downloader="1"/>
+    <descriptor path="%ROOT%/tic80" theme="tic80" extensions=".tic .7z .zip" icon="$F2e4" downloader="1"/>
     <scraper screenscraper="222"/>
     <properties type="fantasy" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2017-09" manufacturer="port" retroachievements="0" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -1196,7 +1196,7 @@
     </emulatorList>
   </system>
   <system uuid="879b19fb-0eb4-484f-b34c-f2253dcc148c" name="trs80coco" fullname="TRS-80 Color Computer">
-    <descriptor path="%ROOT%/readystream/trs80coco" theme="trs80coco" extensions=".dmk .wav .ccc .dsk .os9 .c10 .jvc .rom .vdk .cas .asc .bas" icon="$0" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/trs80coco" theme="trs80coco" extensions=".dmk .wav .ccc .dsk .os9 .c10 .jvc .rom .vdk .cas .asc .bas" icon="$0" downloader="0"/>
     <scraper screenscraper="144"/>
     <properties type="computer" pad="optional" keyboard="mandatory" mouse="optional" lightgun="no" releasedate="1980-09" manufacturer="Tandy" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1206,7 +1206,7 @@
     </emulatorList>
   </system>
   <system uuid="b4fcdcbf-7331-4fdd-a4d9-635f1051e818" name="uzebox" fullname="Uzebox">
-    <descriptor path="%ROOT%/readystream/uzebox" theme="uzebox" extensions=".7z .uze .zip" icon="$F2e6" downloader="1"/>
+    <descriptor path="%ROOT%/uzebox" theme="uzebox" extensions=".7z .uze .zip" icon="$F2e6" downloader="1"/>
     <scraper screenscraper="216"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2007-01" manufacturer="port" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1226,7 +1226,7 @@
     </emulatorList>
   </system>
   <system uuid="382f194d-b670-4c8f-b56c-f6f74ce87b3b" name="vg5000" fullname="Philips VG 5000">
-    <descriptor path="%ROOT%/readystream/vg5000" theme="vg5000" extensions=".k7" icon="$F289" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/vg5000" theme="vg5000" extensions=".k7" icon="$F289" downloader="0"/>
     <scraper screenscraper="261"/>
     <properties type="computer" pad="recommended" keyboard="mandatory" mouse="no" lightgun="no" releasedate="1984-09" manufacturer="Philips" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1266,7 +1266,7 @@
     </emulatorList>
   </system>
   <system uuid="359c1df6-6e2d-426f-87e1-d2e2092177a7" name="wasm4" fullname="WASM-4">
-    <descriptor path="%ROOT%/readystream/wasm4" theme="wasm4" extensions=".wasm" icon="$F287" downloader="1"/>
+    <descriptor path="%ROOT%/wasm4" theme="wasm4" extensions=".wasm" icon="$F287" downloader="1"/>
     <scraper screenscraper="262"/>
     <properties type="fantasy" pad="mandatory" keyboard="optional" mouse="optional" lightgun="no" releasedate="2021-08" manufacturer="Bruno Garcia" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1286,7 +1286,7 @@
     </emulatorList>
   </system>
   <system uuid="35cf6db7-646b-4b81-aa79-38f0494b9bc6" name="wolfenstein3d" fullname="Wolfenstein 3D">
-    <descriptor path="%ROOT%/readystream/ports/Wolfenstein 3D" theme="wolfenstein3d" extensions=".pk3 .7z .exe .zip" icon="$F2eb" downloader="0" port="1" readonly="0"/>
+    <descriptor path="%ROOT%/ports/Wolfenstein 3D" theme="wolfenstein3d" extensions=".pk3 .7z .exe .zip" icon="$F2eb" downloader="0" port="1" readonly="0"/>
     <scraper screenscraper="135"/>
     <properties type="engine" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1992-05" manufacturer="IdSoftware" retroachievements="0" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -1316,7 +1316,7 @@
     </emulatorList>
   </system>
   <system uuid="c2adcca8-96a1-4ca4-bdea-645c2ac99d3e" name="x1" fullname="Sharp X1">
-    <descriptor path="%ROOT%/readystream/x1" theme="x1" extensions=".d88 .tfd .zip .2hd .cmd .m3u .dup .88d .xdf .hdm .dx1 .2d .7z" icon="$F2ec" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/x1" theme="x1" extensions=".d88 .tfd .zip .2hd .cmd .m3u .dup .88d .xdf .hdm .dx1 .2d .7z" icon="$F2ec" downloader="0"/>
     <scraper screenscraper="220"/>
     <properties type="computer" pad="mandatory" keyboard="recommended" mouse="no" lightgun="no" releasedate="1982-01" manufacturer="Sharp" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1326,7 +1326,7 @@
     </emulatorList>
   </system>
   <system uuid="4ad3d91a-b6d1-4463-a595-58f9eba95b00" name="x68000" fullname="Sharp X68000">
-    <descriptor path="%ROOT%/readystream/x68000" theme="x68000" extensions=".dim .d88 .zip .img .2hd .hdf .cmd .m3u .dup .88d .xdf .hdm .7z" icon="$F2ed" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/x68000" theme="x68000" extensions=".dim .d88 .zip .img .2hd .hdf .cmd .m3u .dup .88d .xdf .hdm .7z" icon="$F2ed" downloader="0"/>
     <scraper screenscraper="79"/>
     <properties type="computer" pad="mandatory" keyboard="recommended" mouse="optional" lightgun="no" releasedate="1987-01" manufacturer="Sharp" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1336,7 +1336,7 @@
     </emulatorList>
   </system>
   <system uuid="6ccfd226-39bb-4630-970b-faeb97cd86bc" name="zmachine" fullname="Infocom Z-Machine">
-    <descriptor path="%ROOT%/readystream/zmachine" theme="zmachine" extensions=".dat .z6 .z8 .z4 .z7 .z1 .z5 .zip .z3 .7z .z2" icon="$F288" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/zmachine" theme="zmachine" extensions=".dat .z6 .z8 .z4 .z7 .z1 .z5 .zip .z3 .7z .z2" icon="$F288" downloader="0"/>
     <scraper screenscraper="215"/>
     <properties type="engine" pad="optional" keyboard="mandatory" mouse="no" lightgun="no" releasedate="1979-01" manufacturer="Infocom" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1349,7 +1349,7 @@
     </emulatorList>
   </system>
   <system uuid="7f9da90c-5a4b-475d-a9c2-efdbfc0d9d6f" name="zx81" fullname="ZX81">
-    <descriptor path="%ROOT%/readystream/zx81" theme="zx81" extensions=".p .t81 .tzx .zip .7z" icon="$F250" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/zx81" theme="zx81" extensions=".p .t81 .tzx .zip .7z" icon="$F250" downloader="0"/>
     <scraper screenscraper="77"/>
     <properties type="computer" pad="no" keyboard="mandatory" mouse="no" lightgun="no" releasedate="1981-03" manufacturer="Sinclair" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1359,7 +1359,7 @@
     </emulatorList>
   </system>
   <system uuid="c5e8f901-97e8-478f-a32f-61f49d071071" name="zxspectrum" fullname="ZXSpectrum">
-    <descriptor path="%ROOT%/readystream/zxspectrum" theme="zxspectrum" extensions=".csw .z80 .trd .scl .7z .tap .tzx .slt .dsk .rzx .zip .szx" icon="$F251" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/zxspectrum" theme="zxspectrum" extensions=".csw .z80 .trd .scl .7z .tap .tzx .slt .dsk .rzx .zip .szx" icon="$F251" downloader="0"/>
     <scraper screenscraper="76"/>
     <properties type="computer" pad="mandatory" keyboard="optional" mouse="no" lightgun="no" releasedate="1982-04" manufacturer="Sinclair" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
