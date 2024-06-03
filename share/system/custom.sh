@@ -215,7 +215,7 @@ httpdirfs --cache --no-range-check --cache-location /recalbox/share/system/.cach
 
 echo "Mounting libretro thumbnails..."
 
-# Define console mount commands
+# Define TOSEC Romsets Array
 declare -A consoles
 consoles=(
     ["Amstrad_CPC"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Amstrad/CPC/Games/[DSK]/Amstrad CPC - Games - [DSK].zip\" \"/recalbox/share/zip/amstradcpc/\""
