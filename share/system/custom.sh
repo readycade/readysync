@@ -5,7 +5,7 @@
 ## Author Michael Cabral 2024
 ## Title: Readysync
 ## GPL-3.0 license
-## Description: Mounts any HTTP repository of Romsets giving you an Online and Offline experience.
+## Description: Mounts any HTTP/FTP repository of Romsets giving you an Online and Offline experience.
 ## Online = HTTP/FTP Mounted Games
 ## Offline = Local Hard Drive Games
 ## Supported Romsets: (No-Intro, Redump, TOSEC and more)
