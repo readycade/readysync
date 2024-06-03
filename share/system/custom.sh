@@ -283,8 +283,6 @@ install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/sh
 # Mark online mode as enabled
 echo "true" > "$online_mode_flag_file"
 
-sleep 10
-
 # Start EmulationStation
 chvt 1; es start
 
