@@ -215,6 +215,99 @@ httpdirfs --cache --no-range-check --cache-location /recalbox/share/system/.cach
 
 echo "Mounting libretro thumbnails..."
 
+# Define console mount commands
+declare -A consoles
+consoles=(
+    ["Amstrad_CPC"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Amstrad/CPC/Games/[DSK]/Amstrad CPC - Games - [DSK].zip\" \"/recalbox/share/zip/amstradcpc/\""
+    ["Atari_8bit"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Atari/8bit/Games/[XEX]/Atari 8bit - Games - [XEX].zip\" \"/recalbox/share/zip/atari800/\""
+    ["NEC_PC-8801"]="mount-zip -v \"/recalbox/share/rom/TOSEC/NEC/PC-8801/Games/[D88]/NEC PC-8801 - Games - [D88].zip\" \"/recalbox/share/zip/pc88/\""
+    ["NEC_PC-9801"]="mount-zip -v \"/recalbox/share/rom/TOSEC/NEC/PC-9801/Games/[FDD]/NEC PC-9801 - Games - [FDD].zip\" \"/recalbox/share/zip/pc98/\""
+    ["Sinclair_ZX_Spectrum"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Sinclair/ZX Spectrum/Games/[TAP]/Sinclair ZX Spectrum - Games - [TAP].zip\" \"/recalbox/share/zip/zxspectrum/\""
+    ["Sinclair_ZX81"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Sinclair/ZX81/Games/[P]/Sinclair ZX81 - Games - [P].zip\" \"/recalbox/share/zip/zx81/\""
+    ["Sharp_X1"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Sharp/X1/Games/[TAP]/Sharp X1 - Games - [TAP].zip\" \"/recalbox/share/zip/x1/\""
+    ["Sharp_X68000"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Sharp/X68000/Games/[DIM]/Sharp X68000 - Games - [DIM].zip\" \"/recalbox/share/zip/x68000/\""
+    ["Amstrad_GX4000"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Amstrad/GX4000/Games/Amstrad GX4000 - Games.zip\" \"/recalbox/share/zip/gx4000/\""
+    ["Apple_Macintosh"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Apple/Macintosh/Games/[DSK]/Apple Macintosh - Games - [DSK].zip\" \"/recalbox/share/zip/macintosh/\""
+    ["Elektronika_BK-0011-411"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Elektronika/BK-0011-411/Games/Elektronika BK-0011-411 - Games.zip\" \"/recalbox/share/zip/bk/\""
+    ["MSX_TurboR"]="mount-zip -v \"/recalbox/share/rom/TOSEC/MSX/TurboR/Games/MSX TurboR - Games.zip\" \"/recalbox/share/zip/msxturbor/\""
+    ["Acorn_BBC"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Acorn/BBC/Games/[SSD]/Acorn BBC - Games - [SSD].zip\" \"/recalbox/share/zip/bbcmicro/\""
+    ["Dragon_Data_Dragon"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Dragon Data/Dragon/Games/[CAS]/Dragon Data Dragon - Games - [CAS].zip\" \"/recalbox/share/zip/dragon/\""
+    ["MGT_Sam_Coupe"]="mount-zip -v \"/recalbox/share/rom/TOSEC/MGT/Sam Coupe/Games/[DSK]/MGT Sam Coupe - Games - [DSK].zip\" \"/recalbox/share/zip/samcoupe/\""
+    ["Thomson_TO8_TO8D_TO9_TO9+"]="/mount-zip -v \"/recalbox/share/rom/TOSEC/Thomson/TO8, TO8D, TO9, TO9+/Games/[FD]/Thomson TO8, TO8D, TO9, TO9+ - Games - [FD].zip\" \"/recalbox/share/zip/thomson/\""
+    ["Texas_Instruments_TI-99_4A"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Texas Instruments/TI-99 4A/Games/[DSK]/Texas Instruments TI-99 4A - Games - [DSK].zip\" \"/recalbox/share/zip/ti994a/\""
+    ["Tandy_TRS-80_CoCo"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Tandy Radio Shack/TRS-80 Color Computer/Games/[DSK]/Tandy Radio Shack TRS-80 Color Computer - Games - [DSK].zip\" \"/recalbox/share/zip/trs80coco/\""
+    ["Philips_VG5000"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Philips/VG 5000/Games/Philips VG 5000 - Games.zip\" \"/recalbox/share/zip/vg5000/\""
+    ["Infocom_Z-Machine"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Infocom/Z-Machine/Games/Infocom Z-Machine - Games.zip\" \"/recalbox/share/zip/zmachine/\""
+    ["IBM_PC_Compatibles"]="mount-zip -v \"/recalbox/share/rom/TOSEC/IBM/PC Compatibles/Games/[IMG]/IBM PC Compatibles - Games - [IMG].zip\" \"/recalbox/share/zip/dos/\""
+    ["Commodore_PET"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Commodore/PET/Games/[PRG]/Commodore PET - Games - [PRG].zip\" \"/recalbox/share/zip/pet/\""
+)
+
+# Most TOSEC romsets are automatically enabled.
+# Romsets with thousands of games are disabled by default (# = disabled)
+
+# Enable the desired consoles by uncommenting the relevant lines
+
+#-----------START OF USER EDIT-------------#
+
+# Amstrad CPC
+#enabled_consoles+=("Amstrad_CPC")
+# Atari 8bit
+enabled_consoles+=("Atari_8bit")
+# NEC PC-8801
+enabled_consoles+=("NEC_PC-8801")
+# NEC PC-9801
+#enabled_consoles+=("NEC_PC-9801")
+# Sinclair ZX Spectrum
+enabled_consoles+=("Sinclair_ZX_Spectrum")
+# Sinclair ZX81
+enabled_consoles+=("Sinclair_ZX81")
+# Sharp X1
+enabled_consoles+=("Sharp_X1")
+# Sharp X68000
+enabled_consoles+=("Sharp_X68000")
+# Amstrad GX4000
+#enabled_consoles+=("Amstrad_GX4000")
+# Apple Macintosh
+enabled_consoles+=("Apple_Macintosh")
+# Elektronika BK-0011-411
+enabled_consoles+=("Elektronika_BK-0011-411")
+# MSX TurboR
+enabled_consoles+=("MSX_TurboR")
+#Acorn BBC
+enabled_consoles+=("Acorn_BBC")
+# Dragon Data Dragon
+enabled_consoles+=("Dragon_Data_Dragon")
+# MGT Sam Coupe
+enabled_consoles+=("MGT_Sam_Coupe")
+# Thomson TO8, TO8D, TO9, TO9+
+enabled_consoles+=("Thomson_TO8_TO8D_TO9_TO9+")
+# Texas Instruments TI-99 4A
+enabled_consoles+=("Texas_Instruments_TI-99_4A")
+# Tandy TRS-80 CoCo
+enabled_consoles+=("Tandy_TRS-80_CoCo")
+# Philips VG5000
+enabled_consoles+=("Philips_VG5000")
+# Infocom Z-Machine
+enabled_consoles+=("Infocom_Z-Machine")
+# IBM PC Compatibles
+enabled_consoles+=("IBM_PC_Compatibles")
+# Commodore PET (NOT SUPPORTED BY RECALBOX)
+#enabled_consoles+=("Commodore_PET")
+
+#------------END OF USER EDIT--------------#
+
+# Mount enabled consoles
+for console in "${enabled_consoles[@]}"; do
+    if [[ -n "${consoles[$console]}" ]]; then
+        echo "Mounting $console..."
+        eval "${consoles[$console]}"
+    else
+        echo "Invalid console: $console"
+    fi
+done
+
+echo "Selected consoles have been mounted."
+
 # Function to download a file with retries
 download_with_retry() {
     local url=$1
