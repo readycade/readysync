@@ -1,0 +1,872 @@
+<gamelist>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Adventures Of Captain Comic, The (19xx)(Lars).dsk</path>
+    <name>Adventures Of Captain Comic, The (19xx)(Lars)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Adventures Of Captain Comic, The (19xx)(Lars).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Adventures Of Captain Comic, The (19xx)(Lars).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Blokker (1995)(Stephen McGreal).dsk</path>
+    <name>Blokker (1995)(Stephen McGreal)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Blokker (1995)(Stephen McGreal).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Blokker (1995)(Stephen McGreal).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Boing! (1992)(Noesis Software).dsk</path>
+    <name>Boing! (1992)(Noesis Software)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Boing! (1992)(Noesis Software).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Boing! (1992)(Noesis Software).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Cross Bomber (2021-05-13)(Caruso, Fabrizio).dsk</path>
+    <name>Cross Bomber (2021-05-13)(Caruso, Fabrizio)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Cross Bomber (2021-05-13)(Caruso, Fabrizio).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Cross Bomber (2021-05-13)(Caruso, Fabrizio).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Cross Chase (2018-04-15)(Caruso, Fabrizio).dsk</path>
+    <name>Cross Chase (2018-04-15)(Caruso, Fabrizio)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Cross Chase (2018-04-15)(Caruso, Fabrizio).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Cross Chase (2018-04-15)(Caruso, Fabrizio).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Cross Chase (2018-05-19)(Caruso, Fabrizio).dsk</path>
+    <name>Cross Chase (2018-05-19)(Caruso, Fabrizio)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Cross Chase (2018-05-19)(Caruso, Fabrizio).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Cross Chase (2018-05-19)(Caruso, Fabrizio).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Cross Chase (2018-07-19)(Caruso, Fabrizio).dsk</path>
+    <name>Cross Chase (2018-07-19)(Caruso, Fabrizio)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Cross Chase (2018-07-19)(Caruso, Fabrizio).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Cross Chase (2018-07-19)(Caruso, Fabrizio).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Cross Chase (2018-08-04)(Caruso, Fabrizio).dsk</path>
+    <name>Cross Chase (2018-08-04)(Caruso, Fabrizio)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Cross Chase (2018-08-04)(Caruso, Fabrizio).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Cross Chase (2018-08-04)(Caruso, Fabrizio).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Cross Chase (2018-10-29)(Caruso, Fabrizio).dsk</path>
+    <name>Cross Chase (2018-10-29)(Caruso, Fabrizio)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Cross Chase (2018-10-29)(Caruso, Fabrizio).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Cross Chase (2018-10-29)(Caruso, Fabrizio).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Cross Chase (2020-04-02)(Caruso, Fabrizio).dsk</path>
+    <name>Cross Chase (2020-04-02)(Caruso, Fabrizio)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Cross Chase (2020-04-02)(Caruso, Fabrizio).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Cross Chase (2020-04-02)(Caruso, Fabrizio).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Cross Chase (2021-05-13)(Caruso, Fabrizio).dsk</path>
+    <name>Cross Chase (2021-05-13)(Caruso, Fabrizio)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Cross Chase (2021-05-13)(Caruso, Fabrizio).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Cross Chase (2021-05-13)(Caruso, Fabrizio).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Cross Horde v1.0 (2021-05-01)(Caruso, Fabrizio).dsk</path>
+    <name>Cross Horde v1.0 (2021-05-01)(Caruso, Fabrizio)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Cross Horde v1.0 (2021-05-01)(Caruso, Fabrizio).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Cross Horde v1.0 (2021-05-01)(Caruso, Fabrizio).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Cross Shoot (2021-05-13)(Caruso, Fabrizio).dsk</path>
+    <name>Cross Shoot (2021-05-13)(Caruso, Fabrizio)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Cross Shoot (2021-05-13)(Caruso, Fabrizio).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Cross Shoot (2021-05-13)(Caruso, Fabrizio).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Cross Snake v2.0 (2020-12-31)(Caruso, Fabrizio).dsk</path>
+    <name>Cross Snake v2.0 (2020-12-31)(Caruso, Fabrizio)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Cross Snake v2.0 (2020-12-31)(Caruso, Fabrizio).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Cross Snake v2.0 (2020-12-31)(Caruso, Fabrizio).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Curse of the Serpent&apos;s Eye (1994)(Dream World Adventures).dsk</path>
+    <name>Curse of the Serpent&apos;s Eye (1994)(Dream World Adventures)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Curse of the Serpent&apos;s Eye (1994)(Dream World Adventures).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Curse of the Serpent&apos;s Eye (1994)(Dream World Adventures).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Curse of the Serpent&apos;s Eye (1994)(Dream World Adventures)[a2].dsk</path>
+    <name>Curse of the Serpent&apos;s Eye (1994)(Dream World Adventures)[a2]</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Curse of the Serpent&apos;s Eye (1994)(Dream World Adventures)[a2].png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Curse of the Serpent&apos;s Eye (1994)(Dream World Adventures)[a2].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Curse of the Serpent&apos;s Eye (1994)(Dream World Adventures)[a3].dsk</path>
+    <name>Curse of the Serpent&apos;s Eye (1994)(Dream World Adventures)[a3]</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Curse of the Serpent&apos;s Eye (1994)(Dream World Adventures)[a3].png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Curse of the Serpent&apos;s Eye (1994)(Dream World Adventures)[a3].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Curse of the Serpent&apos;s Eye (1994)(Dream World Adventures)[a4].dsk</path>
+    <name>Curse of the Serpent&apos;s Eye (1994)(Dream World Adventures)[a4]</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Curse of the Serpent&apos;s Eye (1994)(Dream World Adventures)[a4].png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Curse of the Serpent&apos;s Eye (1994)(Dream World Adventures)[a4].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Curse of the Serpent&apos;s Eye (1994)(Dream World Adventures)[a].dsk</path>
+    <name>Curse of the Serpent&apos;s Eye (1994)(Dream World Adventures)[a]</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Curse of the Serpent&apos;s Eye (1994)(Dream World Adventures)[a].png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Curse of the Serpent&apos;s Eye (1994)(Dream World Adventures)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Defender (1998)(Persona - Digital Reality).dsk</path>
+    <name>Defender (1998)(Persona - Digital Reality)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Defender (1998)(Persona - Digital Reality).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Defender (1998)(Persona - Digital Reality).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Dino Sourcerer (1993)(Softdisk Inc.).dsk</path>
+    <name>Dino Sourcerer (1993)(Softdisk Inc.)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Dino Sourcerer (1993)(Softdisk Inc.).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Dino Sourcerer (1993)(Softdisk Inc.).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Domino Box (1997)(Supplement Software).dsk</path>
+    <name>Domino Box (1997)(Supplement Software)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Domino Box (1997)(Supplement Software).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Domino Box (1997)(Supplement Software).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Flight of Fantasy &amp; Occult Connection Adventures (19xx)(-).dsk</path>
+    <name>Flight of Fantasy &amp; Occult Connection Adventures (19xx)(-)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Flight of Fantasy &amp; Occult Connection Adventures (19xx)(-).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Flight of Fantasy &amp; Occult Connection Adventures (19xx)(-).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Football League Manager (1994)(Key Software - FRED Publishing).dsk</path>
+    <name>Football League Manager (1994)(Key Software - FRED Publishing)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Football League Manager (1994)(Key Software - FRED Publishing).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Football League Manager (1994)(Key Software - FRED Publishing).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Golden Sword of Bhakhor, The (1997)(Persona).dsk</path>
+    <name>Golden Sword of Bhakhor, The (1997)(Persona)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Golden Sword of Bhakhor, The (1997)(Persona).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Golden Sword of Bhakhor, The (1997)(Persona).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Happy Birthday - Games and Utilities Disk (19xx)(SamCo).dsk</path>
+    <name>Happy Birthday - Games and Utilities Disk (19xx)(SamCo)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Happy Birthday - Games and Utilities Disk (19xx)(SamCo).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Happy Birthday - Games and Utilities Disk (19xx)(SamCo).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Impatience! - Triltex and Viking (1991)(FRED).dsk</path>
+    <name>Impatience! - Triltex and Viking (1991)(FRED)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Impatience! - Triltex and Viking (1991)(FRED).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Impatience! - Triltex and Viking (1991)(FRED).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Manic Miner (1992)(Revelation Software).dsk</path>
+    <name>Manic Miner (1992)(Revelation Software)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Manic Miner (1992)(Revelation Software).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Manic Miner (1992)(Revelation Software).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Myth and Escape From Singe&apos;s Castle (19xx)(-).dsk</path>
+    <name>Myth and Escape From Singe&apos;s Castle (19xx)(-)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Myth and Escape From Singe&apos;s Castle (19xx)(-).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Myth and Escape From Singe&apos;s Castle (19xx)(-).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Ore Warz II (1990)(William McGugan).dsk</path>
+    <name>Ore Warz II (1990)(William McGugan)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Ore Warz II (1990)(William McGugan).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Ore Warz II (1990)(William McGugan).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Park DBS (19xx)(-).dsk</path>
+    <name>Park DBS (19xx)(-)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Park DBS (19xx)(-).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Park DBS (19xx)(-).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Poker 18 SamCoupe 512k (19xx)(Supplement Software).dsk</path>
+    <name>Poker 18 SamCoupe 512k (19xx)(Supplement Software)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Poker 18 SamCoupe 512k (19xx)(Supplement Software).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Poker 18 SamCoupe 512k (19xx)(Supplement Software).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Prince of Persia (19xx)(Revelation).dsk</path>
+    <name>Prince of Persia (19xx)(Revelation)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Prince of Persia (19xx)(Revelation).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Prince of Persia (19xx)(Revelation).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Roboblob &amp; Give a Dog a Bone (1991)(Images).dsk</path>
+    <name>Roboblob &amp; Give a Dog a Bone (1991)(Images)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Roboblob &amp; Give a Dog a Bone (1991)(Images).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Roboblob &amp; Give a Dog a Bone (1991)(Images).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Sad Snail Collection, The (1997)(Sad Snail Productions).dsk</path>
+    <name>Sad Snail Collection, The (1997)(Sad Snail Productions)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Sad Snail Collection, The (1997)(Sad Snail Productions).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Sad Snail Collection, The (1997)(Sad Snail Productions).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Sam Cards (1994)(Daton).dsk</path>
+    <name>Sam Cards (1994)(Daton)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Sam Cards (1994)(Daton).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Sam Cards (1994)(Daton).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Sam X (19xx)(Supplement Software).dsk</path>
+    <name>Sam X (19xx)(Supplement Software)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Sam X (19xx)(Supplement Software).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Sam X (19xx)(Supplement Software).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Shanghai (1990)(Fuxsoft).dsk</path>
+    <name>Shanghai (1990)(Fuxsoft)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Shanghai (1990)(Fuxsoft).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Shanghai (1990)(Fuxsoft).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/SoulMagician (1992)(Pc-Act).dsk</path>
+    <name>SoulMagician (1992)(Pc-Act)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/SoulMagician (1992)(Pc-Act).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/SoulMagician (1992)(Pc-Act).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Spectrum Games Compilation 01 (19xx)(-).dsk</path>
+    <name>Spectrum Games Compilation 01 (19xx)(-)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Spectrum Games Compilation 01 (19xx)(-).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Spectrum Games Compilation 01 (19xx)(-).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Spectrum Games Compilation 02 (19xx)(-).dsk</path>
+    <name>Spectrum Games Compilation 02 (19xx)(-)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Spectrum Games Compilation 02 (19xx)(-).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Spectrum Games Compilation 02 (19xx)(-).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Spectrum Games Compilation 03 (19xx)(-).dsk</path>
+    <name>Spectrum Games Compilation 03 (19xx)(-)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Spectrum Games Compilation 03 (19xx)(-).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Spectrum Games Compilation 03 (19xx)(-).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Spectrum Games Compilation 04 (19xx)(-).dsk</path>
+    <name>Spectrum Games Compilation 04 (19xx)(-)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Spectrum Games Compilation 04 (19xx)(-).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Spectrum Games Compilation 04 (19xx)(-).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Spectrum Games Compilation 05 (19xx)(-).dsk</path>
+    <name>Spectrum Games Compilation 05 (19xx)(-)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Spectrum Games Compilation 05 (19xx)(-).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Spectrum Games Compilation 05 (19xx)(-).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Spectrum Games Compilation 06 (19xx)(-).dsk</path>
+    <name>Spectrum Games Compilation 06 (19xx)(-)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Spectrum Games Compilation 06 (19xx)(-).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Spectrum Games Compilation 06 (19xx)(-).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Spectrum Games Compilation 07 (19xx)(-).dsk</path>
+    <name>Spectrum Games Compilation 07 (19xx)(-)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Spectrum Games Compilation 07 (19xx)(-).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Spectrum Games Compilation 07 (19xx)(-).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Spectrum Games Compilation 08 (19xx)(-).dsk</path>
+    <name>Spectrum Games Compilation 08 (19xx)(-)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Spectrum Games Compilation 08 (19xx)(-).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Spectrum Games Compilation 08 (19xx)(-).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Spectrum Games Compilation 09 (19xx)(-).dsk</path>
+    <name>Spectrum Games Compilation 09 (19xx)(-)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Spectrum Games Compilation 09 (19xx)(-).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Spectrum Games Compilation 09 (19xx)(-).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Spectrum Games Compilation 10 (19xx)(-).dsk</path>
+    <name>Spectrum Games Compilation 10 (19xx)(-)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Spectrum Games Compilation 10 (19xx)(-).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Spectrum Games Compilation 10 (19xx)(-).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Spectrum Games Compilation 11 (19xx)(-).dsk</path>
+    <name>Spectrum Games Compilation 11 (19xx)(-)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Spectrum Games Compilation 11 (19xx)(-).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Spectrum Games Compilation 11 (19xx)(-).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Spectrum Games Compilation 12 (19xx)(-).dsk</path>
+    <name>Spectrum Games Compilation 12 (19xx)(-)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Spectrum Games Compilation 12 (19xx)(-).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Spectrum Games Compilation 12 (19xx)(-).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Spectrum Games Compilation 13 (19xx)(-).dsk</path>
+    <name>Spectrum Games Compilation 13 (19xx)(-)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Spectrum Games Compilation 13 (19xx)(-).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Spectrum Games Compilation 13 (19xx)(-).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Spectrum Games Compilation 14 (19xx)(-).dsk</path>
+    <name>Spectrum Games Compilation 14 (19xx)(-)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Spectrum Games Compilation 14 (19xx)(-).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Spectrum Games Compilation 14 (19xx)(-).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Spectrum Games Compilation 15 (19xx)(-).dsk</path>
+    <name>Spectrum Games Compilation 15 (19xx)(-)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Spectrum Games Compilation 15 (19xx)(-).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Spectrum Games Compilation 15 (19xx)(-).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Spectrum Games Compilation 16 (19xx)(-).dsk</path>
+    <name>Spectrum Games Compilation 16 (19xx)(-)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Spectrum Games Compilation 16 (19xx)(-).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Spectrum Games Compilation 16 (19xx)(-).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Spectrum Games Compilation 17 (19xx)(-).dsk</path>
+    <name>Spectrum Games Compilation 17 (19xx)(-)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Spectrum Games Compilation 17 (19xx)(-).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Spectrum Games Compilation 17 (19xx)(-).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Spectrum Games Compilation 18 (19xx)(-).dsk</path>
+    <name>Spectrum Games Compilation 18 (19xx)(-)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Spectrum Games Compilation 18 (19xx)(-).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Spectrum Games Compilation 18 (19xx)(-).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Tetris (1990)(Lord Insanity).dsk</path>
+    <name>Tetris (1990)(Lord Insanity)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Tetris (1990)(Lord Insanity).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Tetris (1990)(Lord Insanity).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/Triltex (1991)(Fred Software).dsk</path>
+    <name>Triltex (1991)(Fred Software)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/Triltex (1991)(Fred Software).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/Triltex (1991)(Fred Software).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions1.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions1</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions1.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions1.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions10.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions10</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions10.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions10.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions11.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions11</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions11.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions11.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions12.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions12</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions12.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions12.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions13.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions13</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions13.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions13.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions14.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions14</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions14.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions14.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions15.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions15</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions15.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions15.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions16.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions16</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions16.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions16.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions17.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions17</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions17.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions17.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions18.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions18</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions18.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions18.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions19.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions19</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions19.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions19.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions2.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions2</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions2.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions2.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions20.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions20</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions20.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions20.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions21.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions21</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions21.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions21.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions22.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions22</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions22.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions22.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions23.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions23</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions23.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions23.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions24.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions24</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions24.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions24.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions25.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions25</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions25.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions25.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions26.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions26</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions26.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions26.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions27.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions27</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions27.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions27.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions28.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions28</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions28.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions28.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions29.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions29</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions29.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions29.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions3.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions3</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions3.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions3.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions30.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions30</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions30.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions30.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions4.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions4</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions4.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions4.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions5.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions5</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions5.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions5.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions6.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions6</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions6.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions6.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions7.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions7</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions7.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions7.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions8.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions8</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions8.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions8.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-128kspectrumgamesconversions9.dsk</path>
+    <name>ZZZ-UNK-128kspectrumgamesconversions9</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions9.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-128kspectrumgamesconversions9.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#0#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#0#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#0#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#0#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#1#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#1#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#1#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#1#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#2#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#2#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#2#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#2#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#3#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#3#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#3#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#3#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#4#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#4#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#4#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#4#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#5#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#5#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#5#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#5#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#6#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#6#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#6#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#6#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#7#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#7#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#7#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#7#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#8#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#8#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#8#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#8#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#a#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#a#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#a#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#a#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#b#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#b#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#b#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#b#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#c#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#c#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#c#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#c#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#d#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#d#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#d#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#d#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#e#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#e#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#e#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#e#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#f#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#f#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#f#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#f#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#g#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#g#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#g#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#g#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#h#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#h#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#h#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#h#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#i#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#i#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#i#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#i#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#j#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#j#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#j#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#j#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#k#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#k#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#k#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#k#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#l#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#l#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#l#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#l#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#m#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#m#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#m#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#m#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#n#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#n#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#n#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#n#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#o#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#o#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#o#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#o#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#p#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#p#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#p#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#p#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#q#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#q#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#q#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#q#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#r#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#r#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#r#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#r#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#s#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#s#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#s#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#s#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#t#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#t#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#t#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#t#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#u#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#u#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#u#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#u#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#v#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#v#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#v#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#v#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#x#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#x#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#x#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#x#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#z#games for emulator explosion (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#z#games for emulator explosion (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#z#games for emulator explosion (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#z#games for emulator explosion (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-explosion#zx spectrum 48 emulator + commander (1996).dsk</path>
+    <name>ZZZ-UNK-explosion#zx spectrum 48 emulator + commander (1996)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-explosion#zx spectrum 48 emulator + commander (1996).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-explosion#zx spectrum 48 emulator + commander (1996).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-lemmings raw data disk 2 (1992) (dma-chris white).dsk</path>
+    <name>ZZZ-UNK-lemmings raw data disk 2 (1992) (dma-chris white)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-lemmings raw data disk 2 (1992) (dma-chris white).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-lemmings raw data disk 2 (1992) (dma-chris white).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-lemmings raw data disk 3 (1992) (dma-chris white).dsk</path>
+    <name>ZZZ-UNK-lemmings raw data disk 3 (1992) (dma-chris white)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-lemmings raw data disk 3 (1992) (dma-chris white).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-lemmings raw data disk 3 (1992) (dma-chris white).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-lemmings#assemble disk 1 (19xx) (chris white).dsk</path>
+    <name>ZZZ-UNK-lemmings#assemble disk 1 (19xx) (chris white)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-lemmings#assemble disk 1 (19xx) (chris white).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-lemmings#assemble disk 1 (19xx) (chris white).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-lemmings#dos test side 1 (19xx) (chris white).dsk</path>
+    <name>ZZZ-UNK-lemmings#dos test side 1 (19xx) (chris white)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-lemmings#dos test side 1 (19xx) (chris white).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-lemmings#dos test side 1 (19xx) (chris white).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-lemmings#dos test side 2 (19xx) (chris white).dsk</path>
+    <name>ZZZ-UNK-lemmings#dos test side 2 (19xx) (chris white)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-lemmings#dos test side 2 (19xx) (chris white).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-lemmings#dos test side 2 (19xx) (chris white).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-lemmings#front end gfx (19xx) (chris white).dsk</path>
+    <name>ZZZ-UNK-lemmings#front end gfx (19xx) (chris white)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-lemmings#front end gfx (19xx) (chris white).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-lemmings#front end gfx (19xx) (chris white).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-lemmings#gfx iff 1 (19xx) (chris white).dsk</path>
+    <name>ZZZ-UNK-lemmings#gfx iff 1 (19xx) (chris white)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-lemmings#gfx iff 1 (19xx) (chris white).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-lemmings#gfx iff 1 (19xx) (chris white).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-lemmings#gfx iff 2 (19xx) (chris white).dsk</path>
+    <name>ZZZ-UNK-lemmings#gfx iff 2 (19xx) (chris white)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-lemmings#gfx iff 2 (19xx) (chris white).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-lemmings#gfx iff 2 (19xx) (chris white).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-lemmings#stuff from dma (19xx) (chris white).dsk</path>
+    <name>ZZZ-UNK-lemmings#stuff from dma (19xx) (chris white)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-lemmings#stuff from dma (19xx) (chris white).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-lemmings#stuff from dma (19xx) (chris white).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-prince of persia demo (1990) (revelation-chris white) [a].dsk</path>
+    <name>ZZZ-UNK-prince of persia demo (1990) (revelation-chris white) [a]</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-prince of persia demo (1990) (revelation-chris white) [a].png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-prince of persia demo (1990) (revelation-chris white) [a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-prince of persia demo.tap.dsk</path>
+    <name>ZZZ-UNK-prince of persia demo.tap</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-prince of persia demo.tap.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-prince of persia demo.tap.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-prince of persia#assemble disk (1990) (chris white).dsk</path>
+    <name>ZZZ-UNK-prince of persia#assemble disk (1990) (chris white)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-prince of persia#assemble disk (1990) (chris white).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-prince of persia#assemble disk (1990) (chris white).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-prince of persia#assembly &amp; pokers (1990) (chris white).dsk</path>
+    <name>ZZZ-UNK-prince of persia#assembly &amp; pokers (1990) (chris white)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-prince of persia#assembly &amp; pokers (1990) (chris white).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-prince of persia#assembly &amp; pokers (1990) (chris white).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-prince of persia#screens 1 (1990) (chris white) [a].dsk</path>
+    <name>ZZZ-UNK-prince of persia#screens 1 (1990) (chris white) [a]</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-prince of persia#screens 1 (1990) (chris white) [a].png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-prince of persia#screens 1 (1990) (chris white) [a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-prince of persia#screens 1 (1990) (chris white).dsk</path>
+    <name>ZZZ-UNK-prince of persia#screens 1 (1990) (chris white)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-prince of persia#screens 1 (1990) (chris white).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-prince of persia#screens 1 (1990) (chris white).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-prince of persia#screens 2 (1990) (chris white).dsk</path>
+    <name>ZZZ-UNK-prince of persia#screens 2 (1990) (chris white)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-prince of persia#screens 2 (1990) (chris white).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-prince of persia#screens 2 (1990) (chris white).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-prince of persia#show levels (1990) (chris white).dsk</path>
+    <name>ZZZ-UNK-prince of persia#show levels (1990) (chris white)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-prince of persia#show levels (1990) (chris white).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-prince of persia#show levels (1990) (chris white).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-prince of persia#source (1990) (chris white).dsk</path>
+    <name>ZZZ-UNK-prince of persia#source (1990) (chris white)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-prince of persia#source (1990) (chris white).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-prince of persia#source (1990) (chris white).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-prince of persia#trans disk &amp; gamedos (1990) (chris white).dsk</path>
+    <name>ZZZ-UNK-prince of persia#trans disk &amp; gamedos (1990) (chris white)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-prince of persia#trans disk &amp; gamedos (1990) (chris white).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-prince of persia#trans disk &amp; gamedos (1990) (chris white).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-prince of persia#ys cover mount demo (1990) (chris white).dsk</path>
+    <name>ZZZ-UNK-prince of persia#ys cover mount demo (1990) (chris white)</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-prince of persia#ys cover mount demo (1990) (chris white).png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-prince of persia#ys cover mount demo (1990) (chris white).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-princeofpersiascreens1.dsk</path>
+    <name>ZZZ-UNK-princeofpersiascreens1</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-princeofpersiascreens1.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-princeofpersiascreens1.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/samcoupe/ZZZ-UNK-princeofpersiascreens2.dsk</path>
+    <name>ZZZ-UNK-princeofpersiascreens2</name>
+    <image>/recalbox/share/thumbs2/MGT/Sam Coupe/ZZZ-UNK-princeofpersiascreens2.png</image>
+    <video>/recalbox/share/videos/MGT/Sam Coupe/ZZZ-UNK-princeofpersiascreens2.mp4</video>
+  </game>
+</gamelist>

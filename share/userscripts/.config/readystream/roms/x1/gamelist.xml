@@ -1,0 +1,842 @@
+<gamelist>
+  <game>
+    <path>/recalbox/share/zip/x1/15 Puzzles (1983)(Apollo Technica)(JP)[Req HuBasic].tap</path>
+    <name>15 Puzzles (1983)(Apollo Technica)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/15 Puzzles (1983)(Apollo Technica)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/15 Puzzles (1983)(Apollo Technica)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/198X-nen (198x)(Kiya Overseas Industries)(JP)[Req HuBasic].tap</path>
+    <name>198X-nen (198x)(Kiya Overseas Industries)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/198X-nen (198x)(Kiya Overseas Industries)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/198X-nen (198x)(Kiya Overseas Industries)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/2001 - An Adventure Story (1983)(TecnoSoft)(JP)[Req HuBasic].tap</path>
+    <name>2001 - An Adventure Story (1983)(TecnoSoft)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/2001 - An Adventure Story (1983)(TecnoSoft)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/2001 - An Adventure Story (1983)(TecnoSoft)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/3-D Golf Simulation (198x)(T&amp;E Soft)(JP)[Req HuBasic].tap</path>
+    <name>3-D Golf Simulation (198x)(T&amp;E Soft)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/3-D Golf Simulation (198x)(T&amp;E Soft)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/3-D Golf Simulation (198x)(T&amp;E Soft)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/3D Bomberman (1983)(Hudson Soft)(JP).tap</path>
+    <name>3D Bomberman (1983)(Hudson Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/3D Bomberman (1983)(Hudson Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/3D Bomberman (1983)(Hudson Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Ankokujou - Dark Castle of Lukteu (1984)(Enix - Random House)(JP).tap</path>
+    <name>Ankokujou - Dark Castle of Lukteu (1984)(Enix - Random House)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Ankokujou - Dark Castle of Lukteu (1984)(Enix - Random House)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Ankokujou - Dark Castle of Lukteu (1984)(Enix - Random House)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Armored Soldier, The (198x)(Genesis Soft)(JP).tap</path>
+    <name>Armored Soldier, The (198x)(Genesis Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Armored Soldier, The (198x)(Genesis Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Armored Soldier, The (198x)(Genesis Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Ascend (2022-03-28)(Inufuto)(JP).tap</path>
+    <name>Ascend (2022-03-28)(Inufuto)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Ascend (2022-03-28)(Inufuto)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Ascend (2022-03-28)(Inufuto)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Atama no taisou (198x)(Hudson Soft)(JP)[Req HuBasic].tap</path>
+    <name>Atama no taisou (198x)(Hudson Soft)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Atama no taisou (198x)(Hudson Soft)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Atama no taisou (198x)(Hudson Soft)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Bat (198x)(Dentaro)(JP).tap</path>
+    <name>Bat (198x)(Dentaro)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Bat (198x)(Dentaro)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Bat (198x)(Dentaro)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Bat (198x)(Dentaro)(JP)[a].tap</path>
+    <name>Bat (198x)(Dentaro)(JP)[a]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Bat (198x)(Dentaro)(JP)[a].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Bat (198x)(Dentaro)(JP)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Black Onyx, The (1984)(BPS)(JP).tap</path>
+    <name>Black Onyx, The (1984)(BPS)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Black Onyx, The (1984)(BPS)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Black Onyx, The (1984)(BPS)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Bokosuka Wars (1983)(ASCII)(JP).tap</path>
+    <name>Bokosuka Wars (1983)(ASCII)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Bokosuka Wars (1983)(ASCII)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Bokosuka Wars (1983)(ASCII)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Bomberman (1983)(Hudson Soft)(JP).tap</path>
+    <name>Bomberman (1983)(Hudson Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Bomberman (1983)(Hudson Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Bomberman (1983)(Hudson Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Brain Breaker (1985)(Enix)(JP)[b].tap</path>
+    <name>Brain Breaker (1985)(Enix)(JP)[b]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Brain Breaker (1985)(Enix)(JP)[b].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Brain Breaker (1985)(Enix)(JP)[b].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Bu u ma (1985)(Mukau - Pax Softnica)(JP).tap</path>
+    <name>Bu u ma (1985)(Mukau - Pax Softnica)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Bu u ma (1985)(Mukau - Pax Softnica)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Bu u ma (1985)(Mukau - Pax Softnica)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Cannonball Run 2 (1984)(Pony Canyon)(JP).tap</path>
+    <name>Cannonball Run 2 (1984)(Pony Canyon)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Cannonball Run 2 (1984)(Pony Canyon)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Cannonball Run 2 (1984)(Pony Canyon)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Castle Excellent (1985-12)(ASCII)(JP).tap</path>
+    <name>Castle Excellent (1985-12)(ASCII)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Castle Excellent (1985-12)(ASCII)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Castle Excellent (1985-12)(ASCII)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Castle, The (1985-06)(ASCII)(JP).tap</path>
+    <name>Castle, The (1985-06)(ASCII)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Castle, The (1985-06)(ASCII)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Castle, The (1985-06)(ASCII)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Castle, The (1985-06)(ASCII)(JP)[a].tap</path>
+    <name>Castle, The (1985-06)(ASCII)(JP)[a]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Castle, The (1985-06)(ASCII)(JP)[a].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Castle, The (1985-06)(ASCII)(JP)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Cepton (1983)(Formal Soft)(JP).tap</path>
+    <name>Cepton (1983)(Formal Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Cepton (1983)(Formal Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Cepton (1983)(Formal Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Champion Pro Wrestling Special (1985)(Micronet)(JP).tap</path>
+    <name>Champion Pro Wrestling Special (1985)(Micronet)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Champion Pro Wrestling Special (1985)(Micronet)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Champion Pro Wrestling Special (1985)(Micronet)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Checkers in Tantan tanuki (1985)(Pony Canyon)(JP).tap</path>
+    <name>Checkers in Tantan tanuki (1985)(Pony Canyon)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Checkers in Tantan tanuki (1985)(Pony Canyon)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Checkers in Tantan tanuki (1985)(Pony Canyon)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Choplifter (1984)(Soft Pro International)(JP).tap</path>
+    <name>Choplifter (1984)(Soft Pro International)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Choplifter (1984)(Soft Pro International)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Choplifter (1984)(Soft Pro International)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Choujikuu Yousai Macross Countdown (1985)(Bothtec)(JP).tap</path>
+    <name>Choujikuu Yousai Macross Countdown (1985)(Bothtec)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Choujikuu Yousai Macross Countdown (1985)(Bothtec)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Choujikuu Yousai Macross Countdown (1985)(Bothtec)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Cockpit, The (1985)(Compac)(JP).tap</path>
+    <name>Cockpit, The (1985)(Compac)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Cockpit, The (1985)(Compac)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Cockpit, The (1985)(Compac)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Coron (1984)(ASCII)(JP).tap</path>
+    <name>Coron (1984)(ASCII)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Coron (1984)(ASCII)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Coron (1984)(ASCII)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Courageous Perseus (1985)(Cosmos Computer)(JP).tap</path>
+    <name>Courageous Perseus (1985)(Cosmos Computer)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Courageous Perseus (1985)(Cosmos Computer)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Courageous Perseus (1985)(Cosmos Computer)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Crazy Spy (198x)(Hudson Soft)(JP).tap</path>
+    <name>Crazy Spy (198x)(Hudson Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Crazy Spy (198x)(Hudson Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Crazy Spy (198x)(Hudson Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Daidassou (1985-01)(Carry Lab)(JP).tap</path>
+    <name>Daidassou (1985-01)(Carry Lab)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Daidassou (1985-01)(Carry Lab)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Daidassou (1985-01)(Carry Lab)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Danchizuma no yuuwaku (1983)(Koei)(JP)[p][Req HuBasic].tap</path>
+    <name>Danchizuma no yuuwaku (1983)(Koei)(JP)[p][Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Danchizuma no yuuwaku (1983)(Koei)(JP)[p][Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Danchizuma no yuuwaku (1983)(Koei)(JP)[p][Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Demon Crystal (1985)(Dempa)(JP).tap</path>
+    <name>Demon Crystal (1985)(Dempa)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Demon Crystal (1985)(Dempa)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Demon Crystal (1985)(Dempa)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Diamond Adventure (1983-07)(Microcabin)(JP).tap</path>
+    <name>Diamond Adventure (1983-07)(Microcabin)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Diamond Adventure (1983-07)(Microcabin)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Diamond Adventure (1983-07)(Microcabin)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Dig Dug (1983)(Dempa)(JP).tap</path>
+    <name>Dig Dug (1983)(Dempa)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Dig Dug (1983)(Dempa)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Dig Dug (1983)(Dempa)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Escape daisakusen (198x)(-)(JP)[Req HuBasic].tap</path>
+    <name>Escape daisakusen (198x)(-)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Escape daisakusen (198x)(-)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Escape daisakusen (198x)(-)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Excite Bike (1985)(Hudson Soft)(JP).tap</path>
+    <name>Excite Bike (1985)(Hudson Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Excite Bike (1985)(Hudson Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Excite Bike (1985)(Hudson Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Extra Pinball (1984)(ASCII)(JP)[Req HuBasic].tap</path>
+    <name>Extra Pinball (1984)(ASCII)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Extra Pinball (1984)(ASCII)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Extra Pinball (1984)(ASCII)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Extra Pinball (1984)(ASCII)(JP)[a][Req HuBasic].tap</path>
+    <name>Extra Pinball (1984)(ASCII)(JP)[a][Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Extra Pinball (1984)(ASCII)(JP)[a][Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Extra Pinball (1984)(ASCII)(JP)[a][Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/F2 Grand Prix (1984)(Carry Lab)(JP).tap</path>
+    <name>F2 Grand Prix (1984)(Carry Lab)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/F2 Grand Prix (1984)(Carry Lab)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/F2 Grand Prix (1984)(Carry Lab)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Fire Crystal, The - Black Onyx 2 (1986-01)(BPS)(JP).tap</path>
+    <name>Fire Crystal, The - Black Onyx 2 (1986-01)(BPS)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Fire Crystal, The - Black Onyx 2 (1986-01)(BPS)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Fire Crystal, The - Black Onyx 2 (1986-01)(BPS)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Flappy (1983)(dB Soft)(JP).tap</path>
+    <name>Flappy (1983)(dB Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Flappy (1983)(dB Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Flappy (1983)(dB Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Flappy (1983)(dB Soft)(JP)[a].tap</path>
+    <name>Flappy (1983)(dB Soft)(JP)[a]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Flappy (1983)(dB Soft)(JP)[a].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Flappy (1983)(dB Soft)(JP)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Frontline (1983)(Nidecom - Carry Lab)(JP).tap</path>
+    <name>Frontline (1983)(Nidecom - Carry Lab)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Frontline (1983)(Nidecom - Carry Lab)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Frontline (1983)(Nidecom - Carry Lab)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Fushigi no kuni no Alice (1984)(Microcabin)(JP)[Req HuBasic].tap</path>
+    <name>Fushigi no kuni no Alice (1984)(Microcabin)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Fushigi no kuni no Alice (1984)(Microcabin)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Fushigi no kuni no Alice (1984)(Microcabin)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Galaxian (1984)(Dempa)(JP).tap</path>
+    <name>Galaxian (1984)(Dempa)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Galaxian (1984)(Dempa)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Galaxian (1984)(Dempa)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Gambare Pentan x3+1 (198x)(SPS)(JP).tap</path>
+    <name>Gambare Pentan x3+1 (198x)(SPS)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Gambare Pentan x3+1 (198x)(SPS)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Gambare Pentan x3+1 (198x)(SPS)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Gegege no Kitarou (1985)(Bandai)(JP).tap</path>
+    <name>Gegege no Kitarou (1985)(Bandai)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Gegege no Kitarou (1985)(Bandai)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Gegege no Kitarou (1985)(Bandai)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Golf Island Special (198x)(TecnoSoft)(JP)(Tape 1 of 2)(Golf Island)[Req HuBasic].tap</path>
+    <name>Golf Island Special (198x)(TecnoSoft)(JP)(Tape 1 of 2)(Golf Island)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Golf Island Special (198x)(TecnoSoft)(JP)(Tape 1 of 2)(Golf Island)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Golf Island Special (198x)(TecnoSoft)(JP)(Tape 1 of 2)(Golf Island)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Golf Island Special (198x)(TecnoSoft)(JP)(Tape 2 of 2)(Kakuchou course 4)[Req HuBasic].tap</path>
+    <name>Golf Island Special (198x)(TecnoSoft)(JP)(Tape 2 of 2)(Kakuchou course 4)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Golf Island Special (198x)(TecnoSoft)(JP)(Tape 2 of 2)(Kakuchou course 4)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Golf Island Special (198x)(TecnoSoft)(JP)(Tape 2 of 2)(Kakuchou course 4)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Golf-kyou (1984)(Hudson Soft)(JP).tap</path>
+    <name>Golf-kyou (1984)(Hudson Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Golf-kyou (1984)(Hudson Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Golf-kyou (1984)(Hudson Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Golf-kyou (1984)(Hudson Soft)(JP)[a].tap</path>
+    <name>Golf-kyou (1984)(Hudson Soft)(JP)[a]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Golf-kyou (1984)(Hudson Soft)(JP)[a].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Golf-kyou (1984)(Hudson Soft)(JP)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Gunman (1983)(Hudson Soft)(JP).tap</path>
+    <name>Gunman (1983)(Hudson Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Gunman (1983)(Hudson Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Gunman (1983)(Hudson Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Hanafuda koikoi (198x)(JP)[Req HuBasic].tap</path>
+    <name>Hanafuda koikoi (198x)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Hanafuda koikoi (198x)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Hanafuda koikoi (198x)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Harry Fox (1985-07)(Microcabin)(JP)[b][CZ8CB01 + mon + L + GFF00].tap</path>
+    <name>Harry Fox (1985-07)(Microcabin)(JP)[b][CZ8CB01 + mon + L + GFF00]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Harry Fox (1985-07)(Microcabin)(JP)[b][CZ8CB01 + mon + L + GFF00].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Harry Fox (1985-07)(Microcabin)(JP)[b][CZ8CB01 + mon + L + GFF00].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Harvest (1983)(Micronet)(JP).tap</path>
+    <name>Harvest (1983)(Micronet)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Harvest (1983)(Micronet)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Harvest (1983)(Micronet)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/HiSpeed Worry (1984-12)(Microcabin)(JP).tap</path>
+    <name>HiSpeed Worry (1984-12)(Microcabin)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/HiSpeed Worry (1984-12)(Microcabin)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/HiSpeed Worry (1984-12)(Microcabin)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Hole In One (1985)(HAL)(JP).tap</path>
+    <name>Hole In One (1985)(HAL)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Hole In One (1985)(HAL)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Hole In One (1985)(HAL)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Hole In One (1985)(HAL)(JP)[a].tap</path>
+    <name>Hole In One (1985)(HAL)(JP)[a]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Hole In One (1985)(HAL)(JP)[a].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Hole In One (1985)(HAL)(JP)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Houju (198x)(SSK Soft)(JP)[Req HuBasic].tap</path>
+    <name>Houju (198x)(SSK Soft)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Houju (198x)(SSK Soft)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Houju (198x)(SSK Soft)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Hover Attack (1984)(Compac)(JP)[Req HuBasic].tap</path>
+    <name>Hover Attack (1984)(Compac)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Hover Attack (1984)(Compac)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Hover Attack (1984)(Compac)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Hover Attack (1984)(Compac)(JP)[a][Req HuBasic].tap</path>
+    <name>Hover Attack (1984)(Compac)(JP)[a][Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Hover Attack (1984)(Compac)(JP)[a][Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Hover Attack (1984)(Compac)(JP)[a][Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Hydlide (1985)(T&amp;E Soft)(JP).tap</path>
+    <name>Hydlide (1985)(T&amp;E Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Hydlide (1985)(T&amp;E Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Hydlide (1985)(T&amp;E Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Hydlide (1985)(T&amp;E Soft)(JP)[a].tap</path>
+    <name>Hydlide (1985)(T&amp;E Soft)(JP)[a]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Hydlide (1985)(T&amp;E Soft)(JP)[a].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Hydlide (1985)(T&amp;E Soft)(JP)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Hyper Olympic &apos;84 (1984)(dB Soft)(JP).tap</path>
+    <name>Hyper Olympic &apos;84 (1984)(dB Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Hyper Olympic &apos;84 (1984)(dB Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Hyper Olympic &apos;84 (1984)(dB Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Ice Block (1983)(dB Soft)(JP).tap</path>
+    <name>Ice Block (1983)(dB Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Ice Block (1983)(dB Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Ice Block (1983)(dB Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Insect Wars (1983)(dB Soft)(JP).tap</path>
+    <name>Insect Wars (1983)(dB Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Insect Wars (1983)(dB Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Insect Wars (1983)(dB Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Interi janshi 4-nin mahjong (1983)(Silver Ball - Unison World)(JP).tap</path>
+    <name>Interi janshi 4-nin mahjong (1983)(Silver Ball - Unison World)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Interi janshi 4-nin mahjong (1983)(Silver Ball - Unison World)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Interi janshi 4-nin mahjong (1983)(Silver Ball - Unison World)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Jankyou (1983)(Hudson Soft)(JP).tap</path>
+    <name>Jankyou (1983)(Hudson Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Jankyou (1983)(Hudson Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Jankyou (1983)(Hudson Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Jelda (1983)(Carry Lab)(JP).tap</path>
+    <name>Jelda (1983)(Carry Lab)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Jelda (1983)(Carry Lab)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Jelda (1983)(Carry Lab)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Ju-87A Dstuka (1985)(Micronet)(JP).tap</path>
+    <name>Ju-87A Dstuka (1985)(Micronet)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Ju-87A Dstuka (1985)(Micronet)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Ju-87A Dstuka (1985)(Micronet)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Kagirinaki tatakai (1983)(Enix)(JP).tap</path>
+    <name>Kagirinaki tatakai (1983)(Enix)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Kagirinaki tatakai (1983)(Enix)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Kagirinaki tatakai (1983)(Enix)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Kim Kim Dan Dan Part 2 (1983)(dB Soft)(JP).tap</path>
+    <name>Kim Kim Dan Dan Part 2 (1983)(dB Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Kim Kim Dan Dan Part 2 (1983)(dB Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Kim Kim Dan Dan Part 2 (1983)(dB Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Lizard (1985)(Xtal Soft)(JP).tap</path>
+    <name>Lizard (1985)(Xtal Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Lizard (1985)(Xtal Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Lizard (1985)(Xtal Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Macadam - Futari aigi (1985-08)(dB Soft)(JP).tap</path>
+    <name>Macadam - Futari aigi (1985-08)(dB Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Macadam - Futari aigi (1985-08)(dB Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Macadam - Futari aigi (1985-08)(dB Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Maharito (1983)(Hudson Soft)(JP).tap</path>
+    <name>Maharito (1983)(Hudson Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Maharito (1983)(Hudson Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Maharito (1983)(Hudson Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Mahou no tenshi Creamy Mami (1985)(Technopolis)(JP)[Req HuBasic].tap</path>
+    <name>Mahou no tenshi Creamy Mami (1985)(Technopolis)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Mahou no tenshi Creamy Mami (1985)(Technopolis)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Mahou no tenshi Creamy Mami (1985)(Technopolis)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Mappy (1984)(Dempa)(JP)[old version].tap</path>
+    <name>Mappy (1984)(Dempa)(JP)[old version]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Mappy (1984)(Dempa)(JP)[old version].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Mappy (1984)(Dempa)(JP)[old version].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Mazy (2020)(Inufuto)(JP).tap</path>
+    <name>Mazy (2020)(Inufuto)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Mazy (2020)(Inufuto)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Mazy (2020)(Inufuto)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Milkyway (1984)(Micronet)(JP).tap</path>
+    <name>Milkyway (1984)(Micronet)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Milkyway (1984)(Micronet)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Milkyway (1984)(Micronet)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Mimitan (1984)(Hudson Soft)(JP).tap</path>
+    <name>Mimitan (1984)(Hudson Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Mimitan (1984)(Hudson Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Mimitan (1984)(Hudson Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Minami Taiheiyou Adventure (198x)(dB Soft)(JP)[Req dB-Basic].tap</path>
+    <name>Minami Taiheiyou Adventure (198x)(dB Soft)(JP)[Req dB-Basic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Minami Taiheiyou Adventure (198x)(dB Soft)(JP)[Req dB-Basic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Minami Taiheiyou Adventure (198x)(dB Soft)(JP)[Req dB-Basic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Nankai no hyouteki (1985)(Bear&apos;s)(JP).tap</path>
+    <name>Nankai no hyouteki (1985)(Bear&apos;s)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Nankai no hyouteki (1985)(Bear&apos;s)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Nankai no hyouteki (1985)(Bear&apos;s)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Nintendo Golf (1984)(Hudson Soft)(JP).tap</path>
+    <name>Nintendo Golf (1984)(Hudson Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Nintendo Golf (1984)(Hudson Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Nintendo Golf (1984)(Hudson Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Nobunaga no yabou (1984)(Koei)(JP)[Req HuBasic].tap</path>
+    <name>Nobunaga no yabou (1984)(Koei)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Nobunaga no yabou (1984)(Koei)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Nobunaga no yabou (1984)(Koei)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Pacman (1983)(Dempa)(JP)[Req HuBasic].tap</path>
+    <name>Pacman (1983)(Dempa)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Pacman (1983)(Dempa)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Pacman (1983)(Dempa)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Perfect Mahjong (198x)(-)(JP)[Req HuBasic].tap</path>
+    <name>Perfect Mahjong (198x)(-)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Perfect Mahjong (198x)(-)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Perfect Mahjong (198x)(-)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Phoibos Part 1 - Dasshutsu (198x)(Zat-Soft)(JP)[Req HuBasic].tap</path>
+    <name>Phoibos Part 1 - Dasshutsu (198x)(Zat-Soft)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Phoibos Part 1 - Dasshutsu (198x)(Zat-Soft)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Phoibos Part 1 - Dasshutsu (198x)(Zat-Soft)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Plazma Line (1984)(TecnoSoft)(JP).tap</path>
+    <name>Plazma Line (1984)(TecnoSoft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Plazma Line (1984)(TecnoSoft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Plazma Line (1984)(TecnoSoft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Polar Star 2 (1983)(SPS)(JP).tap</path>
+    <name>Polar Star 2 (1983)(SPS)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Polar Star 2 (1983)(SPS)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Polar Star 2 (1983)(SPS)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Pop Balloon (1984)(Compac)(JP).tap</path>
+    <name>Pop Balloon (1984)(Compac)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Pop Balloon (1984)(Compac)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Pop Balloon (1984)(Compac)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Punchball Mario (1984)(Hudson Soft)(JP).tap</path>
+    <name>Punchball Mario (1984)(Hudson Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Punchball Mario (1984)(Hudson Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Punchball Mario (1984)(Hudson Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Punchball Mario (1984)(Hudson Soft)(JP)[a].tap</path>
+    <name>Punchball Mario (1984)(Hudson Soft)(JP)[a]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Punchball Mario (1984)(Hudson Soft)(JP)[a].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Punchball Mario (1984)(Hudson Soft)(JP)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Pyramid no nazo (1983)(MagicalZoo)(JP)[Req HuBasic].tap</path>
+    <name>Pyramid no nazo (1983)(MagicalZoo)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Pyramid no nazo (1983)(MagicalZoo)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Pyramid no nazo (1983)(MagicalZoo)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Rally-X (1985)(Dempa)(JP).tap</path>
+    <name>Rally-X (1985)(Dempa)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Rally-X (1985)(Dempa)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Rally-X (1985)(Dempa)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Rowdy Ball (198x)(Hudson Soft)(JP)[Req HuBasic].tap</path>
+    <name>Rowdy Ball (198x)(Hudson Soft)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Rowdy Ball (198x)(Hudson Soft)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Rowdy Ball (198x)(Hudson Soft)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Rowdy Ball (198x)(Hudson Soft)(JP)[a][Req HuBasic].tap</path>
+    <name>Rowdy Ball (198x)(Hudson Soft)(JP)[a][Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Rowdy Ball (198x)(Hudson Soft)(JP)[a][Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Rowdy Ball (198x)(Hudson Soft)(JP)[a][Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Ruptus (2020-12-19)(Inufuto)(JP).tap</path>
+    <name>Ruptus (2020-12-19)(Inufuto)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Ruptus (2020-12-19)(Inufuto)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Ruptus (2020-12-19)(Inufuto)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Salada no kuni no Tomato-hime (1984)(Hudson Soft)(JP)[b].tap</path>
+    <name>Salada no kuni no Tomato-hime (1984)(Hudson Soft)(JP)[b]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Salada no kuni no Tomato-hime (1984)(Hudson Soft)(JP)[b].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Salada no kuni no Tomato-hime (1984)(Hudson Soft)(JP)[b].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Sangokai Kaisen (198x)(dB Soft)(JP)[Req dB-Basic].tap</path>
+    <name>Sangokai Kaisen (198x)(dB Soft)(JP)[Req dB-Basic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Sangokai Kaisen (198x)(dB Soft)(JP)[Req dB-Basic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Sangokai Kaisen (198x)(dB Soft)(JP)[Req dB-Basic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Sanpiki no buta-chan (1984)(Compac)(JP).tap</path>
+    <name>Sanpiki no buta-chan (1984)(Compac)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Sanpiki no buta-chan (1984)(Compac)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Sanpiki no buta-chan (1984)(Compac)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Scarlet 7 - The Mightiest Women (1985)(Apollo Technica)(JP).tap</path>
+    <name>Scarlet 7 - The Mightiest Women (1985)(Apollo Technica)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Scarlet 7 - The Mightiest Women (1985)(Apollo Technica)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Scarlet 7 - The Mightiest Women (1985)(Apollo Technica)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Space Hamburger (198x)(Hudson Soft)(JP).tap</path>
+    <name>Space Hamburger (198x)(Hudson Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Space Hamburger (198x)(Hudson Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Space Hamburger (198x)(Hudson Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Spartan X (1984)(Pony Canyon)(JP)[Req HuBasic].tap</path>
+    <name>Spartan X (1984)(Pony Canyon)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Spartan X (1984)(Pony Canyon)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Spartan X (1984)(Pony Canyon)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Star Arthur Densetsu - Wakusei Mephius (1983)(T&amp;E Soft)(JP)[Req HuBasic].tap</path>
+    <name>Star Arthur Densetsu - Wakusei Mephius (1983)(T&amp;E Soft)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Star Arthur Densetsu - Wakusei Mephius (1983)(T&amp;E Soft)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Star Arthur Densetsu - Wakusei Mephius (1983)(T&amp;E Soft)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Star Arthur Densetsu - Wakusei Mephius (1983)(T&amp;E Soft)(JP)[a].tap</path>
+    <name>Star Arthur Densetsu - Wakusei Mephius (1983)(T&amp;E Soft)(JP)[a]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Star Arthur Densetsu - Wakusei Mephius (1983)(T&amp;E Soft)(JP)[a].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Star Arthur Densetsu - Wakusei Mephius (1983)(T&amp;E Soft)(JP)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Star Fleet (198x)(TecnoSoft)(JP)[Req HuBasic].tap</path>
+    <name>Star Fleet (198x)(TecnoSoft)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Star Fleet (198x)(TecnoSoft)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Star Fleet (198x)(TecnoSoft)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Star World 2, The (198x)(TecnoSoft)(JP).tap</path>
+    <name>Star World 2, The (198x)(TecnoSoft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Star World 2, The (198x)(TecnoSoft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Star World 2, The (198x)(TecnoSoft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Super Barricade (198x)(Hudson Soft)(JP)[Req HuBasic].tap</path>
+    <name>Super Barricade (198x)(Hudson Soft)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Super Barricade (198x)(Hudson Soft)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Super Barricade (198x)(Hudson Soft)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Super Buggon (1983)(dB Soft)(JP).tap</path>
+    <name>Super Buggon (1983)(dB Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Super Buggon (1983)(dB Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Super Buggon (1983)(dB Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Super Golf 2 (1982)(Hudson Soft)(JP)[Req HuBasic].tap</path>
+    <name>Super Golf 2 (1982)(Hudson Soft)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Super Golf 2 (1982)(Hudson Soft)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Super Golf 2 (1982)(Hudson Soft)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Super Golf 2 (1982)(Hudson Soft)(JP)[a][Req HuBasic].tap</path>
+    <name>Super Golf 2 (1982)(Hudson Soft)(JP)[a][Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Super Golf 2 (1982)(Hudson Soft)(JP)[a][Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Super Golf 2 (1982)(Hudson Soft)(JP)[a][Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/TGIF - Arigatou kinyoubi (198x)(Kiya Tsuushou)(JP)[Req HuBasic].tap</path>
+    <name>TGIF - Arigatou kinyoubi (198x)(Kiya Tsuushou)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/TGIF - Arigatou kinyoubi (198x)(Kiya Tsuushou)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/TGIF - Arigatou kinyoubi (198x)(Kiya Tsuushou)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/TanTan (198x)(-)(JP)(Tape 1 of 2).tap</path>
+    <name>TanTan (198x)(-)(JP)(Tape 1 of 2)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/TanTan (198x)(-)(JP)(Tape 1 of 2).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/TanTan (198x)(-)(JP)(Tape 1 of 2).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/TanTan (198x)(-)(JP)(Tape 2 of 2).tap</path>
+    <name>TanTan (198x)(-)(JP)(Tape 2 of 2)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/TanTan (198x)(-)(JP)(Tape 2 of 2).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/TanTan (198x)(-)(JP)(Tape 2 of 2).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Tennis Freak (1985)(Winkysoft)(JP).tap</path>
+    <name>Tennis Freak (1985)(Winkysoft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Tennis Freak (1985)(Winkysoft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Tennis Freak (1985)(Winkysoft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Thunder Force (1983)(Technosoft)(JP).tap</path>
+    <name>Thunder Force (1983)(Technosoft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Thunder Force (1983)(Technosoft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Thunder Force (1983)(Technosoft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Time Secret (1983)(Bond Soft)(JP).tap</path>
+    <name>Time Secret (1983)(Bond Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Time Secret (1983)(Bond Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Time Secret (1983)(Bond Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Time Secret (1983)(Bond Soft)(JP)[a].tap</path>
+    <name>Time Secret (1983)(Bond Soft)(JP)[a]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Time Secret (1983)(Bond Soft)(JP)[a].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Time Secret (1983)(Bond Soft)(JP)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Time Tunnel (1984)(Bond Soft)(JP).tap</path>
+    <name>Time Tunnel (1984)(Bond Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Time Tunnel (1984)(Bond Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Time Tunnel (1984)(Bond Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Touchdown (1985)(Winky Soft)(JP).tap</path>
+    <name>Touchdown (1985)(Winky Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Touchdown (1985)(Winky Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Touchdown (1985)(Winky Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Triton (1985)(Sein Soft)(JP).tap</path>
+    <name>Triton (1985)(Sein Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Triton (1985)(Sein Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Triton (1985)(Sein Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Ultra 4-nin mahjongg (1983)(Tsukumo)(JP).tap</path>
+    <name>Ultra 4-nin mahjongg (1983)(Tsukumo)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Ultra 4-nin mahjongg (1983)(Tsukumo)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Ultra 4-nin mahjongg (1983)(Tsukumo)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Ultra monogatari (1986)(Winkysoft)(JP).tap</path>
+    <name>Ultra monogatari (1986)(Winkysoft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Ultra monogatari (1986)(Winkysoft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Ultra monogatari (1986)(Winkysoft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Volguard (1984)(dB Soft)(JP).tap</path>
+    <name>Volguard (1984)(dB Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Volguard (1984)(dB Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Volguard (1984)(dB Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Wild Western (1983)(Nidecom Carry)(JP).tap</path>
+    <name>Wild Western (1983)(Nidecom Carry)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Wild Western (1983)(Nidecom Carry)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Wild Western (1983)(Nidecom Carry)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Wingman (1985-11)(Enix)(JP)(Tape 1 of 4)[b].tap</path>
+    <name>Wingman (1985-11)(Enix)(JP)(Tape 1 of 4)[b]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Wingman (1985-11)(Enix)(JP)(Tape 1 of 4)[b].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Wingman (1985-11)(Enix)(JP)(Tape 1 of 4)[b].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Wingman (1985-11)(Enix)(JP)(Tape 2 of 4)[b].tap</path>
+    <name>Wingman (1985-11)(Enix)(JP)(Tape 2 of 4)[b]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Wingman (1985-11)(Enix)(JP)(Tape 2 of 4)[b].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Wingman (1985-11)(Enix)(JP)(Tape 2 of 4)[b].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Wingman (1985-11)(Enix)(JP)(Tape 3 of 4)[b].tap</path>
+    <name>Wingman (1985-11)(Enix)(JP)(Tape 3 of 4)[b]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Wingman (1985-11)(Enix)(JP)(Tape 3 of 4)[b].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Wingman (1985-11)(Enix)(JP)(Tape 3 of 4)[b].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Wingman (1985-11)(Enix)(JP)(Tape 4 of 4)[b].tap</path>
+    <name>Wingman (1985-11)(Enix)(JP)(Tape 4 of 4)[b]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Wingman (1985-11)(Enix)(JP)(Tape 4 of 4)[b].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Wingman (1985-11)(Enix)(JP)(Tape 4 of 4)[b].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/World Golf (1986-03)(Enix)(JP)(Tape 1 of 2)[b].tap</path>
+    <name>World Golf (1986-03)(Enix)(JP)(Tape 1 of 2)[b]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/World Golf (1986-03)(Enix)(JP)(Tape 1 of 2)[b].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/World Golf (1986-03)(Enix)(JP)(Tape 1 of 2)[b].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/World Golf (1986-03)(Enix)(JP)(Tape 2 of 2)[b].tap</path>
+    <name>World Golf (1986-03)(Enix)(JP)(Tape 2 of 2)[b]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/World Golf (1986-03)(Enix)(JP)(Tape 2 of 2)[b].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/World Golf (1986-03)(Enix)(JP)(Tape 2 of 2)[b].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Xanadu (1985)(Falcom)(JP)(Tape 1 of 3)(Program).tap</path>
+    <name>Xanadu (1985)(Falcom)(JP)(Tape 1 of 3)(Program)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Xanadu (1985)(Falcom)(JP)(Tape 1 of 3)(Program).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Xanadu (1985)(Falcom)(JP)(Tape 1 of 3)(Program).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Xanadu (1985)(Falcom)(JP)(Tape 2 of 3)(Xanacopy).tap</path>
+    <name>Xanadu (1985)(Falcom)(JP)(Tape 2 of 3)(Xanacopy)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Xanadu (1985)(Falcom)(JP)(Tape 2 of 3)(Xanacopy).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Xanadu (1985)(Falcom)(JP)(Tape 2 of 3)(Xanacopy).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Xanadu (1985)(Falcom)(JP)(Tape 3 of 3)(User).tap</path>
+    <name>Xanadu (1985)(Falcom)(JP)(Tape 3 of 3)(User)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Xanadu (1985)(Falcom)(JP)(Tape 3 of 3)(User).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Xanadu (1985)(Falcom)(JP)(Tape 3 of 3)(User).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Xevious (1984)(Dempa)(JP).tap</path>
+    <name>Xevious (1984)(Dempa)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Xevious (1984)(Dempa)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Xevious (1984)(Dempa)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Yakyuu-kyou (1985-08)(Hudson Soft)(JP).tap</path>
+    <name>Yakyuu-kyou (1985-08)(Hudson Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Yakyuu-kyou (1985-08)(Hudson Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Yakyuu-kyou (1985-08)(Hudson Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Yellow Cab (1983)(dB Soft)(JP).tap</path>
+    <name>Yellow Cab (1983)(dB Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Yellow Cab (1983)(dB Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Yellow Cab (1983)(dB Soft)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Yume no pro yakyuu (1983)(Hudson Soft)(JP)[Req HuBasic].tap</path>
+    <name>Yume no pro yakyuu (1983)(Hudson Soft)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Yume no pro yakyuu (1983)(Hudson Soft)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Yume no pro yakyuu (1983)(Hudson Soft)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Zenon (1986)(Dempa)(JP)[Req HuBasic].tap</path>
+    <name>Zenon (1986)(Dempa)(JP)[Req HuBasic]</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Zenon (1986)(Dempa)(JP)[Req HuBasic].png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Zenon (1986)(Dempa)(JP)[Req HuBasic].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/x1/Zexas - Kousoku 2000 Kounen (1983)(dB Soft)(JP).tap</path>
+    <name>Zexas - Kousoku 2000 Kounen (1983)(dB Soft)(JP)</name>
+    <image>/recalbox/share/thumbs/Sharp - X1/Named_Titles/Zexas - Kousoku 2000 Kounen (1983)(dB Soft)(JP).png</image>
+    <video>/recalbox/share/videos/Sharp - X1/Zexas - Kousoku 2000 Kounen (1983)(dB Soft)(JP).mp4</video>
+  </game>
+</gamelist>

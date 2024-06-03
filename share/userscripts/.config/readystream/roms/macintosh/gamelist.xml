@@ -1,0 +1,68 @@
+<gamelist>
+  <game>
+    <path>/recalbox/share/zip/macintosh/600 mana for the plague (2020-04-06)(nonmateria).dsk</path>
+    <name>600 mana for the plague (2020-04-06)(nonmateria)</name>
+    <image>/recalbox/share/thumbs2/Apple - Macintosh/600 mana for the plague (2020-04-06)(nonmateria).png</image>
+    <video>/recalbox/share/videos/macintosh/600 mana for the plague (2020-04-06)(nonmateria).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/macintosh/Flappy Mac v1.0 (2021-08-31)(gruz)[bootable].dsk</path>
+    <name>Flappy Mac v1.0 (2021-08-31)(gruz)[bootable]</name>
+    <image>/recalbox/share/thumbs2/Apple - Macintosh/Flappy Mac v1.0 (2021-08-31)(gruz)[bootable].png</image>
+    <video>/recalbox/share/videos/macintosh/Flappy Mac v1.0 (2021-08-31)(gruz)[bootable].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/macintosh/Flappy Mac v1.1 (2022-02-09)(gruz)[bootable].dsk</path>
+    <name>Flappy Mac v1.1 (2022-02-09)(gruz)[bootable]</name>
+    <image>/recalbox/share/thumbs2/Apple - Macintosh/Flappy Mac v1.1 (2022-02-09)(gruz)[bootable].png</image>
+    <video>/recalbox/share/videos/macintosh/Flappy Mac v1.1 (2022-02-09)(gruz)[bootable].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/macintosh/Flappy Mac v1.1 (2022-02-10)(gruz)[bootable].dsk</path>
+    <name>Flappy Mac v1.1 (2022-02-10)(gruz)[bootable]</name>
+    <image>/recalbox/share/thumbs2/Apple - Macintosh/Flappy Mac v1.1 (2022-02-10)(gruz)[bootable].png</image>
+    <video>/recalbox/share/videos/macintosh/Flappy Mac v1.1 (2022-02-10)(gruz)[bootable].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/macintosh/Hibernated 1 Director&apos;s Cut r10 (2021-12-27)(Puddle Soft).dsk</path>
+    <name>Hibernated 1 Director&apos;s Cut r10 (2021-12-27)(Puddle Soft)</name>
+    <image>/recalbox/share/thumbs2/Apple - Macintosh/Hibernated 1 Director&apos;s Cut r10 (2021-12-27)(Puddle Soft).png</image>
+    <video>/recalbox/share/videos/macintosh/Hibernated 1 Director&apos;s Cut r10 (2021-12-27)(Puddle Soft).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/macintosh/Hibernated 1 Director&apos;s Cut r9 (2021-06-27)(Vogt, Stefan).dsk</path>
+    <name>Hibernated 1 Director&apos;s Cut r9 (2021-06-27)(Vogt, Stefan)</name>
+    <image>/recalbox/share/thumbs2/Apple - Macintosh/Hibernated 1 Director&apos;s Cut r9 (2021-06-27)(Vogt, Stefan).png</image>
+    <video>/recalbox/share/videos/macintosh/Hibernated 1 Director&apos;s Cut r9 (2021-06-27)(Vogt, Stefan).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/macintosh/Mac Ghost (2020-11-06)(gruz)[App - Macintalk].dsk</path>
+    <name>Mac Ghost (2020-11-06)(gruz)[App - Macintalk]</name>
+    <image>/recalbox/share/thumbs2/Apple - Macintosh/Mac Ghost (2020-11-06)(gruz)[App - Macintalk].png</image>
+    <video>/recalbox/share/videos/macintosh/Mac Ghost (2020-11-06)(gruz)[App - Macintalk].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/macintosh/Mac Ghost (2020-11-06)(gruz)[Mini vMac].dsk</path>
+    <name>Mac Ghost (2020-11-06)(gruz)[Mini vMac]</name>
+    <image>/recalbox/share/thumbs2/Apple - Macintosh/Mac Ghost (2020-11-06)(gruz)[Mini vMac].png</image>
+    <video>/recalbox/share/videos/macintosh/Mac Ghost (2020-11-06)(gruz)[Mini vMac].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/macintosh/Tristam Island r3 (demo-playable) (2021-12-20)(Labrande, Hugo)(FR)(en).dsk</path>
+    <name>Tristam Island r3 (demo-playable) (2021-12-20)(Labrande, Hugo)(FR)(en)</name>
+    <image>/recalbox/share/thumbs2/Apple - Macintosh/Tristam Island r3 (demo-playable) (2021-12-20)(Labrande, Hugo)(FR)(en).png</image>
+    <video>/recalbox/share/videos/macintosh/Tristam Island r3 (demo-playable) (2021-12-20)(Labrande, Hugo)(FR)(en).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/macintosh/Tristam Island r4 (demo-playable) (2022-01-08)(Labrande, Hugo)(FR)(en).dsk</path>
+    <name>Tristam Island r4 (demo-playable) (2022-01-08)(Labrande, Hugo)(FR)(en)</name>
+    <image>/recalbox/share/thumbs2/Apple - Macintosh/Tristam Island r4 (demo-playable) (2022-01-08)(Labrande, Hugo)(FR)(en).png</image>
+    <video>/recalbox/share/videos/macintosh/Tristam Island r4 (demo-playable) (2022-01-08)(Labrande, Hugo)(FR)(en).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/macintosh/île Tristam, L&apos; (demo-playable) (2021-12-20)(Labrande, Hugo)(FR).dsk</path>
+    <name>île Tristam, L&apos; (demo-playable) (2021-12-20)(Labrande, Hugo)(FR)</name>
+    <image>/recalbox/share/thumbs2/Apple - Macintosh/île Tristam, L&apos; (demo-playable) (2021-12-20)(Labrande, Hugo)(FR).png</image>
+    <video>/recalbox/share/videos/macintosh/île Tristam, L&apos; (demo-playable) (2021-12-20)(Labrande, Hugo)(FR).mp4</video>
+  </game>
+</gamelist>

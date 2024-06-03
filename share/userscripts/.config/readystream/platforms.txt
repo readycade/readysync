@@ -67,6 +67,7 @@
 # TOSEC ROMSETS
 
 #roms+=("atari800;TOSEC/Atari/8bit/Games/[XEX]/Atari 8bit - Games - [XEX].zip;Atari - 8-bit;<b>Atari 8bit</b>;atari800_libretro")
+#roms+=("bk;TOSEC/Elektronika/BK-0011-411/Games/Elektronika BK-0011-411 - Games.zip;Elektronika BK-0011-411;<b>Elektronika BK-0011-411</b>;bk_libretro")
 #roms+=("dos;TOSEC/IBM/PC Compatibles/Games/[IMG]/IBM PC Compatibles - Games - [IMG].zip;DOS;MS-DOS TOSEC;dosbox_pure_libretro")
 #roms+=("pc88;TOSEC/NEC/PC-8801/Games/[D88]/NEC PC-8801 - Games - [D88].zip;NEC - PC-8001 - PC-8801;<p><b>NEC PC-88</b>;quasi88_libretro")
 #roms+=("pc98;TOSEC/NEC/PC-9801/Games/[FDD]/NEC PC-9801 - Games - [FDD].zip;NEC - PC-98;<b>NEC PC-98</b>;np2kai_libretro")
@@ -77,7 +78,6 @@
 #roms+=("macintosh;TOSEC/Apple/Macintosh/Games/[DSK]/Apple Macintosh - Games - [DSK].zip;Apple Macintosh;<b>Apple Macintosh</b>;minivmac_libretro")
 #roms+=("apple2gs;TOSEC/Apple/IIGS/Games/[2MG]/Apple IIGS - Games - [2MG].zip;Apple IIGS;<b>Apple IIGS</b>;gsplus")
 #roms+=("apple2;TOSEC/Apple/II/Games/[DSK]/Apple II - Games - [DSK].zip;Apple II;<b>Apple II</b>;linapple")
-#roms+=("bk;TOSEC/Elektronika/BK-0011-411/Games/Elektronika BK-0011-411 - Games.zip;Elektronika BK-0011-411;<b>Elektronika BK-0011-411</b>;bk_libretro")
 #roms+=("msxturbor;TOSEC/MSX/TurboR/Games/MSX TurboR - Games.zip;MSX TurboR;<b>MSX TurboR</b>;bluemsx_libretro")
 #roms+=("bbcmicro;TOSEC/Acorn/BBC/Games/[SSD]/Acorn BBC - Games - [SSD].zip;BBC Micro;<b>BBC Micro</b>;FINDCORE_libretro")
 #roms+=("dragon;TOSEC/Dragon Data/Dragon/Games/[CAS]/Dragon Data Dragon - Games - [CAS].zip;Dragon;<b>Dragon</b>;FINDCORE_libretro")

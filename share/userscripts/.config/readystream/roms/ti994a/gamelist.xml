@@ -1,0 +1,32 @@
+<gamelist>
+  <game>
+    <path>/recalbox/share/zip/ti994a/Hibernated 1 Director&apos;s Cut r10 (2021-12-27)(Puddle Soft).dsk</path>
+    <name>Hibernated 1 Director&apos;s Cut r10 (2021-12-27)(Puddle Soft)</name>
+    <image>/recalbox/share/thumbs2/Texas Instruments/TI-99 4A/Hibernated 1 Director&apos;s Cut r10 (2021-12-27)(Puddle Soft).png</image>
+    <video>/recalbox/share/videos/Texas Instruments/TI-99 4A/Hibernated 1 Director&apos;s Cut r10 (2021-12-27)(Puddle Soft).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/ti994a/Hibernated 1 Director&apos;s Cut r9 (2021-06-27)(Vogt, Stefan).dsk</path>
+    <name>Hibernated 1 Director&apos;s Cut r9 (2021-06-27)(Vogt, Stefan)</name>
+    <image>/recalbox/share/thumbs2/Texas Instruments/TI-99 4A/Hibernated 1 Director&apos;s Cut r9 (2021-06-27)(Vogt, Stefan).png</image>
+    <video>/recalbox/share/videos/Texas Instruments/TI-99 4A/Hibernated 1 Director&apos;s Cut r9 (2021-06-27)(Vogt, Stefan).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/ti994a/Tristam Island r3 (demo-playable) (2021-12-20)(Labrande, Hugo)(FR)(en).dsk</path>
+    <name>Tristam Island r3 (demo-playable) (2021-12-20)(Labrande, Hugo)(FR)(en)</name>
+    <image>/recalbox/share/thumbs2/Texas Instruments/TI-99 4A/Tristam Island r3 (demo-playable) (2021-12-20)(Labrande, Hugo)(FR)(en).png</image>
+    <video>/recalbox/share/videos/Texas Instruments/TI-99 4A/Tristam Island r3 (demo-playable) (2021-12-20)(Labrande, Hugo)(FR)(en).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/ti994a/Tristam Island r4 (demo-playable) (2022-01-08)(Labrande, Hugo)(FR)(en).dsk</path>
+    <name>Tristam Island r4 (demo-playable) (2022-01-08)(Labrande, Hugo)(FR)(en)</name>
+    <image>/recalbox/share/thumbs2/Texas Instruments/TI-99 4A/Tristam Island r4 (demo-playable) (2022-01-08)(Labrande, Hugo)(FR)(en).png</image>
+    <video>/recalbox/share/videos/Texas Instruments/TI-99 4A/Tristam Island r4 (demo-playable) (2022-01-08)(Labrande, Hugo)(FR)(en).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/ti994a/île Tristam, L&apos; (demo-playable) (2021-12-20)(Labrande, Hugo)(FR).dsk</path>
+    <name>île Tristam, L&apos; (demo-playable) (2021-12-20)(Labrande, Hugo)(FR)</name>
+    <image>/recalbox/share/thumbs2/Texas Instruments/TI-99 4A/île Tristam, L&apos; (demo-playable) (2021-12-20)(Labrande, Hugo)(FR).png</image>
+    <video>/recalbox/share/videos/Texas Instruments/TI-99 4A/île Tristam, L&apos; (demo-playable) (2021-12-20)(Labrande, Hugo)(FR).mp4</video>
+  </game>
+</gamelist>

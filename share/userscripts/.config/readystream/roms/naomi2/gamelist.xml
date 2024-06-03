@@ -1,0 +1,44 @@
+<gamelist>
+  <game>
+    <path>/recalbox/share/rom/Redump/Arcade - Sega - Naomi 2/Beach Spikers - Virtua Beach Volleyball (World) (En,Ja).zip</path>
+    <name>Beach Spikers - Virtua Beach Volleyball (World) (En,Ja)</name>
+    <image>/recalbox/share/thumbs/Sega - Naomi 2/Named_Titles/Beach Spikers - Virtua Beach Volleyball (World) (En,Ja).png</image>
+    <video>/recalbox/share/videos/Sega - Naomi 2/Beach Spikers - Virtua Beach Volleyball (World) (En,Ja).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/Redump/Arcade - Sega - Naomi 2/Initial D (World) (Rev A).zip</path>
+    <name>Initial D (World) (Rev A)</name>
+    <image>/recalbox/share/thumbs/Sega - Naomi 2/Named_Titles/Initial D (World) (Rev A).png</image>
+    <video>/recalbox/share/videos/Sega - Naomi 2/Initial D (World) (Rev A).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/Redump/Arcade - Sega - Naomi 2/Initial D Arcade Stage (Japan) (Rev B).zip</path>
+    <name>Initial D Arcade Stage (Japan) (Rev B)</name>
+    <image>/recalbox/share/thumbs/Sega - Naomi 2/Named_Titles/Initial D Arcade Stage (Japan) (Rev B).png</image>
+    <video>/recalbox/share/videos/Sega - Naomi 2/Initial D Arcade Stage (Japan) (Rev B).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/Redump/Arcade - Sega - Naomi 2/Initial D Version 3 (World).zip</path>
+    <name>Initial D Version 3 (World)</name>
+    <image>/recalbox/share/thumbs/Sega - Naomi 2/Named_Titles/Initial D Version 3 (World).png</image>
+    <video>/recalbox/share/videos/Sega - Naomi 2/Initial D Version 3 (World).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/Redump/Arcade - Sega - Naomi 2/Initial D Version 3 for Cycraft (World) (Rev B).zip</path>
+    <name>Initial D Version 3 for Cycraft (World) (Rev B)</name>
+    <image>/recalbox/share/thumbs/Sega - Naomi 2/Named_Titles/Initial D Version 3 for Cycraft (World) (Rev B).png</image>
+    <video>/recalbox/share/videos/Sega - Naomi 2/Initial D Version 3 for Cycraft (World) (Rev B).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/Redump/Arcade - Sega - Naomi 2/Virtua Fighter 4 Final Tuned (World) (Rev A).zip</path>
+    <name>Virtua Fighter 4 Final Tuned (World) (Rev A)</name>
+    <image>/recalbox/share/thumbs/Sega - Naomi 2/Named_Titles/Virtua Fighter 4 Final Tuned (World) (Rev A).png</image>
+    <video>/recalbox/share/videos/Sega - Naomi 2/Virtua Fighter 4 Final Tuned (World) (Rev A).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/Redump/Arcade - Sega - Naomi 2/Virtua Striker 3 (World) (En,Ja).zip</path>
+    <name>Virtua Striker 3 (World) (En,Ja)</name>
+    <image>/recalbox/share/thumbs/Sega - Naomi 2/Named_Titles/Virtua Striker 3 (World) (En,Ja).png</image>
+    <video>/recalbox/share/videos/Sega - Naomi 2/Virtua Striker 3 (World) (En,Ja).mp4</video>
+  </game>
+</gamelist>

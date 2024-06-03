@@ -3,505 +3,606 @@
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/300 Bowl (USA) (16-Bit Greyscale) (LoRes).zip</path>
     <name>300 Bowl (USA) (16-Bit Greyscale) (LoRes)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/300 Bowl (USA) (16-Bit Greyscale) (LoRes).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/300 Bowl (USA) (16-Bit Greyscale) (LoRes).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/300 Bowl (USA) (256-Bit Color) (LoRes).zip</path>
     <name>300 Bowl (USA) (256-Bit Color) (LoRes)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/300 Bowl (USA) (256-Bit Color) (LoRes).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/300 Bowl (USA) (256-Bit Color) (LoRes).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/300 Bowl (USA) (4-Bit Greyscale) (LoRes).zip</path>
     <name>300 Bowl (USA) (4-Bit Greyscale) (LoRes)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/300 Bowl (USA) (4-Bit Greyscale) (LoRes).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/300 Bowl (USA) (4-Bit Greyscale) (LoRes).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/300 Bowl (USA) (Color) (HiRes) (OS5).zip</path>
     <name>300 Bowl (USA) (Color) (HiRes) (OS5)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/300 Bowl (USA) (Color) (HiRes) (OS5).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/300 Bowl (USA) (Color) (HiRes) (OS5).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/300 Bowl (USA) (HiColor) (LoRes).zip</path>
     <name>300 Bowl (USA) (HiColor) (LoRes)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/300 Bowl (USA) (HiColor) (LoRes).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/300 Bowl (USA) (HiColor) (LoRes).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/3D Air Hockey (USA) (v1.1) (Color) (HiRes).zip</path>
     <name>3D Air Hockey (USA) (v1.1) (Color) (HiRes)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/3D Air Hockey (USA) (v1.1) (Color) (HiRes).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/3D Air Hockey (USA) (v1.1) (Color) (HiRes).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/3D Air Hockey (USA) (v1.1) (Color) (LoRes).zip</path>
     <name>3D Air Hockey (USA) (v1.1) (Color) (LoRes)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/3D Air Hockey (USA) (v1.1) (Color) (LoRes).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/3D Air Hockey (USA) (v1.1) (Color) (LoRes).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/3D Air Hockey (USA) (v1.1) (Color) (OS5).zip</path>
     <name>3D Air Hockey (USA) (v1.1) (Color) (OS5)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/3D Air Hockey (USA) (v1.1) (Color) (OS5).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/3D Air Hockey (USA) (v1.1) (Color) (OS5).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/3D Air Hockey (USA) (v1.1) (Greyscale) (LoRes).zip</path>
     <name>3D Air Hockey (USA) (v1.1) (Greyscale) (LoRes)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/3D Air Hockey (USA) (v1.1) (Greyscale) (LoRes).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/3D Air Hockey (USA) (v1.1) (Greyscale) (LoRes).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/3D Air Hockey (USA) (v1.2) (Color) (LoRes).zip</path>
     <name>3D Air Hockey (USA) (v1.2) (Color) (LoRes)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/3D Air Hockey (USA) (v1.2) (Color) (LoRes).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/3D Air Hockey (USA) (v1.2) (Color) (LoRes).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/3D Air Hockey (USA) (v1.2) (Color) (OS5).zip</path>
     <name>3D Air Hockey (USA) (v1.2) (Color) (OS5)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/3D Air Hockey (USA) (v1.2) (Color) (OS5).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/3D Air Hockey (USA) (v1.2) (Color) (OS5).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/3D Air Hockey (USA) (v1.2) (Greyscale) (LoRes).zip</path>
     <name>3D Air Hockey (USA) (v1.2) (Greyscale) (LoRes)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/3D Air Hockey (USA) (v1.2) (Greyscale) (LoRes).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/3D Air Hockey (USA) (v1.2) (Greyscale) (LoRes).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/3D Slider (USA) (2004-10-21) (Color).zip</path>
     <name>3D Slider (USA) (2004-10-21) (Color)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/3D Slider (USA) (2004-10-21) (Color).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/3D Slider (USA) (2004-10-21) (Color).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/9-Ball Pinball (USA).zip</path>
     <name>9-Ball Pinball (USA)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/9-Ball Pinball (USA).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/9-Ball Pinball (USA).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Acedior (USA) (De) (Zodiac) (Data).zip</path>
     <name>Acedior (USA) (De) (Zodiac) (Data)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Acedior (USA) (De) (Zodiac) (Data).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Acedior (USA) (De) (Zodiac) (Data).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Acedior (USA) (Fr) (Zodiac).zip</path>
     <name>Acedior (USA) (Fr) (Zodiac)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Acedior (USA) (Fr) (Zodiac).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Acedior (USA) (Fr) (Zodiac).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/AcidSolitaire (USA) (Zodiac).zip</path>
     <name>AcidSolitaire (USA) (Zodiac)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/AcidSolitaire (USA) (Zodiac).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/AcidSolitaire (USA) (Zodiac).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Airline Manager Simulator (Canada) (BW).zip</path>
     <name>Airline Manager Simulator (Canada) (BW)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Airline Manager Simulator (Canada) (BW).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Airline Manager Simulator (Canada) (BW).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Airline Manager Simulator (Canada) (Color).zip</path>
     <name>Airline Manager Simulator (Canada) (Color)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Airline Manager Simulator (Canada) (Color).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Airline Manager Simulator (Canada) (Color).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Alchemy (USA) (Data).zip</path>
     <name>Alchemy (USA) (Data)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Alchemy (USA) (Data).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Alchemy (USA) (Data).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Alchemy (USA) (LoRes).zip</path>
     <name>Alchemy (USA) (LoRes)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Alchemy (USA) (LoRes).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Alchemy (USA) (LoRes).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Animated Dudes (USA) (Zodiac).zip</path>
     <name>Animated Dudes (USA) (Zodiac)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Animated Dudes (USA) (Zodiac).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Animated Dudes (USA) (Zodiac).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Astraware Boardgames (USA).zip</path>
     <name>Astraware Boardgames (USA)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Astraware Boardgames (USA).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Astraware Boardgames (USA).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Astraware Casino (USA).zip</path>
     <name>Astraware Casino (USA)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Astraware Casino (USA).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Astraware Casino (USA).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Astraware Mahjongg (USA) (HiRes).zip</path>
     <name>Astraware Mahjongg (USA) (HiRes)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Astraware Mahjongg (USA) (HiRes).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Astraware Mahjongg (USA) (HiRes).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Astraware Mahjongg (USA) (LoRes).zip</path>
     <name>Astraware Mahjongg (USA) (LoRes)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Astraware Mahjongg (USA) (LoRes).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Astraware Mahjongg (USA) (LoRes).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Astraware Solitaire (USA).zip</path>
     <name>Astraware Solitaire (USA)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Astraware Solitaire (USA).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Astraware Solitaire (USA).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Astraware Sudoku (USA) (Data).zip</path>
     <name>Astraware Sudoku (USA) (Data)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Astraware Sudoku (USA) (Data).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Astraware Sudoku (USA) (Data).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Astraware Sudoku (USA).zip</path>
     <name>Astraware Sudoku (USA)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Astraware Sudoku (USA).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Astraware Sudoku (USA).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Atomica (USA) (LoRes).zip</path>
     <name>Atomica (USA) (LoRes)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Atomica (USA) (LoRes).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Atomica (USA) (LoRes).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Austin Powers Pinball (Canada) (Color) (Data).zip</path>
     <name>Austin Powers Pinball (Canada) (Color) (Data)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Austin Powers Pinball (Canada) (Color) (Data).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Austin Powers Pinball (Canada) (Color) (Data).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Battleship (USA) (v1.20) (HiRes).zip</path>
     <name>Battleship (USA) (v1.20) (HiRes)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Battleship (USA) (v1.20) (HiRes).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Battleship (USA) (v1.20) (HiRes).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Battleship (USA) (v1.20) (LoRes).zip</path>
     <name>Battleship (USA) (v1.20) (LoRes)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Battleship (USA) (v1.20) (LoRes).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Battleship (USA) (v1.20) (LoRes).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Battleship (USA) (v1.66) (Data).zip</path>
     <name>Battleship (USA) (v1.66) (Data)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Battleship (USA) (v1.66) (Data).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Battleship (USA) (v1.66) (Data).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Bejeweled 2 (USA) (v1.30) (Data).zip</path>
     <name>Bejeweled 2 (USA) (v1.30) (Data)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Bejeweled 2 (USA) (v1.30) (Data).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Bejeweled 2 (USA) (v1.30) (Data).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Bejeweled 2 (USA) (v1.30).zip</path>
     <name>Bejeweled 2 (USA) (v1.30)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Bejeweled 2 (USA) (v1.30).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Bejeweled 2 (USA) (v1.30).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Big Money! (USA) (Data).zip</path>
     <name>Big Money! (USA) (Data)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Big Money! (USA) (Data).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Big Money! (USA) (Data).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Bike or Design (USA).zip</path>
     <name>Bike or Design (USA)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Bike or Design (USA).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Bike or Design (USA).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Bike or Die! (USA) (De) (v1.3a) (BW) (LoRes).zip</path>
     <name>Bike or Die! (USA) (De) (v1.3a) (BW) (LoRes)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Bike or Die! (USA) (De) (v1.3a) (BW) (LoRes).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Bike or Die! (USA) (De) (v1.3a) (BW) (LoRes).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Bike or Die! (USA) (Nl) (v1.2f) (Color) (LoRes).zip</path>
     <name>Bike or Die! (USA) (Nl) (v1.2f) (Color) (LoRes)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Bike or Die! (USA) (Nl) (v1.2f) (Color) (LoRes).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Bike or Die! (USA) (Nl) (v1.2f) (Color) (LoRes).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Bike or Die! (USA) (Ru) (v1.2f) (Color) (LoRes).zip</path>
     <name>Bike or Die! (USA) (Ru) (v1.2f) (Color) (LoRes)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Bike or Die! (USA) (Ru) (v1.2f) (Color) (LoRes).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Bike or Die! (USA) (Ru) (v1.2f) (Color) (LoRes).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Bike or Die! (USA) (v2.1b).zip</path>
     <name>Bike or Die! (USA) (v2.1b)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Bike or Die! (USA) (v2.1b).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Bike or Die! (USA) (v2.1b).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Bike or Die! Robot Biker (USA) (Add-on).zip</path>
     <name>Bike or Die! Robot Biker (USA) (Add-on)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Bike or Die! Robot Biker (USA) (Add-on).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Bike or Die! Robot Biker (USA) (Add-on).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/BlackJack (Canada) (Color).zip</path>
     <name>BlackJack (Canada) (Color)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/BlackJack (Canada) (Color).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/BlackJack (Canada) (Color).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Brick Breakers (USA) (Color).zip</path>
     <name>Brick Breakers (USA) (Color)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Brick Breakers (USA) (Color).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Brick Breakers (USA) (Color).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Checkers, Le (USA) (Greyscale).zip</path>
     <name>Checkers, Le (USA) (Greyscale)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Checkers, Le (USA) (Greyscale).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Checkers, Le (USA) (Greyscale).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Crossword 365 (USA) (Demo).zip</path>
     <name>Crossword 365 (USA) (Demo)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Crossword 365 (USA) (Demo).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Crossword 365 (USA) (Demo).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/DaDa Baseball (Japan) (En) (Greyscale).zip</path>
     <name>DaDa Baseball (Japan) (En) (Greyscale)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/DaDa Baseball (Japan) (En) (Greyscale).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/DaDa Baseball (Japan) (En) (Greyscale).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/DaDa Deluxe Mahjong (Japan) (Color).zip</path>
     <name>DaDa Deluxe Mahjong (Japan) (Color)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/DaDa Deluxe Mahjong (Japan) (Color).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/DaDa Deluxe Mahjong (Japan) (Color).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/DaDa Golf (Japan) (Color) (Data).zip</path>
     <name>DaDa Golf (Japan) (Color) (Data)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/DaDa Golf (Japan) (Color) (Data).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/DaDa Golf (Japan) (Color) (Data).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/DaDa Golf (Japan) (Color).zip</path>
     <name>DaDa Golf (Japan) (Color)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/DaDa Golf (Japan) (Color).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/DaDa Golf (Japan) (Color).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Dear Daria (USA).zip</path>
     <name>Dear Daria (USA)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Dear Daria (USA).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Dear Daria (USA).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Dirk Nebula - Galaxy Ranger (USA) (Color).zip</path>
     <name>Dirk Nebula - Galaxy Ranger (USA) (Color)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Dirk Nebula - Galaxy Ranger (USA) (Color).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Dirk Nebula - Galaxy Ranger (USA) (Color).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Doom II (USA) (Zodiac).zip</path>
     <name>Doom II (USA) (Zodiac)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Doom II (USA) (Zodiac).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Doom II (USA) (Zodiac).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Dr. Robotnik's Mean Bean Machine (USA).zip</path>
     <name>Dr. Robotnik&apos;s Mean Bean Machine (USA)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Dr. Robotnik&apos;s Mean Bean Machine (USA).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Dr. Robotnik&apos;s Mean Bean Machine (USA).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Duke Nukem Mobile (USA) (Zodiac) (Data).zip</path>
     <name>Duke Nukem Mobile (USA) (Zodiac) (Data)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Duke Nukem Mobile (USA) (Zodiac) (Data).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Duke Nukem Mobile (USA) (Zodiac) (Data).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/EZ Blackjack (USA).zip</path>
     <name>EZ Blackjack (USA)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/EZ Blackjack (USA).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/EZ Blackjack (USA).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Emerald Hunt (USA).zip</path>
     <name>Emerald Hunt (USA)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Emerald Hunt (USA).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Emerald Hunt (USA).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Galax (USA).zip</path>
     <name>Galax (USA)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Galax (USA).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Galax (USA).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Handmark Hearts (USA) (Demo).zip</path>
     <name>Handmark Hearts (USA) (Demo)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Handmark Hearts (USA) (Demo).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Handmark Hearts (USA) (Demo).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Hoyle Mahjong Tiles (USA) (Greyscale).zip</path>
     <name>Hoyle Mahjong Tiles (USA) (Greyscale)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Hoyle Mahjong Tiles (USA) (Greyscale).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Hoyle Mahjong Tiles (USA) (Greyscale).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Hoyle Solitaire (USA) (Color).zip</path>
     <name>Hoyle Solitaire (USA) (Color)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Hoyle Solitaire (USA) (Color).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Hoyle Solitaire (USA) (Color).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Hoyle Spades (USA) (Greyscale).zip</path>
     <name>Hoyle Spades (USA) (Greyscale)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Hoyle Spades (USA) (Greyscale).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Hoyle Spades (USA) (Greyscale).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Jumble - Animals (USA) (BW) (Theme Pack).zip</path>
     <name>Jumble - Animals (USA) (BW) (Theme Pack)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Jumble - Animals (USA) (BW) (Theme Pack).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Jumble - Animals (USA) (BW) (Theme Pack).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Jumble - Animals (USA) (Color) (Theme Pack).zip</path>
     <name>Jumble - Animals (USA) (Color) (Theme Pack)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Jumble - Animals (USA) (Color) (Theme Pack).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Jumble - Animals (USA) (Color) (Theme Pack).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Jumble - At Work (USA) (Color) (Theme Pack).zip</path>
     <name>Jumble - At Work (USA) (Color) (Theme Pack)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Jumble - At Work (USA) (Color) (Theme Pack).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Jumble - At Work (USA) (Color) (Theme Pack).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Jumble - Summer (USA) (BW) (Theme Pack).zip</path>
     <name>Jumble - Summer (USA) (BW) (Theme Pack)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Jumble - Summer (USA) (BW) (Theme Pack).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Jumble - Summer (USA) (BW) (Theme Pack).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Jumble - Summer (USA) (Color) (Theme Pack).zip</path>
     <name>Jumble - Summer (USA) (Color) (Theme Pack)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Jumble - Summer (USA) (Color) (Theme Pack).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Jumble - Summer (USA) (Color) (Theme Pack).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Jumble - Travel (USA) (BW) (Theme Pack).zip</path>
     <name>Jumble - Travel (USA) (BW) (Theme Pack)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Jumble - Travel (USA) (BW) (Theme Pack).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Jumble - Travel (USA) (BW) (Theme Pack).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Kasparov Chessmate (Canada).zip</path>
     <name>Kasparov Chessmate (Canada)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Kasparov Chessmate (Canada).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Kasparov Chessmate (Canada).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Keno (USA) (Color).zip</path>
     <name>Keno (USA) (Color)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Keno (USA) (Color).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Keno (USA) (Color).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Link Letters (USA).zip</path>
     <name>Link Letters (USA)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Link Letters (USA).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Link Letters (USA).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Lode Runner - The Legend Returns (USA) (v1.2).zip</path>
     <name>Lode Runner - The Legend Returns (USA) (v1.2)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Lode Runner - The Legend Returns (USA) (v1.2).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Lode Runner - The Legend Returns (USA) (v1.2).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Lode Runner - The Legend Returns (USA).zip</path>
     <name>Lode Runner - The Legend Returns (USA)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Lode Runner - The Legend Returns (USA).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Lode Runner - The Legend Returns (USA).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Morita Shougi (Japan).zip</path>
     <name>Morita Shougi (Japan)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Morita Shougi (Japan).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Morita Shougi (Japan).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/MotoGear (France) (Data).zip</path>
     <name>MotoGear (France) (Data)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/MotoGear (France) (Data).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/MotoGear (France) (Data).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/MotoGear (France).zip</path>
     <name>MotoGear (France)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/MotoGear (France).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/MotoGear (France).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Ms. Pac-Man (USA).zip</path>
     <name>Ms. Pac-Man (USA)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Ms. Pac-Man (USA).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Ms. Pac-Man (USA).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Palm Mahjong (Japan) (BW).zip</path>
     <name>Palm Mahjong (Japan) (BW)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Palm Mahjong (Japan) (BW).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Palm Mahjong (Japan) (BW).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Parashoot (Europe) (De) (Registered).zip</path>
     <name>Parashoot (Europe) (De) (Registered)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Parashoot (Europe) (De) (Registered).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Parashoot (Europe) (De) (Registered).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Parashoot (Europe).zip</path>
     <name>Parashoot (Europe)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Parashoot (Europe).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Parashoot (Europe).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Petit Mahjong (Japan) (Color) (Data).zip</path>
     <name>Petit Mahjong (Japan) (Color) (Data)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Petit Mahjong (Japan) (Color) (Data).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Petit Mahjong (Japan) (Color) (Data).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Police Range (USA).zip</path>
     <name>Police Range (USA)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Police Range (USA).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Police Range (USA).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Psychic Rabbit, The (Canada).zip</path>
     <name>Psychic Rabbit, The (Canada)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Psychic Rabbit, The (Canada).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Psychic Rabbit, The (Canada).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Purple Software Enigma (Europe).zip</path>
     <name>Purple Software Enigma (Europe)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Purple Software Enigma (Europe).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Purple Software Enigma (Europe).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Purple Software Theole (Europe) (De).zip</path>
     <name>Purple Software Theole (Europe) (De)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Purple Software Theole (Europe) (De).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Purple Software Theole (Europe) (De).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Purple Software Yacht (Europe) (De).zip</path>
     <name>Purple Software Yacht (Europe) (De)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Purple Software Yacht (Europe) (De).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Purple Software Yacht (Europe) (De).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/SimCity (Japan) (Color).zip</path>
     <name>SimCity (Japan) (Color)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/SimCity (Japan) (Color).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/SimCity (Japan) (Color).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/SimCity (Japan) (De) (BW).zip</path>
     <name>SimCity (Japan) (De) (BW)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/SimCity (Japan) (De) (BW).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/SimCity (Japan) (De) (BW).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/SimCity (Japan) (En) (BW).zip</path>
     <name>SimCity (Japan) (En) (BW)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/SimCity (Japan) (En) (BW).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/SimCity (Japan) (En) (BW).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Space Invaders (USA) (Demo) (HiRes).zip</path>
     <name>Space Invaders (USA) (Demo) (HiRes)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Space Invaders (USA) (Demo) (HiRes).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Space Invaders (USA) (Demo) (HiRes).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Space Trader (USA) (v1.1.1) (Color).zip</path>
     <name>Space Trader (USA) (v1.1.1) (Color)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Space Trader (USA) (v1.1.1) (Color).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Space Trader (USA) (v1.1.1) (Color).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Space Trader (USA) (v1.2.2) (Color).zip</path>
     <name>Space Trader (USA) (v1.2.2) (Color)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Space Trader (USA) (v1.2.2) (Color).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Space Trader (USA) (v1.2.2) (Color).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Street Hoops (Unknown) (Proto) (Zodiac) (Data).zip</path>
     <name>Street Hoops (Unknown) (Proto) (Zodiac) (Data)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Street Hoops (Unknown) (Proto) (Zodiac) (Data).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Street Hoops (Unknown) (Proto) (Zodiac) (Data).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Tesuji no Tatsujin - Joukyuu-hen (Japan) (Demo) (Data).zip</path>
     <name>Tesuji no Tatsujin - Joukyuu-hen (Japan) (Demo) (Data)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Tesuji no Tatsujin - Joukyuu-hen (Japan) (Demo) (Data).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Tesuji no Tatsujin - Joukyuu-hen (Japan) (Demo) (Data).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Tetris Classic (USA) (v1.22).zip</path>
     <name>Tetris Classic (USA) (v1.22)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Tetris Classic (USA) (v1.22).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Tetris Classic (USA) (v1.22).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Tony Hawk's Pro Skater 4 (USA) (Zodiac).zip</path>
     <name>Tony Hawk&apos;s Pro Skater 4 (USA) (Zodiac)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Tony Hawk&apos;s Pro Skater 4 (USA) (Zodiac).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Tony Hawk&apos;s Pro Skater 4 (USA) (Zodiac).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Trivial Pursuit (USA) (HiRes) (480x320).zip</path>
     <name>Trivial Pursuit (USA) (HiRes) (480x320)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Trivial Pursuit (USA) (HiRes) (480x320).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Trivial Pursuit (USA) (HiRes) (480x320).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Word Search (USA) (Greyscale).zip</path>
     <name>Word Search (USA) (Greyscale)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Word Search (USA) (Greyscale).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Word Search (USA) (Greyscale).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/Yahtzee (USA) (v1.56) (HiRes).zip</path>
     <name>Yahtzee (USA) (v1.56) (HiRes)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/Yahtzee (USA) (v1.56) (HiRes).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/Yahtzee (USA) (v1.56) (HiRes).mp4</video>
+  </game>
   <game>
     <path>/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)/ZIOGolf (Japan) (Color) (Visor) (Data).zip</path>
     <name>ZIOGolf (Japan) (Color) (Visor) (Data)</name>
     <image>/recalbox/share/thumbs2/Mobile - Palm OS (Digital)_Named_Titles/ZIOGolf (Japan) (Color) (Visor) (Data).png</image>
-</game>
+    <video>/recalbox/share/videos/No-Intro/Mobile - Palm OS (Digital)/ZIOGolf (Japan) (Color) (Visor) (Data).mp4</video>
+  </game>
 </gamelist>

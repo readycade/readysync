@@ -1,0 +1,464 @@
+<gamelist>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/2021 Snooky (1991)(Studio Hawk)(JP).dsk</path>
+    <name>2021 Snooky (1991)(Studio Hawk)(JP)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/2021 Snooky (1991)(Studio Hawk)(JP).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/2021 Snooky (1991)(Studio Hawk)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Blade (1997)(GW&apos;s Workshop)[b].dsk</path>
+    <name>Blade (1997)(GW&apos;s Workshop)[b]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Blade (1997)(GW&apos;s Workshop)[b].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Blade (1997)(GW&apos;s Workshop)[b].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Earth (1996)(GW&apos;s Workshop).dsk</path>
+    <name>Earth (1996)(GW&apos;s Workshop)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Earth (1996)(GW&apos;s Workshop).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Earth (1996)(GW&apos;s Workshop).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Earth Attack (19xx)(GW&apos;s Workshop)[b].dsk</path>
+    <name>Earth Attack (19xx)(GW&apos;s Workshop)[b]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Earth Attack (19xx)(GW&apos;s Workshop)[b].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Earth Attack (19xx)(GW&apos;s Workshop)[b].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/F-Nano 2 - 3D Car Action (demo) (1994)(XRay)(JP).dsk</path>
+    <name>F-Nano 2 - 3D Car Action (demo) (1994)(XRay)(JP)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/F-Nano 2 - 3D Car Action (demo) (1994)(XRay)(JP).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/F-Nano 2 - 3D Car Action (demo) (1994)(XRay)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Fishing v1.0 (1996-02-26)(GW&apos;s Workshop).dsk</path>
+    <name>Fishing v1.0 (1996-02-26)(GW&apos;s Workshop)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Fishing v1.0 (1996-02-26)(GW&apos;s Workshop).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Fishing v1.0 (1996-02-26)(GW&apos;s Workshop).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Fishing v1.0 (1996-02-26)(GW&apos;s Workshop)[a].dsk</path>
+    <name>Fishing v1.0 (1996-02-26)(GW&apos;s Workshop)[a]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Fishing v1.0 (1996-02-26)(GW&apos;s Workshop)[a].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Fishing v1.0 (1996-02-26)(GW&apos;s Workshop)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 1 of 5)(Opening Disk 0).dsk</path>
+    <name>Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 1 of 5)(Opening Disk 0)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 1 of 5)(Opening Disk 0).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 1 of 5)(Opening Disk 0).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 1 of 5)(Opening Disk 0)[a2].dsk</path>
+    <name>Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 1 of 5)(Opening Disk 0)[a2]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 1 of 5)(Opening Disk 0)[a2].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 1 of 5)(Opening Disk 0)[a2].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 1 of 5)(Opening Disk 0)[a].dsk</path>
+    <name>Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 1 of 5)(Opening Disk 0)[a]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 1 of 5)(Opening Disk 0)[a].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 1 of 5)(Opening Disk 0)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 1 of 5)(Opening Disk 0)[b].dsk</path>
+    <name>Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 1 of 5)(Opening Disk 0)[b]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 1 of 5)(Opening Disk 0)[b].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 1 of 5)(Opening Disk 0)[b].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 2 of 5)(Opening Disk 1).dsk</path>
+    <name>Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 2 of 5)(Opening Disk 1)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 2 of 5)(Opening Disk 1).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 2 of 5)(Opening Disk 1).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 2 of 5)(Opening Disk 1)[a].dsk</path>
+    <name>Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 2 of 5)(Opening Disk 1)[a]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 2 of 5)(Opening Disk 1)[a].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 2 of 5)(Opening Disk 1)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 2 of 5)(Opening Disk 1)[b].dsk</path>
+    <name>Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 2 of 5)(Opening Disk 1)[b]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 2 of 5)(Opening Disk 1)[b].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 2 of 5)(Opening Disk 1)[b].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 3 of 5)(Opening Disk 2).dsk</path>
+    <name>Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 3 of 5)(Opening Disk 2)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 3 of 5)(Opening Disk 2).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 3 of 5)(Opening Disk 2).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 3 of 5)(Opening Disk 2)[a].dsk</path>
+    <name>Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 3 of 5)(Opening Disk 2)[a]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 3 of 5)(Opening Disk 2)[a].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 3 of 5)(Opening Disk 2)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 4 of 5)(Game Disk 0).dsk</path>
+    <name>Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 4 of 5)(Game Disk 0)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 4 of 5)(Game Disk 0).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 4 of 5)(Game Disk 0).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 4 of 5)(Game Disk 0)[a2].dsk</path>
+    <name>Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 4 of 5)(Game Disk 0)[a2]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 4 of 5)(Game Disk 0)[a2].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 4 of 5)(Game Disk 0)[a2].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 4 of 5)(Game Disk 0)[a].dsk</path>
+    <name>Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 4 of 5)(Game Disk 0)[a]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 4 of 5)(Game Disk 0)[a].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 4 of 5)(Game Disk 0)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 4 of 5)(Game Disk 0)[b].dsk</path>
+    <name>Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 4 of 5)(Game Disk 0)[b]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 4 of 5)(Game Disk 0)[b].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 4 of 5)(Game Disk 0)[b].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 5 of 5)(Game Disk 1).dsk</path>
+    <name>Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 5 of 5)(Game Disk 1)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 5 of 5)(Game Disk 1).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 5 of 5)(Game Disk 1).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 5 of 5)(Game Disk 1)[a].dsk</path>
+    <name>Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 5 of 5)(Game Disk 1)[a]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 5 of 5)(Game Disk 1)[a].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 5 of 5)(Game Disk 1)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 5 of 5)(Game Disk 1)[b].dsk</path>
+    <name>Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 5 of 5)(Game Disk 1)[b]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 5 of 5)(Game Disk 1)[b].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 5 of 5)(Game Disk 1)[b].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Gun Shot vs Festa Again (2001)(Rabbit Soft Worker&apos;s)(JP).dsk</path>
+    <name>Gun Shot vs Festa Again (2001)(Rabbit Soft Worker&apos;s)(JP)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Gun Shot vs Festa Again (2001)(Rabbit Soft Worker&apos;s)(JP).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Gun Shot vs Festa Again (2001)(Rabbit Soft Worker&apos;s)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Illusion City (1991)(Micro Cabin)(Disk 01 of 13)(Game Disk 1).dsk</path>
+    <name>Illusion City (1991)(Micro Cabin)(Disk 01 of 13)(Game Disk 1)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(Disk 01 of 13)(Game Disk 1).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(Disk 01 of 13)(Game Disk 1).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Illusion City (1991)(Micro Cabin)(Disk 02 of 13)(Game Disk 2).dsk</path>
+    <name>Illusion City (1991)(Micro Cabin)(Disk 02 of 13)(Game Disk 2)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(Disk 02 of 13)(Game Disk 2).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(Disk 02 of 13)(Game Disk 2).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Illusion City (1991)(Micro Cabin)(JP)(Disk 01 of 13)(Game Disk 1).dsk</path>
+    <name>Illusion City (1991)(Micro Cabin)(JP)(Disk 01 of 13)(Game Disk 1)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 01 of 13)(Game Disk 1).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 01 of 13)(Game Disk 1).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Illusion City (1991)(Micro Cabin)(JP)(Disk 01 of 13)(Game Disk 1)[a].dsk</path>
+    <name>Illusion City (1991)(Micro Cabin)(JP)(Disk 01 of 13)(Game Disk 1)[a]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 01 of 13)(Game Disk 1)[a].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 01 of 13)(Game Disk 1)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Illusion City (1991)(Micro Cabin)(JP)(Disk 01 of 13)(Game Disk 1)[b].dsk</path>
+    <name>Illusion City (1991)(Micro Cabin)(JP)(Disk 01 of 13)(Game Disk 1)[b]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 01 of 13)(Game Disk 1)[b].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 01 of 13)(Game Disk 1)[b].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Illusion City (1991)(Micro Cabin)(JP)(Disk 02 of 13)(Game Disk 2).dsk</path>
+    <name>Illusion City (1991)(Micro Cabin)(JP)(Disk 02 of 13)(Game Disk 2)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 02 of 13)(Game Disk 2).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 02 of 13)(Game Disk 2).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Illusion City (1991)(Micro Cabin)(JP)(Disk 03 of 13)(Game Disk 3).dsk</path>
+    <name>Illusion City (1991)(Micro Cabin)(JP)(Disk 03 of 13)(Game Disk 3)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 03 of 13)(Game Disk 3).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 03 of 13)(Game Disk 3).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Illusion City (1991)(Micro Cabin)(JP)(Disk 04 of 13)(Game Disk 4).dsk</path>
+    <name>Illusion City (1991)(Micro Cabin)(JP)(Disk 04 of 13)(Game Disk 4)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 04 of 13)(Game Disk 4).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 04 of 13)(Game Disk 4).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Illusion City (1991)(Micro Cabin)(JP)(Disk 05 of 13)(Game Disk 5).dsk</path>
+    <name>Illusion City (1991)(Micro Cabin)(JP)(Disk 05 of 13)(Game Disk 5)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 05 of 13)(Game Disk 5).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 05 of 13)(Game Disk 5).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Illusion City (1991)(Micro Cabin)(JP)(Disk 06 of 13)(Game Disk 6).dsk</path>
+    <name>Illusion City (1991)(Micro Cabin)(JP)(Disk 06 of 13)(Game Disk 6)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 06 of 13)(Game Disk 6).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 06 of 13)(Game Disk 6).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Illusion City (1991)(Micro Cabin)(JP)(Disk 07 of 13)(Game Disk 7).dsk</path>
+    <name>Illusion City (1991)(Micro Cabin)(JP)(Disk 07 of 13)(Game Disk 7)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 07 of 13)(Game Disk 7).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 07 of 13)(Game Disk 7).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Illusion City (1991)(Micro Cabin)(JP)(Disk 08 of 13)(Game Disk 8).dsk</path>
+    <name>Illusion City (1991)(Micro Cabin)(JP)(Disk 08 of 13)(Game Disk 8)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 08 of 13)(Game Disk 8).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 08 of 13)(Game Disk 8).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Illusion City (1991)(Micro Cabin)(JP)(Disk 10 of 13)(Data Disk 1).dsk</path>
+    <name>Illusion City (1991)(Micro Cabin)(JP)(Disk 10 of 13)(Data Disk 1)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 10 of 13)(Data Disk 1).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 10 of 13)(Data Disk 1).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Illusion City (1991)(Micro Cabin)(JP)(Disk 11 of 13)(Data Disk 2).dsk</path>
+    <name>Illusion City (1991)(Micro Cabin)(JP)(Disk 11 of 13)(Data Disk 2)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 11 of 13)(Data Disk 2).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 11 of 13)(Data Disk 2).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Illusion City (1991)(Micro Cabin)(JP)(Disk 12 of 13)(Data Disk 3).dsk</path>
+    <name>Illusion City (1991)(Micro Cabin)(JP)(Disk 12 of 13)(Data Disk 3)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 12 of 13)(Data Disk 3).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 12 of 13)(Data Disk 3).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Illusion City (1991)(Micro Cabin)(JP)(Disk 13 of 13)(Data Disk 4).dsk</path>
+    <name>Illusion City (1991)(Micro Cabin)(JP)(Disk 13 of 13)(Data Disk 4)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 13 of 13)(Data Disk 4).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Illusion City (1991)(Micro Cabin)(JP)(Disk 13 of 13)(Data Disk 4).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Moonlight Saga (1996)(Maple Yard)(JP).dsk</path>
+    <name>Moonlight Saga (1996)(Maple Yard)(JP)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Moonlight Saga (1996)(Maple Yard)(JP).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Moonlight Saga (1996)(Maple Yard)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Multi-Plex (1993)(MIWA)(JP).dsk</path>
+    <name>Multi-Plex (1993)(MIWA)(JP)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Multi-Plex (1993)(MIWA)(JP).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Multi-Plex (1993)(MIWA)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Multi-Plex (1993)(MIWA)(JP)[a].dsk</path>
+    <name>Multi-Plex (1993)(MIWA)(JP)[a]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Multi-Plex (1993)(MIWA)(JP)[a].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Multi-Plex (1993)(MIWA)(JP)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/PaRaDream (1992)(RAC House)(JP).dsk</path>
+    <name>PaRaDream (1992)(RAC House)(JP)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/PaRaDream (1992)(RAC House)(JP).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/PaRaDream (1992)(RAC House)(JP).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/PaRaDream (1992)(RAC House)(JP)[a2].dsk</path>
+    <name>PaRaDream (1992)(RAC House)(JP)[a2]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/PaRaDream (1992)(RAC House)(JP)[a2].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/PaRaDream (1992)(RAC House)(JP)[a2].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/PaRaDream (1992)(RAC House)(JP)[a].dsk</path>
+    <name>PaRaDream (1992)(RAC House)(JP)[a]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/PaRaDream (1992)(RAC House)(JP)[a].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/PaRaDream (1992)(RAC House)(JP)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/PaRaDream (1992)(RAC House)(JP)[b].dsk</path>
+    <name>PaRaDream (1992)(RAC House)(JP)[b]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/PaRaDream (1992)(RAC House)(JP)[b].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/PaRaDream (1992)(RAC House)(JP)[b].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8).dsk</path>
+    <name>Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[a2].dsk</path>
+    <name>Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[a2]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[a2].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[a2].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[a3].dsk</path>
+    <name>Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[a3]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[a3].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[a3].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[a].dsk</path>
+    <name>Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[a]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[a].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[b2].dsk</path>
+    <name>Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[b2]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[b2].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[b2].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[b].dsk</path>
+    <name>Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[b]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[b].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8)[b].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 2 of 8).dsk</path>
+    <name>Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 2 of 8)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 2 of 8).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 2 of 8).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 3 of 8).dsk</path>
+    <name>Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 3 of 8)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 3 of 8).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 3 of 8).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 4 of 8).dsk</path>
+    <name>Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 4 of 8)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 4 of 8).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 4 of 8).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 5 of 8).dsk</path>
+    <name>Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 5 of 8)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 5 of 8).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 5 of 8).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 6 of 8).dsk</path>
+    <name>Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 6 of 8)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 6 of 8).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 6 of 8).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 6 of 8)[a].dsk</path>
+    <name>Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 6 of 8)[a]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 6 of 8)[a].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 6 of 8)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 7 of 8).dsk</path>
+    <name>Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 7 of 8)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 7 of 8).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 7 of 8).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 8 of 8).dsk</path>
+    <name>Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 8 of 8)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 8 of 8).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 8 of 8).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 8 of 8)[a2].dsk</path>
+    <name>Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 8 of 8)[a2]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 8 of 8)[a2].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 8 of 8)[a2].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 8 of 8)[a].dsk</path>
+    <name>Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 8 of 8)[a]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 8 of 8)[a].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 8 of 8)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/S.T.G. (1996)(Y. Tomohara).dsk</path>
+    <name>S.T.G. (1996)(Y. Tomohara)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/S.T.G. (1996)(Y. Tomohara).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/S.T.G. (1996)(Y. Tomohara).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/S.T.G. Special - Do Don Taku (1998)(Y. Tomohara).dsk</path>
+    <name>S.T.G. Special - Do Don Taku (1998)(Y. Tomohara)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/S.T.G. Special - Do Don Taku (1998)(Y. Tomohara).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/S.T.G. Special - Do Don Taku (1998)(Y. Tomohara).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 1 of 3)(Game Disk 1).dsk</path>
+    <name>Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 1 of 3)(Game Disk 1)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 1 of 3)(Game Disk 1).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 1 of 3)(Game Disk 1).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 1 of 3)(Game Disk 1)[a2].dsk</path>
+    <name>Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 1 of 3)(Game Disk 1)[a2]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 1 of 3)(Game Disk 1)[a2].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 1 of 3)(Game Disk 1)[a2].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 1 of 3)(Game Disk 1)[a].dsk</path>
+    <name>Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 1 of 3)(Game Disk 1)[a]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 1 of 3)(Game Disk 1)[a].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 1 of 3)(Game Disk 1)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 1 of 3)(Game Disk 1)[b].dsk</path>
+    <name>Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 1 of 3)(Game Disk 1)[b]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 1 of 3)(Game Disk 1)[b].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 1 of 3)(Game Disk 1)[b].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 2 of 3)(Game Disk 2).dsk</path>
+    <name>Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 2 of 3)(Game Disk 2)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 2 of 3)(Game Disk 2).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 2 of 3)(Game Disk 2).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 2 of 3)(Game Disk 2)[a].dsk</path>
+    <name>Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 2 of 3)(Game Disk 2)[a]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 2 of 3)(Game Disk 2)[a].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 2 of 3)(Game Disk 2)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 3 of 3)(Game Disk 3).dsk</path>
+    <name>Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 3 of 3)(Game Disk 3)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 3 of 3)(Game Disk 3).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 3 of 3)(Game Disk 3).mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 3 of 3)(Game Disk 3)[a].dsk</path>
+    <name>Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 3 of 3)(Game Disk 3)[a]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 3 of 3)(Game Disk 3)[a].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 3 of 3)(Game Disk 3)[a].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Shoot That Flying Windows! (1997)(Nyyrikki)[a][mouse].dsk</path>
+    <name>Shoot That Flying Windows! (1997)(Nyyrikki)[a][mouse]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Shoot That Flying Windows! (1997)(Nyyrikki)[a][mouse].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Shoot That Flying Windows! (1997)(Nyyrikki)[a][mouse].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Shoot That Flying Windows! (1997)(Nyyrikki)[mouse].dsk</path>
+    <name>Shoot That Flying Windows! (1997)(Nyyrikki)[mouse]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Shoot That Flying Windows! (1997)(Nyyrikki)[mouse].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Shoot That Flying Windows! (1997)(Nyyrikki)[mouse].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Sweet (1994)(Kazuyuki Suzuki)(JP)[old T800].dsk</path>
+    <name>Sweet (1994)(Kazuyuki Suzuki)(JP)[old T800]</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Sweet (1994)(Kazuyuki Suzuki)(JP)[old T800].png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Sweet (1994)(Kazuyuki Suzuki)(JP)[old T800].mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/zip/msxturbor/Zone Terra (1994)(Quadrivium)(NL).dsk</path>
+    <name>Zone Terra (1994)(Quadrivium)(NL)</name>
+    <image>/recalbox/share/thumbs2/Microsoft - MSX TurboR/Zone Terra (1994)(Quadrivium)(NL).png</image>
+    <video>/recalbox/share/videos/Microsoft - MSX TurboR/Zone Terra (1994)(Quadrivium)(NL).mp4</video>
+  </game>
+</gamelist>
