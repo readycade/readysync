@@ -213,8 +213,6 @@ echo "(No-Intro, Redump, TOSEC)..."
 #WIZARDS COMMAND
 httpdirfs --cache --no-range-check --cache-location /recalbox/share/system/.cache/httpdirfs http://thumbnails.libretro.com/ /recalbox/share/thumbs
 
-
-
 echo "Mounting libretro thumbnails..."
 
 # Function to download a file with retries
