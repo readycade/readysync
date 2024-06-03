@@ -50,6 +50,7 @@
 #roms+=("amigacdtv;Redump/Commodore - Amiga CDTV;Commodore - CDTV;<b>Amiga CDTV</b>;puae_libretro")
 #roms+=("gamecube;Redump/Nintendo - GameCube - NKit RVZ [zstd-19-128k];Nintendo - GameCube;Gamecube;dolphin_libretro;rvz")
 #roms+=("wii;Redump/Nintendo - Wii - NKit RVZ [zstd-19-128k];Nintendo - Wii;Nintendo Wii;dolphin_libretro;rvz")
+#roms+=("wiiu;Redump/Nintendo - Wii U - WUX;Nintendo - Wii U;<i>Nintendo Wii U Redump</i>;cemu -g;wux")
 #roms+=("3do;Redump/Panasonic - 3DO Interactive Multiplayer;The 3DO Company - 3DO;Panasonic 3DO;opera_libretro;cue")
 #roms+=("cdi;Redump/Philips - CD-i;Philips - CD-i;<p>Philips CDi;same_cdi_libretro;cue")
 #roms+=("pcenginecd;Redump/NEC - PC Engine CD & TurboGrafx CD;NEC - PC Engine CD - TurboGrafx-CD;PC Engine CD;mednafen_pce_fast_libretro;cue")
@@ -62,10 +63,14 @@
 #roms+=("psp;Redump/Sony - PlayStation Portable;Sony - PlayStation Portable;<i>PlayStation Portable</i>;ppsspp_libretro;iso")
 #roms+=("pcfx;Redump/NEC - PC-FX & PC-FXGA;NEC - PC-FX & PC-FXGA;PC-FX & PC-FXGA;mednafen_pcfx_libretro")
 #roms+=("naomi;Redump/Arcade - Sega - Naomi;Sega - Naomi;Sega - Naomi;flycast_libretro")
+#roms+=("naomi2;Redump/Arcade - Sega - Naomi 2;Sega - Naomi 2;Sega - Naomi 2;flycast_libretro")
 #roms+=("jaguar;No-Intro/Atari - Jaguar CD Interactive Multimedia System;Jaguar CD Interactive Multimedia System;Jaguar CD Interactive Multimedia System;virtualjaguar_libretro")
+
 #roms+=("amstradcpc;TOSEC/Amstrad/CPC/Games/[DSK]/Amstrad CPC - Games - [DSK].zip;Amstrad - CPC;<b>Amstrad CPC</b>;cap32_libretro")
 #roms+=("atari800;TOSEC/Atari/8bit/Games/[XEX]/Atari 8bit - Games - [XEX].zip;Atari - 8-bit;<b>Atari 8bit</b>;atari800_libretro")
+
 #roms+=("pet;TOSEC/Commodore/PET/Games/[PRG]/Commodore PET - Games - [PRG].zip;Commodore - PET;<b>Commodore PET</b>;vice_xpet_libretro")
+
 #roms+=("pc88;TOSEC/NEC/PC-8801/Games/[D88]/NEC PC-8801 - Games - [D88].zip;NEC - PC-8001 - PC-8801;<p><b>NEC PC-88</b>;quasi88_libretro")
 #roms+=("pc98;TOSEC/NEC/PC-9801/Games/[FDD]/NEC PC-9801 - Games - [FDD].zip;NEC - PC-98;<b>NEC PC-98</b>;np2kai_libretro")
 #roms+=("zxspectrum;TOSEC/Sinclair/ZX Spectrum/Games/[TAP]/Sinclair ZX Spectrum - Games - [TAP].zip;Sinclair - ZX Spectrum;<b>ZX Spectrum</b>;fuse_libretro")
@@ -82,4 +87,26 @@
 #roms+=("msx2;TOSEC/MSX/MSX2/Games/MSX MSX2 - Games - [DSK].zip;MSX MSX2;<b>MSX MSX2</b>;bluemsx_libretro")
 #roms+=("msx2;TOSEC/MSX/MSX2+/Games/MSX MSX2+ - Games.zip;MSX MSX2+;<b>MSX MSX2+</b>;bluemsx_libretro")
 #roms+=("msxturbor;TOSEC/MSX/TurboR/Games/MSX TurboR - Games.zip;MSX TurboR;<b>MSX TurboR</b>;bluemsx_libretro")
+
 #roms+=("dos;eye:Games/eXo/eXoDOS_v6r2/eXo/eXoDOS/;DOS;<p><b>MS-DOS</b>;dosbox_pure_libretro")
+#roms+=("xbox;Redump/Microsoft - Xbox;Microsoft - Xbox;Xbox;FINDCORE_libretro;iso")
+#roms+=("xbox360;Redump/Microsoft - Xbox 360;Microsoft - Xbox 360;Xbox 360;FINDCORE_libretro;iso")
+
+
+#roms+=("dos;TOSEC/IBM/PC Compatibles/Games/[IMG]/IBM PC Compatibles - Games - [IMG].zip;DOS;MS-DOS TOSEC;dosbox_pure_libretro")
+#roms+=("dos;TOSEC-ISO/IBM/PC Compatibles/CD/Games/[ISO];DOS;MS-DOS ISO;dosbox_pure_libretro")
+#roms+=("bbcmicro;TOSEC/Acorn/BBC/Games/[SSD]/Acorn BBC - Games - [SSD].zip;BBC Micro;<b>BBC Micro</b>;FINDCORE_libretro")
+#roms+=("dragon;TOSEC/Dragon Data/Dragon/Games/[CAS]/Dragon Data Dragon - Games - [CAS].zip;Dragon;<b>Dragon</b>;FINDCORE_libretro")
+#roms+=("samcoupe;TOSEC/MGT/Sam Coupe/Games/[DSK]/MGT Sam Coupe - Games - [DSK].zip;Sam Coupe;<b>Sam Coupe</b>;FINDCORE_libretro")
+#roms+=("thomson;TOSEC/Thomson/TO8, TO8D, TO9, TO9+/Games/[FD]/
+/Thomson TO8, TO8D, TO9, TO9+ - Games - [FD].zip;Thomson;<b>Thomson</b>;FINDCORE_libretro")
+#roms+=("ti994a;TOSEC/Texas Instruments/TI-99 4A/Games/[DSK]/Texas Instruments TI-99 4A - Games - [DSK].zip;TI-99 4A;<b>TI-99 4A</b>;FINDCORE_libretro")
+#roms+=("trs80coco;TOSEC/Tandy Radio Shack/TRS-80 Color Computer/Games/[DSK]/Tandy Radio Shack TRS-80 Color Computer - Games - [DSK].zip;TRS-80 Color;<b>TRS-80 Color</b>;FINDCORE_libretro")
+#roms+=("vg5000;TOSEC/Philips/VG 5000/Games/Philips VG 5000 - Games.zip;VG-5000;<b>VG-5000</b>;FINDCORE_libretro")
+#roms+=("zmachine;TOSEC/Infocom/Z-Machine/Games/Infocom Z-Machine - Games.zip;Z-Machine;<b>Z-Machine</b>;FINDCORE_libretro")
+
+
+#roms+=("megaduck;No-Intro/Welback - Mega Duck;Welback - Mega Duck;<p>Mega Duck;FINDCORE_libretro")
+
+
+
