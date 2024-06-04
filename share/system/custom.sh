@@ -325,7 +325,7 @@ consoles=(
     ["Acorn_BBC"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Acorn/BBC/Games/[SSD]/Acorn BBC - Games - [SSD].zip\" \"/recalbox/share/zip/bbcmicro/\""
     ["Dragon_Data_Dragon"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Dragon Data/Dragon/Games/[CAS]/Dragon Data Dragon - Games - [CAS].zip\" \"/recalbox/share/zip/dragon/\""
     ["MGT_Sam_Coupe"]="mount-zip -v \"/recalbox/share/rom/TOSEC/MGT/Sam Coupe/Games/[DSK]/MGT Sam Coupe - Games - [DSK].zip\" \"/recalbox/share/zip/samcoupe/\""
-    ["Thomson_TO8_TO8D_TO9_TO9+"]="/mount-zip -v \"/recalbox/share/rom/TOSEC/Thomson/TO8, TO8D, TO9, TO9+/Games/[FD]/Thomson TO8, TO8D, TO9, TO9+ - Games - [FD].zip\" \"/recalbox/share/zip/thomson/\""
+    ["Thomson_TO8_TO8D_TO9_TO9+"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Thomson/TO8, TO8D, TO9, TO9+/Games/[FD]/Thomson TO8, TO8D, TO9, TO9+ - Games - [FD].zip\" \"/recalbox/share/zip/thomson/\""
     ["Texas_Instruments_TI-99_4A"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Texas Instruments/TI-99 4A/Games/[DSK]/Texas Instruments TI-99 4A - Games - [DSK].zip\" \"/recalbox/share/zip/ti994a/\""
     ["Tandy_TRS-80_CoCo"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Tandy Radio Shack/TRS-80 Color Computer/Games/[DSK]/Tandy Radio Shack TRS-80 Color Computer - Games - [DSK].zip\" \"/recalbox/share/zip/trs80coco/\""
     ["Philips_VG5000"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Philips/VG 5000/Games/Philips VG 5000 - Games.zip\" \"/recalbox/share/zip/vg5000/\""
@@ -334,8 +334,10 @@ consoles=(
     ["Amstrad_CPC"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Amstrad/CPC/Games/[DSK]/Amstrad CPC - Games - [DSK].zip\" \"/recalbox/share/zip/amstradcpc/\""
     ["Amstrad_GX4000"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Amstrad/GX4000/Games/Amstrad GX4000 - Games.zip\" \"/recalbox/share/zip/gx4000/\""
     ["Sinclair_ZX_Spectrum"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Sinclair/ZX Spectrum/Games/[TAP]/Sinclair ZX Spectrum - Games - [TAP].zip\" \"/recalbox/share/zip/zxspectrum/\""
-
 )
+
+# Initialize the enabled consoles array
+enabled_consoles=()
 
 # Most TOSEC romsets are disabled by default (# = disabled)
 
@@ -359,7 +361,7 @@ enabled_consoles+=("Sharp_X68000")
 enabled_consoles+=("Elektronika_BK-0011-411")
 # MSX TurboR
 enabled_consoles+=("MSX_TurboR")
-#Acorn BBC
+# Acorn BBC
 enabled_consoles+=("Acorn_BBC")
 # Dragon Data Dragon
 enabled_consoles+=("Dragon_Data_Dragon")
@@ -401,8 +403,8 @@ for console in "${enabled_consoles[@]}"; do
     fi
 done
 
-
 echo "Selected consoles have been mounted."
+
 
 # Mark online mode as enabled
 echo "true" > "$online_mode_flag_file"
