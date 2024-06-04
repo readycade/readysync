@@ -50,28 +50,14 @@
 #roms+=("virtualboy;No-Intro/Nintendo - Virtual Boy;Nintendo - Virtual Boy;<i>Virtual Boy</i>;mednafen_vb_libretro")
 #roms+=("wswan;No-Intro/Bandai - WonderSwan;Bandai - WonderSwan;<i>Bandai WonderSwan</i>;mednafen_wswan_libretro")
 #roms+=("wswanc;No-Intro/Bandai - WonderSwan Color;Bandai - WonderSwan Color;<i>WonderSwan Color</i>;mednafen_wswan_libretro")
-
-
-
-
 #roms+=("apple2;No-Intro/Apple - II (A2R);Apple - II (A2R);<b>Apple - II</b>;linapple")
 #roms+=("apple2gs;No-Intro/Apple - IIGS (A2R);Apple - IIGS (A2R);<b>Apple - IIGS</b>;gsplus")
 #roms+=("arduboy;No-Intro/Arduboy Inc - Arduboy;Arduboy Inc - Arduboy;Arduboy;arduous_libretro")
-
-
-
-
-
-
-
-
-
 #roms+=("amigacd32;Redump/Commodore - Amiga CD32;Commodore - CD32;<b>Amiga CD32</b>;puae_libretro")
 #roms+=("palm;No-Intro/Mobile - Palm OS (Digital);Mobile - Palm OS (Digital);<p>Palm OS;mu_libretro")
 #roms+=("megaduck;No-Intro/Welback - Mega Duck;Welback - Mega Duck;<p>Mega Duck;FINDCORE_libretro")
 #roms+=("gamecube;Redump/Nintendo - GameCube - NKit RVZ [zstd-19-128k];Nintendo - GameCube;Gamecube;dolphin_libretro;rvz")
 #roms+=("wii;Redump/Nintendo - Wii - NKit RVZ [zstd-19-128k];Nintendo - Wii;Nintendo Wii;dolphin_libretro;rvz")
-
 #roms+=("pcenginecd;Redump/NEC - PC Engine CD & TurboGrafx CD;NEC - PC Engine CD - TurboGrafx-CD;PC Engine CD;mednafen_pce_fast_libretro;cue")
 #roms+=("neogeocd;Redump/SNK - Neo Geo CD;SNK - Neo Geo CD;Neo Geo CD;neocd_libretro;cue")
 #roms+=("dreamcast;Redump/Sega - Dreamcast;Sega - Dreamcast;Sega Dreamcast;flycast_libretro;cue")

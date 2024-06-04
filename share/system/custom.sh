@@ -225,6 +225,8 @@ rclone mount myrient:  /recalbox/share/rom --config "/recalbox/share/system/rclo
 echo "Mounting romsets..."
 echo "(No-Intro, Redump, TOSEC)..."
 
+wait
+
 # Mount thumbnails with httpdirfs
 #httpdirfs -d -f -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://thumbnails.libretro.com/ /recalbox/share/thumbs
 #httpdirfs -f -o debug --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o no_cache https://thumbnails.libretro.com/ /recalbox/share/thumbs
