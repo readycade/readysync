@@ -68,15 +68,12 @@
 #roms+=("pcfx;Redump/NEC - PC-FX & PC-FXGA;NEC - PC-FX & PC-FXGA;PC-FX & PC-FXGA;mednafen_pcfx_libretro")
 #roms+=("naomi;Redump/Arcade - Sega - Naomi;Sega - Naomi;Sega - Naomi;flycast_libretro")
 
-
-
 # TOSEC ROMSETS
 
 #roms+=("atari800;TOSEC/Atari/8bit/Games/[XEX]/Atari 8bit - Games - [XEX].zip;Atari - 8-bit;<b>Atari 8bit</b>;atari800_libretro")
 #roms+=("bk;TOSEC/Elektronika/BK-0011-411/Games/Elektronika BK-0011-411 - Games.zip;Elektronika BK-0011-411;<b>Elektronika BK-0011-411</b>;bk_libretro")
 #roms+=("pc88;TOSEC/NEC/PC-8801/Games/[D88]/NEC PC-8801 - Games - [D88].zip;NEC - PC-8001 - PC-8801;<p><b>NEC PC-88</b>;quasi88_libretro")
 #roms+=("pc98;TOSEC/NEC/PC-9801/Games/[FDD]/NEC PC-9801 - Games - [FDD].zip;NEC - PC-98;<b>NEC PC-98</b>;np2kai_libretro")
-#roms+=("zxspectrum;TOSEC/Sinclair/ZX Spectrum/Games/[TAP]/Sinclair ZX Spectrum - Games - [TAP].zip;Sinclair - ZX Spectrum;<b>ZX Spectrum</b>;fuse_libretro")
 #roms+=("zx81;TOSEC/Sinclair/ZX81/Games/[P]/Sinclair ZX81 - Games - [P].zip;Sinclair - ZX 81;<b>Sinclair ZX81</b>;81_libretro")
 #roms+=("x1;TOSEC/Sharp/X1/Games/[TAP]/Sharp X1 - Games - [TAP].zip;Sharp - X1;<b>Sharp X1</b>;x1_libretro")
 #roms+=("x68000;TOSEC/Sharp/X68000/Games/[DIM]/Sharp X68000 - Games - [DIM].zip;Sharp - X68000;<b>Sharp X68000</b>;px68k_libretro")
@@ -91,33 +88,12 @@
 #roms+=("vg5000;TOSEC/Philips/VG 5000/Games/Philips VG 5000 - Games.zip;VG-5000;<b>VG-5000</b>;FINDCORE_libretro")
 #roms+=("zmachine;TOSEC/Infocom/Z-Machine/Games/Infocom Z-Machine - Games.zip;Z-Machine;<b>Z-Machine</b>;FINDCORE_libretro")
 
-
-
-
-# REMOVING THESE TOSEC AND REPLACING WITH NO-INTRO/REDUMP VERSIONS
-#roms+=("macintosh;TOSEC/Apple/Macintosh/Games/[DSK]/Apple Macintosh - Games - [DSK].zip;Apple Macintosh;<b>Apple Macintosh</b>;minivmac_libretro")
-#roms+=("apple2gs;TOSEC/Apple/IIGS/Games/[2MG]/Apple IIGS - Games - [2MG].zip;Apple IIGS;<b>Apple IIGS</b>;gsplus")
-#roms+=("apple2;TOSEC/Apple/II/Games/[DSK]/Apple II - Games - [DSK].zip;Apple II;<b>Apple II</b>;linapple")
-
-#roms+=("dos;TOSEC/IBM/PC Compatibles/Games/[IMG]/IBM PC Compatibles - Games - [IMG].zip;DOS;MS-DOS TOSEC;dosbox_pure_libretro")
-
-
-
-
-
-
 # Only Enable if You NEED these (takes a long time to load 4000+) 
 
 #roms+=("amstradcpc;TOSEC/Amstrad/CPC/Games/[DSK]/Amstrad CPC - Games - [DSK].zip;Amstrad - CPC;<b>Amstrad CPC</b>;cap32_libretro")
 #roms+=("gx4000;TOSEC/Amstrad/GX4000/Games/Amstrad GX4000 - Games.zip;Amstrad GX4000;<b>Amstrad GX4000</b>;cap32_libretro")
+#roms+=("zxspectrum;TOSEC/Sinclair/ZX Spectrum/Games/[TAP]/Sinclair ZX Spectrum - Games - [TAP].zip;Sinclair - ZX Spectrum;<b>ZX Spectrum</b>;fuse_libretro")
 
-
-# Already available in No-Intro
-
-#roms+=("amiga1200;TOSEC/Commodore/Amiga/Games/[ADF]/Commodore Amiga - Games - [ADF].zip;Commodore Amiga;<b>Commodore Amiga</b>;puae_libretro")
-#roms+=("msx1;TOSEC/MSX/MSX/Games/MSX MSX - Games - [DSK].zip;MSX MSX;<b>MSX MSX</b>;bluemsx_libretro")
-#roms+=("msx2;TOSEC/MSX/MSX2/Games/MSX MSX2 - Games - [DSK].zip;MSX MSX2;<b>MSX MSX2</b>;bluemsx_libretro")
-#roms+=("msx2;TOSEC/MSX/MSX2+/Games/MSX MSX2+ - Games.zip;MSX MSX2+;<b>MSX MSX2+</b>;bluemsx_libretro")
 
 # Not Available on Recalbox
 
