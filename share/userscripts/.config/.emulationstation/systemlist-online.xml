@@ -101,7 +101,7 @@
     </emulatorList>
   </system>
   <system uuid="8778ff19-1dd5-471c-950f-f9cf136dc953" name="apple2" fullname="Apple II">
-    <descriptor path="/recalbox/share/rom/No-Intro/Apple - II (A2R)" theme="apple2" extensions=".dsk .do .iie .po .nib .zip" icon="$F247" downloader="0" command="head %ROM%; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.dsk$|\.do$|\.iie$|\.po$|\.nib$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Apple - II (A2R)" theme="apple2" extensions=".dsk .do .iie .po .nib .zip" icon="$F247" downloader="0" command='head %ROM%; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.dsk$|\.do$|\.iie$|\.po$|\.nib$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="86"/>
     <properties type="computer" pad="optional" keyboard="mandatory" mouse="recommended" lightgun="no" releasedate="1977-04" manufacturer="Apple" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -114,7 +114,7 @@
     </emulatorList>
   </system>
   <system uuid="73d6d33d-320f-4f37-a1f8-956bcefeffe1" name="apple2gs" fullname="Apple IIGS">
-    <descriptor path="/recalbox/share/rom/No-Intro/Apple - IIGS (A2R)" theme="apple2gs" extensions=".hdv .2mg .gsplus .po .zip" icon="$F296" downloader="0" command="head %ROM%; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.hdv$|\.2mg$|\.gsplus$|\.po$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Apple - IIGS (A2R)" theme="apple2gs" extensions=".hdv .2mg .gsplus .po .zip" icon="$F296" downloader="0" command='head %ROM%; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.hdv$|\.2mg$|\.gsplus$|\.po$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="217"/>
     <properties type="computer" pad="optional" keyboard="mandatory" mouse="recommended" lightgun="no" releasedate="1986-09" manufacturer="Apple" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -602,7 +602,7 @@
     </emulatorList>
   </system>
   <system uuid="5a7050c1-6589-4179-8a32-9452cb70e25f" name="megaduck" fullname="MegaDuck">
-    <descriptor path="/recalbox/share/zip/megaduck" theme="megaduck" extensions=".bin .zip" icon="$F280" downloader="0" command="head %ROM%; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.bin$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="/recalbox/share/zip/megaduck" theme="megaduck" extensions=".bin .zip" icon="$F280" downloader="0" command='head %ROM%; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.bin$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="90"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="1993-01" manufacturer="Welback" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -844,7 +844,7 @@
     </emulatorList>
   </system>
   <system uuid="5e4703d3-9d8d-4cad-b7dd-c69538e80ccd" name="palm" fullname="Palm">
-    <descriptor path="/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)" theme="palm" extensions=".pdb .img .prc .pqa .zip" icon="$F2bf" downloader="0" command="head %ROM%; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.pdb$|\.img$|\.prc$|\.pqa$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Mobile - Palm OS (Digital)" theme="palm" extensions=".pdb .img .prc .pqa .zip" icon="$F2bf" downloader="0" command='head %ROM%; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.pdb$|\.img$|\.prc$|\.pqa$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="219"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1996-01" manufacturer="Palm" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
