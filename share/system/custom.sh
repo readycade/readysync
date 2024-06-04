@@ -403,6 +403,8 @@ echo "Selected consoles have been mounted."
 # Mark online mode as enabled
 echo "true" > "$online_mode_flag_file"
 
+wait
+
 # Start EmulationStation
 chvt 1; es start
 
