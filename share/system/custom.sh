@@ -94,6 +94,7 @@ done
         # Move the contents to online directory
         cp -r /recalbox/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
         echo "copied ALL gamelists.xml to online directory."
+fi
 
 # Function to download a file with retries
 download_rclone_with_retry() {
@@ -399,7 +400,7 @@ for console in "${enabled_consoles[@]}"; do
         echo "Invalid console: $console"
     fi
 done
-fi
+
 
 echo "Selected consoles have been mounted."
 
