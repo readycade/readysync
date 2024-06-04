@@ -36,6 +36,7 @@ keyboard_events="/recalbox/share/system/keyboard_events.txt"
 
 # Check and update systemlist.xml based on user choice
 offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
+offline_systemlist2="/recalbox/share/system/.emulationstation/systemlist.xml"
 offline_backup="/recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml"
 offline_online="/recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml"
 offline_offline="/recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml"
@@ -81,6 +82,7 @@ online_mode() {
         # Overwrite systemlist.xml with the online version
         echo "Overwriting systemlist.xml with the online version..."
         cp "$offline_online" "$offline_systemlist"
+        cp $offline_online" "$offline_systemlist2"
         echo "Online version applied."
 
         # Move the contents to online directory
@@ -430,6 +432,7 @@ if [ "$online_mode_enabled" = true ]; then
         # Overwrite systemlist.xml with offline version
         echo "Overwriting systemlist.xml with offline version..."
         cp "$offline_offline" "$offline_systemlist"
+        cp "$offline_offline" "$offline_systemlist2"
         echo "Offline systemlist.xml applied."
 
         echo "Installation complete. Log saved to: $log_file"
