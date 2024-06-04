@@ -244,6 +244,8 @@ httpdirfs --cache --cache-location /recalbox/share/system/.cache/httpdirfs https
 
 echo "Mounting libretro thumbnails..."
 
+wait
+
 # Function to download a file with retries
 download_with_retry() {
     local url=$1
