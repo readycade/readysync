@@ -412,7 +412,7 @@ sleep 10
 chvt 1; es start
 
 # Exit the script after online mode is enabled
-exit 0
+#exit 0
 
 
 }
