@@ -407,15 +407,15 @@ echo "Selected consoles have been mounted."
 # Mark online mode as enabled
 echo "true" > "$online_mode_flag_file"
 
-sleep 10
+sleep 5
 
 # Start Emulationstation (twice incase it doesn't populate)
-chvt 1; es start
+#chvt 1; es start
 
-sleep 10
+#sleep 10
 
 # Start Emulationstation (twice incase it doesn't populate)
-chvt 1; es start
+#chvt 1; es start
 
 # Exit the script after online mode is enabled
 exit 0
