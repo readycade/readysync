@@ -410,7 +410,7 @@ sleep 10
 # Start EmulationStation
 chvt 1; es start
 
-sleep 10
+sleep 20
 
 # Start Emulationstation (twice incase it doesn't populate)
 chvt 1; es start
