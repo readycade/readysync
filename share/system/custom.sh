@@ -399,6 +399,7 @@ for console in "${enabled_consoles[@]}"; do
         echo "Invalid console: $console"
     fi
 done
+fi
 
 echo "Selected consoles have been mounted."
 
@@ -412,7 +413,7 @@ chvt 1; es start
 
 # Exit the script after online mode is enabled
 exit 0
-fi
+
 
 }
 
@@ -459,6 +460,7 @@ done
     else
         echo "Error: systemlist.xml files not found."
     fi
+    exit 0
 }
 
 monitor_keyboard_input() {
