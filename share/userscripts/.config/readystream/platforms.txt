@@ -15,6 +15,15 @@
 #roms+=("vectrex;No-Intro/GCE - Vectrex;GCE - Vectrex;GCE Vectrex;vecx_libretro")
 #roms+=("o2em;No-Intro/Magnavox - Odyssey 2;Magnavox - Odyssey2;Magnavox Odyssey 2;o2em_libretro")
 #roms+=("intellivision;No-Intro/Mattel - Intellivision;Mattel - Intellivision;Mattel Intellivision;freeintv_libretro")
+
+#roms+=("macintosh;No-Intro/Apple - Macintosh (A2R);Apple - Macintosh (A2R);<b>Apple - Macintosh</b>;minivmac_libretro")
+
+#roms+=("apple2;No-Intro/Apple - II (A2R);Apple - II (A2R);<b>Apple - II</b>;linapple")
+
+#roms+=("apple2gs;No-Intro/Apple - IIGS (A2R);Apple - IIGS (A2R);<b>Apple - IIGS</b>;gsplus")
+
+
+
 #roms+=("msx1;No-Intro/Microsoft - MSX;Microsoft - MSX;<b>MSX 1</b>;bluemsx_libretro")
 #roms+=("msx2;No-Intro/Microsoft - MSX2;Microsoft - MSX2;<b>MSX 2</b>;bluemsx_libretro")
 #roms+=("pcengine;No-Intro/NEC - PC Engine - TurboGrafx-16;NEC - PC Engine - TurboGrafx 16;<p>PC Engine;mednafen_pce_fast_libretro")
@@ -64,20 +73,21 @@
 #roms+=("pcfx;Redump/NEC - PC-FX & PC-FXGA;NEC - PC-FX & PC-FXGA;PC-FX & PC-FXGA;mednafen_pcfx_libretro")
 #roms+=("naomi;Redump/Arcade - Sega - Naomi;Sega - Naomi;Sega - Naomi;flycast_libretro")
 
+#roms+=("dos;Redump/IBM - PC compatible;IBM - PC compatible;IBM - PC compatible;dosbox_pure_libretro")
+
+
+
 # TOSEC ROMSETS
 
 #roms+=("atari800;TOSEC/Atari/8bit/Games/[XEX]/Atari 8bit - Games - [XEX].zip;Atari - 8-bit;<b>Atari 8bit</b>;atari800_libretro")
 #roms+=("bk;TOSEC/Elektronika/BK-0011-411/Games/Elektronika BK-0011-411 - Games.zip;Elektronika BK-0011-411;<b>Elektronika BK-0011-411</b>;bk_libretro")
-#roms+=("dos;TOSEC/IBM/PC Compatibles/Games/[IMG]/IBM PC Compatibles - Games - [IMG].zip;DOS;MS-DOS TOSEC;dosbox_pure_libretro")
 #roms+=("pc88;TOSEC/NEC/PC-8801/Games/[D88]/NEC PC-8801 - Games - [D88].zip;NEC - PC-8001 - PC-8801;<p><b>NEC PC-88</b>;quasi88_libretro")
 #roms+=("pc98;TOSEC/NEC/PC-9801/Games/[FDD]/NEC PC-9801 - Games - [FDD].zip;NEC - PC-98;<b>NEC PC-98</b>;np2kai_libretro")
+
 #roms+=("zxspectrum;TOSEC/Sinclair/ZX Spectrum/Games/[TAP]/Sinclair ZX Spectrum - Games - [TAP].zip;Sinclair - ZX Spectrum;<b>ZX Spectrum</b>;fuse_libretro")
 #roms+=("zx81;TOSEC/Sinclair/ZX81/Games/[P]/Sinclair ZX81 - Games - [P].zip;Sinclair - ZX 81;<b>Sinclair ZX81</b>;81_libretro")
 #roms+=("x1;TOSEC/Sharp/X1/Games/[TAP]/Sharp X1 - Games - [TAP].zip;Sharp - X1;<b>Sharp X1</b>;x1_libretro")
 #roms+=("x68000;TOSEC/Sharp/X68000/Games/[DIM]/Sharp X68000 - Games - [DIM].zip;Sharp - X68000;<b>Sharp X68000</b>;px68k_libretro")
-#roms+=("macintosh;TOSEC/Apple/Macintosh/Games/[DSK]/Apple Macintosh - Games - [DSK].zip;Apple Macintosh;<b>Apple Macintosh</b>;minivmac_libretro")
-#roms+=("apple2gs;TOSEC/Apple/IIGS/Games/[2MG]/Apple IIGS - Games - [2MG].zip;Apple IIGS;<b>Apple IIGS</b>;gsplus")
-#roms+=("apple2;TOSEC/Apple/II/Games/[DSK]/Apple II - Games - [DSK].zip;Apple II;<b>Apple II</b>;linapple")
 #roms+=("msxturbor;TOSEC/MSX/TurboR/Games/MSX TurboR - Games.zip;MSX TurboR;<b>MSX TurboR</b>;bluemsx_libretro")
 #roms+=("bbcmicro;TOSEC/Acorn/BBC/Games/[SSD]/Acorn BBC - Games - [SSD].zip;BBC Micro;<b>BBC Micro</b>;FINDCORE_libretro")
 #roms+=("dragon;TOSEC/Dragon Data/Dragon/Games/[CAS]/Dragon Data Dragon - Games - [CAS].zip;Dragon;<b>Dragon</b>;FINDCORE_libretro")
@@ -88,6 +98,21 @@
 #roms+=("trs80coco;TOSEC/Tandy Radio Shack/TRS-80 Color Computer/Games/[DSK]/Tandy Radio Shack TRS-80 Color Computer - Games - [DSK].zip;TRS-80 Color;<b>TRS-80 Color</b>;FINDCORE_libretro")
 #roms+=("vg5000;TOSEC/Philips/VG 5000/Games/Philips VG 5000 - Games.zip;VG-5000;<b>VG-5000</b>;FINDCORE_libretro")
 #roms+=("zmachine;TOSEC/Infocom/Z-Machine/Games/Infocom Z-Machine - Games.zip;Z-Machine;<b>Z-Machine</b>;FINDCORE_libretro")
+
+
+
+
+# REMOVING THESE TOSEC AND REPLACING WITH NO-INTRO/REDUMP VERSIONS
+#roms+=("macintosh;TOSEC/Apple/Macintosh/Games/[DSK]/Apple Macintosh - Games - [DSK].zip;Apple Macintosh;<b>Apple Macintosh</b>;minivmac_libretro")
+#roms+=("apple2gs;TOSEC/Apple/IIGS/Games/[2MG]/Apple IIGS - Games - [2MG].zip;Apple IIGS;<b>Apple IIGS</b>;gsplus")
+#roms+=("apple2;TOSEC/Apple/II/Games/[DSK]/Apple II - Games - [DSK].zip;Apple II;<b>Apple II</b>;linapple")
+
+#roms+=("dos;TOSEC/IBM/PC Compatibles/Games/[IMG]/IBM PC Compatibles - Games - [IMG].zip;DOS;MS-DOS TOSEC;dosbox_pure_libretro")
+
+
+
+
+
 
 # Only Enable if You NEED these (takes a long time to load 4000+) 
 
