@@ -48,6 +48,7 @@
 #roms+=("amiga1200;No-Intro/Commodore - Amiga;Commodore - Amiga;<b>Amiga 1200</b>;puae_libretro")
 #roms+=("amigacd32;Redump/Commodore - Amiga CD32;Commodore - CD32;<b>Amiga CD32</b>;puae_libretro")
 #roms+=("amigacdtv;Redump/Commodore - Amiga CDTV;Commodore - CDTV;<b>Amiga CDTV</b>;puae_libretro")
+#roms+=("dos;Redump/IBM - PC compatible;IBM - PC compatible;IBM - PC compatible;dosbox_pure_libretro")
 #roms+=("pcv2;No-Intro/Benesse - Pocket Challenge V2;Benesse - Pocket Challenge V2;<b>Benesse - Pocket Challenge V2</b>;mednafen_wswan_libretro")
 #roms+=("palm;No-Intro/Mobile - Palm OS (Digital);Mobile - Palm OS (Digital);<p>Palm OS;mu_libretro")
 #roms+=("gw;No-Intro/Nintendo - Game & Watch;Nintendo - Game & Watch;<i>Game & Watch</i>;gw_libretro")
@@ -66,8 +67,6 @@
 #roms+=("psp;Redump/Sony - PlayStation Portable;Sony - PlayStation Portable;<i>PlayStation Portable</i>;ppsspp_libretro;iso")
 #roms+=("pcfx;Redump/NEC - PC-FX & PC-FXGA;NEC - PC-FX & PC-FXGA;PC-FX & PC-FXGA;mednafen_pcfx_libretro")
 #roms+=("naomi;Redump/Arcade - Sega - Naomi;Sega - Naomi;Sega - Naomi;flycast_libretro")
-
-#roms+=("dos;Redump/IBM - PC compatible;IBM - PC compatible;IBM - PC compatible;dosbox_pure_libretro")
 
 
 

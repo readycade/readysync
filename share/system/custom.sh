@@ -230,8 +230,7 @@ echo "(No-Intro, Redump, TOSEC)..."
 #httpdirfs -f -o debug --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o no_cache https://thumbnails.libretro.com/ /recalbox/share/thumbs
 
 #WIZARDS COMMAND
-httpdirfs --cache --cache-location /recalbox/share/system/.cache/httpdirfs https://thumbnails.libretro.com/ /recalbox/share/thumbs
-
+httpdirfs --cache --cache-location /recalbox/share/system/.cache/httpdirfs https://thumbnails.libretro.com /recalbox/share/thumbs
 
 echo "Mounting libretro thumbnails..."
 
@@ -312,9 +311,6 @@ consoles=(
     ["Sharp_X1"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Sharp/X1/Games/[TAP]/Sharp X1 - Games - [TAP].zip\" \"/recalbox/share/zip/x1/\""
     ["Sharp_X68000"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Sharp/X68000/Games/[DIM]/Sharp X68000 - Games - [DIM].zip\" \"/recalbox/share/zip/x68000/\""
     ["Amstrad_GX4000"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Amstrad/GX4000/Games/Amstrad GX4000 - Games.zip\" \"/recalbox/share/zip/gx4000/\""
-    ["Apple_Macintosh"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Apple/Macintosh/Games/[DSK]/Apple Macintosh - Games - [DSK].zip\" \"/recalbox/share/zip/macintosh/\""
-    ["Apple_II"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Apple/II/Games/[DSK]/Apple II - Games - [DSK].zip\" \"/recalbox/share/zip/apple2/\""
-    ["Apple_IIgs"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Apple/IIGS/Games/[2MG]/Apple IIGS - Games - [2MG].zip\" \"/recalbox/share/zip/apple2gs/\""
     ["Elektronika_BK-0011-411"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Elektronika/BK-0011-411/Games/Elektronika BK-0011-411 - Games.zip\" \"/recalbox/share/zip/bk/\""
     ["MSX_TurboR"]="mount-zip -v \"/recalbox/share/rom/TOSEC/MSX/TurboR/Games/MSX TurboR - Games.zip\" \"/recalbox/share/zip/msxturbor/\""
     ["Acorn_BBC"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Acorn/BBC/Games/[SSD]/Acorn BBC - Games - [SSD].zip\" \"/recalbox/share/zip/bbcmicro/\""
@@ -325,7 +321,6 @@ consoles=(
     ["Tandy_TRS-80_CoCo"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Tandy Radio Shack/TRS-80 Color Computer/Games/[DSK]/Tandy Radio Shack TRS-80 Color Computer - Games - [DSK].zip\" \"/recalbox/share/zip/trs80coco/\""
     ["Philips_VG5000"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Philips/VG 5000/Games/Philips VG 5000 - Games.zip\" \"/recalbox/share/zip/vg5000/\""
     ["Infocom_Z-Machine"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Infocom/Z-Machine/Games/Infocom Z-Machine - Games.zip\" \"/recalbox/share/zip/zmachine/\""
-    ["IBM_PC_Compatibles"]="mount-zip -v \"/recalbox/share/rom/TOSEC/IBM/PC Compatibles/Games/[IMG]/IBM PC Compatibles - Games - [IMG].zip\" \"/recalbox/share/zip/dos/\""
     ["Commodore_PET"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Commodore/PET/Games/[PRG]/Commodore PET - Games - [PRG].zip\" \"/recalbox/share/zip/pet/\""
 )
 
@@ -353,12 +348,6 @@ consoles=(
 #enabled_consoles+=("Sharp_X68000")
 # Amstrad GX4000
 #enabled_consoles+=("Amstrad_GX4000")
-# Apple Macintosh
-#enabled_consoles+=("Apple_Macintosh")
-# Apple II
-#enabled_consoles+=("Apple_II")
-# Apple IIgs
-#enabled_consoles+=("Apple_II2gs")
 # Elektronika BK-0011-411
 #enabled_consoles+=("Elektronika_BK-0011-411")
 # MSX TurboR
@@ -379,8 +368,6 @@ consoles=(
 #enabled_consoles+=("Philips_VG5000")
 # Infocom Z-Machine
 #enabled_consoles+=("Infocom_Z-Machine")
-# IBM PC Compatibles
-#enabled_consoles+=("IBM_PC_Compatibles")
 # Commodore PET (NOT SUPPORTED BY RECALBOX)
 #enabled_consoles+=("Commodore_PET")
 
