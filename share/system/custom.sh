@@ -509,6 +509,6 @@ wait
 kill -TERM $evtest_pid
 
 # Start Emulationstation (twice incase it doesn't populate)
-chvt 1; es start
+#chvt 1; es start
 
 exit 0
