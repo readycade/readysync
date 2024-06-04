@@ -444,8 +444,8 @@ if [ "$online_mode_enabled" = true ]; then
 done
         echo "Backup created: $offline_backup"
 
-        # Overwrite systemlist.xml with the online version
-        echo "Overwriting systemlist.xml with the online version..."
+        # Overwrite systemlist.xml with the offline version
+        echo "Overwriting systemlist.xml with the offline version..."
         for destination in "$offline_systemlist" "$offline_systemlist2"; do
     cp "$offline_offline" "$destination"
 done
