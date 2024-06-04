@@ -235,8 +235,6 @@ httpdirfs --cache --cache-location /recalbox/share/system/.cache/httpdirfs https
 
 echo "Mounting libretro thumbnails..."
 
-wait
-
 # Function to download a file with retries
 download_with_retry() {
     local url=$1
@@ -403,14 +401,12 @@ echo "Selected consoles have been mounted."
 # Mark online mode as enabled
 echo "true" > "$online_mode_flag_file"
 
-wait
-
-sleep 10
+sleep 60
 
 # Start EmulationStation
 chvt 1; es start
 
-sleep 20
+sleep 30
 
 # Start Emulationstation (twice incase it doesn't populate)
 chvt 1; es start
