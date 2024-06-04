@@ -1,3 +1,6 @@
+#roms+=("apple2;No-Intro/Apple - II (A2R);Apple - II (A2R);<b>Apple - II</b>;linapple")
+#roms+=("apple2gs;No-Intro/Apple - IIGS (A2R);Apple - IIGS (A2R);<b>Apple - IIGS</b>;gsplus")
+#roms+=("macintosh;No-Intro/Apple - Macintosh (A2R);Apple - Macintosh (A2R);<b>Apple - Macintosh</b>;minivmac_libretro")
 #roms+=("arduboy;No-Intro/Arduboy Inc - Arduboy;Arduboy Inc - Arduboy;Arduboy;arduous_libretro")
 #roms+=("atari2600;No-Intro/Atari - 2600;Atari - 2600;<p>Atari 2600;stella_libretro")
 #roms+=("atari5200;No-Intro/Atari - 5200;Atari - 5200;Atari 5200;a5200_libretro")
@@ -15,15 +18,6 @@
 #roms+=("vectrex;No-Intro/GCE - Vectrex;GCE - Vectrex;GCE Vectrex;vecx_libretro")
 #roms+=("o2em;No-Intro/Magnavox - Odyssey 2;Magnavox - Odyssey2;Magnavox Odyssey 2;o2em_libretro")
 #roms+=("intellivision;No-Intro/Mattel - Intellivision;Mattel - Intellivision;Mattel Intellivision;freeintv_libretro")
-
-#roms+=("macintosh;No-Intro/Apple - Macintosh (A2R);Apple - Macintosh (A2R);<b>Apple - Macintosh</b>;minivmac_libretro")
-
-#roms+=("apple2;No-Intro/Apple - II (A2R);Apple - II (A2R);<b>Apple - II</b>;linapple")
-
-#roms+=("apple2gs;No-Intro/Apple - IIGS (A2R);Apple - IIGS (A2R);<b>Apple - IIGS</b>;gsplus")
-
-
-
 #roms+=("msx1;No-Intro/Microsoft - MSX;Microsoft - MSX;<b>MSX 1</b>;bluemsx_libretro")
 #roms+=("msx2;No-Intro/Microsoft - MSX2;Microsoft - MSX2;<b>MSX 2</b>;bluemsx_libretro")
 #roms+=("pcengine;No-Intro/NEC - PC Engine - TurboGrafx-16;NEC - PC Engine - TurboGrafx 16;<p>PC Engine;mednafen_pce_fast_libretro")
@@ -83,7 +77,6 @@
 #roms+=("bk;TOSEC/Elektronika/BK-0011-411/Games/Elektronika BK-0011-411 - Games.zip;Elektronika BK-0011-411;<b>Elektronika BK-0011-411</b>;bk_libretro")
 #roms+=("pc88;TOSEC/NEC/PC-8801/Games/[D88]/NEC PC-8801 - Games - [D88].zip;NEC - PC-8001 - PC-8801;<p><b>NEC PC-88</b>;quasi88_libretro")
 #roms+=("pc98;TOSEC/NEC/PC-9801/Games/[FDD]/NEC PC-9801 - Games - [FDD].zip;NEC - PC-98;<b>NEC PC-98</b>;np2kai_libretro")
-
 #roms+=("zxspectrum;TOSEC/Sinclair/ZX Spectrum/Games/[TAP]/Sinclair ZX Spectrum - Games - [TAP].zip;Sinclair - ZX Spectrum;<b>ZX Spectrum</b>;fuse_libretro")
 #roms+=("zx81;TOSEC/Sinclair/ZX81/Games/[P]/Sinclair ZX81 - Games - [P].zip;Sinclair - ZX 81;<b>Sinclair ZX81</b>;81_libretro")
 #roms+=("x1;TOSEC/Sharp/X1/Games/[TAP]/Sharp X1 - Games - [TAP].zip;Sharp - X1;<b>Sharp X1</b>;x1_libretro")

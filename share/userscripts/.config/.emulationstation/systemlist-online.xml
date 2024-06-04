@@ -101,7 +101,7 @@
     </emulatorList>
   </system>
   <system uuid="8778ff19-1dd5-471c-950f-f9cf136dc953" name="apple2" fullname="Apple II">
-    <descriptor path="/recalbox/share/zip/apple2" theme="apple2" extensions=".dsk .do .iie .po .nib" icon="$F247" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Apple - II (A2R)" theme="apple2" extensions=".dsk .do .iie .po .nib" icon="$F247" downloader="0"/>
     <scraper screenscraper="86"/>
     <properties type="computer" pad="optional" keyboard="mandatory" mouse="recommended" lightgun="no" releasedate="1977-04" manufacturer="Apple" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -114,7 +114,7 @@
     </emulatorList>
   </system>
   <system uuid="73d6d33d-320f-4f37-a1f8-956bcefeffe1" name="apple2gs" fullname="Apple IIGS">
-    <descriptor path="/recalbox/share/zip/apple2gs" theme="apple2gs" extensions=".hdv .2mg .gsplus .po" icon="$F296" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Apple - IIGS (A2R)" theme="apple2gs" extensions=".hdv .2mg .gsplus .po" icon="$F296" downloader="0"/>
     <scraper screenscraper="217"/>
     <properties type="computer" pad="optional" keyboard="mandatory" mouse="recommended" lightgun="no" releasedate="1986-09" manufacturer="Apple" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -321,7 +321,7 @@
     </emulatorList>
   </system>
   <system uuid="be655d24-11d6-4456-8007-f17239df83dd" name="dos" fullname="Dos (x86)">
-    <descriptor path="/recalbox/share/zip/dos" theme="pc" extensions=".pc .dos .zip" icon="$F24a" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/Redump/IBM - PC compatible" theme="pc" extensions=".pc .dos .zip" icon="$F24a" downloader="0"/>
     <scraper screenscraper="135"/>
     <properties type="computer" pad="recommended" keyboard="recommended" mouse="recommended" lightgun="no" releasedate="1981-02" manufacturer="IBM" retroachievements="0" crt.multiresolution="1" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -552,7 +552,7 @@
     </emulatorList>
   </system>
   <system uuid="f295b04f-39bd-4477-9a19-5905e0c0369f" name="macintosh" fullname="Apple Macintosh">
-    <descriptor path="/recalbox/share/zip/macintosh" theme="macintosh" extensions=".img .cmd .dsk .zip .hvf" icon="$F2b3" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Apple - Macintosh (A2R)" theme="macintosh" extensions=".img .cmd .dsk .zip .hvf" icon="$F2b3" downloader="0"/>
     <scraper screenscraper="0"/>
     <properties type="computer" pad="mandatory" keyboard="optional" mouse="mandatory" lightgun="no" releasedate="1984-01" manufacturer="Apple" retroachievements="0" crt.multiresolution="1" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
