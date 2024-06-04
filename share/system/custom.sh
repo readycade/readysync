@@ -81,8 +81,9 @@ online_mode() {
 
         # Overwrite systemlist.xml with the online version
         echo "Overwriting systemlist.xml with the online version..."
-        cp "$offline_online" "$offline_systemlist"
-        cp $offline_online" "$offline_systemlist2"
+        for destination in "$offline_systemlist" "$offline_systemlist2"; do
+    cp "$offline_online" "$destination"
+done
         echo "Online version applied."
 
         # Move the contents to online directory
@@ -429,11 +430,11 @@ if [ "$online_mode_enabled" = true ]; then
         cp "$offline_systemlist" "$offline_backup"
         echo "Backup created: $offline_backup"
 
-        # Overwrite systemlist.xml with offline version
-        echo "Overwriting systemlist.xml with offline version..."
-        cp "$offline_offline" "$offline_systemlist"
-        cp "$offline_offline" "$offline_systemlist2"
-        echo "Offline systemlist.xml applied."
+        # Overwrite systemlist.xml with the online version
+        echo "Overwriting systemlist.xml with the online version..."
+        for destination in "$offline_systemlist" "$offline_systemlist2"; do
+    cp "$offline_offline" "$destination"
+done
 
         echo "Installation complete. Log saved to: $log_file"
 
