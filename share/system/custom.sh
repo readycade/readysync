@@ -225,8 +225,6 @@ rclone mount tosec: /recalbox/share/rom/tosec --config=/recalbox/share/system/rc
 echo "Mounting romsets..."
 echo "(No-Intro, Redump, TOSEC)..."
 
-wait
-
 # Mount thumbnails with httpdirfs
 #httpdirfs -d -f -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://thumbnails.libretro.com/ /recalbox/share/thumbs
 #httpdirfs -f -o debug --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o no_cache https://thumbnails.libretro.com/ /recalbox/share/thumbs
@@ -236,6 +234,8 @@ httpdirfs --cache --cache-location /recalbox/share/system/.cache/httpdirfs https
 
 
 echo "Mounting libretro thumbnails..."
+
+wait
 
 # Function to download a file with retries
 download_with_retry() {
@@ -404,6 +404,8 @@ echo "Selected consoles have been mounted."
 echo "true" > "$online_mode_flag_file"
 
 wait
+
+sleep 10
 
 # Start EmulationStation
 chvt 1; es start
