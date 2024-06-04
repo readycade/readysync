@@ -214,18 +214,26 @@ fi
 #rclone mount thumbnails: --config "/recalbox/share/system/rclone.conf" /recalbox/share/thumbs --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
 
 # Mount myrient with rclone
-rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+#rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 #rclone mount myrient:  /recalbox/share/rom --config "/recalbox/share/system/rclone2.conf" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
+
+rclone mount nointro: /recalbox/share/rom/nointro --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+rclone mount redump: /recalbox/share/rom/redump --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+rclone mount tosec: /recalbox/share/rom/tosec --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+
 
 echo "Mounting romsets..."
 echo "(No-Intro, Redump, TOSEC)..."
+
+wait
 
 # Mount thumbnails with httpdirfs
 #httpdirfs -d -f -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://thumbnails.libretro.com/ /recalbox/share/thumbs
 #httpdirfs -f -o debug --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o no_cache https://thumbnails.libretro.com/ /recalbox/share/thumbs
 
 #WIZARDS COMMAND
-httpdirfs --cache --cache-location /recalbox/share/system/.cache/httpdirfs http://thumbnails.libretro.com/ /recalbox/share/thumbs
+httpdirfs --cache --cache-location /recalbox/share/system/.cache/httpdirfs https://thumbnails.libretro.com/ /recalbox/share/thumbs
+
 
 echo "Mounting libretro thumbnails..."
 
@@ -323,8 +331,7 @@ consoles=(
     ["Commodore_PET"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Commodore/PET/Games/[PRG]/Commodore PET - Games - [PRG].zip\" \"/recalbox/share/zip/pet/\""
 )
 
-# Most TOSEC romsets are automatically enabled.
-# Romsets with thousands of games are disabled by default (# = disabled)
+# Most TOSEC romsets are disabled by default (# = disabled)
 
 # Enable the desired consoles by uncommenting the relevant lines
 
@@ -333,49 +340,49 @@ consoles=(
 # Amstrad CPC
 #enabled_consoles+=("Amstrad_CPC")
 # Atari 8bit
-enabled_consoles+=("Atari_8bit")
+#enabled_consoles+=("Atari_8bit")
 # NEC PC-8801
-enabled_consoles+=("NEC_PC-8801")
+#enabled_consoles+=("NEC_PC-8801")
 # NEC PC-9801
 #enabled_consoles+=("NEC_PC-9801")
 # Sinclair ZX Spectrum
-enabled_consoles+=("Sinclair_ZX_Spectrum")
+#enabled_consoles+=("Sinclair_ZX_Spectrum")
 # Sinclair ZX81
-enabled_consoles+=("Sinclair_ZX81")
+#enabled_consoles+=("Sinclair_ZX81")
 # Sharp X1
-enabled_consoles+=("Sharp_X1")
+#enabled_consoles+=("Sharp_X1")
 # Sharp X68000
-enabled_consoles+=("Sharp_X68000")
+#enabled_consoles+=("Sharp_X68000")
 # Amstrad GX4000
 #enabled_consoles+=("Amstrad_GX4000")
 # Apple Macintosh
-enabled_consoles+=("Apple_Macintosh")
+#enabled_consoles+=("Apple_Macintosh")
 # Apple II
-enabled_consoles+=("Apple_II")
+#enabled_consoles+=("Apple_II")
 # Apple IIgs
-enabled_consoles+=("Apple_II2gs")
+#enabled_consoles+=("Apple_II2gs")
 # Elektronika BK-0011-411
-enabled_consoles+=("Elektronika_BK-0011-411")
+#enabled_consoles+=("Elektronika_BK-0011-411")
 # MSX TurboR
-enabled_consoles+=("MSX_TurboR")
+#enabled_consoles+=("MSX_TurboR")
 #Acorn BBC
-enabled_consoles+=("Acorn_BBC")
+#enabled_consoles+=("Acorn_BBC")
 # Dragon Data Dragon
-enabled_consoles+=("Dragon_Data_Dragon")
+#enabled_consoles+=("Dragon_Data_Dragon")
 # MGT Sam Coupe
-enabled_consoles+=("MGT_Sam_Coupe")
+#enabled_consoles+=("MGT_Sam_Coupe")
 # Thomson TO8, TO8D, TO9, TO9+
-enabled_consoles+=("Thomson_TO8_TO8D_TO9_TO9+")
+#enabled_consoles+=("Thomson_TO8_TO8D_TO9_TO9+")
 # Texas Instruments TI-99 4A
-enabled_consoles+=("Texas_Instruments_TI-99_4A")
+#enabled_consoles+=("Texas_Instruments_TI-99_4A")
 # Tandy TRS-80 CoCo
-enabled_consoles+=("Tandy_TRS-80_CoCo")
+#enabled_consoles+=("Tandy_TRS-80_CoCo")
 # Philips VG5000
-enabled_consoles+=("Philips_VG5000")
+#enabled_consoles+=("Philips_VG5000")
 # Infocom Z-Machine
-enabled_consoles+=("Infocom_Z-Machine")
+#enabled_consoles+=("Infocom_Z-Machine")
 # IBM PC Compatibles
-enabled_consoles+=("IBM_PC_Compatibles")
+#enabled_consoles+=("IBM_PC_Compatibles")
 # Commodore PET (NOT SUPPORTED BY RECALBOX)
 #enabled_consoles+=("Commodore_PET")
 
