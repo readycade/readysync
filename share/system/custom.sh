@@ -344,37 +344,37 @@ consoles=(
 #-----------START OF USER EDIT-------------#
 
 # Atari 8bit
-#enabled_consoles+=("Atari_8bit")
+enabled_consoles+=("Atari_8bit")
 # NEC PC-8801
-#enabled_consoles+=("NEC_PC-8801")
+enabled_consoles+=("NEC_PC-8801")
 # NEC PC-9801
-#enabled_consoles+=("NEC_PC-9801")
+enabled_consoles+=("NEC_PC-9801")
 # Sinclair ZX81
-#enabled_consoles+=("Sinclair_ZX81")
+enabled_consoles+=("Sinclair_ZX81")
 # Sharp X1
-#enabled_consoles+=("Sharp_X1")
+enabled_consoles+=("Sharp_X1")
 # Sharp X68000
-#enabled_consoles+=("Sharp_X68000")
+enabled_consoles+=("Sharp_X68000")
 # Elektronika BK-0011-411
-#enabled_consoles+=("Elektronika_BK-0011-411")
+enabled_consoles+=("Elektronika_BK-0011-411")
 # MSX TurboR
-#enabled_consoles+=("MSX_TurboR")
+enabled_consoles+=("MSX_TurboR")
 #Acorn BBC
-#enabled_consoles+=("Acorn_BBC")
+enabled_consoles+=("Acorn_BBC")
 # Dragon Data Dragon
-#enabled_consoles+=("Dragon_Data_Dragon")
+enabled_consoles+=("Dragon_Data_Dragon")
 # MGT Sam Coupe
-#enabled_consoles+=("MGT_Sam_Coupe")
+enabled_consoles+=("MGT_Sam_Coupe")
 # Thomson TO8, TO8D, TO9, TO9+
-#enabled_consoles+=("Thomson_TO8_TO8D_TO9_TO9+")
+enabled_consoles+=("Thomson_TO8_TO8D_TO9_TO9+")
 # Texas Instruments TI-99 4A
-#enabled_consoles+=("Texas_Instruments_TI-99_4A")
+enabled_consoles+=("Texas_Instruments_TI-99_4A")
 # Tandy TRS-80 CoCo
-#enabled_consoles+=("Tandy_TRS-80_CoCo")
+enabled_consoles+=("Tandy_TRS-80_CoCo")
 # Philips VG5000
-#enabled_consoles+=("Philips_VG5000")
+enabled_consoles+=("Philips_VG5000")
 # Infocom Z-Machine
-#enabled_consoles+=("Infocom_Z-Machine")
+enabled_consoles+=("Infocom_Z-Machine")
 
 # Below are very big romsets and take a very long time to mount.
 # Enable at your own risk.
@@ -408,14 +408,6 @@ echo "Selected consoles have been mounted."
 echo "true" > "$online_mode_flag_file"
 
 sleep 5
-
-# Start Emulationstation (twice incase it doesn't populate)
-#chvt 1; es start
-
-#sleep 10
-
-# Start Emulationstation (twice incase it doesn't populate)
-#chvt 1; es start
 
 # Exit the script after online mode is enabled
 exit 0
