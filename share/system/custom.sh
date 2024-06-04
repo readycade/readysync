@@ -76,7 +76,12 @@ online_mode() {
 
         # Backup the existing systemlist.xml
         echo "Backing up systemlist.xml..."
-        cp "$offline_systemlist" "$offline_backup"
+        for source in "$offline_systemlist" "$offline_systemlist2"; do
+    if cp "$source" "$offline_backup"; then
+        break
+    fi
+done
+
         echo "Backup created: $offline_backup"
 
         # Overwrite systemlist.xml with the online version
@@ -432,7 +437,11 @@ if [ "$online_mode_enabled" = true ]; then
     if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
         # Backup existing systemlist.xml
         echo "Backing up current systemlist.xml..."
-        cp "$offline_systemlist" "$offline_backup"
+        for source in "$offline_systemlist" "$offline_systemlist2"; do
+    if cp "$source" "$offline_backup"; then
+        break
+    fi
+done
         echo "Backup created: $offline_backup"
 
         # Overwrite systemlist.xml with the online version
