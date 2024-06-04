@@ -240,7 +240,7 @@ wait
 #httpdirfs -f -o debug --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o no_cache https://thumbnails.libretro.com/ /recalbox/share/thumbs
 
 #WIZARDS COMMAND
-httpdirfs --cache --cache-location --nonempty --retry-wait=1 /recalbox/share/system/.cache/httpdirfs https://thumbnails.libretro.com /recalbox/share/thumbs
+httpdirfs -o debug --cache --cache-location --nonempty --max-conns=20 --retry-wait=1 /recalbox/share/system/.cache/httpdirfs https://thumbnails.libretro.com /recalbox/share/thumbs
 
 echo "Mounting libretro thumbnails..."
 
