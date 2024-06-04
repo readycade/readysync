@@ -460,7 +460,6 @@ done
     else
         echo "Error: systemlist.xml files not found."
     fi
-    exit 0
 }
 
 monitor_keyboard_input() {
