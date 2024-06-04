@@ -374,7 +374,9 @@ for console in "${!commands[@]}"; do
     fi
 done
 
-echo "All commands executed successfully!"
+wait 
+echo "All TOSEC .zips mounted successfully!"
+
 
 # Mark online mode as enabled
 echo "true" > "$online_mode_flag_file"
