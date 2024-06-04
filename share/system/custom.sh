@@ -459,10 +459,10 @@ done
         echo "false" > "$online_mode_flag_file"
 
         # Sleep to let everything sync up
-        sleep 5
+        #sleep 5
 
         # Replace the following line with the actual command to start emulation station
-        chvt 1; es start
+        #chvt 1; es start
     else
         echo "Error: systemlist.xml files not found."
     fi
@@ -507,5 +507,8 @@ wait
 
 # Kill the evtest process
 kill -TERM $evtest_pid
+
+# Start Emulationstation (twice incase it doesn't populate)
+chvt 1; es start
 
 exit 0
