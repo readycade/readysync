@@ -50,15 +50,14 @@ Standard Keyboard (Press 1 instead of B)
 
 ### If you want the Whole Enchilada (ALL THE GAMES)
 Most of the **larger TOSEC romsets** will be **disabled** by default to make things snappy.
-If there are any you wish to **enable**. You may do so by **removing** the # **before** the **console/system's name**
 
 In this Example **Amstrad CPC** is **DISABLED**.
 ```
-#enabled_consoles+=("Amstrad_CPC")
+[amstradcpc]=disabled
 ```
 **Atari 8bit** is **ENABLED**.
 ```
-enabled_consoles+=("Atari_8bit")
+[atari800]=enabled
 ```
 
 ### Notes:
