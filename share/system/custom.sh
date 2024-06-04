@@ -412,7 +412,7 @@ sleep 10
 chvt 1; es start
 
 # Exit the script after online mode is enabled
-#exit 0
+exit 0
 
 
 }
@@ -453,7 +453,7 @@ done
         echo "false" > "$online_mode_flag_file"
 
         # Sleep to let everything sync up
-        sleep 10
+        sleep 5
 
         # Replace the following line with the actual command to start emulation station
         chvt 1; es start
