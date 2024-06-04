@@ -302,15 +302,12 @@ install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/sh
 # Define TOSEC Romsets Array
 declare -A consoles
 consoles=(
-    ["Amstrad_CPC"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Amstrad/CPC/Games/[DSK]/Amstrad CPC - Games - [DSK].zip\" \"/recalbox/share/zip/amstradcpc/\""
     ["Atari_8bit"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Atari/8bit/Games/[XEX]/Atari 8bit - Games - [XEX].zip\" \"/recalbox/share/zip/atari800/\""
     ["NEC_PC-8801"]="mount-zip -v \"/recalbox/share/rom/TOSEC/NEC/PC-8801/Games/[D88]/NEC PC-8801 - Games - [D88].zip\" \"/recalbox/share/zip/pc88/\""
     ["NEC_PC-9801"]="mount-zip -v \"/recalbox/share/rom/TOSEC/NEC/PC-9801/Games/[FDD]/NEC PC-9801 - Games - [FDD].zip\" \"/recalbox/share/zip/pc98/\""
-    ["Sinclair_ZX_Spectrum"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Sinclair/ZX Spectrum/Games/[TAP]/Sinclair ZX Spectrum - Games - [TAP].zip\" \"/recalbox/share/zip/zxspectrum/\""
     ["Sinclair_ZX81"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Sinclair/ZX81/Games/[P]/Sinclair ZX81 - Games - [P].zip\" \"/recalbox/share/zip/zx81/\""
     ["Sharp_X1"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Sharp/X1/Games/[TAP]/Sharp X1 - Games - [TAP].zip\" \"/recalbox/share/zip/x1/\""
     ["Sharp_X68000"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Sharp/X68000/Games/[DIM]/Sharp X68000 - Games - [DIM].zip\" \"/recalbox/share/zip/x68000/\""
-    ["Amstrad_GX4000"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Amstrad/GX4000/Games/Amstrad GX4000 - Games.zip\" \"/recalbox/share/zip/gx4000/\""
     ["Elektronika_BK-0011-411"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Elektronika/BK-0011-411/Games/Elektronika BK-0011-411 - Games.zip\" \"/recalbox/share/zip/bk/\""
     ["MSX_TurboR"]="mount-zip -v \"/recalbox/share/rom/TOSEC/MSX/TurboR/Games/MSX TurboR - Games.zip\" \"/recalbox/share/zip/msxturbor/\""
     ["Acorn_BBC"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Acorn/BBC/Games/[SSD]/Acorn BBC - Games - [SSD].zip\" \"/recalbox/share/zip/bbcmicro/\""
@@ -322,6 +319,10 @@ consoles=(
     ["Philips_VG5000"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Philips/VG 5000/Games/Philips VG 5000 - Games.zip\" \"/recalbox/share/zip/vg5000/\""
     ["Infocom_Z-Machine"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Infocom/Z-Machine/Games/Infocom Z-Machine - Games.zip\" \"/recalbox/share/zip/zmachine/\""
     ["Commodore_PET"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Commodore/PET/Games/[PRG]/Commodore PET - Games - [PRG].zip\" \"/recalbox/share/zip/pet/\""
+    ["Amstrad_CPC"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Amstrad/CPC/Games/[DSK]/Amstrad CPC - Games - [DSK].zip\" \"/recalbox/share/zip/amstradcpc/\""
+    ["Amstrad_GX4000"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Amstrad/GX4000/Games/Amstrad GX4000 - Games.zip\" \"/recalbox/share/zip/gx4000/\""
+    ["Sinclair_ZX_Spectrum"]="mount-zip -v \"/recalbox/share/rom/TOSEC/Sinclair/ZX Spectrum/Games/[TAP]/Sinclair ZX Spectrum - Games - [TAP].zip\" \"/recalbox/share/zip/zxspectrum/\""
+
 )
 
 # Most TOSEC romsets are disabled by default (# = disabled)
@@ -330,24 +331,18 @@ consoles=(
 
 #-----------START OF USER EDIT-------------#
 
-# Amstrad CPC
-#enabled_consoles+=("Amstrad_CPC")
 # Atari 8bit
 #enabled_consoles+=("Atari_8bit")
 # NEC PC-8801
 #enabled_consoles+=("NEC_PC-8801")
 # NEC PC-9801
 #enabled_consoles+=("NEC_PC-9801")
-# Sinclair ZX Spectrum
-#enabled_consoles+=("Sinclair_ZX_Spectrum")
 # Sinclair ZX81
 #enabled_consoles+=("Sinclair_ZX81")
 # Sharp X1
 #enabled_consoles+=("Sharp_X1")
 # Sharp X68000
 #enabled_consoles+=("Sharp_X68000")
-# Amstrad GX4000
-#enabled_consoles+=("Amstrad_GX4000")
 # Elektronika BK-0011-411
 #enabled_consoles+=("Elektronika_BK-0011-411")
 # MSX TurboR
@@ -368,6 +363,17 @@ consoles=(
 #enabled_consoles+=("Philips_VG5000")
 # Infocom Z-Machine
 #enabled_consoles+=("Infocom_Z-Machine")
+
+# Below are very big romsets and take a very long time to mount.
+# Enable at your own risk.
+
+# Amstrad CPC
+#enabled_consoles+=("Amstrad_CPC")
+# Amstrad GX4000
+#enabled_consoles+=("Amstrad_GX4000")
+# Sinclair ZX Spectrum
+#enabled_consoles+=("Sinclair_ZX_Spectrum")
+
 # Commodore PET (NOT SUPPORTED BY RECALBOX)
 #enabled_consoles+=("Commodore_PET")
 
