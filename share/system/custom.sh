@@ -425,13 +425,22 @@ download_urls=(
 for console in "${!download_urls[@]}"; do
     if [ "${console_status[$console]}" = "enabled" ]; then
         echo "Downloading $console..."
-        wget --no-check-certificate --accept '*.zip' --reject '*.html' -r -c -P "/recalbox/share/zip/$console" "${download_urls[$console]}"
-        success=$?
+        success=1
+        retries=3
+        while [ $success -ne 0 ] && [ $retries -gt 0 ]; do
+            wget --no-check-certificate --accept '*.zip' --reject '*.html' -r -c -P "/recalbox/share/zip/$console" "${download_urls[$console]}"
+            success=$?
+            if [ $success -ne 0 ]; then
+                echo "Downloading $console... Retry attempt $(4 - $retries)"
+                ((retries--))
+            fi
+        done
+
         if [ $success -eq 0 ]; then
             echo "Extracting $console..."
             unzip -o "/recalbox/share/zip/$console/$(basename "${download_urls[$console]//%20/ }")" -d "/recalbox/share/zip/$console/"
         else
-            echo "Downloading $console... Failed"
+            echo "Downloading $console... Failed after multiple retries"
             rm -rf "/recalbox/share/zip/$console"
         fi
     else
@@ -441,6 +450,7 @@ for console in "${!download_urls[@]}"; do
 done
 
 echo "All TOSEC files downloaded and extracted successfully!"
+
 
 
 
