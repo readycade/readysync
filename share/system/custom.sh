@@ -372,7 +372,8 @@ install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/sh
 # Disabled romsets will get deleted upon reboot.
 
 #-----------START OF USER EDIT-------------#
-#TOSEC ROMSETS
+# Define whether to enable or disable each console directly within the script
+# Syntax: console_name=enabled|disabled
 declare -A console_status
 console_status=(
     [atari800]=enabled
@@ -396,7 +397,6 @@ console_status=(
     [zxspectrum]=disabled
     [pet]=disabled
 )
-#------------END OF USER EDIT--------------#
 
 # Base URL for downloading files
 base_url="https://myrient.erista.me/files/"
@@ -429,20 +429,20 @@ download_paths=(
 # Loop through each console and execute the download command if enabled
 for console in "${!download_paths[@]}"; do
     if [ "${console_status[$console]}" = "enabled" ]; then
+        console_dir="/recalbox/share/zip/${console}"
         echo "Downloading $console..."
-        mkdir -p "/recalbox/share/rom/TOSEC/${console}/Games"
+        mkdir -p "$console_dir"
         wget -P "/tmp" "${base_url}${download_paths[$console]}"  # Download the zip file to /tmp directory
         echo "Extracting $console..."
-        unzip -o "/tmp/$(basename ${download_paths[$console]})" -d "/recalbox/share/rom/TOSEC/${console}/Games"  # Extract to the correct path
+        unzip -o "/tmp/$(basename ${download_paths[$console]})" -d "$console_dir"  # Extract to the correct path
     else
+        console_dir="/recalbox/share/zip/${console}"
         echo "Deleting $console..."
-        rm -rf "/recalbox/share/rom/TOSEC/${console}"  # Remove the directory if console is disabled
+        rm -rf "$console_dir"  # Remove the directory if console is disabled
     fi
 done
 
 echo "All TOSEC .zips downloaded and extracted successfully!"
-
-
 
 # Mark online mode as enabled
 echo "true" > "$online_mode_flag_file"
