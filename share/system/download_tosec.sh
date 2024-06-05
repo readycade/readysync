@@ -7,7 +7,6 @@ echo "Log file:..."
 echo "/recalbox/share/system/.systemstream.log"
 echo "Truncating log file..."
 
-
 #-----------START OF USER EDIT-------------#
 # Define whether to enable or disable each console directly within the script
 # Syntax: console_name=enabled|disabled
@@ -76,15 +75,14 @@ for console in "${!download_urls[@]}"; do
         done
 
         if [ $success -eq 0 ]; then
-            # Find the downloaded zip file recursively
-            downloaded_zip=$(find "/recalbox/share/zip/$console" -name "$(basename "${download_urls[$console]//%20/ }")")
+            # Find the downloaded zip file in the nested directory structure
+            downloaded_zip=$(find "/recalbox/share/zip/$console" -type f -name "*.zip")
             if [ -n "$downloaded_zip" ]; then
                 echo "Extracting $console..."
                 unzip -o "$downloaded_zip" -d "/recalbox/share/zip/$console/"
-                # Remove the zip file after extraction
-                rm -f "$downloaded_zip"
             else
                 echo "Failed to find the downloaded zip file for $console."
+                rm -rf "/recalbox/share/zip/$console/myrient/*"
             fi
         else
             echo "Downloading $console... Failed after multiple retries"

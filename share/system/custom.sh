@@ -167,8 +167,8 @@ for console in "${!download_urls[@]}"; do
         done
 
         if [ $success -eq 0 ]; then
-            # Find the downloaded zip file recursively
-            downloaded_zip=$(find "/recalbox/share/zip/$console" -name "$(basename "${download_urls[$console]//%20/ }")")
+            # Find the downloaded zip file in the nested directory structure
+            downloaded_zip=$(find "/recalbox/share/zip/$console" -type f -name "*.zip")
             if [ -n "$downloaded_zip" ]; then
                 echo "Extracting $console..."
                 unzip -o "$downloaded_zip" -d "/recalbox/share/zip/$console/"
@@ -189,12 +189,7 @@ done
 echo "All TOSEC files downloaded and extracted successfully!"
 
 
-
-
-
-
-
-# Function to download a file with retries
+# Function to download a rclone with retries
 download_rclone_with_retry() {
     local url=$1
     local output=$2
@@ -216,7 +211,7 @@ download_rclone_with_retry() {
     return 1
 }
 
-# Function to download a file with retries
+# Function to download a rclone with retries
 download_rclone_with_retry() {
     local url=$1
     local output=$2
