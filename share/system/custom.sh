@@ -218,6 +218,61 @@ else
     fi
 fi
 
+# Function to download a file with retries
+download_ratarmount_with_retry() {
+    local url=$1
+    local output=$2
+    local max_retries=3
+    local retry_delay=5
+
+    for ((attempt = 1; attempt <= max_retries; attempt++)); do
+        wget --quiet --show-progress --retry-connrefused --waitretry=$retry_delay --timeout=30 --tries=$max_retries -O "$output" "$url"
+        if [ $? -eq 0 ]; then
+            echo "Download succeeded."
+            return 0
+        else
+            echo "Download failed (attempt $attempt/$max_retries). Retrying in $retry_delay seconds..."
+            sleep $retry_delay
+        fi
+    done
+
+    echo "Max retries reached. Download failed."
+    return 1
+}
+
+# Determine architecture
+architecture=$(uname -m)
+if [ "$architecture" == "x86_64" ]; then
+    ratarmount_arch="x64"
+elif [ "$architecture" == "aarch64" ]; then
+    ratarmount_arch="arm64"
+else
+    echo "Error: Unsupported architecture."
+    exit 1
+fi
+
+# Check if ratarmount exists in /usr/bin
+if [ -x /usr/bin/ratarmount ]; then
+    echo "ratarmount already exists in /usr/bin. Skipping download."
+else
+    # Download ratarmount with retry
+    ratarmount_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/ratarmount-${ratarmount_arch}/fuse-transfer.tar.gz"
+    download_ratarmount_with_retry "$ratarmount_url" "/tmp/fuse-transfer.tar.gz"
+    if [ $? -eq 0 ]; then
+        echo "ratarmount archive downloaded successfully."
+        # Extract the tar archive
+        tar -xzvf /tmp/fuse-transfer.tar.gz -C /tmp/
+        # Move the binaries to /usr/bin
+        mv /tmp/bin/* /usr/bin/
+        mv /tmp/lib/* /usr/lib/
+        # Update the library cache
+        ldconfig
+        echo "ratarmount and dependencies installed successfully."
+    else
+        echo "Error: Failed to download ratarmount."
+    fi
+fi
+
 # Mount myrient with rclone
 #rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 rclone mount myrient:  /recalbox/share/rom --config "/recalbox/share/system/rclone2.conf" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
