@@ -219,60 +219,6 @@ else
 fi
 
 # Function to download a file with retries
-download_fuse_with_retry() {
-    local url=$1
-    local output=$2
-    local max_retries=3
-    local retry_delay=5
-
-    for ((attempt = 1; attempt <= max_retries; attempt++)); do
-        wget --quiet --show-progress --retry-connrefused --waitretry=$retry_delay --timeout=30 --tries=$max_retries -O "$output" "$url"
-        if [ $? -eq 0 ]; then
-            echo "Download succeeded."
-            return 0
-        else
-            echo "Download failed (attempt $attempt/$max_retries). Retrying in $retry_delay seconds..."
-            sleep $retry_delay
-        fi
-    done
-
-    echo "Max retries reached. Download failed."
-    return 1
-}
-
-# Check if libfuse is already installed
-if [ -x /usr/bin/fusermount3 ]; then
-    echo "libfuse is already installed. Skipping download."
-else
-    # Determine architecture
-    architecture=$(uname -m)
-    if [ "$architecture" == "x86_64" ]; then
-        fuse_arch="x64"
-    elif [ "$architecture" == "aarch64" ]; then
-        fuse_arch="arm64"
-    else
-        echo "Error: Unsupported architecture."
-        exit 1
-    fi
-
-    # Download libfuse with retry
-    fuse_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/fuse2.8-${fuse_arch}/fuse2.8.tar.gz"
-    download_fuse_with_retry "$fuse_url" "/tmp/fuse2.8.tar.gz"
-    if [ $? -eq 0 ]; then
-        echo "libfuse archive downloaded successfully."
-        # Extract the tar archive
-        tar -xzvf /tmp/fuse2.8.tar.gz -C /tmp/
-        # Move the binaries to /usr/bin
-        mv /tmp/bin/* /usr/bin/
-        # Update the library cache
-        ldconfig
-        echo "libfuse installed successfully."
-    else
-        echo "Error: Failed to download libfuse."
-    fi
-fi
-
-# Function to download a file with retries
 download_ratarmount_with_retry() {
     local url=$1
     local output=$2
@@ -420,9 +366,13 @@ install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/sh
 
 #fi
 
-#-----------START OF USER EDIT-------------#
 # Define whether to enable or disable each console directly within the script
 # Syntax: console_name=enabled|disabled
+# DISCLAIMER: This WILL download these enabled romsets onto your machine!!!
+# Disabled romsets will get deleted upon reboot.
+
+#-----------START OF USER EDIT-------------#
+#TOSEC ROMSETS
 declare -A console_status
 console_status=(
     [atari800]=enabled
@@ -448,43 +398,50 @@ console_status=(
 )
 #------------END OF USER EDIT--------------#
 
-# Array of mount commands
-declare -A commands
-commands=(
-    [atari800]='mount-zip -v "/recalbox/share/rom/TOSEC/Atari/8bit/Games/[XEX]/Atari 8bit - Games - [XEX].zip" "/recalbox/share/zip/atari800/"'
-    [pc88]='mount-zip -v "/recalbox/share/rom/TOSEC/NEC/PC-8801/Games/[D88]/NEC PC-8801 - Games - [D88].zip" "/recalbox/share/zip/pc88/"'
-    [pc98]='mount-zip -v "/recalbox/share/rom/TOSEC/NEC/PC-9801/Games/[FDD]/NEC PC-9801 - Games - [FDD].zip" "/recalbox/share/zip/pc98/"'
-    [zx81]='mount-zip -v "/recalbox/share/rom/TOSEC/Sinclair/ZX81/Games/[P]/Sinclair ZX81 - Games - [P].zip" "/recalbox/share/zip/zx81/"'
-    [x1]='mount-zip -v "/recalbox/share/rom/TOSEC/Sharp/X1/Games/[TAP]/Sharp X1 - Games - [TAP].zip" "/recalbox/share/zip/x1/"'
-    [x68000]='mount-zip -v "/recalbox/share/rom/TOSEC/Sharp/X68000/Games/[DIM]/Sharp X68000 - Games - [DIM].zip" "/recalbox/share/zip/x68000/"'
-    [msxturbor]='mount-zip -v "/recalbox/share/rom/TOSEC/MSX/TurboR/Games/MSX TurboR - Games.zip" "/recalbox/share/zip/msxturbor/"'
-    [bbcmicro]='mount-zip -v "/recalbox/share/rom/TOSEC/Acorn/BBC/Games/[SSD]/Acorn BBC - Games - [SSD].zip" "/recalbox/share/zip/bbcmicro/"'
-    [dragon]='mount-zip -v "/recalbox/share/rom/TOSEC/Dragon Data/Dragon/Games/[CAS]/Dragon Data Dragon - Games - [CAS].zip" "/recalbox/share/zip/dragon/"'
-    [bk]='mount-zip -v "/recalbox/share/rom/TOSEC/Elektronika/BK-0011-411/Games/Elektronika BK-0011-411 - Games.zip" "/recalbox/share/zip/bk/"'
-    [samcoupe]='mount-zip -v "/recalbox/share/rom/TOSEC/MGT/Sam Coupe/Games/[DSK]/MGT Sam Coupe - Games - [DSK].zip" "/recalbox/share/zip/samcoupe/"'
-    [thomson]='mount-zip -v "/recalbox/share/rom/TOSEC/Thomson/TO8, TO8D, TO9, TO9+/Games/[FD]/Thomson TO8, TO8D, TO9, TO9+ - Games - [FD].zip" "/recalbox/share/zip/thomson/"'
-    [ti994a]='mount-zip -v "/recalbox/share/rom/TOSEC/Texas Instruments/TI-99 4A/Games/[DSK]/Texas Instruments TI-99 4A - Games - [DSK].zip" "/recalbox/share/zip/ti994a/"'
-    [trs80coco]='mount-zip -v "/recalbox/share/rom/TOSEC/Tandy Radio Shack/TRS-80 Color Computer/Games/[DSK]/Tandy Radio Shack TRS-80 Color Computer - Games - [DSK].zip" "/recalbox/share/zip/trs80coco/"'
-    [vg5000]='mount-zip -v "/recalbox/share/rom/TOSEC/Philips/VG 5000/Games/Philips VG 5000 - Games.zip" "/recalbox/share/zip/vg5000/"'
-    [zmachine]='mount-zip -v "/recalbox/share/rom/TOSEC/Infocom/Z-Machine/Games/Infocom Z-Machine - Games.zip" "/recalbox/share/zip/zmachine/"'
-    [amstradcpc]='mount-zip -v "/recalbox/share/rom/TOSEC/Amstrad/CPC/Games/[DSK]/Amstrad CPC - Games - [DSK].zip" "/recalbox/share/zip/amstradcpc/"'
-    [gx4000]='mount-zip -v "/recalbox/share/rom/TOSEC/Amstrad/GX4000/Games/Amstrad GX4000 - Games.zip" "/recalbox/share/zip/gx4000/"'
-    [zxspectrum]='mount-zip -v "/recalbox/share/rom/TOSEC/Sinclair/ZX Spectrum/Games/[TAP]/Sinclair ZX Spectrum - Games - [TAP].zip" "/recalbox/share/zip/zxspectrum/"'
-    [pet]='mount-zip -v "/recalbox/share/rom/TOSEC/Commodore/PET/Games/[PRG]/Commodore PET - Games - [PRG].zip" "/recalbox/share/zip/pet/"'
+# Base URL for downloading files
+base_url="https://myrient.erista.me/files/"
+
+# Array of download paths relative to the base URL
+declare -A download_paths
+download_paths=(
+    [atari800]='TOSEC/Atari/8bit/Games/[XEX]/Atari 8bit - Games - [XEX].zip'
+    [pc88]='TOSEC/NEC/PC-8801/Games/[D88]/NEC PC-8801 - Games - [D88].zip'
+    [pc98]='TOSEC/NEC/PC-9801/Games/[FDD]/NEC PC-9801 - Games - [FDD].zip'
+    [zx81]='TOSEC/Sinclair/ZX81/Games/[P]/Sinclair ZX81 - Games - [P].zip'
+    [x1]='TOSEC/Sharp/X1/Games/[TAP]/Sharp X1 - Games - [TAP].zip'
+    [x68000]='TOSEC/Sharp/X68000/Games/[DIM]/Sharp X68000 - Games - [DIM].zip'
+    [msxturbor]='TOSEC/MSX/TurboR/Games/MSX TurboR - Games.zip'
+    [bbcmicro]='TOSEC/Acorn/BBC/Games/[SSD]/Acorn BBC - Games - [SSD].zip'
+    [dragon]='TOSEC/Dragon Data/Dragon/Games/[CAS]/Dragon Data Dragon - Games - [CAS].zip'
+    [bk]='TOSEC/Elektronika/BK-0011-411/Games/Elektronika BK-0011-411 - Games.zip'
+    [samcoupe]='TOSEC/MGT/Sam Coupe/Games/[DSK]/MGT Sam Coupe - Games - [DSK].zip'
+    [thomson]='TOSEC/Thomson/TO8, TO8D, TO9, TO9+/Games/[FD]/Thomson TO8, TO8D, TO9, TO9+ - Games - [FD].zip'
+    [ti994a]='TOSEC/Texas Instruments/TI-99 4A/Games/[DSK]/Texas Instruments TI-99 4A - Games - [DSK].zip'
+    [trs80coco]='TOSEC/Tandy Radio Shack/TRS-80 Color Computer/Games/[DSK]/Tandy Radio Shack TRS-80 Color Computer - Games - [DSK].zip'
+    [vg5000]='TOSEC/Philips/VG 5000/Games/Philips VG 5000 - Games.zip'
+    [zmachine]='TOSEC/Infocom/Z-Machine/Games/Infocom Z-Machine - Games.zip'
+    [amstradcpc]='TOSEC/Amstrad/CPC/Games/[DSK]/Amstrad CPC - Games - [DSK].zip'
+    [gx4000]='TOSEC/Amstrad/GX4000/Games/Amstrad GX4000 - Games.zip'
+    [zxspectrum]='TOSEC/Sinclair/ZX Spectrum/Games/[TAP]/Sinclair ZX Spectrum - Games - [TAP].zip'
+    [pet]='TOSEC/Commodore/PET/Games/[PRG]/Commodore PET - Games - [PRG].zip'
 )
 
-# Loop through each console and execute the command if enabled
-for console in "${!commands[@]}"; do
+# Loop through each console and execute the download command if enabled
+for console in "${!download_paths[@]}"; do
     if [ "${console_status[$console]}" = "enabled" ]; then
-        echo "Enabling $console..."
-        eval "${commands[$console]}"
+        echo "Downloading $console..."
+        mkdir -p "/recalbox/share/rom/TOSEC/${console}/Games"
+        wget -P "/tmp" "${base_url}${download_paths[$console]}"  # Download the zip file to /tmp directory
+        echo "Extracting $console..."
+        unzip -o "/tmp/$(basename ${download_paths[$console]})" -d "/recalbox/share/rom/TOSEC/${console}/Games"  # Extract to the correct path
     else
-        echo "$console is disabled."
+        echo "Deleting $console..."
+        rm -rf "/recalbox/share/rom/TOSEC/${console}"  # Remove the directory if console is disabled
     fi
 done
 
-wait 
-echo "All TOSEC .zips mounted successfully!"
+echo "All TOSEC .zips downloaded and extracted successfully!"
+
 
 
 # Mark online mode as enabled
