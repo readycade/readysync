@@ -1,5 +1,4 @@
 #!/bin/bash
-l
 log_file="/recalbox/share/system/.systemstream.log"
 
 # Clear the log files
@@ -7,6 +6,7 @@ truncate -s 0 "$log_file"
 echo "Log file:..."
 echo "/recalbox/share/system/.systemstream.log"
 echo "Truncating log file..."
+
 
 #-----------START OF USER EDIT-------------#
 # Define whether to enable or disable each console directly within the script
@@ -70,14 +70,22 @@ for console in "${!download_urls[@]}"; do
             wget --no-check-certificate --accept '*.zip' --reject '*.html' -r -c -P "/recalbox/share/zip/$console" "${download_urls[$console]}"
             success=$?
             if [ $success -ne 0 ]; then
-                echo "Downloading $console... Retry attempt $(4 - $retries)"
+                echo "Downloading $console... Retry attempt $((4 - retries))"
                 ((retries--))
             fi
         done
 
         if [ $success -eq 0 ]; then
-            echo "Extracting $console..."
-            unzip -o "/recalbox/share/zip/$console/$(basename "${download_urls[$console]//%20/ }")" -d "/recalbox/share/zip/$console/"
+            # Find the downloaded zip file recursively
+            downloaded_zip=$(find "/recalbox/share/zip/$console" -name "$(basename "${download_urls[$console]//%20/ }")")
+            if [ -n "$downloaded_zip" ]; then
+                echo "Extracting $console..."
+                unzip -o "$downloaded_zip" -d "/recalbox/share/zip/$console/"
+                # Remove the zip file after extraction
+                rm -f "$downloaded_zip"
+            else
+                echo "Failed to find the downloaded zip file for $console."
+            fi
         else
             echo "Downloading $console... Failed after multiple retries"
             rm -rf "/recalbox/share/zip/$console"
