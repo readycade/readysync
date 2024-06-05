@@ -429,7 +429,7 @@ download_urls=(
 for console in "${!download_urls[@]}"; do
     if [ "${console_status[$console]}" = "enabled" ]; then
         echo "Downloading $console..."
-        wget --continue --reject html -P "/recalbox/share/zip/$console" "${download_urls[$console]}"
+        wget --no-check-certificate -P "/recalbox/share/zip/$console" "${download_urls[$console]}"
         success=$?
         if [ $success -eq 0 ]; then
             echo "Extracting $console..."
