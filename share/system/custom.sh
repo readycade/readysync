@@ -366,8 +366,6 @@ install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/sh
 
 #fi
 
-# Define whether to enable or disable each console directly within the script
-# Syntax: console_name=enabled|disabled
 # DISCLAIMER: This WILL download these enabled romsets onto your machine!!!
 # Disabled romsets will get deleted upon reboot.
 
@@ -401,40 +399,15 @@ console_status=(
 # Base URL for downloading files
 base_url="https://myrient.erista.me/files/"
 
-# Array of download paths relative to the base URL
-declare -A download_paths
-download_paths=(
-    [atari800]='TOSEC/Atari/8bit/Games/[XEX]/Atari 8bit - Games - [XEX].zip'
-    [pc88]='TOSEC/NEC/PC-8801/Games/[D88]/NEC PC-8801 - Games - [D88].zip'
-    [pc98]='TOSEC/NEC/PC-9801/Games/[FDD]/NEC PC-9801 - Games - [FDD].zip'
-    [zx81]='TOSEC/Sinclair/ZX81/Games/[P]/Sinclair ZX81 - Games - [P].zip'
-    [x1]='TOSEC/Sharp/X1/Games/[TAP]/Sharp X1 - Games - [TAP].zip'
-    [x68000]='TOSEC/Sharp/X68000/Games/[DIM]/Sharp X68000 - Games - [DIM].zip'
-    [msxturbor]='TOSEC/MSX/TurboR/Games/MSX TurboR - Games.zip'
-    [bbcmicro]='TOSEC/Acorn/BBC/Games/[SSD]/Acorn BBC - Games - [SSD].zip'
-    [dragon]='TOSEC/Dragon Data/Dragon/Games/[CAS]/Dragon Data Dragon - Games - [CAS].zip'
-    [bk]='TOSEC/Elektronika/BK-0011-411/Games/Elektronika BK-0011-411 - Games.zip'
-    [samcoupe]='TOSEC/MGT/Sam Coupe/Games/[DSK]/MGT Sam Coupe - Games - [DSK].zip'
-    [thomson]='TOSEC/Thomson/TO8, TO8D, TO9, TO9+/Games/[FD]/Thomson TO8, TO8D, TO9, TO9+ - Games - [FD].zip'
-    [ti994a]='TOSEC/Texas Instruments/TI-99 4A/Games/[DSK]/Texas Instruments TI-99 4A - Games - [DSK].zip'
-    [trs80coco]='TOSEC/Tandy Radio Shack/TRS-80 Color Computer/Games/[DSK]/Tandy Radio Shack TRS-80 Color Computer - Games - [DSK].zip'
-    [vg5000]='TOSEC/Philips/VG 5000/Games/Philips VG 5000 - Games.zip'
-    [zmachine]='TOSEC/Infocom/Z-Machine/Games/Infocom Z-Machine - Games.zip'
-    [amstradcpc]='TOSEC/Amstrad/CPC/Games/[DSK]/Amstrad CPC - Games - [DSK].zip'
-    [gx4000]='TOSEC/Amstrad/GX4000/Games/Amstrad GX4000 - Games.zip'
-    [zxspectrum]='TOSEC/Sinclair/ZX Spectrum/Games/[TAP]/Sinclair ZX Spectrum - Games - [TAP].zip'
-    [pet]='TOSEC/Commodore/PET/Games/[PRG]/Commodore PET - Games - [PRG].zip'
-)
-
 # Loop through each console and execute the download command if enabled
-for console in "${!download_paths[@]}"; do
+for console in "${!console_status[@]}"; do
     if [ "${console_status[$console]}" = "enabled" ]; then
         console_dir="/recalbox/share/zip/${console}"
         echo "Downloading $console..."
         mkdir -p "$console_dir"
-        wget -P "/tmp" "${base_url}${download_paths[$console]}"  # Download the zip file to /tmp directory
+        wget -P "$console_dir" "${base_url}${download_paths[$console]}"  # Download the zip file to the console directory
         echo "Extracting $console..."
-        unzip -o "/tmp/$(basename ${download_paths[$console]})" -d "$console_dir"  # Extract to the correct path
+        unzip -o "$console_dir/$(basename "${download_paths[$console]}")" -d "$console_dir"  # Extract to the correct path
     else
         console_dir="/recalbox/share/zip/${console}"
         echo "Deleting $console..."
