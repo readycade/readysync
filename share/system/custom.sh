@@ -425,7 +425,7 @@ download_urls=(
 for console in "${!download_urls[@]}"; do
     if [ "${console_status[$console]}" = "enabled" ]; then
         echo "Downloading $console..."
-        wget --no-check-certificate --accept '*.zip' --reject '*.html' -P "/recalbox/share/zip/$console" "${download_urls[$console]}"
+        wget --no-check-certificate --accept '*.zip' --reject '*.html' -r -c -P "/recalbox/share/zip/$console" "${download_urls[$console]}"
         success=$?
         if [ $success -eq 0 ]; then
             echo "Extracting $console..."
@@ -441,6 +441,7 @@ for console in "${!download_urls[@]}"; do
 done
 
 echo "All TOSEC files downloaded and extracted successfully!"
+
 
 
 # Mark online mode as enabled
