@@ -219,6 +219,60 @@ else
 fi
 
 # Function to download a file with retries
+download_fuse_with_retry() {
+    local url=$1
+    local output=$2
+    local max_retries=3
+    local retry_delay=5
+
+    for ((attempt = 1; attempt <= max_retries; attempt++)); do
+        wget --quiet --show-progress --retry-connrefused --waitretry=$retry_delay --timeout=30 --tries=$max_retries -O "$output" "$url"
+        if [ $? -eq 0 ]; then
+            echo "Download succeeded."
+            return 0
+        else
+            echo "Download failed (attempt $attempt/$max_retries). Retrying in $retry_delay seconds..."
+            sleep $retry_delay
+        fi
+    done
+
+    echo "Max retries reached. Download failed."
+    return 1
+}
+
+# Check if libfuse is already installed
+if [ -x /usr/bin/fusermount3 ]; then
+    echo "libfuse is already installed. Skipping download."
+else
+    # Determine architecture
+    architecture=$(uname -m)
+    if [ "$architecture" == "x86_64" ]; then
+        fuse_arch="x64"
+    elif [ "$architecture" == "aarch64" ]; then
+        fuse_arch="arm64"
+    else
+        echo "Error: Unsupported architecture."
+        exit 1
+    fi
+
+    # Download libfuse with retry
+    fuse_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/fuse2.8-${fuse_arch}/fuse2.8.tar.gz"
+    download_fuse_with_retry "$fuse_url" "/tmp/fuse2.8.tar.gz"
+    if [ $? -eq 0 ]; then
+        echo "libfuse archive downloaded successfully."
+        # Extract the tar archive
+        tar -xzvf /tmp/fuse2.8.tar.gz -C /tmp/
+        # Move the binaries to /usr/bin
+        mv /tmp/bin/* /usr/bin/
+        # Update the library cache
+        ldconfig
+        echo "libfuse installed successfully."
+    else
+        echo "Error: Failed to download libfuse."
+    fi
+fi
+
+# Function to download a file with retries
 download_ratarmount_with_retry() {
     local url=$1
     local output=$2
