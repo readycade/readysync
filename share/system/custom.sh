@@ -154,6 +154,12 @@ download_urls=(
 # Loop through each console and download the file if enabled
 for console in "${!download_urls[@]}"; do
     if [ "${console_status[$console]}" = "enabled" ]; then
+        # Check if the directory already contains files other than the myrient folder
+        if [ -d "/recalbox/share/zip/$console" ] && find "/recalbox/share/zip/$console" -mindepth 1 ! -regex '^/recalbox/share/zip/'"$console"'/myrient.*' -print -quit | grep -q .; then
+            echo "Files already exist for $console. Skipping download."
+            continue
+        fi
+
         echo "Downloading $console..."
         success=1
         retries=3
@@ -187,6 +193,7 @@ for console in "${!download_urls[@]}"; do
 done
 
 echo "All TOSEC files downloaded and extracted successfully!"
+
 
 
 # Function to download a rclone with retries
