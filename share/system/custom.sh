@@ -172,6 +172,8 @@ for console in "${!download_urls[@]}"; do
             if [ -n "$downloaded_zip" ]; then
                 echo "Extracting $console..."
                 unzip -o "$downloaded_zip" -d "/recalbox/share/zip/$console/"
+                # Remove the zip file after extraction
+                rm -f "$downloaded_zip"
             else
                 echo "Failed to find the downloaded zip file for $console."
             fi
