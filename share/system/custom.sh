@@ -158,7 +158,7 @@ for console in "${!download_urls[@]}"; do
         success=1
         retries=3
         while [ $success -ne 0 ] && [ $retries -gt 0 ]; do
-            wget --no-check-certificate --accept '*.zip' --reject '*.html' -r -c -P "/recalbox/share/zip/$console" "${download_urls[$console]}"
+            wget --no-check-certificate -O "/recalbox/share/zip/$console/$(basename "${download_urls[$console]//%20/ }")" "${download_urls[$console]}"
             success=$?
             if [ $success -ne 0 ]; then
                 echo "Downloading $console... Retry attempt $((4 - retries))"
