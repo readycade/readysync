@@ -161,7 +161,7 @@ for console in "${!download_urls[@]}"; do
             wget --no-check-certificate --accept '*.zip' --reject '*.html' -r -c -P "/recalbox/share/zip/$console" "${download_urls[$console]}"
             success=$?
             if [ $success -ne 0 ]; then
-                echo "Downloading $console... Retry attempt $(4 - $retries)"
+                echo "Downloading $console... Retry attempt $((4 - retries))"
                 ((retries--))
             fi
         done
@@ -188,6 +188,7 @@ for console in "${!download_urls[@]}"; do
 done
 
 echo "All TOSEC files downloaded and extracted successfully!"
+
 
 
 # Function to download a file with retries
