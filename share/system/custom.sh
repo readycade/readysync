@@ -396,47 +396,52 @@ console_status=(
     [pet]=disabled
 )
 
-# Base URL for downloading files
-base_url="https://myrient.erista.me/files/"
+# Define download paths for each console
+declare -A download_paths
+download_paths=(
+    [atari800]='TOSEC/Atari/8bit/Games/[XEX]/Atari 8bit - Games - [XEX].zip'
+    [pc88]='TOSEC/NEC/PC-8801/Games/[D88]/NEC PC-8801 - Games - [D88].zip'
+    [pc98]='TOSEC/NEC/PC-9801/Games/[FDD]/NEC PC-9801 - Games - [FDD].zip'
+    [zx81]='TOSEC/Sinclair/ZX81/Games/[P]/Sinclair ZX81 - Games - [P].zip'
+    [x1]='TOSEC/Sharp/X1/Games/[TAP]/Sharp X1 - Games - [TAP].zip'
+    [x68000]='TOSEC/Sharp/X68000/Games/[DIM]/Sharp X68000 - Games - [DIM].zip'
+    [msxturbor]='TOSEC/MSX/TurboR/Games/MSX TurboR - Games.zip'
+    [bbcmicro]='TOSEC/Acorn/BBC/Games/[SSD]/Acorn BBC - Games - [SSD].zip'
+    [dragon]='TOSEC/Dragon Data/Dragon/Games/[CAS]/Dragon Data Dragon - Games - [CAS].zip'
+    [bk]='TOSEC/Elektronika/BK-0011-411/Games/Elektronika BK-0011-411 - Games.zip'
+    [samcoupe]='TOSEC/MGT/Sam Coupe/Games/[DSK]/MGT Sam Coupe - Games - [DSK].zip'
+    [thomson]='TOSEC/Thomson/TO8, TO8D, TO9, TO9+/Games/[FD]/Thomson TO8, TO8D, TO9, TO9+ - Games - [FD].zip'
+    [ti994a]='TOSEC/Texas Instruments/TI-99 4A/Games/[DSK]/Texas Instruments TI-99 4A - Games - [DSK].zip'
+    [trs80coco]='TOSEC/Tandy Radio Shack/TRS-80 Color Computer/Games/[DSK]/Tandy Radio Shack TRS-80 Color Computer - Games - [DSK].zip'
+    [vg5000]='TOSEC/Philips/VG 5000/Games/Philips VG 5000 - Games.zip'
+    [zmachine]='TOSEC/Infocom/Z-Machine/Games/Infocom Z-Machine - Games.zip'
+    [amstradcpc]='TOSEC/Amstrad/CPC/Games/[DSK]/Amstrad CPC - Games - [DSK].zip'
+    [gx4000]='TOSEC/Amstrad/GX4000/Games/Amstrad GX4000 - Games.zip'
+    [zxspectrum]='TOSEC/Sinclair/ZX Spectrum/Games/[TAP]/Sinclair ZX Spectrum - Games - [TAP].zip'
+    [pet]='TOSEC/Commodore/PET/Games/[PRG]/Commodore PET - Games - [PRG].zip'
+)
 
-# Function to download file with retry
-download_with_retry() {
-    local url="$1"
-    local destination="$2"
-    local retries=3
-    local delay=5
-    local success=0
-    while [ $retries -gt 0 ]; do
-        wget --no-clobber --reject html -P "$destination" "$url" && success=1 && break
-        ((retries--))
-        echo "Download failed. Retrying in $delay seconds..."
-        sleep $delay
-    done
-    [ $success -eq 1 ]
-}
-
-# Loop through each console and execute the download command if enabled
+# Loop through each console and download files if enabled
 for console in "${!console_status[@]}"; do
     if [ "${console_status[$console]}" = "enabled" ]; then
-        console_dir="/recalbox/share/zip/${console}"
-        echo "Downloading $console..."
-        mkdir -p "$console_dir"
-        download_with_retry "${base_url}${download_paths[$console]}" "$console_dir"
-        if [ $? -eq 0 ]; then
-            echo "Extracting $console..."
-            unzip -o "$console_dir/$(basename "${download_paths[$console]}")" -d "$console_dir"  # Extract to the correct path
+        destination="/recalbox/share/zip/$console"
+        mkdir -p "$destination"
+        url="https://myrient.erista.me/files/${download_paths[$console]}"
+        wget --continue --reject html -P "$destination" "$url"
+        success=$?
+        if [ $success -eq 0 ]; then
+            echo "Downloading $console... Done"
         else
-            echo "Download failed for $console. Skipping extraction."
-            rm -rf "$console_dir"  # Remove the directory if download fails
+            echo "Downloading $console... Failed"
+            rm -rf "$destination"
         fi
     else
-        console_dir="/recalbox/share/zip/${console}"
-        echo "Deleting $console..."
-        rm -rf "$console_dir"  # Remove the directory if console is disabled
+        echo "$console is disabled."
+        rm -rf "/recalbox/share/zip/$console"
     fi
 done
 
-echo "All TOSEC .zips downloaded and extracted successfully!"
+echo "All TOSEC .zips downloaded successfully!"
 
 # Mark online mode as enabled
 echo "true" > "$online_mode_flag_file"
