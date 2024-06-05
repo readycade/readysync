@@ -407,7 +407,7 @@ download_with_retry() {
     local delay=5
     local success=0
     while [ $retries -gt 0 ]; do
-        wget -P "$destination" "$url" && success=1 && break
+        wget --no-clobber --reject html -P "$destination" "$url" && success=1 && break
         ((retries--))
         echo "Download failed. Retrying in $delay seconds..."
         sleep $delay
