@@ -28,9 +28,9 @@ console_status=(
     [trs80coco]=enabled
     [vg5000]=enabled
     [zmachine]=enabled
-    [amstradcpc]=disabled
-    [gx4000]=disabled
-    [zxspectrum]=disabled
+    [amstradcpc]=enabled
+    [gx4000]=enabled
+    [zxspectrum]=enabled
     [pet]=disabled
 )
 
