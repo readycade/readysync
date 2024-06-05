@@ -399,15 +399,36 @@ console_status=(
 # Base URL for downloading files
 base_url="https://myrient.erista.me/files/"
 
+# Function to download file with retry
+download_with_retry() {
+    local url="$1"
+    local destination="$2"
+    local retries=3
+    local delay=5
+    local success=0
+    while [ $retries -gt 0 ]; do
+        wget -P "$destination" "$url" && success=1 && break
+        ((retries--))
+        echo "Download failed. Retrying in $delay seconds..."
+        sleep $delay
+    done
+    [ $success -eq 1 ]
+}
+
 # Loop through each console and execute the download command if enabled
 for console in "${!console_status[@]}"; do
     if [ "${console_status[$console]}" = "enabled" ]; then
         console_dir="/recalbox/share/zip/${console}"
         echo "Downloading $console..."
         mkdir -p "$console_dir"
-        wget -P "$console_dir" "${base_url}${download_paths[$console]}"  # Download the zip file to the console directory
-        echo "Extracting $console..."
-        unzip -o "$console_dir/$(basename "${download_paths[$console]}")" -d "$console_dir"  # Extract to the correct path
+        download_with_retry "${base_url}${download_paths[$console]}" "$console_dir"
+        if [ $? -eq 0 ]; then
+            echo "Extracting $console..."
+            unzip -o "$console_dir/$(basename "${download_paths[$console]}")" -d "$console_dir"  # Extract to the correct path
+        else
+            echo "Download failed for $console. Skipping extraction."
+            rm -rf "$console_dir"  # Remove the directory if download fails
+        fi
     else
         console_dir="/recalbox/share/zip/${console}"
         echo "Deleting $console..."
