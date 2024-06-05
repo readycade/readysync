@@ -424,24 +424,25 @@ download_urls=(
 
 
 
-# Loop through each console and download files if enabled
+# Loop through each console and download the file if enabled
 for console in "${!download_urls[@]}"; do
-if [ "${console_status[$console]}" = "enabled" ]; then
-echo "Downloading $console..."
-wget --no-clobber --continue --reject html -P "/recalbox/share/zip/$console" "${download_urls[$console]}"
-success=$?
-if [ $success -eq 0 ]; then
-echo "Extracting $console..."
-unzip -o "/recalbox/share/zip/$console/$(basename "${download_urls[$console]}")" -d "/recalbox/share/zip/$console/"
-else
-echo "Downloading $console... Failed"
-rm -rf "/recalbox/share/zip/$console"
-fi
-else
-echo "$console is disabled."
-rm -rf "/recalbox/share/zip/$console"
-fi
+    if [ "${console_status[$console]}" = "enabled" ]; then
+        echo "Downloading $console..."
+        wget --no-clobber --continue --reject html -P "/recalbox/share/zip/$console" "${download_urls[$console]}"
+        success=$?
+        if [ $success -eq 0 ]; then
+            echo "Extracting $console..."
+            unzip -o "/recalbox/share/zip/$console/$(basename "${download_urls[$console]//%20/ }")" -d "/recalbox/share/zip/$console/"
+        else
+            echo "Downloading $console... Failed"
+            rm -rf "/recalbox/share/zip/$console"
+        fi
+    else
+        echo "$console is disabled."
+        rm -rf "/recalbox/share/zip/$console"
+    fi
 done
+
 
 echo "All TOSEC files downloaded and extracted successfully!"
 
