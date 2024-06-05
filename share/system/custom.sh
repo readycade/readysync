@@ -399,31 +399,27 @@ console_status=(
 # Array of download URLs
 declare -A download_urls
 download_urls=(
-    [atari800]='https://myrient.erista.me/files/TOSEC/Atari/8bit/Games/[XEX]/Atari 8bit - Games - [XEX].zip'
-    [pc88]='https://myrient.erista.me/files/TOSEC/NEC/PC-8801/Games/[D88]/NEC PC-8801 - Games - [D88].zip'
-    [pc98]='https://myrient.erista.me/files/TOSEC/NEC/PC-9801/Games/[FDD]/NEC PC-9801 - Games - [FDD].zip'
-    [zx81]='https://myrient.erista.me/files/TOSEC/Sinclair/ZX81/Games/[P]/Sinclair ZX81 - Games - [P].zip'
-    [x1]='https://myrient.erista.me/files/TOSEC/Sharp/X1/Games/[TAP]/Sharp X1 - Games - [TAP].zip'
-    [x68000]='https://myrient.erista.me/files/TOSEC/Sharp/X68000/Games/[DIM]/Sharp X68000 - Games - [DIM].zip'
-    [msxturbor]='https://myrient.erista.me/files/TOSEC/MSX/TurboR/Games/MSX TurboR - Games.zip'
-    [bbcmicro]='https://myrient.erista.me/files/TOSEC/Acorn/BBC/Games/[SSD]/Acorn BBC - Games - [SSD].zip'
-    [dragon]='https://myrient.erista.me/files/TOSEC/Dragon Data/Dragon/Games/[CAS]/Dragon Data Dragon - Games - [CAS].zip'
-    [bk]='https://myrient.erista.me/files/TOSEC/Elektronika/BK-0011-411/Games/Elektronika BK-0011-411 - Games.zip'
-    [samcoupe]='https://myrient.erista.me/files/TOSEC/MGT/Sam Coupe/Games/[DSK]/MGT Sam Coupe - Games - [DSK].zip'
-    [thomson]='https://myrient.erista.me/files/TOSEC/Thomson/TO8, TO8D, TO9, TO9+/Games/[FD]/Thomson TO8, TO8D, TO9, TO9+ - Games - [FD].zip'
-    [ti994a]='https://myrient.erista.me/files/TOSEC/Texas Instruments/TI-99 4A/Games/[DSK]/Texas Instruments TI-99 4A - Games - [DSK].zip'
-    [trs80coco]='https://myrient.erista.me/files/TOSEC/Tandy Radio Shack/TRS-80 Color Computer/Games/[DSK]/Tandy Radio Shack TRS-80 Color Computer - Games - [DSK].zip'
-    [vg5000]='https://myrient.erista.me/files/TOSEC/Philips/VG 5000/Games/Philips VG 5000 - Games.zip'
-    [zmachine]='https://myrient.erista.me/files/TOSEC/Infocom/Z-Machine/Games/Infocom Z-Machine - Games.zip'
-    [amstradcpc]='https://myrient.erista.me/files/TOSEC/Amstrad/CPC/Games/[DSK]/Amstrad CPC - Games - [DSK].zip'
-    [gx4000]='https://myrient.erista.me/files/TOSEC/Amstrad/GX4000/Games/Amstrad GX4000 - Games.zip'
-    [zxspectrum]='https://myrient.erista.me/files/TOSEC/Sinclair/ZX Spectrum/Games/[TAP]/Sinclair ZX Spectrum - Games - [TAP].zip'
-    [pet]='https://myrient.erista.me/files/TOSEC/Commodore/PET/Games/[PRG]/Commodore PET - Games - [PRG].zip'
+    [atari800]='ftp://myrient.erista.me/files/TOSEC/Atari/8bit/Games/[XEX]/Atari 8bit - Games - [XEX].zip'
+    [pc88]='ftp://myrient.erista.me/files/TOSEC/NEC/PC-8801/Games/[D88]/NEC PC-8801 - Games - [D88].zip'
+    [pc98]='ftp://myrient.erista.me/files/TOSEC/NEC/PC-9801/Games/[FDD]/NEC PC-9801 - Games - [FDD].zip'
+    [zx81]='ftp://myrient.erista.me/files/TOSEC/Sinclair/ZX81/Games/[P]/Sinclair ZX81 - Games - [P].zip'
+    [x1]='ftp://myrient.erista.me/files/TOSEC/Sharp/X1/Games/[TAP]/Sharp X1 - Games - [TAP].zip'
+    [x68000]='ftp://myrient.erista.me/files/TOSEC/Sharp/X68000/Games/[DIM]/Sharp X68000 - Games - [DIM].zip'
+    [msxturbor]='ftp://myrient.erista.me/files/TOSEC/MSX/TurboR/Games/MSX TurboR - Games.zip'
+    [bbcmicro]='ftp://myrient.erista.me/files/TOSEC/Acorn/BBC/Games/[SSD]/Acorn BBC - Games - [SSD].zip'
+    [dragon]='ftp://myrient.erista.me/files/TOSEC/Dragon Data/Dragon/Games/[CAS]/Dragon Data Dragon - Games - [CAS].zip'
+    [bk]='ftp://myrient.erista.me/files/TOSEC/Elektronika/BK-0011-411/Games/Elektronika BK-0011-411 - Games.zip'
+    [samcoupe]='ftp://myrient.erista.me/files/TOSEC/MGT/Sam Coupe/Games/[DSK]/MGT Sam Coupe - Games - [DSK].zip'
+    [thomson]='ftp://myrient.erista.me/files/TOSEC/Thomson/TO8,%20TO8D,%20TO9,%20TO9+/Games/[FD]/Thomson TO8, TO8D, TO9, TO9+ - Games - [FD].zip'
+    [ti994a]='ftp://myrient.erista.me/files/TOSEC/Texas Instruments/TI-99%204A/Games/[DSK]/Texas Instruments TI-99 4A - Games - [DSK].zip'
+    [trs80coco]='ftp://myrient.erista.me/files/TOSEC/Tandy Radio Shack/TRS-80 Color Computer/Games/[DSK]/Tandy Radio Shack TRS-80 Color Computer - Games - [DSK].zip'
+    [vg5000]='ftp://myrient.erista.me/files/TOSEC/Philips/VG%205000/Games/Philips VG 5000 - Games.zip'
+    [zmachine]='ftp://myrient.erista.me/files/TOSEC/Infocom/Z-Machine/Games/Infocom Z-Machine - Games.zip'
+    [amstradcpc]='ftp://myrient.erista.me/files/TOSEC/Amstrad/CPC/Games/[DSK]/Amstrad CPC - Games - [DSK].zip'
+    [gx4000]='ftp://myrient.erista.me/files/TOSEC/Amstrad/GX4000/Games/Amstrad GX4000 - Games.zip'
+    [zxspectrum]='ftp://myrient.erista.me/files/TOSEC/Sinclair/ZX Spectrum/Games/[TAP]/Sinclair ZX Spectrum - Games - [TAP].zip'
+    [pet]='ftp://myrient.erista.me/files/TOSEC/Commodore/PET/Games/[PRG]/Commodore PET - Games - [PRG].zip'
 )
-
-
-
-
 
 # Loop through each console and download the file if enabled
 for console in "${!download_urls[@]}"; do
