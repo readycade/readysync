@@ -1316,7 +1316,7 @@
     </emulatorList>
   </system>
   <system uuid="c2adcca8-96a1-4ca4-bdea-645c2ac99d3e" name="x1" fullname="Sharp X1">
-    <descriptor path="/recalbox/share/zip/x1" theme="x1" extensions=".d88 .tfd .zip .2hd .cmd .m3u .dup .88d .xdf .hdm .dx1 .2d .7z" icon="$F2ec" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/x1" theme="x1" extensions=".d88 .tfd .zip .2hd .cmd .m3u .dup .88d .xdf .hdm .dx1 .2d .7z .tap" icon="$F2ec" downloader="0"/>
     <scraper screenscraper="220"/>
     <properties type="computer" pad="mandatory" keyboard="recommended" mouse="no" lightgun="no" releasedate="1982-01" manufacturer="Sharp" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
