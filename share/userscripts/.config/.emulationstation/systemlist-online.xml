@@ -602,7 +602,7 @@
     </emulatorList>
   </system>
   <system uuid="5a7050c1-6589-4179-8a32-9452cb70e25f" name="megaduck" fullname="MegaDuck">
-    <descriptor path="/recalbox/share/zip/megaduck" theme="megaduck" extensions=".bin .zip" icon="$F280" downloader="0" command='head %ROM%; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.bin$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Welback - Mega Duck" theme="megaduck" extensions=".bin .zip" icon="$F280" downloader="0" command='head %ROM%; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.bin$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="90"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="1993-01" manufacturer="Welback" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1176,7 +1176,7 @@
     </emulatorList>
   </system>
   <system uuid="65338078-f443-4f5f-aaee-9ea7ffee9c32" name="ti994a" fullname="Texas Instrument TI-99/4A">
-    <descriptor path="/recalbox/share/zip/ti994a" theme="ti994a" extensions=".ctg" icon="$0" downloader="0"/>
+    <descriptor path="/recalbox/share/zip/ti994a" theme="ti994a" extensions=".ctg .dsk" icon="$0" downloader="0"/>
     <scraper screenscraper="205"/>
     <properties type="computer" pad="optional" keyboard="mandatory" mouse="optional" lightgun="no" releasedate="1981-06" manufacturer="Texas Instrument" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
