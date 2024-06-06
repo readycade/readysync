@@ -52,10 +52,16 @@ Sony Playstation 4
 Microsoft Xbox 360 (Wired)
 Standard Keyboard (Press 1 instead of B)
 
-### If you want the Whole Enchilada (ALL THE GAMES)
-Most of the **larger TOSEC romsets** will be **disabled** by default to make things snappy.
+### Alternate Download Method for TOSEC
+You can always copy the contents of **download_tosec.sh** over the **custom.sh** script and run the command below in the ssh terminal.
 
-In this Example **Amstrad CPC** is **DISABLED**.
+### If you want the Whole Enchilada (ALL THE GAMES)
+**ALL TOSEC romsets** will be **disabled** by default to make things snappy.
+
+## IMPORTANT
+Don't forget to enable the consoles in both **download_tosec.sh** and **custom.sh** files.
+
+**Amstrad CPC** is **DISABLED**.
 ```
 [amstradcpc]=disabled
 ```
@@ -63,6 +69,14 @@ In this Example **Amstrad CPC** is **DISABLED**.
 ```
 [atari800]=enabled
 ```
+
+#### Running the command from the terminal (ADVANCED USERS ONLY)
+This will start the **custom.sh** script located in /recalbox/share/system
+```
+/etc/init.d/S99custom start
+```
+After installation is complete. Replace the contents of **custom.sh** with the ACTUAL ReadySync **custom.sh** and restart your Readycade. Enable online mode again and give it a few moments to update the gameslist.
+Your new TOSEC romsets should appear now.
 
 ### Notes:
 Default **gamelist.xml's** and **checksums** are provided for **ALL consoles**.
@@ -84,10 +98,6 @@ Enabling larger **TOSEC romsets** will take **longer to mount**. ex: **amstradcp
 ### MORE PROBLEMS?!?!?!
 If you experience any OTHER issues, **DELETE** everything in **/recalbox/share/userscripts/.config** and **restart** your **Readycade**.
 
-#### DO NOT RUN THIS: Running the command from the terminal (ADVANCED USERS ONLY)
-```
-/etc/init.d/S99custom start
-```
 
 ### Flowchart (Visual Representation)
 ![ReadySync Flowchart](https://github.com/readycade/readysync/blob/master/ReadySync-FLOWCHART.png)
