@@ -10,6 +10,7 @@ It uses httpdirfs to mount the thumbnails from https://thumbnails.libretro.com
 
 It uses zip-mount to mount .zip's to /iso when the emulator doesn't support .zip files (eg. arduboy, gamecube, ps2, wii.. ect)
 
+## Click the Picture below to Watch the ReadySync (Online Mode) YouTube Video
 [![ReadySync](ReadySync.jpg)](https://www.youtube.com/watch?v=6dR_I5IsSRE)
 
 
