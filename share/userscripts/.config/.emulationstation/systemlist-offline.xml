@@ -397,7 +397,7 @@
     </emulatorList>
   </system>
   <system uuid="5db67a8d-3373-4166-94b8-14d95898b006" name="gamecube" fullname="GameCube">
-    <descriptor path="%ROOT%/gamecube" theme="gc" extensions=".gcm .iso .ciso .wia .gc .rvz .gcz" icon="$F262" downloader="0"/>
+    <descriptor path="%ROOT%/gamecube" theme="gc" extensions=".gcm .iso .ciso .wia .gc .rvz .gcz .zip" icon="$F262" downloader="0"/>
     <scraper screenscraper="13"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2001-09" manufacturer="Nintendo" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1276,7 +1276,7 @@
     </emulatorList>
   </system>
   <system uuid="f15edcf2-3154-40ba-8648-6e6d818b92e1" name="wii" fullname="Wii">
-    <descriptor path="%ROOT%/wii" theme="wii" extensions=".wbfs .iso .ciso .wia .rvz .gcz" icon="$F263" downloader="0"/>
+    <descriptor path="%ROOT%/wii" theme="wii" extensions=".wbfs .iso .ciso .wia .rvz .gcz .zip" icon="$F263" downloader="0"/>
     <scraper screenscraper="16"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2006-11" manufacturer="Nintendo" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
