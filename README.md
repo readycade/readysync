@@ -1,6 +1,7 @@
 
 
-# ReadySync (Ready... Set... Play!)
+# ReadySync (Online Mode)
+## (Ready... Set... Play!)
 
 Mounts any HTTP/FTP repository of Romsets giving you an Online and Offline experience.
 
