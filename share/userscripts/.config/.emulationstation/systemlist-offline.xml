@@ -334,7 +334,7 @@
     </emulatorList>
   </system>
   <system uuid="629b18fb-0ab4-f3a1-b34c-f235cd0c147c" name="dragon" fullname="Dragon 32/64">
-    <descriptor path="%ROOT%/dragon" theme="dragon" extensions=".wav .bas .dsk .os9 .ccc .jvc .rom .vdk .cas .asc .dmk" icon="$F2a4" downloader="0"/>
+    <descriptor path="%ROOT%/dragon" theme="dragon" extensions=".wav .bas .dsk .os9 .ccc .jvc .rom .vdk .cas .asc .dmk .zip" icon="$F2a4" downloader="0"/>
     <scraper screenscraper="144"/>
     <properties type="computer" pad="optional" keyboard="mandatory" mouse="optional" lightgun="no" releasedate="1982-08" manufacturer="DragonData" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -344,7 +344,7 @@
     </emulatorList>
   </system>
   <system uuid="795903fb-4077-4a0d-b8a3-94b813d62f8d" name="dreamcast" fullname="Sega Dreamcast">
-    <descriptor path="%ROOT%/dreamcast" theme="dreamcast" extensions=".chd .gdi .bin .iso .m3u .cdi .elf .cue" icon="$F26e" downloader="0"/>
+    <descriptor path="%ROOT%/dreamcast" theme="dreamcast" extensions=".chd .gdi .bin .iso .m3u .cdi .elf .cue .zip" icon="$F26e" downloader="0"/>
     <scraper screenscraper="23"/>
     <properties type="console" pad="mandatory" keyboard="optional" mouse="optional" lightgun="optional" releasedate="1998-11" manufacturer="Sega" retroachievements="1" crt.multiresolution="1" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1032,7 +1032,7 @@
     </emulatorList>
   </system>
   <system uuid="27be49e9-54df-441b-b66a-5f803d5c4e57" name="saturn" fullname="Sega Saturn">
-    <descriptor path="%ROOT%/saturn" theme="saturn" extensions=".mds .chd .ccd .iso .m3u .cue" icon="$F2d5" downloader="0"/>
+    <descriptor path="%ROOT%/saturn" theme="saturn" extensions=".mds .chd .ccd .iso .m3u .cue .zip" icon="$F2d5" downloader="0"/>
     <scraper screenscraper="22"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="1994-11" manufacturer="Sega" retroachievements="1" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -1075,7 +1075,7 @@
     </emulatorList>
   </system>
   <system uuid="bcb385ac-2ead-4183-9750-9630910f37f2" name="segacd" fullname="Sega CD">
-    <descriptor path="%ROOT%/segacd" theme="segacd" extensions=".iso .chd .cue" icon="$F26d" downloader="0"/>
+    <descriptor path="%ROOT%/segacd" theme="segacd" extensions=".iso .chd .cue .zip" icon="$F26d" downloader="0"/>
     <scraper screenscraper="20"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="1991-12" manufacturer="Sega" retroachievements="1" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
