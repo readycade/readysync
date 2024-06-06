@@ -10,6 +10,8 @@ It uses httpdirfs to mount the thumbnails from https://thumbnails.libretro.com
 
 It uses zip-mount to mount .zip's to /iso when the emulator doesn't support .zip files (eg. arduboy, gamecube, ps2, wii.. ect)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6dR_I5IsSRE" frameborder="0" allowfullscreen></iframe>
+
 ## INSTALLATION
 
 ### Recalbox 9.1+ Supported ONLY:
