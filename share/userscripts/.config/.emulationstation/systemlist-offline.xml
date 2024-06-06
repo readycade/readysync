@@ -334,7 +334,7 @@
     </emulatorList>
   </system>
   <system uuid="629b18fb-0ab4-f3a1-b34c-f235cd0c147c" name="dragon" fullname="Dragon 32/64">
-    <descriptor path="%ROOT%/dragon" theme="dragon" extensions=".wav .bas .dsk .os9 .ccc .jvc .rom .vdk .cas .asc .dmk .zip" icon="$F2a4" downloader="0"/>
+    <descriptor path="%ROOT%/dragon" theme="dragon" extensions=".wav .bas .dsk .os9 .ccc .jvc .rom .vdk .cas .asc .dmk" icon="$F2a4" downloader="0"/>
     <scraper screenscraper="144"/>
     <properties type="computer" pad="optional" keyboard="mandatory" mouse="optional" lightgun="no" releasedate="1982-08" manufacturer="DragonData" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -344,7 +344,7 @@
     </emulatorList>
   </system>
   <system uuid="795903fb-4077-4a0d-b8a3-94b813d62f8d" name="dreamcast" fullname="Sega Dreamcast">
-    <descriptor path="%ROOT%/dreamcast" theme="dreamcast" extensions=".chd .gdi .bin .iso .m3u .cdi .elf .cue .zip" icon="$F26e" downloader="0"/>
+    <descriptor path="%ROOT%/dreamcast" theme="dreamcast" extensions=".chd .gdi .bin .iso .m3u .cdi .elf .cue" icon="$F26e" downloader="0"/>
     <scraper screenscraper="23"/>
     <properties type="console" pad="mandatory" keyboard="optional" mouse="optional" lightgun="optional" releasedate="1998-11" manufacturer="Sega" retroachievements="1" crt.multiresolution="1" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -397,7 +397,7 @@
     </emulatorList>
   </system>
   <system uuid="5db67a8d-3373-4166-94b8-14d95898b006" name="gamecube" fullname="GameCube">
-    <descriptor path="%ROOT%/gamecube" theme="gc" extensions=".gcm .iso .ciso .wia .gc .rvz .gcz .zip" icon="$F262" downloader="0"/>
+    <descriptor path="%ROOT%/gamecube" theme="gc" extensions=".gcm .iso .ciso .wia .gc .rvz .gcz" icon="$F262" downloader="0"/>
     <scraper screenscraper="13"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2001-09" manufacturer="Nintendo" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -602,7 +602,7 @@
     </emulatorList>
   </system>
   <system uuid="5a7050c1-6589-4179-8a32-9452cb70e25f" name="megaduck" fullname="MegaDuck">
-    <descriptor path="%ROOT%/megaduck" theme="megaduck" extensions=".bin" icon="$F280" downloader="0"/>
+    <descriptor path="%ROOT%/megaduck" theme="megaduck" extensions=".bin .zip" icon="$F280" downloader="0"/>
     <scraper screenscraper="90"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="1993-01" manufacturer="Welback" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -897,7 +897,7 @@
     </emulatorList>
   </system>
   <system uuid="f5fd45c4-c18e-4279-90f4-321146dd1677" name="pcfx" fullname="NEC PC-FX">
-    <descriptor path="%ROOT%/pcfx" theme="pcfx" extensions=".ccd .toc .chd .cue" icon="$F2c2" downloader="0"/>
+    <descriptor path="%ROOT%/pcfx" theme="pcfx" extensions=".ccd .toc .chd .cue .zip" icon="$F2c2" downloader="0"/>
     <scraper screenscraper="72"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1994-12" manufacturer="NEC" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
