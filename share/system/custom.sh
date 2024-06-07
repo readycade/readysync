@@ -470,16 +470,8 @@ install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/sh
 
 #fi
 
-sleep 5
-
-# Sleep to let everything sync up
-        sleep 5
-
-        # Replace the following line with the actual command to start emulation station
-        chvt 1; es start
-        
         # Sleep to let everything sync up
-        sleep 5
+        sleep 10
 
         # Replace the following line with the actual command to start emulation station
         chvt 1; es start
@@ -518,18 +510,6 @@ done
     else
         echo "Error: systemlist.xml files not found."
     fi
-
-        # Sleep to let everything sync up
-        sleep 5
-
-        # Replace the following line with the actual command to start emulation station
-        chvt 1; es start
-        
-        # Sleep to let everything sync up
-        sleep 5
-
-        # Replace the following line with the actual command to start emulation station
-        chvt 1; es start
 
 }
 
