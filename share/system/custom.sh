@@ -525,6 +525,7 @@ done
             echo "evtest process successfully killed."
         fi
 
+exit 0
 }
 
 monitor_keyboard_input() {
