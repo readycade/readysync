@@ -471,11 +471,19 @@ install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/sh
 
 #fi
 
-        # Sleep to let everything sync up
-        sleep 10
+    # Sleep to let everything sync up
+    sleep 10
 
-        # Replace the following line with the actual command to start emulation station
-        chvt 1; es start
+    # Replace the following line with the actual command to start emulation station
+    chvt 1; es start
+
+    # Check if the evtest process is still running
+        if pgrep -x "evtest" > /dev/null; then
+            echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
+            pkill -9 evtest
+        else
+            echo "evtest process successfully killed."
+        fi
 
 exit 0
 
@@ -547,16 +555,8 @@ monitor_keyboard_input() {
             if [ "$button_state" = "online" ]; then
                 echo "DEBUG: Button Press detected. Switching to online mode..."
                 echo "true" > "$online_mode_flag_file"
-                online_mode_enabled=true
                 echo "DEBUG: online_mode_enabled set to true"
                 online_mode
-                # Check if the evtest process is still running
-        if pgrep -x "evtest" > /dev/null; then
-            echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
-            pkill -9 evtest
-        else
-            echo "evtest process successfully killed."
-        fi
             else
                 echo "DEBUG: No button press detected. Default Offline mode enabled."
                 #echo "false" > "$online_mode_flag_file"
