@@ -531,6 +531,7 @@ done
         echo "Error: systemlist.xml files not found."
     fi
 
+}
 
 monitor_keyboard_input() {
     prev_button_state=""
@@ -577,4 +578,3 @@ monitor_keyboard_input &
     fi
 
     exit 0
-}
