@@ -472,16 +472,17 @@ install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/sh
 
 sleep 5
 
-# Check if the evtest process is still running
-if pgrep -x "evtest" > /dev/null; then
-    echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
-    pkill -9 evtest
-else
-    echo "evtest process successfully killed."
-fi
+# Sleep to let everything sync up
+        sleep 5
 
-# Exit the script after online mode is enabled
-exit 0
+        # Replace the following line with the actual command to start emulation station
+        chvt 1; es start
+        
+        # Sleep to let everything sync up
+        sleep 5
+
+        # Replace the following line with the actual command to start emulation station
+        chvt 1; es start
 
 }
 
@@ -492,14 +493,13 @@ if [ "$online_mode_enabled" = true ]; then
         echo "Online mode already enabled. Skipping offline mode."
         return
     fi
-    echo "Offline Mode Enabled..."
+    echo "Offline Mode Selected"
 
     # Mark offline mode as enabled
-    online_mode_enabled=false
     echo "false" > "$online_mode_flag_file"
+    echo "Offline Mode Enabled"
 
     echo "DEBUG: Offline Mode Selected..."
-    echo "Offline Mode Enabled..."
     echo "Performing actions specific to Offline Mode..."
 
     # Offline Mode
@@ -521,24 +521,21 @@ done
 
         echo "Installation complete. Log saved to: $log_file"
 
+    else
+        echo "Error: systemlist.xml files not found."
+    fi
+
         # Sleep to let everything sync up
         sleep 5
 
         # Replace the following line with the actual command to start emulation station
         chvt 1; es start
-    else
-        echo "Error: systemlist.xml files not found."
-    fi
+        
+        # Sleep to let everything sync up
+        sleep 5
 
-# Check if the evtest process is still running
-if pgrep -x "evtest" > /dev/null; then
-    echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
-    pkill -9 evtest
-else
-    echo "evtest process successfully killed."
-fi
-
-exit 0
+        # Replace the following line with the actual command to start emulation station
+        chvt 1; es start
 
 }
 
@@ -575,3 +572,11 @@ monitor_keyboard_input() {
 
 # Start monitoring keyboard input in the background and capture the PID
 monitor_keyboard_input &
+
+# Check if the evtest process is still running
+if pgrep -x "evtest" > /dev/null; then
+    echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
+    pkill -9 evtest
+else
+    echo "evtest process successfully killed."
+fi
