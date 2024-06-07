@@ -71,6 +71,10 @@ sanitize_dir_name() {
 # Function to switch to online mode
 online_mode() {
     echo "Online Mode Enabled..."
+
+    # Stop monitoring keyboard input
+    kill -TERM $evtest_pid
+    
     echo "DEBUG: Online Mode Enabled..."
     echo "Online Mode Enabled..."
     echo "Performing actions specific to Online Mode..."
@@ -108,25 +112,25 @@ fi
 # Syntax: console_name=enabled|disabled
 declare -A console_status
 console_status=(
-    [atari800]=disabled
-    [pc88]=disabled
-    [pc98]=disabled
-    [zx81]=disabled
-    [x1]=disabled
-    [x68000]=disabled
-    [msxturbor]=disabled
-    [bbcmicro]=disabled
-    [dragon]=disabled
-    [bk]=disabled
-    [samcoupe]=disabled
-    [thomson]=disabled
-    [ti994a]=disabled
-    [trs80coco]=disabled
-    [vg5000]=disabled
-    [zmachine]=disabled
-    [amstradcpc]=disabled
-    [gx4000]=disabled
-    [zxspectrum]=disabled
+    [atari800]=enabled
+    [pc88]=enabled
+    [pc98]=enabled
+    [zx81]=enabled
+    [x1]=enabled
+    [x68000]=enabled
+    [msxturbor]=enabled
+    [bbcmicro]=enabled
+    [dragon]=enabled
+    [bk]=enabled
+    [samcoupe]=enabled
+    [thomson]=enabled
+    [ti994a]=enabled
+    [trs80coco]=enabled
+    [vg5000]=enabled
+    [zmachine]=enabled
+    [amstradcpc]=enabled
+    [gx4000]=enabled
+    [zxspectrum]=enabled
     [pet]=disabled
 )
 
@@ -514,18 +518,21 @@ done
         echo "Installation complete. Log saved to: $log_file"
 
         # Mark offline mode as enabled
-        #echo "false" > "$online_mode_flag_file"
+        online_mode_enabled=false
+        echo "false" > "$online_mode_flag_file"
 
         # Sleep to let everything sync up
-        #sleep 5
+        sleep 5
+
+        # Stop monitoring keyboard input
+        kill -TERM $evtest_pid
 
         # Replace the following line with the actual command to start emulation station
-        #chvt 1; es start
+        chvt 1; es start
     else
         echo "Error: systemlist.xml files not found."
     fi
 
-    kill -TERM $evtest_pid
 
     # Start Emulationstation
     chvt 1; es start
@@ -551,9 +558,11 @@ monitor_keyboard_input() {
                 echo "DEBUG: Button Press detected. Switching to online mode..."
                 echo "true" > "$online_mode_flag_file"
                 echo "DEBUG: online_mode_enabled set to true"
+                online_mode_enabled=true
                 online_mode
             else
                 echo "DEBUG: No button press detected. Offline mode enabled."
+                online_mode_enabled=false
                 offline_mode
             fi
             prev_button_state="$button_state"
