@@ -524,8 +524,11 @@ done
     else
         echo "Error: systemlist.xml files not found."
     fi
-    
+
     kill -TERM $evtest_pid
+
+    # Start Emulationstation
+    chvt 1; es start
 }
 
 monitor_keyboard_input() {
