@@ -556,7 +556,7 @@ monitor_keyboard_input() {
         fi
             else
                 echo "DEBUG: No button press detected. Default Offline mode enabled."
-                echo "false" > "$online_mode_flag_file"
+                #echo "false" > "$online_mode_flag_file"
             fi
             prev_button_state="$button_state"
         fi
