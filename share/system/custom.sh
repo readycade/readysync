@@ -472,9 +472,16 @@ install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/sh
 
 sleep 5
 
+# Check if the evtest process is still running
+if pgrep -x "evtest" > /dev/null; then
+    echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
+    pkill -9 evtest
+else
+    echo "evtest process successfully killed."
+fi
+
 # Exit the script after online mode is enabled
 exit 0
-
 
 }
 
@@ -523,6 +530,16 @@ done
         echo "Error: systemlist.xml files not found."
     fi
 
+# Check if the evtest process is still running
+if pgrep -x "evtest" > /dev/null; then
+    echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
+    pkill -9 evtest
+else
+    echo "evtest process successfully killed."
+fi
+
+exit 0
+
 }
 
 monitor_keyboard_input() {
@@ -558,11 +575,3 @@ monitor_keyboard_input() {
 
 # Start monitoring keyboard input in the background and capture the PID
 monitor_keyboard_input &
-
-# Check if the evtest process is still running
-if pgrep -x "evtest" > /dev/null; then
-    echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
-    pkill -9 evtest
-else
-    echo "evtest process successfully killed."
-fi
