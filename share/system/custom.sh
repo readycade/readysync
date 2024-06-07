@@ -54,6 +54,7 @@ echo "Truncating log file..."
 
 # Initialize online_mode_enabled as false
 echo "false" > "$online_mode_flag_file"
+online_mode_enabled = false
 echo "online_mode_enabled = false"
 
 exec 3>&1 4>&2
@@ -558,6 +559,7 @@ monitor_keyboard_input() {
             if [ "$button_state" = "online" ]; then
                 echo "DEBUG: Button Press detected. Switching to online mode..."
                 echo "true" > "$online_mode_flag_file"
+                online_mode_enabled=true
                 echo "DEBUG: online_mode_enabled set to true"
                 online_mode
         # Check if the evtest process is still running
