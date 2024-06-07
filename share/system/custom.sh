@@ -541,7 +541,7 @@ monitor_keyboard_input() {
                 online_mode_enabled=true
                 echo "DEBUG: online_mode_enabled set to true"
                 online_mode
-        # Check if the evtest process is still running
+                # Check if the evtest process is still running
         if pgrep -x "evtest" > /dev/null; then
             echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
             pkill -9 evtest
