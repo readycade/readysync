@@ -116,6 +116,10 @@ online_mode() {
     echo "Online Mode Enabled..."
     echo "Performing actions specific to Online Mode..."
 
+    # Mark online mode as enabled
+    echo "true" > "$online_mode_flag_file"
+    echo "Online mode set to Enabled"
+
     # Online Mode
     if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
 
@@ -511,9 +515,6 @@ install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/sh
 
 #fi
 
-# Mark online mode as enabled
-echo "true" > "$online_mode_flag_file"
-
 sleep 5
 
 # Exit the script after online mode is enabled
@@ -529,8 +530,16 @@ if [ "$online_mode_enabled" = true ]; then
         echo "Online mode already enabled. Skipping offline mode."
         return
     fi
-
     echo "Offline Mode Enabled..."
+
+    # Kill keyboard monitoring process
+    if [ -n "$evtest_pid" ]; then
+    kill -TERM "$evtest_pid"
+    wait "$evtest_pid"
+    echo "Keyboard monitoring process terminated."
+else
+    echo "No keyboard monitoring process found to terminate."
+fi
 
     # Mark offline mode as enabled
     online_mode_enabled=false
@@ -568,9 +577,6 @@ done
         echo "Error: systemlist.xml files not found."
     fi
 
-
-    # Start Emulationstation
-    chvt 1; es start
 }
 
 # Start monitoring keyboard input in the background and capture the PID
