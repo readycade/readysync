@@ -102,8 +102,15 @@ monitor_keyboard_input &
 online_mode() {
     echo "Online Mode Enabled..."
 
-    # Stop monitoring keyboard input
+    # Kill keyboard monitoring process
     pkill evtest
+
+    # Check if the evtest process is still running
+    if pgrep -x "evtest" > /dev/null; then
+        echo "Failed to kill evtest process."
+    else
+        echo "evtest process successfully killed."
+    fi
 
     echo "DEBUG: Online Mode Enabled..."
     echo "Online Mode Enabled..."
@@ -552,9 +559,6 @@ done
 
         echo "Installation complete. Log saved to: $log_file"
 
-        # Kill keyboard monitoring process
-        pkill evtest
-
         # Sleep to let everything sync up
         sleep 5
 
@@ -563,5 +567,16 @@ done
     else
         echo "Error: systemlist.xml files not found."
     fi
+
+    # Kill keyboard monitoring process
+    pkill evtest
+
+    # Check if the evtest process is still running
+    if pgrep -x "evtest" > /dev/null; then
+        echo "Failed to kill evtest process."
+    else
+        echo "evtest process successfully killed."
+    fi
+
     exit 0
 }
