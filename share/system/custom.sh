@@ -90,7 +90,7 @@ done
         echo "Backup created: $offline_backup"
 
         # Overwrite systemlist.xml with the online version
-        echo "Overwriting systemlist.xml with the online version..."
+        echo "Overwriting systemlist.xml with the Online version..."
         for destination in "$offline_systemlist" "$offline_systemlist2"; do
     cp "$offline_online" "$destination"
 done
@@ -98,7 +98,7 @@ done
 
         # Move the contents to online directory
         cp -r /recalbox/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
-        echo "copied ALL gamelists.xml to online directory."
+        echo "Copied ALL gamelists.xml to online directory."
 fi
 
 # DISCLAIMER: This WILL download these enabled romsets onto your machine!!!
@@ -161,7 +161,7 @@ for console in "${!download_urls[@]}"; do
     if [ "${console_status[$console]}" = "enabled" ]; then
         # Check if the directory already contains files other than the myrient folder
         if [ -d "/recalbox/share/zip/$console" ] && find "/recalbox/share/zip/$console" -mindepth 1 ! -regex '^/recalbox/share/zip/'"$console"'/myrient.*' -print -quit | grep -q .; then
-            echo "Files already exist for $console. Skipping download."
+            echo "TOSEC Rom Files already exist for $console. Skipping download."
             continue
         fi
 
@@ -172,7 +172,7 @@ for console in "${!download_urls[@]}"; do
             wget --no-check-certificate --accept '*.zip' --reject '*.html' -r -c -P "/recalbox/share/zip/$console" "${download_urls[$console]}"
             success=$?
             if [ $success -ne 0 ]; then
-                echo "Downloading $console... Retry attempt $((4 - retries))"
+                echo "Downloading Tosec Romset $console... Retry attempt $((4 - retries))"
                 ((retries--))
             fi
         done
@@ -184,15 +184,15 @@ for console in "${!download_urls[@]}"; do
                 echo "Extracting $console..."
                 unzip -o "$downloaded_zip" -d "/recalbox/share/zip/$console/"
             else
-                echo "Failed to find the downloaded zip file for $console."
+                echo "Failed to find the downloaded TOSEC zip file for $console."
                 rm -rf "/recalbox/share/zip/$console/myrient/*"
             fi
         else
-            echo "Downloading $console... Failed after multiple retries"
+            echo "Downloading TOSEC Romset $console... Failed after multiple retries"
             rm -rf "/recalbox/share/zip/$console"
         fi
     else
-        echo "$console is disabled."
+        echo "TOSEC Romset $console is disabled."
         rm -rf "/recalbox/share/zip/$console"
     fi
 done
@@ -323,61 +323,6 @@ else
     fi
 fi
 
-# Function to download a file with retries
-download_ratarmount_with_retry() {
-    local url=$1
-    local output=$2
-    local max_retries=3
-    local retry_delay=5
-
-    for ((attempt = 1; attempt <= max_retries; attempt++)); do
-        wget --quiet --show-progress --retry-connrefused --waitretry=$retry_delay --timeout=30 --tries=$max_retries -O "$output" "$url"
-        if [ $? -eq 0 ]; then
-            echo "Download succeeded."
-            return 0
-        else
-            echo "Download failed (attempt $attempt/$max_retries). Retrying in $retry_delay seconds..."
-            sleep $retry_delay
-        fi
-    done
-
-    echo "Max retries reached. Download failed."
-    return 1
-}
-
-# Determine architecture
-architecture=$(uname -m)
-if [ "$architecture" == "x86_64" ]; then
-    ratarmount_arch="x64"
-elif [ "$architecture" == "aarch64" ]; then
-    ratarmount_arch="arm64"
-else
-    echo "Error: Unsupported architecture."
-    exit 1
-fi
-
-# Check if ratarmount exists in /usr/bin
-if [ -x /usr/bin/ratarmount ]; then
-    echo "ratarmount already exists in /usr/bin. Skipping download."
-else
-    # Download ratarmount with retry
-    ratarmount_url="https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/ratarmount-${ratarmount_arch}/fuse-transfer.tar.gz"
-    download_ratarmount_with_retry "$ratarmount_url" "/tmp/fuse-transfer.tar.gz"
-    if [ $? -eq 0 ]; then
-        echo "ratarmount archive downloaded successfully."
-        # Extract the tar archive
-        tar -xzvf /tmp/fuse-transfer.tar.gz -C /tmp/
-        # Move the binaries to /usr/bin
-        mv /tmp/bin/* /usr/bin/
-        mv /tmp/lib/* /usr/lib/
-        # Update the library cache
-        ldconfig
-        echo "ratarmount and dependencies installed successfully."
-    else
-        echo "Error: Failed to download ratarmount."
-    fi
-fi
-
 # Mount myrient with rclone
 #rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 rclone mount myrient:  /recalbox/share/rom --config "/recalbox/share/system/rclone2.conf" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
@@ -392,6 +337,16 @@ echo "(No-Intro, Redump, TOSEC)..."
 
 wait
 
+# Wait for a brief moment for the mount to occur
+sleep 5
+
+# Check if the mount point exists and contains files
+if [ "$(ls -A /recalbox/share/rom)" ]; then
+    echo "Mounting successful. Files are mounted in /recalbox/share/rom."
+else
+    echo "Mounting failed. No files are mounted in /recalbox/share/rom."
+fi
+
 # Mount thumbnails with rclone
 rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 #rclone mount thumbnails: --config "/recalbox/share/system/rclone.conf" /recalbox/share/thumbs --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
@@ -405,6 +360,13 @@ rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/
 #httpdirfs --cache --cache-location /recalbox/share/system/.cache/httpdirfs https://thumbnails.libretro.com "/recalbox/share/thumbs"
 
 echo "Mounting libretro thumbnails..."
+
+# Check if the thumbnails exists and contains files
+if [ "$(ls -A /recalbox/share/thumbs)" ]; then
+    echo "Mounting successful. Files are mounted in /recalbox/share/thumbs."
+else
+    echo "Mounting failed. No files are mounted in /recalbox/share/thumbs."
+fi
 
 # Function to download a file with retries
 download_with_retry() {
@@ -435,7 +397,7 @@ install_binary() {
     local output=$3
 
     if [ -f "$output" ]; then
-        echo "$binary_name is already installed."
+        echo "$binary_name is already installed. Skipping download."
     else
         download_with_retry "$url" "$output"
         chmod +x "$output"  # Ensure the binary is executable
@@ -499,7 +461,7 @@ done
         echo "Backup created: $offline_backup"
 
         # Overwrite systemlist.xml with the offline version
-        echo "Overwriting systemlist.xml with the offline version..."
+        echo "Overwriting systemlist.xml with the Offline version..."
         for destination in "$offline_systemlist" "$offline_systemlist2"; do
     cp "$offline_offline" "$destination"
 done
