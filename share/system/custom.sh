@@ -511,6 +511,12 @@ done
         echo "Error: systemlist.xml files not found."
     fi
 
+        # Sleep to let everything sync up
+        sleep 5
+
+        # Replace the following line with the actual command to start emulation station
+        chvt 1; es start
+
 }
 
 monitor_keyboard_input() {
