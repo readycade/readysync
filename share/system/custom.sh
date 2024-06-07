@@ -53,7 +53,6 @@ echo "/recalbox/share/system/keyboard_events.txt"
 echo "Truncating log file..."
 
 # Initialize online_mode_enabled as false
-online_mode_enabled=false
 echo "online_mode_enabled = false"
 
 # Initialize online_mode_enabled flag file
@@ -88,10 +87,10 @@ monitor_keyboard_input() {
                 echo "DEBUG: Button Press detected. Switching to online mode..."
                 echo "true" > "$online_mode_flag_file"
                 echo "DEBUG: online_mode_enabled set to true"
-                online_mode_enabled=true
                 online_mode
             else
                 echo "DEBUG: No button press detected. Offline mode enabled."
+                echo "false" > "$online_mode_flag_file"
                 online_mode_enabled=false
                 offline_mode
             fi
@@ -99,10 +98,6 @@ monitor_keyboard_input() {
         fi
     done
 }
-
-# Start monitoring keyboard input in the background and capture the PID
-monitor_keyboard_input &
-evtest_pid=$!
 
 # Function to switch to online mode
 online_mode() {
@@ -537,14 +532,6 @@ if [ "$online_mode_enabled" = true ]; then
 
     echo "Offline Mode Enabled..."
 
-    if [ -n "$evtest_pid" ]; then
-        kill -TERM "$evtest_pid"
-        wait "$evtest_pid"
-        echo "Keyboard monitoring process terminated."
-    else
-        echo "No keyboard monitoring process found to terminate."
-    fi
-
     # Mark offline mode as enabled
     online_mode_enabled=false
     echo "false" > "$online_mode_flag_file"
@@ -585,5 +572,9 @@ done
     # Start Emulationstation
     chvt 1; es start
 }
+
+# Start monitoring keyboard input in the background and capture the PID
+monitor_keyboard_input &
+evtest_pid=$!
 
 exit 0
