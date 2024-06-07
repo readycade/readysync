@@ -52,6 +52,10 @@ echo "Log file:..."
 echo "/recalbox/share/system/keyboard_events.txt"
 echo "Truncating log file..."
 
+# Initialize online_mode_enabled as false
+online_mode_enabled=false
+echo "online_mode_enabled = false"
+
 # Initialize online_mode_enabled flag file
 echo "false" > "$online_mode_flag_file"
 echo "DEBUG $online_mode_flag_file set to false"
@@ -510,7 +514,7 @@ done
         echo "Installation complete. Log saved to: $log_file"
 
         # Mark offline mode as enabled
-        echo "false" > "$online_mode_flag_file"
+        #echo "false" > "$online_mode_flag_file"
 
         # Sleep to let everything sync up
         #sleep 5
