@@ -448,7 +448,6 @@ offline_mode() {
     # Mark offline mode as enabled
     echo "DEBUG: Offline Mode Selected..."
     echo "Performing actions specific to Offline Mode..."
-    pkill -9 evtest
 
     # Offline Mode
     if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
@@ -479,13 +478,6 @@ done
         # Replace the following line with the actual command to start emulation station
         chvt 1; es start
 
-        # Check if the evtest process is still running
-        if pgrep -x "evtest" > /dev/null; then
-            echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
-            pkill -9 evtest
-        else
-            echo "evtest process successfully killed."
-        fi
 exit 0
 }
 
@@ -521,6 +513,13 @@ monitor_keyboard_input() {
                 online_mode
             else
                 echo "No button press detected. Default Offline Mode Enabled."
+                # Check if the evtest process is still running
+                if pgrep -x "evtest" > /dev/null; then
+                    echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
+                    pkill -9 evtest
+                else
+            echo "evtest process successfully killed."
+        fi
             fi
             prev_button_state="$button_state"
         fi
