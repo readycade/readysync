@@ -563,9 +563,10 @@ monitor_keyboard_input() {
 # Start monitoring keyboard input in the background and capture the PID
 monitor_keyboard_input &
 
-    # Check if the evtest process is still running
-    if pgrep -x "evtest" > /dev/null; then
-        echo "Failed to kill evtest process."
-    else
-        echo "evtest process successfully killed."
-    fi
+# Check if the evtest process is still running
+if pgrep -x "evtest" > /dev/null; then
+    echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
+    pkill -9 evtest
+else
+    echo "evtest process successfully killed."
+fi
