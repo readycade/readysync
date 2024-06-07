@@ -68,6 +68,38 @@ sanitize_dir_name() {
   tr -cd '[:alnum:]' <<< "$1"
 }
 
+monitor_keyboard_input() {
+    prev_button_state=""
+
+    evtest /dev/input/event3 --grab | while read -r line; do
+        echo "DEBUG: Keyboard event detected: $line"
+        if [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90004"* ]]; then
+            button_state="online"
+        elif [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90003"* ]]; then
+            button_state="online"
+        elif [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 7001e"* ]]; then
+            button_state="online"
+        else
+            button_state="offline"
+        fi
+
+        if [ "$button_state" != "$prev_button_state" ]; then
+            if [ "$button_state" = "online" ]; then
+                echo "DEBUG: Button Press detected. Switching to online mode..."
+                echo "true" > "$online_mode_flag_file"
+                echo "DEBUG: online_mode_enabled set to true"
+                online_mode_enabled=true
+                online_mode
+            else
+                echo "DEBUG: No button press detected. Offline mode enabled."
+                online_mode_enabled=false
+                offline_mode
+            fi
+            prev_button_state="$button_state"
+        fi
+    done
+}
+
 # Start monitoring keyboard input in the background and capture the PID
 monitor_keyboard_input &
 evtest_pid=$!
@@ -553,41 +585,5 @@ done
     # Start Emulationstation
     chvt 1; es start
 }
-
-monitor_keyboard_input() {
-    prev_button_state=""
-
-    evtest /dev/input/event3 --grab | while read -r line; do
-        echo "DEBUG: Keyboard event detected: $line"
-        if [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90004"* ]]; then
-            button_state="online"
-        elif [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90003"* ]]; then
-            button_state="online"
-        elif [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 7001e"* ]]; then
-            button_state="online"
-        else
-            button_state="offline"
-        fi
-
-        if [ "$button_state" != "$prev_button_state" ]; then
-            if [ "$button_state" = "online" ]; then
-                echo "DEBUG: Button Press detected. Switching to online mode..."
-                echo "true" > "$online_mode_flag_file"
-                echo "DEBUG: online_mode_enabled set to true"
-                online_mode_enabled=true
-                online_mode
-            else
-                echo "DEBUG: No button press detected. Offline mode enabled."
-                online_mode_enabled=false
-                offline_mode
-            fi
-            prev_button_state="$button_state"
-        fi
-    done
-}
-
-
-# Start Emulationstation
-chvt 1; es start
 
 exit 0
