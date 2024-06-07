@@ -67,14 +67,6 @@ sanitize_dir_name() {
 # Function to switch to online mode
 online_mode() {
     echo "Online Mode Enabled..."
-
-    # Check if the evtest process is still running
-    if pgrep -x "evtest" > /dev/null; then
-        echo "Failed to kill evtest process."
-    else
-        echo "evtest process successfully killed."
-    fi
-
     echo "DEBUG: Online Mode Enabled..."
     echo "Online Mode Enabled..."
     echo "Performing actions specific to Online Mode..."
@@ -554,10 +546,14 @@ monitor_keyboard_input() {
                 echo "true" > "$online_mode_flag_file"
                 echo "DEBUG: online_mode_enabled set to true"
                 online_mode
+                # Kill keyboard monitoring process
+                pkill evtest
             else
                 echo "DEBUG: No button press detected. Offline mode enabled."
                 echo "false" > "$online_mode_flag_file"
                 online_mode_enabled=false
+                # Kill keyboard monitoring process
+                pkill evtest
             fi
             prev_button_state="$button_state"
         fi
@@ -567,14 +563,9 @@ monitor_keyboard_input() {
 # Start monitoring keyboard input in the background and capture the PID
 monitor_keyboard_input &
 
-    # Kill keyboard monitoring process
-    pkill evtest
-
     # Check if the evtest process is still running
     if pgrep -x "evtest" > /dev/null; then
         echo "Failed to kill evtest process."
     else
         echo "evtest process successfully killed."
     fi
-
-    exit 0
