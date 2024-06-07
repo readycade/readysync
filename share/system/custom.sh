@@ -524,6 +524,8 @@ done
     else
         echo "Error: systemlist.xml files not found."
     fi
+    
+    kill -TERM $evtest_pid
 }
 
 monitor_keyboard_input() {
