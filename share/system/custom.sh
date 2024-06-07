@@ -54,7 +54,6 @@ echo "Truncating log file..."
 
 # Initialize online_mode_enabled as false
 echo "false" > "$online_mode_flag_file"
-online_mode_enabled = false
 echo "online_mode_enabled = false"
 
 exec 3>&1 4>&2
@@ -489,13 +488,7 @@ sleep 5
 
 # Function to switch to offline mode
 offline_mode() {
-# Check if online mode is already enabled
-if [ "$online_mode_enabled" = true ]; then
-        echo "Online mode already enabled. Skipping offline mode."
-        return
-    fi
-    echo "Offline Mode Selected"
-
+    
     # Mark offline mode as enabled
     echo "false" > "$online_mode_flag_file"
     echo "Offline Mode Enabled"
@@ -570,9 +563,8 @@ monitor_keyboard_input() {
             echo "evtest process successfully killed."
         fi
             else
-                echo "DEBUG: No button press detected. Offline mode enabled."
+                echo "DEBUG: No button press detected. Default Offline mode enabled."
                 echo "false" > "$online_mode_flag_file"
-                online_mode_enabled=false
                 # Check if the evtest process is still running
         if pgrep -x "evtest" > /dev/null; then
             echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
