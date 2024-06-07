@@ -89,7 +89,6 @@ monitor_keyboard_input() {
                 echo "DEBUG: No button press detected. Offline mode enabled."
                 echo "false" > "$online_mode_flag_file"
                 online_mode_enabled=false
-                offline_mode
             fi
             prev_button_state="$button_state"
         fi
@@ -98,20 +97,13 @@ monitor_keyboard_input() {
 
 # Start monitoring keyboard input in the background and capture the PID
 monitor_keyboard_input &
-evtest_pid=$!
 
 # Function to switch to online mode
 online_mode() {
     echo "Online Mode Enabled..."
 
     # Stop monitoring keyboard input
-    if [ -n "$evtest_pid" ]; then
-        kill -TERM "$evtest_pid"
-        wait "$evtest_pid"
-        echo "Keyboard monitoring process terminated."
-    else
-        echo "No keyboard monitoring process found to terminate."
-    fi
+    pkill evtest
 
     echo "DEBUG: Online Mode Enabled..."
     echo "Online Mode Enabled..."
@@ -560,14 +552,8 @@ done
 
         echo "Installation complete. Log saved to: $log_file"
 
-    # Kill keyboard monitoring process
-    if [ -n "$evtest_pid" ]; then
-    kill -TERM "$evtest_pid"
-    wait "$evtest_pid"
-    echo "Keyboard monitoring process terminated."
-else
-    echo "No keyboard monitoring process found to terminate."
-fi
+        # Kill keyboard monitoring process
+        pkill evtest
 
         # Sleep to let everything sync up
         sleep 5
