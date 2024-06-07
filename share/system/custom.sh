@@ -68,13 +68,23 @@ sanitize_dir_name() {
   tr -cd '[:alnum:]' <<< "$1"
 }
 
+# Start monitoring keyboard input in the background and capture the PID
+monitor_keyboard_input &
+evtest_pid=$!
+
 # Function to switch to online mode
 online_mode() {
     echo "Online Mode Enabled..."
 
     # Stop monitoring keyboard input
-    kill -TERM $evtest_pid
-    
+    if [ -n "$evtest_pid" ]; then
+        kill -TERM "$evtest_pid"
+        wait "$evtest_pid"
+        echo "Keyboard monitoring process terminated."
+    else
+        echo "No keyboard monitoring process found to terminate."
+    fi
+
     echo "DEBUG: Online Mode Enabled..."
     echo "Online Mode Enabled..."
     echo "Performing actions specific to Online Mode..."
@@ -494,6 +504,19 @@ if [ "$online_mode_enabled" = true ]; then
     fi
 
     echo "Offline Mode Enabled..."
+
+    if [ -n "$evtest_pid" ]; then
+        kill -TERM "$evtest_pid"
+        wait "$evtest_pid"
+        echo "Keyboard monitoring process terminated."
+    else
+        echo "No keyboard monitoring process found to terminate."
+    fi
+
+    # Mark offline mode as enabled
+    online_mode_enabled=false
+    echo "false" > "$online_mode_flag_file"
+
     echo "DEBUG: Offline Mode Selected..."
     echo "Offline Mode Enabled..."
     echo "Performing actions specific to Offline Mode..."
@@ -517,15 +540,8 @@ done
 
         echo "Installation complete. Log saved to: $log_file"
 
-        # Mark offline mode as enabled
-        online_mode_enabled=false
-        echo "false" > "$online_mode_flag_file"
-
         # Sleep to let everything sync up
         sleep 5
-
-        # Stop monitoring keyboard input
-        kill -TERM $evtest_pid
 
         # Replace the following line with the actual command to start emulation station
         chvt 1; es start
@@ -570,15 +586,6 @@ monitor_keyboard_input() {
     done
 }
 
-# Start monitoring keyboard input in the background and capture the PID
-monitor_keyboard_input &
-evtest_pid=$!
-
-# Wait for the background process to finish
-wait
-
-# Kill the evtest process
-kill -TERM $evtest_pid
 
 # Start Emulationstation
 chvt 1; es start
