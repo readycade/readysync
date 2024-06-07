@@ -560,10 +560,24 @@ monitor_keyboard_input() {
                 echo "true" > "$online_mode_flag_file"
                 echo "DEBUG: online_mode_enabled set to true"
                 online_mode
+        # Check if the evtest process is still running
+        if pgrep -x "evtest" > /dev/null; then
+            echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
+            pkill -9 evtest
+        else
+            echo "evtest process successfully killed."
+        fi
             else
                 echo "DEBUG: No button press detected. Offline mode enabled."
                 echo "false" > "$online_mode_flag_file"
                 online_mode_enabled=false
+                # Check if the evtest process is still running
+        if pgrep -x "evtest" > /dev/null; then
+            echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
+            pkill -9 evtest
+        else
+            echo "evtest process successfully killed."
+        fi
             fi
             prev_button_state="$button_state"
         fi
@@ -572,11 +586,3 @@ monitor_keyboard_input() {
 
 # Start monitoring keyboard input in the background and capture the PID
 monitor_keyboard_input &
-
-# Check if the evtest process is still running
-if pgrep -x "evtest" > /dev/null; then
-    echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
-    pkill -9 evtest
-else
-    echo "evtest process successfully killed."
-fi
