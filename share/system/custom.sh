@@ -471,22 +471,13 @@ install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/sh
 
 #fi
 
-    # Sleep to let everything sync up
-    sleep 10
+        # Sleep to let everything sync up
+        sleep 10
 
-    # Replace the following line with the actual command to start emulation station
-    chvt 1; es start
-
-    # Check if the evtest process is still running
-        if pgrep -x "evtest" > /dev/null; then
-            echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
-            pkill -9 evtest
-        else
-            echo "evtest process successfully killed."
-        fi
+        # Replace the following line with the actual command to start emulation station
+        chvt 1; es start
 
 exit 0
-
 }
 
 # Function to switch to offline mode
@@ -532,20 +523,18 @@ done
         else
             echo "evtest process successfully killed."
         fi
-
 exit 0
 }
 
 monitor_keyboard_input() {
     prev_button_state=""
 
+    # Start monitoring keyboard input
     evtest /dev/input/event3 --grab | while read -r line; do
         echo "DEBUG: Keyboard event detected: $line"
-        if [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90004"* ]]; then
-            button_state="online"
-        elif [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90003"* ]]; then
-            button_state="online"
-        elif [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 7001e"* ]]; then
+        if [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90004"* || \
+              $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90003"* || \
+              $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 7001e"* ]]; then
             button_state="online"
         else
             button_state="offline"
@@ -557,9 +546,17 @@ monitor_keyboard_input() {
                 echo "true" > "$online_mode_flag_file"
                 echo "DEBUG: online_mode_enabled set to true"
                 online_mode
+
+                # Check if the evtest process is still running
+                if pgrep -x "evtest" > /dev/null; then
+                    echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
+                    pkill -9 evtest
+                else
+                    echo "evtest process successfully killed."
+                fi
             else
                 echo "DEBUG: No button press detected. Default Offline mode enabled."
-                #echo "false" > "$online_mode_flag_file"
+                # echo "false" > "$online_mode_flag_file"
             fi
             prev_button_state="$button_state"
         fi
