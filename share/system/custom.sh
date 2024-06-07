@@ -576,11 +576,9 @@ done
     else
         echo "Error: systemlist.xml files not found."
     fi
-
+    exit 0
 }
 
 # Start monitoring keyboard input in the background and capture the PID
 monitor_keyboard_input &
 evtest_pid=$!
-
-exit 0
