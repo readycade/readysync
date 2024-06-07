@@ -546,14 +546,10 @@ monitor_keyboard_input() {
                 echo "true" > "$online_mode_flag_file"
                 echo "DEBUG: online_mode_enabled set to true"
                 online_mode
-                # Kill keyboard monitoring process
-                pkill evtest
             else
                 echo "DEBUG: No button press detected. Offline mode enabled."
                 echo "false" > "$online_mode_flag_file"
                 online_mode_enabled=false
-                # Kill keyboard monitoring process
-                pkill evtest
             fi
             prev_button_state="$button_state"
         fi
