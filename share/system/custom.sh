@@ -565,6 +565,7 @@ monitor_keyboard_input() {
             else
                 echo "DEBUG: No button press detected. Default Offline mode enabled."
                 echo "false" > "$online_mode_flag_file"
+                offline_mode
                 # Check if the evtest process is still running
         if pgrep -x "evtest" > /dev/null; then
             echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
