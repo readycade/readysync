@@ -98,7 +98,7 @@ done
 
         # Move the contents to online directory
         cp -r /recalbox/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
-        echo "Copied ALL gamelists.xml to online directory."
+        echo "Copied ALL gamelists.xml to $destination directory."
 fi
 
 # DISCLAIMER: This WILL download these enabled romsets onto your machine!!!
@@ -505,9 +505,9 @@ monitor_keyboard_input() {
 
         if [ "$button_state" != "$prev_button_state" ]; then
             if [ "$button_state" = "online" ]; then
-                echo "DEBUG: Button Press detected. Switching to online mode..."
+                echo "Button Press detected. Switching to Online Mode..."
                 echo "true" > "$online_mode_flag_file"
-                echo "DEBUG: online_mode_enabled set to true"
+                echo "online_mode_enabled set to true"
 
                 # Check if the evtest process is still running
                 if pgrep -x "evtest" > /dev/null; then
@@ -516,12 +516,10 @@ monitor_keyboard_input() {
                 else
                     echo "evtest process successfully killed."
                 fi
-
                 # Call online_mode after killing evtest
                 online_mode
             else
-                echo "DEBUG: No button press detected. Default Offline mode enabled."
-                # echo "false" > "$online_mode_flag_file"
+                echo "No button press detected. Default Offline Mode Enabled."
             fi
             prev_button_state="$button_state"
         fi
