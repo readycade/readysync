@@ -526,6 +526,7 @@ done
 exit 0
 }
 
+# Function to monitor keyboard input
 monitor_keyboard_input() {
     prev_button_state=""
 
@@ -545,7 +546,6 @@ monitor_keyboard_input() {
                 echo "DEBUG: Button Press detected. Switching to online mode..."
                 echo "true" > "$online_mode_flag_file"
                 echo "DEBUG: online_mode_enabled set to true"
-                online_mode
 
                 # Check if the evtest process is still running
                 if pgrep -x "evtest" > /dev/null; then
@@ -554,6 +554,9 @@ monitor_keyboard_input() {
                 else
                     echo "evtest process successfully killed."
                 fi
+
+                # Call online_mode after killing evtest
+                online_mode
             else
                 echo "DEBUG: No button press detected. Default Offline mode enabled."
                 # echo "false" > "$online_mode_flag_file"
