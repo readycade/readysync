@@ -52,10 +52,6 @@ echo "Log file:..."
 echo "/recalbox/share/system/keyboard_events.txt"
 echo "Truncating log file..."
 
-# Initialize online_mode_enabled as false
-echo "false" > "$online_mode_flag_file"
-echo "online_mode_enabled = false"
-
 exec 3>&1 4>&2
 trap 'exec 2>&4 1>&3' 0 1 2 3
 exec 1>>"$log_file" 2>&1
@@ -64,16 +60,21 @@ sanitize_dir_name() {
   tr -cd '[:alnum:]' <<< "$1"
 }
 
+# Initialize online_mode_enabled as false
+echo "false" > "$online_mode_flag_file"
+echo "online_mode_enabled = false"
+
 # Function to switch to online mode
 online_mode() {
-    echo "Online Mode Enabled..."
+    echo "Online Mode Selected..."
     echo "DEBUG: Online Mode Enabled..."
     echo "Online Mode Enabled..."
-    echo "Performing actions specific to Online Mode..."
-
+    
     # Mark online mode as enabled
     echo "true" > "$online_mode_flag_file"
     echo "Online mode set to Enabled"
+
+    echo "Performing actions specific to Online Mode..."
 
     # Online Mode
     if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
@@ -482,9 +483,6 @@ install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/sh
 offline_mode() {
     
     # Mark offline mode as enabled
-    echo "false" > "$online_mode_flag_file"
-    echo "Offline Mode Enabled"
-
     echo "DEBUG: Offline Mode Selected..."
     echo "Performing actions specific to Offline Mode..."
 
