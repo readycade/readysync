@@ -53,11 +53,8 @@ echo "/recalbox/share/system/keyboard_events.txt"
 echo "Truncating log file..."
 
 # Initialize online_mode_enabled as false
-echo "online_mode_enabled = false"
-
-# Initialize online_mode_enabled flag file
 echo "false" > "$online_mode_flag_file"
-echo "DEBUG $online_mode_flag_file set to false"
+echo "online_mode_enabled = false"
 
 exec 3>&1 4>&2
 trap 'exec 2>&4 1>&3' 0 1 2 3
@@ -98,6 +95,10 @@ monitor_keyboard_input() {
         fi
     done
 }
+
+# Start monitoring keyboard input in the background and capture the PID
+monitor_keyboard_input &
+evtest_pid=$!
 
 # Function to switch to online mode
 online_mode() {
@@ -532,15 +533,6 @@ if [ "$online_mode_enabled" = true ]; then
     fi
     echo "Offline Mode Enabled..."
 
-    # Kill keyboard monitoring process
-    if [ -n "$evtest_pid" ]; then
-    kill -TERM "$evtest_pid"
-    wait "$evtest_pid"
-    echo "Keyboard monitoring process terminated."
-else
-    echo "No keyboard monitoring process found to terminate."
-fi
-
     # Mark offline mode as enabled
     online_mode_enabled=false
     echo "false" > "$online_mode_flag_file"
@@ -568,6 +560,15 @@ done
 
         echo "Installation complete. Log saved to: $log_file"
 
+    # Kill keyboard monitoring process
+    if [ -n "$evtest_pid" ]; then
+    kill -TERM "$evtest_pid"
+    wait "$evtest_pid"
+    echo "Keyboard monitoring process terminated."
+else
+    echo "No keyboard monitoring process found to terminate."
+fi
+
         # Sleep to let everything sync up
         sleep 5
 
@@ -578,7 +579,3 @@ done
     fi
     exit 0
 }
-
-# Start monitoring keyboard input in the background and capture the PID
-monitor_keyboard_input &
-evtest_pid=$!
