@@ -448,6 +448,7 @@ offline_mode() {
     # Mark offline mode as enabled
     echo "DEBUG: Offline Mode Selected..."
     echo "Performing actions specific to Offline Mode..."
+    pkill -9 evtest
 
     # Offline Mode
     if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
