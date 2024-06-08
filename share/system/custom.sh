@@ -489,7 +489,6 @@ done
 exit 0
 }
 
-# Function to monitor keyboard input
 monitor_keyboard_input() {
     prev_button_state=""
 
@@ -510,21 +509,24 @@ monitor_keyboard_input() {
                 echo "true" > "$online_mode_flag_file"
                 echo "online_mode_enabled set to true"
 
-                # Check if the evtest process is still running
-                if pgrep -x "evtest" > /dev/null; then
-                    echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
-                    pkill -9 evtest
-                else
-                    echo "evtest process successfully killed."
-                fi
                 # Call online_mode after killing evtest
                 online_mode
             else
                 echo "No button press detected. Default Offline Mode Enabled."
             fi
+
+            # Check if the evtest process is still running
+            if pgrep -x "evtest" > /dev/null; then
+                echo "evtest process still running. Sending SIGKILL signal."
+                pkill -9 evtest
+            else
+                echo "evtest process successfully killed."
+            fi
+
             prev_button_state="$button_state"
         fi
     done
+    exit 0
 }
 
 # Start monitoring keyboard input in the background and capture the PID
