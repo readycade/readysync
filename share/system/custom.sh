@@ -523,9 +523,9 @@ monitor_keyboard_input() {
             if pgrep -x "evtest" > /dev/null; then
                 echo "evtest process still running. Sending SIGKILL signal."
                 pkill -9 evtest
+                offline_mode
             else
                 echo "evtest process successfully killed."
-                offline_mode
             fi
 
             prev_button_state="$button_state"
