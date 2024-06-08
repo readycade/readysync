@@ -525,6 +525,7 @@ monitor_keyboard_input() {
                 pkill -9 evtest
             else
                 echo "evtest process successfully killed."
+                offline_mode
             fi
 
             prev_button_state="$button_state"
