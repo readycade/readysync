@@ -472,6 +472,14 @@ done
         echo "Error: systemlist.xml files not found."
     fi
 
+    # Check if the evtest process is still running
+        if pgrep -x "evtest" > /dev/null; then
+            echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
+            pkill -9 evtest
+        else
+            echo "evtest process successfully killed."
+        fi
+
         # Sleep to let everything sync up
         sleep 5
 
@@ -513,13 +521,6 @@ monitor_keyboard_input() {
                 online_mode
             else
                 echo "No button press detected. Default Offline Mode Enabled."
-                # Check if the evtest process is still running
-                if pgrep -x "evtest" > /dev/null; then
-                    echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
-                    pkill -9 evtest
-                else
-            echo "evtest process successfully killed."
-        fi
             fi
             prev_button_state="$button_state"
         fi
