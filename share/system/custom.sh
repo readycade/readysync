@@ -493,12 +493,15 @@ done
 exit 0
 }
 
+# Function to monitor keyboard input
 monitor_keyboard_input() {
-    prev_button_state=""
+    prev_button_state="offline"
 
     # Start monitoring keyboard input
-    evtest /dev/input/event3 --grab | while read -r line; do
+    evtest /dev/input/event8 --grab | while read -r line; do
         echo "DEBUG: Keyboard event detected: $line"
+        
+        # Determine button state based on event
         if [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90004"* || \
               $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90003"* || \
               $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 7001e"* ]]; then
@@ -507,32 +510,25 @@ monitor_keyboard_input() {
             button_state="offline"
         fi
 
+        # Check for state change
         if [ "$button_state" != "$prev_button_state" ]; then
             if [ "$button_state" = "online" ]; then
                 echo "Button Press detected. Switching to Online Mode..."
                 echo "true" > "$online_mode_flag_file"
                 echo "online_mode_enabled set to true"
 
-                # Call online_mode after killing evtest
+                # Call online_mode function
                 online_mode
             else
                 echo "No button press detected. Default Offline Mode Enabled."
-            fi
-
-            # Check if the evtest process is still running
-            if pgrep -x "evtest" > /dev/null; then
-                echo "evtest process still running. Sending SIGKILL signal."
-                pkill -9 evtest
                 offline_mode
-            else
-                echo "evtest process successfully killed."
             fi
 
+            # Update previous state
             prev_button_state="$button_state"
         fi
     done
-    exit 0
 }
 
-# Start monitoring keyboard input in the background and capture the PID
+# Start monitoring keyboard input in the background
 monitor_keyboard_input &
