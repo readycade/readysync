@@ -474,16 +474,15 @@ offline_mode() {
         echo "Error: systemlist.xml files not found."
     fi
 
-    # Ensure evtest process is terminated
-    if pgrep -x "evtest" > /dev/null; then
-        echo "Terminating evtest process..."
-        pkill -9 -g "$(pgrep -x evtest)"
-    else
-        echo "evtest process waiting for input."
-    fi
+
 
     # Replace with actual command to start emulation station or other actions
-    #chvt 1; es start
+    chvt 1; es start
+
+    sleep 2
+
+    echo "Killing evtest at the end of the script"
+    pkill -9 evtest
 
     exit 0
 }
@@ -530,6 +529,3 @@ monitor_keyboard_input_event() {
 monitor_keyboard_input_event &
 
 wait
-
-echo "Killing evtest at the end of the script"
-pkill -9 evtest
