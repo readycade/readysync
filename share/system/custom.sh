@@ -453,6 +453,10 @@ offline_mode() {
     echo "DEBUG: Offline Mode Selected..."
     echo "Performing actions specific to Offline Mode..."
 
+    # Kill evtest process after mode switch
+    echo "killing evtest for offline mode"
+    pkill -9 evtest
+
     # Offline Mode
     if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
         # Backup existing systemlist.xml
@@ -526,10 +530,6 @@ monitor_keyboard_input() {
 
                 
             else
-
-                # Kill evtest process after mode switch
-                echo "killing evtest for offline mode"
-                pkill -9 evtest
 
                 # Call offline_mode function
                 echo "No button press detected. Default Offline Mode Enabled."
