@@ -476,13 +476,9 @@ done
         echo "Error: systemlist.xml files not found."
     fi
 
-    # Check if the evtest process is still running
-        if pgrep -x "evtest" > /dev/null; then
-            echo "evtest process still running after initial kill attempt. Sending SIGKILL signal."
-            pkill -9 evtest
-        else
-            echo "evtest process successfully killed."
-        fi
+        # Kill evtest process after mode switch
+        echo "killing evtest for online mode"
+        pkill -9 evtest
 
         # Sleep to let everything sync up
         sleep 5
