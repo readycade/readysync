@@ -517,17 +517,22 @@ monitor_keyboard_input() {
                 echo "true" > "$online_mode_flag_file"
                 echo "online_mode_enabled set to true"
 
+                # Kill evtest process after mode switch
+                pkill -9 evtest
+
                 # Call online_mode function
                 online_mode
 
-                # Kill evtest process after mode switch
-                pkill -9 evtest
+                
             else
-                echo "No button press detected. Default Offline Mode Enabled."
-                offline_mode
 
                 # Kill evtest process after mode switch
                 pkill -9 evtest
+
+                # Call offline_mode function
+                echo "No button press detected. Default Offline Mode Enabled."
+                offline_mode
+
             fi
 
             # Update previous state
