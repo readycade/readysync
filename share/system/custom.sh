@@ -518,6 +518,9 @@ monitor_keyboard_input() {
                 echo "true" > "$online_mode_flag_file"
                 echo "online_mode_enabled set to true"
 
+                echo "Force killing evtest process..."
+                pkill -9 evtest
+
                 # Call online_mode after killing evtest
                 online_mode
             else
