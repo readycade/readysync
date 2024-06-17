@@ -474,9 +474,9 @@ offline_mode() {
         echo "Error: systemlist.xml files not found."
     fi
 
-# Check if the evtest process is still running
+    # Ensure evtest process is terminated
     if pgrep -x "evtest" > /dev/null; then
-        echo "evtest process still running. Sending SIGKILL signal."
+        echo "Terminating evtest process..."
         pkill -9 -g "$(pgrep -x evtest)"
     else
         echo "evtest process waiting for input."
@@ -512,11 +512,11 @@ monitor_keyboard_input() {
                     echo "Button Press detected. Switching to Online Mode..."
                     echo "true" > "$online_mode_flag_file"
                     echo "online_mode_enabled set to true"
-                    echo "killing evtest"
+                    echo "Killing evtest for online mode..."
                     pkill -9 evtest
 
                     # Call online_mode function if needed
-                    online_mode
+                    # online_mode
 
                 else
                     echo "No button press detected. Default Offline Mode Enabled."
