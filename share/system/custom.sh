@@ -515,6 +515,7 @@ monitor_keyboard_input_event() {
             fi
 
             prev_button_state="$button_state"
+            echo "killing evtest and starting Offline Mode"
             pkill -9 evtest
             offline_mode
         fi
