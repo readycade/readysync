@@ -496,7 +496,7 @@ monitor_keyboard_input_event() {
         echo "DEBUG: Keyboard event detected: $line"
         if [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90004"* || \
               $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90003"* || \
-              $line == *"type 1 (EV_KEY), code 2 (KEY_1), value 0"* || \
+              $line == *"type 1 (EV_KEY), code 2 (KEY_1), value 1"* || \
               $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 7001e"* ]]; then
             button_state="online"
         else
