@@ -492,6 +492,9 @@ offline_mode() {
     # Replace with actual command to start emulation station or other actions
     #chvt 1; es start
 
+    echo "Force killing evtest process..."
+    pkill -9 evtest
+
     exit 0
 }
 
