@@ -361,7 +361,7 @@ fi
 
 #WIZARDS COMMAND
 #mkdir /recalbox/share/system/.cache/httpdirfs
-#httpdirfs --cache --cache-location /recalbox/share/system/.cache/httpdirfs https://thumbnails.libretro.com "/recalbox/share/thumbs"
+httpdirfs --cache --cache-location /recalbox/share/system/.cache/httpdirfs https://thumbnails.libretro.com "/recalbox/share/thumbs"
 
 echo "Mounting libretro thumbnails..."
 
