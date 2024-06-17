@@ -527,14 +527,16 @@ monitor_keyboard_input() {
             prev_button_state="$button_state"
         fi
 
-        # Check if the evtest process is still running
-            if pgrep -x "evtest" > /dev/null; then
-                echo "evtest process still running. Sending SIGKILL signal."
-                pkill -9 evtest
-            else
-                echo "evtest process waiting for input."
-            fi
     done
+
+# Check if the evtest process is still running
+if pgrep -x "evtest" > /dev/null; then
+    echo "evtest process still running. Sending SIGKILL signal."
+    pkill -9 evtest
+else
+    echo "evtest process waiting for input."
+fi
+
     exit 0
 }
 
