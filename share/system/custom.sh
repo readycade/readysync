@@ -474,19 +474,12 @@ offline_mode() {
         echo "Error: systemlist.xml files not found."
     fi
 
-    # Ensure evtest process is terminated
+# Check if the evtest process is still running
     if pgrep -x "evtest" > /dev/null; then
-        echo "Terminating evtest process..."
+        echo "evtest process still running. Sending SIGKILL signal."
         pkill -9 -g "$(pgrep -x evtest)"
-        sleep 2
-        if pgrep -x "evtest" > /dev/null; then
-            echo "Force killing evtest process..."
-            pkill -9 -f evtest
-        else
-            echo "evtest process terminated."
-        fi
     else
-        echo "No evtest process running."
+        echo "evtest process waiting for input."
     fi
 
     # Replace with actual command to start emulation station or other actions
