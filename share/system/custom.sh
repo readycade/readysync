@@ -448,27 +448,25 @@ exit 0
 
 # Function to switch to offline mode
 offline_mode() {
-    
-    # Mark offline mode as enabled
     echo "DEBUG: Offline Mode Selected..."
     echo "Performing actions specific to Offline Mode..."
 
-    # Offline Mode
+    # Offline Mode actions
     if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
         # Backup existing systemlist.xml
         echo "Backing up current systemlist.xml..."
         for source in "$offline_systemlist" "$offline_systemlist2"; do
-    if cp "$source" "$offline_backup"; then
-        break
-    fi
-done
+            if cp "$source" "$offline_backup"; then
+                break
+            fi
+        done
         echo "Backup created: $offline_backup"
 
         # Overwrite systemlist.xml with the offline version
         echo "Overwriting systemlist.xml with the Offline version..."
         for destination in "$offline_systemlist" "$offline_systemlist2"; do
-    cp "$offline_offline" "$destination"
-done
+            cp "$offline_offline" "$destination"
+        done
 
         echo "Installation complete. Log saved to: $log_file"
 
@@ -476,28 +474,25 @@ done
         echo "Error: systemlist.xml files not found."
     fi
 
- # Ensure evtest process is terminated
+    # Ensure evtest process is terminated
     if pgrep -x "evtest" > /dev/null; then
-        echo "Waiting for evtest process to terminate..."
-        pkill evtest
+        echo "Terminating evtest process..."
+        pkill -9 -g "$(pgrep -x evtest)"
         sleep 2
         if pgrep -x "evtest" > /dev/null; then
-            echo "Failed to terminate evtest process. Force killing..."
+            echo "Force killing evtest process..."
             pkill -9 evtest
         else
-            echo "evtest process successfully terminated."
+            echo "evtest process terminated."
         fi
     else
         echo "No evtest process running."
     fi
 
-        # Sleep to let everything sync up
-        sleep 5
+    # Replace with actual command to start emulation station or other actions
+    #chvt 1; es start
 
-        # Replace the following line with the actual command to start emulation station
-        #chvt 1; es start
-
-exit 0
+    exit 0
 }
 
 # Function to monitor keyboard input and switch modes
@@ -527,7 +522,7 @@ monitor_keyboard_input() {
 
                     # Kill evtest process after mode switch
                     echo "Killing evtest for online mode"
-                    pkill -9 evtest
+                    pkill -9 -g "$(pgrep -x evtest)"
 
                     # Call online_mode function if needed
                     # online_mode
@@ -545,7 +540,7 @@ monitor_keyboard_input() {
         # Ensure evtest process is terminated after loop exits
         if pgrep -x "evtest" > /dev/null; then
             echo "Terminating evtest process after loop exits..."
-            pkill evtest
+            pkill -9 -g "$(pgrep -x evtest)"
             sleep 2
             if pgrep -x "evtest" > /dev/null; then
                 echo "Force killing evtest process after loop exits..."
