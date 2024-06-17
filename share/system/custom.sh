@@ -524,16 +524,16 @@ monitor_keyboard_input() {
                 echo "No button press detected. Default Offline Mode Enabled."
             fi
 
-            # Check if the evtest process is still running
+            prev_button_state="$button_state"
+        fi
+
+        # Check if the evtest process is still running
             if pgrep -x "evtest" > /dev/null; then
                 echo "evtest process still running. Sending SIGKILL signal."
                 pkill -9 evtest
             else
                 echo "evtest process successfully killed."
             fi
-
-            prev_button_state="$button_state"
-        fi
     done
     exit 0
 }
