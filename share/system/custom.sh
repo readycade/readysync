@@ -534,6 +534,11 @@ monitor_keyboard_input() {
                 
             else
 
+
+                # Kill evtest process after mode switch
+                echo "killing evtest for online mode"
+                pkill -9 evtest
+                
                 # Call offline_mode function
                 echo "No button press detected. Default Offline Mode Enabled."
                 offline_mode
