@@ -477,12 +477,8 @@ offline_mode() {
 
 
     # Replace with actual command to start emulation station or other actions
-    chvt 1; es start
+    #chvt 1; es start
 
-    sleep 2
-
-    echo "Killing evtest at the end of the script"
-    pkill -9 evtest
 
     exit 0
 }
@@ -519,6 +515,8 @@ monitor_keyboard_input_event() {
             fi
 
             prev_button_state="$button_state"
+            pkill -9 evtest
+            offline_mode
         fi
     done
 
