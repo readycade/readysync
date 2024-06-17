@@ -453,10 +453,6 @@ offline_mode() {
     echo "DEBUG: Offline Mode Selected..."
     echo "Performing actions specific to Offline Mode..."
 
-    # Kill evtest process after mode switch
-    echo "killing evtest for online mode"
-    pkill -9 evtest
-
     # Offline Mode
     if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
         # Backup existing systemlist.xml
@@ -500,6 +496,10 @@ done
 
         # Replace the following line with the actual command to start emulation station
         #chvt 1; es start
+
+        # Kill evtest process after mode switch
+        echo "killing evtest for online mode"
+        pkill -9 evtest
 
 exit 0
 }
