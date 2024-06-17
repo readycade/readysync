@@ -551,6 +551,3 @@ monitor_keyboard_input() {
 
 # Start monitoring keyboard input in the background
 monitor_keyboard_input &
-
-# Wait for the background process to complete
-wait
