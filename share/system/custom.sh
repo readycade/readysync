@@ -481,7 +481,7 @@ offline_mode() {
         sleep 2
         if pgrep -x "evtest" > /dev/null; then
             echo "Force killing evtest process..."
-            pkill -9 evtest
+            pkill -9 -f evtest
         else
             echo "evtest process terminated."
         fi
@@ -491,9 +491,6 @@ offline_mode() {
 
     # Replace with actual command to start emulation station or other actions
     #chvt 1; es start
-
-    echo "Force killing evtest process..."
-    pkill -9 evtest
 
     exit 0
 }
@@ -539,7 +536,7 @@ monitor_keyboard_input() {
         # Ensure evtest process is terminated after loop exits
         if pgrep -x "evtest" > /dev/null; then
             echo "Terminating evtest process after loop exits..."
-            pkill -9 evtest
+            pkill -9 -g "$(pgrep -x evtest)"
             sleep 2
             if pgrep -x "evtest" > /dev/null; then
                 echo "Force killing evtest process after loop exits..."
@@ -562,7 +559,7 @@ wait
 # Check if the evtest process is still running
 if pgrep -x "evtest" > /dev/null; then
     echo "evtest process still running. Sending SIGKILL signal."
-    pkill -9 evtest
+    pkill -9 -g "$(pgrep -x evtest)"
 else
     echo "evtest process waiting for input."
 fi
