@@ -357,11 +357,11 @@ fi
 
 # Mount thumbnails with httpdirfs
 #httpdirfs -d -f -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://thumbnails.libretro.com/ /recalbox/share/thumbs
-#httpdirfs -f -o debug --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o no_cache https://thumbnails.libretro.com/ /recalbox/share/thumbs
+httpdirfs -f -o debug --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o no_cache https://thumbnails.libretro.com/ /recalbox/share/thumbs
 
 #WIZARDS COMMAND
 #mkdir /recalbox/share/system/.cache/httpdirfs
-httpdirfs --cache --cache-location /recalbox/share/system/.cache/httpdirfs https://thumbnails.libretro.com "/recalbox/share/thumbs"
+#httpdirfs --cache --cache-location /recalbox/share/system/.cache/httpdirfs https://thumbnails.libretro.com "/recalbox/share/thumbs"
 
 echo "Mounting libretro thumbnails..."
 
@@ -521,7 +521,7 @@ monitor_keyboard_input() {
                     echo "online_mode_enabled set to true"
 
                     # Call online_mode function if needed
-                    # online_mode
+                    online_mode
 
                 else
                     echo "No button press detected. Default Offline Mode Enabled."
