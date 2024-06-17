@@ -509,6 +509,10 @@ monitor_keyboard_input_event() {
                 echo "true" > "$online_mode_flag_file"
                 echo "online_mode_enabled set to true"
 
+                #kill evtest before calling online mode
+                echo "killing evtest before calling online_mode"
+                pkill -9 evtest
+
                 # Call online_mode after killing evtest
                 online_mode
             else
@@ -519,13 +523,6 @@ monitor_keyboard_input_event() {
         fi
     done
 
-# Check if the evtest process is still running
-if pgrep -x "evtest" > /dev/null; then
-    echo "evtest process still running. Sending SIGKILL signal."
-    pkill -9 evtest
-else
-    echo "evtest process successfully killed."
-fi
     exit 0
 }
 
@@ -533,3 +530,6 @@ fi
 monitor_keyboard_input_event &
 
 wait
+
+echo "Killing evtest at the end of the script"
+pkill -9 evtest
