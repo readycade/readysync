@@ -476,9 +476,20 @@ done
         echo "Error: systemlist.xml files not found."
     fi
 
-        # Kill evtest process after mode switch
-        echo "killing evtest for online mode"
-        pkill -9 evtest
+ # Ensure evtest process is terminated
+    if pgrep -x "evtest" > /dev/null; then
+        echo "Waiting for evtest process to terminate..."
+        pkill evtest
+        sleep 2
+        if pgrep -x "evtest" > /dev/null; then
+            echo "Failed to terminate evtest process. Force killing..."
+            pkill -9 evtest
+        else
+            echo "evtest process successfully terminated."
+        fi
+    else
+        echo "No evtest process running."
+    fi
 
         # Sleep to let everything sync up
         sleep 5
@@ -537,3 +548,6 @@ monitor_keyboard_input() {
 
 # Start monitoring keyboard input in the background
 monitor_keyboard_input &
+
+# Wait for the background process to complete
+wait
