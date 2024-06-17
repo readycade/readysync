@@ -531,3 +531,5 @@ monitor_keyboard_input_event() {
 
 # Start monitoring keyboard input in the background and capture the PID
 monitor_keyboard_input_event &
+
+wait
