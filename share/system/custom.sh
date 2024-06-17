@@ -518,6 +518,7 @@ monitor_keyboard_input() {
                 echo "online_mode_enabled set to true"
 
                 # Kill evtest process after mode switch
+                echo "killing evtest for online mode"
                 pkill -9 evtest
 
                 # Call online_mode function
@@ -527,6 +528,7 @@ monitor_keyboard_input() {
             else
 
                 # Kill evtest process after mode switch
+                echo "killing evtest for offline mode"
                 pkill -9 evtest
 
                 # Call offline_mode function
