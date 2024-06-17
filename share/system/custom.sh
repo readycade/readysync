@@ -497,10 +497,6 @@ done
         # Replace the following line with the actual command to start emulation station
         #chvt 1; es start
 
-        # Kill evtest process after mode switch
-        echo "killing evtest for online mode"
-        pkill -9 evtest
-
 exit 0
 }
 
@@ -536,6 +532,10 @@ monitor_keyboard_input() {
                 online_mode
                 
             else
+
+                # Kill evtest process after mode switch
+            echo "killing evtest for offline mode"
+            pkill -9 evtest
 
                 # Call offline_mode function
                 echo "No button press detected. Default Offline Mode Enabled."
