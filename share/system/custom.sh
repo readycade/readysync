@@ -532,7 +532,7 @@ monitor_keyboard_input() {
                 echo "evtest process still running. Sending SIGKILL signal."
                 pkill -9 evtest
             else
-                echo "evtest process successfully killed."
+                echo "evtest process waiting for input."
             fi
     done
     exit 0
