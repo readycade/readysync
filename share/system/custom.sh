@@ -519,6 +519,8 @@ monitor_keyboard_input() {
                     echo "Button Press detected. Switching to Online Mode..."
                     echo "true" > "$online_mode_flag_file"
                     echo "online_mode_enabled set to true"
+                    echo "killing evtest"
+                    pkill -9 evtest
 
                     # Call online_mode function if needed
                     online_mode
