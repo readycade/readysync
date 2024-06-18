@@ -203,30 +203,6 @@ done
 
 echo "All TOSEC files downloaded and extracted successfully!"
 
-
-
-# Function to download a rclone with retries
-download_rclone_with_retry() {
-    local url=$1
-    local output=$2
-    local max_retries=3
-    local retry_delay=5
-
-    for ((attempt = 1; attempt <= max_retries; attempt++)); do
-        wget --quiet --show-progress --retry-connrefused --waitretry=$retry_delay --timeout=30 --tries=$max_retries -O "$output" "$url"
-        if [ $? -eq 0 ]; then
-            echo "Download succeeded."
-            return 0
-        else
-            echo "Download failed (attempt $attempt/$max_retries). Retrying in $retry_delay seconds..."
-            sleep $retry_delay
-        fi
-    done
-
-    echo "Max retries reached. Download failed."
-    return 1
-}
-
 # Function to download a rclone with retries
 download_rclone_with_retry() {
     local url=$1
@@ -451,6 +427,11 @@ offline_mode() {
     echo "DEBUG: Offline Mode Selected..."
     echo "Performing actions specific to Offline Mode..."
 
+    # Stop evtest if it's running
+    pkill -9 evtest
+
+    echo "DEBUG: evtest process killed."
+
     # Offline Mode actions
     if [ -f "$offline_systemlist" ] && [ -f "$offline_offline" ]; then
         # Backup existing systemlist.xml
@@ -474,16 +455,10 @@ offline_mode() {
         echo "Error: systemlist.xml files not found."
     fi
 
-
-
-    # Replace with actual command to start emulation station or other actions
-    #chvt 1; es start
-
-
     exit 0
 }
 
-monitor_keyboard_input_event() {
+monitor_keyboard_input() {
     prev_button_state=""
 
     # Start monitoring keyboard input
@@ -491,7 +466,6 @@ monitor_keyboard_input_event() {
         echo "DEBUG: Keyboard event detected: $line"
         if [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90004"* || \
               $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90003"* || \
-              $line == *"type 1 (EV_KEY), code 2 (KEY_1), value 1"* || \
               $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 7001e"* ]]; then
             button_state="online"
         else
@@ -504,27 +478,36 @@ monitor_keyboard_input_event() {
                 echo "true" > "$online_mode_flag_file"
                 echo "online_mode_enabled set to true"
 
-                #kill evtest before calling online mode
-                echo "killing evtest before calling online_mode"
-                pkill -9 evtest
-
                 # Call online_mode after killing evtest
                 online_mode
-            else
+            elif [ "$button_state" = "offline" ]; then
                 echo "No button press detected. Default Offline Mode Enabled."
+                # Call offline_mode if needed in this block
+                #offline_mode
+            fi
+
+            # Check if the evtest process is still running
+            if pgrep -x "evtest" > /dev/null; then
+                echo "evtest process still running. Sending SIGKILL signal."
+                pkill -9 evtest
+            else
+                echo "evtest process successfully killed."
             fi
 
             prev_button_state="$button_state"
-            echo "killing evtest and starting Offline Mode"
-            pkill -9 evtest
-            offline_mode
         fi
     done
-
     exit 0
 }
 
 # Start monitoring keyboard input in the background and capture the PID
-monitor_keyboard_input_event &
+monitor_keyboard_input &
+monitor_pid=$!
 
-wait
+# Wait for the background process to finish
+wait "$monitor_pid"
+
+# After the monitor process finishes, proceed with further actions here if needed
+# For example:
+offline_mode
+echo "Script completed."
