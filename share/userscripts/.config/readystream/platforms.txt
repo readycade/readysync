@@ -41,6 +41,7 @@
 #roms+=("msxturbor;TOSEC/MSX/TurboR/Games/MSX TurboR - Games.zip;MSX TurboR;<b>MSX TurboR</b>;bluemsx_libretro")
 #roms+=("n64;No-Intro/Nintendo - Nintendo 64 (BigEndian);Nintendo - Nintendo 64;Nintendo 64;mupen64plus_next_libretro")
 #roms+=("naomi;Redump/Arcade - Sega - Naomi;Sega - Naomi;Sega - Naomi;flycast_libretro")
+#roms+=("naomi2;Redump/Arcade - Sega - Naomi 2;Sega - Naomi 2;Sega - Naomi 2;flycast_libretro")
 #roms+=("nds;No-Intro/Nintendo - Nintendo DS (Decrypted);Nintendo - Nintendo DS;<i>Nintendo DS</i>;melonds_libretro")
 #roms+=("neogeocd;Redump/SNK - Neo Geo CD;SNK - Neo Geo CD;Neo Geo CD;neocd_libretro;cue")
 #roms+=("nes;No-Intro/Nintendo - Nintendo Entertainment System (Headered);Nintendo - Nintendo Entertainment System;<p>Nintendo NES;nestopia_libretro")
@@ -94,7 +95,6 @@
 # Not Available on Recalbox
 
 #roms+=("jaguarcd;Redump/Atari - Jaguar CD Interactive Multimedia System;Atari - Jaguar CD Interactive Multimedia System;Jaguar CD;virtualjaguar_libretro")
-#roms+=("naomi2;Redump/Arcade - Sega - Naomi 2;Sega - Naomi 2;Sega - Naomi 2;flycast_libretro")
 #roms+=("pet;TOSEC/Commodore/PET/Games/[PRG]/Commodore PET - Games - [PRG].zip;Commodore - PET;<b>Commodore PET</b>;vice_xpet_libretro")
 #roms+=("ps3;Redump/Sony - PlayStation 3;Sony - PlayStation 3;<p>PlayStation 3;FINDCORE_libretro")
 #roms+=("ps3keystxt;Redump/Sony - PlayStation 3 - Disc Keys TXT;Sony - PlayStation 3 - Disc Keys TXT;<p>PlayStation 3 Keys;FINDCORE_libretro")
