@@ -101,4 +101,4 @@ If you experience any OTHER issues, **DELETE** everything in **/recalbox/share/u
 
 
 ### Flowchart (Visual Representation)
-![ReadySync Flowchart](https://github.com/readycade/readysync/blob/master/ReadySync-FLOWCHART.png)
+![ReadySync Flowchart](https://github.com/readycade/readysync/blob/master/ReadySync-FLOWCHART2.png)
