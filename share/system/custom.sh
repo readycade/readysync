@@ -478,7 +478,7 @@ monitor_keyboard_input() {
     button_pressed=false
 
     # Loop through events /dev/input/event3 to /dev/input/event12
-    for dev in $(seq 3 12); do
+    for dev in $(seq 3 18); do
         # Monitor events in the background
         evtest /dev/input/event$dev --grab | while read -r line; do
             echo "DEBUG: Keyboard event detected on /dev/input/event$dev: $line"
