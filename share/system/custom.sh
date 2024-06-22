@@ -462,10 +462,11 @@ monitor_keyboard_input() {
     prev_button_state=""
 
     # Start monitoring keyboard input
-    evtest /dev/input/event3 --grab | while read -r line; do
+    evtest /dev/input/event3 /dev/input/event4 /dev/input/event5 /dev/input/event6 /dev/input/event7 /dev/input/event8 /dev/input/event9 /dev/input/event10 /dev/input/event11 /dev/input/event12 --grab | while read -r line; do
         echo "DEBUG: Keyboard event detected: $line"
         if [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90004"* || \
               $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90003"* || \
+              $line == *"type 1 (EV_KEY), code 305 (BTN_EAST), value 1"* || \
               $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 7001e"* ]]; then
             button_state="online"
         else
