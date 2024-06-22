@@ -37,6 +37,7 @@ log_file="/recalbox/share/system/.systemstream.log"
 online_mode_flag_file="/recalbox/share/system/.online_mode_enabled.log"
 online_mode_enabled=$(cat "$online_mode_flag_file")
 keyboard_events="/recalbox/share/system/keyboard_events.txt"
+monitor_duration=5
 
 # Check and update systemlist.xml based on user choice
 offline_systemlist="/recalbox/share_init/system/.emulationstation/systemlist.xml"
@@ -458,67 +459,68 @@ offline_mode() {
     exit 0
 }
 
+# Function to check if a line matches any of the desired patterns
+check_event() {
+    local line="$1"
+    if [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90004"* || \
+          $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90003"* || \
+          $line == *"type 1 (EV_KEY), code 305 (BTN_EAST), value 1"* || \
+          $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 7001e"* ]]; then
+        echo "online"
+    else
+        echo "offline"
+    fi
+}
+
+# Function to monitor keyboard input events
 monitor_keyboard_input() {
-    prev_button_state=""
+    # Flag to track if any button press is detected
+    button_pressed=false
 
-    # Function to check if a line matches any of the desired patterns
-    check_event() {
-        local line="$1"
-        if [[ $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90004"* || \
-              $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 90003"* || \
-              $line == *"type 1 (EV_KEY), code 2 (KEY_1), value 1"* || \
-              $line == *"type 4 (EV_MSC), code 4 (MSC_SCAN), value 7001e"* ]]; then
-            echo "online"
-        else
-            echo "offline"
-        fi
-    }
-
-    # Function to handle cleanup and mode switching
-    handle_mode_switch() {
-        local new_button_state="$1"
-
-        if [ "$new_button_state" = "online" ]; then
-            echo "Button Press detected. Switching to Online Mode..."
-            echo "true" > "$online_mode_flag_file"
-            echo "online_mode_enabled set to true"
-
-            # Kill evtest before calling online mode
-            echo "Killing evtest before calling online_mode"
-            pkill -9 evtest
-
-            # Call online_mode after killing evtest
-            online_mode
-        elif [ "$new_button_state" = "offline" ]; then
-            echo "No button press detected. Default Offline Mode Enabled."
-            
-            # Kill evtest before calling offline mode
-            echo "Killing evtest and starting Offline Mode"
-            pkill -9 evtest
-            offline_mode
-        fi
-    }
-
-    # Start monitoring keyboard input for events from event3 to event12
+    # Loop through events /dev/input/event3 to /dev/input/event12
     for dev in $(seq 3 12); do
+        # Monitor events in the background
         evtest /dev/input/event$dev --grab | while read -r line; do
             echo "DEBUG: Keyboard event detected on /dev/input/event$dev: $line"
-            
-            button_state=$(check_event "$line")
-            if [ "$button_state" != "$prev_button_state" ]; then
-                handle_mode_switch "$button_state"
-                prev_button_state="$button_state"
+
+            # Check if the line indicates a button press for online mode
+            if [ "$(check_event "$line")" = "online" ]; then
+                echo "Button press detected. Switching to Online Mode..."
+                echo "true" > "$online_mode_flag_file"
+                echo "online_mode_enabled set to true"
+
+                # Set the button_pressed flag to true
+                button_pressed=true
+
+                # Kill evtest before calling online_mode
+                echo "Killing evtest"
+                pkill -9 evtest
+
+                # Call online_mode after killing evtest
+                online_mode
+                exit 0
             fi
         done &
     done
 
-    # Wait for all background processes to finish
-    wait
+    # Wait for the specified monitoring duration
+    sleep "$monitor_duration"
+
+    # If no button press was detected, switch to offline mode
+    if ! $button_pressed; then
+        echo "No button press detected. Switching to Offline Mode..."
+        # Ensure evtest is killed before launching offline_mode
+        pkill -9 evtest
+        offline_mode
+    fi
+
     exit 0
 }
 
-# Start monitoring keyboard input in the background and capture the PID
+# Start monitoring keyboard input in the background
 monitor_keyboard_input &
+
+# Capture the PID of the background process
 monitor_pid=$!
 
 # Wait for the background process to finish
@@ -526,5 +528,4 @@ wait "$monitor_pid"
 
 # After the monitor process finishes, proceed with further actions here if needed
 # For example:
-offline_mode
 echo "Script completed."
