@@ -358,7 +358,7 @@ fi
 #rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 
 # Attempt to download rclone2.conf
-if wget https://github.com/readycade/readysync/blob/master/share/userscripts/.config/readystream/rclone2.conf -O /recalbox/share/system/rclone2.conf; then
+if wget https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclone2.conf -O /recalbox/share/system/rclone2.conf; then
     echo "rclone2.conf downloaded successfully."
     sleep 1
     
@@ -396,7 +396,7 @@ fi
 #rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 
 # Attempt to download rclone.conf
-if wget https://github.com/readycade/readysync/blob/master/share/userscripts/.config/readystream/rclone.conf -O /recalbox/share/system/rclone.conf; then
+if wget https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclone.conf -O /recalbox/share/system/rclone.conf; then
     echo "rclone.conf downloaded successfully."
     sleep 1
     
