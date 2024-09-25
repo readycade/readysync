@@ -71,6 +71,46 @@ mkdir -p /recalbox/share/userscripts/.config/readystream/roms
 
 mkdir -p /recalbox/share/thumbs
 mkdir -p /recalbox/share/roms/readystream
+mkdir -p /recalbox/share/roms/readystream/tmp
+
+#!/bin/bash
+
+# Define the URLs and directories
+readysync_roms_url="https://github.com/readycade/readysync/raw/refs/heads/master/share/userscripts/.config/readystream/roms.zip"
+readysync_tmp_dir="/recalbox/share/userscripts/.config/readystream/tmp"
+readysync_roms_dir="/recalbox/share/userscripts/.config/readystream/roms"
+
+# Check if the destination directory already contains files
+if [ -d "$readysync_roms_dir" ] && [ "$(ls -A $readysync_roms_dir)" ]; then
+    echo "Files already exist in $readysync_roms_dir. No need to download."
+    exit 0
+fi
+
+# Create the temporary directory if it doesn't exist
+mkdir -p "$readysync_tmp_dir"
+
+# Download the zip file to the temporary directory
+wget -O "$readysync_tmp_dir/roms.zip" "$readysync_roms_url"
+
+# Check if the download was successful
+if [ $? -ne 0 ]; then
+    echo "Failed to download the file."
+    exit 1
+fi
+
+# Extract the downloaded zip file to the destination directory
+unzip -o "$readysync_tmp_dir/roms.zip" -d "$readysync_roms_dir"
+
+# Check if the extraction was successful
+if [ $? -ne 0 ]; then
+    echo "Failed to extract the file."
+    exit 1
+fi
+
+# Clean up the temporary zip file
+rm "$readysync_tmp_dir/roms.zip"
+
+echo "Download and extraction completed successfully."
 
 # Define the systemlist directory
 systemlist_dir="/recalbox/share/userscripts/.config/.emulationstation"
