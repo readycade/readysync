@@ -360,7 +360,6 @@ fi
 # Attempt to download rclone2.conf
 if wget https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclone2.conf -O /recalbox/share/system/rclone2.conf; then
     echo "rclone2.conf downloaded successfully."
-    sleep 1
     
     # Attempt to mount rclone myrient
     if rclone mount myrient: /recalbox/share/rom --config "/recalbox/share/system/rclone2.conf" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
