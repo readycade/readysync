@@ -65,6 +65,9 @@ sanitize_dir_name() {
   tr -cd '[:alnum:]' <<< "$1"
 }
 
+mkdir -p /recalbox/share/userscripts/.config/.emulationstation
+mkdir -p /recalbox/share/userscripts/.config/readystream
+
 # Download systemlist-backup.xml
 if wget https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/.emulationstation/systemlist-backup.xml -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml; then
     echo "systemlist-backup.xml downloaded successfully."
