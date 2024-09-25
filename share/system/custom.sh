@@ -69,6 +69,9 @@ mkdir -p /recalbox/share/userscripts/.config/.emulationstation
 mkdir -p /recalbox/share/userscripts/.config/readystream
 mkdir -p /recalbox/share/userscripts/.config/readystream/roms
 
+mkdir -p /recalbox/share/thumbs
+mkdir -p /recalbox/share/roms/readystream
+
 # Define the systemlist directory
 systemlist_dir="/recalbox/share/userscripts/.config/.emulationstation"
 
