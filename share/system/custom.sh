@@ -126,6 +126,22 @@ done
         echo "Online version applied."
 
         # Move the contents to online directory
+
+        # Create the destination directory
+        mkdir -p /recalbox/share/userscripts/.config/readystream/roms
+
+        # Download the zip archive of the repository
+        wget https://github.com/readycade/readysync/archive/refs/heads/master.zip -O /tmp/readysync.zip
+
+        # Extract only the relevant folder to the destination
+        unzip /tmp/readysync.zip "readysync-master/share/userscripts/.config/readystream/roms/*" -d /tmp
+
+        # Move the extracted files to the target directory
+        mv /tmp/readysync-master/share/userscripts/.config/readystream/roms/* /recalbox/share/userscripts/.config/readystream/roms/
+
+        # Clean up temporary files
+        rm -rf /tmp/readysync.zip /tmp/readysync-master
+
         cp -r /recalbox/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
         echo "Copied ALL gamelists.xml to $destination directory."
 fi
