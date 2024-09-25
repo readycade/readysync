@@ -306,6 +306,8 @@ fi
 
 # Mount myrient with rclone
 #rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+wget https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclone2.conf -O /recalbox/share/system/rclone.conf
+sleep 2
 rclone mount myrient:  /recalbox/share/rom --config "/recalbox/share/system/rclone2.conf" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
 
 #rclone mount nointro: /recalbox/share/rom/No-Intro --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
@@ -330,6 +332,8 @@ fi
 
 # Mount thumbnails with rclone
 #rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+wget https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclone.conf -O /recalbox/share/system/rclone.conf
+sleep 2
 rclone mount thumbnails: --config "/recalbox/share/system/rclone.conf" /recalbox/share/thumbs --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
 
 # Mount thumbnails with httpdirfs
