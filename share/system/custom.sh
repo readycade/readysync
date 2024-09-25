@@ -76,7 +76,7 @@ mkdir -p /recalbox/share/roms/readystream/tmp
 #!/bin/bash
 
 # Define the URLs and directories
-readysync_roms_url="https://github.com/readycade/readysync/raw/refs/heads/master/share/userscripts/.config/readystream/roms.zip"
+readysync_roms_url="https://github.com/readycade/readysync/blob/master/share/userscripts/.config/readystream/roms.zip"
 readysync_tmp_dir="/recalbox/share/userscripts/.config/readystream/tmp"
 readysync_roms_dir="/recalbox/share/userscripts/.config/readystream/roms"
 
@@ -430,9 +430,9 @@ sleep 5
 
 # Check if the mount point exists and contains files
 if [ "$(ls -A /recalbox/share/rom)" ]; then
-    echo "Mounting successful. Files are mounted in /recalbox/share/rom."
+    echo "Mounting successful. Files are mounted in /recalbox/share/rom"
 else
-    echo "Mounting failed. No files are mounted in /recalbox/share/rom."
+    echo "Mounting failed. No files are mounted in /recalbox/share/rom"
 fi
 
 # Mount thumbnails with rclone
