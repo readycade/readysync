@@ -149,7 +149,7 @@ done
         mkdir -p /recalbox/share/userscripts/readystream/tmp
 
         # Download the zip archive of the repository
-        wget https://github.com/readycade/readysync/archive/refs/heads/master.zip -O /recalbox/share/userscripts/readystream/tmp/readysync.zip
+        wget https://github.com/readycade/readysync/archive/refs/heads/master.zip -O /recalbox/share/userscripts/.config/readystream/tmp/readysync.zip
 
         # Extract only the relevant folder to the temporary directory
         unzip /recalbox/share/userscripts/readystream/tmp/readysync.zip "readysync-master/share/userscripts/.config/readystream/roms/*" -d /recalbox/share/userscripts/readystream/tmp
@@ -158,7 +158,7 @@ done
         mv /recalbox/share/userscripts/readystream/tmp/readysync-master/share/userscripts/.config/readystream/roms/* /recalbox/share/userscripts/.config/readystream/roms/
 
         # Clean up temporary files
-        rm -rf /recalbox/share/userscripts/readystream/tmp/readysync.zip /recalbox/share/userscripts/readystream/tmp/readysync-master
+        rm -rf /recalbox/share/userscripts/readystream/tmp/readysync.zip /recalbox/share/userscripts/.config/readystream/tmp/readysync-master
 
         cp -r /recalbox/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
         echo "Copied ALL gamelists.xml to $destination directory."
