@@ -358,17 +358,17 @@ fi
 #rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 
 # Attempt to download rclone2.conf
-if wget https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclone2.conf -O /recalbox/share/system/rclone2.conf; then
-    echo "rclone2.conf downloaded successfully."
+if wget https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclonemyrient.conf -O /recalbox/share/system/rclone2.conf; then
+    echo "rclonemyrient.conf downloaded successfully."
     
     # Attempt to mount rclone myrient
-    if rclone mount myrient: /recalbox/share/rom --config "/recalbox/share/system/rclone2.conf" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
+    if rclone mount myrient: /recalbox/share/rom --config "/recalbox/share/system/rclonemyrient.conf" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
         echo "Rclone mounted myrient successfully."
     else
         echo "Failed to mount myrient."
     fi
 else
-    echo "Failed to download rclone2.conf."
+    echo "Failed to download rclonemyrient.conf."
 fi
 
 #rclone mount nointro: /recalbox/share/rom/No-Intro --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
