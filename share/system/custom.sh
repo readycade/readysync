@@ -65,56 +65,6 @@ sanitize_dir_name() {
   tr -cd '[:alnum:]' <<< "$1"
 }
 
-mkdir -p /recalbox/share/userscripts/.config/.emulationstation
-mkdir -p /recalbox/share/userscripts/.config/readystream
-mkdir -p /recalbox/share/userscripts/.config/readystream/roms
-
-mkdir -p /recalbox/share/thumbs
-mkdir -p /recalbox/share/roms/readystream
-mkdir -p /recalbox/share/roms/readystream/tmp
-
-# Wait for internet to connect
-# Define the URLs and directories
-readysync_roms_url="https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms.zip"
-readysync_tmp_dir="/recalbox/share/userscripts/.config/readystream/tmp"
-readysync_roms_dir="/recalbox/share/userscripts/.config/readystream/roms"
-readysync_roms_dest="/recalbox/share/roms/readystream"
-
-# Check if the destination directory already contains files
-if [ -d "$readysync_roms_dir" ] && [ "$(ls -A $readysync_roms_dir)" ]; then
-    echo "Files already exist in $readysync_roms_dir. No need to download."
-else
-    # Create the temporary directory if it doesn't exist
-    mkdir -p "$readysync_tmp_dir"
-
-    # Download the zip file to the temporary directory
-    wget -O "$readysync_tmp_dir/roms.zip" "$readysync_roms_url"
-
-    # Check if the download was successful
-    if [ $? -ne 0 ]; then
-        echo "Failed to download the file."
-        # You may choose to exit here or just log the error and continue.
-    fi
-
-    # Extract the downloaded zip file to the destination directory
-    unzip -o "$readysync_tmp_dir/roms.zip" -d "$readysync_roms_dir"
-
-    # Check if the extraction was successful
-    if [ $? -ne 0 ]; then
-        echo "Failed to extract the file."
-        # You may choose to exit here or just log the error and continue.
-    fi
-fi
-
-# Clean up the temporary zip file if it exists
-rm -f "$readysync_tmp_dir/roms.zip"
-
-# Copy all folders and files from the roms directory to the destination directory
-mkdir -p "$readysync_roms_dest"
-cp -r "$readysync_roms_dir/"* "$readysync_roms_dest/"
-
-echo "Download and extraction completed successfully, and files copied to $readysync_roms_dest."
-
 # Define the systemlist directory
 systemlist_dir="/recalbox/share/userscripts/.config/.emulationstation"
 
@@ -538,8 +488,58 @@ install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/sh
 
 #fi
 
+mkdir -p /recalbox/share/userscripts/.config/.emulationstation
+mkdir -p /recalbox/share/userscripts/.config/readystream
+mkdir -p /recalbox/share/userscripts/.config/readystream/roms
+
+mkdir -p /recalbox/share/thumbs
+mkdir -p /recalbox/share/roms/readystream
+mkdir -p /recalbox/share/roms/readystream/tmp
+
+# Wait for internet to connect
+# Define the URLs and directories
+readysync_roms_url="https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms.zip"
+readysync_tmp_dir="/recalbox/share/userscripts/.config/readystream/tmp"
+readysync_roms_dir="/recalbox/share/userscripts/.config/readystream/roms"
+readysync_roms_dest="/recalbox/share/roms/readystream"
+
+# Check if the destination directory already contains files
+if [ -d "$readysync_roms_dir" ] && [ "$(ls -A $readysync_roms_dir)" ]; then
+    echo "Files already exist in $readysync_roms_dir. No need to download."
+else
+    # Create the temporary directory if it doesn't exist
+    mkdir -p "$readysync_tmp_dir"
+
+    # Download the zip file to the temporary directory
+    wget -O "$readysync_tmp_dir/roms.zip" "$readysync_roms_url"
+
+    # Check if the download was successful
+    if [ $? -ne 0 ]; then
+        echo "Failed to download the file."
+        # You may choose to exit here or just log the error and continue.
+    fi
+
+    # Extract the downloaded zip file to the destination directory
+    unzip -o "$readysync_tmp_dir/roms.zip" -d "$readysync_roms_dir"
+
+    # Check if the extraction was successful
+    if [ $? -ne 0 ]; then
+        echo "Failed to extract the file."
+        # You may choose to exit here or just log the error and continue.
+    fi
+fi
+
+# Clean up the temporary zip file if it exists
+rm -f "$readysync_tmp_dir/roms.zip"
+
+# Copy all folders and files from the roms directory to the destination directory
+mkdir -p "$readysync_roms_dest"
+cp -r "$readysync_roms_dir/"* "$readysync_roms_dest/"
+
+echo "Download and extraction completed successfully, and files copied to $readysync_roms_dest."
+
         # Sleep to let everything sync up
-        sleep 10
+        sleep 5
 
         # Replace the following line with the actual command to start emulation station
         chvt 1; es start
