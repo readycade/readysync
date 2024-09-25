@@ -74,7 +74,6 @@ mkdir -p /recalbox/share/roms/readystream
 mkdir -p /recalbox/share/roms/readystream/tmp
 
 # Wait for internet to connect
-sleep 2
 # Define the URLs and directories
 readysync_roms_url="https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms.zip"
 readysync_tmp_dir="/recalbox/share/userscripts/.config/readystream/tmp"
