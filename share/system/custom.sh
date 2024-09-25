@@ -72,6 +72,10 @@ mkdir -p /recalbox/share/userscripts/.config/readystream/roms
 # Define the systemlist directory
 systemlist_dir="/recalbox/share/userscripts/.config/.emulationstation"
 
+# Initialize online_mode_enabled as false
+echo "false" > "$online_mode_flag_file"
+echo "online_mode_enabled = false"
+
 # Download systemlist-backup.xml
 if [ -f "$systemlist_dir/systemlist-backup.xml" ]; then
     echo "systemlist-backup.xml already exists. Skipping download."
@@ -105,10 +109,6 @@ else
     fi
 fi
 
-# Initialize online_mode_enabled as false
-echo "false" > "$online_mode_flag_file"
-echo "online_mode_enabled = false"
-
 # Function to switch to online mode
 online_mode() {
     echo "Online Mode Selected..."
@@ -121,27 +121,40 @@ online_mode() {
 
     echo "Performing actions specific to Online Mode..."
 
-    # Online Mode
-    if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
+# Online Mode
+if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
+    # Backup the existing systemlist.xml
+    echo "Backing up systemlist.xml..."
+    backup_success=false
+    for source in "$offline_systemlist" "$offline_systemlist2"; do
+        if cp "$source" "$offline_backup"; then
+            echo "Backup created: $offline_backup"
+            backup_success=true
+            break
+        else
+            echo "Failed to backup $source."
+        fi
+    done
 
-        # Backup the existing systemlist.xml
-        echo "Backing up systemlist.xml..."
-        for source in "$offline_systemlist" "$offline_systemlist2"; do
-    if cp "$source" "$offline_backup"; then
-        break
+    if [ "$backup_success" = false ]; then
+        echo "Error: Backup failed for both sources."
+        exit 1  # Exit if backup fails
     fi
-done
 
-        echo "Backup created: $offline_backup"
-
-        # Overwrite systemlist.xml with the online version
-        echo "Overwriting systemlist.xml with the Online version..."
-        for destination in "$offline_systemlist" "$offline_systemlist2"; do
-    cp "$offline_online" "$destination"
-done
-        echo "Online version applied."
-
-        # Move the contents to online directory
+    # Overwrite systemlist.xml with the online version
+    echo "Overwriting systemlist.xml with the Online version..."
+    for destination in "$offline_systemlist" "$offline_systemlist2"; do
+        if cp "$offline_online" "$destination"; then
+            echo "$destination overwritten with the online version."
+        else
+            echo "Failed to overwrite $destination."
+        fi
+    done
+    echo "Online version applied."
+else
+    echo "Error: Required files are missing."
+    exit 1  # Exit if files are missing
+fi
 
 # DISCLAIMER: This WILL download these enabled romsets onto your machine!!!
 # Disabled romsets will get deleted upon reboot.
