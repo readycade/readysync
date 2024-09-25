@@ -67,27 +67,44 @@ sanitize_dir_name() {
 
 mkdir -p /recalbox/share/userscripts/.config/.emulationstation
 mkdir -p /recalbox/share/userscripts/.config/readystream
+mkdir -p /recalbox/share/userscripts/.config/readystream/roms
+
+# Define the systemlist directory
+systemlist_dir="/recalbox/share/userscripts/.config/.emulationstation"
 
 # Download systemlist-backup.xml
-if wget https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/.emulationstation/systemlist-backup.xml -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml; then
-    echo "systemlist-backup.xml downloaded successfully."
+if [ -f "$systemlist_dir/systemlist-backup.xml" ]; then
+    echo "systemlist-backup.xml already exists. Skipping download."
 else
-    echo "Failed to download systemlist-backup.xml."
+    if wget https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-backup.xml -O "$systemlist_dir/systemlist-backup.xml"; then
+        echo "systemlist-backup.xml downloaded successfully."
+    else
+        echo "Failed to download systemlist-backup.xml."
+    fi
 fi
 
 # Download systemlist-online.xml
-if wget https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/.emulationstation/systemlist-online.xml -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml; then
-    echo "systemlist-online.xml downloaded successfully."
+if [ -f "$systemlist_dir/systemlist-online.xml" ]; then
+    echo "systemlist-online.xml already exists. Skipping download."
 else
-    echo "Failed to download systemlist-online.xml."
+    if wget https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-online.xml -O "$systemlist_dir/systemlist-online.xml"; then
+        echo "systemlist-online.xml downloaded successfully."
+    else
+        echo "Failed to download systemlist-online.xml."
+    fi
 fi
 
 # Download systemlist-offline.xml
-if wget https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/.emulationstation/systemlist-offline.xml -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml; then
-    echo "systemlist-offline.xml downloaded successfully."
+if [ -f "$systemlist_dir/systemlist-offline.xml" ]; then
+    echo "systemlist-offline.xml already exists. Skipping download."
 else
-    echo "Failed to download systemlist-offline.xml."
+    if wget https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-offline.xml -O "$systemlist_dir/systemlist-offline.xml"; then
+        echo "systemlist-offline.xml downloaded successfully."
+    else
+        echo "Failed to download systemlist-offline.xml."
+    fi
 fi
+
 
 # Initialize online_mode_enabled as false
 echo "false" > "$online_mode_flag_file"
@@ -127,20 +144,21 @@ done
 
         # Move the contents to online directory
 
-        # Create the destination directory
+        # Create the necessary directories
         mkdir -p /recalbox/share/userscripts/.config/readystream/roms
+        mkdir -p /recalbox/share/userscripts/readystream/tmp
 
         # Download the zip archive of the repository
-        wget https://github.com/readycade/readysync/archive/refs/heads/master.zip -O /tmp/readysync.zip
+        wget https://github.com/readycade/readysync/archive/refs/heads/master.zip -O /recalbox/share/userscripts/readystream/tmp/readysync.zip
 
-        # Extract only the relevant folder to the destination
-        unzip /tmp/readysync.zip "readysync-master/share/userscripts/.config/readystream/roms/*" -d /tmp
+        # Extract only the relevant folder to the temporary directory
+        unzip /recalbox/share/userscripts/readystream/tmp/readysync.zip "readysync-master/share/userscripts/.config/readystream/roms/*" -d /recalbox/share/userscripts/readystream/tmp
 
         # Move the extracted files to the target directory
-        mv /tmp/readysync-master/share/userscripts/.config/readystream/roms/* /recalbox/share/userscripts/.config/readystream/roms/
+        mv /recalbox/share/userscripts/readystream/tmp/readysync-master/share/userscripts/.config/readystream/roms/* /recalbox/share/userscripts/.config/readystream/roms/
 
         # Clean up temporary files
-        rm -rf /tmp/readysync.zip /tmp/readysync-master
+        rm -rf /recalbox/share/userscripts/readystream/tmp/readysync.zip /recalbox/share/userscripts/readystream/tmp/readysync-master
 
         cp -r /recalbox/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
         echo "Copied ALL gamelists.xml to $destination directory."
@@ -154,7 +172,7 @@ fi
 # Syntax: console_name=enabled|disabled
 declare -A console_status
 console_status=(
-    [atari800]=enabled
+    [atari800]=disabled
     [pc88]=enabled
     [pc98]=enabled
     [zx81]=enabled
@@ -165,14 +183,14 @@ console_status=(
     [dragon]=enabled
     [bk]=enabled
     [samcoupe]=enabled
-    [thomson]=enabled
+    [thomson]=disabled
     [ti994a]=enabled
     [trs80coco]=enabled
     [vg5000]=enabled
     [zmachine]=enabled
-    [amstradcpc]=enabled
-    [gx4000]=enabled
-    [zxspectrum]=enabled
+    [amstradcpc]=disabled
+    [gx4000]=disabled
+    [zxspectrum]=disabled
     [pet]=disabled
 )
 
