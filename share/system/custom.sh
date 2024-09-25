@@ -66,21 +66,21 @@ sanitize_dir_name() {
 }
 
 # Download systemlist-backup.xml
-if wget https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-backup.xml -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml; then
+if wget https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/.emulationstation/systemlist-backup.xml -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml; then
     echo "systemlist-backup.xml downloaded successfully."
 else
     echo "Failed to download systemlist-backup.xml."
 fi
 
 # Download systemlist-online.xml
-if wget https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-online.xml -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml; then
+if wget https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/.emulationstation/systemlist-online.xml -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml; then
     echo "systemlist-online.xml downloaded successfully."
 else
     echo "Failed to download systemlist-online.xml."
 fi
 
 # Download systemlist-offline.xml
-if wget https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-offline.xml -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml; then
+if wget https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/.emulationstation/systemlist-offline.xml -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml; then
     echo "systemlist-offline.xml downloaded successfully."
 else
     echo "Failed to download systemlist-offline.xml."
@@ -329,7 +329,7 @@ fi
 #rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 
 # Attempt to download rclone2.conf
-if wget https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclone2.conf -O /recalbox/share/system/rclone2.conf; then
+if wget https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclone2.conf -O /recalbox/share/system/rclone2.conf; then
     echo "rclone2.conf downloaded successfully."
     sleep 2
     
@@ -367,7 +367,7 @@ fi
 #rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 
 # Attempt to download rclone.conf
-if wget https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclone.conf -O /recalbox/share/system/rclone.conf; then
+if wget https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclone.conf -O /recalbox/share/system/rclone.conf; then
     echo "rclone.conf downloaded successfully."
     sleep 2
     
