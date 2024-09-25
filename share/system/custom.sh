@@ -65,6 +65,27 @@ sanitize_dir_name() {
   tr -cd '[:alnum:]' <<< "$1"
 }
 
+# Download systemlist-backup.xml
+if wget https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-backup.xml -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-backup.xml; then
+    echo "systemlist-backup.xml downloaded successfully."
+else
+    echo "Failed to download systemlist-backup.xml."
+fi
+
+# Download systemlist-online.xml
+if wget https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-online.xml -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-online.xml; then
+    echo "systemlist-online.xml downloaded successfully."
+else
+    echo "Failed to download systemlist-online.xml."
+fi
+
+# Download systemlist-offline.xml
+if wget https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-offline.xml -O /recalbox/share/userscripts/.config/.emulationstation/systemlist-offline.xml; then
+    echo "systemlist-offline.xml downloaded successfully."
+else
+    echo "Failed to download systemlist-offline.xml."
+fi
+
 # Initialize online_mode_enabled as false
 echo "false" > "$online_mode_flag_file"
 echo "online_mode_enabled = false"
@@ -306,9 +327,21 @@ fi
 
 # Mount myrient with rclone
 #rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-wget https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclone2.conf -O /recalbox/share/system/rclone.conf
-sleep 2
-rclone mount myrient:  /recalbox/share/rom --config "/recalbox/share/system/rclone2.conf" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
+
+# Attempt to download rclone2.conf
+if wget https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclone2.conf -O /recalbox/share/system/rclone2.conf; then
+    echo "rclone2.conf downloaded successfully."
+    sleep 2
+    
+    # Attempt to mount rclone myrient
+    if rclone mount myrient: /recalbox/share/rom --config "/recalbox/share/system/rclone2.conf" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
+        echo "Rclone mounted myrient successfully."
+    else
+        echo "Failed to mount myrient."
+    fi
+else
+    echo "Failed to download rclone2.conf."
+fi
 
 #rclone mount nointro: /recalbox/share/rom/No-Intro --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 #rclone mount redump: /recalbox/share/rom/Redump --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
@@ -332,9 +365,21 @@ fi
 
 # Mount thumbnails with rclone
 #rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-wget https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclone.conf -O /recalbox/share/system/rclone.conf
-sleep 2
-rclone mount thumbnails: --config "/recalbox/share/system/rclone.conf" /recalbox/share/thumbs --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate
+
+# Attempt to download rclone.conf
+if wget https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclone.conf -O /recalbox/share/system/rclone.conf; then
+    echo "rclone.conf downloaded successfully."
+    sleep 2
+    
+    # Attempt to mount rclone thumbnails
+    if rclone mount thumbnails: --config "/recalbox/share/system/rclone.conf" /recalbox/share/thumbs --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
+        echo "Rclone mounted thumbnails successfully."
+    else
+        echo "Failed to mount thumbnails."
+    fi
+else
+    echo "Failed to download rclone.conf."
+fi
 
 # Mount thumbnails with httpdirfs
 #httpdirfs -d -f -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://thumbnails.libretro.com/ /recalbox/share/thumbs
