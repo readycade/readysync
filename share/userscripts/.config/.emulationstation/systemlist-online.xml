@@ -402,7 +402,10 @@
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2001-09" manufacturer="Nintendo" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
       <emulator name="dolphin">
-        <core name="dolphin" priority="1" extensions=".ciso .gc .gcm .gcz .iso .rvz .wia" netplay="1" softpatching="0" compatibility="good" speed="good" crt.available="0"/>
+        <core name="dolphin" priority="2" extensions=".ciso .gc .gcm .gcz .iso .rvz .wia" netplay="1" softpatching="0" compatibility="good" speed="good" crt.available="0"/>
+      </emulator>
+	  <emulator name="libretro">
+        <core name="dolphin" priority="1" extensions=".ciso .gc .gcm .gcz .iso .rvz .wia" netplay="0" softpatching="0" compatibility="good" speed="good" crt.available="0"/>
       </emulator>
     </emulatorList>
   </system>
@@ -730,7 +733,7 @@
     </emulatorList>
   </system>
   <system uuid="ac0f2799-9a45-4acb-b3ed-f9f954f98c5c" name="nds" fullname="Nintendo DS">
-    <descriptor path="/recalbox/share/rom/No-Intro/Nintendo - Nintendo DS (Decrypted)" theme="nds" extensions=".7z .nds .bin .zip" icon="$F267" downloader="0" command="umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.nds -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Nintendo - Nintendo DS (Decrypted)" theme="nds" extensions=".7z .nds .bin .zip" icon="$F267" downloader="0" command="head %ROM%; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom /iso/*.nds -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%"/>
     <scraper screenscraper="15"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2004-11" manufacturer="Nintendo" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -1276,12 +1279,15 @@
     </emulatorList>
   </system>
   <system uuid="f15edcf2-3154-40ba-8648-6e6d818b92e1" name="wii" fullname="Wii">
-    <descriptor path="/recalbox/share/rom/Redump/Nintendo - Wii - NKit RVZ [zstd-19-128k]" theme="wii" extensions=".wbfs .iso .ciso .wia .rvz .gcz .zip" icon="$F263" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.wbfs$|\.ciso$|\.wia$|\.rvz$|\.gcz$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/Redump/Nintendo - Wii - NKit RVZ [zstd-19-128k]" theme="wii" extensions=".wbfs .iso .ciso .wia .rvz .gcz .zip" icon="$F263" downloader="0" command='head %ROM%; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.wbfs$|\.ciso$|\.wia$|\.rvz$|\.gcz$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="16"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2006-11" manufacturer="Nintendo" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
       <emulator name="dolphin">
-        <core name="dolphin" priority="1" extensions=".ciso .gcz .iso .rvz .wbfs .wia .zip" netplay="1" softpatching="0" compatibility="good" speed="good" crt.available="0"/>
+        <core name="dolphin" priority="2" extensions=".ciso .gcz .iso .rvz .wbfs .wia .zip" netplay="1" softpatching="0" compatibility="good" speed="good" crt.available="0"/>
+      </emulator>
+	  <emulator name="libretro">
+        <core name="dolphin" priority="1" extensions=".ciso .gc .gcm .gcz .iso .rvz .wbfs .wia .zip" netplay="0" softpatching="0" compatibility="good" speed="good" crt.available="0"/>
       </emulator>
     </emulatorList>
   </system>
