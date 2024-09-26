@@ -425,9 +425,27 @@ fi
 #rclone mount redump: /recalbox/share/rom/Redump --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 #rclone mount tosec: /recalbox/share/rom/TOSEC --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 
+# Attempt to download rclone4.conf
+if [ ! -f /recalbox/share/system/rclonemyrient.conf ]; then
+    if wget -q --retry-connrefused --tries=3 https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclone4.conf -O /recalbox/share/system/rclone4.conf; then
+        echo "rclone4.conf downloaded successfully."
+    else
+        echo "Failed to download rclone4.conf after 3 attempts."
+    fi
+else
+    echo "rclone4.conf already exists, skipping download."
+fi
+
+    # Attempt to mount rclonemyrient
+    if rclone mount myrient: /recalbox/share/rom --config "/recalbox/share/system/rclone4.conf" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
+        echo "Rclone mounted old-dos.ru successfully."
+    else
+        echo "Failed to mount myrient."
+    fi
 
 echo "Mounting romsets..."
 echo "(No-Intro, Redump, TOSEC)..."
+echo "(Old-Dos.ru)..."
 
 #wait
 
