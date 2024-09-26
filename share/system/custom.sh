@@ -529,14 +529,14 @@ else
     fi
 fi
 
-# Clean up the temporary zip file if it exists
-rm -f "$readysync_tmp_dir/roms.zip"
+        # Clean up the temporary zip file if it exists
+        rm -f "$readysync_tmp_dir/roms.zip"
 
-# Copy all folders and files from the roms directory to the destination directory
-mkdir -p "$readysync_roms_dest"
-cp -r "$readysync_roms_dir/"* "$readysync_roms_dest/"
+        # Copy all folders and files from the roms directory to the destination directory
+        mkdir -p "$readysync_roms_dest"
+        cp -r "$readysync_roms_dir/"* "$readysync_roms_dest/"
 
-echo "Download and extraction completed successfully, and files copied to $readysync_roms_dest."
+        echo "Download and extraction completed successfully, and files copied to $readysync_roms_dest."
 
         # Sleep to let everything sync up
         sleep 5
