@@ -621,7 +621,6 @@ monitor_keyboard_input() {
 
                 # Call online_mode after killing evtest
                 online_mode
-                exit 0
             fi
         done &
     done
@@ -652,3 +651,4 @@ wait "$monitor_pid"
 # After the monitor process finishes, proceed with further actions here if needed
 # For example:
 echo "Script completed."
+exit 0
