@@ -429,7 +429,7 @@ fi
 echo "Mounting romsets..."
 echo "(No-Intro, Redump, TOSEC)..."
 
-wait
+#wait
 
 # Wait for a brief moment for the mount to occur
 sleep 5
@@ -445,14 +445,14 @@ fi
 #rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 
 # Attempt to download rclone.conf
-if [ ! -f /recalbox/share/system/rclonemyrient.conf ]; then
-    if wget -q --retry-connrefused --tries=3 https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclonemyrient.conf -O /recalbox/share/system/rclonemyrient.conf; then
+if [ ! -f /recalbox/share/system/rclone.conf ]; then
+    if wget -q --retry-connrefused --tries=3 https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclone.conf -O /recalbox/share/system/rclone.conf; then
         echo "rclonemyrient.conf downloaded successfully."
     else
         echo "Failed to download rclonemyrient.conf after 3 attempts."
     fi
 else
-    echo "rclonemyrient.conf already exists, skipping download."
+    echo "rclone.conf already exists, skipping download."
 fi
 
     # Attempt to mount rclone thumbnails
