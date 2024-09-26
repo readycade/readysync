@@ -652,3 +652,4 @@ wait "$monitor_pid"
 # For example:
 echo "Script completed."
 exit 0
+
