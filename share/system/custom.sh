@@ -404,7 +404,6 @@ fi
 #rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 
 # Attempt to download rclone2.conf
-sleep 2
 if wget https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclonemyrient.conf -O /recalbox/share/system/rclonemyrient.conf; then
     echo "rclonemyrient.conf downloaded successfully."
     
@@ -538,13 +537,13 @@ install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/sh
 
 #fi
 
-        # Sleep to let everything sync up
-        sleep 5
+    # Sleep to let everything sync up
+    sleep 5
 
-        # Replace the following line with the actual command to start emulation station
-        chvt 1; es start
+    # Replace the following line with the actual command to start emulation station
+    chvt 1; es start
 
-exit 0
+    exit 0
 }
 
 # Function to switch to offline mode
@@ -653,4 +652,3 @@ wait "$monitor_pid"
 # After the monitor process finishes, proceed with further actions here if needed
 # For example:
 echo "Script completed."
-exit 0
