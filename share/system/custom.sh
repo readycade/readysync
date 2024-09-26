@@ -403,9 +403,9 @@ fi
 # Mount myrient with rclone
 #rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 
-# Attempt to download rclone2.conf
+# Attempt to download rclonemyrient.conf
 if [ ! -f /recalbox/share/system/rclonemyrient.conf ]; then
-    if wget -quiet --retry-connrefused --tries=3 https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclonemyrient.conf -O /recalbox/share/system/rclonemyrient.conf; then
+    if wget -q --retry-connrefused --tries=3 https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclonemyrient.conf -O /recalbox/share/system/rclonemyrient.conf; then
         echo "rclonemyrient.conf downloaded successfully."
     else
         echo "Failed to download rclonemyrient.conf after 3 attempts."
@@ -446,7 +446,7 @@ fi
 
 # Attempt to download rclone.conf
 if [ ! -f /recalbox/share/system/rclonemyrient.conf ]; then
-    if wget -quiet --retry-connrefused --tries=3 https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclonemyrient.conf -O /recalbox/share/system/rclonemyrient.conf; then
+    if wget -q --retry-connrefused --tries=3 https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclonemyrient.conf -O /recalbox/share/system/rclonemyrient.conf; then
         echo "rclonemyrient.conf downloaded successfully."
     else
         echo "Failed to download rclonemyrient.conf after 3 attempts."
