@@ -603,8 +603,8 @@ check_event() {
 
 # Function to monitor keyboard input events
 monitor_keyboard_input() {
-    # Temporary file to track button press state
-    button_pressed_file=$(mktemp)
+    # Flag to track if any button press is detected
+    button_pressed=false
 
     # Loop through events /dev/input/event3 to /dev/input/event12
     for dev in $(seq 3 12); do
@@ -618,8 +618,8 @@ monitor_keyboard_input() {
                 echo "true" > "$online_mode_flag_file"
                 echo "online_mode_enabled set to true"
 
-                # Indicate that a button has been pressed
-                echo "pressed" > "$button_pressed_file"
+                # Set the button_pressed flag to true
+                button_pressed=true
 
                 # Kill evtest before calling online_mode
                 echo "Killing evtest"
@@ -635,15 +635,26 @@ monitor_keyboard_input() {
     sleep "$monitor_duration"
 
     # If no button press was detected, switch to offline mode
-    if [ ! -f "$button_pressed_file" ]; then
+    if [ "$button_pressed" = false ]; then
         echo "No button press detected. Switching to Offline Mode..."
         # Ensure evtest is killed before launching offline_mode
         pkill -9 evtest
         offline_mode
     fi
 
-    # Clean up temporary file
-    rm -f "$button_pressed_file"
-
     exit 0
 }
+
+# Start monitoring keyboard input in the background
+monitor_keyboard_input &
+
+# Capture the PID of the background process
+monitor_pid=$!
+
+# Wait for the background process to finish
+wait "$monitor_pid"
+
+# After the monitor process finishes, proceed with further actions here if needed
+# For example:
+echo "Script completed."
+
