@@ -550,7 +550,6 @@ install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/sh
     # Replace the following line with the actual command to start emulation station
     chvt 1; es start
 
-    exit 0
 }
 
 # Function to switch to offline mode
