@@ -653,3 +653,4 @@ wait "$monitor_pid"
 # After the monitor process finishes, proceed with further actions here if needed
 # For example:
 echo "Script completed."
+exit 0
