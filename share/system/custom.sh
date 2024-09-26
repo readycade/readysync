@@ -636,7 +636,7 @@ monitor_keyboard_input() {
     sleep "$monitor_duration"
 
     # If no button press was detected, switch to offline mode
-    if ! $button_pressed; then
+    if button_pressed=false; then
         echo "No button press detected. Switching to Offline Mode..."
         # Ensure evtest is killed before launching offline_mode
         pkill -9 evtest
