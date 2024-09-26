@@ -80,12 +80,12 @@
     </emulatorList>
   </system>
   <system uuid="3c290260-a94c-47e4-a8f5-cd47d1c0dad6" name="amigacdtv" fullname="Amiga CDTV">
-    <descriptor path="/recalbox/share/rom/Redump/Commodore - Amiga CDTV" theme="amigacdtv" extensions=".mds .chd .ccd .iso .m3u .uae .zip .nrg .cue" icon="$F294" downloader="0" command='head %ROM; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.mds$|\.chd$|\.ccd$|\.m3u$|\.uae$|\.nrg$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/Redump/Commodore - Amiga CDTV" theme="amigacdtv" extensions=".mds .chd .ccd .iso .m3u .uae .zip .nrg .bin .cue" icon="$F294" downloader="0" command='head %ROM; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.bin$|\.cue$|\.mds$|\.chd$|\.ccd$|\.m3u$|\.uae$|\.nrg$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="129"/>
     <properties type="console" pad="mandatory" keyboard="optional" mouse="optional" lightgun="no" releasedate="1991-08" manufacturer="Commodore" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
       <emulator name="libretro">
-        <core name="puae" priority="3" extensions=".ccd .chd .cue .iso .mds .m3u .nrg .uae .zip" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="0"/>
+        <core name="puae" priority="3" extensions=".ccd .chd .bin .cue .iso .mds .m3u .nrg .uae .zip" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="0"/>
       </emulator>
     </emulatorList>
   </system>
@@ -257,13 +257,13 @@
     </emulatorList>
   </system>
   <system uuid="1e0ae4a3-b65e-40f2-b3e3-01fd2576bb8e" name="cdi" fullname="Philips CD-I">
-    <descriptor path="/recalbox/share/rom/Redump/Philips - CD-i" theme="cdi" extensions=".chd .cmd .iso .zip .cue" icon="$F29E" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.chd$|\.cmd$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/Redump/Philips - CD-i" theme="cdi" extensions=".chd .cmd .iso .zip .bin .cue" icon="$F29E" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.bin$|\.cue$|\.chd$|\.cmd$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="133"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="optional" lightgun="optional" releasedate="1991-10" manufacturer="Phillips" retroachievements="0" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
       <emulator name="libretro">
-        <core name="cdi2015" priority="1" extensions=".chd .cmd .zip" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
-        <core name="same_cdi" priority="2" extensions=".chd .iso .cue" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
+        <core name="cdi2015" priority="2" extensions=".chd .cmd .zip .bin .cue" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
+        <core name="same_cdi" priority="1" extensions=".chd .iso .bin .cue" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
       </emulator>
     </emulatorList>
   </system>
@@ -471,12 +471,12 @@
     </emulatorList>
   </system>
   <system uuid="a74b3722-bb28-4a96-b92c-352638a88238" name="gw" fullname="Game and Watch">
-    <descriptor path="/recalbox/share/rom/No-Intro/Nintendo - Game &amp; Watch" theme="gw" extensions=".zip .7z .mgw" icon="$F278" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Nintendo - Game &amp; Watch" theme="gw" extensions=".zip .7z .mgw .bin" icon="$F278" downloader="0"/>
     <scraper screenscraper="52"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1980-04" manufacturer="Nintendo" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
       <emulator name="libretro">
-        <core name="gw" priority="1" extensions=".mgw .zip .7z" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
+        <core name="gw" priority="1" extensions=".mgw .zip .7z .bin" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
       </emulator>
     </emulatorList>
   </system>
@@ -511,7 +511,7 @@
     </emulatorList>
   </system>
   <system uuid="e92e3aca-b93c-4a0b-91ed-af85fee79da4" name="jaguar" fullname="Atari Jaguar">
-    <descriptor path="/recalbox/share/rom/No-Intro/Atari - Jaguar (J64)" theme="jaguar" extensions=".abs .jag .bin .j64 .cof .zip .prg .rom .7z" icon="$F2af" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.abs$|\.jag$|\.bin$|\.j64$|\.cof$|\.prg$|\.rom$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Atari - Jaguar (J64)" theme="jaguar" extensions=".abs .jag .bin .j64 .cof .zip .prg .rom .7z" icon="$F2af" downloader="0"/>
     <scraper screenscraper="27"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1993-11" manufacturer="Atari" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
@@ -917,12 +917,12 @@
     </emulatorList>
   </system>
   <system uuid="4557dd71-973e-4e6f-a329-fd0ffae5c9e5" name="pico8" fullname="PICO-8">
-    <descriptor path="/recalbox/share/rom/No-Intro/Sega - PICO" theme="pico8" extensions=".zip .png .7z .p8" icon="$F2c4" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Sega - PICO" theme="pico8" extensions=".zip .png .7z .p8 .gen .md .pco" icon="$F2c4" downloader="0"/>
     <scraper screenscraper="234"/>
     <properties type="fantasy" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2015-04" manufacturer="virtual" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
       <emulator name="libretro">
-        <core name="retro8" priority="1" extensions=".p8 .png .zip .7z" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
+        <core name="retro8" priority="1" extensions=".p8 .png .zip .7z .gen .md .pco" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
       </emulator>
     </emulatorList>
   </system>
@@ -937,15 +937,15 @@
     </emulatorList>
   </system>
   <system uuid="4dd5637f-efe5-4f77-918c-f18b0873094d" name="ps2" fullname="Sony Playstation 2">
-	<descriptor path="/recalbox/share/rom/Redump/Sony - PlayStation 2" theme="ps2" extensions=".chd .img .gz .cso .bin .iso .mdf .nrg .cue .zip" icon="$F2c8" downloader="0" command='head %ROM%; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+	<descriptor path="/recalbox/share/rom/Redump/Sony - PlayStation 2" theme="ps2" extensions=".chd .img .gz .cso .bin .iso .mdf .nrg .cue .zip" icon="$F2c8" downloader="0" command='head %ROM%; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.bin$|\.chd$|\.img$|\.mdf$|\.gz$|\.cso$|\.nrg$|\.cue$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="58"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2000-03" manufacturer="Sony" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
       <emulator name="pcsx2">
-        <core name="pcsx2" priority="1" extensions=".bin .chd .cso .gz .img .iso .mdf .nrg .cue" netplay="0" softpatching="0" compatibility="good" speed="good" crt.available="0"/>
+        <core name="pcsx2" priority="2" extensions=".bin .chd .cso .gz .img .iso .mdf .nrg .cue" netplay="0" softpatching="0" compatibility="good" speed="good" crt.available="0"/>
       </emulator>
       <emulator name="libretro">
-        <core name="pcsx2" priority="2" extensions=".bin .chd .cso .gz .img .iso .mdf .nrg .cue" netplay="0" softpatching="0" compatibility="good" speed="good" crt.available="0"/>
+        <core name="pcsx2" priority="1" extensions=".bin .chd .cso .gz .img .iso .mdf .nrg .cue" netplay="0" softpatching="0" compatibility="good" speed="good" crt.available="0"/>
       </emulator>
     </emulatorList>
   </system>
@@ -955,10 +955,10 @@
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2004-12" manufacturer="Sony" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
       <emulator name="ppsspp">
-        <core name="ppsspp" priority="1" extensions=".cso .elf .iso .pbp .prx" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
+        <core name="ppsspp" priority="2" extensions=".cso .elf .iso .pbp .prx" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
       </emulator>
       <emulator name="libretro">
-        <core name="ppsspp" priority="2" extensions=".cso .elf .iso .pbp .prx" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="0"/>
+        <core name="ppsspp" priority="1" extensions=".cso .elf .iso .pbp .prx" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="0"/>
       </emulator>
     </emulatorList>
   </system>
@@ -970,8 +970,8 @@
       <emulator name="libretro">
         <core name="pcsx_rearmed" priority="2" extensions=".bin .ccd .chd .cue .iso .m3u .mds .pbp" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
         <core name="mednafen_psx" priority="3" extensions=".ccd .chd .cue .m3u .pbp .toc" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="0"/>
-        <core name="mednafen_psx_hw" priority="0" extensions=".ccd .chd .cue .m3u .pbp .toc" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="0"/>
-        <core name="swanstation" priority="5" extensions=".ccd .chd .cue .m3u .pbp .toc" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
+        <core name="mednafen_psx_hw" priority="1" extensions=".ccd .chd .cue .m3u .pbp .toc" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="0"/>
+        <core name="swanstation" priority="0" extensions=".ccd .chd .cue .m3u .pbp .toc" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
       </emulator>
       <emulator name="duckstation">
         <core name="duckstation" priority="6" extensions=".bin .chd .cue .ecm .img .iso .m3u .mds .pbp" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="0"/>
@@ -1181,7 +1181,7 @@
     <properties type="computer" pad="optional" keyboard="mandatory" mouse="optional" lightgun="no" releasedate="1981-06" manufacturer="Texas Instrument" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
       <emulator name="ti99sim">
-        <core name="ti99sim" priority="1" extensions=".ctg" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
+        <core name="ti99sim" priority="1" extensions=".ctg .dsk" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
       </emulator>
     </emulatorList>
   </system>
@@ -1281,7 +1281,7 @@
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2006-11" manufacturer="Nintendo" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
       <emulator name="dolphin">
-        <core name="dolphin" priority="1" extensions=".ciso .gcz .iso .rvz .wbfs .wia" netplay="1" softpatching="0" compatibility="good" speed="good" crt.available="0"/>
+        <core name="dolphin" priority="1" extensions=".ciso .gcz .iso .rvz .wbfs .wia .zip" netplay="1" softpatching="0" compatibility="good" speed="good" crt.available="0"/>
       </emulator>
     </emulatorList>
   </system>
