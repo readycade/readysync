@@ -461,9 +461,6 @@ fi
     else
         echo "Failed to mount thumbnails."
     fi
-else
-    echo "Failed to download rclone.conf."
-fi
 
 # Mount thumbnails with httpdirfs
 #httpdirfs -d -f -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://thumbnails.libretro.com/ /recalbox/share/thumbs
