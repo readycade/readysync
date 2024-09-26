@@ -126,10 +126,10 @@ echo "online_mode_enabled = false"
 if [ -f "$systemlist_dir/systemlist-backup.xml" ]; then
     echo "systemlist-backup.xml already exists. Skipping download."
 else
-    if wget https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-backup.xml -O "$systemlist_dir/systemlist-backup.xml"; then
+    if wget --tries=3 https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-backup.xml -O "$systemlist_dir/systemlist-backup.xml"; then
         echo "systemlist-backup.xml downloaded successfully."
     else
-        echo "Failed to download systemlist-backup.xml."
+        echo "Failed to download systemlist-backup.xml after 3 attempts."
     fi
 fi
 
@@ -137,10 +137,10 @@ fi
 if [ -f "$systemlist_dir/systemlist-online.xml" ]; then
     echo "systemlist-online.xml already exists. Skipping download."
 else
-    if wget https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-online.xml -O "$systemlist_dir/systemlist-online.xml"; then
+    if wget --tries=3 https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-online.xml -O "$systemlist_dir/systemlist-online.xml"; then
         echo "systemlist-online.xml downloaded successfully."
     else
-        echo "Failed to download systemlist-online.xml."
+        echo "Failed to download systemlist-online.xml after 3 attempts."
     fi
 fi
 
@@ -148,10 +148,10 @@ fi
 if [ -f "$systemlist_dir/systemlist-offline.xml" ]; then
     echo "systemlist-offline.xml already exists. Skipping download."
 else
-    if wget https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-offline.xml -O "$systemlist_dir/systemlist-offline.xml"; then
+    if wget --tries=3 https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-offline.xml -O "$systemlist_dir/systemlist-offline.xml"; then
         echo "systemlist-offline.xml downloaded successfully."
     else
-        echo "Failed to download systemlist-offline.xml."
+        echo "Failed to download systemlist-offline.xml after 3 attempts."
     fi
 fi
 
@@ -404,9 +404,16 @@ fi
 #rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 
 # Attempt to download rclone2.conf
-if wget https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclonemyrient.conf -O /recalbox/share/system/rclonemyrient.conf; then
-    echo "rclonemyrient.conf downloaded successfully."
-    
+if [ ! -f /recalbox/share/system/rclonemyrient.conf ]; then
+    if wget --tries=3 https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclonemyrient.conf -O /recalbox/share/system/rclonemyrient.conf; then
+        echo "rclonemyrient.conf downloaded successfully."
+    else
+        echo "Failed to download rclonemyrient.conf after 3 attempts."
+    fi
+else
+    echo "rclonemyrient.conf already exists, skipping download."
+fi
+
     # Attempt to mount rclonemyrient
     if rclone mount myrient: /recalbox/share/rom --config "/recalbox/share/system/rclonemyrient.conf" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
         echo "Rclone mounted myrient successfully."
@@ -441,10 +448,16 @@ fi
 #rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 
 # Attempt to download rclone.conf
-if wget https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclone.conf -O /recalbox/share/system/rclone.conf; then
-    echo "rclone.conf downloaded successfully."
-    sleep 1
-    
+if [ ! -f /recalbox/share/system/rclonemyrient.conf ]; then
+    if wget --tries=3 https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclonemyrient.conf -O /recalbox/share/system/rclonemyrient.conf; then
+        echo "rclonemyrient.conf downloaded successfully."
+    else
+        echo "Failed to download rclonemyrient.conf after 3 attempts."
+    fi
+else
+    echo "rclonemyrient.conf already exists, skipping download."
+fi
+
     # Attempt to mount rclone thumbnails
     if rclone mount thumbnails: --config "/recalbox/share/system/rclone.conf" /recalbox/share/thumbs --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
         echo "Rclone mounted thumbnails successfully."
