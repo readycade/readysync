@@ -443,9 +443,7 @@ else
 fi
 
     # Attempt to mount rclone4.conf
-    #if rclone mount olddos: /recalbox/share/dos --config "/recalbox/share/system/rclone4.conf" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
-    if rclone mount olddos: /recalbox/share/dos --config "/recalbox/share/system/rclone4.conf" --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
-
+    if rclone mount olddos: /recalbox/share/dos --config "/recalbox/share/system/rclone4.conf" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
         echo "Rclone mounted old-dos.ru successfully."
     else
         echo "Failed to mount olddos."
