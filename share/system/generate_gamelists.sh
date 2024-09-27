@@ -64,11 +64,11 @@ update_or_add_games() {
 }
 
 # Example usage:
-source_directory="/recalbox/share/mame"
-gamelist_file="/recalbox/share/roms/readystream/mame/gamelist.xml"
-log_file="/recalbox/share/roms/readystream/mame/gamelist.log"
+source_directory="/recalbox/share/neogeo"
+gamelist_file="/recalbox/share/roms/readystream/neogeo/gamelist.xml"
+log_file="/recalbox/share/roms/readystream/neogeo/gamelist.log"
 
-mkdir -p "/recalbox/share/roms/readystream/mame/"
+mkdir -p "/recalbox/share/roms/readystream/neogeo/"
 mkdir -p "/recalbox/share/rom/"
 
 sleep 5

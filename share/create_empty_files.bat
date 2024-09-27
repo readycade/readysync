@@ -2,10 +2,10 @@
 setlocal enabledelayedexpansion
 
 :: Source directory
-set "sourceDir=\\RECALBOX\share\mame"
+set "sourceDir=\\RECALBOX\share\neogeo"
 
 :: Destination directory
-set "destDir=\\RECALBOX\share\roms\readystream\mame"
+set "destDir=\\RECALBOX\share\roms\readystream\neogeo"
 
 :: Ensure the destination directory exists
 if not exist "%destDir%" (

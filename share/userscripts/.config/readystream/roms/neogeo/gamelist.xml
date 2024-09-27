@@ -1,0 +1,938 @@
+<gamelist>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/2020bb.zip</path>
+    <name>2020bb</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/2020bb.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/2020bb.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/3countb.zip</path>
+    <name>3countb</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/3countb.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/3countb.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Neo_Geo_full_on.png</path>
+    <name>Neo_Geo_full_on</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/Neo_Geo_full_on.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/Neo_Geo_full_on.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/Neo_Geo_full_on_thumb.jpg</path>
+    <name>Neo_Geo_full_on_thumb</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/Neo_Geo_full_on_thumb.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/Neo_Geo_full_on_thumb.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/__ia_thumb.jpg</path>
+    <name>__ia_thumb</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/__ia_thumb.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/__ia_thumb.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/alpham2.zip</path>
+    <name>alpham2</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/alpham2.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/alpham2.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/androdun.zip</path>
+    <name>androdun</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/androdun.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/androdun.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/aodk.zip</path>
+    <name>aodk</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/aodk.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/aodk.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/aof.zip</path>
+    <name>aof</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/aof.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/aof.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/aof2.zip</path>
+    <name>aof2</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/aof2.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/aof2.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/aof3.zip</path>
+    <name>aof3</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/aof3.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/aof3.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/bakatono.zip</path>
+    <name>bakatono</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/bakatono.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/bakatono.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/bangbead.zip</path>
+    <name>bangbead</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/bangbead.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/bangbead.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/bjourney.zip</path>
+    <name>bjourney</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/bjourney.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/bjourney.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/blazstar.zip</path>
+    <name>blazstar</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/blazstar.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/blazstar.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/breakers.zip</path>
+    <name>breakers</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/breakers.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/breakers.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/breakrev.zip</path>
+    <name>breakrev</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/breakrev.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/breakrev.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/bstars.zip</path>
+    <name>bstars</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/bstars.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/bstars.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/bstars2.zip</path>
+    <name>bstars2</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/bstars2.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/bstars2.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/burningf.zip</path>
+    <name>burningf</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/burningf.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/burningf.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/crsword.zip</path>
+    <name>crsword</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/crsword.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/crsword.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/ctomaday.zip</path>
+    <name>ctomaday</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/ctomaday.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/ctomaday.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/cyberlip.zip</path>
+    <name>cyberlip</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/cyberlip.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/cyberlip.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/doubledr.zip</path>
+    <name>doubledr</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/doubledr.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/doubledr.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/eightman.zip</path>
+    <name>eightman</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/eightman.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/eightman.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/fatfursp.zip</path>
+    <name>fatfursp</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/fatfursp.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/fatfursp.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/fatfury1.zip</path>
+    <name>fatfury1</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/fatfury1.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/fatfury1.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/fatfury2.zip</path>
+    <name>fatfury2</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/fatfury2.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/fatfury2.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/fatfury3.zip</path>
+    <name>fatfury3</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/fatfury3.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/fatfury3.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/fbfrenzy.zip</path>
+    <name>fbfrenzy</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/fbfrenzy.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/fbfrenzy.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/fightfev.zip</path>
+    <name>fightfev</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/fightfev.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/fightfev.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/flipshot.zip</path>
+    <name>flipshot</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/flipshot.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/flipshot.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/galaxyfg.zip</path>
+    <name>galaxyfg</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/galaxyfg.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/galaxyfg.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/ganryu.zip</path>
+    <name>ganryu</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/ganryu.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/ganryu.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/garou.zip</path>
+    <name>garou</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/garou.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/garou.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/goalx3.zip</path>
+    <name>goalx3</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/goalx3.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/goalx3.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/gowcaizr.zip</path>
+    <name>gowcaizr</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/gowcaizr.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/gowcaizr.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/gpilots.zip</path>
+    <name>gpilots</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/gpilots.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/gpilots.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/gururin.zip</path>
+    <name>gururin</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/gururin.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/gururin.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/irrmaze.zip</path>
+    <name>irrmaze</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/irrmaze.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/irrmaze.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/janshin.zip</path>
+    <name>janshin</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/janshin.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/janshin.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/joyjoy.zip</path>
+    <name>joyjoy</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/joyjoy.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/joyjoy.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/kabukikl.zip</path>
+    <name>kabukikl</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/kabukikl.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/kabukikl.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/karnovr.zip</path>
+    <name>karnovr</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/karnovr.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/karnovr.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/kizuna.zip</path>
+    <name>kizuna</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/kizuna.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/kizuna.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/kof2000.zip</path>
+    <name>kof2000</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/kof2000.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/kof2000.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/kof2001.zip</path>
+    <name>kof2001</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/kof2001.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/kof2001.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/kof2002.zip</path>
+    <name>kof2002</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/kof2002.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/kof2002.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/kof2003.zip</path>
+    <name>kof2003</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/kof2003.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/kof2003.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/kof94.zip</path>
+    <name>kof94</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/kof94.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/kof94.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/kof95.zip</path>
+    <name>kof95</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/kof95.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/kof95.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/kof96.zip</path>
+    <name>kof96</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/kof96.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/kof96.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/kof97.zip</path>
+    <name>kof97</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/kof97.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/kof97.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/kof98.zip</path>
+    <name>kof98</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/kof98.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/kof98.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/kof99.zip</path>
+    <name>kof99</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/kof99.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/kof99.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/kotm.zip</path>
+    <name>kotm</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/kotm.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/kotm.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/kotm2.zip</path>
+    <name>kotm2</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/kotm2.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/kotm2.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/lastblad.zip</path>
+    <name>lastblad</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/lastblad.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/lastblad.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/lastbld2.zip</path>
+    <name>lastbld2</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/lastbld2.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/lastbld2.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/lbowling.zip</path>
+    <name>lbowling</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/lbowling.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/lbowling.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/legendos.zip</path>
+    <name>legendos</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/legendos.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/legendos.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/lresort.zip</path>
+    <name>lresort</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/lresort.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/lresort.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/magdrop2.zip</path>
+    <name>magdrop2</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/magdrop2.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/magdrop2.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/magdrop3.zip</path>
+    <name>magdrop3</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/magdrop3.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/magdrop3.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/maglord.zip</path>
+    <name>maglord</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/maglord.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/maglord.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/mahretsu.zip</path>
+    <name>mahretsu</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/mahretsu.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/mahretsu.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/marukodq.zip</path>
+    <name>marukodq</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/marukodq.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/marukodq.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/matrim.zip</path>
+    <name>matrim</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/matrim.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/matrim.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/miexchng.zip</path>
+    <name>miexchng</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/miexchng.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/miexchng.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/minasan.zip</path>
+    <name>minasan</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/minasan.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/minasan.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/mosyougi.zip</path>
+    <name>mosyougi</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/mosyougi.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/mosyougi.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/mslug.zip</path>
+    <name>mslug</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/mslug.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/mslug.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/mslug2.zip</path>
+    <name>mslug2</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/mslug2.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/mslug2.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/mslug3.zip</path>
+    <name>mslug3</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/mslug3.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/mslug3.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/mslug4.zip</path>
+    <name>mslug4</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/mslug4.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/mslug4.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/mslug5.zip</path>
+    <name>mslug5</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/mslug5.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/mslug5.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/mslugx.zip</path>
+    <name>mslugx</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/mslugx.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/mslugx.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/mutnat.zip</path>
+    <name>mutnat</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/mutnat.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/mutnat.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/nam1975.zip</path>
+    <name>nam1975</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/nam1975.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/nam1975.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/ncombat.zip</path>
+    <name>ncombat</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/ncombat.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/ncombat.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/ncommand.zip</path>
+    <name>ncommand</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/ncommand.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/ncommand.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/neo-geo-mvs-romset_archive.torrent</path>
+    <name>neo-geo-mvs-romset_archive</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/neo-geo-mvs-romset_archive.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/neo-geo-mvs-romset_archive.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/neo-geo-mvs-romset_files.xml</path>
+    <name>neo-geo-mvs-romset_files</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/neo-geo-mvs-romset_files.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/neo-geo-mvs-romset_files.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/neo-geo-mvs-romset_meta.sqlite</path>
+    <name>neo-geo-mvs-romset_meta</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/neo-geo-mvs-romset_meta.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/neo-geo-mvs-romset_meta.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/neo-geo-mvs-romset_reviews.xml</path>
+    <name>neo-geo-mvs-romset_reviews</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/neo-geo-mvs-romset_reviews.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/neo-geo-mvs-romset_reviews.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/neobombe.zip</path>
+    <name>neobombe</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/neobombe.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/neobombe.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/neocup98.zip</path>
+    <name>neocup98</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/neocup98.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/neocup98.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/neodrift.zip</path>
+    <name>neodrift</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/neodrift.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/neodrift.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/neomrdo.zip</path>
+    <name>neomrdo</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/neomrdo.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/neomrdo.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/ninjamas.zip</path>
+    <name>ninjamas</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/ninjamas.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/ninjamas.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/nitd.zip</path>
+    <name>nitd</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/nitd.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/nitd.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/overtop.zip</path>
+    <name>overtop</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/overtop.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/overtop.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/panicbom.zip</path>
+    <name>panicbom</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/panicbom.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/panicbom.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/pbobbl2n.zip</path>
+    <name>pbobbl2n</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/pbobbl2n.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/pbobbl2n.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/pbobblen.zip</path>
+    <name>pbobblen</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/pbobblen.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/pbobblen.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/pgoal.zip</path>
+    <name>pgoal</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/pgoal.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/pgoal.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/pnyaa.zip</path>
+    <name>pnyaa</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/pnyaa.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/pnyaa.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/popbounc.zip</path>
+    <name>popbounc</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/popbounc.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/popbounc.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/preisle2.zip</path>
+    <name>preisle2</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/preisle2.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/preisle2.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/pspikes2.zip</path>
+    <name>pspikes2</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/pspikes2.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/pspikes2.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/pulstar.zip</path>
+    <name>pulstar</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/pulstar.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/pulstar.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/puzzldpr.zip</path>
+    <name>puzzldpr</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/puzzldpr.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/puzzldpr.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/puzzledp.zip</path>
+    <name>puzzledp</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/puzzledp.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/puzzledp.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/quizdai2.zip</path>
+    <name>quizdai2</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/quizdai2.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/quizdai2.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/quizdais.zip</path>
+    <name>quizdais</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/quizdais.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/quizdais.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/quizkof.zip</path>
+    <name>quizkof</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/quizkof.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/quizkof.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/ragnagrd.zip</path>
+    <name>ragnagrd</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/ragnagrd.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/ragnagrd.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/rbff1.zip</path>
+    <name>rbff1</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/rbff1.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/rbff1.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/rbff1a.zip</path>
+    <name>rbff1a</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/rbff1a.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/rbff1a.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/rbff2.zip</path>
+    <name>rbff2</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/rbff2.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/rbff2.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/rbffspec.zip</path>
+    <name>rbffspec</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/rbffspec.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/rbffspec.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/ridhero.zip</path>
+    <name>ridhero</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/ridhero.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/ridhero.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/roboarmy.zip</path>
+    <name>roboarmy</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/roboarmy.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/roboarmy.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/rotd.zip</path>
+    <name>rotd</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/rotd.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/rotd.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/s1945p.zip</path>
+    <name>s1945p</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/s1945p.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/s1945p.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/samsh5sp.zip</path>
+    <name>samsh5sp</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/samsh5sp.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/samsh5sp.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/samsho.zip</path>
+    <name>samsho</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/samsho.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/samsho.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/samsho2.zip</path>
+    <name>samsho2</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/samsho2.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/samsho2.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/samsho3.zip</path>
+    <name>samsho3</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/samsho3.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/samsho3.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/samsho4.zip</path>
+    <name>samsho4</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/samsho4.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/samsho4.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/samsho5.zip</path>
+    <name>samsho5</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/samsho5.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/samsho5.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/savagere.zip</path>
+    <name>savagere</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/savagere.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/savagere.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/sdodgeb.zip</path>
+    <name>sdodgeb</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/sdodgeb.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/sdodgeb.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/sengoku.zip</path>
+    <name>sengoku</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/sengoku.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/sengoku.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/sengoku2.zip</path>
+    <name>sengoku2</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/sengoku2.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/sengoku2.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/sengoku3.zip</path>
+    <name>sengoku3</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/sengoku3.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/sengoku3.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/shocktr2.zip</path>
+    <name>shocktr2</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/shocktr2.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/shocktr2.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/shocktro.zip</path>
+    <name>shocktro</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/shocktro.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/shocktro.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/socbrawl.zip</path>
+    <name>socbrawl</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/socbrawl.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/socbrawl.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/sonicwi2.zip</path>
+    <name>sonicwi2</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/sonicwi2.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/sonicwi2.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/sonicwi3.zip</path>
+    <name>sonicwi3</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/sonicwi3.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/sonicwi3.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/spinmast.zip</path>
+    <name>spinmast</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/spinmast.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/spinmast.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/ssideki.zip</path>
+    <name>ssideki</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/ssideki.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/ssideki.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/ssideki2.zip</path>
+    <name>ssideki2</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/ssideki2.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/ssideki2.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/ssideki3.zip</path>
+    <name>ssideki3</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/ssideki3.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/ssideki3.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/ssideki4.zip</path>
+    <name>ssideki4</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/ssideki4.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/ssideki4.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/stakwin.zip</path>
+    <name>stakwin</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/stakwin.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/stakwin.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/stakwin2.zip</path>
+    <name>stakwin2</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/stakwin2.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/stakwin2.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/strhoop.zip</path>
+    <name>strhoop</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/strhoop.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/strhoop.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/superspy.zip</path>
+    <name>superspy</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/superspy.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/superspy.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/svc.zip</path>
+    <name>svc</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/svc.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/svc.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/tophuntr.zip</path>
+    <name>tophuntr</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/tophuntr.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/tophuntr.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/tpgolf.zip</path>
+    <name>tpgolf</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/tpgolf.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/tpgolf.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/trally.zip</path>
+    <name>trally</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/trally.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/trally.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/turfmast.zip</path>
+    <name>turfmast</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/turfmast.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/turfmast.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/twinspri.zip</path>
+    <name>twinspri</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/twinspri.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/twinspri.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/tws96.zip</path>
+    <name>tws96</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/tws96.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/tws96.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/viewpoin.zip</path>
+    <name>viewpoin</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/viewpoin.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/viewpoin.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/wakuwak7.zip</path>
+    <name>wakuwak7</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/wakuwak7.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/wakuwak7.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/wh1.zip</path>
+    <name>wh1</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/wh1.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/wh1.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/wh2.zip</path>
+    <name>wh2</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/wh2.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/wh2.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/wh2j.zip</path>
+    <name>wh2j</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/wh2j.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/wh2j.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/whp.zip</path>
+    <name>whp</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/whp.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/whp.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/wjammers.zip</path>
+    <name>wjammers</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/wjammers.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/wjammers.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/zedblade.zip</path>
+    <name>zedblade</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/zedblade.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/zedblade.mp4</video>
+  </game>
+  <game>
+    <path>/recalbox/share/rom/No-Intro/zupapa.zip</path>
+    <name>zupapa</name>
+    <image>/recalbox/share/thumbs/SNK - Neo Geo/Named_Titles/zupapa.png</image>
+    <video>/recalbox/share/videos/SNK - Neo Geo/zupapa.mp4</video>
+  </game>
+</gamelist>
