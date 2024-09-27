@@ -420,6 +420,13 @@ fi
         echo "Failed to mount myrient..."
     fi
 
+    # Attempt to mount archive.org neo-geo-mvs
+    if rclone mount neogeo: /recalbox/share/neogeo --config "/recalbox/share/system/rclonemyrient.conf" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
+        echo "Rclone mounted archive.org neo-geo-mvs successfully."
+    else
+        echo "Failed to mount archive.org neo-geo-mvs..."
+    fi
+
     # Attempt to mount archive.org Mame 2003-plus
     if rclone mount mame: /recalbox/share/mame --config "/recalbox/share/system/rclonemyrient.conf" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
         echo "Rclone mounted archive.org Mame 2003-plus successfully."
