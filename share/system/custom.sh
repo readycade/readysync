@@ -428,13 +428,18 @@ fi
 
 # Attempt to download rclone4.conf
 if [ ! -f /recalbox/share/system/rclone4.conf ] || [ ! -s /recalbox/share/system/rclone4.conf ]; then
-    if wget -q --retry-connrefused --tries=3 --timeout=10 --waitretry=5 --read-timeout=10 --retry-on-http-error=500,502,503,504 https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclone4.conf -O /recalbox/share/system/rclone4.conf; then
-        echo "rclone4.conf downloaded successfully."
+    echo "rclone4.conf is missing or is 0KB, attempting to download..."
+    if wget --no-check-certificate -q --retry-connrefused --tries=3 --timeout=10 --waitretry=5 --read-timeout=10 --retry-on-http-error=500,502,503,504 https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclone4.conf -O /recalbox/share/system/rclone4.conf; then
+        if [ -s /recalbox/share/system/rclone4.conf ]; then
+            echo "rclone4.conf downloaded successfully."
+        else
+            echo "rclone4.conf is still 0KB after download."
+        fi
     else
         echo "Failed to download rclone4.conf after 3 attempts."
     fi
 else
-    echo "rclone4.conf already exists and is not empty, skipping download."
+    echo "rclone4.conf exists and is valid, skipping download."
 fi
 
     # Attempt to mount rclone4.conf
