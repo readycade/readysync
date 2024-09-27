@@ -71,6 +71,7 @@ mkdir -p /recalbox/share/userscripts/.config/readystream/roms
 
 mkdir -p /recalbox/share/thumbs
 mkdir -p /recalbox/share/dos
+mkdir -p /recalbox/share/mame
 mkdir -p /recalbox/share/roms/readystream
 mkdir -p /recalbox/share/roms/readystream/tmp
 
@@ -419,8 +420,16 @@ fi
         echo "Failed to mount myrient..."
     fi
 
+    # Attempt to mount archive.org Mame 2003-plus
+    if rclone mount mame: /recalbox/share/mame --config "/recalbox/share/system/rclonemyrient.conf" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
+        echo "Rclone mounted archive.org Mame 2003-plus successfully."
+    else
+        echo "Failed to mount archive.org Mame 2003-plus..."
+    fi
+
 echo "Mounting romsets..."
 echo "(No-Intro, Redump, TOSEC)..."
+echo "(Mame 2003-plus)..."
 
 #wait
 
@@ -442,7 +451,7 @@ if [ ! -f /recalbox/share/system/rclone.conf ]; then
     if wget -q --retry-connrefused --tries=3 https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclone.conf -O /recalbox/share/system/rclone.conf; then
         echo "rclonemyrient.conf downloaded successfully."
     else
-        echo "Failed to download rclonemyrient.conf after 3 attempts."
+        echo "Failed to download rclone.conf after 3 attempts."
     fi
 else
     echo "rclone.conf already exists, skipping download."
