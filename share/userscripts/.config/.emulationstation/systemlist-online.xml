@@ -722,6 +722,18 @@
       </emulator>
     </emulatorList>
   </system>
+   <system uuid="c8e96625-0166-48c2-bd8a-b1db208d23e2" name="naomi2" fullname="Sega NAOMI 2">
+    <descriptor path="/recalbox/share/rom/Redump/Arcade - Sega - Naomi 2" theme="naomi2" extensions=".zip" icon="$F285" downloader="0"/>
+    <scraper screenscraper="230"/>
+    <properties type="arcade" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2000-09" manufacturer="Sega" retroachievements="0" crt.multiresolution="1" crt.multiregion="0" ignoredfiles=""/>
+    <emulatorList>
+      <emulator name="libretro">
+        <core name="flycast-next" priority="1" extensions=".zip" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1">
+          <arcade file="naomi2-next.lst" ignore=""/>
+        </core>
+      </emulator>
+    </emulatorList>
+  </system>
   <system uuid="42a3fa8f-a538-468c-899e-2d27bd2f1490" name="naomigd" fullname="Sega NAOMI GD-ROM System">
     <descriptor path="%ROOT%/readystream/naomigd" theme="naomigd" extensions=".dat .lst .7z .zip" icon="$F2ba" downloader="0"/>
     <scraper screenscraper="227"/>
