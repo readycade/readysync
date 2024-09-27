@@ -93,6 +93,16 @@
     </emulatorList>
   </system>
 (Collection isn't compatible) -->
+  <system uuid="3c290260-a94c-47e4-a8f5-cd47d1c0dad6" name="amigacdtv" fullname="Amiga CDTV">
+    <descriptor path="/recalbox/share/roms/amigacdtv" theme="amigacdtv" extensions=".mds .chd .ccd .iso .m3u .uae .zip .nrg .bin .cue" icon="$F294" downloader="0" command='head %ROM; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.bin$|\.cue$|\.mds$|\.chd$|\.ccd$|\.m3u$|\.uae$|\.nrg$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <scraper screenscraper="129"/>
+    <properties type="console" pad="mandatory" keyboard="optional" mouse="optional" lightgun="no" releasedate="1991-08" manufacturer="Commodore" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
+    <emulatorList>
+      <emulator name="libretro">
+        <core name="puae" priority="3" extensions=".ccd .chd .bin .cue .iso .mds .m3u .nrg .uae .zip" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="0"/>
+      </emulator>
+    </emulatorList>
+  </system>
   <system uuid="53afab22-49ee-4e53-a398-941942831894" name="amstradcpc" fullname="AmstradCPC">
     <descriptor path="/recalbox/share/zip/amstradcpc" theme="amstradcpc" extensions=".sna .cdt .dsk .m3u .zip .7z" icon="$F295" downloader="0"/>
     <scraper screenscraper="65"/>
@@ -273,6 +283,17 @@
     </emulatorList>
   </system>
 (Collection isn't compatible) -->
+  <system uuid="1e0ae4a3-b65e-40f2-b3e3-01fd2576bb8e" name="cdi" fullname="Philips CD-I">
+    <descriptor path="/recalbox/share/roms/cdi" theme="cdi" extensions=".chd .cmd .iso .zip .bin .cue" icon="$F29E" downloader="0" command='umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.bin$|\.cue$|\.chd$|\.cmd$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <scraper screenscraper="133"/>
+    <properties type="console" pad="mandatory" keyboard="no" mouse="optional" lightgun="optional" releasedate="1991-10" manufacturer="Phillips" retroachievements="0" crt.multiresolution="0" crt.multiregion="1" ignoredfiles=""/>
+    <emulatorList>
+      <emulator name="libretro">
+        <core name="cdi2015" priority="2" extensions=".chd .cmd .zip .bin .cue" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
+        <core name="same_cdi" priority="1" extensions=".chd .iso .bin .cue" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
+      </emulator>
+    </emulatorList>
+  </system>
   <system uuid="dfa4bf61-1fb5-4e5a-a036-7400ee385f3a" name="channelf" fullname="Fairchild Channel F">
     <descriptor path="/recalbox/share/rom/No-Intro/Fairchild - Channel F" theme="channelf" extensions=".chf .bin .zip .rom .7z" icon="$F2a0" downloader="0"/>
     <scraper screenscraper="80"/>
@@ -491,6 +512,16 @@
     </emulatorList>
   </system>
 (Collection isn't compatible) -->
+  <system uuid="a74b3722-bb28-4a96-b92c-352638a88238" name="gw" fullname="Game and Watch">
+    <descriptor path="/recalbox/share/roms/gw" theme="gw" extensions=".zip .7z .mgw .bin" icon="$F278" downloader="0"/>
+    <scraper screenscraper="52"/>
+    <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1980-04" manufacturer="Nintendo" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
+    <emulatorList>
+      <emulator name="libretro">
+        <core name="gw" priority="1" extensions=".mgw .zip .7z .bin" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
+      </emulator>
+    </emulatorList>
+  </system>
   <system uuid="773b49bd-f420-4bba-a1ac-4641d0cfe53c" name="gx4000" fullname="Amstrad GX4000">
     <descriptor path="/recalbox/share/zip/gx4000" theme="gx4000" extensions=".m3u .cpr .7z .zip" icon="$F2ac" downloader="0"/>
     <scraper screenscraper="87"/>
@@ -734,6 +765,16 @@
     </emulatorList>
   </system>
 (Collection isn't compatible) -->
+  <system uuid="01536f08-36f6-4014-aa08-4ccb7f327bd3" name="naomi" fullname="Sega NAOMI">
+    <descriptor path="/recalbox/share/roms/naomi" theme="naomi" extensions=".dat .lst .7z .zip .bin .cue" icon="$F2b9" downloader="0"/>
+    <scraper screenscraper="56"/>
+    <properties type="arcade" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="1998-01" manufacturer="Sega" retroachievements="1" crt.multiresolution="1" crt.multiregion="0" ignoredfiles=""/>
+    <emulatorList>
+      <emulator name="libretro">
+        <core name="flycast" priority="1" extensions=".dat .lst .zip .7z .bin .cue" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
+      </emulator>
+    </emulatorList>
+  </system>
 <!-- This is disabled for Online mode.
    <system uuid="c8e96625-0166-48c2-bd8a-b1db208d23e2" name="naomi2" fullname="Sega NAOMI 2">
     <descriptor path="/recalbox/share/rom/Redump/Arcade - Sega - Naomi 2" theme="naomi2" extensions=".zip" icon="$F285" downloader="0"/>
@@ -748,6 +789,18 @@
     </emulatorList>
   </system>
 (Collection isn't compatible) -->
+   <system uuid="c8e96625-0166-48c2-bd8a-b1db208d23e2" name="naomi2" fullname="Sega NAOMI 2">
+    <descriptor path="/recalbox/share/roms/naomi2" theme="naomi2" extensions=".zip" icon="$F285" downloader="0"/>
+    <scraper screenscraper="230"/>
+    <properties type="arcade" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2000-09" manufacturer="Sega" retroachievements="0" crt.multiresolution="1" crt.multiregion="0" ignoredfiles=""/>
+    <emulatorList>
+      <emulator name="libretro">
+        <core name="flycast-next" priority="1" extensions=".zip" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1">
+          <arcade file="naomi2-next.lst" ignore=""/>
+        </core>
+      </emulator>
+    </emulatorList>
+  </system>
   <system uuid="42a3fa8f-a538-468c-899e-2d27bd2f1490" name="naomigd" fullname="Sega NAOMI GD-ROM System">
     <descriptor path="/recalbox/share/roms/naomigd" theme="naomigd" extensions=".dat .lst .7z .zip" icon="$F2ba" downloader="0"/>
     <scraper screenscraper="227"/>
@@ -957,6 +1010,16 @@
     </emulatorList>
   </system>
 (Collection isn't compatible) -->
+  <system uuid="4557dd71-973e-4e6f-a329-fd0ffae5c9e5" name="pico8" fullname="PICO-8">
+    <descriptor path="/recalbox/share/roms/pico8" theme="pico8" extensions=".zip .png .7z .p8 .gen .md .pco" icon="$F2c4" downloader="0"/>
+    <scraper screenscraper="234"/>
+    <properties type="fantasy" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="2015-04" manufacturer="virtual" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
+    <emulatorList>
+      <emulator name="libretro">
+        <core name="retro8" priority="1" extensions=".p8 .png .zip .7z .gen .md .pco" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
+      </emulator>
+    </emulatorList>
+  </system>
   <system uuid="1b5da229-54ca-4bf9-9694-e7a5399c723b" name="pokemini" fullname="Pokémon Mini">
     <descriptor path="/recalbox/share/rom/No-Intro/Nintendo - Pokemon Mini" theme="pokemini" extensions=".min .zip" icon="$F268" downloader="0"/>
     <scraper screenscraper="211"/>
@@ -1218,6 +1281,16 @@
     </emulatorList>
   </system>
 (Collection isn't compatible) -->
+  <system uuid="65338078-f443-4f5f-aaee-9ea7ffee9c32" name="ti994a" fullname="Texas Instrument TI-99/4A">
+    <descriptor path="/recalbox/share/roms/ti994a" theme="ti994a" extensions=".ctg .dsk" icon="$0" downloader="0"/>
+    <scraper screenscraper="205"/>
+    <properties type="computer" pad="optional" keyboard="mandatory" mouse="optional" lightgun="no" releasedate="1981-06" manufacturer="Texas Instrument" retroachievements="0" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
+    <emulatorList>
+      <emulator name="ti99sim">
+        <core name="ti99sim" priority="1" extensions=".ctg .dsk" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
+      </emulator>
+    </emulatorList>
+  </system>
   <system uuid="e2e512b0-f929-4f7b-b5f0-1cbca9757a24" name="tic80" fullname="TIC-80">
     <descriptor path="/recalbox/share/roms/tic80" theme="tic80" extensions=".tic .7z .zip" icon="$F2e4" downloader="1"/>
     <scraper screenscraper="222"/>
