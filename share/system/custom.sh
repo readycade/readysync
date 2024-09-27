@@ -31,7 +31,7 @@ mount -o remount,rw /
 echo "mount and unmount as read-write..."
 
 # Fix sound issues in EmulationStation
-echo 'default-sample-rate = 48000' >> /etc/pulse/daemon.conf
+#echo 'default-sample-rate = 48000' >> /etc/pulse/daemon.conf
 
 log_file="/recalbox/share/system/.systemstream.log"
 online_mode_flag_file="/recalbox/share/system/.online_mode_enabled.log"
