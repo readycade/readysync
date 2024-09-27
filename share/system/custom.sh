@@ -427,19 +427,14 @@ fi
 #rclone mount tosec: /recalbox/share/rom/TOSEC --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 
 # Attempt to download rclone4.conf
-if [ ! -f /recalbox/share/system/rclone4.conf ]; then
+if [ ! -f /recalbox/share/system/rclone4.conf ] || [ ! -s /recalbox/share/system/rclone4.conf ]; then
     if wget -q --retry-connrefused --tries=3 --timeout=10 --waitretry=5 --read-timeout=10 --retry-on-http-error=500,502,503,504 https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclone4.conf -O /recalbox/share/system/rclone4.conf; then
-        if [ -s /recalbox/share/system/rclone4.conf ]; then
-            echo "rclone4.conf downloaded successfully."
-        else
-            echo "rclone4.conf downloaded but is empty, retrying..."
-            rm /recalbox/share/system/rclone4.conf
-        fi
+        echo "rclone4.conf downloaded successfully."
     else
         echo "Failed to download rclone4.conf after 3 attempts."
     fi
 else
-    echo "rclone4.conf already exists, skipping download."
+    echo "rclone4.conf already exists and is not empty, skipping download."
 fi
 
     # Attempt to mount rclone4.conf

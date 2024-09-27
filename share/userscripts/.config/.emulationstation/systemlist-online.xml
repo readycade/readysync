@@ -713,7 +713,7 @@
     </emulatorList>
   </system>
   <system uuid="01536f08-36f6-4014-aa08-4ccb7f327bd3" name="naomi" fullname="Sega NAOMI">
-    <descriptor path="/recalbox/share/rom/Redump/Arcade - Sega - Naomi" theme="naomi" extensions=".dat .lst .7z .zip .bin .cue" icon="$F2b9" downloader="0" command='head %ROM%; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.bin$|\.dat$|\.lst$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/Redump/Arcade - Sega - Naomi" theme="naomi" extensions=".dat .lst .7z .zip .bin .cue" icon="$F2b9" downloader="0" command='head %ROM%; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.bin$|\.cue$|\.dat$|\.lst$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="56"/>
     <properties type="arcade" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="1998-01" manufacturer="Sega" retroachievements="1" crt.multiresolution="1" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
