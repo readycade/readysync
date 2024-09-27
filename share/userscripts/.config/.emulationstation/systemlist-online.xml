@@ -326,10 +326,10 @@
     <properties type="computer" pad="recommended" keyboard="recommended" mouse="recommended" lightgun="no" releasedate="1981-02" manufacturer="IBM" retroachievements="0" crt.multiresolution="1" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
       <emulator name="libretro">
-        <core name="dosbox_pure" priority="2" extensions=".zip" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
+        <core name="dosbox_pure" priority="1" extensions=".zip" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
       </emulator>
       <emulator name="dosbox">
-        <core name="dosbox" priority="1" extensions=".dos .pc" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="0"/>
+        <core name="dosbox" priority="2" extensions=".dos .pc" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="0"/>
       </emulator>
     </emulatorList>
   </system>
