@@ -64,12 +64,12 @@ update_or_add_games() {
 }
 
 # Example usage:
-source_directory="/recalbox/share/rom/Redump/Atari - Jaguar CD Interactive Multimedia System"
-gamelist_file="/recalbox/share/roms/readystream/jaguarcd/gamelist.xml"
-log_file="/recalbox/share/roms/readystream/jaguarcd/gamelist.log"
+source_directory="/recalbox/share/dos/DOS Games (2792 Games Archived Collection)"
+gamelist_file="/recalbox/share/roms/readystream/dos/gamelist.xml"
+log_file="/recalbox/share/roms/readystream/dos/gamelist.log"
 
-mkdir -p "/recalbox/share/roms/readystream/jaguarcd/"
-mkdir -p "/recalbox/share/rom/"
+mkdir -p "/recalbox/share/roms/readystream/dos/"
+mkdir -p "/recalbox/share/dos/"
 
 sleep 5
 

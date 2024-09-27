@@ -2,10 +2,10 @@
 setlocal enabledelayedexpansion
 
 :: Source directory
-set "sourceDir=\\RECALBOX\share\rom\Redump/Arcade - Sega - Naomi 2"
+set "sourceDir=\\RECALBOX\share\dos\DOS Games (2792 Games Archived Collection)"
 
 :: Destination directory
-set "destDir=\\RECALBOX\share\roms\naomi2"
+set "destDir=\\RECALBOX\share\roms\readystream\dos"
 
 :: Ensure the destination directory exists
 if not exist "%destDir%" (
