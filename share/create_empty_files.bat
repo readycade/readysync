@@ -2,10 +2,10 @@
 setlocal enabledelayedexpansion
 
 :: Source directory
-set "sourceDir=\\RECALBOX\share\dos\DOS Games (2792 Games Archived Collection)"
+set "sourceDir=\\RECALBOX\share\rom\No-Intro\Atari - Lynx (LNX)"
 
 :: Destination directory
-set "destDir=\\RECALBOX\share\roms\readystream\dos"
+set "destDir=\\RECALBOX\share\roms\readystream\lynx"
 
 :: Ensure the destination directory exists
 if not exist "%destDir%" (

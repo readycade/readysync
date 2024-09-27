@@ -64,12 +64,12 @@ update_or_add_games() {
 }
 
 # Example usage:
-source_directory="/recalbox/share/dos/DOS Games (2792 Games Archived Collection)"
-gamelist_file="/recalbox/share/roms/readystream/dos/gamelist.xml"
-log_file="/recalbox/share/roms/readystream/dos/gamelist.log"
+source_directory="/recalbox/share/rom/No-Intro/Atari - Lynx (LNX)"
+gamelist_file="/recalbox/share/roms/readystream/lynx/gamelist.xml"
+log_file="/recalbox/share/roms/readystream/lynx/gamelist.log"
 
-mkdir -p "/recalbox/share/roms/readystream/dos/"
-mkdir -p "/recalbox/share/dos/"
+mkdir -p "/recalbox/share/roms/readystream/lynx/"
+mkdir -p "/recalbox/share/rom/"
 
 sleep 5
 
