@@ -419,7 +419,7 @@ fi
     if rclone mount myrient: /recalbox/share/rom --config "/recalbox/share/system/rclonemyrient.conf" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
         echo "Rclone mounted myrient successfully."
     else
-        echo "Failed to mount myrient."
+        echo "Failed to mount myrient..."
     fi
 
 #rclone mount nointro: /recalbox/share/rom/No-Intro --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
