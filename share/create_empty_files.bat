@@ -2,10 +2,10 @@
 setlocal enabledelayedexpansion
 
 :: Source directory
-set "sourceDir=\\RECALBOX\share\rom\Redump\IBM - PC compatible"
+set "sourceDir=\\RECALBOX\share\mame"
 
 :: Destination directory
-set "destDir=\\RECALBOX\share\roms\readystream\dos"
+set "destDir=\\RECALBOX\share\roms\readystream\mame"
 
 :: Ensure the destination directory exists
 if not exist "%destDir%" (

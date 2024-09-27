@@ -64,11 +64,11 @@ update_or_add_games() {
 }
 
 # Example usage:
-source_directory="/recalbox/share/rom/Redump/IBM - PC compatible"
-gamelist_file="/recalbox/share/roms/readystream/dos/gamelist.xml"
-log_file="/recalbox/share/roms/readystream/dos/gamelist.log"
+source_directory="/recalbox/share/mame"
+gamelist_file="/recalbox/share/roms/readystream/mame/gamelist.xml"
+log_file="/recalbox/share/roms/readystream/mame/gamelist.log"
 
-mkdir -p "/recalbox/share/roms/readystream/dos/"
+mkdir -p "/recalbox/share/roms/readystream/mame/"
 mkdir -p "/recalbox/share/rom/"
 
 sleep 5
