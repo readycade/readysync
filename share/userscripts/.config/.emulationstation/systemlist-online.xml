@@ -321,7 +321,7 @@
     </emulatorList>
   </system>
   <system uuid="be655d24-11d6-4456-8007-f17239df83dd" name="dos" fullname="Dos (x86)">
-    <descriptor path="/recalbox/share/rom/Redump/IBM - PC compatible" theme="pc" extensions=".pc .dos .zip" icon="$F24a" downloader="0"/>
+    <descriptor path="/recalbox/share/dos/DOS Games (2792 Games Archived Collection)" theme="pc" extensions=".pc .dos .zip" icon="$F24a" downloader="0"/>
     <scraper screenscraper="135"/>
     <properties type="computer" pad="recommended" keyboard="recommended" mouse="recommended" lightgun="no" releasedate="1981-02" manufacturer="IBM" retroachievements="0" crt.multiresolution="1" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
@@ -544,7 +544,7 @@
     </emulatorList>
   </system>
   <system uuid="b5646865-44e2-4ed0-b862-9fa0c69ab984" name="lynx" fullname="Lynx">
-    <descriptor path="/recalbox/share/rom/No-Intro/Atari - Lynx (LYX)" theme="lynx" extensions=".7z .lnx .o .zip" icon="$F270" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/No-Intro/Atari - Lynx (LNX)" theme="lynx" extensions=".7z .lnx .o .zip" icon="$F270" downloader="0"/>
     <scraper screenscraper="28"/>
     <properties type="handheld" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1989-10" manufacturer="Atari" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
