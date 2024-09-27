@@ -26,6 +26,15 @@
 ## or the use or other dealings in the script. USE AT YOUR OWN RISK. YOU ASSUME ALL LIABILITY FOR ANY ACTIONS TAKEN BASED ON THIS SCRIPT.
 #################################################################################################################
 
+## Collections that aren't compatible use the Local Directory (Listed Below)
+# amigacdtv - /recalbox/share/roms/ti994a
+# cdi - /recalbox/share/roms/cdi
+# gw - /recalbox/share/roms/gw
+# naomi - /recalbox/share/roms/naomi
+# naomi2 - /recalbox/share/roms/naomi2
+# pico8 - /recalbox/share/roms/pico
+#################################################################################################################
+
 ln -s /usr/bin/fusermount /usr/bin/fusermount3
 mount -o remount,rw /
 echo "mount and unmount as read-write..."
@@ -225,7 +234,7 @@ console_status=(
     [bk]=disabled
     [samcoupe]=disabled
     [thomson]=enabled
-    [ti994a]=disabled # Collection doesn't work
+    [ti994a]=disabled # Collection doesn't work (Using Local Collection /recalbox/share/roms/ti994a)
     [trs80coco]=disabled
     [vg5000]=disabled
     [zmachine]=disabled # Needs Keyboard
