@@ -93,7 +93,7 @@ else
 
     # Check if the download was successful
     if [ $? -ne 0 ]; then
-        echo "Failed to download the file."
+        echo "Failed to download roms.zip..."
         # You may choose to exit here or just log the error and continue.
     fi
 
@@ -401,9 +401,6 @@ else
     fi
 fi
 
-# Mount myrient with rclone
-#rclone mount myrient: /recalbox/share/rom --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-
 # Attempt to download rclonemyrient.conf
 if [ ! -f /recalbox/share/system/rclonemyrient.conf ]; then
     if wget -q --retry-connrefused --tries=3 https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclonemyrient.conf -O /recalbox/share/system/rclonemyrient.conf; then
@@ -421,10 +418,6 @@ fi
     else
         echo "Failed to mount myrient..."
     fi
-
-#rclone mount nointro: /recalbox/share/rom/No-Intro --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-#rclone mount redump: /recalbox/share/rom/Redump --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
-#rclone mount tosec: /recalbox/share/rom/TOSEC --config=/recalbox/share/system/rclone2.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
 
 echo "Mounting romsets..."
 echo "(No-Intro, Redump, TOSEC)..."
@@ -456,7 +449,9 @@ else
 fi
 
     # Attempt to mount rclone thumbnails
-    if rclone mount thumbnails: --config "/recalbox/share/system/rclone.conf" /recalbox/share/thumbs --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
+    #if rclone mount thumbnails: --config "/recalbox/share/system/rclone.conf" /recalbox/share/thumbs --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
+    if rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty --no-check-certificate; then
+
         echo "Rclone mounted thumbnails successfully."
     else
         echo "Failed to mount thumbnails."
@@ -535,15 +530,6 @@ install_binary "jq" "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-
 
 # Install mount-zip
 install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/mount-zip-${arch}/mount-zip" "/usr/bin/mount-zip"
-
-# Install ratarmount
-#install_binary "ratarmount" "https://github.com/mxmlnkn/ratarmount/releases/download/v0.15.0/ratarmount-0.15.0-${ratarmount_arch}.AppImage" "/usr/bin/ratarmount.AppImage"
-#if [ $? -eq 0 ]; then
-#    chmod +x "/usr/bin/ratarmount.AppImage"  # Ensure the binary is executable
-#    /usr/bin/ratarmount --appimage-extract
-
-#fi
-
     # Sleep to let everything sync up
     sleep 5
 
