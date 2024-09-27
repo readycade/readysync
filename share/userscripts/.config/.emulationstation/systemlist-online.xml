@@ -321,15 +321,15 @@
     </emulatorList>
   </system>
   <system uuid="be655d24-11d6-4456-8007-f17239df83dd" name="dos" fullname="Dos (x86)">
-    <descriptor path="/recalbox/share/dos/DOS Games (2792 Games Archived Collection)" theme="pc" extensions=".pc .dos .zip" icon="$F24a" downloader="0"/>
+    <descriptor path="/recalbox/share/rom/Redump/IBM - PC compatible" theme="pc" extensions=".pc .dos .zip" icon="$F24a" downloader="0" 'head %ROM%; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.bin$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="135"/>
     <properties type="computer" pad="recommended" keyboard="recommended" mouse="recommended" lightgun="no" releasedate="1981-02" manufacturer="IBM" retroachievements="0" crt.multiresolution="1" crt.multiregion="1" ignoredfiles=""/>
     <emulatorList>
       <emulator name="libretro">
-        <core name="dosbox_pure" priority="2" extensions=".zip" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
+        <core name="dosbox_pure" priority="1" extensions=".zip .bin .cue" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1"/>
       </emulator>
       <emulator name="dosbox">
-        <core name="dosbox" priority="1" extensions=".dos .pc" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="0"/>
+        <core name="dosbox" priority="2" extensions=".dos .pc .bin .cue" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="0"/>
       </emulator>
     </emulatorList>
   </system>

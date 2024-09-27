@@ -2,10 +2,10 @@
 setlocal enabledelayedexpansion
 
 :: Source directory
-set "sourceDir=\\RECALBOX\share\rom\No-Intro\Atari - Lynx (LNX)"
+set "sourceDir=\\RECALBOX\share\rom\Redump\IBM - PC compatible"
 
 :: Destination directory
-set "destDir=\\RECALBOX\share\roms\readystream\lynx"
+set "destDir=\\RECALBOX\share\roms\readystream\dos"
 
 :: Ensure the destination directory exists
 if not exist "%destDir%" (
