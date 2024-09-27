@@ -72,6 +72,7 @@ mkdir -p /recalbox/share/userscripts/.config/readystream/roms
 mkdir -p /recalbox/share/thumbs
 mkdir -p /recalbox/share/dos
 mkdir -p /recalbox/share/mame
+mkdir -p /recalbox/share/neogeo
 mkdir -p /recalbox/share/roms/readystream
 mkdir -p /recalbox/share/roms/readystream/tmp
 
