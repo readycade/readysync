@@ -40,7 +40,7 @@ recalboxroot
 wget -O /recalbox/share/system/custom.sh https://raw.githubusercontent.com/readycade/readysync/master/share/system/custom.sh && chmod +x /recalbox/share/system/custom.sh
 ```
 
-#### Running the command from the terminal
+#### Running the custom.sh script from the terminal
 This will start the **custom.sh** script located in /recalbox/share/system
 
 **IMPORTANT** Remember to **press B** repeatedly for **10-15 seconds** immediately after you run the below command
