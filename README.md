@@ -49,19 +49,6 @@ This will start the **custom.sh** script located in /recalbox/share/system
 /etc/init.d/S99custom start
 ```
 
-### The script will run on **every boot**.
-Offline will be **ALWAYS** selected if you **do not** press anything during **startup**)
-
-### Selecting Online or Offline Mode (**Offline** is default)
-Power on your **Readycade** and wait until after seeing "Booting Recalbox... **press B** repeatedly for **10-15 seconds**"
-
-### Known Supported Controllers:
-DragonArcade Joystick/Buttons<br>
-Sony Playstation 4<br>
-Microsoft Xbox 360 (Wired)<br>
-8bitdo Ultimate Controller (Wired)<br>
-Standard Keyboard (Press 1 instead of B)<br>
-
 ### If you want the Whole Enchilada (ALL THE GAMES)
 You will need to edit the custom.sh file
 **ALL TOSEC romsets** will be **disabled** by default to make things snappy.
@@ -92,7 +79,7 @@ Run the Script again to **download** your **enabled TOSEC** romsets.
 /etc/init.d/S99custom start
 ```
 
-The script should work **automagically**, but incase nothing happens the first time.. it's most likely due to your **internet connection** not being able to download all of the required files in a timely manner. In this case run the script a couple times in the terminal (Remember to press B immediately after running the script):
+The script should work **automagically**, but incase nothing happens the first time.. it's most likely due to your **internet connection** not being able to download all of the required files in a timely manner. In this case **run the script** a **few times** in the terminal (Remember to **press B immediately** after running the script):
 
 ### Check the Progress of the script here:
 
@@ -103,11 +90,21 @@ The script should work **automagically**, but incase nothing happens the first t
 After installation is complete. Enable online mode again and give it a few moments to update the gameslist.
 Your new TOSEC romsets should appear now.
 
-### Notes:
-Default **gamelist.xml's** and **checksums** are provided for **ALL consoles**.
+### The script will run on **every boot**.
+Offline will be **ALWAYS** selected if you **do not** press anything during **startup**)
 
 ### Selecting Online or Offline Mode (**Offline** is default)
-**press B** repeatedly for **10-15 seconds**"
+Power on your **Readycade** and wait until after seeing "Booting Recalbox... **press B** repeatedly for **10-15 seconds**"
+
+### Known Supported Controllers:
+DragonArcade Joystick/Buttons<br>
+Sony Playstation 4<br>
+Microsoft Xbox 360 (Wired)<br>
+8bitdo Ultimate Controller (Wired)<br>
+Standard Keyboard (Press 1 instead of B)<br>
+
+### Notes:
+Default **gamelist.xml's** and **checksums** are provided for **ALL consoles**.
 
 ### Long Loading Times
 If you only use **No-Intro** and **Redump** the boot time should be under **1 minute**.
