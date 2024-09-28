@@ -521,9 +521,6 @@ wait
 # Sleep to let everything sync up
 sleep 5
 
-# Kill the Initial Playing Audio
-pulseaudio -k
-
 # Replace the following line with the actual command to start emulation station
 chvt 1; es start
 
