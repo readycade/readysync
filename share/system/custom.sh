@@ -74,10 +74,6 @@ sanitize_dir_name() {
   tr -cd '[:alnum:]' <<< "$1"
 }
 
-# Create all Online Directories needed for Online Mode
-mkdir -p /recalbox/share/userscripts/.config/{.emulationstation,readystream,readystream/roms} \
-         /recalbox/share/{thumbs,dos,mame,neogeo,roms/readystream,roms/readystream/tmp}
-
 # Define the URLs and directories
 readysync_roms_url="https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms.zip"
 readysync_tmp_dir="/recalbox/share/userscripts/.config/readystream/tmp"
@@ -158,6 +154,10 @@ online_mode() {
     echo "Online mode set to Enabled"
 
     echo "Performing actions specific to Online Mode..."
+
+# Create all Online Directories needed for Online Mode
+mkdir -p /recalbox/share/userscripts/.config/{.emulationstation,readystream,readystream/roms} \
+         /recalbox/share/{thumbs,dos,mame,neogeo,roms/readystream,roms/readystream/tmp}
 
 # Online Mode
 if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
