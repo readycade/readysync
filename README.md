@@ -53,11 +53,11 @@ Offline will be **ALWAYS** selected if you **do not** press anything during **st
 Power on your **Readycade** and wait until after seeing "Booting Recalbox... **press B** repeatedly for **10-15 seconds**"
 
 ### Known Supported Controllers:
-DragonArcade Joystick/Buttons
-Sony Playstation 4
-Microsoft Xbox 360 (Wired)
-8bitdo Ultimate Controller (Wired)
-Standard Keyboard (Press 1 instead of B)
+DragonArcade Joystick/Buttons<br>
+Sony Playstation 4<br>
+Microsoft Xbox 360 (Wired)<br>
+8bitdo Ultimate Controller (Wired)<br>
+Standard Keyboard (Press 1 instead of B)<br>
 
 ### If you want the Whole Enchilada (ALL THE GAMES)
 You will need to edit the custom.sh file
