@@ -84,7 +84,7 @@ readysync_roms_dest="/recalbox/share/roms/readystream"
 
 # Check if the destination directory already contains files
 if [ -d "$readysync_roms_dir" ] && [ "$(ls -A $readysync_roms_dir)" ]; then
-    echo "Files already exist in $readysync_roms_dir. No need to download."
+    echo "Files already exist in $readysync_roms_dir. No need to download or extract."
 else
     # Create the temporary directory if it doesn't exist
     mkdir -p "$readysync_tmp_dir"
@@ -92,28 +92,24 @@ else
     # Download the zip file to the temporary directory
     if wget --no-check-certificate --quiet --show-progress --retry-connrefused --tries=3 "$readysync_roms_url" -O "$readysync_tmp_dir/roms.zip"; then
         echo "Roms zip file downloaded successfully."
+
+        # Extract the downloaded zip file to the destination directory
+        unzip -o "$readysync_tmp_dir/roms.zip" -d "$readysync_roms_dir"
+
+        # Check if the extraction was successful
+        if [ $? -ne 0 ]; then
+            echo "Failed to extract the file."
+            # Optional: Exit or log the error and continue
+        else
+            echo "Files extracted successfully."
+        fi
+
+        # Clean up the temporary zip file
+        rm -f "$readysync_tmp_dir/roms.zip"
     else
         echo "Failed to download the roms zip file after 3 attempts."
     fi
 fi
-
-    # Check if the download was successful
-    if [ $? -ne 0 ]; then
-        echo "Failed to download roms.zip..."
-        # You may choose to exit here or just log the error and continue.
-    fi
-
-    # Extract the downloaded zip file to the destination directory
-    unzip -o "$readysync_tmp_dir/roms.zip" -d "$readysync_roms_dir"
-
-    # Check if the extraction was successful
-    if [ $? -ne 0 ]; then
-        echo "Failed to extract the file."
-        # You may choose to exit here or just log the error and continue.
-    fi
-
-# Clean up the temporary zip file if it exists
-rm -f "$readysync_tmp_dir/roms.zip"
 
 # Copy all folders and files from the roms directory to the destination directory
 mkdir -p "$readysync_roms_dest"
