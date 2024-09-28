@@ -94,7 +94,12 @@ else
     mkdir -p "$readysync_tmp_dir"
 
     # Download the zip file to the temporary directory
-    wget -O --no-check-certificate --quiet --show-progress --retry-connrefused --tries=3 --accept '*.zip' --reject '*.html' -r -c -P "$readysync_tmp_dir/roms.zip" "$readysync_roms_url"
+    if wget --no-check-certificate --quiet --show-progress --retry-connrefused --tries=3 "$readysync_roms_url" -O "$readysync_tmp_dir/roms.zip"; then
+        echo "Roms zip file downloaded successfully."
+    else
+        echo "Failed to download the roms zip file after 3 attempts."
+    fi
+fi
 
     # Check if the download was successful
     if [ $? -ne 0 ]; then
