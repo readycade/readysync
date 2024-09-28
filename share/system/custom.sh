@@ -111,7 +111,6 @@ fi
         echo "Failed to extract the file."
         # You may choose to exit here or just log the error and continue.
     fi
-fi
 
 # Clean up the temporary zip file if it exists
 rm -f "$readysync_tmp_dir/roms.zip"
