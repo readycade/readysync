@@ -42,6 +42,9 @@ wget -O /recalbox/share/system/custom.sh https://raw.githubusercontent.com/ready
 
 #### Running the command from the terminal (ADVANCED USERS ONLY)
 This will start the **custom.sh** script located in /recalbox/share/system
+
+**IMPORTANT** Remember to **press B** repeatedly for **10-15 seconds** immediately after you run the below command
+
 ```
 /etc/init.d/S99custom start
 ```
