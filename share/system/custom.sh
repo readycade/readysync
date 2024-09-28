@@ -134,14 +134,13 @@ for file in systemlist-backup.xml systemlist-online.xml systemlist-offline.xml; 
     if [ -f "$systemlist_dir/$file" ]; then
         echo "$file already exists. Skipping download."
     else
-        if wget --no-check-certificate --quiet --show-progress --retry-connrefused --tries=3 --accept '*.xml' --reject '*.html' -r -c -P "https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/$file" -O "$systemlist_dir/$file"; then
+        if wget --no-check-certificate --quiet --show-progress --retry-connrefused --tries=3 --accept '*.xml' --reject '*.html' "https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/$file" -O "$systemlist_dir/$file"; then
             echo "$file downloaded successfully."
         else
             echo "Failed to download $file after 3 attempts."
         fi
     fi
 done
-
 
 # Function to switch to online mode
 online_mode() {
