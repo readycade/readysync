@@ -56,6 +56,7 @@ Power on your **Readycade** and wait until after seeing "Booting Recalbox... **p
 DragonArcade Joystick/Buttons
 Sony Playstation 4
 Microsoft Xbox 360 (Wired)
+8bitdo Ultimate Controller (Wired)
 Standard Keyboard (Press 1 instead of B)
 
 ### If you want the Whole Enchilada (ALL THE GAMES)
