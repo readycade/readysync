@@ -115,8 +115,6 @@ fi
 mkdir -p "$readysync_roms_dest"
 cp -r "$readysync_roms_dir/"* "$readysync_roms_dest/"
 
-echo "Download and extraction completed successfully, and files copied to $readysync_roms_dest."
-
 # Define the systemlist directory
 systemlist_dir="/recalbox/share/userscripts/.config/.emulationstation"
 
@@ -427,6 +425,9 @@ sleep 5
 # Check if the mount point exists and contains files
 if [ "$(ls -A /recalbox/share/rom)" ]; then
     echo "Mounting successful. Files are mounted in /recalbox/share/rom"
+    echo "Mounting successful. Files are mounted in /recalbox/share/neogeo"
+    echo "Mounting successful. Files are mounted in /recalbox/share/mame"
+    echo "Mounting successful. TOSEC Files are Downloaded to /recalbox/share/zip"
 else
     echo "Mounting failed. No files are mounted in /recalbox/share/rom"
 fi
