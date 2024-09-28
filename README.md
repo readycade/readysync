@@ -79,7 +79,7 @@ You will need to edit the custom.sh file
 nano /recalbox/share/system/custom.sh
 ```
 
-make your changes to the TOSEC romsets you wish to enable.
+make your changes to the **TOSEC romsets** you wish to **enable** or **disable**.
 
 To save your changes press **CTRL+X** then Press **Y** then Press **Enter**.
 
