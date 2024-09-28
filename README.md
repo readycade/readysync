@@ -17,7 +17,7 @@ It uses zip-mount to mount .zip's to /iso when the emulator doesn't support .zip
 
 ## INSTALLATION
 
-### Recalbox 9.1+ Supported ONLY:
+### Recalbox 9.2+ Supported ONLY:
 
 Download **custom.sh** and place it in **/recalbox/share/system**
 ```
