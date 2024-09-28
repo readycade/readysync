@@ -432,9 +432,10 @@ else
 fi
 
 # Attempt to download rclone.conf
-if [ ! -f /recalbox/share/system/rclone.conf ]; then
-    if wget --no-check-certificate --quiet --show-progress --retry-connrefused --tries=3 --accept '*.conf' --reject '*.html' -r -c -P https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclone.conf -O /recalbox/share/system/rclone.conf; then
-        echo "rclonemyrient.conf downloaded successfully."
+conf_file="/recalbox/share/system/rclone.conf"
+if [ ! -f "$conf_file" ]; then
+    if wget --no-check-certificate --quiet --show-progress --retry-connrefused --tries=3 "https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclone.conf" -O "$conf_file"; then
+        echo "rclone.conf downloaded successfully."
     else
         echo "Failed to download rclone.conf after 3 attempts."
     fi
