@@ -78,13 +78,13 @@ sanitize_dir_name() {
 mkdir -p /recalbox/share/userscripts/.config/{.emulationstation,readystream,readystream/roms} \
          /recalbox/share/{thumbs,dos,mame,neogeo,roms/readystream,roms/readystream/tmp}
 
+
+# Wait for internet to connect
 # Define the URLs and directories
 readysync_roms_url="https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/roms.zip"
 readysync_tmp_dir="/recalbox/share/userscripts/.config/readystream/tmp"
 readysync_roms_dir="/recalbox/share/userscripts/.config/readystream/roms"
 readysync_roms_dest="/recalbox/share/roms/readystream"
-
-# Download and Installation of gamelist.xml's for Online Directories
 
 # Check if the destination directory already contains files
 if [ -d "$readysync_roms_dir" ] && [ "$(ls -A $readysync_roms_dir)" ]; then
@@ -94,7 +94,7 @@ else
     mkdir -p "$readysync_tmp_dir"
 
     # Download the zip file to the temporary directory
-    wget -O --no-check-certificate --quiet --show-progress --retry-connrefused --tries=3 --accept '*.zip' --reject '*.html' -r -c -P "$readysync_tmp_dir/roms.zip" "$readysync_roms_url"
+    wget -O "$readysync_tmp_dir/roms.zip" "$readysync_roms_url"
 
     # Check if the download was successful
     if [ $? -ne 0 ]; then
@@ -128,20 +128,38 @@ systemlist_dir="/recalbox/share/userscripts/.config/.emulationstation"
 echo "false" > "$online_mode_flag_file"
 echo "online_mode_enabled = false"
 
-# Download systemlist.xml's (Online and Offline)
-
-for file in systemlist-backup.xml systemlist-online.xml systemlist-offline.xml; do
-    if [ -f "$systemlist_dir/$file" ]; then
-        echo "$file already exists. Skipping download."
+# Download systemlist-backup.xml
+if [ -f "$systemlist_dir/systemlist-backup.xml" ]; then
+    echo "systemlist-backup.xml already exists. Skipping download."
+else
+    if wget --tries=3 https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-backup.xml -O "$systemlist_dir/systemlist-backup.xml"; then
+        echo "systemlist-backup.xml downloaded successfully."
     else
-        if wget --no-check-certificate --quiet --show-progress --retry-connrefused --tries=3 --accept '*.xml' --reject '*.html' -r -c -P "https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/$file" -O "$systemlist_dir/$file"; then
-            echo "$file downloaded successfully."
-        else
-            echo "Failed to download $file after 3 attempts."
-        fi
+        echo "Failed to download systemlist-backup.xml after 3 attempts."
     fi
-done
+fi
 
+# Download systemlist-online.xml
+if [ -f "$systemlist_dir/systemlist-online.xml" ]; then
+    echo "systemlist-online.xml already exists. Skipping download."
+else
+    if wget --tries=3 https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-online.xml -O "$systemlist_dir/systemlist-online.xml"; then
+        echo "systemlist-online.xml downloaded successfully."
+    else
+        echo "Failed to download systemlist-online.xml after 3 attempts."
+    fi
+fi
+
+# Download systemlist-offline.xml
+if [ -f "$systemlist_dir/systemlist-offline.xml" ]; then
+    echo "systemlist-offline.xml already exists. Skipping download."
+else
+    if wget --tries=3 https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/.emulationstation/systemlist-offline.xml -O "$systemlist_dir/systemlist-offline.xml"; then
+        echo "systemlist-offline.xml downloaded successfully."
+    else
+        echo "Failed to download systemlist-offline.xml after 3 attempts."
+    fi
+fi
 
 # Function to switch to online mode
 online_mode() {
@@ -389,9 +407,8 @@ else
 fi
 
 # Attempt to download rclonemyrient.conf
-conf_file="/recalbox/share/system/rclonemyrient.conf"
-if [ ! -f "$conf_file" ]; then
-    if wget --no-check-certificate --quiet --show-progress --retry-connrefused --tries=3 --accept '*.zip' --reject '*.html' -r -c -P https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclonemyrient.conf -O "$conf_file"; then
+if [ ! -f /recalbox/share/system/rclonemyrient.conf ]; then
+    if wget -q --retry-connrefused --tries=3 https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclonemyrient.conf -O /recalbox/share/system/rclonemyrient.conf; then
         echo "rclonemyrient.conf downloaded successfully."
     else
         echo "Failed to download rclonemyrient.conf after 3 attempts."
@@ -400,25 +417,32 @@ else
     echo "rclonemyrient.conf already exists, skipping download."
 fi
 
-# List of mount points and remote names
-declare -A mounts=(
-    [myrient:]="/recalbox/share/rom"
-    [neogeo:]="/recalbox/share/neogeo"
-    [mame:]="/recalbox/share/mame"
-)
-
-# Attempt to mount using rclone
-for remote in "${!mounts[@]}"; do
-    if rclone mount "$remote" "${mounts[$remote]}" --config "$conf_file" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
-        echo "Rclone mounted $remote successfully."
+    # Attempt to mount rclonemyrient
+    if rclone mount myrient: /recalbox/share/rom --config "/recalbox/share/system/rclonemyrient.conf" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
+        echo "Rclone mounted myrient successfully."
     else
-        echo "Failed to mount $remote..."
+        echo "Failed to mount myrient..."
     fi
-done
+
+    # Attempt to mount archive.org neo-geo-mvs
+    if rclone mount neogeo: /recalbox/share/neogeo --config "/recalbox/share/system/rclonemyrient.conf" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
+        echo "Rclone mounted archive.org neo-geo-mvs successfully."
+    else
+        echo "Failed to mount archive.org neo-geo-mvs..."
+    fi
+
+    # Attempt to mount archive.org Mame 2003-plus
+    if rclone mount mame: /recalbox/share/mame --config "/recalbox/share/system/rclonemyrient.conf" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
+        echo "Rclone mounted archive.org Mame 2003-plus successfully."
+    else
+        echo "Failed to mount archive.org Mame 2003-plus..."
+    fi
 
 echo "Mounting romsets..."
 echo "(No-Intro, Redump, TOSEC)..."
 echo "(Mame 2003-plus)..."
+
+#wait
 
 # Wait for a brief moment for the mount to occur
 sleep 5
@@ -430,9 +454,12 @@ else
     echo "Mounting failed. No files are mounted in /recalbox/share/rom"
 fi
 
+# Mount thumbnails with rclone
+#rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty &
+
 # Attempt to download rclone.conf
 if [ ! -f /recalbox/share/system/rclone.conf ]; then
-    if wget --no-check-certificate --quiet --show-progress --retry-connrefused --tries=3 --accept '*.conf' --reject '*.html' -r -c -P https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclone.conf -O /recalbox/share/system/rclone.conf; then
+    if wget -q --retry-connrefused --tries=3 https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclone.conf -O /recalbox/share/system/rclone.conf; then
         echo "rclonemyrient.conf downloaded successfully."
     else
         echo "Failed to download rclone.conf after 3 attempts."
@@ -442,11 +469,21 @@ else
 fi
 
     # Attempt to mount rclone thumbnails
-    if rclone mount thumbnails: --config "/recalbox/share/system/rclone.conf" /recalbox/share/thumbs --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
+    #if rclone mount thumbnails: --config "/recalbox/share/system/rclone.conf" /recalbox/share/thumbs --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
+    if rclone mount thumbnails: /recalbox/share/thumbs --config=/recalbox/share/system/rclone.conf --daemon --no-checksum --no-modtime --attr-timeout 100h --dir-cache-time 100h --poll-interval 100h --allow-non-empty --no-check-certificate; then
+
         echo "Rclone mounted thumbnails successfully."
     else
         echo "Failed to mount thumbnails."
     fi
+
+# Mount thumbnails with httpdirfs
+#httpdirfs -d -f -o debug --cache --cache-location=/recalbox/share/system/.cache/httpdirfs --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io https://thumbnails.libretro.com/ /recalbox/share/thumbs
+#httpdirfs -f -o debug --dl-seg-size=1 --max-conns=20 --retry-wait=1 -o nonempty -o direct_io -o no_cache https://thumbnails.libretro.com/ /recalbox/share/thumbs
+
+#WIZARDS COMMAND
+#mkdir /recalbox/share/system/.cache/httpdirfs
+#httpdirfs --cache --cache-location /recalbox/share/system/.cache/httpdirfs https://thumbnails.libretro.com "/recalbox/share/thumbs"
 
 echo "Mounting libretro thumbnails..."
 
