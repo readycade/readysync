@@ -399,6 +399,11 @@ else
     echo "rclonemyrient.conf already exists, skipping download."
 fi
 
+echo "Mounting romsets..."
+echo "(No-Intro, Redump, TOSEC)..."
+echo "(SNK NEO-GEO)..."
+echo "(Mame 2003-plus)..."
+
 # List of mount points and remote names
 declare -A mounts=(
     [myrient:]="/recalbox/share/rom"
@@ -414,10 +419,6 @@ for remote in "${!mounts[@]}"; do
         echo "Failed to mount $remote..."
     fi
 done
-
-echo "Mounting romsets..."
-echo "(No-Intro, Redump, TOSEC)..."
-echo "(Mame 2003-plus)..."
 
 # Wait for a brief moment for the mount to occur
 sleep 5
