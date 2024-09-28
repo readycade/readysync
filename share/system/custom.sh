@@ -286,6 +286,8 @@ for console in "${!download_urls[@]}"; do
     fi
 done
 
+wait
+
 echo "All TOSEC files downloaded and extracted successfully!"
 
 # Function to download a rclone with retries
