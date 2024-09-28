@@ -515,11 +515,17 @@ install_binary "jq" "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-
 
 # Install mount-zip
 install_binary "mount-zip" "https://github.com/readycade/readysync/raw/master/share/userscripts/.config/readystream/mount-zip-${arch}/mount-zip" "/usr/bin/mount-zip"
-    # Sleep to let everything sync up
-    sleep 5
 
-    # Replace the following line with the actual command to start emulation station
-    chvt 1; es start
+wait
+
+# Sleep to let everything sync up
+sleep 5
+
+# Kill the Initial Playing Audio
+pulseaudio -k
+
+# Replace the following line with the actual command to start emulation station
+chvt 1; es start
 
 }
 
