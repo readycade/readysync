@@ -387,6 +387,8 @@ else
     fi
 fi
 
+#!/bin/bash
+
 # Attempt to download rclonemyrient.conf
 conf_file="/recalbox/share/system/rclonemyrient.conf"
 if [ ! -f "$conf_file" ]; then
@@ -394,6 +396,7 @@ if [ ! -f "$conf_file" ]; then
         echo "rclonemyrient.conf downloaded successfully."
     else
         echo "Failed to download rclonemyrient.conf after 3 attempts."
+        exit 1
     fi
 else
     echo "rclonemyrient.conf already exists, skipping download."
@@ -411,12 +414,42 @@ declare -A mounts=(
     #[mame:]="/recalbox/share/mame"
 )
 
-# Attempt to mount using rclone
-for remote in "${!mounts[@]}"; do
-    if rclone mount "$remote" "${mounts[$remote]}" --config "$conf_file" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
+# Function to mount using rclone
+mount_rclone() {
+    local remote=$1
+    local mount_point=$2
+    local conf_file=$3
+    local log_file="/var/log/rclone_${remote}_mount.log"
+
+    # Check if already mounted
+    if mount | grep -q "${mount_point}"; then
+        echo "$remote is already mounted."
+        return 0
+    fi
+
+    # Check for existing rclone process
+    if pgrep -f "rclone mount $remote" > /dev/null; then
+        echo "Rclone process for $remote already running, attempting to kill it."
+        pkill -f "rclone mount $remote"
+        sleep 2
+    fi
+
+    # Attempt to mount
+    echo "Attempting to mount $remote..."
+    if rclone mount "$remote" "$mount_point" --config "$conf_file" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate &> "$log_file"; then
         echo "Rclone mounted $remote successfully."
     else
-        echo "Failed to mount $remote..."
+        echo "Failed to mount $remote. Check log: $log_file"
+        return 1
+    fi
+}
+
+# Attempt to mount all remotes
+for remote in "${!mounts[@]}"; do
+    if ! mount_rclone "$remote" "${mounts[$remote]}" "$conf_file"; then
+        echo "Retrying mount for $remote..."
+        sleep 5
+        mount_rclone "$remote" "${mounts[$remote]}" "$conf_file"
     fi
 done
 
