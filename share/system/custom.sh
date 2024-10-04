@@ -387,8 +387,6 @@ else
     fi
 fi
 
-#!/bin/bash
-
 # Attempt to download rclonemyrient.conf
 conf_file="/recalbox/share/system/rclonemyrient.conf"
 if [ ! -f "$conf_file" ]; then
@@ -419,7 +417,7 @@ mount_rclone() {
     local remote=$1
     local mount_point=$2
     local conf_file=$3
-    local log_file="/var/log/rclone_${remote}_mount.log"
+    local log_file="/recalbox/share/system/.onlinemountlog/rclone_${remote}_mount.log"
 
     # Check if already mounted
     if mount | grep -q "${mount_point}"; then
@@ -444,6 +442,9 @@ mount_rclone() {
     fi
 }
 
+# Ensure the log directory exists
+mkdir -p /recalbox/share/system/.onlinemountlog
+
 # Attempt to mount all remotes
 for remote in "${!mounts[@]}"; do
     if ! mount_rclone "$remote" "${mounts[$remote]}" "$conf_file"; then
@@ -452,6 +453,7 @@ for remote in "${!mounts[@]}"; do
         mount_rclone "$remote" "${mounts[$remote]}" "$conf_file"
     fi
 done
+
 
 # Wait for a brief moment for the mount to occur
 sleep 5
