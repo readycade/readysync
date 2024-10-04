@@ -386,6 +386,7 @@ else
         echo "Error: Failed to download httpdirfs."
     fi
 fi
+#!/bin/bash
 
 # Attempt to download rclonemyrient.conf
 conf_file="/recalbox/share/system/rclonemyrient.conf"
@@ -417,7 +418,7 @@ mount_rclone() {
     local remote=$1
     local mount_point=$2
     local conf_file=$3
-    local log_file="/recalbox/share/system/.onlinemountlog/rclone_${remote}_mount.log"
+    local log_file="/recalbox/share/system/.onlinemountlog/rclone_${remote//:/}_mount.log"
 
     # Check if already mounted
     if mount | grep -q "${mount_point}"; then
@@ -441,6 +442,18 @@ mount_rclone() {
         return 1
     fi
 }
+
+# Ensure the log directory exists
+mkdir -p /recalbox/share/system/.onlinemountlog
+
+# Attempt to mount all remotes
+for remote in "${!mounts[@]}"; do
+    if ! mount_rclone "$remote" "${mounts[$remote]}" "$conf_file"; then
+        echo "Retrying mount for $remote..."
+        sleep 5
+        mount_rclone "$remote" "${mounts[$remote]}" "$conf_file"
+    fi
+done
 
 # Ensure the log directory exists
 mkdir -p /recalbox/share/system/.onlinemountlog
