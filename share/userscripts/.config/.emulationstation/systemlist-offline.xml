@@ -579,13 +579,13 @@
     <properties type="arcade" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="1997-02" manufacturer="Mame" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
       <emulator name="libretro">
-        <core name="mame" priority="1" extensions=".zip .7z" netplay="1" softpatching="0" compatibility="high" speed="high" crt.available="1">
+        <core name="mame" priority="3" extensions=".zip .7z" netplay="1" softpatching="0" compatibility="high" speed="high" crt.available="1">
           <arcade file="mame.lst" ignore="misc,pacman,galaxian"/>
         </core>
-        <core name="mame2003_plus" priority="2" extensions=".zip .7z" netplay="1" softpatching="0" compatibility="high" speed="high" crt.available="1">
+        <core name="mame2003_plus" priority="1" extensions=".zip .7z" netplay="1" softpatching="0" compatibility="high" speed="high" crt.available="1">
           <arcade file="mame2003-plus.lst" ignore="misc,pacman,galaxian"/>
         </core>
-        <core name="mame2003" priority="3" extensions=".zip .7z" netplay="1" softpatching="0" compatibility="high" speed="high" crt.available="1">
+        <core name="mame2003" priority="2" extensions=".zip .7z" netplay="1" softpatching="0" compatibility="high" speed="high" crt.available="1">
           <arcade file="mame2003.lst" ignore="misc,pacman,galaxian"/>
         </core>
         <core name="mame2010" priority="5" extensions=".zip .7z" netplay="0" softpatching="0" compatibility="high" speed="high" crt.available="1">
