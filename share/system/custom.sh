@@ -195,10 +195,10 @@ fi
 # Syntax: console_name=enabled|disabled
 declare -A console_status
 console_status=(
-    [atari800]=enabled
-    [pc88]=enabled
-    [pc98]=enabled
-    [zx81]=enabled
+    [atari800]=disabled
+    [pc88]=disabled
+    [pc98]=disabled
+    [zx81]=disabled
     [x1]=disabled # Needs Keyboard
     [x68000]=disabled
     [msxturbor]=disabled
@@ -206,14 +206,14 @@ console_status=(
     [dragon]=disabled # Needs Keyboard
     [bk]=disabled
     [samcoupe]=disabled
-    [thomson]=enabled
+    [thomson]=disabled
     [ti994a]=disabled # Collection doesn't work (Using Local Collection /recalbox/share/roms/ti994a)
     [trs80coco]=disabled
     [vg5000]=disabled
     [zmachine]=disabled # Needs Keyboard
-    [amstradcpc]=enabled
-    [gx4000]=enabled
-    [zxspectrum]=enabled
+    [amstradcpc]=disabled
+    [gx4000]=disabled
+    [zxspectrum]=disabled
     [pet]=disabled
 )
 
