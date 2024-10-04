@@ -29,7 +29,7 @@
     </emulatorList>
   </system>
   <system uuid="b58b9072-0e44-4330-869d-96b72f53de1f" name="3do" fullname="Panasonic 3DO">
-    <descriptor path="/recalbox/share/roms/readystream/3do" theme="3do" extensions=".iso .chd .cue .zip" icon="$F28d" downloader="0" command='head %ROM%; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.chd$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
+    <descriptor path="/recalbox/share/rom/Redump/Panasonic - 3DO Interactive Multiplayer" theme="3do" extensions=".iso .chd .cue .zip" icon="$F28d" downloader="0" command='head %ROM%; umount /iso; mount-zip %ROM% /iso; python /usr/bin/emulatorlauncher.pyc %CONTROLLERSCONFIG% -system %SYSTEM% -rom "/iso/$(ls /iso | grep -E "\.iso$|\.cue$|\.chd$" | head -1)" -emulator %EMULATOR% -core %CORE% -ratio %RATIO% %NETPLAY% %CRT%'/>
     <scraper screenscraper="29"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="optional" releasedate="1993-10" manufacturer="Panasonic" retroachievements="1" crt.multiresolution="1" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
