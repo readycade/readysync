@@ -402,13 +402,13 @@ fi
 echo "Mounting romsets..."
 echo "(No-Intro, Redump, TOSEC)..."
 echo "(SNK NEO-GEO)..."
-echo "(Mame 2003-plus)..."
+#echo "(Mame 2003-plus)..."
 
 # List of mount points and remote names
 declare -A mounts=(
     [myrient:]="/recalbox/share/rom"
     [neogeo:]="/recalbox/share/neogeo"
-    [mame:]="/recalbox/share/mame"
+    #[mame:]="/recalbox/share/mame"
 )
 
 # Attempt to mount using rclone
@@ -427,8 +427,8 @@ sleep 5
 if [ "$(ls -A /recalbox/share/rom)" ]; then
     echo "Mounting successful. Files are mounted in /recalbox/share/rom"
     echo "Mounting successful. Files are mounted in /recalbox/share/neogeo"
-    echo "Mounting successful. Files are mounted in /recalbox/share/mame"
-    echo "Mounting successful. TOSEC Files are Downloaded to /recalbox/share/zip"
+    #echo "Mounting successful. Files are mounted in /recalbox/share/mame"
+    echo "Mounting successful. TOSEC Files are Downloaded to /recalbox/share/zip (IF ANY)"
 else
     echo "Mounting failed. No files are mounted in /recalbox/share/rom"
 fi
