@@ -406,8 +406,6 @@ echo "(No-Intro, Redump, TOSEC)..."
 echo "(SNK NEO-GEO)..."
 #echo "(Mame 2003-plus)..."
 
-#!/bin/bash
-
 # Attempt to download rclonemyrient.conf
 conf_file="/recalbox/share/system/rclonemyrient.conf"
 if [ ! -f "$conf_file" ]; then
@@ -455,7 +453,13 @@ mount_rclone() {
 
     # Attempt to mount
     echo "Attempting to mount $remote..."
-    if rclone mount "${remote}:" "$mount_point" --config "$conf_file" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate &> "$log_file"; then
+    rclone mount "${remote}:" "$mount_point" --config "$conf_file" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate &> "$log_file" &
+
+    # Wait for a few seconds to see if the mount was successful
+    sleep 5
+
+    # Check if the mount was successful
+    if mount | grep -q "${mount_point}"; then
         echo "Rclone mounted $remote successfully."
     else
         echo "Failed to mount $remote. Check log: $log_file"
@@ -475,6 +479,7 @@ for remote in "${!mounts[@]}"; do
     fi
     sleep 10  # Adding a delay between mounting different remotes
 done
+
 
 # Wait for a brief moment for the mount to occur
 sleep 5
