@@ -386,7 +386,6 @@ else
         echo "Error: Failed to download httpdirfs."
     fi
 fi
-#!/bin/bash
 
 # Attempt to download rclonemyrient.conf
 conf_file="/recalbox/share/system/rclonemyrient.conf"
@@ -401,6 +400,9 @@ else
     echo "rclonemyrient.conf already exists, skipping download."
 fi
 
+echo "pkill rclone mount"
+pkill -f "rclone mount"
+
 echo "Mounting romsets..."
 echo "(No-Intro, Redump, TOSEC)..."
 echo "(SNK NEO-GEO)..."
@@ -413,7 +415,6 @@ if [ ! -f "$conf_file" ]; then
         echo "rclonemyrient.conf downloaded successfully."
     else
         echo "Failed to download rclonemyrient.conf after 3 attempts."
-        exit 1
     fi
 else
     echo "rclonemyrient.conf already exists, skipping download."
@@ -422,38 +423,23 @@ fi
 echo "Mounting romsets..."
 echo "(No-Intro, Redump, TOSEC)..."
 echo "(SNK NEO-GEO)..."
-#echo "(Mame 2003-plus)..."
+echo "(Mame 2003-plus)..."
 
 # List of mount points and remote names
 declare -A mounts=(
-    [myrient]="/recalbox/share/rom"
-    [neogeo]="/recalbox/share/neogeo"
-    #[mame]="/recalbox/share/mame"
+    [myrient:]="/recalbox/share/rom"
+    [neogeo:]="/recalbox/share/neogeo"
+    [mame:]="/recalbox/share/mame"
 )
 
-# Function to mount using rclone
-mount_rclone() {
-    local remote=$1
-    local mount_point=$2
-    local conf_file=$3
-    local log_file="/recalbox/share/system/.onlinemountlog/rclone_${remote}_mount.log"
-
-    # Check if already mounted
-    if mount | grep -q "${mount_point}"; then
-        echo "$remote is already mounted."
-        return 0
+# Attempt to mount using rclone
+for remote in "${!mounts[@]}"; do
+    if rclone mount "$remote" "${mounts[$remote]}" --config "$conf_file" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
+        echo "Rclone mounted $remote successfully."
+    else
+        echo "Failed to mount $remote..."
     fi
-
-    # Check for existing rclone process
-    if pgrep -f "rclone mount $remote" > /dev/null; then
-        echo "Rclone process for $remote already running, attempting to kill it."
-        pkill -f "rclone mount $remote"
-        sleep 2
-    fi
-
-    # Attempt to mount
-    echo "Attempting to mount $remote..."
-    rclone mount "${remote}:" "$mount_point" --config "$conf_file" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate &> "$log_file" &
+done
 
     # Wait for a few seconds to see if the mount was successful
     sleep 5
