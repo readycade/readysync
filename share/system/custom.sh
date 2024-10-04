@@ -406,11 +406,31 @@ echo "(No-Intro, Redump, TOSEC)..."
 echo "(SNK NEO-GEO)..."
 #echo "(Mame 2003-plus)..."
 
+#!/bin/bash
+
+# Attempt to download rclonemyrient.conf
+conf_file="/recalbox/share/system/rclonemyrient.conf"
+if [ ! -f "$conf_file" ]; then
+    if wget --no-check-certificate --quiet --show-progress --retry-connrefused --tries=3 "https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclonemyrient.conf" -O "$conf_file"; then
+        echo "rclonemyrient.conf downloaded successfully."
+    else
+        echo "Failed to download rclonemyrient.conf after 3 attempts."
+        exit 1
+    fi
+else
+    echo "rclonemyrient.conf already exists, skipping download."
+fi
+
+echo "Mounting romsets..."
+echo "(No-Intro, Redump, TOSEC)..."
+echo "(SNK NEO-GEO)..."
+#echo "(Mame 2003-plus)..."
+
 # List of mount points and remote names
 declare -A mounts=(
-    [myrient:]="/recalbox/share/rom"
-    [neogeo:]="/recalbox/share/neogeo"
-    #[mame:]="/recalbox/share/mame"
+    [myrient]="/recalbox/share/rom"
+    [neogeo]="/recalbox/share/neogeo"
+    #[mame]="/recalbox/share/mame"
 )
 
 # Function to mount using rclone
@@ -418,7 +438,7 @@ mount_rclone() {
     local remote=$1
     local mount_point=$2
     local conf_file=$3
-    local log_file="/recalbox/share/system/.onlinemountlog/rclone_${remote//:/}_mount.log"
+    local log_file="/recalbox/share/system/.onlinemountlog/rclone_${remote}_mount.log"
 
     # Check if already mounted
     if mount | grep -q "${mount_point}"; then
@@ -435,7 +455,7 @@ mount_rclone() {
 
     # Attempt to mount
     echo "Attempting to mount $remote..."
-    if rclone mount "$remote" "$mount_point" --config "$conf_file" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate &> "$log_file"; then
+    if rclone mount "${remote}:" "$mount_point" --config "$conf_file" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate &> "$log_file"; then
         echo "Rclone mounted $remote successfully."
     else
         echo "Failed to mount $remote. Check log: $log_file"
@@ -450,23 +470,11 @@ mkdir -p /recalbox/share/system/.onlinemountlog
 for remote in "${!mounts[@]}"; do
     if ! mount_rclone "$remote" "${mounts[$remote]}" "$conf_file"; then
         echo "Retrying mount for $remote..."
-        sleep 5
+        sleep 5  # Adding a delay between retries
         mount_rclone "$remote" "${mounts[$remote]}" "$conf_file"
     fi
+    sleep 10  # Adding a delay between mounting different remotes
 done
-
-# Ensure the log directory exists
-mkdir -p /recalbox/share/system/.onlinemountlog
-
-# Attempt to mount all remotes
-for remote in "${!mounts[@]}"; do
-    if ! mount_rclone "$remote" "${mounts[$remote]}" "$conf_file"; then
-        echo "Retrying mount for $remote..."
-        sleep 5
-        mount_rclone "$remote" "${mounts[$remote]}" "$conf_file"
-    fi
-done
-
 
 # Wait for a brief moment for the mount to occur
 sleep 5
