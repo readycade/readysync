@@ -195,10 +195,10 @@ fi
 # Syntax: console_name=enabled|disabled
 declare -A console_status
 console_status=(
-    [atari800]=disabled
-    [pc88]=disabled
-    [pc98]=disabled
-    [zx81]=disabled
+    [atari800]=enabled
+    [pc88]=enabled
+    [pc98]=enabled
+    [zx81]=enabled
     [x1]=disabled # Needs Keyboard
     [x68000]=disabled
     [msxturbor]=disabled
@@ -206,14 +206,14 @@ console_status=(
     [dragon]=disabled # Needs Keyboard
     [bk]=disabled
     [samcoupe]=disabled
-    [thomson]=disabled
+    [thomson]=enabled
     [ti994a]=disabled # Collection doesn't work (Using Local Collection /recalbox/share/roms/ti994a)
     [trs80coco]=disabled
     [vg5000]=disabled
     [zmachine]=disabled # Needs Keyboard
-    [amstradcpc]=disabled
-    [gx4000]=disabled
-    [zxspectrum]=disabled
+    [amstradcpc]=enabled
+    [gx4000]=enabled
+    [zxspectrum]=enabled
     [pet]=disabled
 )
 
@@ -394,27 +394,6 @@ if [ ! -f "$conf_file" ]; then
         echo "rclonemyrient.conf downloaded successfully."
     else
         echo "Failed to download rclonemyrient.conf after 3 attempts."
-        exit 1
-    fi
-else
-    echo "rclonemyrient.conf already exists, skipping download."
-fi
-
-echo "pkill rclone mount"
-pkill -f "rclone mount"
-
-echo "Mounting romsets..."
-echo "(No-Intro, Redump, TOSEC)..."
-echo "(SNK NEO-GEO)..."
-#echo "(Mame 2003-plus)..."
-
-# Attempt to download rclonemyrient.conf
-conf_file="/recalbox/share/system/rclonemyrient.conf"
-if [ ! -f "$conf_file" ]; then
-    if wget --no-check-certificate --quiet --show-progress --retry-connrefused --tries=3 "https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclonemyrient.conf" -O "$conf_file"; then
-        echo "rclonemyrient.conf downloaded successfully."
-    else
-        echo "Failed to download rclonemyrient.conf after 3 attempts."
     fi
 else
     echo "rclonemyrient.conf already exists, skipping download."
@@ -441,32 +420,6 @@ for remote in "${!mounts[@]}"; do
     fi
 done
 
-    # Wait for a few seconds to see if the mount was successful
-    sleep 5
-
-    # Check if the mount was successful
-    if mount | grep -q "${mount_point}"; then
-        echo "Rclone mounted $remote successfully."
-    else
-        echo "Failed to mount $remote. Check log: $log_file"
-        return 1
-    fi
-}
-
-# Ensure the log directory exists
-mkdir -p /recalbox/share/system/.onlinemountlog
-
-# Attempt to mount all remotes
-for remote in "${!mounts[@]}"; do
-    if ! mount_rclone "$remote" "${mounts[$remote]}" "$conf_file"; then
-        echo "Retrying mount for $remote..."
-        sleep 5  # Adding a delay between retries
-        mount_rclone "$remote" "${mounts[$remote]}" "$conf_file"
-    fi
-    sleep 10  # Adding a delay between mounting different remotes
-done
-
-
 # Wait for a brief moment for the mount to occur
 sleep 5
 
@@ -474,8 +427,8 @@ sleep 5
 if [ "$(ls -A /recalbox/share/rom)" ]; then
     echo "Mounting successful. Files are mounted in /recalbox/share/rom"
     echo "Mounting successful. Files are mounted in /recalbox/share/neogeo"
-    #echo "Mounting successful. Files are mounted in /recalbox/share/mame"
-    echo "Mounting successful. TOSEC Files are Downloaded to /recalbox/share/zip (IF ANY)"
+    echo "Mounting successful. Files are mounted in /recalbox/share/mame"
+    echo "Mounting successful. TOSEC Files are Downloaded to /recalbox/share/zip"
 else
     echo "Mounting failed. No files are mounted in /recalbox/share/rom"
 fi
