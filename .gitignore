@@ -1,2 +1,11 @@
+# Ignore specific files
 /share/system/custom\ copy.sh
 /share/system/custom-tradeshow.sh
+/share/system/download_tosec.sh
+/share/system/generate_gamelists.sh
+/share/change_file_extensions.bat
+/share/create_empty_files.bat
+
+# Ignore entire directories
+/share/userscripts/.config/thrustmaster_driver/
+/share/userscripts/.config/gamemode/
