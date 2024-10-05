@@ -346,17 +346,26 @@ else
     download_mergerfs_with_retry "$mergerfs_url" "$temp_dir/mergerfs.tar.gz"
     if [ $? -eq 0 ]; then
         echo "mergerfs binary downloaded successfully."
+        
         # Extract the mergerfs binary
-        tar -xzf "$temp_dir/mergerfs.tar.gz" -C /usr/bin mergerfs
-        # Set permissions
-        chmod +x /usr/bin/mergerfs
-        echo "Execute permission set for mergerfs binary."
+        tar -xzf "$temp_dir/mergerfs.tar.gz" -C "$temp_dir"
+        
+        # Check if the binary is in the expected location after extraction
+        if [ -f "$temp_dir/mergerfs" ]; then
+            mv "$temp_dir/mergerfs" /usr/bin/
+            chmod +x /usr/bin/mergerfs
+            echo "Execute permission set for mergerfs binary."
+        else
+            echo "Error: mergerfs binary not found after extraction."
+        fi
+
         # Cleanup
         rm -rf "$temp_dir"
     else
         echo "Error: Failed to download mergerfs."
     fi
 fi
+
 
 # Function to download a rclone with retries
 download_rclone_with_retry() {
