@@ -555,6 +555,7 @@ declare -A mounts=(
 
 # Create temporary directories for Rclone
 for remote in "${!mounts[@]}"; do
+    # Create a temporary mount point
     temp_mount="/recalbox/share/roms/readystream/.tmp_${remote%%:}"
     mkdir -p "$temp_mount"
     
@@ -562,8 +563,10 @@ for remote in "${!mounts[@]}"; do
     if rclone mount "$remote" "$temp_mount" --config "$conf_file" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
         echo "Rclone mounted $remote successfully."
         
-        # Only merge if the temp mount was successful
-        mergerfs "$temp_mount" "${mounts[$remote]}" -o defaults,allow_other
+        # Use mergerfs to combine local and remote files, ensuring no overlap
+        # We are merging the temp_mount with the local directory, not the other way around
+        local_dir="${mounts[$remote]}"
+        mergerfs "$temp_mount" "$local_dir" -o defaults,allow_other
     else
         echo "Failed to mount $remote..."
     fi
