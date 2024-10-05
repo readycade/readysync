@@ -324,14 +324,18 @@ download_mergerfs_with_retry() {
 
 # Determine architecture
 architecture=$(uname -m)
-if [ "$architecture" == "amd64" ]; then
-    mergerfs_url="https://github.com/trapexit/mergerfs/releases/download/2.40.2/mergerfs-static-linux_amd64.tar.gz"
-elif [ "$architecture" == "arm64" ]; then
-    mergerfs_url="https://github.com/trapexit/mergerfs/releases/download/2.40.2/mergerfs-static-linux_arm64.tar.gz"
-else
-    echo "Error: Unsupported architecture."
-    exit 1
-fi
+case "$architecture" in
+    x86_64|amd64)
+        mergerfs_url="https://github.com/trapexit/mergerfs/releases/download/2.40.2/mergerfs-static-linux_amd64.tar.gz"
+        ;;
+    aarch64|arm64)
+        mergerfs_url="https://github.com/trapexit/mergerfs/releases/download/2.40.2/mergerfs-static-linux_arm64.tar.gz"
+        ;;
+    *)
+        echo "Error: Unsupported architecture: $architecture"
+        exit 1
+        ;;
+esac
 
 # Define temp directory
 temp_dir="/recalbox/share/userscripts/.config/readystream/tmp/mergerfs"
@@ -359,8 +363,6 @@ else
         exit 1
     fi
 fi
-
-
 
 
 # Function to download a rclone with retries
@@ -566,6 +568,7 @@ for remote in "${!mounts[@]}"; do
         echo "Failed to mount $remote..."
     fi
 done
+
 # Wait for a brief moment for the mount to occur
 sleep 5
 
