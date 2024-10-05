@@ -123,7 +123,9 @@ if [[ -d "$readysync_roms_dir" && -d "$readysync_roms_dest" ]]; then
         echo "No need to copy, directories are already synced."
     else
         echo "Directories differ, copying files..."
-        cp -r "$readysync_roms_dir/"* "$readysync_roms_dest/"
+        #cp -r "$readysync_roms_dir/"* "$readysync_roms_dest/"
+        cp -r --preserve=mode,timestamps "$readysync_roms_dir/"* "$readysync_roms_dest/"
+
     fi
 else
     echo "One or both directories do not exist."
