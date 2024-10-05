@@ -114,9 +114,18 @@ else
     fi
 fi
 
-# Copy all folders and files from the roms directory to the destination directory
-mkdir -p "$readysync_roms_dest"
-cp -r "$readysync_roms_dir/"* "$readysync_roms_dest/"
+# Check if both source and destination directories exist
+if [[ -d "$readysync_roms_dir" && -d "$readysync_roms_dest" ]]; then
+    # Check if the destination already contains the files
+    if diff -r "$readysync_roms_dir" "$readysync_roms_dest" >/dev/null 2>&1; then
+        echo "No need to copy, directories are already synced."
+    else
+        echo "Directories differ, copying files..."
+        cp -r "$readysync_roms_dir/"* "$readysync_roms_dest/"
+    fi
+else
+    echo "One or both directories do not exist."
+fi
 
 # Define the systemlist directory
 systemlist_dir="/recalbox/share/userscripts/.config/.emulationstation"
