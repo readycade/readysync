@@ -299,6 +299,7 @@ wait
 
 echo "All TOSEC files downloaded and extracted successfully!"
 
+
 # Function to download mergerfs with retries
 download_mergerfs_with_retry() {
     local url=$1
@@ -347,17 +348,18 @@ else
     if [ $? -eq 0 ]; then
         echo "mergerfs binary downloaded successfully."
         
-        # Extract the mergerfs binary
+        # Extract the mergerfs binary to the temp directory
         tar -xzf "$temp_dir/mergerfs.tar.gz" -C "$temp_dir"
+
+        # Move the mergerfs binary to /usr/bin
+        mv "$temp_dir/usr/local/bin/mergerfs" /usr/bin/
+        mv "$temp_dir/usr/local/bin/mergerfs-fusermount" /usr/bin/
+
+        # Set permissions
+        chmod +x /usr/bin/mergerfs
+        chmod +x /usr/bin/mergerfs-fusermount
         
-        # Check if the binary is in the expected location after extraction
-        if [ -f "$temp_dir/mergerfs" ]; then
-            mv "$temp_dir/mergerfs" /usr/bin/
-            chmod +x /usr/bin/mergerfs
-            echo "Execute permission set for mergerfs binary."
-        else
-            echo "Error: mergerfs binary not found after extraction."
-        fi
+        echo "Execute permission set for mergerfs and mergerfs-fusermount binaries."
 
         # Cleanup
         rm -rf "$temp_dir"
