@@ -390,7 +390,7 @@ fi
 # Attempt to download rclonemyrient.conf
 conf_file="/recalbox/share/system/rclonemyrient.conf"
 if [ ! -f "$conf_file" ]; then
-    if wget --no-check-certificate --quiet --show-progress --retry-connrefused --tries=3 "https://raw.githubusercontent.com/readycade/readysync/master/share/userscripts/.config/readystream/rclonemyrient.conf" -O "$conf_file"; then
+    if wget --no-check-certificate --quiet --show-progress --retry-connrefused --tries=3 "https://raw.githubusercontent.com/readycade/readysync/refs/heads/master/share/userscripts/.config/readystream/rclonemyrient.conf" -O "$conf_file"; then
         echo "rclonemyrient.conf downloaded successfully."
     else
         echo "Failed to download rclonemyrient.conf after 3 attempts."
