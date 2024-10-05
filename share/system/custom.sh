@@ -166,7 +166,7 @@ online_mode() {
 
 # Create all Online Directories needed for Online Mode
 mkdir -p /recalbox/share/userscripts/.config/{.emulationstation,readystream,readystream/roms} \
-         /recalbox/share/{thumbs,dos,mame,neogeo,rom,roms/readystream,roms/readystream/tmp}
+         /recalbox/share/{thumbs,dos,iso,mame,neogeo,rom,roms/readystream,roms/readystream/tmp}
 
 # Online Mode
 if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
