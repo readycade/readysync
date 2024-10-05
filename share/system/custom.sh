@@ -575,11 +575,7 @@ for remote in "${!mounts[@]}"; do
             echo "Local gamelist files found."
             # Use mergerfs to combine local and remote files, ensuring no overlap
             #mergerfs "$temp_mount" "$local_dir" -o defaults,allow_other
-            #mergerfs "$temp_mount" "$local_dir" -o defaults,allow_other,symlinkify=true,symlinkify_timeout=0
-            #mergerfs "$temp_mount" "$local_dir" -o defaults,allow_other,direct_io
-            mergerfs "$temp_mount" "$local_dir" -o defaults,nonempty,allow_other,category.create=mfs,use_ino,cache.files=auto-full,moveonenospc=true,dropcacheonclose=true,minfreespace=200G,fsname=mergerfs
-
-
+            mergerfs "$temp_mount" "$local_dir" -o defaults,allow_other,noforget
 
         else
             echo "Warning: Local gamelist files are missing in $local_dir."
