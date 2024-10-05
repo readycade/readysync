@@ -324,18 +324,14 @@ download_mergerfs_with_retry() {
 
 # Determine architecture
 architecture=$(uname -m)
-case "$architecture" in
-    x86_64|amd64)
-        mergerfs_url="https://github.com/trapexit/mergerfs/releases/download/2.40.2/mergerfs-static-linux_amd64.tar.gz"
-        ;;
-    aarch64|arm64)
-        mergerfs_url="https://github.com/trapexit/mergerfs/releases/download/2.40.2/mergerfs-static-linux_arm64.tar.gz"
-        ;;
-    *)
-        echo "Error: Unsupported architecture: $architecture"
-        exit 1
-        ;;
-esac
+if [ "$architecture" == "x86_64" ]; then
+    mergerfs_url="https://github.com/trapexit/mergerfs/releases/download/2.40.2/mergerfs-static-linux_amd64.tar.gz"
+elif [ "$architecture" == "aarch64" ]; then
+    mergerfs_url="https://github.com/trapexit/mergerfs/releases/download/2.40.2/mergerfs-static-linux_arm64.tar.gz"
+else
+    echo "Error: Unsupported architecture."
+    exit 1
+fi
 
 # Define temp directory
 temp_dir="/recalbox/share/userscripts/.config/readystream/tmp/mergerfs"
@@ -352,15 +348,17 @@ else
     if [ $? -eq 0 ]; then
         echo "mergerfs binary downloaded successfully."
         # Extract the mergerfs binary
-        tar -xzf "$temp_dir/mergerfs.tar.gz" -C /usr
+        tar -xzf "$temp_dir/mergerfs.tar.gz" -C "$temp_dir"
+        # Move the binary to /usr/bin
+        mv "$temp_dir/usr/local/bin/mergerfs" /usr/bin/mergerfs
+        mv "$temp_dir/usr/local/bin/mergerfs-fusermount" /usr/bin/mergerfs-fusermount
         # Set permissions
-        chmod +x /usr/local/bin/mergerfs
-        echo "Execute permission set for mergerfs binary."
+        chmod +x /usr/bin/mergerfs /usr/bin/mergerfs-fusermount
+        echo "Execute permission set for mergerfs binaries."
         # Cleanup
         rm -rf "$temp_dir"
     else
         echo "Error: Failed to download mergerfs."
-        exit 1
     fi
 fi
 
