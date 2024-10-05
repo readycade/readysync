@@ -564,7 +564,10 @@ for remote in "${!mounts[@]}"; do
     mkdir -p "$temp_mount"
     
     # Mount rclone using a single-line command
-    if rclone mount "$remote" "$temp_mount" --config "$conf_file" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate --vfs-cache-mode writes; then
+    #if rclone mount "$remote" "$temp_mount" --config "$conf_file" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate --vfs-cache-mode writes; then
+    if rclone mount union:"$local_dir"="$temp_mount" "$local_dir" --config "$conf_file" --allow-non-empty --vfs-cache-mode writes --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate --vfs-cache-mode writes; then
+
+        
         echo "Rclone mounted $remote successfully."
         
         # Ensure local directory exists and merge with mergerfs
@@ -576,7 +579,7 @@ for remote in "${!mounts[@]}"; do
             # Use mergerfs to combine local and remote files, ensuring no overlap
             #mergerfs "$temp_mount" "$local_dir" -o defaults,allow_other
             #mergerfs "$temp_mount" "$local_dir" -o defaults,allow_other,noforget
-            mergerfs "$local_dir" "$temp_mount" -o defaults,allow_other
+            #mergerfs "$local_dir" "$temp_mount" -o defaults,allow_other
 
 
         else
