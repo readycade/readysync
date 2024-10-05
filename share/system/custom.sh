@@ -323,8 +323,8 @@ download_mergerfs_with_retry() {
 
 # Determine architecture
 architecture=$(uname -m)
-if [ "$architecture" == "x86_64" ]; then
-    mergerfs_url="https://github.com/trapexit/mergerfs/releases/download/2.40.2/mergerfs-static-linux_x86_64.tar.gz"
+if [ "$architecture" == "amd64" ]; then
+    mergerfs_url="https://github.com/trapexit/mergerfs/releases/download/2.40.2/mergerfs-static-linux_amd64.tar.gz"
 elif [ "$architecture" == "aarch64" ]; then
     mergerfs_url="https://github.com/trapexit/mergerfs/releases/download/2.40.2/mergerfs-static-linux_arm64.tar.gz"
 else
