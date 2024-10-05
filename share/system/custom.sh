@@ -574,7 +574,9 @@ for remote in "${!mounts[@]}"; do
         if [[ -f "$local_dir/gamelist.xml" && -f "$local_dir/gamelist.xml.md5" ]]; then
             echo "Local gamelist files found."
             # Use mergerfs to combine local and remote files, ensuring no overlap
-            mergerfs "$temp_mount" "$local_dir" -o defaults,allow_other
+            #mergerfs "$temp_mount" "$local_dir" -o defaults,allow_other
+            mergerfs "$temp_mount" "$local_dir" -o defaults,allow_other,symlinkify=true,symlinkify_timeout=0
+
         else
             echo "Warning: Local gamelist files are missing in $local_dir."
         fi
