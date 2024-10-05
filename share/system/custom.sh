@@ -575,8 +575,8 @@ for remote in "${!mounts[@]}"; do
 done
 
 
-# Wait for a brief moment for the mount to occur
-sleep 5
+# Wait for the mount to occur
+wait
 
 # Check if the mount point exists and contains files
 if [ "$(ls -A /recalbox/share/rom)" ]; then
