@@ -576,7 +576,9 @@ for remote in "${!mounts[@]}"; do
             # Use mergerfs to combine local and remote files, ensuring no overlap
             #mergerfs "$temp_mount" "$local_dir" -o defaults,allow_other
             #mergerfs "$temp_mount" "$local_dir" -o defaults,allow_other,symlinkify=true,symlinkify_timeout=0
-            mergerfs "$temp_mount" "$local_dir" -o defaults,allow_other,direct_io
+            #mergerfs "$temp_mount" "$local_dir" -o defaults,allow_other,direct_io
+            mergerfs "$temp_mount" "$local_dir" -o defaults,allow_other,cache.files=off
+
 
 
         else
