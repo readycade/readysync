@@ -823,7 +823,7 @@
     </emulatorList>
   </system>
   <system uuid="e2a0a36b-03ea-47b8-a951-a8f0b4870d14" name="neogeo" fullname="Neo-Geo">
-    <descriptor path="/recalbox/share/neogeo" theme="neogeo" extensions=".7z .zip" icon="$F257" downloader="0"/>
+    <descriptor path="/recalbox/share/roms/neogeo" theme="neogeo" extensions=".7z .zip" icon="$F257" downloader="0"/>
     <scraper screenscraper="142"/>
     <properties type="console" pad="mandatory" keyboard="no" mouse="no" lightgun="no" releasedate="1990-04" manufacturer="SNK" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
