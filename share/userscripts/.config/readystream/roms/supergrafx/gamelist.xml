@@ -1,30 +1,30 @@
 <gamelist>
   <game>
-    <path>/recalbox/share/roms/readystream/supergrafx/1941 - Counter Attack (Japan).zip</path>
+    <path>/recalbox/share/rom/No-Intro/NEC - PC Engine SuperGrafx/1941 - Counter Attack (Japan).zip</path>
     <name>1941 - Counter Attack (Japan)</name>
     <image>/recalbox/share/thumbs/NEC - PC Engine SuperGrafx/Named_Titles/1941 - Counter Attack (Japan).png</image>
     <video>/recalbox/share/videos/No-Intro/NEC - PC Engine SuperGrafx/1941 - Counter Attack (Japan).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/roms/readystream/supergrafx/Aldynes - The Misson Code for Rage Crisis (Japan).zip</path>
+    <path>/recalbox/share/rom/No-Intro/NEC - PC Engine SuperGrafx/Aldynes - The Misson Code for Rage Crisis (Japan).zip</path>
     <name>Aldynes - The Misson Code for Rage Crisis (Japan)</name>
     <image>/recalbox/share/thumbs/NEC - PC Engine SuperGrafx/Named_Titles/Aldynes - The Misson Code for Rage Crisis (Japan).png</image>
     <video>/recalbox/share/videos/No-Intro/NEC - PC Engine SuperGrafx/Aldynes - The Misson Code for Rage Crisis (Japan).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/roms/readystream/supergrafx/Battle Ace (Japan).zip</path>
+    <path>/recalbox/share/rom/No-Intro/NEC - PC Engine SuperGrafx/Battle Ace (Japan).zip</path>
     <name>Battle Ace (Japan)</name>
     <image>/recalbox/share/thumbs/NEC - PC Engine SuperGrafx/Named_Titles/Battle Ace (Japan).png</image>
     <video>/recalbox/share/videos/No-Intro/NEC - PC Engine SuperGrafx/Battle Ace (Japan).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/roms/readystream/supergrafx/Daimakaimura (Japan).zip</path>
+    <path>/recalbox/share/rom/No-Intro/NEC - PC Engine SuperGrafx/Daimakaimura (Japan).zip</path>
     <name>Daimakaimura (Japan)</name>
     <image>/recalbox/share/thumbs/NEC - PC Engine SuperGrafx/Named_Titles/Daimakaimura (Japan).png</image>
     <video>/recalbox/share/videos/No-Intro/NEC - PC Engine SuperGrafx/Daimakaimura (Japan).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/roms/readystream/supergrafx/Madou King Granzort (Japan).zip</path>
+    <path>/recalbox/share/rom/No-Intro/NEC - PC Engine SuperGrafx/Madou King Granzort (Japan).zip</path>
     <name>Madou King Granzort (Japan)</name>
     <image>/recalbox/share/thumbs/NEC - PC Engine SuperGrafx/Named_Titles/Madou King Granzort (Japan).png</image>
     <video>/recalbox/share/videos/No-Intro/NEC - PC Engine SuperGrafx/Madou King Granzort (Japan).mp4</video>

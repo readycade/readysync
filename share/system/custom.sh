@@ -80,13 +80,8 @@ readysync_tmp_dir="/recalbox/share/userscripts/.config/readystream/tmp"
 readysync_roms_dir="/recalbox/share/userscripts/.config/readystream/roms"
 readysync_roms_dest="/recalbox/share/roms/readystream"
 
-echo "Killing rclone before attempting to create and mount directories"
-pkill -f "rclone mount"
-
-wait
-
 # Download and Installation of gamelist.xml's for Online Directories
-echo "Downloading roms.zip..."
+
 # Check if the destination directory already contains files
 if [ -d "$readysync_roms_dir" ] && [ "$(ls -A $readysync_roms_dir)" ]; then
     echo "Files already exist in $readysync_roms_dir. No need to download or extract."
@@ -116,20 +111,9 @@ else
     fi
 fi
 
-# Check if both source and destination directories exist
-if [[ -d "$readysync_roms_dir" && -d "$readysync_roms_dest" ]]; then
-    # Check if the destination already contains the files
-    if diff -r "$readysync_roms_dir" "$readysync_roms_dest" >/dev/null 2>&1; then
-        echo "No need to copy, directories are already synced."
-    else
-        echo "Directories differ, copying files..."
-        #cp -r "$readysync_roms_dir/"* "$readysync_roms_dest/"
-        cp -avu "$readysync_roms_dir/"* "$readysync_roms_dest/"
-
-    fi
-else
-    echo "One or both directories do not exist."
-fi
+# Copy all folders and files from the roms directory to the destination directory
+mkdir -p "$readysync_roms_dest"
+cp -r "$readysync_roms_dir/"* "$readysync_roms_dest/"
 
 # Define the systemlist directory
 systemlist_dir="/recalbox/share/userscripts/.config/.emulationstation"
@@ -166,7 +150,7 @@ online_mode() {
 
 # Create all Online Directories needed for Online Mode
 mkdir -p /recalbox/share/userscripts/.config/{.emulationstation,readystream,readystream/roms} \
-         /recalbox/share/{thumbs,dos,iso,mame,neogeo,rom,roms/readystream,roms/readystream/tmp}
+         /recalbox/share/{thumbs,dos,mame,neogeo,rom,roms/readystream,roms/readystream/tmp}
 
 # Online Mode
 if [ -f "$offline_systemlist" ] && [ -f "$offline_online" ]; then
@@ -303,70 +287,6 @@ wait
 
 echo "All TOSEC files downloaded and extracted successfully!"
 
-
-# Function to download mergerfs with retries
-download_mergerfs_with_retry() {
-    local url=$1
-    local output=$2
-    local max_retries=3
-    local retry_delay=5
-
-    for ((attempt = 1; attempt <= max_retries; attempt++)); do
-        wget --quiet --show-progress --retry-connrefused --waitretry=$retry_delay --timeout=30 --tries=$max_retries -O "$output" "$url"
-        if [ $? -eq 0 ]; then
-            echo "Download succeeded."
-            return 0
-        else
-            echo "Download failed (attempt $attempt/$max_retries). Retrying in $retry_delay seconds..."
-            sleep $retry_delay
-        fi
-    done
-
-    echo "Max retries reached. Download failed."
-    return 1
-}
-
-# Determine architecture
-architecture=$(uname -m)
-if [ "$architecture" == "x86_64" ]; then
-    mergerfs_url="https://github.com/trapexit/mergerfs/releases/download/2.40.2/mergerfs-static-linux_amd64.tar.gz"
-elif [ "$architecture" == "aarch64" ]; then
-    mergerfs_url="https://github.com/trapexit/mergerfs/releases/download/2.40.2/mergerfs-static-linux_arm64.tar.gz"
-else
-    echo "Error: Unsupported architecture."
-    exit 1
-fi
-
-# Define temp directory
-temp_dir="/recalbox/share/userscripts/.config/readystream/tmp/mergerfs"
-
-# Ensure the temp directory exists
-mkdir -p "$temp_dir"
-
-# Check if mergerfs exists in /usr/bin
-if [ -x /usr/bin/mergerfs ]; then
-    echo "mergerfs already exists in /usr/bin. Skipping download."
-else
-    # Download mergerfs with retry
-    download_mergerfs_with_retry "$mergerfs_url" "$temp_dir/mergerfs.tar.gz"
-    if [ $? -eq 0 ]; then
-        echo "mergerfs binary downloaded successfully."
-        # Extract the mergerfs binary
-        tar -xzf "$temp_dir/mergerfs.tar.gz" -C "$temp_dir"
-        # Move the binary to /usr/bin
-        mv "$temp_dir/usr/local/bin/mergerfs" /usr/bin/mergerfs
-        mv "$temp_dir/usr/local/bin/mergerfs-fusermount" /usr/bin/mergerfs-fusermount
-        # Set permissions
-        chmod +x /usr/bin/mergerfs /usr/bin/mergerfs-fusermount
-        echo "Execute permission set for mergerfs binaries."
-        # Cleanup
-        rm -rf "$temp_dir"
-    else
-        echo "Error: Failed to download mergerfs."
-    fi
-fi
-
-
 # Function to download a rclone with retries
 download_rclone_with_retry() {
     local url=$1
@@ -486,125 +406,32 @@ echo "(Mame 2003-plus)..."
 
 # List of mount points and remote names
 declare -A mounts=(
-    #[myrient:]="/recalbox/share/rom"
+    [myrient:]="/recalbox/share/rom"
     [neogeo:]="/recalbox/share/neogeo"
-    #[mame:]="/recalbox/share/mame"
-    [3do:]="/recalbox/share/roms/readystream/3do"
-    [3ds:]="/recalbox/share/roms/readystream/3ds"
-    [64dd:]="/recalbox/share/roms/readystream/64dd"
-    [amiga1200:]="/recalbox/share/roms/readystream/amiga1200"
-    [amigacd32:]="/recalbox/share/roms/readystream/amigacd32"
-    [apple2:]="/recalbox/share/roms/readystream/apple2"
-    [apple2gs:]="/recalbox/share/roms/readystream/apple2gs"
-    [arduboy:]="/recalbox/share/roms/readystream/arduboy"
-    [atari2600:]="/recalbox/share/roms/readystream/atari2600"
-    [atari5200:]="/recalbox/share/roms/readystream/atari5200"
-    [atari7800:]="/recalbox/share/roms/readystream/atari7800"
-    [atarist:]="/recalbox/share/roms/readystream/atarist"
-    [c64:]="/recalbox/share/roms/readystream/c64"
-    [channelf:]="/recalbox/share/roms/readystream/channelf"
-    [colecovision:]="/recalbox/share/roms/readystream/colecovision"
-    [dos:]="/recalbox/share/roms/readystream/dos" 
-    [dreamcast:]="/recalbox/share/roms/readystream/dreamcast"
-    [fds:]="/recalbox/share/roms/readystream/fds"
-    [gamecube:]="/recalbox/share/roms/readystream/gamecube"
-    [gamegear:]="/recalbox/share/roms/readystream/gamegear"
-    [gb:]="/recalbox/share/roms/readystream/gb"
-    [gba:]="/recalbox/share/roms/readystream/gba"
-    [gbc:]="/recalbox/share/roms/readystream/gbc"
-    [intellivision:]="/recalbox/share/roms/readystream/intellivision"
-    [jaguar:]="/recalbox/share/roms/readystream/jaguar"
-    [lynx:]="/recalbox/share/roms/readystream/lynx"
-    [macintosh:]="/recalbox/share/roms/readystream/macintosh"
-    [mastersystem:]="/recalbox/share/roms/readystream/mastersystem"
-    [megadrive:]="/recalbox/share/roms/readystream/megadrive"
-    [msx1:]="/recalbox/share/roms/readystream/msx1"
-    [msx2:]="/recalbox/share/roms/readystream/msx2"
-    [n64:]="/recalbox/share/roms/readystream/n64"
-    [nds:]="/recalbox/share/roms/readystream/nds"
-    [neogeocd:]="/recalbox/share/roms/readystream/neogeocd"
-    [nes:]="/recalbox/share/roms/readystream/nes"
-    [ngp:]="/recalbox/share/roms/readystream/ngp"
-    [ngpc:]="/recalbox/share/roms/readystream/ngpc"
-    [o2em:]="/recalbox/share/roms/readystream/o2em"
-    [palm:]="/recalbox/share/roms/readystream/palm"
-    [pcengine:]="/recalbox/share/roms/readystream/pcengine"
-    [pcenginecd:]="/recalbox/share/roms/readystream/pcenginecd"
-    [pcfx:]="/recalbox/share/roms/readystream/pcfx"
-    [pcv2:]="/recalbox/share/roms/readystream/pcv2"
-    [pokemini:]="/recalbox/share/roms/readystream/pokemini"
-    [ps2:]="/recalbox/share/roms/readystream/ps2"
-    [psp:]="/recalbox/share/roms/readystream/psp"
-    [psx:]="/recalbox/share/roms/readystream/psx"
-    [satellaview:]="/recalbox/share/roms/readystream/satellaview"
-    [saturn:]="/recalbox/share/roms/readystream/saturn"
-    [scv:]="/recalbox/share/roms/readystream/scv"
-    [sega32x:]="/recalbox/share/roms/readystream/sega32x"
-    [segacd:]="/recalbox/share/roms/readystream/segacd"
-    [sg1000:]="/recalbox/share/roms/readystream/sg1000"
-    [snes:]="/recalbox/share/roms/readystream/snes"
-    [sufami:]="/recalbox/share/roms/readystream/sufami"
-    [supergrafx:]="/recalbox/share/roms/readystream/supergrafx"
-    [supervision:]="/recalbox/share/roms/readystream/supervision"
-    [vectrex:]="/recalbox/share/roms/readystream/vectrex"
-    [vic20:]="/recalbox/share/roms/readystream/vic20"
-    [videopacplus:]="/recalbox/share/roms/readystream/videopacplus"
-    [virtualboy:]="/recalbox/share/roms/readystream/virtualboy"
-    [wii:]="/recalbox/share/roms/readystream/wii"
-    [wswan:]="/recalbox/share/roms/readystream/wswan"
-    [wswanc:]="/recalbox/share/roms/readystream/wswanc"
-
+    [mame:]="/recalbox/share/mame"
 )
 
-
-# Create temporary directories for Rclone
+# Attempt to mount using rclone
 for remote in "${!mounts[@]}"; do
-    # Create a temporary mount point
-    temp_mount="/recalbox/share/roms/readystream/.tmp_${remote%%:}"
-    mkdir -p "$temp_mount"
-    
-    # Mount rclone using a single-line command
-    #if rclone mount "$remote" "$temp_mount" --config "$conf_file" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate --vfs-cache-mode writes; then
-    if rclone mount union:"$local_dir"="$temp_mount" "$local_dir" --config "$conf_file" --allow-non-empty --vfs-cache-mode writes --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate --vfs-cache-mode writes; then
-
-        
+    if rclone mount "$remote" "${mounts[$remote]}" --config "$conf_file" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
         echo "Rclone mounted $remote successfully."
-        
-        # Ensure local directory exists and merge with mergerfs
-        local_dir="${mounts[$remote]}"
-        
-        # Check if gamelist.xml and gamelist.xml.md5 are present
-        if [[ -f "$local_dir/gamelist.xml" && -f "$local_dir/gamelist.xml.md5" ]]; then
-            echo "Local gamelist files found."
-            # Use mergerfs to combine local and remote files, ensuring no overlap
-            #mergerfs "$temp_mount" "$local_dir" -o defaults,allow_other
-            #mergerfs "$temp_mount" "$local_dir" -o defaults,allow_other,noforget
-            #mergerfs "$local_dir" "$temp_mount" -o defaults,allow_other
-
-
-        else
-            echo "Warning: Local gamelist files are missing in $local_dir."
-        fi
     else
         echo "Failed to mount $remote..."
     fi
 done
 
-# Wait for the mount to occur
-wait
+# Wait for a brief moment for the mount to occur
+sleep 5
 
 # Check if the mount point exists and contains files
 if [ "$(ls -A /recalbox/share/rom)" ]; then
-    echo "Mounting successful. Files are mounted in /recalbox/share/roms/readystream"
+    echo "Mounting successful. Files are mounted in /recalbox/share/rom"
     echo "Mounting successful. Files are mounted in /recalbox/share/neogeo"
     echo "Mounting successful. Files are mounted in /recalbox/share/mame"
-    echo "Mounting successful. TOSEC Files (If Enabled) are Downloaded to /recalbox/share/zip"
+    echo "Mounting successful. TOSEC Files are Downloaded to /recalbox/share/zip"
 else
     echo "Mounting failed. No files are mounted in /recalbox/share/rom"
 fi
-
-# Copy gamelist.xml and gamelist.xml.md5's over the rclone'd directories
-cp -avu /recalbox/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
 
 # Attempt to download rclone.conf
 conf_file="/recalbox/share/system/rclone.conf"
