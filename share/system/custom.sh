@@ -80,8 +80,11 @@ readysync_tmp_dir="/recalbox/share/userscripts/.config/readystream/tmp"
 readysync_roms_dir="/recalbox/share/userscripts/.config/readystream/roms"
 readysync_roms_dest="/recalbox/share/roms/readystream"
 
-# Download and Installation of gamelist.xml's for Online Directories
+echo "Killing rclone before attempting to create and mount directories"
+pkill -f "rclone mount"
 
+# Download and Installation of gamelist.xml's for Online Directories
+echo "Downloading roms.zip..."
 # Check if the destination directory already contains files
 if [ -d "$readysync_roms_dir" ] && [ "$(ls -A $readysync_roms_dir)" ]; then
     echo "Files already exist in $readysync_roms_dir. No need to download or extract."
