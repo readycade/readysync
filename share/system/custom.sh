@@ -124,7 +124,7 @@ if [[ -d "$readysync_roms_dir" && -d "$readysync_roms_dest" ]]; then
     else
         echo "Directories differ, copying files..."
         #cp -r "$readysync_roms_dir/"* "$readysync_roms_dest/"
-        cp -au "$readysync_roms_dir/"* "$readysync_roms_dest/"
+        cp -avu "$readysync_roms_dir/"* "$readysync_roms_dest/"
 
     fi
 else
