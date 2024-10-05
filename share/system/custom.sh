@@ -299,6 +299,65 @@ wait
 
 echo "All TOSEC files downloaded and extracted successfully!"
 
+# Function to download mergerfs with retries
+download_mergerfs_with_retry() {
+    local url=$1
+    local output=$2
+    local max_retries=3
+    local retry_delay=5
+
+    for ((attempt = 1; attempt <= max_retries; attempt++)); do
+        wget --quiet --show-progress --retry-connrefused --waitretry=$retry_delay --timeout=30 --tries=$max_retries -O "$output" "$url"
+        if [ $? -eq 0 ]; then
+            echo "Download succeeded."
+            return 0
+        else
+            echo "Download failed (attempt $attempt/$max_retries). Retrying in $retry_delay seconds..."
+            sleep $retry_delay
+        fi
+    done
+
+    echo "Max retries reached. Download failed."
+    return 1
+}
+
+# Determine architecture
+architecture=$(uname -m)
+if [ "$architecture" == "x86_64" ]; then
+    mergerfs_url="https://github.com/trapexit/mergerfs/releases/download/2.40.2/mergerfs-static-linux_x86_64.tar.gz"
+elif [ "$architecture" == "aarch64" ]; then
+    mergerfs_url="https://github.com/trapexit/mergerfs/releases/download/2.40.2/mergerfs-static-linux_arm64.tar.gz"
+else
+    echo "Error: Unsupported architecture."
+    exit 1
+fi
+
+# Define temp directory
+temp_dir="/recalbox/share/userscripts/.config/readystream/tmp/mergerfs"
+
+# Ensure the temp directory exists
+mkdir -p "$temp_dir"
+
+# Check if mergerfs exists in /usr/bin
+if [ -x /usr/bin/mergerfs ]; then
+    echo "mergerfs already exists in /usr/bin. Skipping download."
+else
+    # Download mergerfs with retry
+    download_mergerfs_with_retry "$mergerfs_url" "$temp_dir/mergerfs.tar.gz"
+    if [ $? -eq 0 ]; then
+        echo "mergerfs binary downloaded successfully."
+        # Extract the mergerfs binary
+        tar -xzf "$temp_dir/mergerfs.tar.gz" -C /usr/bin mergerfs
+        # Set permissions
+        chmod +x /usr/bin/mergerfs
+        echo "Execute permission set for mergerfs binary."
+        # Cleanup
+        rm -rf "$temp_dir"
+    else
+        echo "Error: Failed to download mergerfs."
+    fi
+fi
+
 # Function to download a rclone with retries
 download_rclone_with_retry() {
     local url=$1
@@ -488,10 +547,20 @@ declare -A mounts=(
 
 )
 
-# Attempt to mount using rclone
+# Local path where the local files (gamelist.xml, etc.) reside
+local_base="/recalbox/share/roms/readystream"
+
+# Attempt to mount using rclone and combine with local files using mergerfs
 for remote in "${!mounts[@]}"; do
-    if rclone mount "$remote" "${mounts[$remote]}" --config "$conf_file" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
+    remote_path="${mounts[$remote]}"
+    local_path="$local_base/${remote%:}"  # Local path for the system (without the colon)
+
+    # Mount the remote using rclone
+    if rclone mount "$remote" "$remote_path" --config "$conf_file" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
         echo "Rclone mounted $remote successfully."
+
+        # Use mergerfs to combine local and remote files
+        mergerfs "$local_path:$remote_path" "$remote_path" -o defaults,allow_other
     else
         echo "Failed to mount $remote..."
     fi
