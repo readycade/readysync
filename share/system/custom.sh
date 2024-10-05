@@ -565,15 +565,21 @@ for remote in "${!mounts[@]}"; do
     if rclone mount "$remote" "$temp_mount" --config "$conf_file" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
         echo "Rclone mounted $remote successfully."
         
-        # Use mergerfs to combine local and remote files, ensuring no overlap
-        # We are merging the temp_mount with the local directory, not the other way around
+        # Ensure local directory exists and merge with mergerfs
         local_dir="${mounts[$remote]}"
-        mergerfs "$temp_mount" "$local_dir" -o defaults,allow_other
+        
+        # Check if gamelist.xml and gamelist.xml.md5 are present
+        if [[ -f "$local_dir/gamelist.xml" && -f "$local_dir/gamelist.xml.md5" ]]; then
+            echo "Local gamelist files found."
+            # Use mergerfs to combine local and remote files, ensuring no overlap
+            mergerfs "$temp_mount" "$local_dir" -o defaults,allow_other
+        else
+            echo "Warning: Local gamelist files are missing in $local_dir."
+        fi
     else
         echo "Failed to mount $remote..."
     fi
 done
-
 
 # Wait for the mount to occur
 wait
