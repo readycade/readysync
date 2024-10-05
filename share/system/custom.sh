@@ -596,6 +596,9 @@ else
     echo "Mounting failed. No files are mounted in /recalbox/share/rom"
 fi
 
+# Copy gamelist.xml and gamelist.xml.md5's over the rclone'd directories
+cp -avu /recalbox/share/userscripts/.config/readystream/roms/* /recalbox/share/roms/readystream/
+
 # Attempt to download rclone.conf
 conf_file="/recalbox/share/system/rclone.conf"
 if [ ! -f "$conf_file" ]; then
