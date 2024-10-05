@@ -324,9 +324,9 @@ download_mergerfs_with_retry() {
 
 # Determine architecture
 architecture=$(uname -m)
-if [ "$architecture" == "x86_64" ]; then
+if [ "$architecture" == "amd64" ]; then
     mergerfs_url="https://github.com/trapexit/mergerfs/releases/download/2.40.2/mergerfs-static-linux_amd64.tar.gz"
-elif [ "$architecture" == "aarch64" ]; then
+elif [ "$architecture" == "arm64" ]; then
     mergerfs_url="https://github.com/trapexit/mergerfs/releases/download/2.40.2/mergerfs-static-linux_arm64.tar.gz"
 else
     echo "Error: Unsupported architecture."
@@ -347,26 +347,20 @@ else
     download_mergerfs_with_retry "$mergerfs_url" "$temp_dir/mergerfs.tar.gz"
     if [ $? -eq 0 ]; then
         echo "mergerfs binary downloaded successfully."
-        
-        # Extract the mergerfs binary to the temp directory
-        tar -xzf "$temp_dir/mergerfs.tar.gz" -C "$temp_dir"
-
-        # Move the mergerfs binary to /usr/bin
-        mv "$temp_dir/usr/local/bin/mergerfs" /usr/bin/
-        mv "$temp_dir/usr/local/bin/mergerfs-fusermount" /usr/bin/
-
+        # Extract the mergerfs binary
+        tar -xzf "$temp_dir/mergerfs.tar.gz" -C /usr
         # Set permissions
-        chmod +x /usr/bin/mergerfs
-        #chmod +x /usr/bin/mergerfs-fusermount
-        
-        echo "Execute permission set for mergerfs and mergerfs-fusermount binaries."
-
+        chmod +x /usr/local/bin/mergerfs
+        echo "Execute permission set for mergerfs binary."
         # Cleanup
         rm -rf "$temp_dir"
     else
         echo "Error: Failed to download mergerfs."
+        exit 1
     fi
 fi
+
+
 
 
 # Function to download a rclone with retries
@@ -558,25 +552,20 @@ declare -A mounts=(
 
 )
 
-# Local path where the local files (gamelist.xml, etc.) reside
-local_base="/recalbox/share/roms/readystream"
 
-# Attempt to mount using rclone and combine with local files using mergerfs
+# Create temporary directories for Rclone
 for remote in "${!mounts[@]}"; do
-    remote_path="${mounts[$remote]}"
-    local_path="$local_base/${remote%:}"  # Local path for the system (without the colon)
-
-    # Mount the remote using rclone
-    if rclone mount "$remote" "$remote_path" --config "$conf_file" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
+    temp_mount="/recalbox/share/roms/readystream/.tmp_${remote%%:}"
+    mkdir -p "$temp_mount"
+    
+    if rclone mount "$remote" "$temp_mount" --config "$conf_file" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
         echo "Rclone mounted $remote successfully."
-
         # Use mergerfs to combine local and remote files
-        mergerfs "$local_path:$remote_path" "$remote_path" -o defaults,allow_other
+        mergerfs "$temp_mount:$mounts[$remote]" "${mounts[$remote]}" -o defaults,allow_other
     else
         echo "Failed to mount $remote..."
     fi
 done
-
 # Wait for a brief moment for the mount to occur
 sleep 5
 
