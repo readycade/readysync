@@ -558,10 +558,11 @@ for remote in "${!mounts[@]}"; do
     temp_mount="/recalbox/share/roms/readystream/.tmp_${remote%%:}"
     mkdir -p "$temp_mount"
     
+    # Mount rclone using the original command
     if rclone mount "$remote" "$temp_mount" --config "$conf_file" --http-no-head --no-checksum --no-modtime --attr-timeout 365d --dir-cache-time 365d --poll-interval 365d --allow-non-empty --daemon --no-check-certificate; then
         echo "Rclone mounted $remote successfully."
         # Use mergerfs to combine local and remote files
-        mergerfs "$temp_mount:$mounts[$remote]" "${mounts[$remote]}" -o defaults,allow_other
+        mergerfs "${mounts[$remote]}:/:$temp_mount" "${mounts[$remote]}" -o defaults,allow_other
     else
         echo "Failed to mount $remote..."
     fi
