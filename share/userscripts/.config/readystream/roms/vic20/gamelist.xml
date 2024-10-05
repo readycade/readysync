@@ -1,696 +1,696 @@
 <gamelist>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Aggressor (Europe).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Aggressor (Europe).zip</path>
     <name>Aggressor (Europe)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Aggressor (Europe).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Aggressor (Europe).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Alien Sidestep (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Alien Sidestep (Japan, USA) (En).zip</path>
     <name>Alien Sidestep (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Alien Sidestep (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Alien Sidestep (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Amazing Maze (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Amazing Maze (World).zip</path>
     <name>Amazing Maze (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Amazing Maze (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Amazing Maze (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Amidar (Europe).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Amidar (Europe).zip</path>
     <name>Amidar (Europe)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Amidar (Europe).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Amidar (Europe).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Ape Escape (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Ape Escape (World).zip</path>
     <name>Ape Escape (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Ape Escape (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Ape Escape (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Arcadia (Europe).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Arcadia (Europe).zip</path>
     <name>Arcadia (Europe)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Arcadia (Europe).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Arcadia (Europe).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Atlantis (Europe).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Atlantis (Europe).zip</path>
     <name>Atlantis (Europe)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Atlantis (Europe).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Atlantis (Europe).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Attack of the Mutant Camels (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Attack of the Mutant Camels (World).zip</path>
     <name>Attack of the Mutant Camels (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Attack of the Mutant Camels (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Attack of the Mutant Camels (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/BASIC 4.0 (World) (Program).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/BASIC 4.0 (World) (Program).zip</path>
     <name>BASIC 4.0 (World) (Program)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/BASIC 4.0 (World) (Program).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/BASIC 4.0 (World) (Program).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/BASIC V5 (World) (Program).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/BASIC V5 (World) (Program).zip</path>
     <name>BASIC V5 (World) (Program)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/BASIC V5 (World) (Program).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/BASIC V5 (World) (Program).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Bandits (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Bandits (Japan, USA) (En).zip</path>
     <name>Bandits (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Bandits (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Bandits (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Battlezone (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Battlezone (Japan, USA) (En).zip</path>
     <name>Battlezone (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Battlezone (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Battlezone (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Black Hole (Europe).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Black Hole (Europe).zip</path>
     <name>Black Hole (Europe)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Black Hole (Europe).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Black Hole (Europe).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Black Hole (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Black Hole (Japan, USA) (En).zip</path>
     <name>Black Hole (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Black Hole (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Black Hole (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Buck Rogers - Planet of Zoom (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Buck Rogers - Planet of Zoom (World).zip</path>
     <name>Buck Rogers - Planet of Zoom (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Buck Rogers - Planet of Zoom (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Buck Rogers - Planet of Zoom (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Bug Crusher (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Bug Crusher (World).zip</path>
     <name>Bug Crusher (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Bug Crusher (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Bug Crusher (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Buti Toolkit (World) (Program).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Buti Toolkit (World) (Program).zip</path>
     <name>Buti Toolkit (World) (Program)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Buti Toolkit (World) (Program).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Buti Toolkit (World) (Program).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Cannonball Blitz (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Cannonball Blitz (Japan, USA) (En).zip</path>
     <name>Cannonball Blitz (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Cannonball Blitz (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Cannonball Blitz (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Capture the Flag (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Capture the Flag (Japan, USA) (En).zip</path>
     <name>Capture the Flag (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Capture the Flag (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Capture the Flag (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Cassette Turbo (World) (Program).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Cassette Turbo (World) (Program).zip</path>
     <name>Cassette Turbo (World) (Program)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Cassette Turbo (World) (Program).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Cassette Turbo (World) (Program).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Cave-in (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Cave-in (World).zip</path>
     <name>Cave-in (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Cave-in (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Cave-in (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Choplifter (Europe).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Choplifter (Europe).zip</path>
     <name>Choplifter (Europe)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Choplifter (Europe).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Choplifter (Europe).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Choplifter (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Choplifter (Japan, USA) (En).zip</path>
     <name>Choplifter (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Choplifter (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Choplifter (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Clowns (Japan, USA) (En) (Paddle).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Clowns (Japan, USA) (En) (Paddle).zip</path>
     <name>Clowns (Japan, USA) (En) (Paddle)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Clowns (Japan, USA) (En) (Paddle).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Clowns (Japan, USA) (En) (Paddle).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Computer War (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Computer War (World).zip</path>
     <name>Computer War (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Computer War (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Computer War (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Congo Bongo (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Congo Bongo (Japan, USA) (En).zip</path>
     <name>Congo Bongo (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Congo Bongo (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Congo Bongo (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Cosmic Cruncher (World) (Alt).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Cosmic Cruncher (World) (Alt).zip</path>
     <name>Cosmic Cruncher (World) (Alt)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Cosmic Cruncher (World) (Alt).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Cosmic Cruncher (World) (Alt).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Cosmic Cruncher (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Cosmic Cruncher (World).zip</path>
     <name>Cosmic Cruncher (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Cosmic Cruncher (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Cosmic Cruncher (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Cosmic Jailbreak (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Cosmic Jailbreak (Japan, USA) (En).zip</path>
     <name>Cosmic Jailbreak (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Cosmic Jailbreak (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Cosmic Jailbreak (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Count Adventure, The (World) (SYS 32592).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Count Adventure, The (World) (SYS 32592).zip</path>
     <name>Count Adventure, The (World) (SYS 32592)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Count Adventure, The (World) (SYS 32592).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Count Adventure, The (World) (SYS 32592).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Deadly Skies (Europe).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Deadly Skies (Europe).zip</path>
     <name>Deadly Skies (Europe)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Deadly Skies (Europe).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Deadly Skies (Europe).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Demon Attack (Europe).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Demon Attack (Europe).zip</path>
     <name>Demon Attack (Europe)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Demon Attack (Europe).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Demon Attack (Europe).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Dig Dug (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Dig Dug (Japan, USA) (En).zip</path>
     <name>Dig Dug (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Dig Dug (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Dig Dug (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Donkey Kong (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Donkey Kong (Japan, USA) (En).zip</path>
     <name>Donkey Kong (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Donkey Kong (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Donkey Kong (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Dot Gobbler (Japan, USA) (En) (Alt).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Dot Gobbler (Japan, USA) (En) (Alt).zip</path>
     <name>Dot Gobbler (Japan, USA) (En) (Alt)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Dot Gobbler (Japan, USA) (En) (Alt).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Dot Gobbler (Japan, USA) (En) (Alt).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Dot Gobbler (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Dot Gobbler (Japan, USA) (En).zip</path>
     <name>Dot Gobbler (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Dot Gobbler (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Dot Gobbler (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/E.T. - The Extra-Terrestrial (Europe).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/E.T. - The Extra-Terrestrial (Europe).zip</path>
     <name>E.T. - The Extra-Terrestrial (Europe)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/E.T. - The Extra-Terrestrial (Europe).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/E.T. - The Extra-Terrestrial (Europe).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Final Orbit + Bumper Bash (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Final Orbit + Bumper Bash (Japan, USA) (En).zip</path>
     <name>Final Orbit + Bumper Bash (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Final Orbit + Bumper Bash (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Final Orbit + Bumper Bash (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Frogger (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Frogger (Japan, USA) (En).zip</path>
     <name>Frogger (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Frogger (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Frogger (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Galaxian (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Galaxian (World).zip</path>
     <name>Galaxian (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Galaxian (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Galaxian (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Garden Wars (Japan, USA) (En) (Alt).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Garden Wars (Japan, USA) (En) (Alt).zip</path>
     <name>Garden Wars (Japan, USA) (En) (Alt)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Garden Wars (Japan, USA) (En) (Alt).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Garden Wars (Japan, USA) (En) (Alt).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Home Babysitter (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Home Babysitter (World).zip</path>
     <name>Home Babysitter (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Home Babysitter (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Home Babysitter (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Household Finance (World) (Program).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Household Finance (World) (Program).zip</path>
     <name>Household Finance (World) (Program)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Household Finance (World) (Program).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Household Finance (World) (Program).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/IFR (Flight Simulator) (World) (Alt).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/IFR (Flight Simulator) (World) (Alt).zip</path>
     <name>IFR (Flight Simulator) (World) (Alt)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/IFR (Flight Simulator) (World) (Alt).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/IFR (Flight Simulator) (World) (Alt).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/IFR (Flight Simulator) (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/IFR (Flight Simulator) (World).zip</path>
     <name>IFR (Flight Simulator) (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/IFR (Flight Simulator) (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/IFR (Flight Simulator) (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/In the Chips (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/In the Chips (Japan, USA) (En).zip</path>
     <name>In the Chips (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/In the Chips (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/In the Chips (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Jawbreaker II (Europe).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Jawbreaker II (Europe).zip</path>
     <name>Jawbreaker II (Europe)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Jawbreaker II (Europe).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Jawbreaker II (Europe).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/K-Star Patrol (Europe).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/K-Star Patrol (Europe).zip</path>
     <name>K-Star Patrol (Europe)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/K-Star Patrol (Europe).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/K-Star Patrol (Europe).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Kids on Keys (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Kids on Keys (World).zip</path>
     <name>Kids on Keys (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Kids on Keys (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Kids on Keys (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Lunar Leeper (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Lunar Leeper (Japan, USA) (En).zip</path>
     <name>Lunar Leeper (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Lunar Leeper (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Lunar Leeper (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Maze (Japan, USA) (En) (Alt).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Maze (Japan, USA) (En) (Alt).zip</path>
     <name>Maze (Japan, USA) (En) (Alt)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Maze (Japan, USA) (En) (Alt).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Maze (Japan, USA) (En) (Alt).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Meteor Run (Europe).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Meteor Run (Europe).zip</path>
     <name>Meteor Run (Europe)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Meteor Run (Europe).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Meteor Run (Europe).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Mine Madness (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Mine Madness (Japan, USA) (En).zip</path>
     <name>Mine Madness (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Mine Madness (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Mine Madness (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Miner 2049'er (Europe).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Miner 2049'er (Europe).zip</path>
     <name>Miner 2049&apos;er (Europe)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Miner 2049&apos;er (Europe).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Miner 2049&apos;er (Europe).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Mission Impossible Adventure (World) (SYS 32592).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Mission Impossible Adventure (World) (SYS 32592).zip</path>
     <name>Mission Impossible Adventure (World) (SYS 32592)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Mission Impossible Adventure (World) (SYS 32592).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Mission Impossible Adventure (World) (SYS 32592).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Mole Attack (Japan, USA) (En) (Alt).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Mole Attack (Japan, USA) (En) (Alt).zip</path>
     <name>Mole Attack (Japan, USA) (En) (Alt)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Mole Attack (Japan, USA) (En) (Alt).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Mole Attack (Japan, USA) (En) (Alt).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Mole Attack (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Mole Attack (Japan, USA) (En).zip</path>
     <name>Mole Attack (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Mole Attack (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Mole Attack (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Money Wars (Japan, USA) (En) (Alt 2).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Money Wars (Japan, USA) (En) (Alt 2).zip</path>
     <name>Money Wars (Japan, USA) (En) (Alt 2)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Money Wars (Japan, USA) (En) (Alt 2).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Money Wars (Japan, USA) (En) (Alt 2).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Money Wars (Japan, USA) (En) (Alt 3).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Money Wars (Japan, USA) (En) (Alt 3).zip</path>
     <name>Money Wars (Japan, USA) (En) (Alt 3)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Money Wars (Japan, USA) (En) (Alt 3).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Money Wars (Japan, USA) (En) (Alt 3).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Money Wars (Japan, USA) (En) (Alt).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Money Wars (Japan, USA) (En) (Alt).zip</path>
     <name>Money Wars (Japan, USA) (En) (Alt)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Money Wars (Japan, USA) (En) (Alt).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Money Wars (Japan, USA) (En) (Alt).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Money Wars (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Money Wars (Japan, USA) (En).zip</path>
     <name>Money Wars (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Money Wars (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Money Wars (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Mosquito Infestation (Europe).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Mosquito Infestation (Europe).zip</path>
     <name>Mosquito Infestation (Europe)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Mosquito Infestation (Europe).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Mosquito Infestation (Europe).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Pac-Man (World) (Alt).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Pac-Man (World) (Alt).zip</path>
     <name>Pac-Man (World) (Alt)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Pac-Man (World) (Alt).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Pac-Man (World) (Alt).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Pac-Man (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Pac-Man (World).zip</path>
     <name>Pac-Man (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Pac-Man (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Pac-Man (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Pharaoh's Curse (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Pharaoh's Curse (World).zip</path>
     <name>Pharaoh&apos;s Curse (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Pharaoh&apos;s Curse (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Pharaoh&apos;s Curse (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Pipes (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Pipes (Japan, USA) (En).zip</path>
     <name>Pipes (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Pipes (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Pipes (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Pirate's Cove Adventure (World) (SYS 32592).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Pirate's Cove Adventure (World) (SYS 32592).zip</path>
     <name>Pirate&apos;s Cove Adventure (World) (SYS 32592)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Pirate&apos;s Cove Adventure (World) (SYS 32592).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Pirate&apos;s Cove Adventure (World) (SYS 32592).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Poker (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Poker (Japan, USA) (En).zip</path>
     <name>Poker (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Poker (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Poker (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Pole Position (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Pole Position (Japan, USA) (En).zip</path>
     <name>Pole Position (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Pole Position (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Pole Position (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Predator (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Predator (Japan, USA) (En).zip</path>
     <name>Predator (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Predator (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Predator (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Princess and Frog (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Princess and Frog (Japan, USA) (En).zip</path>
     <name>Princess and Frog (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Princess and Frog (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Princess and Frog (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Protector (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Protector (World).zip</path>
     <name>Protector (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Protector (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Protector (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Renaissance (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Renaissance (Japan, USA) (En).zip</path>
     <name>Renaissance (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Renaissance (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Renaissance (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Road Race (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Road Race (Japan, USA) (En).zip</path>
     <name>Road Race (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Road Race (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Road Race (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Robot Panic (World) (Alt).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Robot Panic (World) (Alt).zip</path>
     <name>Robot Panic (World) (Alt)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Robot Panic (World) (Alt).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Robot Panic (World) (Alt).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Robot Panic (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Robot Panic (World).zip</path>
     <name>Robot Panic (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Robot Panic (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Robot Panic (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Sargon II Chess (Japan, USA) (En) (Alt).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Sargon II Chess (Japan, USA) (En) (Alt).zip</path>
     <name>Sargon II Chess (Japan, USA) (En) (Alt)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Sargon II Chess (Japan, USA) (En) (Alt).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Sargon II Chess (Japan, USA) (En) (Alt).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Satellite Patrol (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Satellite Patrol (Japan, USA) (En).zip</path>
     <name>Satellite Patrol (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Satellite Patrol (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Satellite Patrol (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Satellites and Meteorites! (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Satellites and Meteorites! (Japan, USA) (En).zip</path>
     <name>Satellites and Meteorites! (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Satellites and Meteorites! (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Satellites and Meteorites! (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Scorpion (Europe) (Alt).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Scorpion (Europe) (Alt).zip</path>
     <name>Scorpion (Europe) (Alt)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Scorpion (Europe) (Alt).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Scorpion (Europe) (Alt).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Scram 20 (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Scram 20 (World).zip</path>
     <name>Scram 20 (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Scram 20 (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Scram 20 (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Screen Master (World) (Program).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Screen Master (World) (Program).zip</path>
     <name>Screen Master (World) (Program)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Screen Master (World) (Program).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Screen Master (World) (Program).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Serpentine (Europe).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Serpentine (Europe).zip</path>
     <name>Serpentine (Europe)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Serpentine (Europe).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Serpentine (Europe).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Shamus (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Shamus (Japan, USA) (En).zip</path>
     <name>Shamus (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Shamus (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Shamus (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Sir Lancelot (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Sir Lancelot (World).zip</path>
     <name>Sir Lancelot (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Sir Lancelot (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Sir Lancelot (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Space Snake (Netherlands).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Space Snake (Netherlands).zip</path>
     <name>Space Snake (Netherlands)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Space Snake (Netherlands).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Space Snake (Netherlands).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Spider City (Japan, USA) (En) (Alt).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Spider City (Japan, USA) (En) (Alt).zip</path>
     <name>Spider City (Japan, USA) (En) (Alt)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Spider City (Japan, USA) (En) (Alt).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Spider City (Japan, USA) (En) (Alt).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Spider City (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Spider City (Japan, USA) (En).zip</path>
     <name>Spider City (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Spider City (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Spider City (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Spiders of Mars (Europe).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Spiders of Mars (Europe).zip</path>
     <name>Spiders of Mars (Europe)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Spiders of Mars (Europe).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Spiders of Mars (Europe).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Spike's Peak (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Spike's Peak (Japan, USA) (En).zip</path>
     <name>Spike&apos;s Peak (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Spike&apos;s Peak (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Spike&apos;s Peak (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Star Post (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Star Post (Japan, USA) (En).zip</path>
     <name>Star Post (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Star Post (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Star Post (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Star Trek - Strategic Operations Simulator (World) (Alt).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Star Trek - Strategic Operations Simulator (World) (Alt).zip</path>
     <name>Star Trek - Strategic Operations Simulator (World) (Alt)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Star Trek - Strategic Operations Simulator (World) (Alt).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Star Trek - Strategic Operations Simulator (World) (Alt).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Story Machine (World) (Alt).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Story Machine (World) (Alt).zip</path>
     <name>Story Machine (World) (Alt)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Story Machine (World) (Alt).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Story Machine (World) (Alt).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Sub Chase (Europe).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Sub Chase (Europe).zip</path>
     <name>Sub Chase (Europe)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Sub Chase (Europe).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Sub Chase (Europe).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Submarine Commander (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Submarine Commander (World).zip</path>
     <name>Submarine Commander (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Submarine Commander (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Submarine Commander (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Super Expander (World) (Program).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Super Expander (World) (Program).zip</path>
     <name>Super Expander (World) (Program)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Super Expander (World) (Program).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Super Expander (World) (Program).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Super Smash (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Super Smash (Japan, USA) (En).zip</path>
     <name>Super Smash (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Super Smash (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Super Smash (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Terraguard (Europe).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Terraguard (Europe).zip</path>
     <name>Terraguard (Europe)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Terraguard (Europe).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Terraguard (Europe).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Terraguard (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Terraguard (Japan, USA) (En).zip</path>
     <name>Terraguard (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Terraguard (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Terraguard (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Tomarc the Barbarian (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Tomarc the Barbarian (World).zip</path>
     <name>Tomarc the Barbarian (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Tomarc the Barbarian (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Tomarc the Barbarian (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Tooth Invaders (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Tooth Invaders (Japan, USA) (En).zip</path>
     <name>Tooth Invaders (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Tooth Invaders (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Tooth Invaders (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Trashman (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Trashman (World).zip</path>
     <name>Trashman (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Trashman (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Trashman (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Tutankham (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Tutankham (World).zip</path>
     <name>Tutankham (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Tutankham (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Tutankham (World).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Typo (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Typo (Japan, USA) (En).zip</path>
     <name>Typo (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Typo (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Typo (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/VC Song-Cartridge - The Mad Boogy (Germany) (Program).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/VC Song-Cartridge - The Mad Boogy (Germany) (Program).zip</path>
     <name>VC Song-Cartridge - The Mad Boogy (Germany) (Program)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/VC Song-Cartridge - The Mad Boogy (Germany) (Program).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/VC Song-Cartridge - The Mad Boogy (Germany) (Program).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/VC Song-Cartridge - The Synthe-Song (Germany) (Program).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/VC Song-Cartridge - The Synthe-Song (Germany) (Program).zip</path>
     <name>VC Song-Cartridge - The Synthe-Song (Germany) (Program)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/VC Song-Cartridge - The Synthe-Song (Germany) (Program).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/VC Song-Cartridge - The Synthe-Song (Germany) (Program).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/VIC Debug 98 (World) (SYS 40960) (Program).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/VIC Debug 98 (World) (SYS 40960) (Program).zip</path>
     <name>VIC Debug 98 (World) (SYS 40960) (Program)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/VIC Debug 98 (World) (SYS 40960) (Program).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/VIC Debug 98 (World) (SYS 40960) (Program).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/VIC Radar Rat Race (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/VIC Radar Rat Race (Japan, USA) (En).zip</path>
     <name>VIC Radar Rat Race (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/VIC Radar Rat Race (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/VIC Radar Rat Race (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/VIC Stat (World) (Program).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/VIC Stat (World) (Program).zip</path>
     <name>VIC Stat (World) (Program)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/VIC Stat (World) (Program).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/VIC Stat (World) (Program).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/VIC Super Slot (Japan, USA) (En).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/VIC Super Slot (Japan, USA) (En).zip</path>
     <name>VIC Super Slot (Japan, USA) (En)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/VIC Super Slot (Japan, USA) (En).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/VIC Super Slot (Japan, USA) (En).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/VICMon (World) (SYS 24576) (Program).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/VICMon (World) (SYS 24576) (Program).zip</path>
     <name>VICMon (World) (SYS 24576) (Program)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/VICMon (World) (SYS 24576) (Program).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/VICMon (World) (SYS 24576) (Program).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/VicTool (World) (SYS 45056) (Program).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/VicTool (World) (SYS 45056) (Program).zip</path>
     <name>VicTool (World) (SYS 45056) (Program)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/VicTool (World) (SYS 45056) (Program).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/VicTool (World) (SYS 45056) (Program).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Videomania (Europe).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Videomania (Europe).zip</path>
     <name>Videomania (Europe)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Videomania (Europe).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Videomania (Europe).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Wordcraft 20 (World) (Program) (Alt 2).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Wordcraft 20 (World) (Program) (Alt 2).zip</path>
     <name>Wordcraft 20 (World) (Program) (Alt 2)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Wordcraft 20 (World) (Program) (Alt 2).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Wordcraft 20 (World) (Program) (Alt 2).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/Wordcraft 20 (World) (Program).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/Wordcraft 20 (World) (Program).zip</path>
     <name>Wordcraft 20 (World) (Program)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/Wordcraft 20 (World) (Program).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/Wordcraft 20 (World) (Program).mp4</video>
   </game>
   <game>
-    <path>/recalbox/share/rom/No-Intro/Commodore - VIC-20/World at War, A (World).zip</path>
+    <path>/recalbox/share/roms/readystream/vic20/World at War, A (World).zip</path>
     <name>World at War, A (World)</name>
     <image>/recalbox/share/thumbs/Commodore - VIC-20/Named_Titles/World at War, A (World).png</image>
     <video>/recalbox/share/videos/No-Intro/Commodore - VIC-20/World at War, A (World).mp4</video>
