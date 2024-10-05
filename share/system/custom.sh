@@ -299,8 +299,6 @@ wait
 
 echo "All TOSEC files downloaded and extracted successfully!"
 
-#!/bin/bash
-
 # Function to download mergerfs with retries
 download_mergerfs_with_retry() {
     local url=$1
@@ -325,9 +323,9 @@ download_mergerfs_with_retry() {
 
 # Determine architecture
 architecture=$(uname -m)
-if [ "$architecture" == "amd64" ]; then
+if [ "$architecture" == "x86_64" ]; then
     mergerfs_url="https://github.com/trapexit/mergerfs/releases/download/2.40.2/mergerfs-static-linux_amd64.tar.gz"
-elif [ "$architecture" == "arm64" ]; then
+elif [ "$architecture" == "aarch64" ]; then
     mergerfs_url="https://github.com/trapexit/mergerfs/releases/download/2.40.2/mergerfs-static-linux_arm64.tar.gz"
 else
     echo "Error: Unsupported architecture."
@@ -349,16 +347,12 @@ else
     if [ $? -eq 0 ]; then
         echo "mergerfs binary downloaded successfully."
         # Extract the mergerfs binary
-        if tar -xzf "$temp_dir/mergerfs.tar.gz" -C /usr/bin mergerfs; then
-            # Set permissions
-            chmod +x /usr/bin/mergerfs
-            echo "Execute permission set for mergerfs binary."
-            # Cleanup
-            rm -rf "$temp_dir"
-        else
-            echo "Error: Failed to extract mergerfs."
-            rm -rf "$temp_dir"
-        fi
+        tar -xzf "$temp_dir/mergerfs.tar.gz" -C /usr/bin mergerfs
+        # Set permissions
+        chmod +x /usr/bin/mergerfs
+        echo "Execute permission set for mergerfs binary."
+        # Cleanup
+        rm -rf "$temp_dir"
     else
         echo "Error: Failed to download mergerfs."
     fi
