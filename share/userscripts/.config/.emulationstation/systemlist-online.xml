@@ -604,7 +604,7 @@
     </emulatorList>
   </system>
   <system uuid="d80b0a13-6b33-469e-bf68-4f5a1696c48d" name="mame" fullname="Mame">
-    <descriptor path="/recalbox/share/mame" theme="mame" extensions=".7z .zip" icon="$F255" downloader="0"/>
+    <descriptor path="/recalbox/share/roms/mame" theme="mame" extensions=".7z .zip" icon="$F255" downloader="0"/>
     <scraper screenscraper="75"/>
     <properties type="arcade" pad="mandatory" keyboard="no" mouse="no" lightgun="recommended" releasedate="1997-02" manufacturer="Mame" retroachievements="1" crt.multiresolution="0" crt.multiregion="0" ignoredfiles=""/>
     <emulatorList>
