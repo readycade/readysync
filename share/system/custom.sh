@@ -357,7 +357,7 @@ else
 
         # Set permissions
         chmod +x /usr/bin/mergerfs
-        chmod +x /usr/bin/mergerfs-fusermount
+        #chmod +x /usr/bin/mergerfs-fusermount
         
         echo "Execute permission set for mergerfs and mergerfs-fusermount binaries."
 
