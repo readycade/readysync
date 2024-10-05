@@ -83,6 +83,8 @@ readysync_roms_dest="/recalbox/share/roms/readystream"
 echo "Killing rclone before attempting to create and mount directories"
 pkill -f "rclone mount"
 
+wait
+
 # Download and Installation of gamelist.xml's for Online Directories
 echo "Downloading roms.zip..."
 # Check if the destination directory already contains files
